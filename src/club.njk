@@ -6,7 +6,7 @@ pagination:
     alias: club
 permalink: "club/{{ club.name | slugify }}/index.html"
 eleventyComputed:
-    title: "{{ club.name }}"
+    title: "{{ club.name }} | {{ meta.title }}"
     description: "Information about {{ club.name }}, a {{club.status}} football club."
 ---
 {% from "macros.njk" import fc,
@@ -159,6 +159,7 @@ emoji %}
           {% endif %}
         </tbody>
       </table>
+https://footballgroundguide.com/leagues/conference/conference-premier/aldershot-town-recreation-ground.html
     </aside>
   </div>
 

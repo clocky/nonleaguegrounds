@@ -6,7 +6,7 @@ pagination:
     alias: ground
 permalink: "ground/{{ ground.region | slugify }}/{{ ground.name | slug }}/index.html"
 eleventyComputed:
-    title: "{{ ground.name | safe }}"
+    title: "{{ ground.name | safe }} | {{ meta.title }}"
     description: "Information about the non-league football ground, {{ ground.name }}, with maps, address and contact information."
 ---
 
