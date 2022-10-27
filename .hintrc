@@ -1,0 +1,18 @@
+{
+    "extends": ["web-recommended"],
+    "hints": {
+        "axe/color": ["default", {"color-contrast-enhanced": "off"}]
+    },
+    "ignoredUrls": [{
+        "domain": ".*\\.googleapis\\.com/.*",
+        "hints": ["*"]
+    },
+    {
+        "domain": ".*\\.gstatic\\.com/.*",
+        "hints": ["*"]
+    },
+    {
+        "domain": "plausible.io",
+        "hints": ["*"]
+    }]
+}

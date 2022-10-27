@@ -4,6 +4,7 @@
   "description": "Database of British non-league grounds",
   "main": "index.html",
   "scripts": {
+    "webhint": "npx hint -c .hintrc http://www.nonleaguegrounds.com",
     "watch:sass": "sass  --no-source-map --watch src/sass:dist/css",
     "watch:eleventy": "ELEVENTY_ENV=development eleventy --serve",
     "build:sass": "sass  --no-source-map src/sass:dist/css",
