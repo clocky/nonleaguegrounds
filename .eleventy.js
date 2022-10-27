@@ -15,7 +15,8 @@ module.exports = function (eleventyConfig) {
   /** Watch data source file for changes */
   eleventyConfig.addWatchTarget("./src/_data/");
 
-  eleventyConfig.addPassthroughCopy("./src/img");
+  eleventyConfig.addPassthroughCopy("./src/img/*.jpg");
+  eleventyConfig.addPassthroughCopy({ "./src/img/favicon": "/" });
 
   eleventyConfig.addFilter("ordinal", (num) => ordinal(num));
   eleventyConfig.addFilter("commaNumber", (num) => commaNumber(num));
