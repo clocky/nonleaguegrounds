@@ -19,21 +19,19 @@ header#{{ ground.name | slugify}} {
     background-image: url("{{google(address, maptype, zoom, width, height, format, 1, key)}}");
 }
 
-@supports(background-image: image-set) {
+@supports(background-image: image-set()) {
     header#{{ ground.name | slugify}} {   
         background-image: image-set(
             url("{{google(address, maptype, zoom, width, height, format, 1, key)}}") 1x,
-            url("{{google(address, maptype, zoom, width, height, format, 2, key)}}") 2x
-        );
+            url("{{google(address, maptype, zoom, width, height, format, 2, key)}}") 2x);
     }
 }
 
-@supports(background-image: -webkit-image-set) {
+@supports(background-image: -webkit-image-set()) {
     header#{{ ground.name | slugify}} {   
         background-image: -webkit-image-set(
             url("{{google(address, maptype, zoom, width, height, format, 1, key)}}") 1x,
-            url("{{google(address, maptype, zoom, width, height, format, 2, key)}}") 2x
-        );
+            url("{{google(address, maptype, zoom, width, height, format, 2, key)}}") 2x)
     }
 }
 
