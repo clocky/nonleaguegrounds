@@ -1,3 +1,4 @@
+const dayjs = require("dayjs");
 const path = require("path");
 const prettier = require("prettier");
 const yaml = require("js-yaml");
@@ -17,6 +18,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("./src/img/*.jpg");
   eleventyConfig.addPassthroughCopy({ "./src/img/favicon": "/" });
+
+  /** Add a filter to format inline dates for <time> tags */
+  const formatDate = (date, format) => dayjs(date).format(format);
+  eleventyConfig.addFilter("date", formatDate);
 
   eleventyConfig.addFilter("ordinal", (num) => ordinal(num));
   eleventyConfig.addFilter("commaNumber", (num) => commaNumber(num));
