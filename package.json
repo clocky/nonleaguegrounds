@@ -13,7 +13,7 @@
     "build": "npm-run-all build:sass build:eleventy",
     "postbuild:css": "lightningcss --minify --targets '> 0.25%, not IE 11' dist/css/style.css -o dist/css/style.css",
     "postbuild:compress": "gzipper compress --zopfli --brotli --include css,map,webmanifest,html ./dist",
-    "postbuild:sharp": "sharp resize 1280 -i dist/img/*.jpg -o dist/img/ --optimize"
+    "postbuild:sharp": "sharp resize 1280 -i dist/img/*.jpg -o dist/img --optimize"
   },
   "keywords": [
     "football",
