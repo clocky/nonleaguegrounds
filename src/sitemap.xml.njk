@@ -1,0 +1,30 @@
+---
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for club in clubs -%}
+        <url>
+            <loc>{{ meta.base }}/club/{{ club.name | slugify }}</loc>
+            <lastmod>{{ page.date | date("YYYY-MM-DD")}}</lastmod>
+            <changefreq>monthly</changefreq>
+            <priority>0.5</priority>
+        </url>
+    {% endfor %}
+    {% for ground in grounds -%}
+        <url>
+            <loc>{{ meta.base }}/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}</loc>
+            <lastmod>{{ page.date | date("YYYY-MM-DD")}}</lastmod>
+            <changefreq>yearly</changefreq>
+            <priority>0.7</priority>
+        </url>
+    {% endfor %}
+    {% for league in leagues -%}
+        <url>
+            <loc>{{ meta.base }}/league/{{ league.name | slugify }}</loc>
+            <lastmod>{{ page.date | date("YYYY-MM-DD")}}</lastmod>
+            <changefreq>yearly</changefreq>
+            <priority>0.3</priority>
+        </url>
+    {% endfor %}
+</urlset>
