@@ -1,0 +1,655 @@
+- name: Recreation Ground
+  sponsor: The EBB Stadium at the Recreation Ground
+  street: High Street
+  locality: Aldershot
+  region: Hampshire
+  postcode: GU11 1TW
+  capacity: 7100
+  latitude: 51.248865
+  longitude: -0.755051
+
+- name: Moss Lane
+  sponsor: J. Davidson Stadium
+  street: Moss Lane
+  locality: Altrincham
+  region: Cheshire
+  postcode: WA15 8AP
+  capacity: 7873
+  latitude: 53.382975
+  longitude: -2.335214
+
+- name: The Shay
+  street: Shaw Hill
+  locality: Halifax
+  region: West Yorkshire
+  postcode: HX1 2YT
+  capacity: 10401
+  surface: grass
+  latitude: 53.716057
+  longitude: -1.858319
+
+- name: Victoria Road
+  sponsor: Chigwell Construction Stadium
+  street: Victoria Road
+  locality: Dagenham
+  region: Essex
+  postcode: RM10 7XL
+  capacity: 6078
+  latitude: 51.547377
+  longitude: 0.162091
+
+- name: Kingfield Stadium
+  sponsor: The Laithwaite Community Stadium
+  street: Kingfield Road
+  locality: Woking
+  region: Surrey
+  postcode: GU22 9AA
+  capacity: 6036
+  latitude: 51.307554
+  longitude: -0.557933
+
+- name: Hayes Lane
+  street: Hayes Lane
+  locality: Bromley
+  region: Kent
+  postcode: BR2 9EF
+  capacity: 5000
+  latitude: 51.390984
+  longitude: 0.01771
+
+- name: Damson Park
+  street: Damson Parkway
+  locality: Solihull
+  region: Warwickshire
+  postcode: B92 8PS
+  capacity: 4510
+  latitude: 52.437593
+  longitude: -1.756035
+
+- name: Meadow Park
+  sponsor: LV Bet Stadium Meadow Park
+  street: Broughinge Road
+  locality: Borehamwood
+  region: Hertfordshire
+  postcode: WD6 5AL
+  capacity: 4500
+  latitude: 51.662119
+  longitude: -0.273709
+
+- name: Meadowbank
+  street: Mill Lane
+  locality: Dorking
+  region: Surrey
+  postcode: RH4 1DX
+  capacity: 3000
+  latitude: 51.233759
+  longitude: -0.331673
+
+- name: Ten Acres
+  sponsor: Silverlake Stadium
+  street: Stoneham Lane
+  locality: Eastleigh
+  region: Hampshire
+  postcode: SO50 9HT
+  capacity: 5192
+  latitude: 50.951278
+  longitude: -1.382523
+
+- name: The Hive Stadium
+  street: Camrose Avenue
+  locality: Edgware
+  region: Middlesex
+  postcode: HA8 6AG
+  capacity: 6500
+  latitude: 51.601518
+  longitude: -0.288874
+
+- name: Deva Stadium
+  street: Bumpers Lane
+  locality: Chester
+  region: Cheshire
+  postcode: CH1 4LT
+  capacity: 6500
+  surface: grass
+  latitude: 53.192439
+  longitude: -2.916627
+
+- name: Brewery Field
+  locality: Spennymoor
+  region: Durham
+  postcode: DL16 6JN
+  capacity: 3000
+  latitude: 54.703329
+  longitude: -1.598596
+
+- name: New Windmill Ground
+  street: Harbury Lane
+  locality: Leamington Spa
+  region: Warwickshire
+  postcode: CV33 9SA
+  capacity: 2300
+  latitude: 52.247957
+  longitude: -1.511445
+
+- name: Victory Park
+  street: Duke Street
+  locality: Chorley
+  region: Lancashire
+  postcode: PR7 3DU
+  capacity: 4300
+  surface: grass
+  latitude: 53.647235
+  longitude: -2.629606
+
+- name: Edgar Street
+  locality: Hereford
+  region: Herefordshire
+  postcode: HR4 9JU
+  capacity: 4913
+  surface: grass
+  latitude: 52.060252
+  longitude: -2.717181
+
+- name: Tameside Stadium
+  street: Richmond Street
+  locality: Ashton-under-Lyne
+  region: Lancashire
+  postcode: OL7 9HG
+  capacity: 4200
+  latitude: 53.494178
+  longitude: -2.11108
+
+- name: York Community Stadium
+  street: Kathyrn Avenue
+  locality: York
+  region: Yorkshire, North Riding
+  postcode: YO32 9AF
+  capacity: 8500
+  latitude: 53.983465
+  longitude: -1.052622
+
+- name: York Road
+  locality: Maidenhead
+  region: Berkshire
+  postcode: SL6 1SF
+  capacity: 4000
+  latitude: 51.520373
+  longitude: -0.719932
+
+- name: Gateshead International Stadium
+  street: Neilson Road
+  locality: Gateshead
+  region: Durham
+  postcode: NE10 0EF
+  capacity: 11800
+  latitude: 54.960912
+  longitude: -1.580916
+
+- name: Roots Hall
+  locality: Southend-on-Sea
+  region: Essex
+  postcode: SS2 6NQ
+  capacity: 12392
+  latitude: 51.549265
+  longitude: 0.702066
+
+- name: Meadow Lane
+  street: Meadow Lane
+  locality: Nottingham
+  region: Nottinghamshire
+  postcode: NG2 3HJ
+  capacity: 19841
+  surface: grass
+  latitude: 52.942243
+  longitude: -1.136105
+
+- name: Gallagher Stadium
+  street: James Whatman Way
+  locality: Maidstone
+  region: Kent
+  postcode: ME14 1LQ
+  capacity: 4200
+  latitude: 51.279537
+  longitude: 0.516728
+
+- name: Racecourse Ground
+  street: Mold Road
+  locality: Wrexham
+  region: Denbighshire
+  postcode: LL11 2AH
+  capacity: 10771
+  latitude: 53.051259
+  longitude: -3.003854
+
+- name: Technique Stadium
+  street: 1866 Sheffield Road
+  locality: Chesterfield
+  region: Derbyshire
+  postcode: S41 8NZ
+  capacity: 10600
+  latitude: 53.253614
+  longitude: -1.425003
+
+- name: Boundary Park
+  locality: Oldham
+  region: Lancashire
+  postcode: OL1 2PA
+  capacity: 13513
+  latitude: 53.554329
+  longitude: -2.127857
+
+- name: Plainmoor
+  street: Marnham Road
+  locality: Torquay
+  region: Devon
+  postcode: TQ1 3PS
+  capacity: 6500
+  latitude: 50.476813
+  longitude: -3.522448
+
+- name: Horsfall Stadium
+  street: Cemetery Road
+  locality: Bradford
+  region: Yorkshire, West Riding
+  postcode: BD6 2NG
+  capacity: 3500
+  surface: grass
+  latitude: 53.758404
+  longitude: -1.777895
+
+- name: New Bucks Head
+  street: Haybridge Road
+  locality: Wellington
+  region: Shropshire
+  postcode: TF1 2NW
+  capacity: 6400
+  surface: grass
+  latitude: 52.697756
+  longitude: -2.499692
+
+- name: Mill Farm
+  locality: Wesham
+  region: Lancashire
+  postcode: PR4 3JZ
+  capacity: 6000
+  surface: grass
+  latitude: 53.796563
+  longitude: -2.889212
+
+- name: Croft Park
+  locality: Blyth
+  region: Northumberland
+  postcode: NE24 3JE
+  capacity: 4130
+  surface: grass
+  latitude: 55.120073
+  longitude: -1.51053
+
+- name: The Citadel
+  locality: Farsley
+  region: Yorkshire, West Riding
+  postcode: LS28 5BE
+  capacity: 3900
+  surface: grass
+  latitude: 53.808786
+  longitude: -1.666834
+
+- name: New Meadow Park
+  sponsor: TigerTurf Stadium
+  street: Sudmeadow Road
+  locality: Hempsted
+  region: Gloucestershire
+  postcode: GL2 5HS
+  capacity: 4000
+  latitude: 51.862118
+  longitude: -2.261076
+
+- name: Latimer Park
+  street: Polwell Lane
+  locality: Kettering
+  region: Northamptonshire
+  postcode: NN15 5PS
+  capacity: 2400
+  surface: grass
+  latitude: 52.366765
+  longitude: -0.690191
+
+- name: The Walks Stadium
+  street: Tennyson Road
+  locality: Kings Lynn
+  region: Norfolk
+  postcode: PE30 5PB
+  capacity: 8200
+  surface: grass
+  latitude: 52.749617
+  longitude: 0.407359
+
+- name: Huish Park
+  locality: Yeovil
+  region: Somerset
+  postcode: BA22 8YF
+  capacity: 9565
+  latitude: 50.950221
+  longitude: -2.674717
+
+- name: Flamingo Land Stadium
+  locality: Scarborough
+  region: Yorkshire, North Riding
+  postcode: YO11 2JW
+  capacity: 3252
+  surface: artificial
+  latitude: 54.270706
+  longitude: -0.413503
+
+- name: Aggborough
+  street: Hoo Road
+  locality: Kidderminster
+  region: Worcestershire
+  postcode: DY10 1NB
+  capacity: 6238
+  latitude: 52.381432
+  longitude: -2.243361
+
+- name: Glanford Park
+  locality: Scunthorpe
+  region: Lincolnshire, Parts of Lindsey
+  postcode: DN15 8TD
+  capacity: 9088
+  latitude: 53.586699
+  longitude: -0.695968
+
+- name: Grosvenor Vale
+  locality: Ruislip
+  region: Middlesex
+  postcode: HA4 6JQ
+  capacity: 4085
+  latitude: 51.569018
+  longitude: -0.419526
+
+- name: Spencer Stadium
+  locality: Banbury
+  region: Northamptonshire
+  postcode: OX16 5AB
+  capacity: 6500
+  latitude: 52.059148
+  longitude: -1.326721
+
+- name: The Silverlands
+  sponsor: Tarmac Silverlands Stadium
+  locality: Buxton
+  region: Derbyshire
+  postcode: SK17 6QH
+  capacity: 4000
+  latitude: 53.257101
+  longitude: -1.908312
+
+- name: Lincoln Road
+  street: 651 Lincoln Road
+  locality: Peterborough
+  region: Northamptonshire
+  postcode: PE1 3HA
+  capacity: 2300
+  latitude: 52.592829
+  longitude: -0.25518
+
+- name: Blackwell Meadows
+  street: Grange Road
+  locality: Darlington
+  region: Durham
+  postcode: DL1 5NR
+  capacity: 3281
+  latitude: 54.509887
+  longitude: -1.564445
+
+- name: Melbourne Stadium
+  street: Salerno Way
+  locality: Chelmsford
+  region: Essex
+  postcode: CM1 2EH
+  capacity: 3065
+  latitude: 51.751262
+  longitude: 0.451896
+
+- name: Cressing Road
+  sponsor: Dunmow Group Stadium
+  street: Clockhouse Way
+  locality: Braintree
+  region: Essex
+  postcode: CM7 3AL
+  capacity: 4151
+  latitude: 51.876081
+  longitude: 0.572404
+
+- name: Theobalds Lane
+  street: Theobalds Lane
+  locality: Waltham Cross
+  region: Hertfordshire
+  postcode: EN8 8RU
+  capacity: 3500
+  latitude: 51.69447
+  longitude: -0.042399
+
+- name: Woodside Road
+  sponsor: The Crucial Environmental Stadium
+  street: Woodside Road
+  locality: Worthing
+  region: West Sussex
+  postcode: BN14 7HQ
+  capacity: 4000
+  latitude: 50.820519
+  longitude: -0.383825
+
+- name: Bob Lucas Stadium
+  street: Radipole Lane
+  locality: Worthing
+  region: Dorset
+  postcode: DT4 9XJ
+  capacity: 6600
+  latitude: 50.619627
+  longitude: -2.485783
+
+- name: Twerton Park
+  street: Dominion Road
+  locality: Bath
+  region: Somerset
+  postcode: BA2 1DB
+  capacity: 3528
+  surface: grass
+  latitude: 51.379763
+  longitude: -2.394679
+
+- name: Hardenhuish Park
+  street: Bristol Road
+  locality: Chippenham
+  region: Wiltshire
+  postcode: SN14 6LR
+  capacity: 3000
+  latitude: 51.465259
+  longitude: -2.129062
+
+- name: Thames Road
+  locality: Canvey Island
+  region: Essex
+  postcode: SS8 0HH
+  capacity: 3300
+  latitude: 51.516637
+  longitude: 0.574566
+
+- name: Princes Park
+  locality: Dartford
+  region: Kent
+  postcode: DA1 1RT
+  capacity: 4100
+  latitude: 51.436726
+  longitude: 0.230847
+
+- name: Crabble Athletic Ground
+  street: Lewisham Road
+  locality: Dover
+  region: Kent
+  postcode: CT17 0QJ
+  capacity: 5745
+  latitude: 51.138891
+  longitude: 1.284388
+
+- name: Champion Hill
+  locality: East Dulwich
+  region: Surrey
+  postcode: SE22 8BD
+  capacity: 3334
+  latitude: 51.461895
+  longitude: -0.083693
+
+- name: Stonebridge Road
+  sponsor: Kuflink Stadium
+  locality: Northfleet
+  region: Kent
+  postcode: DA11 9GN
+  capacity: 4769
+  latitude: 51.448891
+  longitude: 0.322661
+
+- name: Cherrywood Road
+  sponsor: Easy As HGV Stadium
+  street: Cherrywood Road
+  locality: Farnborough
+  region: Hampshire
+  postcode: GU14 8UD
+  capacity: 7000
+  latitude: 51.310304
+  longitude: -0.762988
+
+- name: Beveree Stadium
+  sponsor: The Rocket Hospitality Beveree Stadium
+  locality: Hampton
+  region: Middlesex
+  postcode: TW12 2BX
+  capacity: 3800
+  latitude: 51.413941
+  longitude: -0.363418
+
+- name: The Westleigh
+  sponsor: Draper Tools Community Stadium
+  street: Martin Road
+  locality: Havant
+  region: Hampshire
+  postcode: PO9 5TH
+  capacity: 5300
+  latitude: 50.866885
+  longitude: -0.974958
+
+- name: Vauxhall Road
+  locality: Hemel Hempstead
+  region: Hertfordshire
+  postcode: HP2 4HW
+  capacity: 3152
+  latitude: 51.753567
+  longitude: -0.442865
+
+- name: Marsh Lane
+  locality: Oxford
+  region: Oxfordshire
+  postcode: OX3 0NQ
+  capacity: 3500
+  latitude: 51.770583
+  longitude: -1.230183
+
+- name: Arbour Park
+  locality: Slough
+  region: Buckinghamshire
+  postcode: SL2 5AY
+  capacity: 2000
+  latitude: 51.518757
+  longitude: -0.589032
+
+- name: Clarence Park
+  sponsor: Mozzarella Fellas Stadium
+  locality: St Albans
+  region: Hertfordshire
+  postcode: AL1 4NF
+  capacity: 5007
+  latitude: 51.753529
+  longitude: -0.324012
+
+- name: Cygnet Stadium
+  sponsor: The Cygnet Health Care Stadium
+  street: Wordsworth Drive
+  locality: Taunton
+  region: Somerset
+  postcode: TA1 2HG
+  capacity: 2500
+  latitude: 51.016177
+  longitude: -3.086591
+
+- name: Park View Road
+  locality: Welling
+  region: Kent
+  postcode: DA16 1SY
+  capacity: 4000
+  latitude: 51.460439
+  longitude: 0.115986
+
+- name: Longmead Stadium
+  sponsor: Halcyon Wealth Longmead Stadium
+  street: Darenth Avenue
+  locality: Tonbridge
+  region: Kent
+  postcode: TN10 3JW
+  capacity: 3000
+  latitude: 51.210969
+  longitude: 0.274742
+
+- name: North Street
+  sponsor: Impact Arena Stadium
+  street: North Street
+  locality: Alfreton
+  region: Derbyshire
+  postcode: DE55 7FZ
+  capacity: 3600
+  latitude: 53.093804
+  longitude: -1.379768
+
+- name: Haig Avenue
+  street: Haig Avenue
+  locality: Southport
+  region: Lancashire
+  postcode: PR8 6JZ
+  capacity: 6008
+  latitude: 53.638477
+  longitude: -2.979118
+
+- name: Jakemans Community Stadium
+  street: Pilgrim Way
+  locality: Boston
+  region: Lincolnshire, Parts of Holland
+  postcode: PE21 6JN
+  capacity: 5000
+  latitude: 52.977476
+  longitude: -0.017023
+
+- name: St James Park
+  street: Churchill Way
+  locality: Brackley
+  region: Northamptonshire
+  postcode: NN13 7EJ
+  capacity: 3500
+  latitude: 52.02523
+  longitude: -1.146971
+
+- name: Priory Lane
+  street: Priory Lane
+  locality: Eastbourne
+  region: East Sussex
+  postcode: BN23 7QH
+  capacity: 7000
+  latitude: 50.804435
+  longitude: 0.319531
+
+- name: Bulpit Lane
+  street: Bulpit Lane
+  locality: Hungerford
+  region: Berkshire
+  postcode: RG17 0AY
+  capacity: 3034
+  latitude: 51.407599
+  longitude: -1.512853

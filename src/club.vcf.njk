@@ -1,0 +1,26 @@
+---
+pagination:
+    data: clubs
+    size: 1
+    alias: club
+permalink: "downloads/{{ club.name | slugify }}.vcf"
+---
+{%- set ground = "" -%}
+
+{%- for g in grounds -%}
+    {%- if g.name == club.ground -%}
+        {%- set ground = g -%}
+    {%- endif -%}
+{%- endfor -%}
+
+BEGIN:VCARD
+VERSION:3.0
+ORG: {{ club.name }}
+NICKNAME: {{ club.nickname }}
+item1.ADR;type=WORK;type=pref:;;{{ ground.name }};{{ ground.street }};{{ ground.locality | upper }};{{ ground.region }};{{ ground.postcode }};United Kingdom
+item1.X-ABADR:gb
+{% if club.url -%}
+item2.URL;type=pref:https://{{club.url}}
+item2.X-ABLabel:_$!<HomePage>!$_
+{% endif -%}
+END:VCARD

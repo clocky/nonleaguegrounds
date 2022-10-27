@@ -1,0 +1,466 @@
+- name: Aldershot Town
+  nickname: The Shots
+  ground: Recreation Ground
+  status: professional
+  founded: 1992
+  url: theshots.co.uk
+  kit:
+    - Red
+    - Blue
+
+- name: Altrincham
+  nickname: The Robins
+  ground: Moss Lane
+  status: professional
+  founded: 1891
+  url: altrinchamfc.com
+  kit:
+    - Red
+    - White
+
+- name: Barnet
+  nickname: The Bees
+  ground: The Hive Stadium
+  status: professional
+  founded: 1888
+  url: barnetfc.com
+  kit:
+    - Black
+    - DarkOrange
+
+- name: Boreham Wood
+  nickname: The Wood
+  ground: Meadow Park
+  status: semi-professional
+  founded: 1948
+  url: borehamwoodfootballclub.co.uk
+
+- name: Bromley
+  nickname: The Ravens
+  ground: Hayes Lane
+  status: professional
+  founded: 1892
+  url: bromleyfc.tv
+
+- name: Chesterfield
+  nickname: The Spireites
+  ground: Technique Stadium
+  status: professional
+  founded: 1919
+  url: chesterfield-fc.co.uk
+
+- name: Dagenham and Redbridge
+  nickname: The Daggers
+  ground: Victoria Road
+  status: professional
+  founded: 1992
+  url: daggers.co.uk
+
+- name: Dorking Wanderers
+  nickname: The Wanderers
+  ground: Meadowbank
+  status: semi-professional
+  founded: 1999
+  url: dorkingwanderers.com
+
+- name: Eastleigh
+  nickname: The Spitfires
+  ground: Ten Acres
+  status: professional
+  founded: 1946
+  url: eastleighfc.com
+
+- name: FC Halifax Town
+  nickname: The Shaymen
+  ground: The Shay
+  status: professional
+  founded: 2008
+  url: fchalifaxtown.com
+
+- name: Gateshead
+  nickname: The Tynesiders
+  ground: Gateshead International Stadium
+  status: professional
+  founded: 1977
+  url: gateshead-fc.com
+
+- name: Maidenhead United
+  nickname: The Magpies
+  ground: York Road
+  status: semi-professional
+  founded: 1870
+  url: maidenheadunitedfc.ktckts.com
+
+- name: Maidstone United
+  nickname: The Stones
+  ground: Gallagher Stadium
+  founded: 1992
+  url: maidstoneunited.co.uk
+
+- name: Notts County
+  nickname: The Magpies
+  ground: Meadow Lane
+  status: professional
+  founded: 1862
+  url: nottscountyfc.co.uk
+
+- name: Oldham Athletic
+  nickname: The Latics
+  ground: Boundary Park
+  status: professional
+  founded: 1895
+  url: oldhamathletic.co.uk
+
+- name: Solihull Moors
+  nickname: The Moors
+  ground: Damson Park
+  status: professional
+  founded: 2007
+  url: solihullmoorsfc.co.uk
+
+- name: Southend United
+  nickname: The Shrimpers
+  ground: Roots Hall
+  status: professional
+  founded: 1906
+  url: southendunited.co.uk
+
+- name: Scunthorpe United
+  nickname: The Iron
+  ground: Glanford Park
+  status: professional
+  founded: 1899
+  url: scunthorpe-united.co.uk
+
+- name: Torquay United
+  nickname: The Gulls
+  ground: Plainmoor
+  status: professional
+  founded: 1899
+  url: torquayunited.com
+
+- name: Wealdstone
+  nickname: The Stones
+  ground: Grosvenor Vale
+  status: semi-professional
+  founded: 1899
+  url: wealdstone-fc.com
+
+- name: Woking
+  nickname: The Cardinals
+  status: professional
+  founded: 1887
+  ground: Kingfield Stadium
+  url: wokingfc.co.uk
+
+- name: Yeovil Town
+  nickname: The Glovers
+  founded: 1895
+  status: professional
+  ground: Huish Park
+  url: ytfc.net
+
+- name: York City
+  nickname: The Minstermen
+  ground: York Community Stadium
+  status: professional
+  founded: 1922
+  url: yorkcityfootballclub.co.uk
+
+- name: AFC Fylde
+  nickname: The Coasters
+  ground: Mill Farm
+  status: professional
+  founded: 1988
+  url: afcfylde.co.uk
+
+- name: AFC Telford United
+  nickname: The Bucks
+  ground: New Bucks Head
+  founded: 2004
+  url: telfordunited.com
+
+- name: Alfreton Town
+  nickname: The Reds
+  ground: North Street
+  founded: 1959
+  url: alfretontownfootballclub.com
+
+- name: Banbury United
+  nickname: The Puritans
+  ground: Spencer Stadium
+  founded: 1931
+  url: banburyunitedfc.co.uk
+
+- name: Blyth Spartans
+  nickname: The Spartans
+  ground: Croft Park
+  founded: 1899
+  url: blythspartans.com
+
+- name: Boston United
+  nickname: The Pilgrims
+  ground: Jakemans Community Stadium
+  status: semi-professional
+  founded: 1933
+  url: bostonunited.co.uk
+
+- name: Brackley Town
+  nickname: The Saints
+  ground: St James Park
+  founded: 1930
+  url: brackleytownfc.com
+
+- name: Bradford (Park Avenue) AFC
+  nickname: The Green Army
+  ground: Horsfall Stadium
+  founded: 1907
+  url: bpafc.com
+
+- name: Buxton
+  nickname: The Bucks
+  ground: The Silverlands
+  founded: 1877
+  url: buxtonfc.co.uk
+
+- name: Chester
+  nickname: The Seals
+  ground: Deva Stadium
+  founded: 2010
+  url: chesterfc.com
+
+- name: Chorley
+  nickname: The Magpies
+  ground: Victory Park
+  status: semi-professional
+  founded: 1883
+  url: chorleyfc.com
+
+- name: Curzon Ashton
+  nickname: The Nash
+  ground: Tameside Stadium
+  founded: 1963
+  url: curzon-ashton.co.uk
+
+- name: Darlington
+  nickname: The Quakers
+  ground: Blackwell Meadows
+  founded: 1883
+  url: darlingtonfc.co.uk
+
+- name: Farsley Celtic
+  nickname: The Celt Army
+  ground: The Citadel
+  founded: 1908
+  url: farsleyceltic.com
+
+- name: Gloucester City
+  nickname: The Tigers
+  ground: New Meadow Park
+  status: semi-professional
+  founded: 1883
+  url: gloucestercityafc.com
+
+- name: Hereford
+  nickname: The Bulls
+  ground: Edgar Street
+  founded: 2014
+  url: herefordfc.co.uk
+
+- name: Kettering Town
+  nickname: The Poppies
+  ground: Latimer Park
+  founded: 1872
+  url: ketteringtownfc.com
+
+- name: Kidderminster Harriers
+  nickname: The Kiddy
+  ground: Aggborough
+  status: professional
+  founded: 1886
+  url: harriers.co.uk
+
+- name: Kings Lynn Town
+  nickname: The Linnets
+  ground: The Walks Stadium
+  founded: 2010
+  url: kltown.co.uk
+
+- name: Leamington
+  nickname: The Brakes
+  ground: New Windmill Ground
+  founded: 1933
+  url: leamingtonfc.co.uk
+
+- name: Peterborough Sports
+  nickname: The Turbines
+  ground: Lincoln Road
+  founded: 1908
+  url: pslfc.com
+
+- name: Scarborough Athletic
+  nickname: The Seadogs
+  founded: 2007
+  ground: Flamingo Land Stadium
+  url: scarboroughathletic.com
+
+- name: Southport
+  nickname: The Sandgrounders
+  ground: Haig Avenue
+  founded: 1881
+  url: southportfc.net
+
+- name: Spennymoor Town
+  nickname: The Moors
+  ground: Brewery Field
+  founded: 2005
+  url: spennymoortownfc.co.uk
+
+- name: Bath City
+  nickname: The Romans
+  status: semi-professional
+  founded: 1889
+  ground: Twerton Park
+  url: bathcityfc.com
+
+- name: Braintree Town
+  nickname: The Iron
+  status: semi-professional
+  founded: 1898
+  ground: Cressing Road
+  url: braintreetownfc.org.uk
+
+- name: Chelmsford City
+  nickname: The Clarets
+  status: semi-professional
+  founded: 1938
+  ground: Melbourne Stadium
+  url: chelmsfordcityfc.com
+
+- name: Cheshunt
+  nickname: The Ambers
+  founded: 1946
+  ground: Theobalds Lane
+  region: Hertfordshire
+  url: cheshuntfc.com
+
+- name: Chippenham Town
+  nickname: The Bluebirds
+  founded: 1873
+  ground: Hardenhuish Park
+
+- name: Concord Rangers
+  nickname: The Beach Boys
+  founded: 1967
+  ground: Thames Road
+  url: www.concordrangers.co.uk
+
+- name: Dartford
+  nickname: The Darts
+  founded: 1888
+  ground: Princes Park
+
+- name: Dover Athletic
+  nickname: The Whites
+  founded: 1983
+  ground: Crabble Athletic Ground
+  status: semi-professional
+  url: doverathletic.com
+
+- name: Dulwich Hamlet
+  nickname: The Hamlet
+  founded: 1893
+  ground: Champion Hill
+
+- name: Eastbourne Borough
+  nickname: The Sports
+  founded: 1954
+  ground: Priory Lane
+
+- name: Ebbsfleet United
+  nickname: The Fleet
+  founded: 1946
+  ground: Stonebridge Road
+
+- name: Farnborough
+  nickname: Boro
+  founded: 1967
+  ground: Cherrywood Road
+
+- name: Hampton and Richmond Borough
+  nickname: The Beavers
+  founded: 1921
+  ground: Beveree Stadium
+
+- name: Havant and Waterlooville
+  nickname: The Hawks
+  founded: 1998
+  ground: The Westleigh
+  status: professional
+
+- name: Hemel Hempstead Town
+  nickname: The Tudors
+  founded: 1885
+  ground: Vauxhall Road
+  url: hemelfc.com
+
+- name: Hungerford Town
+  nickname: The Crusaders
+  founded: 1886
+  ground: Bulpit Lane
+  url: pitchero.com/clubs/hungerfordtownfc
+
+- name: Oxford City
+  nickname: The Hoops
+  status: semi-professional
+  founded: 1882
+  ground: Marsh Lane
+
+- name: Slough Town
+  nickname: The Rebels
+  founded: 1890
+  ground: Arbour Park
+
+- name: St Albans City
+  nickname: The Saints
+  founded: 1908
+  ground: Clarence Park
+
+- name: Taunton Town
+  nickname: The Peacocks
+  founded: 1947
+  ground: Cygnet Stadium
+
+- name: Tonbridge Angels
+  nickname: The Angels
+  founded: 1947
+  ground: Longmead Stadium
+
+- name: Welling United
+  nickname: The Wings
+  status: semi-professional
+  founded: 1963
+  ground: Park View Road
+
+- name: Weymouth
+  nickname: The Terras
+  status: semi-professional
+  founded: 1890
+  ground: Bob Lucas Stadium
+  kit:
+    - LightBlue
+    - Maroon
+
+- name: Worthing
+  nickname: The Rebels
+  founded: 1886
+  ground: Woodside Road
+  kit:
+    - Red
+
+- name: Wrexham AFC
+  nickname: The Red Dragons
+  status: professional
+  founded: 1864
+  ground: Racecourse Ground
+  url: wrexhamafc.co.uk

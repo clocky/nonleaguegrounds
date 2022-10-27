@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/maps.css">
+        <meta name="description" content="{% if description %}{{ description }}{% else %}{{ meta.description }}{% endif %}">
+        <title>
+            {% if title %}{{ title }}{%else%}{{ meta.title }}{%endif%}
+            </title>
+
+        </head>
+        <body>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li>
+                            <strong>
+                                <a href="/">nonleaguegrounds.com</a>
+                            </strong>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="/ground/">🏟️ Grounds</a>
+                        </li>
+                        <li>
+                            <a href="/club/">⚽ Clubs</a>
+                        </li>
+                        <li>
+                            <a href="/league/">🏆 Leagues</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            {{ content | safe }}
+            <footer class="container-fluid" data-theme="dark">
+                <div class="container">
+                    <div class="grid">
+                        <p>
+                            {{ meta.description }}
+                        </p>
+                        <ul>
+                            {% for league in leagues %}
+                                <li>
+                                    <small>
+                                        <a href="/league/{{ league.name | slugify }}/">{{ league.name }}</a>
+                                    </small>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </body>
+    </html>

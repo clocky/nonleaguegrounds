@@ -1,0 +1,128 @@
+---
+layout: base.njk
+pagination:
+    data: grounds
+    size: 1
+    alias: ground
+permalink: "ground/{{ ground.region | slugify }}/{{ ground.name | slug }}/index.html"
+eleventyComputed:
+    title: "{{ ground.name | safe }}"
+    description: "Information about the non-league football ground, {{ ground.name }}, with maps, address and contact information."
+---
+
+{% from "macros.njk" import staticmap as google %}
+{% from "macros.njk" import fc %}
+
+{% set club = "" %}
+
+{% for c in clubs %}
+  {% if c.ground == ground.name %}
+    {% set club = c %}
+  {% endif %}
+{% endfor %}
+
+<header class="container-fluid hero" id="{{ ground.name | slugify }}" data-theme="dark">
+  <div class="container">
+    <hgroup>
+      <h1>
+        {{ ground.name | replace(" ", "\n") | nl2br | safe }}
+      </h1>
+      <h2>{{ ground.locality }}</h2>
+    </hgroup>
+  </div>
+</header>
+
+<main class="container">
+  <div class="grid">
+    <section>
+      <p>
+        {% if ground.sponsor %}
+          <strong>{{ ground.sponsor }}</strong> (also known as {{ ground.name }}) is a football ground in {{ ground.locality }}, {{ ground.region }}.
+        {% else %}
+          <strong>{{ ground.name }}</strong> is a football ground {% if ground.locality %} in {{ ground.locality }}, {{ground.region}}{%endif%}.
+        {% endif %}
+        The current capacity of the ground is <a href="/ground/#{{ ground.name | slugify }}">{{ ground.capacity | commaNumber }}</a>
+          {%- if ground.surface %}, with a pitch surface of {{ ground.surface -}}
+          {% endif -%}.
+          </p>
+
+        <p>
+           It is the home ground of <a href="/club/{{ club.name | slugify }}">{{- fc(club.name) -}}</a>.
+        </p>
+        <figure>
+          {%- set address -%}
+          {{ ground.name | replace("'", "") | urlencode -}},{{- ground.locality | urlencode }},{{ ground.region | urlencode }},{{ ground.postcode | urlencode }}
+          {%- endset -%}
+          {%- set key = env.google_maps_api_key -%}
+          <a 
+                href="https://www.google.com/maps/search/?api=1&query={{ground.latitude}},{{ground.longitude}}" 
+                target="_blank">
+            <img 
+            src="{{- google(address, 'roadmap', 17, 640, 480, 'png', 1, key) -}}" 
+            srcset="{{- google(address, 'roadmap', 17, 640, 480, 'png', 1, key) }} 1x,
+                    {{ google(address, 'roadmap', 17, 640, 480, 'png', 2, key) }} 2x"
+            width="640" 
+            height="480"
+            alt="Map showing the location of {{ ground.name }} in {{ ground.locality }}, {{ ground.region }}."
+          >
+          </a>
+          <figcaption>
+            <small>Google Map of {{ ground.name }}, {{ ground.locality }}</small>
+          </figcaption>
+        </figure>
+
+      </section>
+      <aside>
+        <table role="grid">
+          <tr>
+            <th>Name</th>
+            <td>
+              {{ ground.name }}
+            </td>
+          </tr>
+          {% if ground.sponsor %}
+            <tr>
+              <th>Sponsor</th>
+              <td>
+                {{ ground.sponsor }}
+              </td>
+            </tr>
+          {% endif %}
+          <tr>
+            <th>Home of</th>
+            <td>
+              {{ fc(club.name, true) }}
+            </td>
+          </tr>
+          {% if ground.street %}
+            {% if ground.street != ground.name %}
+              <tr>
+                <th>Street</th>
+                <td>
+                  {{ ground.street }}
+                </td>
+              </tr>
+            {% endif %}
+          {% endif %}
+          <tr>
+            <th>Town</th>
+            <td>
+              {{ ground.locality | upper }}
+            </td>
+          </tr>
+          <tr>
+            <th>County</th>
+            <td>
+              {{ ground.region }}
+            </td>
+          </tr>
+          <tr>
+            <th>Postcode</th>
+            <td>
+              {{ ground.postcode | upper }}
+            </td>
+          </tr>
+        </table>
+      </aside>
+    </div>
+  </main>

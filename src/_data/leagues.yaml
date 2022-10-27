@@ -1,0 +1,87 @@
+- name: "National League"
+  tier: 5
+  sponsor: "Vanarama"
+  url: www.thenationalleague.org.uk
+  clubs:
+    - name: Aldershot Town
+    - name: Altrincham
+    - name: Barnet
+    - name: Boreham Wood
+    - name: Bromley
+    - name: Chesterfield
+    - name: Dagenham and Redbridge
+    - name: Dorking Wanderers
+    - name: Eastleigh
+    - name: FC Halifax Town
+    - name: Gateshead
+    - name: Maidenhead United
+    - name: Maidstone United
+    - name: Notts County
+    - name: Oldham Athletic
+    - name: Solihull Moors
+    - name: Southend United
+    - name: Scunthorpe United
+    - name: Torquay United
+    - name: Wealdstone
+    - name: Woking
+    - name: Wrexham AFC
+    - name: Yeovil Town
+    - name: York City
+- name: "National League North"
+  tier: 6
+  sponsor: "Vanarama"
+  url: www.thenationalleague.org.uk
+  clubs:
+    - name: AFC Fylde
+    - name: AFC Telford United
+    - name: Alfreton Town
+    - name: Banbury United
+    - name: Blyth Spartans
+    - name: Boston United
+    - name: Brackley Town
+    - name: Bradford (Park Avenue) AFC
+    - name: Buxton
+    - name: Chester
+    - name: Chorley
+    - name: Curzon Ashton
+    - name: Darlington
+    - name: Farsley Celtic
+    - name: Gloucester City
+    - name: Hereford
+    - name: Kettering Town
+    - name: Kidderminster Harriers
+    - name: Kings Lynn Town
+    - name: Leamington
+    - name: Peterborough Sports
+    - name: Scarborough Athletic
+    - name: Southport
+    - name: Spennymoor Town
+- name: "National League South"
+  tier: 6
+  sponsor: "Vanarama"
+  url: www.thenationalleague.org.uk
+  clubs:
+    - name: Bath City
+    - name: Braintree Town
+    - name: Chelmsford City
+    - name: Cheshunt
+    - name: Chippenham Town
+    - name: Concord Rangers
+    - name: Dartford
+    - name: Dover Athletic
+    - name: Dulwich Hamlet
+    - name: Eastbourne Borough
+    - name: Ebbsfleet United
+    - name: Farnborough
+    - name: Hampton and Richmond Borough
+    - name: Havant and Waterlooville
+    - name: Hemel Hempstead Town
+    - name: Hungerford Town
+    - name: Oxford City
+    - name: Slough Town
+    - name: St Albans City
+    - name: Taunton Town
+    - name: Tonbridge Angels
+    - name: Welling United
+    - name: Weymouth
+    - name: Worthing

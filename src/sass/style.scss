@@ -1,0 +1,64 @@
+@use "../../node_modules/@picocss/pico/scss/pico";
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text=ABCDEFGHJKLMNOPRSTUVWYabdcefghiklmnopqrstuvwxyz");
+
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: #107c10;
+  --primary-hover: #0b6a0b;
+  --primary-focus: #8cbd18
+  --primary-inverse: #ffffff;
+  h1,h2, nav strong{
+    font-family: "Rubik Mono One", sans-serif;
+    font-weight: 400;
+    line-height: 1.75rem;
+  }
+  nav li strong a {
+    color: #212121;
+    &:hover {
+      color: var(--primary);
+    }
+  }
+}
+
+footer[data-theme="dark"] {
+  background-color: #212121
+}
+
+th {
+  font-weight: 500;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+}
+
+:target {
+  border: 2px solid #000000;
+}
+
+#club {
+  background-image: url("../img/nicholas-green-nPz8akkUmDI-unsplash.jpg");
+}
+
+#ground {
+  background-image: url("../img/fancy-crave-qowyMze7jqg-unsplash.jpg");
+}
+
+#league {
+  background-image: url("../img/samuel-regan-asante-YOtjUyEfClo-unsplash.jpg");
+}
+
+#trophy {
+  background-image: url("../img/ezequiel-garrido-s6XWkKDKynY-unsplash.jpg");
+}
+
+#home {
+  h2 {
+    flex-shrink: initial;
+  }
+}
