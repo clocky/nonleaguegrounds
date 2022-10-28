@@ -1,123 +1,123 @@
-{% macro staticmap(address, maptype, zoom, width, height, format, scale, key) -%}
+{%- macro staticmap(address, maptype, zoom, width, height, format, scale, key) -%}
     https://maps.googleapis.com/maps/api/staticmap?center={{address | striptags}}&maptype={{maptype}}&zoom={{zoom}}&scale={{scale}}&size={{width}}x{{height}}&format={{format}}&key={{key}}
-{%- endmacro %}
+{%- endmacro -%}
 
-{% macro fc(club, abbr = false) %}
-    {% if club.slice(0, 3) == "AFC" %}
-        {% if abbr %}
+{%- macro fc(club, abbr = false) -%}
+    {%- if club.slice(0, 3) == "AFC" -%}
+        {%- if abbr -%}
             <abbr title="Association Football Club">A.F.C.</abbr>
-        {% else %}
+        {%- else -%}
             AFC
-        {% endif %}
+        {%- endif -%}
         {{ club.slice(3) }}
-    {% elseif club.slice(-3) == "AFC" %}
+    {%- elseif club.slice(-3) == "AFC" -%}
         {{ club.slice(0,-3) }}
-        {% if abbr %}
+        {%- if abbr -%}
             <abbr title="Association Football Club">A.F.C.</abbr>
-        {% else %}
+        {%- else -%}
             AFC
-        {% endif %}
-    {% elseif club.slice(0, 2) == "FC" %}
-        {% if abbr %}
+        {%- endif -%}
+    {%- elseif club.slice(0, 2) == "FC" -%}
+        {%- if abbr -%}
             <abbr title="Football Club">F.C.</abbr>
-        {% else %}
+        {%- else -%}
         FC
-        {% endif %}
+        {%- endif -%}
         {{ club.slice(2) }}
-    {% else %}
+    {%- else -%}
         {{ club }}
-        {% if abbr %}
+        {%- if abbr -%}
             <abbr title="Football Club">F.C.</abbr>
-        {% else %}
+        {%- else -%}
         FC
-        {% endif %}
-    {% endif %}
-{% endmacro %}
+        {%- endif -%}
+    {%- endif -%}
+{%- endmacro -%}
 
-{% macro emoji(nickname) %}
-    {% set nick = nickname.slice(4) | lower %}
-    {% set emoji = "" %}
-    {% if nick in[
+{%- macro emoji(nickname) -%}
+    {%- set nick = nickname.slice(4) | lower -%}
+    {%- set emoji = "" -%}
+    {%- if nick in[
         "robins",
         "ravens",
         "magpies",
         "gulls",
         "bluebirds",
         "linnets"
-    ] %}
-        {% set emoji = "🐦" %}
-    {% elseif nick in["crusaders", "spartans"] %}
-        {% set emoji = "⚔️" %}
-    {% elseif nick in["peacocks"] %}
-        {% set emoji = "🦚" %}
-    {% elseif nick in["hawks", "wings"] %}
-        {% set emoji = "🦅" %}
-    {% elseif nick in["wood"] %}
-        {% set emoji = "🪵" %}
-    {% elseif nick in["daggers"] %}
-        {% set emoji = "🗡️" %}
-    {% elseif nick in["stones"] %}
-        {% set emoji = "🪨" %}
-    {% elseif nick in["tigers"] %}
-        {% set emoji = "🐯" %}
-    {% elseif nick in["bulls"] %}
-        {% set emoji = "🐂" %}
-    {% elseif nick in["seadogs"] %}
-        {% set emoji = "🐶" %}
-    {% elseif nick in["coasters", "beach boys", "sandgrounders"] %}
-        {% set emoji = "🏖️" %}
-    {% elseif nick in["bucks"] %}
-        {% set emoji = "🦌" %}
-    {% elseif nick in["iron"] %}
-        {% set emoji = "🧲" %}
-    {% elseif nick in["reds", "cardinals", "clarets"] %}
-        {% set emoji = "🔴" %}
-    {% elseif nick in["whites"] %}
-        {% set emoji = "⚪" %}
-    {% elseif nick in["celt army", "green army"] %}
-        {% set emoji = "🪖" %}
-    {% elseif nick in["angels", "saints"] %}
-        {% set emoji = "😇" %}
-    {% elseif nick in["minstermen", "spireites"] %}
-        {% set emoji = "⛪" %}
-    {% elseif nick in["beavers"] %}
-        {% set emoji = "🦫" %}
-    {% elseif nick in["red dragons"] %}
-        {% set emoji = "🏴󠁧󠁢󠁷󠁬󠁳󠁿" %}
-    {% elseif nick in["spitfires", "turbines"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳✈️" %}
-    {% elseif nick in["glovers"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳🧤" %}
-    {% elseif nick in["shrimpers"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳🦐" %}
-    {% elseif nick in["bees"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳🐝" %}
-    {% elseif nick in["seals"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳🦭" %}
-    {% elseif nick in["tudors"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳👑" %}
-    {% elseif nick in["rebels"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳✊" %}
-    {% elseif nick in["hamlet"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳🏠" %}
-    {% elseif nick in["hoops"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳⭕" %}
-    {% elseif nick in["darts"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳🎯" %}
-    {% elseif nick in["poppies"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳🌺" %}
-    {% elseif nick in["kiddy"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳👶" %}
-    {% elseif nick in["terras"] %}
-        {% set emoji = "🌎" %}
-    {% elseif nick in["latics", "wanderers"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳🏃" %}
-    {% elseif nick in["tynesiders"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳🏁" %}
-    {% elseif nick in["brakes"] %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳✋" %}
-    {% else %}
-        {% set emoji = "󠁧󠁢󠁷󠁬󠁳⚽" %}
-    {% endif %}
+    ] -%}
+        {%- set emoji = "🐦" -%}
+    {%- elseif nick in["crusaders", "spartans"] -%}
+        {%- set emoji = "⚔️" -%}
+    {%- elseif nick in["peacocks"] -%}
+        {%- set emoji = "🦚" -%}
+    {%- elseif nick in["hawks", "wings"] -%}
+        {%- set emoji = "🦅" -%}
+    {%- elseif nick in["wood"] -%}
+        {%- set emoji = "🪵" -%}
+    {%- elseif nick in["daggers"] -%}
+        {%- set emoji = "🗡️" -%}
+    {%- elseif nick in["stones"] -%}
+        {%- set emoji = "🪨" -%}
+    {%- elseif nick in["tigers"] -%}
+        {%- set emoji = "🐯" -%}
+    {%- elseif nick in["bulls"] -%}
+        {%- set emoji = "🐂" -%}
+    {%- elseif nick in["seadogs"] -%}
+        {%- set emoji = "🐶" -%}
+    {%- elseif nick in["coasters", "beach boys", "sandgrounders"] -%}
+        {%- set emoji = "🏖️" -%}
+    {%- elseif nick in["bucks"] -%}
+        {%- set emoji = "🦌" -%}
+    {%- elseif nick in["iron"] -%}
+        {%- set emoji = "🧲" -%}
+    {%- elseif nick in["reds", "cardinals", "clarets"] -%}
+        {%- set emoji = "🔴" -%}
+    {%- elseif nick in["whites"] -%}
+        {%- set emoji = "⚪" -%}
+    {%- elseif nick in["celt army", "green army"] -%}
+        {%- set emoji = "🪖" -%}
+    {%- elseif nick in["angels", "saints"] -%}
+        {%- set emoji = "😇" -%}
+    {%- elseif nick in["minstermen", "spireites"] -%}
+        {%- set emoji = "⛪" -%}
+    {%- elseif nick in["beavers"] -%}
+        {%- set emoji = "🦫" -%}
+    {%- elseif nick in["red dragons"] -%}
+        {%- set emoji = "🏴󠁧󠁢󠁷󠁬󠁳󠁿" -%}
+    {%- elseif nick in["spitfires", "turbines"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳✈️" -%}
+    {%- elseif nick in["glovers"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🧤" -%}
+    {%- elseif nick in["shrimpers"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🦐" -%}
+    {%- elseif nick in["bees"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🐝" -%}
+    {%- elseif nick in["seals"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🦭" -%}
+    {%- elseif nick in["tudors"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳👑" -%}
+    {%- elseif nick in["rebels"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳✊" -%}
+    {%- elseif nick in["hamlet"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🏠" -%}
+    {%- elseif nick in["hoops"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳⭕" -%}
+    {%- elseif nick in["darts"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🎯" -%}
+    {%- elseif nick in["poppies"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🌺" -%}
+    {%- elseif nick in["kiddy"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳👶" -%}
+    {%- elseif nick in["terras"] -%}
+        {%- set emoji = "🌎" -%}
+    {%- elseif nick in["latics", "wanderers"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🏃" -%}
+    {%- elseif nick in["tynesiders"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🏁" -%}
+    {%- elseif nick in["brakes"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳✋" -%}
+    {%- else -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳⚽" -%}
+    {%- endif -%}
     {{ emoji }}
-{% endmacro %}
+{%- endmacro -%}
