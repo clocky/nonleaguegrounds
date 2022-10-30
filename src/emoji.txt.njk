@@ -1,0 +1,7 @@
+---
+permalink: /emoji.txt
+---
+{%- from "macros.njk" import emoji -%}
+{%- for club in clubs -%}
+    {{- emoji(club.nickname) -}}
+{%- endfor -%}
