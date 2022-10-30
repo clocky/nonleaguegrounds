@@ -21,6 +21,11 @@
     "soccer",
     "uk"
   ],
+  "prettier": {
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "tabwidth": 2
+  },
   "author": "Mark McLaughlin",
   "license": "MIT",
   "dependencies": {
@@ -30,6 +35,7 @@
     "@prettier/plugin-xml": "^2.2.0",
     "comma-number": "^2.1.0",
     "dayjs": "^1.11.6",
+    "distance-from": "^1.1.2",
     "dotenv": "^16.0.3",
     "js-yaml": "^4.1.0",
     "lightningcss-cli": "^1.16.0",
