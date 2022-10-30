@@ -40,8 +40,7 @@ eleventyComputed:
 
 <header class="container-fluid hero" id="league" data-theme="dark">
     <div class="container">
-        <h1>{{ league.sponsor }}<br/>
-            {{ league.name }}</h1>
+        <h1>{{ league.sponsor }} {{ league.name }}</h1>
         <div class="grid">
             <h5>The {{ league.name }} is the {{ league.tier | ordinal }} tier of the
                 English football pyramid, with a total of
