@@ -59,10 +59,7 @@ emoji %}
 
 <header class="container-fluid hero" id="{{ ground.name | slugify }}" data-theme="dark">
   <div class="container">
-    <hgroup>
-      <h1>{{ club.name | replace(" ", "\n") | nl2br | safe}}</h1>
-      <h2>{{ club.nickname }}</h2>
-    </hgroup>
+    <h1>{{ club.name | replace(" ", "\n") | nl2br | safe}}</h1>
   </div>
 </header>
 
@@ -87,7 +84,9 @@ emoji %}
           {% if sponsor %}
             <strong>{{ club.ground }}</strong>
           {% else %}
-            <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">{{ club.ground }}</a>
+            <strong>
+              <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">{{ club.ground }}</a>
+            </strong>
           {% endif %}
           {%- if ground.sponsor -%}
           , known by the official name of <strong>
@@ -109,7 +108,8 @@ emoji %}
             <tr>
               <th>Nickname</th>
               <td>{{ club.nickname }}
-                {{emoji(club.nickname)}}</td>
+                <span class="emoji">{{emoji(club.nickname)}}</span>
+              </td>
             </tr>
           {% endif %}
           {% if club.founded %}
@@ -159,7 +159,7 @@ emoji %}
           {% endif %}
         </tbody>
       </table>
- </aside>
+    </aside>
   </div>
 
   <footer class="container">
