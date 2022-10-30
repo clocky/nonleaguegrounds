@@ -5,18 +5,18 @@ permalink: "/css/maps.css"
 
 {% for ground in grounds %}
     {%- set address -%}
-    {{ground.name | urlencode}},{{ ground.locality | urlencode}},{{ground.region | urlencode}},{{ground.postcode | urlencode}}
+    {{ground.latitude}},{{ground.longitude}}
     {%- endset -%}
     {%- set maptype = "satellite" -%}
-    {%- set zoom = 16 -%}
-    {%- set width = 1280 -%}
-    {%- set height = 320 -%}
+    {%- set zoom = 17 -%}
+    {%- set width = 640-%}
+    {%- set height = 240 -%}
     {%- set format = "jpg" -%}
     {%- set key = env.google_maps_api_key -%}
 
 /* {{ground.name}} */
 header#{{ ground.name | slugify}} {
-    background-image: url("{{google(address, maptype, zoom, width, height, format, 1, key)}}");
+    background-image: url("{{google(address, maptype, zoom, width, height, format, 2, key)}}");
 }
 
 @supports(background-image: image-set()) {
