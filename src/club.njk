@@ -42,7 +42,10 @@ emoji %}
     {%- if club.url %}
       "url": "https://{{ club.url }}",
     {%- endif %}
-    "foundingDate": "{{ club.founded }}",
+    "foundingDate": {
+      "@type": "Date",
+      "@value": "{{ club.founded | date(" YYYY ") | trim }}"
+    },
     "sport": "Soccer",
     "areaServed": {
       "@type": "City",
@@ -74,7 +77,7 @@ emoji %}
       {%- if ground.sponsor %}
         "sponsor": {
           "@type": "Organization",
-          "name": "{{ ground.sponsor | replace(ground.name, '') | trim}}"
+          "name": "{{ ground.sponsor }}"
         }
       {%- endif %}
     }
