@@ -4,7 +4,7 @@ pagination:
     data: grounds
     size: 1
     alias: ground
-permalink: "ground/{{ ground.region | slugify }}/{{ ground.name | slug }}/index.html"
+permalink: "ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}/index.html"
 eleventyComputed:
     title: "{{ ground.name | safe }} | {{ meta.title }}"
     description: "Information about the non-league football ground, {{ ground.name }}, with maps, address and contact information."
@@ -18,6 +18,13 @@ eleventyComputed:
 {% for c in clubs %}
   {% if c.ground == ground.name %}
     {% set club = c %}
+  {% endif %}
+{% endfor %}
+
+{% set play_here = [] %}
+{% for c in clubs %}
+  {% if c.ground == ground.name %}
+    {% set play_here = (play_here.push(c), play_here) %}
   {% endif %}
 {% endfor %}
 
@@ -80,8 +87,20 @@ eleventyComputed:
         {% endif -%}.
           </p>
       <p>
-           It is the home ground of <a href="/club/{{ club.name | slugify }}">{{- fc(club.name) -}}</a>.
-        </p>
+        {% if play_here.length > 0 %}
+          {% if play_here.length == 1 %}
+            <a href="/club/{{ club.name | slugify }}">{{ fc(play_here[0].name) }}</a> play their home games at {{ ground.name }}.
+          {% else %}
+            {% for c in play_here %}
+              {% if loop.last %}
+                and <a href="/club/{{ c.name | slugify }}">{{ fc(c.name) }}</a> play their home games at {{ ground.name }}.
+              {% else %}
+                <a href="/club/{{ c.name | slugify }}">{{ fc(c.name) }}</a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endif %}
+      </p>
       <h4>Information</h4>
       <table role="grid">
         <tr>
@@ -148,8 +167,8 @@ eleventyComputed:
           away.longitude
  %}
           {% endset %}
-          {# Select grounds within 20 mile radius #}
-          {% if distance < 20 and away.name != ground.name %}
+          {# Select grounds within 10 mile radius #}
+          {% if distance < 10 and away.name != ground.name %}
             <li>
               {% for c in clubs %}
                 {% if c.ground == away.name %}
@@ -164,7 +183,7 @@ eleventyComputed:
         {% endfor %}
         {% if count == 0 %}
           <li>
-              No grounds found within a 20 mile radius.
+              No grounds found within a 10 mile radius.
           </li>
         {% endif %}
       </ul>
