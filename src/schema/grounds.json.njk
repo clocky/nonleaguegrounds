@@ -6,10 +6,12 @@ permalink: /schema/grounds.json
    { 
     "@context": "https://schema.org",
     "@type": "StadiumOrArena",
+    {%- if ground.region and ground.name %}
     "identifier": {
         "@type": "url",
         "@id": "{{ meta.base }}/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}"
         },
+    {%- endif %}
     "name": "{{ ground.name }}",
     {%- if ground.sponsor %}
     "sponsor": "{{ ground.sponsor }}",
@@ -19,9 +21,15 @@ permalink: /schema/grounds.json
   {%- if ground.street %}
     "streetAddress": "{{ ground.street }}",
     {%- endif %}
+    {%- if ground.locality %}
     "addressLocality": "{{ ground.locality }}",
+    {%- endif %}
+    {%- if ground.region %}
     "addressRegion": "{{ ground.region }}",
+    {%- endif %}
+    {%- if ground.postcode %}
     "postalCode": "{{ ground.postcode }}",
+    {%- endif %}
     "addressCountry": {
         "@type": "Country",
         "name": "GB"
