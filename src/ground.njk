@@ -187,7 +187,7 @@ eleventyComputed:
             </figcaption>
           </figure>
           {% set address -%}
-          {%- if ground.sponsor -%}{{- ground.sponsor -}},
+          {%- if ground.sponsor -%}{{- ground.sponsor | urlencode -}},
         {%- endif -%}{{- ground.name | urlencode }},{{ ground.locality | urlencode }},{{ ground.postcode | urlencode }},United%20Kingdom
         {%- endset %}
           {% set zoom = 18 %}
