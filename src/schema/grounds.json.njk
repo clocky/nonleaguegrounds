@@ -1,0 +1,36 @@
+---
+permalink: /schema/grounds.json
+---
+[
+{% for ground in grounds %}
+   { 
+    "@context": "https://schema.org",
+    "@type": "StadiumOrArena",
+    "identifier": {
+        "@type": "url",
+        "@id": "{{ meta.base }}/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}"
+        },
+    "name": "{{ ground.name }}",
+    {%- if ground.sponsor %}
+    "sponsor": "{{ ground.sponsor }}",
+    {%- endif %}
+    "address": {
+        "@type": "PostalAddress",
+  {%- if ground.street %}
+    "streetAddress": "{{ ground.street }}",
+    {%- endif %}
+    "addressLocality": "{{ ground.locality }}",
+    "addressRegion": "{{ ground.region }}",
+    "postalCode": "{{ ground.postcode }}",
+    "addressCountry": {
+        "@type": "Country",
+        "name": "GB"
+    }
+    },
+    "maximumAttendeeCapacity": {{ ground.capacity }},
+    "latitude": {{ ground.latitude }},
+    "longitude": {{ ground.longitude }},
+   }{% if not loop.last %},{% endif %}
+
+{% endfor %}
+]
