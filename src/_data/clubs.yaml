@@ -4,9 +4,10 @@
   status: professional
   founded: 1992
   url: theshots.co.uk
+  twitter: OfficialShots
   kit:
-    - Red
-    - Blue
+    - "#C32D27"
+    - "#172576"
 
 - name: Altrincham
   nickname: The Robins
@@ -173,12 +174,17 @@
   status: professional
   founded: 1988
   url: afcfylde.co.uk
+  kit:
+    - "#DB4433"
+    - "#1C488B"
 
 - name: AFC Telford United
   nickname: The Bucks
   ground: New Bucks Head
   founded: 2004
   url: telfordunited.com
+  kit:
+    - "#182849"
 
 - name: Alfreton Town
   nickname: The Reds
