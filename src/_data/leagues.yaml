@@ -9,7 +9,7 @@
     - name: Boreham Wood
     - name: Bromley
     - name: Chesterfield
-    - name: Dagenham and Redbridge
+    - name: Dagenham & Redbridge
     - name: Dorking Wanderers
     - name: Eastleigh
     - name: FC Halifax Town
@@ -47,7 +47,7 @@
     - name: Curzon Ashton
     - name: Darlington
     - name: Farsley Celtic
-    - name: Gloucester City
+    - name: Gloucester City AFC
     - name: Hereford
     - name: Kettering Town
     - name: Kidderminster Harriers
@@ -75,8 +75,8 @@
     - name: Eastbourne Borough
     - name: Ebbsfleet United
     - name: Farnborough
-    - name: Hampton and Richmond Borough
-    - name: Havant and Waterlooville
+    - name: Hampton & Richmond Borough
+    - name: Havant & Waterlooville
     - name: Hemel Hempstead Town
     - name: Hungerford Town
     - name: Oxford City
@@ -97,7 +97,7 @@
     - name: Billericay Town
     - name: Bishop's Stortford
     - name: Bognor Regis Town
-    - name: Bowers and Pitsea
+    - name: Bowers & Pitsea
     - name: Brightlingsea Regent
     - name: Canvey Island
     - name: Carshalton Athletic
@@ -114,4 +114,4 @@
     - name: Lewes
     - name: Margate
     - name: Potters Bar Town
-    - name: Wingate and Finchley
+    - name: Wingate & Finchley
