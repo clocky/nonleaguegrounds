@@ -70,8 +70,10 @@
         {%- set emoji = "🦌" -%}
     {%- elseif nick in["iron"] -%}
         {%- set emoji = "🧲" -%}
-    {%- elseif nick in["reds", "cardinals", "clarets"] -%}
+    {%- elseif nick in["reds", "cardinals"] -%}
         {%- set emoji = "🔴" -%}
+    {%- elseif nick in["clarets"] -%}
+        {%- set emoji = "🍷" -%}
     {%- elseif nick in["whites"] -%}
         {%- set emoji = "⚪" -%}
     {%- elseif nick in["celt army", "green army"] -%}
