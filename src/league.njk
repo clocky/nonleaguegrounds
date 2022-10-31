@@ -72,7 +72,10 @@ eleventyComputed:
                         {% for c in clubs %}
                             {% if c.name == club.name %}
                                 <td>
-                                    <span class="emoji">{{ emoji(c.nickname) }}</span> {{ c.nickname }}</td>
+                                    {% if c.nickname %}
+                                    <span class="emoji">{{ emoji(c.nickname) }}</span> {{ c.nickname }}
+                                    {% endif %}
+                                </td>
                             {% endif %}
                         {% endfor %}
                     </tr>
