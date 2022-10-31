@@ -99,22 +99,31 @@ eleventyComputed:
         </table>
         <h4>Nearby grounds</h4>
         <ul>
-          {% for rival in grounds %}
+          {% for away in grounds %}
+            {# Call distance shortcode to determine mile distance between 
+              latitude and longitude of home and away grounds
+            #}
             {% set distance %}
             {% distance
             ground.latitude,
             ground.longitude,
-            rival.latitude,
-            rival.longitude
+            away.latitude,
+            away.longitude
  %}
             {% endset %}
-            {% if distance < 15 and rival.name != ground.name %}
+            {# Select grounds within 20 mile radius #}
+            {% if distance < 20 and away.name != ground.name %}
               <li>
-                <a href="/ground/{{rival.region|slugify}}/{{rival.name|slugify}}">{{ rival.name }}</a>
-                {%- if rival.sponsor %}, aka {{ rival.sponsor }}
-                {% endif %} ({{ distance | round(1) }} mi). 
-        {% endif%}
-              {% endfor %}
+                {% for c in clubs %}
+                  {% if c.ground == away.name %}
+                    <a href="/club/{{ c.name | slugify }}">{{ fc(c.name) }}</a>
+                  {% endif %}
+                {% endfor %} at 
+                <a href="/ground/{{away.region|slugify}}/{{away.name|slugify}}">{{ away.name }}</a>
+                ({{ distance | round(1) }} mi)
+              </li>
+              {% endif%}
+            {% endfor %}
           </ul>
         </section>
         <aside>
