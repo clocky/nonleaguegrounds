@@ -42,7 +42,7 @@ eleventyComputed:
                         {% set club = "" %}
                         {% for c in clubs %}
                             {% if c.ground == ground.name %}
-                                {{ c.name }}
+                                <a href="/club/{{ c.name | slugify }}" class="secondary">{{ c.name }}</a>
                                 {% set club = c %}
                             {% endif %}
                         {% endfor %}
