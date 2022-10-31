@@ -1,0 +1,11 @@
+---
+permalink: /debug.html
+---
+
+<ul>
+    {% for club in clubs %}
+        <li>
+            <a href="https://twitter.com/search?q={{club.name | lower | urlencode }}&f=user" target="_blank">{{ club.name }}</a>
+        </li>
+    {% endfor %}
+</ul>
