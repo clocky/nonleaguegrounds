@@ -36,8 +36,16 @@ module.exports = function (eleventyConfig) {
     const extname = path.extname(outputPath);
     switch (extname) {
       case ".html":
-        const parser = extname.replace(/^./, "");
-        return prettier.format(content, { printWidth: 512, parser: parser });
+        return prettier.format(content, { printWidth: 512, parser: "html" });
+
+      case ".css":
+        return prettier.format(content, { printWidth: 80, parser: "css" });
+
+      case ".yaml":
+        return prettier.format(content, { printWidth: 80, parser: "yaml" });
+
+      case ".json":
+        return prettier.format(content, { printWidth: 80, parser: "json" });
 
       default:
         return content;
