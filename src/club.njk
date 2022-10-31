@@ -113,7 +113,7 @@ emoji %}
             <strong>
               <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">{{ club.ground }}</a>
             </strong>
-          {% endif %}
+          {%- endif -%}
           {%- if ground.sponsor -%}
           , known by the official name of <strong>
               <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">{{ ground.sponsor }}</a>
