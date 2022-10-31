@@ -208,7 +208,7 @@ eleventyComputed:
         </figcaption>
       </figure>
       <figure>
-        <img src="https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels/{{ground.latitude}},{{ground.longitude}}/18?mapSize=640,480&query={{ground.name | urlencode}}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}">
+        <img src="https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels/{{ground.latitude}},{{ground.longitude}}/18?mapSize=640,480&query={{ground.name | urlencode}}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}"  alt="An aerial photograph of {{ ground.name }} in {{ ground.locality }}, {{ ground.region }}.">
         <figcaption>
           <small>Bing Aerial view of {{ ground.name }}, {{ ground.locality }}</small>
         </figcaption>
