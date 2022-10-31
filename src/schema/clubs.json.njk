@@ -1,0 +1,59 @@
+---
+permalink: /schema/clubs.json
+---
+[
+{% for club in clubs %}
+   { 
+    "@context": "https://schema.org",
+    "@type": "SportsTeam",
+    "sport": "Soccer",
+    "identifier": {
+        "@type": "url",
+        "@value": "{{ meta.base }}/club/{{ club.name | slugify }}"
+    },
+    "name": "{{ club.name }}",
+    {%- if club.url %}
+    "url": "https://{{ club.url }}",
+    {%- endif %}
+    "foundingDate": {
+        "@type": "Date",
+        "@value": "{{ club.founded | date("YYYY")}}"
+    },
+    {% for l in leagues %}
+        {% for c in l.clubs %}
+            {% if c.name == club.name %}
+                "memberOf": {
+                    "@type": "SportsOrganization",
+                    "name": "{{ l.name }}",
+                    "sport": "Soccer",
+                    "url": "{{ meta.base }}/league/{{ l.name | slugify }}",
+                    "sponsor": {
+                        "@type": "Organization",
+                        "name": "{{ l.sponsor }}"
+                    },
+                    "identifier": {
+                        "@type": "url",
+                        "@value": "{{ meta.base }}/league/{{ l.name | slugify }}"
+                    }
+                },
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% for g in grounds %}
+        {% if club.ground == g.name %}
+        "address": {
+            "@type": "PostalAddress",
+            {%- if g.street %}
+            "streetAddress": "{{ g.street }}",
+            {%- endif %}
+            "addressLocality": "{{ g.locality }}",
+            "addressRegion": "{{ g.region }}",
+            "postalCode": "{{ g.postcode }}",
+            "addressCountry": "GB"
+        }
+        {% endif %}
+    {% endfor %}
+
+   }{% if not loop.last %},{% endif %}
+{% endfor %}
+]
