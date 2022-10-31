@@ -30,16 +30,15 @@ eleventyComputed:
         <tbody>
             {% for ground in grounds | sort(attribute = "capacity") | reverse %}
                 <tr id="{{ ground.name | slugify }}">
-                    <td valign="top">
+                    <td>
                         {{ loop.index | ordinal }}
                     </td>
-                    <td>
+                    <th>
                         <a href="/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}">
                             {{ ground.name }}
-                        </a><br/>
-                        <small>{{ ground.sponsor }}</small>
-                    </td>
-                    <td valign="top">
+                        </a>
+                    </th>
+                    <td>
                         {% set club = "" %}
                         {% for c in clubs %}
                             {% if c.ground == ground.name %}
@@ -48,7 +47,7 @@ eleventyComputed:
                             {% endif %}
                         {% endfor %}
                     </td>
-                    <td valign="top">
+                    <td>
                         {{ ground.capacity | commaNumber }}
                     </td>
                 </tr>
