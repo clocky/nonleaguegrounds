@@ -15,6 +15,7 @@
   status: professional
   founded: 1891
   url: altrinchamfc.com
+  twitter: altrinchamfc
   kit:
     - Red
     - White
@@ -25,6 +26,7 @@
   status: professional
   founded: 1888
   url: barnetfc.com
+  twitter: BarnetFC
   kit:
     - Black
     - DarkOrange
@@ -34,6 +36,7 @@
   ground: Meadow Park
   status: semi-professional
   founded: 1948
+  twitter: BOREHAM_WOODFC
   url: borehamwoodfootballclub.co.uk
 
 - name: Bromley
@@ -41,6 +44,7 @@
   ground: Hayes Lane
   status: professional
   founded: 1892
+  twitter: bromleyfc
   url: bromleyfc.tv
 
 - name: Chesterfield
@@ -48,6 +52,7 @@
   ground: Technique Stadium
   status: professional
   founded: 1919
+  twitter: ChesterfieldFC
   url: chesterfield-fc.co.uk
 
 - name: Dagenham and Redbridge
@@ -55,6 +60,7 @@
   ground: Victoria Road
   status: professional
   founded: 1992
+  twitter: Dag_RedFC
   url: daggers.co.uk
 
 - name: Dorking Wanderers
@@ -62,6 +68,7 @@
   ground: Meadowbank
   status: semi-professional
   founded: 1999
+  twitter: DorkingWDRS
   url: dorkingwanderers.com
 
 - name: Eastleigh
@@ -69,6 +76,7 @@
   ground: Ten Acres
   status: professional
   founded: 1946
+  twitter: eastleighfc
   url: eastleighfc.com
 
 - name: FC Halifax Town
@@ -76,6 +84,7 @@
   ground: The Shay
   status: professional
   founded: 2008
+  twitter: FCHTOnline
   url: fchalifaxtown.com
 
 - name: Gateshead
@@ -83,6 +92,7 @@
   ground: Gateshead International Stadium
   status: professional
   founded: 1977
+  twitter: GatesheadFC
   url: gateshead-fc.com
 
 - name: Maidenhead United
@@ -90,12 +100,14 @@
   ground: York Road
   status: semi-professional
   founded: 1870
+  twitter: MUFCYorkRoad
   url: maidenheadunitedfc.ktckts.com
 
 - name: Maidstone United
   nickname: The Stones
   ground: Gallagher Stadium
   founded: 1992
+  twitter: maidstoneunited
   url: maidstoneunited.co.uk
 
 - name: Notts County
@@ -103,6 +115,7 @@
   ground: Meadow Lane
   status: professional
   founded: 1862
+  twitter: Official_NCFC
   url: nottscountyfc.co.uk
 
 - name: Oldham Athletic
@@ -110,6 +123,7 @@
   ground: Boundary Park
   status: professional
   founded: 1895
+  twitter: OfficialOAFC
   url: oldhamathletic.co.uk
 
 - name: Solihull Moors
@@ -117,6 +131,7 @@
   ground: Damson Park
   status: professional
   founded: 2007
+  twitter: SolihullMoors
   url: solihullmoorsfc.co.uk
 
 - name: Southend United
@@ -124,6 +139,7 @@
   ground: Roots Hall
   status: professional
   founded: 1906
+  twitter: SUFCRootsHall
   url: southendunited.co.uk
 
 - name: Scunthorpe United
@@ -131,13 +147,15 @@
   ground: Glanford Park
   status: professional
   founded: 1899
+  twitter: SUFCOfficial
   url: scunthorpe-united.co.uk
 
-- name: Torquay United
+- name: Torquay United AFC
   nickname: The Gulls
   ground: Plainmoor
   status: professional
   founded: 1899
+  twitter: TUFC1899
   url: torquayunited.com
 
 - name: Wealdstone
@@ -145,6 +163,7 @@
   ground: Grosvenor Vale
   status: semi-professional
   founded: 1899
+  twitter: WealdstoneFC
   url: wealdstone-fc.com
 
 - name: Woking
@@ -152,6 +171,7 @@
   status: professional
   founded: 1887
   ground: Kingfield Stadium
+  twitter: wokingfc
   url: wokingfc.co.uk
 
 - name: Yeovil Town
@@ -159,6 +179,7 @@
   founded: 1895
   status: professional
   ground: Huish Park
+  twitter: YTFC
   url: ytfc.net
 
 - name: York City
@@ -166,6 +187,7 @@
   ground: York Community Stadium
   status: professional
   founded: 1922
+  twitter: YorkCityFC
   url: yorkcityfootballclub.co.uk
 
 - name: AFC Fylde
@@ -173,6 +195,7 @@
   ground: Mill Farm
   status: professional
   founded: 1988
+  twitter: AFCFylde
   url: afcfylde.co.uk
   kit:
     - "#DB4433"
@@ -183,6 +206,7 @@
   ground: New Bucks Head
   founded: 2004
   url: telfordunited.com
+  twitter: telfordutd
   kit:
     - "#182849"
 
@@ -190,18 +214,21 @@
   nickname: The Reds
   ground: North Street
   founded: 1959
+  twitter: AlfretonTownFC
   url: alfretontownfootballclub.com
 
 - name: Banbury United
   nickname: The Puritans
   ground: Spencer Stadium
   founded: 1931
+  twitter: BanburyUnitedFC
   url: banburyunitedfc.co.uk
 
 - name: Blyth Spartans AFC
   nickname: The Spartans
   ground: Croft Park
   founded: 1899
+  twitter: Blyth_Spartans
   url: blythspartans.com
 
 - name: Boston United
