@@ -28,8 +28,12 @@ permalink: /schema/grounds.json
     }
     },
     "maximumAttendeeCapacity": {{ ground.capacity }},
+    {%- if ground.latitude %}
     "latitude": {{ ground.latitude }},
+    {%- endif %}
+    {%- if ground.longitude %}
     "longitude": {{ ground.longitude }},
+    {%- endif %}
    }{% if not loop.last %},{% endif %}
 
 {% endfor %}
