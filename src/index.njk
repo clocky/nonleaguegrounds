@@ -15,7 +15,7 @@ layout: base.njk
     {% for league in leagues %}
         <h2>{{ league.name | replace(" ", "\n") | nl2br | safe }}</h2>
         <div class="grid">
-            {% for column in league.clubs | batch(league.clubs.length / 4)%}
+            {% for column in league.clubs | batch(6)%}
                 <ul>
                     {% for team in column %}
                         <li>
