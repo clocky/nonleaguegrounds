@@ -21,6 +21,41 @@ eleventyComputed:
   {% endif %}
 {% endfor %}
 
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "StadiumOrArena",
+    "name": "{{ ground.name }}",
+    "maximumAttendeeCapacity": "{{ ground.capacity }}",
+    "latitude": "{{ ground.latitude }}",
+    "longitude": "{{ ground.longitude }}",
+    "identifier": {
+      "@type": "url",
+      "@id": "{{ meta.base }}/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}"
+    },
+    {%- if ground.sponsor %}
+      "sponsor": "{{ ground.sponsor }}",
+    {%- endif %}
+    "address": {
+      "@type": "PostalAddress",
+      {%- if ground.street %}"streetAddress": "{{ ground.street }}",{%- endif %}
+      "addressLocality": "{{ ground.locality }}",
+      "addressRegion": "{{ ground.region }}",
+      "postalCode": "{{ ground.postcode }}",
+      "addressCountry": {
+        "@type": "Country",
+        "name": "GB"
+      }
+    },
+    {%- if ground.sponsor %}
+      "sponsor": {
+        "@type": "Organization",
+        "name": "{{ ground.sponsor | replace(ground.name, '') | trim}}"
+      }
+    {%- endif %}
+  }
+</script>
+
 <header class="container-fluid hero" id="{{ ground.name | slugify }}" data-theme="dark">
   <div class="container">
     <h1>

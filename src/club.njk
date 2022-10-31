@@ -33,26 +33,50 @@ emoji %}
   {
     "@context": "https://schema.org",
     "@type": "SportsTeam",
+    "identifier": {
+      "@type": "url",
+      "@value": "{{ meta.base }}/club/{{ club.name | slugify }}"
+    },
     "name": "{{ club.name }}",
     "alternateName": "{{ club.nickname }}",
-    "url": "https://{{ club.url }}",
+    {%- if club.url %}
+      "url": "https://{{ club.url }}",
+    {%- endif %}
+    "foundingDate": "{{ club.founded }}",
     "sport": "Soccer",
     "areaServed": {
       "@type": "City",
       "name": "{{ ground.locality }}"
     },
-    "foundingDate": "{{ club.founded }}",
     "memberOf": {
       "@type": "SportsOrganization",
+      "sport": "Soccer",
       "name": "{{ league.name }}",
       "url": "https://{{ league.url }}/"
     },
     "location": {
-      "@type": "PostalAddress",
-      "streetAddress": "{{ ground.street }}",
-      "addressLocality": "{{ ground.locality }}",
-      "addressRegion": "{{ ground.region }}",
-      "postalCode": "{{ ground.postcode }}"
+      "@type": "StadiumOrArena",
+      "name": "{{ ground.name }}",
+      "maximumAttendeeCapacity": "{{ ground.capacity }}",
+      "address": {
+        "@type": "PostalAddress",
+        {%- if ground.street %}"streetAddress": "{{ ground.street }}",{%- endif %}
+        "addressLocality": "{{ ground.locality }}",
+        "addressRegion": "{{ ground.region }}",
+        "postalCode": "{{ ground.postcode }}",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "GB"
+        }
+      },
+      "latitude": "{{ ground.latitude }}",
+      "longitude": "{{ ground.longitude }}",
+      {%- if ground.sponsor %}
+        "sponsor": {
+          "@type": "Organization",
+          "name": "{{ ground.sponsor | replace(ground.name, '') | trim}}"
+        }
+      {%- endif %}
     }
   }
 </script>

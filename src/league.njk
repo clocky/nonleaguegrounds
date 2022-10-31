@@ -29,12 +29,15 @@ eleventyComputed:
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": "SportsOrganization",
         "name": "{{ league.name }}",
-        "alternateName": "{{ league.sponsor }}
- {{ league.name }}",
- "sponsor": "{{ league.sponsor }}",
-        "url": "https://{{ league.url }}"
+        "alternateName": "{{ league.sponsor }} {{ league.name }}",
+        "sponsor": "{{ league.sponsor }}",
+        "url": "https://{{ league.url }}",
+        "identifier": {
+            "@type": "url",
+            "@value": "{{ meta.base }}/league/{{ league.name | slugify }}"
+        },    
     }
 </script>
 
