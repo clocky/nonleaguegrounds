@@ -5,7 +5,9 @@ layout: base.njk
     <div class="container">
         <h1>{{ meta.title | replace(" ", "\n") | nl2br | safe}}</h1>
         <div class="grid">
-            <h5>{{ meta.description }}</h5>
+            <p>
+                <strong>{{ meta.description }}</strong>
+            </p>
             <p></p>
         </div>
     </div>
