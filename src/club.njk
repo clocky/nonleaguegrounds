@@ -151,11 +151,7 @@ emoji %}
               <th>Ground</th>
               <td>
                 <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">
-                  {% if ground.sponsor %}
-                    {{ ground.sponsor }}
-                  {% else %}
-                    {{ club.ground }}
-                  {% endif %}
+                  {{ club.ground }}
                 </a>
               </td>
             </tr>
