@@ -58,16 +58,15 @@ emoji %}
 </script>
 
 <header class="container-fluid hero" id="{{ ground.name | slugify }}" data-theme="dark">
-  <div class="container">
-    <h1>{{ club.name | replace(" ", "\n") | nl2br | safe}}</h1>
+  <div class="container" >
+    <h1 id="{{ club.name | slugify }}">{{ club.name | replace(" ", "\n") | nl2br | safe}}</h1>
   </div>
 </header>
 
-<main class="container">
+<main class="container" >
   <div class="grid">
     <section>
       <p>
-
         <strong>{{ fc(club.name, true) }}</strong> is a {{club.status}} football club
         {%- if ground.locality and ground.region -%}
         &nbsp;based in {{ ground.locality }}, {{ ground.region }}
@@ -154,6 +153,14 @@ emoji %}
               <th>Web</th>
               <td>
                 <a href="https://{{ club.url }}/" target="_blank">{{ club.url }} ↗ </a>
+              </td>
+            </tr>
+          {% endif %}
+          {% if club.twitter %}
+            <tr>
+              <th>Twitter</th>
+              <td>
+                <a href="https://twitter.com/@{{ club.twitter }}/" target="_blank">{{ club.twitter }} ↗ </a>
               </td>
             </tr>
           {% endif %}
