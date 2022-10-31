@@ -30,6 +30,7 @@
 - name: "National League North"
   tier: 6
   sponsor: "Vanarama"
+  promotion: National League
   url: www.thenationalleague.org.uk
   clubs:
     - name: AFC Fylde
@@ -59,6 +60,7 @@
 - name: "National League South"
   tier: 6
   sponsor: "Vanarama"
+  promotion: National League
   url: www.thenationalleague.org.uk
   clubs:
     - name: Bath City
@@ -85,3 +87,31 @@
     - name: Welling United
     - name: Weymouth
     - name: Worthing
+- name: Isthmian League Premier Division
+  tier: 7
+  sponsor: Pitching In
+  promotion: National League South
+  url: www.isthmian.co.uk
+  clubs:
+    - name: Aveley
+    - name: Billericay Town
+    - name: Bishop's Stortford
+    - name: Bognor Regis Town
+    - name: Bowers and Pitsea
+    - name: Brightlingsea Regent
+    - name: Canvey Island
+    - name: Carshalton Athletic
+    - name: Corinthian-Casuals
+    - name: Cray Wanderers
+    - name: Enfield Town
+    - name: Folkestone Invicta
+    - name: Haringey Borough
+    - name: Hastings United
+    - name: Herne Bay
+    - name: Hornchurch
+    - name: Horsham
+    - name: Kingstonian
+    - name: Lewes
+    - name: Margate
+    - name: Potters Bar Town
+    - name: Wingate and Finchley

@@ -655,3 +655,208 @@
   capacity: 3034
   latitude: 51.408934
   longitude: -1.513463
+
+- name: Parkside
+  streetname: Park Lane
+  locality: Aveley
+  region: Essex
+  postcode: RM15 4PX
+  capacity: 3500
+  latitude: 51.503481
+  longitude: 0.261341
+  surface: 4th generation artificial grass
+  tel: 07516 934 890
+  email: info@parksideaveley.co.uk
+
+- name: New Lodge
+  street: Blunts Wall Road
+  locality: Billericay
+  region: Essex
+  postcode: CM12 9SA
+  capacity: 5000
+  surface: grass
+  latitude: 51.621776
+  longitude: 0.403297
+
+- name: Nyewood Lane
+  capacity: 4500
+  locality: Bognor Regis
+  region: Sussex
+  postcode: PO21 2TY
+  latitude: 50.786982
+  longitude: -0.690213
+
+- name: Woodside Park
+  sponsor: ProKit UK Stadium
+  capacity: 4525
+  street: Dunmow Road
+  locality: Bishops Stortford
+  region: Essex
+  postcode: CM23 5RG
+  latitude: 51.872673
+  longitude: 0.191994
+
+- name: Len Salmon Stadium
+  capacity: 3500
+  street: Crown Ave
+  locality: Basildon
+  postcode: SS13 2BE
+  region: Essex
+  latitude: 51.574050
+  longitude: 0.518133
+
+- name: North Road
+  capacity: 1000
+  locality: Colchester
+  region: Essex
+  postcode: CO7 0PL
+  latitude: 51.815817
+  longitude: 1.026387
+
+- name: Park Lane
+  capacity: 4100
+  sponsor: The Movie Starr Stadium
+  locality: Canvey Island
+  region: Essex
+  postcode: SS8 7PX
+  latitude: 51.516461
+  longitude: 0.615713
+
+- name: War Memorial Sports Ground
+  capacity: 5000
+  street: Colston Avenue
+  locality: Sutton
+  postcode: SM5 2PW
+  region: Surrey
+  latitude: 51.369704
+  longitude: -0.171790
+
+- name: King George V Arena
+  sponsor: The United Business Group Stadium
+  street: Queen Mary Close
+  locality: Tolworth
+  region: Surrey
+  postcode: KT6 7NA
+  capacity: 2000
+  latitude: 51.372154
+  longitude: -0.287229
+
+- name: Queen Elizabeth II Stadium
+  capacity: 2500
+  street: Donkey Lane
+  locality: Enfield
+  region: Middlesex
+  postcode: EN1 3PL
+  latitude: 51.659332
+  longitude: -0.063843
+
+- name: Cheriton Road
+  capacity: 4000
+  seated: 336
+  sponsor: The Buildkent Stadium
+  locality: Folkestone
+  region: Kent
+  postcode: CT19 5JU
+  latitude: 51.086574
+  longitude: 1.159508
+
+- name: Coles Park
+  capacity: 2500
+  seated: 280
+  street: White Hart Lane
+  locality: London
+  region: Middlesex
+  postcode: N17 7JP
+  latitude: 51.605623
+  longitude: -0.092660
+
+- name: The Pilot Field
+  capacity: 4050
+  seats: 800
+  street: Elphinstone Road
+  locality: Hastings
+  region: Sussex
+  postcode: TN34 2AX
+  latitude: 50.874501
+  longitude: 0.587099
+
+- name: Winch's Field
+  capacity: 3000
+  seated: 200
+  sponsor: The MBS Stadium
+  street: Stanley Gardens
+  locality: Herne Bay
+  region: Kent
+  postcode: CT6 5SG
+  latitude: 51.364685
+  longitude: 1.129948
+
+- name: Hornchurch Stadium
+  capacity: 3000
+  seated: 800
+  street: Bridge Avenue
+  locality: Upminster
+  region: Essex
+  postcode: RM14 2LX
+  latitude: 51.556557
+  longitude: 0.238370
+  tel: 01708 220080
+
+- name: Hop Oast Stadium
+  sponsor: The Camping World Community Stadium
+  capacity: 1980
+  street: Worthing Road
+  locality: Horsham
+  region: Sussex
+  postcode: RH13 0AD
+  latitude: 51.046893
+  longitude: -0.340681
+
+- name: Imperial Fields
+  capacity: 3500
+  seated: 612
+  street: Bishopsford Road
+  locality: Morden
+  region: Surrey
+  postcode: SM4 6BF
+  latitude: 51.393231
+  longitude: -0.172327
+
+- name: The Dripping Pan
+  capacity: 3000
+  street: Mountfield Road
+  locality: Lewes
+  region: Sussex
+  postcode: BN7 2XA
+  latitude: 50.869019
+  longitude: 0.012321
+
+- name: Hartsdown Park
+  capacity: 2100
+  seated: 400
+  locality: Margate
+  region: Kent
+  street: Tivoli Park Avenue, M
+  postcode: CT9 5QY
+  latitude: 51.380459
+  longitude: 1.373928
+
+- name: Parkfield
+  capacity: 2500
+  sponsor: The Lantern Stadium
+  street: The Walk
+  locality: Potters Bar
+  region: Hertfordshire
+  postcode: EN6 1QN
+  latitude: 51.696188
+  longitude: -0.177662
+
+- name: The Maurice Rebak Stadium
+  locality: Finchley
+  capacity: 1500
+  seated: 500
+  street: Summers Lane
+  region: Middlesex
+  postcode: N12 0PD
+  latitude: 51.606848
+  longitude: -0.171497

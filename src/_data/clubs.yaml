@@ -470,3 +470,128 @@
   founded: 1864
   ground: Racecourse Ground
   url: wrexhamafc.co.uk
+
+- name: Aveley
+  nickname: The Millers
+  founded: 1927
+  ground: Parkside
+  url: pitchero.com/clubs/aveley
+
+- name: Billericay Town
+  nickname: The Blues
+  founded: 1880
+  ground: New Lodge
+  url: billericaytownfc.co.uk
+
+- name: Bishop's Stortford
+  nickname: The Blues
+  founded: 1874
+  ground: Woodside Park
+  url: bsfc.co.uk
+
+- name: Bognor Regis Town
+  nickname: The Rocks
+  founded: 1883
+  ground: Nyewood Lane
+  url: pitchero.com/clubs/bognorregistownfc
+
+- name: Bowers and Pitsea
+  nickname: The Bowers
+  founded: 1946
+  ground: Len Salmon Stadium
+
+- name: Brightlingsea Regent
+  nickname: The Rs
+  founded: 2005
+  ground: North Road
+  url: brightlingsearegentfc.com
+
+- name: Canvey Island
+  nickname: The Gulls
+  founded: 1926
+  ground: Park Lane
+  url: canveyislandfc.com
+
+- name: Carshalton Athletic
+  nickname: The Robins
+  founded: 1905
+  ground: War Memorial Sports Ground
+  url: carshaltonathletic.co.uk
+
+- name: Corinthian-Casuals
+  nickname: The Casuals
+  founded: 1939
+  ground: King George V Arena
+
+- name: Cray Wanderers
+  status: semi-professional
+  nickname: The Wands
+  founded: 1860
+  ground: Hayes Lane
+
+- name: Enfield Town
+  nickname: The Towners
+  founded: 2001
+  ground: Queen Elizabeth II Stadium
+  url: etfc.london
+
+- name: Folkestone Invicta
+  nickname: The Seasiders
+  ground: Cheriton Road
+  founded: 1936
+
+- name: Haringey Borough
+  nickname: The Borough
+  founded: 1973
+  ground: Coles Park
+
+- name: Hastings United
+  nickname: The U's
+  founded: 1893
+  ground: The Pilot Field
+  url: hastingsunited.com
+
+- name: Herne Bay
+  nickname: The Bay
+  founded: 1886
+  ground: Winch's Field
+
+- name: Hornchurch
+  nickname: The Urchins
+  founded: 1923
+  ground: Hornchurch Stadium
+  url: hornchurchfc.com
+
+- name: Horsham
+  nickname: The Hornets
+  founded: 1871
+  ground: Hop Oast Stadium
+
+- name: Kingstonian
+  nickname: The Ks
+  founded: 1885
+  ground: Imperial Fields
+
+- name: Lewes
+  nickname: The Rooks
+  founded: 1885
+  ground: The Dripping Pan
+
+- name: Margate
+  nickname: The Gate
+  founded: 1896
+  ground: Hartsdown Park
+  url: margate-fc.co.uk
+
+- name: Potters Bar Town
+  nickname: The Scholars
+  founded: 1960
+  ground: Parkfield
+  region: Middlesex
+  url: pitchero.com/clubs/pottersbartownfc/
+
+- name: Wingate and Finchley
+  nickname: The Blues
+  founded: 1991
+  ground: The Maurice Rebak Stadium
+  url: wingatefinchley.com
