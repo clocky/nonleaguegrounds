@@ -27,7 +27,9 @@ permalink: /schema/grounds.json
         "name": "GB"
     }
     },
+    {%- if ground.capacity %}
     "maximumAttendeeCapacity": {{ ground.capacity }},
+    {%- endif %}
     {%- if ground.latitude %}
     "latitude": {{ ground.latitude }},
     {%- endif %}
