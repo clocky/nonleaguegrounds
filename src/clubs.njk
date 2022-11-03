@@ -5,21 +5,15 @@ title: Clubs
 eleventyComputed:
     description: "A directory of {{ clubs.length }} non-league clubs, sorted alphabetically"
 ---
-{% from "macros.njk" import fc %}
-{% from "macros.njk" import emoji %}
+{% from "macros.njk" import emoji,
+fc,
+hero %}
 
-<header class="container-fluid hero" id="club" data-theme="dark">
-    <div class="container">
-        <h1>Clubs</h1>
-        <div class="grid">
-            <p><strong>A directory of {{ clubs.length }} non-league clubs, sorted alphabetically</strong></p>
-            <p></p>
-        </div>
-    </div>
-</header>
+{% set subtitle %}A directory of {{ clubs.length }} non-league clubs, sorted alphabetically{% endset %}
+{{ hero("Clubs", subtitle, "club")}}
 
 <main class="container">
-    <table role="grid">
+    <table class="table">
         <thead>
             <tr>
                 <th scope="col">Club</th>
@@ -56,10 +50,8 @@ eleventyComputed:
     </table>
 
 </main>
-<footer class="container-fluid">
+<footer class="footer">
     <div class="container">
-        <small>
             Photo by <a href="https://unsplash.com/@nickxshotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nicholas Green</a> on <a href="https://unsplash.com/s/photos/soccer-crowd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-        </small>
     </div>
 </footer>

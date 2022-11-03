@@ -1,5 +1,5 @@
-@use "../../node_modules/@picocss/pico/scss/pico";
-
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWYabdcefghiklmnopqrstuvwxyz()'");
 @import url("https://fonts.googleapis.com/css?family=Noto+Emoji&display=swap&text=🏟️⚽🏆󠁧󠁢󠁷󠁬󠁳🐦󠁧󠁢󠁷󠁬󠁳🐝🪵🐦⛪🗡️󠁧󠁢󠁷󠁬󠁳🏃󠁧󠁢󠁷󠁬󠁳✈️󠁧󠁢󠁷󠁬󠁳🏁🐦🪨🐦󠁧󠁢󠁷󠁬󠁳🏃󠁧󠁢󠁷󠁬󠁳🦐🧲🐦🪨🔴󠁧󠁢󠁷󠁬󠁳🧤⛪🏖️🦌🔴󠁧󠁢󠁷󠁬󠁳⚔️󠁧󠁢󠁷󠁬󠁳😇🪖🦌󠁧󠁢󠁷󠁬󠁳🦭🐦󠁧󠁢󠁷󠁬󠁳󠁧󠁢󠁷󠁬🪖🐯🐂󠁧󠁢󠁷󠁬󠁳🌺󠁧󠁢󠁷󠁬󠁳👶🐦󠁧󠁢󠁷󠁬󠁳✋󠁧󠁢󠁷󠁬󠁳✈️🐶🏖️󠁧󠁢󠁷󠁬󠁳🧲🔴󠁧󠁢󠁷󠁬󠁳🐦🏖️󠁧󠁢󠁷󠁬󠁳🎯⚪󠁧󠁢󠁷󠁬󠁳🏠󠁧󠁢󠁷󠁬󠁳🦫🦅󠁧󠁢󠁷󠁬󠁳👑⚔️󠁧󠁢󠁷󠁬󠁳⭕󠁧󠁢󠁷󠁬󠁳✊😇🦚😇🦅🌎󠁧󠁢󠁷󠁬󠁳✊🏴󠁧󠁢󠁷󠁬󠁳󠁿🙏🏻🍞🎻🇷🇰🪄👦🚪♟️🎓🍷");
 
@@ -8,48 +8,11 @@
   color: #000;
 }
 
-[data-theme="light"],
-:root:not([data-theme="dark"]) {
-  --primary: #107c10;
-  --primary-hover: #0b6a0b;
-  --primary-focus: #8cbd18
-  --primary-inverse: #ffffff;
-  h1,h2, nav strong{
-    font-family: "Rubik Mono One", sans-serif;
-    font-weight: 400;
-    line-height: 1.75rem;
-  }
-  h1 {
-    display: inline-block;
-    padding: 0.5rem 0.75rem;
-    background-color: #000000;
-
-  }
-  nav li strong a {
-    color: #212121;
-    &:hover {
-      color: var(--primary);
-    }
-  }
-}
-
-footer[data-theme="dark"] {
-  background-color: #212121
-}
-
-th {
-  font-weight: 500;
-}
-
 .hero {
   background-color: rgba(0, 0, 0, 0.1);
   background-position: center;
   background-size: cover;
   background-blend-mode: darken;
-}
-
-:target {
-  border: 2px solid #000000;
 }
 
 #club {

@@ -16,183 +16,193 @@ emoji %}
 {% set league = "" %}
 
 {% for g in grounds %}
-  {% if g.name == club.ground %}
-    {% set ground = g %}
-  {% endif %}
+    {% if g.name == club.ground %}
+        {% set ground = g %}
+    {% endif %}
 {% endfor %}
 
 {% for l in leagues %}
-  {% for c in l.clubs %}
-    {% if c.name == club.name %}
-      {% set league = l %}
-    {% endif %}
-  {% endfor %}
+    {% for c in l.clubs %}
+        {% if c.name == club.name %}
+            {% set league = l %}
+        {% endif %}
+    {% endfor %}
 {% endfor %}
 
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SportsTeam",
-    "identifier": {
-      "@type": "url",
-      "@value": "{{ meta.base }}/club/{{ club.name | slugify }}"
-    },
-    "name": "{{ club.name }}",
-    "alternateName": "{{ club.nickname }}",
-    {%- if club.url %}
-      "url": "https://{{ club.url }}",
-    {%- endif %}
-    "foundingDate": {
-      "@type": "Date",
-      "@value": "{{ club.founded | date(" YYYY ") | trim }}"
-    },
-    "sport": "Soccer",
-    "areaServed": {
-      "@type": "City",
-      "name": "{{ ground.locality }}"
-    },
-    "memberOf": {
-      "@type": "SportsOrganization",
-      "sport": "Soccer",
-      "name": "{{ league.name }}",
-      "url": "https://{{ league.url }}/"
-    },
-    "location": {
-      "@type": "StadiumOrArena",
-      "name": "{{ ground.name }}",
-      "maximumAttendeeCapacity": "{{ ground.capacity }}",
-      "address": {
-        "@type": "PostalAddress",
-        {%- if ground.street %}"streetAddress": "{{ ground.street }}",{%- endif %}
-        "addressLocality": "{{ ground.locality }}",
-        "addressRegion": "{{ ground.region }}",
-        "postalCode": "{{ ground.postcode }}",
-        "addressCountry": {
-          "@type": "Country",
-          "name": "GB"
+    {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "identifier": {
+            "@type": "url",
+            "@value": "{{ meta.base }}/club/{{ club.name | slugify }}"
+        },
+        "name": "{{ club.name }}",
+        "alternateName": "{{ club.nickname }}",
+        {%- if club.url %}
+            "url": "https://{{ club.url }}",
+        {%- endif %}
+        "foundingDate": {
+            "@type": "Date",
+            "@value": "{{ club.founded | date(" YYYY ") | trim }}"
+        },
+        "sport": "Soccer",
+        "areaServed": {
+            "@type": "City",
+            "name": "{{ ground.locality }}"
+        },
+        "memberOf": {
+            "@type": "SportsOrganization",
+            "sport": "Soccer",
+            "name": "{{ league.name }}",
+            "url": "https://{{ league.url }}/"
+        },
+        "location": {
+            "@type": "StadiumOrArena",
+            "name": "{{ ground.name }}",
+            "maximumAttendeeCapacity": "{{ ground.capacity }}",
+            "address": {
+                "@type": "PostalAddress",
+                {%- if ground.street %}"streetAddress": "{{ ground.street }}",{%- endif %}
+                "addressLocality": "{{ ground.locality }}",
+                "addressRegion": "{{ ground.region }}",
+                "postalCode": "{{ ground.postcode }}",
+                "addressCountry": {
+                    "@type": "Country",
+                    "name": "GB"
+                }
+            },
+            "latitude": "{{ ground.latitude }}",
+            "longitude": "{{ ground.longitude }}",
+            {%- if ground.sponsor %}
+                "sponsor": {
+                    "@type": "Organization",
+                    "name": "{{ ground.sponsor }}"
+                }
+            {%- endif %}
         }
-      },
-      "latitude": "{{ ground.latitude }}",
-      "longitude": "{{ ground.longitude }}",
-      {%- if ground.sponsor %}
-        "sponsor": {
-          "@type": "Organization",
-          "name": "{{ ground.sponsor }}"
-        }
-      {%- endif %}
     }
-  }
 </script>
 
-<header class="container-fluid hero" id="{{ ground.name | slugify }}" data-theme="dark">
-  <div class="container" >
-    <h1 id="{{ club.name | slugify }}">{{ club.name | replace(" ", "\n") | nl2br | safe}}</h1>
-  </div>
-</header>
+{% from "macros.njk" import hero %}
+{{ hero (club.name, club.nickname, ground.name | slugify) }}
 
-<main class="container" >
-  <div class="grid">
-    <section>
-      <p>
-        <strong>{{ fc(club.name, true) }}</strong> is a {{club.status}} football club
+<main>
+    <nav class="breadcrumb is-hidden-mobile" aria-label="breadcrumbs">
+        <ul class="container">
+            <li>
+                <a href="/">Non-League Grounds</a>
+            </li>
+            <li>
+                <a href="/league/{{ league.name | slugify }}">{{ league.name }}</a>
+            </li>
+            <li class="is-active">
+                <a href="/club/{{ club.name | slugify}}" aria-current="page">{{ fc(club.name)}}</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="columns">
+        <section class="section column is-6">
+            <p class="block">
+                <strong>{{ fc(club.name, true) }}</strong> is a {{club.status}} football club
         {%- if ground.locality and ground.region -%}
         &nbsp;based in {{ ground.locality }}, {{ ground.region }}
-        {%- endif %}.
+                {%- endif %}.
         </p>
-      <p>
+            <p class="block">
         Founded in {{ club.founded }} and
         known informally as <strong>{{ club.nickname }}</strong>, 
         they compete in the <a href="/league/{{ league.name | slugify }}/">{{ league.name }}</a>, the {{ league.tier | ordinal }} tier of the English football league system. 
     </p>
-      <p>
-        {%- if club.ground %}
-          {{ club.name }} play their home games at the {{ ground.capacity | commaNumber }}-capacity ground at 
+            <p class="block">
+                {%- if club.ground %}
+                    {{ club.name }} play their home games at the {{ ground.capacity | commaNumber }}-capacity ground at 
           {% if sponsor %}
-            <strong>{{ club.ground }}</strong>
-          {% else %}
-            <strong>
-              <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">{{ club.ground }}</a>
-            </strong>
-          {%- endif -%}
-          {%- if ground.sponsor -%}
+                        <strong>{{ club.ground }}</strong>
+                    {% else %}
+                        <strong>
+                            <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">{{ club.ground }}</a>
+                        </strong>
+                    {%- endif -%}
+                    {%- if ground.sponsor -%}
           , known by the official name of <strong>
-              <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">{{ ground.sponsor }}</a>
-            </strong> for sponsorship reasons
+                            <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">{{ ground.sponsor }}</a>
+                        </strong> for sponsorship reasons
           {%- endif -%}
           .
         {% endif %}
-      </p>
-    </section>
-    <aside>
-      <table role="grid">
-        <tbody>
-          <tr>
-            <th>Full name</th>
-            <td>{{ fc(club.name) }}</td>
-          </tr>
-          {% if club.nickname %}
-            <tr>
-              <th>Nickname</th>
-              <td>{{ club.nickname }}
-                <span class="emoji">{{emoji(club.nickname)}}</span>
-              </td>
-            </tr>
-          {% endif %}
-          {% if club.founded %}
-            <tr>
-              <th>Founded</th>
-              <td>
-                <time datetime="YYYY">{{ club.founded }}</time>
-              </td>
-            </tr>
-          {% endif %}
-          {% if club.ground %}
-            <tr>
-              <th>Ground</th>
-              <td>
-                <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">
-                  {{ club.ground }}
-                </a>
-              </td>
-            </tr>
-          {% endif %}
-          {% if ground.capacity %}
-            <tr>
-              <th>Capacity</th>
-              <td>{{ ground.capacity | commaNumber }}</td>
-            </tr>
-          {% endif %}
-          <tr>
-            <th>League</th>
-            <td>
-              <a href="/league/{{ league.name | slugify }}/">
-                {{ league.name }}
-              </a>
-            </td>
-          </tr>
-          {% if club.url %}
-            <tr>
-              <th>Web</th>
-              <td>
-                <a href="https://{{ club.url }}/" target="_blank">{{ club.url }} ↗ </a>
-              </td>
-            </tr>
-          {% endif %}
-          {% if club.twitter %}
-            <tr>
-              <th>Twitter</th>
-              <td>
-                <a href="https://twitter.com/@{{ club.twitter }}" target="_blank">@{{ club.twitter | lower }} ↗ </a>
-              </td>
-            </tr>
-          {% endif %}
-        </tbody>
-      </table>
-    </aside>
-  </div>
+            </p>
+        </section>
+        <aside class="column is-4">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th>Full name</th>
+                        <td>{{ fc(club.name) }}</td>
+                    </tr>
+                    {% if club.nickname %}
+                        <tr>
+                            <th>Nickname</th>
+                            <td>{{ club.nickname }}
+                                <span class="emoji">{{emoji(club.nickname)}}</span>
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if club.founded %}
+                        <tr>
+                            <th>Founded</th>
+                            <td>
+                                <time datetime="YYYY">{{ club.founded }}</time>
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if club.ground %}
+                        <tr>
+                            <th>Ground</th>
+                            <td>
+                                <a href="/ground/{{ ground.region | slugify }}/{{ club.ground | slugify }}/">
+                                    {{ club.ground }}
+                                </a>
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if ground.capacity %}
+                        <tr>
+                            <th>Capacity</th>
+                            <td>{{ ground.capacity | commaNumber }}</td>
+                        </tr>
+                    {% endif %}
+                    <tr>
+                        <th>League</th>
+                        <td>
+                            <a href="/league/{{ league.name | slugify }}/">
+                                {{ league.name }}
+                            </a>
+                        </td>
+                    </tr>
+                    {% if club.url %}
+                        <tr>
+                            <th>Web</th>
+                            <td>
+                                <a href="https://{{ club.url }}/" target="_blank">{{ club.url }} ↗ </a>
+                            </td>
+                        </tr>
+                    {% endif %}
+                    {% if club.twitter %}
+                        <tr>
+                            <th>Twitter</th>
+                            <td>
+                                <a href="https://twitter.com/@{{ club.twitter }}" target="_blank">@{{ club.twitter | lower }} ↗ </a>
+                            </td>
+                        </tr>
+                    {% endif %}
+                </tbody>
+            </table>
+        </aside>
+    </div>
 
-  <footer class="container">
-    <small>Background image supplied by <a href="https://developers.google.com/maps/documentation/maps-static/overview" target="_blank">Google Maps</a>
-    </small>
-  </footer>
+    <footer class="footer">
+        Background image supplied by <a href="https://developers.google.com/maps/documentation/maps-static/overview" target="_blank">Google Maps</a>
+    </footer>
 </main>

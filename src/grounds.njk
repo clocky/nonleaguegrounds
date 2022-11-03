@@ -6,60 +6,53 @@ eleventyComputed:
     description: "A directory of {{ grounds.length }} English non-league grounds, sorted by capacity."
 ---
 
-<header class="container-fluid hero" id="ground" data-theme="dark">
-    <div class="container">
-        <h1>Grounds</h1>
-        <div class="grid">
-            <p>
-                <strong>A directory of {{ grounds.length }} English non-league grounds, sorted by capacity</strong>
-            </p>
-            <p></p>
-        </div>
-    </div>
-</header>
+{% from "macros.njk" import hero %}
+{% set subtitle %}
+A directory of {{ grounds.length }} English non-league grounds, sorted by capacity
+{% endset %}
+{{ hero ("Grounds", subtitle, "ground")}}
 
-<main class="container">
-
-    <table role="grid">
-        <thead>
-            <tr>
-                <th scope="col">Pos</th>
-                <th scope="col">Name</th>
-                <th scope="col">Club</th>
-                <th scope="col">Capacity</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for ground in grounds | sort(attribute = "capacity") | reverse %}
-                <tr id="{{ ground.name | slugify }}">
-                    <td>
-                        {{ loop.index | ordinal }}
-                    </td>
-                    <th>
-                        <a href="/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}">
-                            {{ ground.name }}
-                        </a>
-                    </th>
-                    <td>
-                        {% set club = "" %}
-                        {% for c in clubs %}
-                            {% if c.ground == ground.name %}
-                                <a href="/club/{{ c.name | slugify }}" class="secondary">{{ c.name }}</a>
-                                {% set club = c %}
-                            {% endif %}
-                        {% endfor %}
-                    </td>
-                    <td>
-                        {{ ground.capacity | commaNumber }}
-                    </td>
+<section class="section">
+    <div class="columns">
+        <table class="table is-fullwidth is-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Pos</th>
+                    <th scope="col">Name</th>
+                    <th scope="col" class="is-hidden-mobile">Club</th>
+                    <th scope="col">Capacity</th>
                 </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-</main>
-<footer class="container-fluid">
-    <div class="container">
-        <small>Photo by <a href="https://unsplash.com/@fancycrave?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fancy Crave</a> on <a href="https://unsplash.com/s/photos/soccer-ground?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-        </small>
+            </thead>
+            <tbody>
+                {% for ground in grounds | sort(attribute = "capacity") | reverse %}
+                    <tr id="{{ ground.name | slugify }}">
+                        <td>
+                            {{ loop.index | ordinal }}
+                        </td>
+                        <th>
+                            <a href="/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}">
+                                {{ ground.name }}
+                            </a>
+                        </th>
+                        <td class="is-hidden-mobile">
+                            {% set club = "" %}
+                            {% for c in clubs %}
+                                {% if c.ground == ground.name %}
+                                    <a href="/club/{{ c.name | slugify }}" class="secondary">{{ c.name }}</a>
+                                    {% set club = c %}
+                                {% endif %}
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {{ ground.capacity | commaNumber }}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
+</section>
+<footer class="footer">
+   Photo by <a href="https://unsplash.com/@fancycrave?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fancy Crave</a> on <a href="https://unsplash.com/s/photos/soccer-ground?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 </footer>

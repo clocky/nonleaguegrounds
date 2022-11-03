@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -14,39 +14,34 @@
             <link rel="manifest" href="/site.webmanifest">
         </head>
         <body>
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li>
-                            <strong>
-                                <a href="/">non<wbr>league<wbr>grounds<wbr>.com</a>
-                            </strong>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="/ground/">
-                                <span class="emoji">🏟️</span> Grounds</a>
-                        </li>
-                        <li>
-                            <a href="/club/">
-                                <span class="emoji">⚽</span> Clubs</a>
-                        </li>
-                        <li>
-                            <a href="/league/">
-                                <span class="emoji">🏆</span> Leagues</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            {{ content | safe }}
-            <footer class="container-fluid" data-theme="dark">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="container">
-                    <div class="grid">
-                        <p>
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="/">non<wbr>league<wbr>grounds<wbr>.com</a>
+                    </div>
+                    <div class="navbar-menu">
+                        <div class="navbar-start">
+                            <a class="navbar-item" href="/ground/">
+                                <span class="emoji">🏟️</span> Grounds</a>
+                            <a class="navbar-item" href="/club/">
+                                <span class="emoji">⚽</span> Clubs</a>
+                            <a class="navbar-item" href="/league/">
+                                <span class="emoji">🏆</span> Leagues</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            {{ content | safe }}
+            <footer class="footer" >
+                <div class="container">
+                    <div class="columns">
+                        <p class="column is-one-third">
                             {{ meta.description }}
                         </p>
-                        <ul>
+                        <ul class="column">
+                            <li>
+                                <strong>Leagues</strong>
+                            </li>
                             {% for league in leagues %}
                                 <li>
                                     <small>

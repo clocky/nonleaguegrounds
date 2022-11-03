@@ -6,50 +6,43 @@ eleventyComputed:
     description: "A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier."
 ---
 
-<header class="container-fluid hero" id="trophy" data-theme="dark">
-    <div class="container">
-        <h1>Leagues</h1>
-        <div class="grid">
-            <p>
-                <strong>A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier</strong>
-            </p>
-            <p></p>
-        </div>
-    </div>
-</header>
+{% from "macros.njk" import hero %}
 
-<main class="container">
+{{ hero ("Leagues", "A directory of " + leagues.length + " leagues in the English football conference, sorted by tier", "trophy")}}
 
-    <table role="grid">
-        <thead>
-            <tr>
-                <th scope="col">Tier</th>
-                <th scope="col">Name</th>
-                <th scope="col">Clubs</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for league in leagues | sort(attribute = "tier")%}
+<main>
+    <section class="section">
+        <table class="table is-striped is-fullwidth">
+            <thead>
                 <tr>
-                    <td>
-                        {{ league.tier | ordinal }}
-                    </td>
-                    <th>
-                        <a href="/league/{{ league.name | slugify }}">
-                            {{ league.sponsor }}
-                            {{ league.name}}
-                        </a>
-                    </th>
-                    <td>
-                        {{ league.clubs | length }}
-                    </td>
+                    <th scope="col">Tier</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Clubs</th>
                 </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                {% for league in leagues | sort(attribute = "tier")%}
+                    <tr>
+                        <td>
+                            {{ league.tier | ordinal }}
+                        </td>
+                        <th>
+                            <a href="/league/{{ league.name | slugify }}">
+                                {{ league.sponsor }}
+                                {{ league.name}}
+                            </a>
+                        </th>
+                        <td>
+                            {{ league.clubs | length }}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
 </main>
 
-<footer class="container">
+<footer class="footer">
     <small>
     Photo by <a href="https://unsplash.com/@zegarr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ezequiel Garrido</a> on <a href="https://unsplash.com/s/photos/trophy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </small>
