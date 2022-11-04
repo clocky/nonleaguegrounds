@@ -7,6 +7,7 @@
   capacity: 7100
   latitude: 51.248415
   longitude: -0.754682
+  id: 493
 
 - name: Moss Lane
   sponsor: J. Davidson Stadium
@@ -17,6 +18,7 @@
   capacity: 7873
   latitude: 53.383434
   longitude: -2.335159
+  id: 3549
 
 - name: The Shay
   street: Shaw Hill
@@ -27,6 +29,7 @@
   surface: grass
   latitude: 53.716191
   longitude: -1.859217
+  id: 539
 
 - name: Victoria Road
   sponsor: Chigwell Construction Stadium
@@ -37,6 +40,7 @@
   capacity: 6078
   latitude: 51.547807
   longitude: 0.159913
+  id: 526
 
 - name: Kingfield Stadium
   sponsor: The Laithwaite Community Stadium
@@ -47,6 +51,8 @@
   capacity: 6036
   latitude: 51.306298
   longitude: -0.558875
+  surface: grass
+  id: 2689
 
 - name: Hayes Lane
   street: Hayes Lane
@@ -56,6 +62,8 @@
   capacity: 5000
   latitude: 51.390084
   longitude: 0.021091
+  surface: grass
+  id: 511
 
 - name: Damson Park
   sponsor: ARMCO Arena
@@ -66,6 +74,7 @@
   capacity: 4510
   latitude: 52.438920
   longitude: -1.757190
+  id: 19204
 
 - name: Meadow Park
   sponsor: LV Bet Stadium Meadow Park
@@ -73,9 +82,10 @@
   locality: Borehamwood
   region: Hertfordshire
   postcode: WD6 5AL
-  capacity: 4500
+  capacity: 4502
   latitude: 51.661937
   longitude: -0.272375
+  id: 503
 
 - name: Meadowbank
   street: Mill Lane
@@ -85,6 +95,8 @@
   capacity: 3000
   latitude: 51.234444
   longitude: -0.333543
+  surface: grass
+  id: 6189
 
 - name: Ten Acres
   sponsor: Silverlake Stadium
@@ -95,6 +107,7 @@
   capacity: 5192
   latitude: 50.952290
   longitude: -1.372023
+  id: 530
 
 - name: The Hive Stadium
   street: Camrose Avenue
@@ -104,6 +117,8 @@
   capacity: 6418
   latitude: 51.602623
   longitude: -0.291743
+  surface: grass
+  id: 496
 
 - name: Deva Stadium
   street: Bumpers Lane
@@ -162,13 +177,15 @@
   longitude: -2.116084
 
 - name: York Community Stadium
+  sponsor: LNER Community Stadium
   street: Kathyrn Avenue
   locality: York
   region: Yorkshire, North Riding
   postcode: YO32 9AF
-  capacity: 8500
+  capacity: 8005
   latitude: 53.984340
   longitude: -1.052927
+  id: 11929
 
 - name: York Road
   locality: Maidenhead
@@ -177,15 +194,18 @@
   capacity: 4000
   latitude: 51.519889
   longitude: -0.717968
+  id: 553
+  surface: grass
 
 - name: Gateshead International Stadium
   street: Neilson Road
   locality: Gateshead
   region: Durham
   postcode: NE10 0EF
-  capacity: 11800
+  capacity: 11750
   latitude: 54.961020
   longitude: -1.579670
+  id: 536
 
 - name: Roots Hall
   locality: Southend-on-Sea
@@ -194,6 +214,7 @@
   capacity: 12392
   latitude: 51.549008
   longitude: 0.701608
+  id: 586
 
 - name: Meadow Lane
   street: Meadow Lane
@@ -204,6 +225,8 @@
   surface: grass
   latitude: 52.942672
   longitude: -1.137151
+  id: 567
+
 
 - name: Gallagher Stadium
   street: James Whatman Way
@@ -213,6 +236,8 @@
   capacity: 4200
   latitude: 51.280020
   longitude: 0.516091
+  surface: artificial turf
+  id: 554
 
 - name: Racecourse Ground
   street: Mold Road
@@ -222,6 +247,8 @@
   capacity: 10771
   latitude: 53.051961
   longitude: -3.003804
+  surface: grass
+  id: 601
 
 - name: Technique Stadium
   street: 1866 Sheffield Road
@@ -231,6 +258,7 @@
   capacity: 10600
   latitude: 53.253583
   longitude: -1.425761
+  id: 11895
 
 - name: Boundary Park
   locality: Oldham
@@ -239,15 +267,17 @@
   capacity: 13513
   latitude: 53.555148
   longitude: -2.128451
+  id: 568
 
 - name: Plainmoor
   street: Marnham Road
   locality: Torquay
   region: Devon
   postcode: TQ1 3PS
-  capacity: 6500
+  capacity: 6104
   latitude: 50.476389
   longitude: -3.523874
+  id: 2692
 
 - name: Horsfall Stadium
   street: Cemetery Road
@@ -333,6 +363,7 @@
   capacity: 9565
   latitude: 50.950234
   longitude: -2.673974
+  id: 603
 
 - name: Flamingo Land Stadium
   locality: Scarborough
@@ -359,6 +390,7 @@
   capacity: 9088
   latitude: 53.5866564
   longitude: -0.6953374
+  id: 18857
 
 - name: Grosvenor Vale
   locality: Ruislip
@@ -367,6 +399,8 @@
   capacity: 4085
   latitude: 51.569398
   longitude: -0.416594
+  id: 19237
+  surface: grass
 
 - name: Spencer Stadium
   sponsor: The Banbury Plant Hire Community Stadium

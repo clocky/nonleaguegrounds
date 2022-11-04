@@ -63,17 +63,26 @@ emoji %}
       "maximumAttendeeCapacity": "{{ ground.capacity }}",
       "address": {
         "@type": "PostalAddress",
-        {%- if ground.street %}"streetAddress": "{{ ground.street }}",{%- endif %}
+        {%- if ground.street %}
+          "streetAddress": "{{ ground.street }}",
+        {%- endif %}
         "addressLocality": "{{ ground.locality }}",
-        "addressRegion": "{{ ground.region }}",
+        "addressRegion": "{% county g.postcode | replace(" ", " ") %}",
         "postalCode": "{{ ground.postcode }}",
         "addressCountry": {
           "@type": "Country",
           "name": "GB"
         }
       },
+      {%- if ground.id %}
+        "image": "https://media.api-sports.io/football/venues/{{ ground.id }}.png",
+      {%- endif %}
       "latitude": "{{ ground.latitude }}",
       "longitude": "{{ ground.longitude }}",
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "{% district ground.postcode | replace(" ", " ") %}"
+      },
       {%- if ground.sponsor %}
         "sponsor": {
           "@type": "Organization",
@@ -82,6 +91,7 @@ emoji %}
       {%- endif %}
     }
   }
+}
 </script>
 
 <header class="container-fluid hero" id="{{ ground.name | slugify }}" data-theme="dark">

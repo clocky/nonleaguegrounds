@@ -25,7 +25,7 @@ permalink: /schema/grounds.json
     "addressLocality": "{{ ground.locality }}",
     {%- endif %}
     {%- if ground.region %}
-    "addressRegion": "{{ ground.region }}",
+    "addressRegion": "{% region ground.postcode | replace(" ", "") %}",
     {%- endif %}
     {%- if ground.postcode %}
     "postalCode": "{{ ground.postcode }}",

@@ -32,6 +32,35 @@ module.exports = function (eleventyConfig) {
     return distance.toFixed(1);
   });
 
+  eleventyConfig.addAsyncShortcode("county", async function (postcode) {
+    const response = await postcodesIO(postcode);
+    let county = "";
+    if (response && response.status === 200) {
+      if (response.result.admin_county != null) {
+        county = response.result.admin_county;
+      }
+    }
+    return county;
+  });
+
+  eleventyConfig.addAsyncShortcode("region", async function (postcode) {
+    const response = await postcodesIO(postcode);
+    let region = "";
+    if (response && response.status === 200) {
+      region = response.result.region;
+    }
+    return region;
+  });
+
+  eleventyConfig.addAsyncShortcode("district", async function (postcode) {
+    const response = await postcodesIO(postcode);
+    let district = "";
+    if (response && response.status === 200) {
+      district = response.result.admin_district;
+    }
+    return district;
+  });
+
   eleventyConfig.addTransform("prettier", function (content, outputPath) {
     const extname = path.extname(outputPath);
     switch (extname) {
@@ -59,3 +88,14 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
+
+async function postcodesIO(postcode) {
+  if (!postcode) {
+    return;
+  }
+  const url = `https://api.postcodes.io/postcodes/${postcode}`;
+  return EleventyFetch(url, {
+    duration: "1d",
+    type: "json",
+  });
+}

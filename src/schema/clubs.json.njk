@@ -26,7 +26,7 @@ permalink: /schema/clubs.json
                     "@type": "SportsOrganization",
                     "name": "{{ l.name }}",
                     "sport": "Soccer",
-                    "url": "{{ meta.base }}/league/{{ l.name | slugify }}",
+                    "url": "https://{{ l.url }}",
                     "sponsor": {
                         "@type": "Organization",
                         "name": "{{ l.sponsor }}"
@@ -41,15 +41,35 @@ permalink: /schema/clubs.json
     {% endfor %}
     {% for g in grounds %}
         {% if club.ground == g.name %}
-        "address": {
-            "@type": "PostalAddress",
-            {%- if g.street %}
-            "streetAddress": "{{ g.street }}",
+        "location": {
+            "@type": "StadiumOrArena",
+            "name": "{{ ground.name }}",
+            "maximumAttendeeCapacity": "{{ ground.capacity }}",
+            "latitude": "{{ g.latitude }}",
+            "longitude": "{{ g.longitude }}",
+            "address": {
+                "@type": "PostalAddress",
+                {%- if g.street %}
+                "streetAddress": "{{ g.street }}",
+                {%- endif %}
+                "addressLocality": "{{ g.locality }}",
+                "addressRegion": "{% county g.postcode | replace(" ", "") %}",
+                "postalCode": "{{ g.postcode }}",
+                "addressCountry": {
+                    "@type": "Country",
+                    "name": "GB"
+                }
+            },
+            {%- if ground.sponsor %}
+                "sponsor": {
+                    "@type": "Organization",
+                    "name": "{{ ground.sponsor }}"
+                }
             {%- endif %}
-            "addressLocality": "{{ g.locality }}",
-            "addressRegion": "{{ g.region }}",
-            "postalCode": "{{ g.postcode }}",
-            "addressCountry": "GB"
+        },
+        "areaServed": {
+            "@type": "AdministrativeArea",
+            "name": "{% district g.postcode | replace(" ", "") %}"
         }
         {% endif %}
     {% endfor %}
