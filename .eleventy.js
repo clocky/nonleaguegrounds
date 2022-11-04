@@ -47,7 +47,9 @@ module.exports = function (eleventyConfig) {
     const response = await postcodesIO(postcode);
     let region = "";
     if (response && response.status === 200) {
-      region = response.result.region;
+      if (response.result.admin_county != null) {
+        region = response.result.region;
+      }
     }
     return region;
   });
