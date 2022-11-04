@@ -12,7 +12,9 @@ eleventyComputed:
     <div class="container">
         <h1>Clubs</h1>
         <div class="grid">
-            <p><strong>A directory of {{ clubs.length }} non-league clubs, sorted alphabetically</strong></p>
+            <p>
+                <strong>A directory of {{ clubs.length }} non-league clubs, sorted alphabetically</strong>
+            </p>
             <p></p>
         </div>
     </div>
@@ -27,32 +29,34 @@ eleventyComputed:
                 <th scope="col">League</th>
             </tr>
         </thead>
-        {% for club in clubs | sort(attribute = "name") %}
-            {% set region = "" %}
-            {% for g in grounds %}
-                {% if g.name == club.ground %}
-                    {% set region = g.region %}
-                {% endif %}
-            {% endfor %}
-            <tr>
-                <th>
-                    <a href="/club/{{ club.name | slugify }}">{{ club.name }}</a>
-                </th>
-                <td>
-                    <a href="/ground/{{ region | slugify }}/{{ club.ground | slugify }}" class="secondary">{{ club.ground }}</a><br/>
-                </td>
-                <td>
-                    {# Determine what league the club is in #}
-                    {% for l in leagues %}
-                        {% for c in l.clubs %}
-                            {% if c.name == club.name %}
-                                {{ l.name }}
-                            {% endif %}
+        <tbody>
+            {% for club in clubs | sort(attribute = "name") %}
+                {% set region = "" %}
+                {% for g in grounds %}
+                    {% if g.name == club.ground %}
+                        {% set region = g.region %}
+                    {% endif %}
+                {% endfor %}
+                <tr>
+                    <th>
+                        <a href="/club/{{ club.name | slugify }}">{{ club.name }}</a>
+                    </th>
+                    <td>
+                        <a href="/ground/{{ region | slugify }}/{{ club.ground | slugify }}" class="secondary">{{ club.ground }}</a><br/>
+                    </td>
+                    <td>
+                        {# Determine what league the club is in #}
+                        {% for l in leagues %}
+                            {% for c in l.clubs %}
+                                {% if c.name == club.name %}
+                                    {{ l.name }}
+                                {% endif %}
+                            {% endfor %}
                         {% endfor %}
-                    {% endfor %}
-                </td>
-            </tr>
-        {% endfor %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
     </table>
 
 </main>
