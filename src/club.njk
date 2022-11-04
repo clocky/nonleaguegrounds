@@ -48,8 +48,8 @@ emoji %}
     },
     "sport": "Soccer",
     "areaServed": {
-      "@type": "City",
-      "name": "{{ ground.locality }}"
+      "@type": "AdministrativeArea",
+      "name": "{% district ground.postcode | replace(" ", " ") %}"
     },
     "memberOf": {
       "@type": "SportsOrganization",
@@ -79,10 +79,6 @@ emoji %}
       {%- endif %}
       "latitude": "{{ ground.latitude }}",
       "longitude": "{{ ground.longitude }}",
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "{% district ground.postcode | replace(" ", " ") %}"
-      },
       {%- if ground.sponsor %}
         "sponsor": {
           "@type": "Organization",
