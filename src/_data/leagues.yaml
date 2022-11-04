@@ -2,6 +2,7 @@
   tier: 5
   sponsor: "Vanarama"
   url: www.thenationalleague.org.uk
+  id: 43
   clubs:
     - name: Aldershot Town
     - name: Altrincham
@@ -32,6 +33,7 @@
   sponsor: "Vanarama"
   promotion: National League
   url: www.thenationalleague.org.uk
+  id: 50
   clubs:
     - name: AFC Fylde
     - name: AFC Telford United
@@ -62,6 +64,7 @@
   sponsor: "Vanarama"
   promotion: National League
   url: www.thenationalleague.org.uk
+  id: 51
   clubs:
     - name: Bath City
     - name: Braintree Town
@@ -92,6 +95,7 @@
   sponsor: Pitching In
   promotion: National League South
   url: www.isthmian.co.uk
+  id: 58
   clubs:
     - name: Aveley
     - name: Billericay Town
