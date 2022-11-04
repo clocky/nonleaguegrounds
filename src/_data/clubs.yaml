@@ -5,6 +5,7 @@
   founded: 1992
   url: theshots.co.uk
   twitter: OfficialShots
+  id: 1818
   kit:
     - "#C32D27"
     - "#172576"
@@ -16,6 +17,7 @@
   founded: 1891
   url: altrinchamfc.com
   twitter: altrinchamfc
+  id: 4700
   kit:
     - Red
     - White
@@ -27,6 +29,7 @@
   founded: 1888
   url: barnetfc.com
   twitter: BarnetFC
+  id: 1369
   kit:
     - Black
     - DarkOrange
@@ -38,6 +41,7 @@
   founded: 1948
   twitter: BOREHAM_WOODFC
   url: borehamwoodfootballclub.co.uk
+  id: 1830
 
 - name: Bromley
   nickname: The Ravens
@@ -46,6 +50,7 @@
   founded: 1892
   twitter: bromleyfc
   url: bromleyfc.tv
+  id: 1832
 
 - name: Chesterfield
   nickname: The Spireites
@@ -54,6 +59,7 @@
   founded: 1919
   twitter: ChesterfieldFC
   url: chesterfield-fc.co.uk
+  id: 1345
 
 - name: Dagenham & Redbridge
   nickname: The Daggers
@@ -62,6 +68,7 @@
   founded: 1992
   twitter: Dag_RedFC
   url: daggers.co.uk
+  id: 1821
 
 - name: Dorking Wanderers
   nickname: The Wanderers
@@ -70,6 +77,7 @@
   founded: 1999
   twitter: DorkingWDRS
   url: dorkingwanderers.com
+  id: 8659
 
 - name: Eastleigh
   nickname: The Spitfires
@@ -78,6 +86,7 @@
   founded: 1946
   twitter: eastleighfc
   url: eastleighfc.com
+  id: 1822
 
 - name: FC Halifax Town
   nickname: The Shaymen
@@ -86,6 +95,7 @@
   founded: 2008
   twitter: FCHTOnline
   url: fchalifaxtown.com
+  id: 1841
 
 - name: Gateshead
   nickname: The Tynesiders
@@ -94,6 +104,7 @@
   founded: 1977
   twitter: GatesheadFC
   url: gateshead-fc.com
+  id: 1823
 
 - name: Maidenhead United
   nickname: The Magpies
@@ -102,6 +113,7 @@
   founded: 1870
   twitter: MUFCYorkRoad
   url: maidenheadunitedfc.ktckts.com
+  id: 1838
 
 - name: Maidstone United
   nickname: The Stones
@@ -109,6 +121,7 @@
   founded: 1992
   twitter: maidstoneunited
   url: maidstoneunited.co.uk
+  id: 1825
 
 - name: Notts County
   nickname: The Magpies
@@ -117,6 +130,7 @@
   founded: 1862
   twitter: Official_NCFC
   url: nottscountyfc.co.uk
+  id: 1376
 
 - name: Oldham Athletic
   nickname: The Latics
@@ -125,6 +139,7 @@
   founded: 1895
   twitter: OfficialOAFC
   url: oldhamathletic.co.uk
+  id: 1349
 
 - name: Solihull Moors
   nickname: The Moors
@@ -133,6 +148,7 @@
   founded: 2007
   twitter: SolihullMoors
   url: solihullmoorsfc.co.uk
+  id: 1834
 
 - name: Southend United
   nickname: The Shrimpers
@@ -141,6 +157,7 @@
   founded: 1906
   twitter: SUFCRootsHall
   url: southendunited.co.uk
+  id: 1341
 
 - name: Scunthorpe United
   nickname: The Iron
@@ -149,6 +166,7 @@
   founded: 1899
   twitter: SUFCOfficial
   url: scunthorpe-united.co.uk
+  id: 1340
 
 - name: Torquay United AFC
   nickname: The Gulls
@@ -157,6 +175,7 @@
   founded: 1899
   twitter: TUFC1899
   url: torquayunited.com
+  id: 1827
 
 - name: Wealdstone
   nickname: The Stones
@@ -165,6 +184,7 @@
   founded: 1899
   twitter: WealdstoneFC
   url: wealdstone-fc.com
+  id: 8663
 
 - name: Woking
   nickname: The Cardinals
@@ -173,6 +193,7 @@
   ground: Kingfield Stadium
   twitter: wokingfc
   url: wokingfc.co.uk
+  id: 1836
 
 - name: Yeovil Town
   nickname: The Glovers
@@ -181,6 +202,7 @@
   ground: Huish Park
   twitter: YTFC
   url: ytfc.net
+  id: 1377
 
 - name: York City
   nickname: The Minstermen
@@ -189,6 +211,7 @@
   founded: 1922
   twitter: YorkCityFC
   url: yorkcityfootballclub.co.uk
+  id: 1828
 
 - name: AFC Fylde
   nickname: The Coasters
@@ -541,6 +564,7 @@
   ground: Racecourse Ground
   twitter: Wrexham_AFC
   url: wrexhamafc.co.uk
+  id: 1837
 
 - name: Aveley
   nickname: The Millers
