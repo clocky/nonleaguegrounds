@@ -95,7 +95,7 @@ async function postcodesIO(postcode) {
   }
   const url = `https://api.postcodes.io/postcodes/${postcode}`;
   return EleventyFetch(url, {
-    duration: "1d",
+    duration: "1w",
     type: "json",
   });
 }
