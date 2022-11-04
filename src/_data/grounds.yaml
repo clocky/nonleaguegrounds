@@ -58,6 +58,7 @@
   longitude: 0.021091
 
 - name: Damson Park
+  sponsor: ARMCO Arena
   street: Damson Parkway
   locality: Solihull
   region: Warwickshire
@@ -100,7 +101,7 @@
   locality: Edgware
   region: Middlesex
   postcode: HA8 6AG
-  capacity: 6500
+  capacity: 6418
   latitude: 51.602623
   longitude: -0.291743
 

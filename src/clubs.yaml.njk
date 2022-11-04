@@ -1,0 +1,25 @@
+---
+permalink: /data/grounds.yaml
+---
+{% for ground in grounds %}
+  - name: "{{ ground.name | safe }}"
+    {%- if ground.sponsor %}
+    sponsor: "{{ ground.sponsor }}"
+    {%- endif %}
+    {%- if ground.capacity %}
+    capacity: {{ ground.capacity }}
+    {%- endif %}
+    {%- for club in clubs %}
+        {%- if club.ground == ground.name or club.ground == ground.sponsor %}
+            {%- for record in api[43].response %}
+                {%- if record.team.name == club.name %}
+    id: {{ record.venue.id }}
+                    {%- if not ground.surface %}
+    surface: {{ record.venue.surface }}
+                    {% endif %}
+                {%- endif %}
+            {%- endfor %}
+        {%- endif %}
+    {%- endfor %}
+
+{% endfor %}
