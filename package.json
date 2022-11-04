@@ -39,6 +39,7 @@
     "dotenv": "^16.0.3",
     "js-yaml": "^4.1.0",
     "lightningcss-cli": "^1.16.0",
+    "netlify-plugin-cache": "^1.0.3",
     "ordinal": "^1.0.3",
     "sass": "^1.55.0"
   },
