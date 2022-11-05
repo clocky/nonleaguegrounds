@@ -34,7 +34,7 @@ permalink: /schema/clubs.json
                     "identifier": {
                         "@type": "url",
                         "@value": "{{ meta.base }}/league/{{ l.name | slugify }}"
-                    }
+                    },
                 },
             {% endif %}
         {% endfor %}
@@ -43,8 +43,9 @@ permalink: /schema/clubs.json
         {% if club.ground == g.name %}
         "location": {
             "@type": "StadiumOrArena",
-            "name": "{{ ground.name }}",
-            "maximumAttendeeCapacity": "{{ ground.capacity }}",
+            "name": "{{ g.name }}",
+            "maximumAttendeeCapacity": "{{ g.capacity }}",
+            "priceRange": "££",
             "latitude": "{{ g.latitude }}",
             "longitude": "{{ g.longitude }}",
             "address": {
@@ -53,23 +54,23 @@ permalink: /schema/clubs.json
                 "streetAddress": "{{ g.street }}",
                 {%- endif %}
                 "addressLocality": "{{ g.locality }}",
-                "addressRegion": "{% county g.postcode | replace(" ", "") %}",
+                "addressRegion": "{% county g.postcode %}",
                 "postalCode": "{{ g.postcode }}",
                 "addressCountry": {
                     "@type": "Country",
-                    "name": "GB"
-                }
+                    "name": "{% country g.postcode %}",
+                },
             },
             {%- if ground.sponsor %}
                 "sponsor": {
                     "@type": "Organization",
-                    "name": "{{ ground.sponsor }}"
-                }
+                    "name": "{{ ground.sponsor }}",
+                },
             {%- endif %}
         },
         "areaServed": {
             "@type": "AdministrativeArea",
-            "name": "{% district g.postcode | replace(" ", "") %}"
+            "name": "{% region g.postcode %}"
         }
         {% endif %}
     {% endfor %}

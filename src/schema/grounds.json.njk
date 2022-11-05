@@ -13,11 +13,16 @@ permalink: /schema/grounds.json
         },
     {%- endif %}
     "name": "{{ ground.name }}",
+    "priceRange": "££",
     {%- if ground.sponsor %}
     "sponsor": {
         "@type": "Organization",
         "name": "{{ ground.sponsor }}",
     },
+    {%- endif %}
+    "areaServed": "{% region ground.postcode %}",
+    {%- if ground.id %}
+    "image": "https://media.api-sports.io/football/venues/{{ground.id}}.png",
     {%- endif %}
     "address": {
         "@type": "PostalAddress",
