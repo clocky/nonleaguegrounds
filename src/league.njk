@@ -32,7 +32,10 @@ eleventyComputed:
         "@type": "SportsOrganization",
         "name": "{{ league.name }}",
         "alternateName": "{{ league.sponsor }} {{ league.name }}",
-        "sponsor": "{{ league.sponsor }}",
+        "sponsor": {
+            "@type": "Organization",
+            "name": "{{ league.sponsor }}"
+        },
         "url": "https://{{ league.url }}",
         "identifier": {
             "@type": "url",
