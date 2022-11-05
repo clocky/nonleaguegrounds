@@ -42,8 +42,11 @@ eleventyComputed:
     ],
     "name": "{{ ground.name }}",
     "maximumAttendeeCapacity": "{{ ground.capacity }}",
-    "latitude": "{{ ground.latitude }}",
-    "longitude": "{{ ground.longitude }}",
+    "location": {
+      "@type": "Place",
+      "latitude": "{{ ground.latitude }}",
+      "longitude": "{{ ground.longitude }}"
+    },
     "identifier": {
       "@type": "url",
       "@id": "{{ meta.base }}/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}"
@@ -56,14 +59,14 @@ eleventyComputed:
       "postalCode": "{{ ground.postcode }}",
       "addressCountry": {
         "@type": "Country",
-        "name": "GB"
+        "name": "{% country ground.postcode %}"
       }
     },
     {%- if ground.sponsor %}
       "sponsor": {
         "@type": "Organization",
-        "name": "{{ ground.sponsor | replace(ground.name, '') | trim}}"
-      }
+        "name": "{{ ground.sponsor }}"
+      },
     {%- endif %}
   }
 </script>
@@ -82,9 +85,9 @@ eleventyComputed:
       <h3>Overview</h3>
       <p>
         {% if ground.sponsor %}
-          <strong>{{ ground.name }}</strong>, also known as <strong>{{ ground.sponsor }}</strong> for sponsorship purposes, is a football ground in {{ ground.locality }} in the {% region ground.postcode %} region of England.
+          <strong>{{ ground.name }}</strong>, also known as <strong>{{ ground.sponsor }}</strong> for sponsorship purposes, is a football ground in {{ ground.locality }}, {% county ground.postcode %}.
         {% else %}
-          <strong>{{ ground.name }}</strong> is a football ground {% if ground.locality %} in {{ ground.locality }} in the {% region ground.postcode %} region of England.
+          <strong>{{ ground.name }}</strong> is a football ground {% if ground.locality %} in {{ ground.locality }}, {% county ground.postcode %}.
           {%- endif %}
         {% endif %}
         The current capacity of the ground is <a href="/ground/#{{ ground.name | slugify }}">{{ ground.capacity | commaNumber }}</a>

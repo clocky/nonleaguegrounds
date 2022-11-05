@@ -14,7 +14,10 @@ permalink: /schema/grounds.json
     {%- endif %}
     "name": "{{ ground.name }}",
     {%- if ground.sponsor %}
-    "sponsor": "{{ ground.sponsor }}",
+    "sponsor": {
+        "@type": "Organization",
+        "name": "{{ ground.sponsor }}",
+    },
     {%- endif %}
     "address": {
         "@type": "PostalAddress",
@@ -25,14 +28,14 @@ permalink: /schema/grounds.json
     "addressLocality": "{{ ground.locality }}",
     {%- endif %}
     {%- if ground.region %}
-    "addressRegion": "{% region ground.postcode | replace(" ", "") %}",
+    "addressRegion": "{% county ground.postcode %}",
     {%- endif %}
     {%- if ground.postcode %}
     "postalCode": "{{ ground.postcode }}",
     {%- endif %}
     "addressCountry": {
         "@type": "Country",
-        "name": "GB"
+        "name": "{% country ground.postcode %}"
     }
     },
     {%- if ground.capacity %}

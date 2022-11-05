@@ -1,5 +1,5 @@
 ---
-permalink: /data/grounds.yaml
+permalink: /schema/grounds.yaml
 ---
 {% for ground in grounds %}
 - name: {{ ground.name }}
@@ -20,7 +20,7 @@ permalink: /data/grounds.yaml
   {%- if ground.postcode %}
     postalCode: {{ ground.postcode }}
   {%- endif %}
-    addressCountry: GB
+    addressCountry: {% country ground.postcode %}
   {%- if ground.capacity %}{%- endif %}
   location: 
     {%- if ground.latitude %}

@@ -101,8 +101,8 @@ emoji %}
     <section>
       <p>
         <strong>{{ fc(club.name, true) }}</strong> is a {{club.status}} football club
-        {%- if ground.locality and ground.region -%}
-        &nbsp;based in {{ ground.locality }}, {{ ground.region }}
+        {%- if ground.locality and ground.postcode -%}
+        &nbsp;based in {{ ground.locality }}, {% county ground.postcode %}
         {%- endif %}.
         </p>
       <p>
