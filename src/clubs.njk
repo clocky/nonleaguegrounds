@@ -5,23 +5,15 @@ title: Clubs
 eleventyComputed:
     description: "A directory of {{ clubs.length }} non-league clubs, sorted alphabetically"
 ---
-{% from "macros.njk" import fc %}
-{% from "macros.njk" import emoji %}
+{% from "macros.njk" import emoji,
+fc,
+hero %}
 
-<header class="container-fluid hero" id="club" data-theme="dark">
-    <div class="container">
-        <h1>Clubs</h1>
-        <div class="grid">
-            <p>
-                <strong>A directory of {{ clubs.length }} non-league clubs, sorted alphabetically</strong>
-            </p>
-            <p></p>
-        </div>
-    </div>
-</header>
+{{ hero("Clubs", "A directory of " + clubs.length + " non-league clubs, sorted alphabetically", "club") }}
 
 <main class="container">
-    <table role="grid">
+    <table class="table table-striped">
+        <caption>List of all non-league clubs on this site</caption>
         <thead>
             <tr>
                 <th scope="col">Club</th>
@@ -29,7 +21,7 @@ eleventyComputed:
                 <th scope="col">League</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="table-group-divider">
             {% for club in clubs | sort(attribute = "name") %}
                 {% set region = "" %}
                 {% for g in grounds %}
@@ -38,7 +30,7 @@ eleventyComputed:
                     {% endif %}
                 {% endfor %}
                 <tr>
-                    <th>
+                    <th scope="row">
                         <a href="/club/{{ club.name | slugify }}">{{ club.name }}</a>
                     </th>
                     <td>

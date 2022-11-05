@@ -56,42 +56,65 @@ eleventyComputed:
     </div>
 </header>
 
-<main class="container">
 
-    <div class="grid">
-        <table role="grid">
-            <thead>
-                <tr>
-                    <th scope="col">Club</th>
-                    <th scope="col">Nickname</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for club in league.clubs %}
+<main class="container">
+    <div class="row">
+        {% for club in league.clubs %}
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ club.name }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{ club.nickname }}</h6>
+                        <a href="/club/{{ club.name | slugify }}/" class="card-link">More</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="row">
+        <div class="col-8">
+            <table class="table table-striped">
+                <thead>
                     <tr>
-                        <th>
-                            <a href="/club/{{ club.name | slugify }}">{{ club.name }}</a>
-                        </th>
-                        {% for c in clubs %}
-                            {% if c.name == club.name %}
-                                <td>
-                                    {% if c.nickname %}
-                                    <span class="emoji">{{ emoji(c.nickname) }}</span> {{ c.nickname }}
-                                    {% endif %}
-                                </td>
-                            {% endif %}
-                        {% endfor %}
+                        <th scope="col">Club</th>
+                        <th scope="col">Nickname</th>
                     </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-        <figure class="container-fluid">
-            {% set caption = "Map of " + league.name + " clubs" %}
-            <figcaption>
-                <small>{{ caption }}</small>
-            </figcaption>
-            <img src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" alt="{{ caption }}">
-        </figure>
+                </thead>
+                <tbody>
+                    {% for club in league.clubs %}
+                        <tr>
+                            <th>
+                                <a href="/club/{{ club.name | slugify }}">{{ club.name }}</a>
+                            </th>
+                            {% for c in clubs %}
+                                {% if c.name == club.name %}
+                                    <td>
+                                        {% if c.nickname %}
+                                        <span class="emoji">{{ emoji(c.nickname) }}</span> {{ c.nickname }}
+                                        {% endif %}
+                                    </td>
+                                {% endif %}
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="col-4">
+            <figure>
+                {% set caption = "Map of " + league.name + " clubs" %}
+                <img 
+                    class="figure-img img-fluid"
+                    src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=1&markers={{ markers }}&key={{key}}" 
+                    alt="{{ caption }}"
+                >
+                <figcaption class="figure-caption">
+                   {{ caption }}
+                </figcaption>
+            </figure>
+        </div>
     </div>
     <footer>
         <small>

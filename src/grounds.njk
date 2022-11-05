@@ -20,7 +20,8 @@ eleventyComputed:
 
 <main class="container">
 
-    <table role="grid">
+    <table class="table table-striped">
+        <caption>List of all non-league grounds on this site</caption>
         <thead>
             <tr>
                 <th scope="col">Pos</th>
@@ -29,13 +30,13 @@ eleventyComputed:
                 <th scope="col">Capacity</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="table-group-divider">
             {% for ground in grounds | sort(attribute = "capacity") | reverse %}
                 <tr id="{{ ground.name | slugify }}">
                     <td>
                         {{ loop.index | ordinal }}
                     </td>
-                    <th>
+                    <th scope="row">
                         <a href="/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}">
                             {{ ground.name }}
                         </a>

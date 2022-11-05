@@ -31,8 +31,8 @@
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-fetch": "^3.0.0",
-    "@picocss/pico": "^1.5.6",
     "@prettier/plugin-xml": "^2.2.0",
+    "bootstrap": "^5.2.2",
     "comma-number": "^2.1.0",
     "dayjs": "^1.11.6",
     "distance-from": "^1.1.2",

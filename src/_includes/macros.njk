@@ -2,6 +2,15 @@
     https://maps.googleapis.com/maps/api/staticmap?center={{address | striptags}}&maptype={{maptype}}&zoom={{zoom}}&scale={{scale}}&size={{width}}x{{height}}&format={{format}}&key={{key}}
 {%- endmacro -%}
 
+{% macro hero(title, subtitle, id )%}
+    <header class="container-fluid p-5 mb-4 bg-dark text-bg-dark" id="{{ id }}">
+        <div class="container py-5">
+            <h1 class="display-5 fw-bold">{{ title | replace(" ", "\n") | nl2br | safe }}</h1>
+            <p class="col-md-8 fs-4">{{ subtitle }}</p>
+        </div>
+    </header>
+{% endmacro %}
+
 {%- macro fc(club, abbr = false) -%}
     {%- if club.slice(0, 3) == "AFC" -%}
         {%- if abbr -%}

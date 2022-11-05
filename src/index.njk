@@ -1,30 +1,23 @@
 ---
 layout: base.njk
 ---
-<header class="container-fluid hero" id="league" data-theme="dark">
-    <div class="container">
-        <h1>{{ meta.title | replace(" ", "\n") | nl2br | safe}}</h1>
-        <div class="grid">
-            <p>
-                <strong>{{ meta.description }}</strong>
-            </p>
-            <p></p>
-        </div>
-    </div>
-</header>
+{% from "macros.njk" import fc,
+hero %}
+
+{{ hero(meta.title, meta.description, "league") }}
 
 <main class="container">
     {% for league in leagues %}
-        <h2>{{ league.name | replace(" ", "\n") | nl2br | safe }}</h2>
-        <div class="grid">
+        <div class="row">
+            <h2>{{ league.name | replace(" ", "\n") | nl2br | safe }}</h2>
             {% for column in league.clubs | batch(6)%}
-                <ul>
+                <div class="col">
                     {% for team in column %}
                         <li>
                             <a href="/club/{{ team.name | slugify }}/">{{ team.name }}</a>
                         </li>
                     {% endfor %}
-                </ul>
+                </div>
             {% endfor %}
         </div>
     {% endfor %}

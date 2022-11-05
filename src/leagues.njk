@@ -20,7 +20,8 @@ eleventyComputed:
 
 <main class="container">
 
-    <table role="grid">
+    <table class="table table-striped">
+        <caption>List of all leagues on this site</caption>
         <thead>
             <tr>
                 <th scope="col">Tier</th>
@@ -28,13 +29,13 @@ eleventyComputed:
                 <th scope="col">Clubs</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="table-group-divider">
             {% for league in leagues | sort(attribute = "tier")%}
                 <tr>
                     <td>
                         {{ league.tier | ordinal }}
                     </td>
-                    <th>
+                    <th scope="row">
                         <a href="/league/{{ league.name | slugify }}">
                             {{ league.sponsor }}
                             {{ league.name}}
