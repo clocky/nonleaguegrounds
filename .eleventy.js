@@ -1,13 +1,28 @@
+require("dotenv").config();
+
 const dayjs = require("dayjs");
+const yaml = require("js-yaml");
 const path = require("path");
 const prettier = require("prettier");
-const yaml = require("js-yaml");
 const ordinal = require("ordinal");
 const commaNumber = require("comma-number");
-const EleventyFetch = require("@11ty/eleventy-fetch");
 const distFrom = require("distance-from");
+const { minify } = require("terser");
+const Image = require("@11ty/eleventy-img");
+const slugify = require("slugify");
+const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
+const purgeCssPlugin = require("eleventy-plugin-purgecss");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setQuietMode(true);
+  eleventyConfig.addPlugin(directoryOutputPlugin);
+  if (process.env.ELEVENTY_ENV === "prod") {
+    eleventyConfig.addPlugin(purgeCssPlugin, {
+      config: "./purgecss.config.js",
+      quiet: false,
+    });
+  }
+
   /** Add loader for YAML files */
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
@@ -17,85 +32,42 @@ module.exports = function (eleventyConfig) {
   /** Watch data source file for changes */
   eleventyConfig.addWatchTarget("./src/_data/");
 
+  /* Copy over static images and webfonts */
   eleventyConfig.addPassthroughCopy("./src/img/*.jpg");
   eleventyConfig.addPassthroughCopy({ "./src/img/favicon": "/" });
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/@fortawesome/fontawesome-free/webfonts/*.woff2":
+      "/webfonts",
+  });
+
+  /** Add team crest image handler shortcode */
+  eleventyConfig.addNunjucksAsyncShortcode("crest", crestShortcode);
+
+  /** Add Bing aerial image handler shortcode */
+  eleventyConfig.addNunjucksAsyncShortcode("aerial", aerialShortcode);
 
   /** Add a filter to format inline dates for <time> tags */
   const formatDate = (date, format) => dayjs(date).format(format);
   eleventyConfig.addFilter("date", formatDate);
 
-  eleventyConfig.addFilter("ordinal", (num) => ordinal(num));
+  let yearsAgo = (year) => dayjs().diff(dayjs(year, "YYYY"), "year");
+  eleventyConfig.addFilter("ago", yearsAgo);
+
+  /** Show numbers as 1st, 2nd, 3rd etc. */
+  eleventyConfig.addFilter("ordinal", (num) => ordinal(parseInt(num)));
+
+  /** Format number with thousands separators, i.e. 1000 = 1,000 */
   eleventyConfig.addFilter("commaNumber", (num) => commaNumber(num));
 
+  eleventyConfig.addFilter("json", (json) => JSON.stringify(json, null, 4));
+
+  /** Return the distance between two sets of lat,long co-ordinates */
   eleventyConfig.addShortcode("distance", (a, b, x, y) => {
     let distance = new distFrom([a, b]).to([x, y]).in("mi");
     return distance.toFixed(1);
   });
 
-  eleventyConfig.addAsyncShortcode("county", async function (postcode) {
-    const response = await postcodesIO(postcode);
-    let county = "";
-    if (response && response.status === 200) {
-      if (response.result.admin_county != null) {
-        county = response.result.admin_county;
-      }
-    }
-    return county;
-  });
-
-  eleventyConfig.addAsyncShortcode("country", async function (postcode) {
-    const response = await postcodesIO(postcode);
-    let country = "";
-    let ISO3166 = "";
-    if (response && response.status === 200) {
-      if (response.result.country != null) {
-        country = response.result.country;
-      }
-    }
-    /* https://www.gov.uk/government/publications/open-standards-for-government/country-codes */
-    switch (country) {
-      case "England":
-        ISO3166 = "GB-ENG";
-        break;
-      case "Wales":
-        ISO3166 = "GB-WLS";
-        break;
-      case "Scotland":
-        ISO3166 = "GB-SCT";
-        break;
-      case "Northern Ireland":
-        ISO3166 = "GB-NIR";
-        break;
-      default:
-        ISO3166 = "GB";
-    }
-    return ISO3166;
-  });
-
-  eleventyConfig.addAsyncShortcode("region", async function (postcode) {
-    postcode = postcode.replace(/\s/g, "");
-    const response = await postcodesIO(postcode);
-    let region = "";
-    if (response && response.status === 200) {
-      if (response.result.region != null) {
-        region = response.result.region;
-      } else {
-        /* Backup for Welsh teams */
-        region = response.result.country;
-      }
-    }
-    return region;
-  });
-
-  eleventyConfig.addAsyncShortcode("district", async function (postcode) {
-    const response = await postcodesIO(postcode);
-    let district = "";
-    if (response && response.status === 200) {
-      district = response.result.admin_district;
-    }
-    return district;
-  });
-
+  /** Transform HTML, CSS and JSON into readable layouts */
   eleventyConfig.addTransform("prettier", function (content, outputPath) {
     const extname = path.extname(outputPath);
     switch (extname) {
@@ -105,16 +77,27 @@ module.exports = function (eleventyConfig) {
       case ".css":
         return prettier.format(content, { printWidth: 80, parser: "css" });
 
-      case ".yaml":
-        return prettier.format(content, { printWidth: 80, parser: "yaml" });
-
       case ".json":
-        return prettier.format(content, { printWidth: 80, parser: "json" });
-
+        return prettier.format(content, { printWidth: 128, parser: "json" });
       default:
         return content;
     }
   });
+
+  /** Minify JS files inline */
+  eleventyConfig.addNunjucksAsyncFilter(
+    "jsmin",
+    async function (code, callback) {
+      try {
+        const minified = await minify(code);
+        callback(null, minified.code);
+      } catch (err) {
+        console.error("Terser error: ", err);
+        // Fail gracefully.
+        callback(null, code);
+      }
+    }
+  );
 
   return {
     dir: {
@@ -124,13 +107,59 @@ module.exports = function (eleventyConfig) {
   };
 };
 
-async function postcodesIO(postcode) {
-  if (!postcode) {
-    return;
+async function aerialShortcode(lat, lon, name) {
+  if (!!lat && !!lon) {
+    const src = `https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/${lat},${lon}/18?mapSize=1280,720&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key=${process.env.BING_MAPS_API_KEY}`;
+    name = slugify(name, { lower: true, customReplacements: [["'", ""]] });
+    let metadata = await Image(src, {
+      widths: [240, 320, 640, 1280],
+      formats: ["avif", "jpeg"],
+      outputDir: "./dist/img/aerial/",
+      urlPath: "/img/aerial/",
+      filenameFormat: function (id, src, width, format, options) {
+        return `${name}-${width}w.${format}`;
+      },
+      cacheOptions: {
+        duration: "4w",
+        directory: "./.cache/bing",
+        removeUrlQueryParams: false,
+      },
+    });
+    let imageAttributes = {
+      alt: `Bing aerial image of ${lat},${lon}`,
+      sizes:
+        "(max-width: 319px) 240px, (max-width: 639px) 320px, (max-width: 1279px) 640px, 1280px",
+      loading: "lazy",
+      decoding: "async",
+    };
+    return Image.generateHTML(metadata, imageAttributes);
   }
-  const url = `https://api.postcodes.io/postcodes/${postcode}`;
-  return EleventyFetch(url, {
-    duration: "1w",
-    type: "json",
+}
+
+async function crestShortcode(src, alt, name) {
+  name = slugify(name, { lower: true, customReplacements: [["'", ""]] });
+  let metadata = await Image(src, {
+    widths: [48, 96, 128],
+    formats: ["webp", "png"],
+    outputDir: "./dist/img/crests",
+    urlPath: "/img/crests",
+    filenameFormat: function (id, src, width, format, options) {
+      return `${name}-${width}w.${format}`;
+    },
+    cacheOptions: {
+      duration: "4w",
+      directory: "./.cache/api-sports",
+      removeUrlQueryParams: false,
+    },
   });
+
+  let imageAttributes = {
+    alt,
+    sizes: "(min-width: 24px) 24px 48px 96px 128px",
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes);
 }

@@ -1,0 +1,70 @@
+<div class="container is-max-desktop">
+  <nav class="navbar" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-weight-bold is-uppercase" href="/">
+      Non-League Grounds
+    </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="nonleaguemenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu" id="nonleaguemenu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/grounds" {% if page.url == "/grounds/" %}aria-label="page"{% endif %}>
+          Grounds
+        </a>
+
+        <a class="navbar-item" href="/clubs" {% if page.url == "/clubs/" %}aria-label="page"{% endif %}>
+          Clubs
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="/leagues" {% if page.url == "/leagues/" %}aria-label="page"{% endif %}>
+          Leagues
+        </a>
+
+          <div class="navbar-dropdown">
+            {%- for tier, items in leagues | groupby("additionalProperty.@value") %}
+              {%- for league in items %}
+                <a 
+                  class="navbar-item" 
+                  href="/leagues/{{ league.name | slugify }}" 
+                  {% if page.url == "/leagues/" + league.name | slugify + "/" %}aria-label="page"{% endif %}
+                >
+                  {{ league.name | trim }}
+                </a>
+              {%- endfor %}
+              {%- if not loop.last %}
+                <hr class="navbar-divider">
+              {%- endif %}
+            {%- endfor %}
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="/regions" {% if page.url == "/regions/" %}aria-label="page"{% endif %}>
+          Regions
+        </a>
+          <div class="navbar-dropdown is-hidden-mobile">
+            <a class="navbar-item" href="/grounds/north-east">North East</a>
+            <a class="navbar-item" href="/grounds/north-west">North West</a>
+            <a class="navbar-item" href="/grounds/yorkshire-and-the-humber">Yorkshire and the Humber</a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="/grounds/east-midlands">East Midlands</a>
+            <a class="navbar-item" href="/grounds/west-midlands">West Midlands</a>
+            <a class="navbar-item" href="/grounds/east-of-england">East of England</a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="/grounds/london">London</a>
+            <a class="navbar-item" href="/grounds/south-east">South East</a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="/grounds/south-west">South West</a>
+            <a class="navbar-item" href="/grounds/wales">Wales</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>

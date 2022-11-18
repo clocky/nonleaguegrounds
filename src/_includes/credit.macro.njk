@@ -1,0 +1,11 @@
+{% macro credit(id, photographer, term) %}
+    {% from "message.macro.njk" import message %}
+    <section class="section">
+        <div class="container is-max-desktop">
+            {%- set content %}
+            Photo by <a href="https://unsplash.com/@{{ id | lower}}">{{ photographer }}</a> on <a href="https://unsplash.com/">Unsplash</a>
+            {%- endset %}
+            {{ message("dark", "small", content | safe ) }}
+        </div>
+    </section>
+{% endmacro %}

@@ -3,24 +3,14 @@ pagination:
     data: clubs
     size: 1
     alias: club
-permalink: "downloads/{{ club.name | slugify }}.vcf"
+permalink: "/clubs/{{ club.name | slugify }}.vcf"
 ---
-{% from "macros.njk" import fc %}
-
-{%- set ground = "" -%}
-
-{%- for g in grounds -%}
-    {%- if g.name == club.ground -%}
-        {%- set ground = g -%}
-    {%- endif -%}
-{%- endfor -%}
-
 BEGIN:VCARD
 VERSION:3.0
-ORG: {{ fc(club.name) | replace("\n", "") | replace("        ", " ") | safe }}
-NICKNAME: {{ club.nickname }}
-BDAY: ----{{ club.founded }}
-item1.ADR;type=WORK;type=pref:;;{{ ground.name }};{{ ground.street }};{{ ground.locality | upper }};{% county ground.postcode %};{{ ground.postcode }};United Kingdom
+ORG: {{ club.alternateName | safe }}
+NICKNAME: {{ club.slogan }}
+BDAY: ----{{ club.foundingDate.@value | date("YYYY")}}
+item1.ADR;type=WORK;type=pref:;;{{ club.location.name }};{{ club.location.address.streetName }};{{ club.location.address.addressLocality | upper }};{{ club.location.address.addressRegion }};{{ club.location.address.postalCode }};United Kingdom
 item1.X-ABADR:gb
 {% if club.twitter -%}X-SOCIALPROFILE;type=twitter:http://twitter.com/{{ club.twitter | lower }}
 {% endif -%}
@@ -28,7 +18,7 @@ item1.X-ABADR:gb
 LOGO;VALUE=URI;TYPE=PNG:https://media.api-sports.io/football/teams/{{club.id}}.png
 {% endif -%}
 {% if club.url -%}
-item2.URL;type=pref:https://{{club.url}}
+item2.URL;type=pref:{{club.url}}
 item2.X-ABLabel:_$!<HomePage>!$_
 {% endif -%}
 SOURCE:{{ meta.base }}/downloads/{{ club.name | slugify }}.vcf

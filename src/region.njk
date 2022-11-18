@@ -1,0 +1,65 @@
+---
+layout: base.njk
+pagination:
+    data: regions
+    size: 1
+    alias: region
+permalink: "/grounds/{{ region.name | slug }}/index.html"
+---
+{% from "macros.njk" import
+listClub %}
+
+{% from "hero.macro.njk" import hero %}
+{% from "credit.macro.njk" import credit %}
+{% from "breadcrumb.macro.njk" import breadcrumb %}
+
+{%- set slug %}{{- region.name | slugify -}}{%- endset %}
+{% set img %}{{ meta.image.region[slug] }}{% endset %}
+
+{{ hero(region.name, "All grounds in " + region.name, img, "Photo illustrating the " + region.name) }}
+{{ breadcrumb("Grounds", region.name) }}
+
+<script type="application/ld+json">
+  {{ region | json | safe }}
+</script>
+<section class="section" id="{{ region.name | slugify }}">
+  <div class="container is-max-desktop">
+    {% for grounds in region.geoContains | sort(attribute = "name") | batch(3) %}
+      <div class="columns">
+        {% for ground in grounds %}
+          <div class="column is-one-third">
+            <a href="/grounds/{{ region.name | slugify }}/{{ ground.name | slugify }}">
+              <figure class="image is-16by9">
+                {% aerial ground.latitude,
+                ground.longitude,
+                ground.name %}
+              </figure>
+              <p class="title is-5 mt-3">{{ ground.name }}</p>
+              <p class="subtitle is-6">{{ ground.subOrganization.name | safe }}</p>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% if region.name == "East Midlands" or region.name == "West Midlands"%}
+  {{ credit("tompodmore86", "Tod Podmore", "Midlands")}}
+{% elseif region.name == "North West" %}
+  {{ credit("dee_jay5", "Dave Walmisley", "North West England")}}
+{% elseif region.name == "South East" %}
+  {{ credit("stevepetcu", "Stefan-Daniel Petcu", "South East England")}}
+{% elseif region.name == "South West" %}
+  {{ credit("rmcollins175", "Rory Collins", "Devon")}}
+{% elseif region.name == "Wales" %}
+  {{ credit("mitchorr", "Mitchell Orr", "Wales")}}
+{% elseif region.name == "London" %}
+  {{ credit("bendavisual", "Benjamin Davies", "London")}}
+{% elseif region.name == "Yorkshire and the Humber" %}
+  {{ credit("timlumley", "Tim Lumley", "Leeds")}}
+{% elseif region.name == "East of England" %}
+  {{ credit("woz1867", "John Wozniak", "Southend")}}
+{% elseif region.name == "North East" %}
+  {{ credit("ybs9641", "Boris Yue", "Newcastle-upon-Tyne")}}
+{% endif %}

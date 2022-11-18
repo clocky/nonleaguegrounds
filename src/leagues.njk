@@ -1,56 +1,49 @@
 ---
-layout: base.njk
-permalink: /league/index.html
-eleventyComputed:
-    title: "Football Conference Leagues"
-    description: "A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier."
+layout: "base.njk"
+permalink: "/leagues/"
+eleventyComputed: 
+    title: "Non-League Grounds | Leagues"
+    description: "A directory of {{ leagues.length }} English football leagues and divisions."
 ---
 
-<header class="container-fluid hero" id="trophy" data-theme="dark">
-    <div class="container">
-        <h1>Leagues</h1>
-        <div class="grid">
-            <p>
-                <strong>A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier</strong>
-            </p>
-            <p></p>
-        </div>
-    </div>
-</header>
+{% from "hero.macro.njk" import hero %}
+{% from "credit.macro.njk" import credit %}
+{% from "breadcrumb.macro.njk" import breadcrumb %}
 
-<main class="container">
-
-    <table role="grid">
-        <thead>
-            <tr>
-                <th scope="col">Tier</th>
-                <th scope="col">Name</th>
-                <th scope="col">Clubs</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for league in leagues | sort(attribute = "tier")%}
+{{ hero("Leagues", "A directory of " + leagues.length + " English football leagues and divisions, sorted by tier", meta.image.trophy, "Various gold trophies of different sizes"  ) }}
+<div class="has-background-light is-hidden-mobile p-4">
+    {{ breadcrumb("Leagues") }}
+</div>
+<section class="section">
+    <div class="container is-max-desktop">
+        <table class="table is-fullwidth">
+            <thead>
                 <tr>
-                    <td>
-                        {{ league.tier | ordinal }}
-                    </td>
-                    <th>
-                        <a href="/league/{{ league.name | slugify }}">
-                            {{ league.sponsor }}
-                            {{ league.name}}
-                        </a>
-                    </th>
-                    <td>
-                        {{ league.clubs | length }}
-                    </td>
+                    <th scope="col" class="is-hidden-mobile">Tier</th>
+                    <th scope="col">Sponsor</th>
+                    <th scope="col" class="has-text-centered">Clubs</th>
                 </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-</main>
+            </thead>
+            <tbody>
+                {% for league in leagues | sort(attribute = "additionalProperty.@value") %}
+                    <tr id="{{ ground.name | slugify }}">
+                        <td class="is-hidden-mobile">
+                            {{ league.additionalProperty.@value | ordinal }}
+                        </td>
+                        <th class="has-text-weight-semibold" scope="row">
+                            <a href="/leagues/{{ league.name | slugify }}">
+                                <span class="is-hidden-mobile">{{ league.sponsor.name }}</span>
+                                {{ league.name }}
+                            </a>
+                        </th>
+                        <td class="has-text-centered">
+                            {{ league.members.length }}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
 
-<footer class="container">
-    <small>
-    Photo by <a href="https://unsplash.com/@zegarr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ezequiel Garrido</a> on <a href="https://unsplash.com/s/photos/trophy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    </small>
-</footer>
+{{ credit("arielbesagar", "Ariel", "Trophies") }}

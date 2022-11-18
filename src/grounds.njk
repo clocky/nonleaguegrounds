@@ -1,65 +1,90 @@
+---js
+{
+    layout: "base.njk",
+    pagination: {
+        data: "grounds",
+        size: 30,
+        before: function(data) {
+            return data.sort((a,b) => a.maximumAttendeeCapacity - b.maximumAttendeeCapacity)
+        },
+        reverse: true,
+    },
+    permalink: "/grounds/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html",
+    eleventyComputed: {
+        title: "Non-League Grounds | Page {{ pagination.pageNumber + 1 }}",
+        description: "A directory of {{ grounds.length }} English non-league grounds, sorted by capacity.",
+        next: "{{ pagination.href.next }}",
+        previous: "{{ pagination.href.previous }}",
+    },
+}
 ---
-layout: base.njk
-permalink: /ground/index.html
-eleventyComputed:
-    title: "Football Conference Leagues"
-    description: "A directory of {{ grounds.length }} English non-league grounds, sorted by capacity."
----
+{% from "breadcrumb.macro.njk" import breadcrumb %}
+{% from "credit.macro.njk" import credit %}
+{% from "hero.macro.njk" import hero %}
 
-<header class="container-fluid hero" id="ground" data-theme="dark">
-    <div class="container">
-        <h1>Grounds</h1>
-        <div class="grid">
-            <p>
-                <strong>A directory of {{ grounds.length }} English non-league grounds, sorted by capacity</strong>
-            </p>
-            <p></p>
-        </div>
-    </div>
-</header>
+{{ hero("Grounds", "A directory of " + grounds.length + " non-league grounds, sorted by capacity", meta.image.ground, "A wide angle photo of a football ground, with players on the pitch under floodlights"  ) }}
+{{ breadcrumb("Grounds") }}
 
-<main class="container">
-
-    <table role="grid">
-        <thead>
-            <tr>
-                <th scope="col">Pos</th>
-                <th scope="col">Name</th>
-                <th scope="col">Club</th>
-                <th scope="col">Capacity</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for ground in grounds | sort(attribute = "capacity") | reverse %}
-                <tr id="{{ ground.name | slugify }}">
-                    <td>
-                        {{ loop.index | ordinal }}
-                    </td>
-                    <th>
-                        <a href="/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}">
-                            {{ ground.name }}
-                        </a>
-                    </th>
-                    <td>
-                        {% set club = "" %}
-                        {% for c in clubs %}
-                            {% if c.ground == ground.name %}
-                                <a href="/club/{{ c.name | slugify }}" class="secondary">{{ c.name }}</a>
-                                {% set club = c %}
-                            {% endif %}
-                        {% endfor %}
-                    </td>
-                    <td>
-                        {{ ground.capacity | commaNumber }}
-                    </td>
+<section class="section-desktop">
+    <div class="container is-max-desktop">
+        <table class="table is-fullwidth mt-3">
+            <thead>
+                <tr>
+                    <th scope="col" class="is-hidden-mobile">Pos</th>
+                    <th scope="col">Name</th>
+                    <th scope="col" class="is-hidden-mobile">Home of</th>
+                    <th scope="col" class="has-text-right">
+                    Capacity</th>
                 </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-</main>
-<footer class="container-fluid">
-    <div class="container">
-        <small>Photo by <a href="https://unsplash.com/@fancycrave?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fancy Crave</a> on <a href="https://unsplash.com/s/photos/soccer-ground?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-        </small>
+            </thead>
+            <tbody>
+                {% macro calc(a, b) %}
+                    {{ ((a * 10) + b) |  ordinal }}
+                {% endmacro %}
+                {% for ground in pagination.items | sort(attribute = "maximumAttendeeCapacity") | reverse %}
+                    <tr id="{{ ground.name | slugify }}">
+                        <td class="is-hidden-mobile">
+                            {{ calc(pagination.pageNumber, loop.index) }}
+                        </td>
+                        <th class="has-text-weight-semibold" scope="row">
+                            <a href="/grounds/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}">
+                                {{ ground.name }}
+                            </a>
+                        </th>
+                        <td class="is-hidden-mobile">
+                            {% for team in ground.subOrganization %}
+                                {{ team.name | safe }}
+                                {%- if not loop.last %}, {% endif %}
+                            {% endfor %}
+                        </td>
+                        <td class="has-text-right">
+                            {{ ground.maximumAttendeeCapacity | commaNumber }}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
-</footer>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <nav class="pagination" role="navigation" aria-label="pagination">
+            <a class="pagination-previous {% if not pagination.previous %}is-disabled{% endif %}" href="{{ pagination.href.previous }}" title="This is the first page">Previous</a>
+            <a class="pagination-next {% if not pagination.next %}is-disabled{% endif %}" href="{{ pagination.href.next }}">Next page</a>
+            <ul class="pagination-list">
+                {% for href in pagination.hrefs %}
+                    <li>
+                        {% if loop.index0 == pagination.pageNumber %}
+                            <a class="pagination-link is-current" aria-label="Page {{ loop.index }}" aria-current="page" href="{{ href }}">{{ loop.index }}</a>
+                        {% else %}
+                            <a class="pagination-link" aria-label="Go to page {{ loop.index }}" href="{{ href }}">{{ loop.index }}</a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</section>
+
+{{ credit("fancycrave", "Fancy Crave", "Soccer Ground") }}

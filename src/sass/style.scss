@@ -1,79 +1,75 @@
-@use "../../node_modules/@picocss/pico/scss/pico";
+@charset "utf-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWYabdcefghiklmnopqrstuvwxyz()'");
-@import url("https://fonts.googleapis.com/css?family=Noto+Emoji&display=swap&text=🏟️⚽🏆󠁧󠁢󠁷󠁬󠁳🐦󠁧󠁢󠁷󠁬󠁳🐝🪵🐦⛪🗡️󠁧󠁢󠁷󠁬󠁳🏃󠁧󠁢󠁷󠁬󠁳✈️󠁧󠁢󠁷󠁬󠁳🏁🐦🪨🐦󠁧󠁢󠁷󠁬󠁳🏃󠁧󠁢󠁷󠁬󠁳🦐🧲🐦🪨🔴󠁧󠁢󠁷󠁬󠁳🧤⛪🏖️🦌🔴󠁧󠁢󠁷󠁬󠁳⚔️󠁧󠁢󠁷󠁬󠁳😇🪖🦌󠁧󠁢󠁷󠁬󠁳🦭🐦󠁧󠁢󠁷󠁬󠁳󠁧󠁢󠁷󠁬🪖🐯🐂󠁧󠁢󠁷󠁬󠁳🌺󠁧󠁢󠁷󠁬󠁳👶🐦󠁧󠁢󠁷󠁬󠁳✋󠁧󠁢󠁷󠁬󠁳✈️🐶🏖️󠁧󠁢󠁷󠁬󠁳🧲🔴󠁧󠁢󠁷󠁬󠁳🐦🏖️󠁧󠁢󠁷󠁬󠁳🎯⚪󠁧󠁢󠁷󠁬󠁳🏠󠁧󠁢󠁷󠁬󠁳🦫🦅󠁧󠁢󠁷󠁬󠁳👑⚔️󠁧󠁢󠁷󠁬󠁳⭕󠁧󠁢󠁷󠁬󠁳✊😇🦚😇🦅🌎󠁧󠁢󠁷󠁬󠁳✊🏴󠁧󠁢󠁷󠁬󠁳󠁿🙏🏻🍞🎻🇷🇰🪄👦🚪♟️🎓🍷");
+$family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, sans-serif;
 
-.emoji {
-  font-family: "Noto Emoji", sans-serif;
-  color: #000;
+$footer-background-color: #212121;
+$cyan: #2a7abc;
+$pagination-disabled-color: #606060;
+$tablet: 751px;
+
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/elements/box.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
+@import "../../node_modules/bulma/sass/elements/container.sass";
+@import "../../node_modules/bulma/sass/elements/image.sass";
+@import "../../node_modules/bulma/sass/elements/other.sass";
+@import "../../node_modules/bulma/sass/elements/title.sass";
+@import "../../node_modules/bulma/sass/elements/table.sass";
+@import "../../node_modules/bulma/sass/elements/tag.sass";
+@import "../../node_modules/bulma/sass/components/breadcrumb.sass";
+@import "../../node_modules/bulma/sass/components/card.sass";
+@import "../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../node_modules/bulma/sass/components/level.sass";
+@import "../../node_modules/bulma/sass/components/message.sass";
+@import "../../node_modules/bulma/sass/components/media.sass";
+@import "../../node_modules/bulma/sass/components/pagination.sass";
+@import "../../node_modules/bulma/sass/layout/_all";
+@import "../../node_modules/bulma/sass/grid/columns.sass";
+@import "../../node_modules/bulma/sass/helpers/spacing.sass";
+@import "../../node_modules/bulma/sass/helpers/typography.sass";
+@import "../../node_modules/bulma/sass/helpers/color.sass";
+@import "../../node_modules/bulma/sass/helpers/visibility.sass";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+
+.navbar-brand {
+  letter-spacing: -0.03rem;
 }
 
-[data-theme="light"],
-:root:not([data-theme="dark"]) {
-  --primary: #107c10;
-  --primary-hover: #0b6a0b;
-  --primary-focus: #8cbd18
-  --primary-inverse: #ffffff;
-  h1,h2, nav strong{
-    font-family: "Rubik Mono One", sans-serif;
-    font-weight: 400;
-    line-height: 1.75rem;
-  }
-  h1 {
-    display: inline-block;
-    padding: 0.5rem 0.75rem;
-    background-color: #000000;
-
-  }
-  nav li strong a {
-    color: #212121;
-    &:hover {
-      color: var(--primary);
-    }
-  }
+h1.is-size-1 {
+  font-weight: 900;
+  font-stretch: 125%;
+  line-height: 3rem;
+  text-transform: uppercase;
 }
 
-footer[data-theme="dark"] {
-  background-color: #212121
+h2.is-size-2 {
+  font-weight: 800;
+  font-stretch: 125%;
+  line-height: 2rem;
+  text-transform: uppercase;
 }
 
-th {
-  font-weight: 500;
+address {
+  font-style: normal;
 }
 
 .hero {
-  background-color: rgba(0, 0, 0, 0.1);
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: darken;
-}
-
-:target {
-  border: 2px solid #000000;
-}
-
-#club {
-  background-image: url("../img/nicholas-green-nPz8akkUmDI-unsplash.jpg");
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#ground {
-  background-image: url("../img/fancy-crave-qowyMze7jqg-unsplash.jpg");
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#league {
-  background-image: url("../img/samuel-regan-asante-YOtjUyEfClo-unsplash.jpg");
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#trophy {
-  background-image: url("../img/ezequiel-garrido-s6XWkKDKynY-unsplash.jpg");
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#home {
-  h2 {
-    flex-shrink: initial;
+  &.has-background {
+    position: relative;
+    overflow: hidden;
+  }
+  &-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    &.is-transparent {
+      opacity: 0.5;
+    }
   }
 }

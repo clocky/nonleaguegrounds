@@ -1,0 +1,12 @@
+---
+permalink: /lunr.json
+---
+[
+    {% for ground in grounds %}
+        {
+            "title": "{{ ground.name }}",
+            "url": "/grounds/{{ ground.areaServed.name | slug }}/{{ ground.name | slug }}/",
+            "description": "{{ ground.name }} {%- if ground.sponsor %}, officially known as {{ ground.sponsor.name }} for sponsorship reasons,{% endif %} is an {{ ground.subOrganization[0].sport | lower }} ground in {{ ground.address.addressLocality }} {%- if ground.address.addressRegion -%}, {{ ground.address.addressRegion }} {%- endif %} that holds {{ ground.maximumAttendeeCapacity | commaNumber }} people. {%- for club in ground.subOrganization | safe %} {%- if not loop.first %} The ground is shared with {%- else %} The ground is the home of {{ club.alternateName | safe }} who currently compete in the {{ club.memberOf.name }} {%- endif %} {%- endfor %}.",
+        } {% if not loop.last %},{% endif %}
+{% endfor %}
+]

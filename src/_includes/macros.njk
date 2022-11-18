@@ -143,3 +143,28 @@
     {%- endif -%}
     {{ emoji }}
 {%- endmacro -%}
+
+{% macro listClub(img, alt, title, subtitle, url, tag) %}
+    <article class="media">
+        <figure class="media-left">
+            <p class="image is-48x48">
+                <img src="{{ img }}" alt="{{ alt }}" decoding="async" loading="lazy">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <h3 class="has-text-weight-semibold">
+                    <a href="/clubs/{{ title | slugify }}">
+                        {{- title -}}
+                    </a>
+                    {% if tag %}
+                        <span class="tag"></span>
+                    {% endif %}
+                </h3>
+                <small class="has-text-dark-gray">
+                    {{- subtitle -}}
+                </small>
+            </div>
+        </div>
+    </article>
+{% endmacro %}

@@ -1,0 +1,35 @@
+---
+layout: "base.njk"
+permalink: "/regions/"
+eleventyComputed: 
+    title: "Non-League Grounds | Regions"
+    description: "A directory of {{ regions.length }} regions of the United Kingdom with non-league clubs."
+---
+{% from "breadcrumb.macro.njk" import breadcrumb %}
+{% from "hero.macro.njk" import hero %}
+
+{{ breadcrumb("Regions", region.name) }}
+
+<section class="section" id="{{ region.name | slugify }}">
+    <div class="container is-max-desktop">
+        {% for regions in regions | sort(attribute = "name") | batch(3) %}
+            <div class="columns">
+                {% for region in regions %}
+                    <div class="column is-one-third">
+                        <a href="/grounds/{{ region.name | slugify }}">
+                            {%- set slug %}{{- region.name | slugify -}}{%- endset %}
+                            {% set img %}{{ meta.image.region[slug] }}{% endset %}
+                            <figure class="image is-16by9">
+                                <img src="{{ img | url }}" alt="{{ region.name }} non-league football grounds">
+                            </figure>
+                            <p class="title is-5 mt-3">{{ region.name }}</p>
+                            <p class="subtitle is-6">{{ region.geoContains.length }} ground{%- if region.geoContains.length > 1 -%}s{%- endif -%}
+                            </p>
+
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+</section>

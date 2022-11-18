@@ -1,0 +1,14 @@
+{% macro message(type, size, body, header) %}
+    <article class="message is-{{ type }} is-{{ size }}">
+        {%- if header %}
+            <div class="message-header">
+                <p>{{ header }}</p>
+            </div>
+        {%- endif %}
+        {%- if body %}
+            <div class="message-body">
+                <p>{{ body }}</p>
+            </div>
+        {%- endif %}
+    </article>
+{% endmacro %}

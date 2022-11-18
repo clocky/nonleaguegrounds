@@ -1,31 +1,52 @@
 ---
 layout: base.njk
 ---
-<header class="container-fluid hero" id="league" data-theme="dark">
-    <div class="container">
-        <h1>{{ meta.title | replace(" ", "\n") | nl2br | safe}}</h1>
-        <div class="grid">
-            <p>
-                <strong>{{ meta.description }}</strong>
-            </p>
-            <p></p>
+{% from "credit.macro.njk" import credit %}
+{% from "hero.macro.njk" import hero %}
+{{ hero(meta.title, meta.description, meta.image.league, "") }}
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <div class="columns">
+            <div class="column is-one-third">
+                <div class="has-text-centered">
+                    <span class="icon is-large has-text-success-dark">
+                        <i class="fas fa-flag fa-2x"></i>
+                    </span>
+                    <ion-icon name="location-outline" size="large" class="icon has-text-success-dark"></ion-icon>
+                    <h3 class="is-size-4 has-text-weight-semibold mb-2">
+                    Grounds
+                </h3>
+                    <p class="has-text-grey-dark">A directory of {{ grounds.length }} English and Welsh non-league grounds, sorted by capacity.</p>
+                    <a href="/grounds/" class="button is-info mt-4">View all grounds</a>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="has-text-centered">
+                    <span class="icon is-large has-text-dark">
+                        <i class="fas fa-futbol fa-2x"></i>
+                    </span>
+                    <h3 class="is-size-4 has-text-weight-semibold mb-2">
+                    Clubs
+                </h3>
+                    <p class="has-text-grey-dark">A directory of {{ clubs.length }} English and Welsh non-league clubs, sorted alphabetically.</p>
+                    <a href="/clubs/" class="button is-info mt-4">View all clubs</a>
+                </div>
+            </div>
+            <div class="column is-one-third">
+                <div class="has-text-centered">
+                    <span class="icon is-large has-text-warning-dark">
+                        <i class="fas fa-trophy fa-2x"></i>
+                    </span>
+                    <h3 class="is-size-4 has-text-weight-semibold mb-2">
+                    Leagues
+                </h3>
+                    <p class="has-text-grey-dark">A directory of {{ leagues.length }} English football conference leagues, sorted by tier.</p>
+                    <a href="/leagues/" class="button is-info mt-4">View all leagues</a>
+                </div>
+            </div>
         </div>
     </div>
-</header>
+</section>
 
-<main class="container">
-    {% for league in leagues %}
-        <h2>{{ league.name | replace(" ", "\n") | nl2br | safe }}</h2>
-        <div class="grid">
-            {% for column in league.clubs | batch(6)%}
-                <ul>
-                    {% for team in column %}
-                        <li>
-                            <a href="/club/{{ team.name | slugify }}/">{{ team.name }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            {% endfor %}
-        </div>
-    {% endfor %}
-</main>
+{{ credit("fkaregan", "Samuel Regan-Asante", "Non-League") }}

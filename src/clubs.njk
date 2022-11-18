@@ -1,69 +1,95 @@
+---js
+{
+    layout: "base.njk",
+    pagination: {
+        data: "clubs",
+        size: 30,
+        before: function(data) {
+            return data.sort((a,b) => ('' + a.name).localeCompare(b.name));
+        },
+        reverse: false,
+    },
+    eleventyComputed: {
+        title: "Non-League Clubs | Page {{ pagination.pageNumber + 1 }}",
+        description: "A page of a directory of {{ clubs.length }} English non-league clubs, sorted alphabetically.",
+        next: "{{ pagination.href.next }}",
+        previous: "{{ pagination.href.previous }}",
+    },
+}
 ---
-layout: base.njk
-permalink: /club/index.html
-title: Clubs
-eleventyComputed:
-    description: "A directory of {{ clubs.length }} non-league clubs, sorted alphabetically"
----
-{% from "macros.njk" import fc %}
-{% from "macros.njk" import emoji %}
 
-<header class="container-fluid hero" id="club" data-theme="dark">
-    <div class="container">
-        <h1>Clubs</h1>
-        <div class="grid">
-            <p>
-                <strong>A directory of {{ clubs.length }} non-league clubs, sorted alphabetically</strong>
-            </p>
-            <p></p>
-        </div>
-    </div>
-</header>
+{% from "credit.macro.njk" import credit %}
+{% from "hero.macro.njk" import hero %}
 
-<main class="container">
-    <table role="grid">
-        <thead>
-            <tr>
-                <th scope="col">Club</th>
-                <th scope="col">Ground</th>
-                <th scope="col">League</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for club in clubs | sort(attribute = "name") %}
-                {% set region = "" %}
-                {% for g in grounds %}
-                    {% if g.name == club.ground %}
-                        {% set region = g.region %}
-                    {% endif %}
-                {% endfor %}
+{{ hero("Clubs", "A directory of " + clubs.length + " non-league clubs, sorted alphabetically", meta.image.club, "A crowd of people cheering at a football game or a concert, with a focus on two fans holding their arms aloft") }}
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <table class="table is-fullwidth">
+            <thead>
                 <tr>
-                    <th>
-                        <a href="/club/{{ club.name | slugify }}">{{ club.name }}</a>
-                    </th>
-                    <td>
-                        <a href="/ground/{{ region | slugify }}/{{ club.ground | slugify }}" class="secondary">{{ club.ground }}</a><br/>
-                    </td>
-                    <td>
-                        {# Determine what league the club is in #}
-                        {% for l in leagues %}
-                            {% for c in l.clubs %}
-                                {% if c.name == club.name %}
-                                    {{ l.name }}
-                                {% endif %}
-                            {% endfor %}
-                        {% endfor %}
-                    </td>
+                    <th scope="col">Club</th>
+                    <th scope="col" class="is-hidden-mobile">Ground</th>
+                    <th scope="col" class="is-hidden-touch">League</th>
                 </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-
-</main>
-<footer class="container-fluid">
-    <div class="container">
-        <small>
-            Photo by <a href="https://unsplash.com/@nickxshotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nicholas Green</a> on <a href="https://unsplash.com/s/photos/soccer-crowd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-        </small>
+            </thead>
+            <tbody>
+                {% for club in pagination.items | sort(attribute = "name") %}
+                    <tr>
+                        <th class="media" scope="row">
+                            <figure class="media-left">
+                                <span class="image is-24x24">
+                                    {% crest club.logo.contentURL,
+                                    club.logo.caption,
+                                    club.name %}
+                                </span>
+                            </figure>
+                            <div class="media-content">
+                                <a href="/clubs/{{ club.name | slugify }}" class="has-text-weight-semibold">{{ club.name }}</a>
+                            </div>
+                        </th>
+                        <td class="is-hidden-mobile">
+                            <a 
+                                href="/grounds/{{ club.location.areaServed | slugify }}/{{ club.location.name | slugify }}"
+                                class="has-text-grey-dark is-underlined"
+                            >{{ club.location.name }}</a>
+                        </td>
+                        <td class="is-hidden-touch">
+                            <span class="has-text-grey-dark">{{ club.memberOf.name }}</span>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
-</footer>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <nav class="pagination" aria-label="pagination">
+            {% if not pagination.previous %}
+                <span class="pagination-previous" disabled>Previous</span>
+            {% else %}
+                <a class="pagination-previous" href="{{ pagination.href.previous }}">Previous</a>
+            {% endif %}
+            {% if not pagination.next %}
+                <span class="pagination-next" disabled>Next</span>
+            {% else %}
+                <a class="pagination-next" href="{{ pagination.href.next }}">Next page</a>
+            {% endif %}
+            <ul class="pagination-list">
+                {% for href in pagination.hrefs %}
+                    <li>
+                        {% if loop.index0 == pagination.pageNumber %}
+                            <a class="pagination-link is-current" aria-label="Page {{ loop.index }}" aria-current="page" href="{{ href }}">{{ loop.index }}</a>
+                        {% else %}
+                            <a class="pagination-link" aria-label="Go to page {{ loop.index }}" href="{{ href }}">{{ loop.index }}</a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</section>
+
+{{ credit("nickxshotz", "Nicholas Green", "Soccer Crowd") }}

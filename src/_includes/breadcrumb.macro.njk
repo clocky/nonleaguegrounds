@@ -1,0 +1,30 @@
+{% macro breadcrumb(tree, branch, leaf) %}
+    <div class="has-background-light is-hidden-mobile p-4">
+        <div class="container is-max-desktop">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    {%- if tree %}
+                        <li  {% if not branch %} class="is-active" {% endif %}>
+                            <a href="/{{ tree | slugify }}">{{ tree }}</a>
+                        </li>
+                    {%- endif %}
+                    {%- if branch %}
+                        <li {% if not leaf %} class="is-active" {% endif %}>
+                            <a href="/{{ tree | slugify }}/{{ branch | slugify }}">
+                                {{ branch }}
+                            </a>
+                        </li>
+                    {%- endif %}
+                    {%- if leaf %}
+                        <li class="is-active">
+                            <a href="/{{ tree | slugify }}/{{ branch | slugify }}/{{ leaf | slugify }}" aria-current="page">{{ leaf }}</a>
+                        </li>
+                    {%- endif %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+{% endmacro %}

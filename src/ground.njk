@@ -4,35 +4,18 @@ pagination:
     data: grounds
     size: 1
     alias: ground
-permalink: "ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}/index.html"
+permalink: "/grounds/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}/index.html"
 eleventyComputed:
     title: "{{ ground.name | safe }} | {{ meta.title }}"
     description: "Information about the non-league football ground, {{ ground.name }}, with maps, address and contact information."
 ---
+{% from "breadcrumb.macro.njk" import breadcrumb %}
+{% from "hero.macro.njk" import hero %}
 
-{% from "macros.njk" import staticmap as google %}
-{% from "macros.njk" import fc %}
-
-{% set club = "" %}
-
-{% for c in clubs %}
-  {% if c.ground == ground.name %}
-    {% set club = c %}
-  {% endif %}
-{% endfor %}
-
-{% set play_here = [] %}
-{% for c in clubs %}
-  {% if c.ground == ground.name %}
-    {% set play_here = (play_here.push(c), play_here) %}
-  {% endif %}
-{% endfor %}
-
-{%- set address -%}
-{{ ground.name | replace("'", "") | urlencode -}},{{- ground.locality | urlencode }},{{ ground.region | urlencode }},{{ ground.postcode | urlencode }}
-{%- endset -%}
-{%- set key = env.google_maps_api_key -%}
-
+<script type="application/ld+json">
+  {{ ground | json | safe }}
+</script>
+{# 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -50,169 +33,156 @@ eleventyComputed:
     },
     "identifier": {
       "@type": "url",
-      "@id": "{{ meta.base }}/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}"
+      "@id": "{{ meta.base }}/ground/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}"
     },
     "address": {
       "@type": "PostalAddress",
-      {%- if ground.street %}"streetAddress": "{{ ground.street }}",{%- endif %}
-      "addressLocality": "{{ ground.locality }}",
-      "addressRegion": "{% county ground.postcode %}",
-      "postalCode": "{{ ground.postcode }}",
+      {%- if ground.address.streetAddress %}"streetAddress": "{{ ground.address.streetAddress }}",{%- endif %}
+      "addressLocality": "{{ ground.address.addressLocality }}",
+      {%- if ground.address.addressRegion %}
+        "addressRegion": "{{ ground.address.addressRegion }}",
+      {%- endif %}
+      "postalCode": "{{ ground.address.postalCode }}",
       "addressCountry": {
         "@type": "Country",
-        "name": "{% country ground.postcode %}"
+        "name": "{{ ground.address.addressCountry.name }}"
       }
     },
     {%- if ground.sponsor %}
       "sponsor": {
         "@type": "Organization",
-        "name": "{{ ground.sponsor }}"
+        "name": "{{ ground.sponsor.name }}"
       },
     {%- endif %}
   }
-</script>
+</script> #}
 
-<header class="container-fluid hero" id="{{ ground.name | slugify }}" data-theme="dark">
-  <div class="container">
-    <h1>
-      {{ ground.name | replace(" ", "\n") | nl2br | safe }}
-    </h1>
-  </div>
-</header>
+{% set img %}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ ground.latitude }},{{ ground.longitude }}/18?mapSize=1280,800&query={{ ground.name | urlencode }}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}
+{% endset %}
+{% set alt %}
+An aerial photograph of {{ ground.name }} in {{ ground.address.addressLocality }}, {{ ground.address.addressRegion }}
+{% endset %}
 
-<main class="container">
-  <div class="grid">
-    <section>
-      <h3>Overview</h3>
-      <p>
-        {% if ground.sponsor %}
-          <strong>{{ ground.name }}</strong>, also known as <strong>{{ ground.sponsor }}</strong> for sponsorship purposes, is a football ground in {{ ground.locality }}, {% county ground.postcode %}.
-        {% else %}
-          <strong>{{ ground.name }}</strong> is a football ground {% if ground.locality %} in {{ ground.locality }}, {% county ground.postcode %}.
-          {%- endif %}
-        {% endif %}
-        The current capacity of the ground is <a href="/ground/#{{ ground.name | slugify }}">{{ ground.capacity | commaNumber }}</a>
-        {%- if ground.surface %}, with a pitch surface of {{ ground.surface -}}
-        {% endif -%}.
-          </p>
-      <p>
-        {% if play_here.length > 0 %}
-          {% if play_here.length == 1 %}
-            <a href="/club/{{ club.name | slugify }}">{{ fc(play_here[0].name) }}</a> play their home games at {{ ground.name }}.
-          {% else %}
-            {% for c in play_here %}
-              {% if loop.last %}
-                and <a href="/club/{{ c.name | slugify }}">{{ fc(c.name) }}</a> play their home games at {{ ground.name }}.
-              {% else %}
-                <a href="/club/{{ c.name | slugify }}">{{ fc(c.name) }}</a>
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-        {% endif %}
+{{ hero(ground.name, ground.areaServed.name, img, alt ) }}
+{{ breadcrumb("Grounds", ground.areaServed.name, ground.name) }}
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-8 is-variable">
+      <div class="column is-two-thirds">
+        <p class="block is-size-5">
+          <strong>{{ ground.name }}</strong>
+          {%- if ground.sponsor %}, officially known as "{{ ground.sponsor.name | safe }}" for sponsorship reasons, {% endif %}
+        is an {{ ground.subOrganization[0].sport | lower }} ground in {{ ground.address.addressLocality }}
+          {%- if ground.address.addressRegion -%}
+        , {{ ground.address.addressRegion }}
+          {%- endif %} that holds {{ ground.maximumAttendeeCapacity | commaNumber }} people.
       </p>
-      <h4>Information</h4>
-      <table role="grid">
-        <tbody>
-          <tr>
-            <th>Name</th>
-            <td>
-              {{ ground.name }}
-            </td>
-          </tr>
-          {% if ground.sponsor %}
-            <tr>
-              <th>Sponsor</th>
-              <td>
-                {{ ground.sponsor }}
-              </td>
-            </tr>
-          {% endif %}
-          {% if ground.street %}
-            {% if ground.street != ground.name %}
-              <tr>
-                <th>Street</th>
-                <td>
-                  {{ ground.street }}
-                </td>
-              </tr>
+        {% for club in ground.subOrganization %}
+          <p class="block">
+            {% if not loop.first %} 
+            The ground is shared with 
+            {% else %} 
+            The ground is the home of
             {% endif %}
-          {% endif %}
-          <tr>
-            <th>Town</th>
-            <td>
-              {{ ground.locality | upper }}
-            </td>
-          </tr>
-          <tr>
-            <th>Postcode</th>
-            <td>
-              {{ ground.postcode | upper }}
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <a href="/downloads/{{ club.name | slugify}}.vcf" role="button" class="outline">Save to address book</a>
-      <h4>Nearby grounds</h4>
-      <ul>
+            <a href="/clubs/{{ club.name | safe | slugify }}">{{ club.alternateName }}</a>, 
+            who currently compete in the <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.name }}</a>.</p>
+        {% endfor %}
+        <div class="buttons">
+          <a 
+            href="https://www.google.com/maps/search/?api=1&zoom=18&query={{ ground.subOrganization[0].alternateName | urlencode }},{{ ground.name | urlencode }},{{ ground.address.addressLocality | urlencode }},{{ ground.address.postalCode | urlencode }}&basemap=roadmap" 
+            target="_blank" 
+            class="button" 
+            aria-label="Open in Google Maps">
+            <span class="icon">
+              <i class="fab fa-google"></i>
+            </span>
+            <span>Google Maps</span></a>
+          <a 
+            href="http://maps.apple.com/?q={{ ground.name | urlencode }}&sll={{ground.latitude}},{{ground.longitude}}&z=18&t=m"
+            target="_blank" 
+            class="button" 
+            aria-label="Open in Apple Maps">
+            <span class="icon">
+              <i class="fab fa-apple"></i>
+            </span>
+            <span>Apple Maps</span>
+          </a>
+          <a 
+            href="https://bing.com/maps/default.aspx?cp={{ground.latitude}}~{{ground.longitude}}&lvl=17&ss={{ ground.name | urlencode }}"
+            target="_blank" 
+            class="button" 
+            aria-label="Open in Bing Maps">
+            <span class="icon">
+              <i class="fab fa-microsoft"></i>
+            </span>
+            <span>Bing Maps</span>
+          </a>
+          <a 
+            href="http://www.openstreetmap.org/#map=18/{{ground.latitude}}/{{ground.longitude}}"
+            target="_blank" 
+            class="button" 
+            aria-label="Open in Open Street Maps">
+            <span class="icon">
+              <i class="fas fa-map"></i>
+            </span>
+            <span>OpenStreetMap</span>
+          </a>
+        </div>
+
+      </div>
+      <div class="column is-one-third">
+        <h3 class="heading">Address</h3>
+        <address class="block">
+          {%- if ground.sponsor %}
+            {{ ground.sponsor.name | safe }}<br/>
+          {% else %}
+            {{ ground.name }}<br/>
+          {%- endif %}
+          {%- if ground.address.streetName %}
+            {%- if ground.address.streetName != ground.name %}
+              {{ ground.address.streetName }}
+            {%- endif %}
+          {%- endif %}
+          {{ ground.address.addressLocality | upper }}<br/>
+          {%- if ground.address.addressRegion %}
+            {{ ground.address.addressRegion }}<br/>
+          {%- endif %}
+          {{ ground.address.postalCode | upper }}<br/>
+        </address>
+        <h3 class="heading">Nearby</h3>
         {% set count = 0%}
-        {% for away in grounds %}
-          {# Call distance shortcode to determine mile distance between 
+        <ul>
+          {% for away in grounds %}
+            {# Call distance shortcode to determine mile distance between 
               latitude and longitude of home and away grounds
             #}
-          {% set distance %}
-          {% distance
-          ground.latitude,
-          ground.longitude,
-          away.latitude,
-          away.longitude
+            {% set distance %}
+            {% distance
+            ground.latitude,
+            ground.longitude,
+            away.latitude,
+            away.longitude
  %}
-          {% endset %}
-          {# Select grounds within 15 mile radius #}
-          {% if distance < 15 and away.name != ground.name %}
-            <li>
-              {% for c in clubs %}
-                {% if c.ground == away.name %}
-                  <a href="/club/{{ c.name | slugify }}">{{ fc(c.name) }}</a>
-                  {% set count = count + 1 %}
-                {% endif %}
-              {% endfor %} at 
-                <a href="/ground/{{away.region|slugify}}/{{away.name|slugify}}">{{ away.name }}</a>
-                ({{ distance | round(1) }} mi)
+            {% endset %}
+            {# Select grounds within 10 mile radius #}
+            {% if distance < 10 and away.name != ground.name %}
+              <li>
+                {% set count = count + 1 %}
+                <a href="/grounds/{{ away.areaServed.name | slugify }}/{{ away.name | slugify }}">{{ away.name }}</a>
+                <span class="tag">{{ distance | round(1) }} mi</span>
               </li>
-          {% endif %}
-        {% endfor %}
-        {% if count == 0 %}
-          <li>
-              No grounds found within a 10 mile radius.
+            {% endif %}
+          {% endfor %}
+
+          {% if count == 0 %}
+            <li>
+              No grounds found within a 15 mile radius.
           </li>
-        {% endif %}
-      </ul>
-      <h4>Maps</h4>
-      <p>
-        <a 
-            href="https://www.google.com/maps/search/?api=1&zoom={{zoom}}&query={{address}}&basemap=roadmap" 
-            target="_blank" 
-            role="button" 
-            aria-label="Open in Google Maps">Google Maps</a>
-        <a 
-            href="http://maps.apple.com/?q={{address}}&sll={{ground.latitude}},{{ground.longitude}}&z={{zoom}}&t=m"
-            target="_blank" 
-            role="button" 
-            aria-label="Open in Apple Maps">Apple Maps</a>
-        <a 
-            href="http://www.openstreetmap.org/#map={{zoom}}/{{ground.latitude}}/{{ground.longitude}}"
-            target="_blank" 
-            role="button" 
-            aria-label="Open in Open Street Maps">OpenStreetMap</a>
-      </p>
-    </section>
-    <aside>
-      <figure>
-        <img src="https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels/{{ground.latitude}},{{ground.longitude}}/18?mapSize=600,450&query={{ground.name | urlencode}}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}"  alt="An aerial photograph of {{ ground.name }} in {{ ground.locality }}, {{ ground.region }}.">
-        <figcaption>
-          <small>Bing Aerial view of {{ ground.name }}, {{ ground.locality }}</small>
-        </figcaption>
-      </figure>
-    </aside>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
   </div>
-</main>
+</section>

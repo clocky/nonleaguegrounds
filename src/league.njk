@@ -4,98 +4,98 @@ pagination:
     data: leagues
     size: 1
     alias: league
-permalink: "league/{{ league.name | slugify }}/index.html"
+permalink: "leagues/{{ league.name | slugify }}/index.html"
 eleventyComputed:
-    title: "Clubs in the {{ league.sponsor | safe }} {{ league.name | safe }}"
-    description: The {{ league.sponsor }} {{ league.name }} is the {{ league.tier | ordinal }} tier of the English football pyramid, with a total of {{ league.clubs.length }} clubs"
+    title: "Clubs in the {{ league.sponsor.name | safe }} {{ league.name | safe }}"
+    description: The {{ league.sponsor.name }} {{ league.name }} is the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members | length }} clubs"
 ---
-{% from "macros.njk" import emoji %}
 
-{%- set markers -%}
-{%- for club in league.clubs -%}
-    {%- for c in clubs -%}
-        {%- if c.name == club.name -%}
-            {%- for g in grounds -%}
-                {%- if c.ground == g.name -%}
-                    &markers=size:mid|label:{{club.name.slice(0,1) | upper }}|{{ g.latitude }},{{ g.longitude }}
-                {%- endif -%}
-            {%- endfor -%}
-        {%- endif -%}
-    {%- endfor -%}
-{%- endfor -%}
-{%- endset -%}
-{%- set key = env.google_maps_api_key -%}
+{% from "credit.macro.njk" import credit %}
+{% from "hero.macro.njk" import hero %}
+{% from "breadcrumb.macro.njk" import breadcrumb %}
 
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "SportsOrganization",
         "name": "{{ league.name }}",
-        "alternateName": "{{ league.sponsor }} {{ league.name }}",
+        "alternateName": "{{ league.alternateName }}",
+        "logo": "{{ league.logo.contentURL }}",
         "sponsor": {
             "@type": "Organization",
-            "name": "{{ league.sponsor }}"
+            "name": "{{ league.sponsor.name }}"
         },
-        "url": "https://{{ league.url }}",
+        "url": "{{ league.url }}",
         "identifier": {
             "@type": "url",
-            "@value": "{{ meta.base }}/league/{{ league.name | slugify }}"
-        },    
+            "@value": "{{ meta.base }}/leagues/{{ league.name | slugify }}"
+        },
+        "member": [
+        {%- for club in league.members %}
+            {
+                "@type": "SportsTeam",
+                "name": "{{ club.name }}",
+                "slogan": "{{ club.slogan }}",
+                "logo": "{{ club.logo.contentURL }}",
+                "url": "{{ club.url }}",
+                "identifier": {
+                    "@type": "url",
+                    "@value": "{{ meta.base }}/clubs/{{ club.name | slugify }}"
+                }
+            }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      ],
     }
 </script>
 
-<header class="container-fluid hero" id="league" data-theme="dark">
-    <div class="container">
-        <h1>{{ league.sponsor }} {{ league.name }}</h1>
-        <div class="grid">
-            <p><strong>The {{ league.name }} is at the {{ league.tier | ordinal }} tier of the
-                English football pyramid, with a total of
-                {{ league.clubs.length }} clubs</strong></p>
-            <p></p>
+
+{% set subtitle %}
+The {{ league.name }} is at the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs
+{% endset %}
+
+
+{%- set markers %}
+{%- for club in league.members %}
+&markers=size:tiny|color:white|{{ club.location.latitude }},{{ club.location.longitude }}
+{%- endfor %}
+{%- endset %}
+{%- set key = env.google_maps_api_key -%}
+{% set url %}
+https://maps.googleapis.com/maps/api/staticmap?size=1280x720&maptype=satellite&scale=2&markers={{- markers | safe -}}&key={{key}}
+{% endset %}
+{% set caption = "Map of " + league.name + " clubs" %}
+
+{{ hero(league.alternateName, subtitle, url, caption ) }}
+{{ breadcrumb("Leagues", league.name) }}
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns">
+      {% for clubs in league.members | sort | batch(8)  %}
+        <div class="column is-one-third">
+          {% for club in clubs %}
+            <article class="media">
+              <figure class="media-left">
+                <p class="image is-48x48">
+                  {% crest club.logo.contentURL, club.logo.caption, club.name  %}
+                </p>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <a href="/leagues/{{ league.name | slugify }}/{{ club.name | slugify }}">
+                    <h3 class="has-text-weight-semibold">
+                      {{- club.name -}}
+                    </h3>
+                  </a>
+                  <small class="has-text-dark-gray">
+                    {{- club.slogan -}}
+                  </small>
+                </div>
+              </div>
+            </article>
+          {% endfor %}
         </div>
+      {% endfor %}
     </div>
-</header>
-
-<main class="container">
-
-    <div class="grid">
-        <table role="grid">
-            <thead>
-                <tr>
-                    <th scope="col">Club</th>
-                    <th scope="col">Nickname</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for club in league.clubs %}
-                    <tr>
-                        <th>
-                            <a href="/club/{{ club.name | slugify }}">{{ club.name }}</a>
-                        </th>
-                        {% for c in clubs %}
-                            {% if c.name == club.name %}
-                                <td>
-                                    {% if c.nickname %}
-                                    <span class="emoji">{{ emoji(c.nickname) }}</span> {{ c.nickname }}
-                                    {% endif %}
-                                </td>
-                            {% endif %}
-                        {% endfor %}
-                    </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-        <figure class="container-fluid">
-            {% set caption = "Map of " + league.name + " clubs" %}
-            <figcaption>
-                <small>{{ caption }}</small>
-            </figcaption>
-            <img src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" alt="{{ caption }}">
-        </figure>
-    </div>
-    <footer>
-        <small>
-        Photo by <a href="https://unsplash.com/@fkaregan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Regan-Asante</a> on <a href="https://unsplash.com/s/photos/non-league?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-        </small>
-    </footer>
-</main>
+  </div>
+</section>
