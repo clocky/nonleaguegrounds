@@ -4,66 +4,76 @@ layout: base.njk
 {% from "credit.macro.njk" import credit %}
 
 <section class="hero is-medium is-dark has-background">
-    {% hero "./src" + meta.image.league,
-    "Football match taking place at Dulwich Hamlet Football Club" %}
-    <div class="hero-body">
-        <div class="container is-max-desktop">
-            <div class="columns">
-                <div class="column is-two-thirds">
-                    <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
-                        {{ meta.title }}
-                    </h1>
-                    <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
-                        {{ meta.description }}
-                    </h2>
-                </div>
-            </div>
+  {% hero "./src" + meta.image.league,
+  "Football match taking place at Dulwich Hamlet Football Club" %}
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
+            {{ meta.title }}
+          </h1>
+          <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
+            {{ meta.description }}
+          </h2>
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <section class="section">
-    <div class="container is-max-desktop">
-        <div class="columns">
-            <div class="column is-one-third">
-                <div class="has-text-centered">
-                    <span class="icon is-large has-text-success-dark">
-                        <i class="fas fa-flag fa-2x"></i>
-                    </span>
-                    <ion-icon name="location-outline" size="large" class="icon has-text-success-dark"></ion-icon>
-                    <h3 class="is-size-4 has-text-weight-semibold mb-2">
-                    Grounds
-                </h3>
-                    <p class="has-text-grey-dark">A directory of {{ grounds.length }} English and Welsh non-league grounds, sorted by capacity.</p>
-                    <a href="/grounds/" class="button is-info mt-4">View all grounds</a>
-                </div>
-            </div>
-            <div class="column is-one-third">
-                <div class="has-text-centered">
-                    <span class="icon is-large has-text-dark">
-                        <i class="fas fa-futbol fa-2x"></i>
-                    </span>
-                    <h3 class="is-size-4 has-text-weight-semibold mb-2">
-                    Clubs
-                </h3>
-                    <p class="has-text-grey-dark">A directory of {{ clubs.length }} English and Welsh non-league clubs, sorted alphabetically.</p>
-                    <a href="/clubs/" class="button is-info mt-4">View all clubs</a>
-                </div>
-            </div>
-            <div class="column is-one-third">
-                <div class="has-text-centered">
-                    <span class="icon is-large has-text-warning-dark">
-                        <i class="fas fa-trophy fa-2x"></i>
-                    </span>
-                    <h3 class="is-size-4 has-text-weight-semibold mb-2">
-                    Leagues
-                </h3>
-                    <p class="has-text-grey-dark">A directory of {{ leagues.length }} English football conference leagues, sorted by tier.</p>
-                    <a href="/leagues/" class="button is-info mt-4">View all leagues</a>
-                </div>
-            </div>
+  <div class="container is-max-desktop">
+    <div class="columns is-variable is-4">
+      <div class="column is-one-third">
+        <div class="has-text-left">
+          <span class="icon is-large has-text-warning-dark">
+            <i class="fas fa-trophy fa-2x"></i>
+          </span>
+          <h3 class="is-size-4 has-text-weight-semibold mb-2">
+            Leagues
+           </h3>
+          <p class="has-text-grey-dark">
+              From the <strong>{{ leagues[0].name }}</strong> to the 
+              <strong>{{ leagues[leagues.length -1].name }}</strong>, 
+              a directory of {{ leagues.length }} English football conference leagues.
+          </p>
+          <a href="/leagues/" class="button is-info mt-4">View all leagues</a>
         </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="has-text-left">
+          <span class="icon is-large has-text-success-dark">
+            <i class="fas fa-flag fa-2x"></i>
+          </span>
+          <ion-icon name="location-outline" size="large" class="icon has-text-success-dark"></ion-icon>
+          <h3 class="is-size-4 has-text-weight-semibold mb-2">
+            Grounds
+          </h3>
+          <p class="has-text-grey-dark">
+              Leading with the {{ grounds[0].maximumAttendeeCapacity | commaNumber }}-capacity home of <strong>{{ grounds[0].subOrganization[0].name }}</strong>, 
+              a list of {{ grounds.length }} English and Welsh non-league grounds.
+            </p>
+          <a href="/grounds/" class="button is-info mt-4">View all grounds</a>
+        </div>
+      </div>
+      <div class="column is-one-third">
+        <div class="has-text-left">
+          <span class="icon is-large has-text-dark">
+            <i class="fas fa-map fa-2x"></i>
+          </span>
+          <h3 class="is-size-4 has-text-weight-semibold mb-2">
+            Regions
+          </h3>
+          <p class="has-text-grey-dark">
+             From the <strong>North East</strong> to the <strong>South West</strong>, 
+              a directory of clubs in the {{ regions.length }} regions of England and Wales
+            </p>
+          <a href="/regions/" class="button is-info mt-4">View all regions</a>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 {{ credit("fkaregan", "Samuel Regan-Asante", "Non-League") }}
