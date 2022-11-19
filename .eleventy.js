@@ -116,8 +116,9 @@ module.exports = function (eleventyConfig) {
 };
 
 async function heroShortcode(src, alt) {
+  let name = slugify(alt, { lower: true, customReplacements: [["'", ""]] });
   let metadata = await Image(src, {
-    widths: [320, 640, 1280, 1440],
+    widths: [384, 768, 1024, 1440],
     formats: ["avif", "jpeg"],
     outputDir: "./dist/img/hero/",
     urlPath: "/img/hero",
@@ -126,14 +127,20 @@ async function heroShortcode(src, alt) {
       directory: "./.cache/img",
       removeUrlQueryParams: false,
     },
+    sharpWebpOptions: { quality: 90 },
+    sharpAvifOptions: { quality: 90 },
+    filenameFormat: function (id, src, width, format, options) {
+      return `${name}-${width}w.${format}`;
+    },
   });
   let imageAttributes = {
     alt,
     class: "hero-background is-transparent",
     sizes:
-      "(max-width: 319px) 240px, (max-width: 639px) 320px, (max-width: 1279px) 640px, (max-width: 1439px) 1280px, 1440px",
+      "(max-width: 768px) 384px, (max-width: 1023px) 768px, (max-width: 1215px) 1024px, 1440px",
     decoding: "async",
   };
+  console.log(`Hero: ${alt} at ${metadata.avif[0].size} bytes`);
   return Image.generateHTML(metadata, imageAttributes);
 }
 
@@ -162,6 +169,7 @@ async function aerialShortcode(lat, lon, name) {
       loading: "lazy",
       decoding: "async",
     };
+    console.log(`Thumbnail: ${name}`);
     return Image.generateHTML(metadata, imageAttributes);
   }
 }
@@ -190,6 +198,6 @@ async function crestShortcode(src, alt, name) {
     decoding: "async",
   };
 
-  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  console.log(`Crest: ${name}`);
   return Image.generateHTML(metadata, imageAttributes);
 }
