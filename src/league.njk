@@ -11,61 +11,40 @@ eleventyComputed:
 ---
 
 {% from "credit.macro.njk" import credit %}
-{% from "hero.macro.njk" import hero %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 
 <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SportsOrganization",
-        "name": "{{ league.name }}",
-        "alternateName": "{{ league.alternateName }}",
-        "logo": "{{ league.logo.contentURL }}",
-        "sponsor": {
-            "@type": "Organization",
-            "name": "{{ league.sponsor.name }}"
-        },
-        "url": "{{ league.url }}",
-        "identifier": {
-            "@type": "url",
-            "@value": "{{ meta.base }}/leagues/{{ league.name | slugify }}"
-        },
-        "member": [
-        {%- for club in league.members %}
-            {
-                "@type": "SportsTeam",
-                "name": "{{ club.name }}",
-                "slogan": "{{ club.slogan }}",
-                "logo": "{{ club.logo.contentURL }}",
-                "url": "{{ club.url }}",
-                "identifier": {
-                    "@type": "url",
-                    "@value": "{{ meta.base }}/clubs/{{ club.name | slugify }}"
-                }
-            }{% if not loop.last %},{% endif %}
-        {%- endfor %}
-      ],
-    }
+{{ league | dump | safe }}
 </script>
 
-
 {% set subtitle %}
-The {{ league.name }} is at the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length | toWords }} clubs
 {% endset %}
 
+{%- set pushpins -%}
+{%- for club in league.members -%}
+  {%- if club.location.latitude and club.location.longitude %}&pp={{- club.location.latitude -}},{{- club.location.longitude -}};36{%- endif -%}
+{%- endfor -%}
+{%- endset -%}
+{%- set bing = env.bing_maps_api_key -%}
 
-{%- set markers %}
-{%- for club in league.members %}
-&markers=size:tiny|color:white|{{ club.location.latitude }},{{ club.location.longitude }}
-{%- endfor %}
-{%- endset %}
-{%- set key = env.google_maps_api_key -%}
-{% set url %}
-https://maps.googleapis.com/maps/api/staticmap?size=1280x720&maptype=satellite&scale=2&markers={{- markers | safe -}}&key={{key}}
-{% endset %}
-{% set caption = "Map of " + league.name + " clubs" %}
-
-{{ hero(league.alternateName, subtitle, url, caption ) }}
+<section class="hero is-medium is-dark has-background">
+  {% hero "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial?mapSize=1440,335" + pushpins + "&format=png&mapMetadata=0&key=" + bing,
+  league.name %}
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
+            {{ league.alternateName }}
+          </h1>
+          <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
+            The {{ league.name }} is at the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length | toWords }} clubs
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {{ breadcrumb("Leagues", league.name) }}
 
 <section class="section">
