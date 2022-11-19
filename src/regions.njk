@@ -6,9 +6,25 @@ eleventyComputed:
     description: "A directory of {{ regions.length | toWords }} regions of England and Wales that have non-league grounds."
 ---
 {% from "breadcrumb.macro.njk" import breadcrumb %}
-{% from "hero.macro.njk" import hero %}
 
-{{ hero ("Regions", "A directory of " + regions.length | toWords + " regions of the England and Wales that have non-league grounds.", meta.image.regions, "Aerial photography of an unknown area in England showing cities and farmlands.") }}
+<section class="hero is-medium is-dark has-background">
+    {% hero "./src" + meta.image.regions,
+    "Aerial photography of an unknown area in England showing cities and farmlands." %}
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
+                        Regions
+                    </h1>
+                    <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
+                        A directory of {{ regions.length | toWords }} regions of England and Wales that have non-league grounds
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 {{ breadcrumb("Regions") }}
 

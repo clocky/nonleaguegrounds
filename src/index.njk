@@ -2,8 +2,25 @@
 layout: base.njk
 ---
 {% from "credit.macro.njk" import credit %}
-{% from "hero.macro.njk" import hero %}
-{{ hero(meta.title, meta.description, meta.image.league, "") }}
+
+<section class="hero is-medium is-dark has-background">
+    {% hero "./src" + meta.image.league,
+    "Football match taking place at Dulwich Hamlet Football Club" %}
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
+                        {{ meta.title }}
+                    </h1>
+                    <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
+                        {{ meta.description }}
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="section">
     <div class="container is-max-desktop">

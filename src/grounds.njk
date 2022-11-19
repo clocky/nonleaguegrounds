@@ -20,9 +20,26 @@
 ---
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 {% from "credit.macro.njk" import credit %}
-{% from "hero.macro.njk" import hero %}
 
-{{ hero("Grounds", "A directory of " + grounds.length | toWords + " non-league grounds, sorted by capacity", meta.image.ground, "A wide angle photo of a football ground, with players on the pitch under floodlights"  ) }}
+<section class="hero is-medium is-dark has-background">
+    {% hero "./src" + meta.image.ground,
+    "A wide angle photo of a football ground, with players on the pitch under floodlights" %}
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
+                        Grounds
+                    </h1>
+                    <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
+                        A directory of {{ grounds.length | toWords }} non-league grounds, sorted by capacity
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 {{ breadcrumb("Grounds") }}
 
 <section class="section-desktop">
