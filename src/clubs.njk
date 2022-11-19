@@ -45,7 +45,7 @@
                                 </span>
                             </figure>
                             <div class="media-content">
-                                <a href="/clubs/{{ club.name | slugify }}" class="has-text-weight-semibold">{{ club.name }}</a>
+                                <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}" class="has-text-weight-semibold">{{ club.name }}</a>
                             </div>
                         </th>
                         <td class="is-hidden-mobile">
