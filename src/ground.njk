@@ -4,36 +4,21 @@ pagination:
     data: grounds
     size: 1
     alias: ground
-permalink: "ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}/index.html"
+permalink: "grounds/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}/index.html"
 eleventyComputed:
     title: "{{ ground.name | safe }} | {{ meta.title }}"
     description: "Information about the non-league football ground, {{ ground.name }}, with maps, address and contact information."
 ---
+{% from "breadcrumb.macro.njk" import breadcrumb %}
 
 {% from "macros.njk" import staticmap as google %}
-{% from "macros.njk" import fc %}
-
-{% set club = "" %}
-
-{% for c in clubs %}
-  {% if c.ground == ground.name %}
-    {% set club = c %}
-  {% endif %}
-{% endfor %}
-
-{% set play_here = [] %}
-{% for c in clubs %}
-  {% if c.ground == ground.name %}
-    {% set play_here = (play_here.push(c), play_here) %}
-  {% endif %}
-{% endfor %}
 
 {%- set address -%}
 {{ ground.name | replace("'", "") | urlencode -}},{{- ground.locality | urlencode }},{{ ground.region | urlencode }},{{ ground.postcode | urlencode }}
 {%- endset -%}
 {%- set key = env.google_maps_api_key -%}
 
-<script type="application/ld+json">
+{# <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "StadiumOrArena",
@@ -70,7 +55,7 @@ eleventyComputed:
       },
     {%- endif %}
   }
-</script>
+</script> #}
 
 <header class="container-fluid hero" id="{{ ground.name | slugify }}" data-theme="dark">
   <div class="container">
@@ -80,34 +65,34 @@ eleventyComputed:
   </div>
 </header>
 
+{{ breadcrumb("Grounds", ground.areaServed.name, ground.name) }}
+
 <main class="container">
   <div class="grid">
     <section>
       <h3>Overview</h3>
       <p>
         {% if ground.sponsor %}
-          <strong>{{ ground.name }}</strong>, also known as <strong>{{ ground.sponsor }}</strong> for sponsorship purposes, is a football ground in {{ ground.locality }}, {% county ground.postcode %}.
+          <strong>{{ ground.name }}</strong>, also known as <strong>{{ ground.sponsor.name }}</strong> for sponsorship purposes, is a football ground in {{ ground.address.addressLocality }}, {{ ground.address.addressRegion }}.
         {% else %}
-          <strong>{{ ground.name }}</strong> is a football ground {% if ground.locality %} in {{ ground.locality }}, {% county ground.postcode %}.
+          <strong>{{ ground.name }}</strong> is a football ground {% if ground.address.addressLocality %} in {{ ground.address.addressLocality }}, {{ ground.address.addressRegion }}.
           {%- endif %}
         {% endif %}
-        The current capacity of the ground is <a href="/ground/#{{ ground.name | slugify }}">{{ ground.capacity | commaNumber }}</a>
-        {%- if ground.surface %}, with a pitch surface of {{ ground.surface -}}
-        {% endif -%}.
-          </p>
+        The current capacity of the ground is <a href="/ground/#{{ ground.name | slugify }}">{{ ground.maximumAttendeeCapacity | commaNumber }}</a>
+        {%- if ground.additionalProperty.name == "surface" %}, with a pitch surface of {{ ground.additionalProperty.@value -}}
+        {% endif %}
+      </p>
       <p>
-        {% if play_here.length > 0 %}
-          {% if play_here.length == 1 %}
-            <a href="/club/{{ club.name | slugify }}">{{ fc(play_here[0].name) }}</a> play their home games at {{ ground.name }}.
+        {% if ground.subOrganization.length == 1 %}
+          <a href="/club/{{ ground.subOrganization[0].name | slugify }}">{{ ground.subOrganization[0].name }}</a> play their home games at {{ ground.name }}.
           {% else %}
-            {% for c in play_here %}
-              {% if loop.last %}
-                and <a href="/club/{{ c.name | slugify }}">{{ fc(c.name) }}</a> play their home games at {{ ground.name }}.
+          {% for club in ground.subOrganization %}
+            {% if loop.last %}
+                and <a href="/club/{{ club.name | slugify }}">{{ club.name }}</a> play their home games at {{ ground.name }}.
               {% else %}
-                <a href="/club/{{ c.name | slugify }}">{{ fc(c.name) }}</a>
-              {% endif %}
-            {% endfor %}
-          {% endif %}
+              <a href="/club/{{ c.name | slugify }}">{{ club.name }}</a>
+            {% endif %}
+          {% endfor %}
         {% endif %}
       </p>
       <h4>Information</h4>
@@ -123,32 +108,36 @@ eleventyComputed:
             <tr>
               <th>Sponsor</th>
               <td>
-                {{ ground.sponsor }}
+                {{ ground.sponsor.name }}
               </td>
             </tr>
           {% endif %}
-          {% if ground.street %}
-            {% if ground.street != ground.name %}
+
+          {% if ground.address.addressStreetName %}
+            {% if ground.address.addressStreetName != ground.name %}
               <tr>
                 <th>Street</th>
                 <td>
-                  {{ ground.street }}
+                  {{ ground.address.addressStreetName }}
                 </td>
               </tr>
             {% endif %}
           {% endif %}
+
           <tr>
             <th>Town</th>
             <td>
-              {{ ground.locality | upper }}
+              {{ ground.address.addressLocality | upper }}
             </td>
           </tr>
+
           <tr>
             <th>Postcode</th>
             <td>
-              {{ ground.postcode | upper }}
+              {{ ground.address.postalCode | upper }}
             </td>
           </tr>
+
         </tbody>
       </table>
       <a href="/downloads/{{ club.name | slugify}}.vcf" role="button" class="outline">Save to address book</a>
@@ -171,12 +160,12 @@ eleventyComputed:
           {% if distance < 15 and away.name != ground.name %}
             <li>
               {% for c in clubs %}
-                {% if c.ground == away.name %}
-                  <a href="/club/{{ c.name | slugify }}">{{ fc(c.name) }}</a>
+                {% if c.location.name == away.location.name %}
+                  <a href="/club/{{ c.name | slugify }}">{{ c.name }}</a>
                   {% set count = count + 1 %}
                 {% endif %}
               {% endfor %} at 
-                <a href="/ground/{{away.region|slugify}}/{{away.name|slugify}}">{{ away.name }}</a>
+                <a href="/grounds/{{ away.address.addressRegion | slugify }}/{{ away.name | slugify }}">{{ away.name }}</a>
                 ({{ distance | round(1) }} mi)
               </li>
           {% endif %}
@@ -188,23 +177,23 @@ eleventyComputed:
         {% endif %}
       </ul>
       <h4>Maps</h4>
-      <p>
+      {# <p>
         <a 
             href="https://www.google.com/maps/search/?api=1&zoom={{zoom}}&query={{address}}&basemap=roadmap" 
             target="_blank" 
             role="button" 
             aria-label="Open in Google Maps">Google Maps</a>
         <a 
-            href="http://maps.apple.com/?q={{address}}&sll={{ground.latitude}},{{ground.longitude}}&z={{zoom}}&t=m"
+            href="https://maps.apple.com/?q={{address}}&sll={{ground.latitude}},{{ground.longitude}}&z={{zoom}}&t=m"
             target="_blank" 
             role="button" 
             aria-label="Open in Apple Maps">Apple Maps</a>
         <a 
-            href="http://www.openstreetmap.org/#map={{zoom}}/{{ground.latitude}}/{{ground.longitude}}"
+            href="https://www.openstreetmap.org/#map={{zoom}}/{{ground.latitude}}/{{ground.longitude}}"
             target="_blank" 
             role="button" 
             aria-label="Open in Open Street Maps">OpenStreetMap</a>
-      </p>
+      </p> #}
     </section>
     <aside>
       <figure>

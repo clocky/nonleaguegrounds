@@ -8,13 +8,14 @@
     "watch:sass": "sass --no-source-map --watch src/sass:dist/css",
     "watch:eleventy": "ELEVENTY_ENV=development eleventy --serve",
     "build:sass": "sass --no-source-map src/sass:dist/css",
-    "build:eleventy": "ELEVENTY_ENV=prod eleventy --quiet",
-    "postbuild": "npm-run-all postbuild:css postbuild:map postbuild:sharp",
+    "build:eleventy": "ELEVENTY_ENV=prod eleventy",
+    "postbuild": "npm-run-all postbuild:css postbuild:map postbuild:sharp postbuild:compress",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:sass build:eleventy",
     "postbuild:css": "lightningcss --minify --targets '> 0.25%, not IE 11' dist/css/style.css -o dist/css/style.css",
     "postbuild:map": "lightningcss --minify --targets '> 0.25%, not IE 11' dist/css/maps.css -o dist/css/maps.css",
-    "postbuild:sharp": "sharp resize 1280 -i dist/img/*.jpg -o dist/img --optimize"
+    "postbuild:sharp": "sharp resize 1280 -i dist/img/*.jpg -o dist/img --optimize",
+    "postbuild:compress": "gzipper compress --zopfli --brotli --include js,css,html ./dist"
   },
   "keywords": [
     "football",
@@ -37,6 +38,7 @@
     "dayjs": "^1.11.6",
     "distance-from": "^1.1.2",
     "dotenv": "^16.0.3",
+    "eleventy-plugin-purgecss": "^0.3.0",
     "js-yaml": "^4.1.0",
     "lightningcss-cli": "^1.16.0",
     "netlify-plugin-cache": "^1.0.3",
@@ -44,7 +46,8 @@
     "sass": "^1.55.0"
   },
   "devDependencies": {
-    "gzipper": "^7.1.0",
+    "eleventy-plugin-broken-links": "^2.0.3",
+    "gzipper": "^7.2.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
     "sharp-cli": "^3.0.0"

@@ -13,7 +13,7 @@ permalink: /sitemap.xml
     {% endfor %}
     {% for ground in grounds -%}
         <url>
-            <loc>{{ meta.base }}/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}</loc>
+            <loc>{{ meta.base }}/grounds/{{ ground.region | slugify }}/{{ ground.name | slugify }}</loc>
             <lastmod>{{ page.date | date("YYYY-MM-DD")}}</lastmod>
             <changefreq>yearly</changefreq>
             <priority>0.7</priority>
@@ -21,7 +21,7 @@ permalink: /sitemap.xml
     {% endfor %}
     {% for league in leagues -%}
         <url>
-            <loc>{{ meta.base }}/league/{{ league.name | slugify }}</loc>
+            <loc>{{ meta.base }}/leagues/{{ league.name | slugify }}</loc>
             <lastmod>{{ page.date | date("YYYY-MM-DD")}}</lastmod>
             <changefreq>yearly</changefreq>
             <priority>0.3</priority>

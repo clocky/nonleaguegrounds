@@ -1,0 +1,42 @@
+---
+layout: base.njk
+pagination:
+    data: regions
+    size: 1
+    alias: region
+permalink: "/grounds/{{ region.name | slugify }}/index.html"
+eleventyComputed:
+    title: "Clubs in the {{ region.name | safe }}"
+---
+{% from "breadcrumb.macro.njk" import breadcrumb %}
+
+<script type="application/ld+json">
+    {{ region | dump | safe }}
+</script>
+
+<main class="container">
+    <table role="grid">
+        <thead>
+            <tr>
+                <th scope="col">Ground</th>
+                <th scope="col">Club</th>
+                <th scope="col">Capacity</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for ground in region.geoContains | sort(attribute = "maximumAttendeeCapacity") | reverse %}
+                <tr>
+                    <th scope="row">
+                        <a href="/grounds/{{ region.name | slugify }}/{{ ground.name | slugify }}">{{ ground.name }}</a><br/>
+                    </th>
+                    <td>
+                        <a href="/leagues/{{ ground.subOrganization.name | slugify }}" class="secondary">{{  ground.subOrganization.name }}</a>
+                    </td>
+                    <td>
+                        {{ ground.maximumAttendeeCapacity | commaNumber }}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</main>

@@ -55,7 +55,7 @@
         "@type": "SportsTeam",
         "name": "Aldershot Town",
         "slogan": "The Shots",
-        "url": "https://theshots.co.uk",
+        "url": "https://www.theshots.co.uk",
         "sameAs": ["https://OfficialShots"],
         "keywords": "professional",
         "logo": {
@@ -82,7 +82,7 @@
         "@type": "SportsTeam",
         "name": "Barnet",
         "slogan": "The Bees",
-        "url": "https://barnetfc.com",
+        "url": "https://www.barnetfc.com",
         "sameAs": ["https://BarnetFC"],
         "keywords": "professional",
         "logo": {
@@ -109,7 +109,7 @@
         "@type": "SportsTeam",
         "name": "Boreham Wood",
         "slogan": "The Wood",
-        "url": "https://borehamwoodfootballclub.co.uk",
+        "url": "https://www.borehamwoodfootballclub.co.uk",
         "sameAs": ["https://BOREHAM_WOODFC"],
         "keywords": "semi-professional",
         "logo": {
@@ -136,7 +136,7 @@
         "@type": "SportsTeam",
         "name": "Bromley",
         "slogan": "The Ravens",
-        "url": "https://bromleyfc.tv",
+        "url": "https://www.bromleyfc.co.uk",
         "sameAs": ["https://bromleyfc"],
         "keywords": "professional",
         "logo": {
@@ -217,7 +217,7 @@
         "@type": "SportsTeam",
         "name": "Dorking Wanderers",
         "slogan": "The Wanderers",
-        "url": "https://dorkingwanderers.com",
+        "url": "https://www.dorkingwanderers.com",
         "sameAs": ["https://DorkingWDRS"],
         "keywords": "semi-professional",
         "logo": {
@@ -244,7 +244,7 @@
         "@type": "SportsTeam",
         "name": "Eastleigh",
         "slogan": "The Spitfires",
-        "url": "https://eastleighfc.com",
+        "url": "https://www.eastleighfc.com",
         "sameAs": ["https://eastleighfc"],
         "keywords": "professional",
         "logo": {
@@ -378,7 +378,7 @@
         "@type": "SportsTeam",
         "name": "Notts County",
         "slogan": "The Magpies",
-        "url": "https://nottscountyfc.co.uk",
+        "url": "https://www.nottscountyfc.co.uk",
         "sameAs": ["https://Official_NCFC"],
         "keywords": "professional",
         "logo": {
@@ -405,7 +405,7 @@
         "@type": "SportsTeam",
         "name": "Oldham Athletic",
         "slogan": "The Latics",
-        "url": "https://oldhamathletic.co.uk",
+        "url": "https://www.oldhamathletic.co.uk",
         "sameAs": ["https://OfficialOAFC"],
         "keywords": "professional",
         "logo": {
@@ -432,7 +432,7 @@
         "@type": "SportsTeam",
         "name": "Solihull Moors",
         "slogan": "The Moors",
-        "url": "https://solihullmoorsfc.co.uk",
+        "url": "https://www.solihullmoorsfc.co.uk",
         "sameAs": ["https://SolihullMoors"],
         "keywords": "professional",
         "logo": {
@@ -459,7 +459,7 @@
         "@type": "SportsTeam",
         "name": "Southend United",
         "slogan": "The Shrimpers",
-        "url": "https://southendunited.co.uk",
+        "url": "https://www.southendunited.co.uk",
         "sameAs": ["https://SUFCRootsHall"],
         "keywords": "professional",
         "logo": {
@@ -486,7 +486,7 @@
         "@type": "SportsTeam",
         "name": "Scunthorpe United",
         "slogan": "The Iron",
-        "url": "https://scunthorpe-united.co.uk",
+        "url": "https://www.scunthorpe-united.co.uk",
         "sameAs": ["https://SUFCOfficial"],
         "keywords": "professional",
         "logo": {
@@ -540,7 +540,7 @@
         "@type": "SportsTeam",
         "name": "Wealdstone",
         "slogan": "The Stones",
-        "url": "https://wealdstone-fc.com",
+        "url": "https://www.wealdstone-fc.com",
         "sameAs": ["https://WealdstoneFC"],
         "keywords": "semi-professional",
         "logo": {
@@ -621,7 +621,7 @@
         "@type": "SportsTeam",
         "name": "Yeovil Town",
         "slogan": "The Glovers",
-        "url": "https://ytfc.net",
+        "url": "https://www.ytfc.net",
         "sameAs": ["https://YTFC"],
         "keywords": "professional",
         "logo": {
@@ -702,7 +702,7 @@
         "@type": "SportsTeam",
         "name": "AFC Fylde",
         "slogan": "The Coasters",
-        "url": "https://afcfylde.co.uk",
+        "url": "https://www.afcfylde.co.uk",
         "sameAs": ["https://AFCFylde"],
         "keywords": "professional",
         "logo": {
@@ -729,7 +729,7 @@
         "@type": "SportsTeam",
         "name": "AFC Telford United",
         "slogan": "The Bucks",
-        "url": "https://telfordunited.com",
+        "url": "https://www.telfordunited.com",
         "sameAs": ["https://telfordutd"],
         "logo": {
           "@type": "ImageObject",
@@ -807,7 +807,7 @@
         "@type": "SportsTeam",
         "name": "Blyth Spartans AFC",
         "slogan": "The Spartans",
-        "url": "https://blythspartans.com",
+        "url": "https://www.blythspartans.com",
         "sameAs": ["https://Blyth_Spartans"],
         "logo": {
           "@type": "ImageObject",
@@ -833,7 +833,7 @@
         "@type": "SportsTeam",
         "name": "Boston United",
         "slogan": "The Pilgrims",
-        "url": "https://bostonunited.co.uk",
+        "url": "https://www.bostonunited.co.uk",
         "sameAs": ["https://bostonunited"],
         "keywords": "semi-professional",
         "logo": {
@@ -912,7 +912,7 @@
         "@type": "SportsTeam",
         "name": "Buxton",
         "slogan": "The Bucks",
-        "url": "https://buxtonfc.co.uk",
+        "url": "https://www.buxtonfc.co.uk",
         "sameAs": ["https://Buxton_FC"],
         "logo": {
           "@type": "ImageObject",
@@ -938,7 +938,7 @@
         "@type": "SportsTeam",
         "name": "Chester",
         "slogan": "The Seals",
-        "url": "https://chesterfc.com",
+        "url": "https://www.chesterfc.com",
         "sameAs": ["https://ChesterFC"],
         "logo": {
           "@type": "ImageObject",
@@ -964,7 +964,7 @@
         "@type": "SportsTeam",
         "name": "Chorley",
         "slogan": "The Magpies",
-        "url": "https://chorleyfc.com",
+        "url": "https://www.chorleyfc.com",
         "sameAs": ["https://chorleyfc"],
         "keywords": "semi-professional",
         "logo": {
@@ -991,7 +991,7 @@
         "@type": "SportsTeam",
         "name": "Curzon Ashton",
         "slogan": "The Nash",
-        "url": "https://curzon-ashton.co.uk",
+        "url": "https://www.curzon-ashton.co.uk",
         "sameAs": ["https://CurzonAshton"],
         "logo": {
           "@type": "ImageObject",
@@ -1069,7 +1069,7 @@
         "@type": "SportsTeam",
         "name": "Gloucester City AFC",
         "slogan": "The Tigers",
-        "url": "https://gloucestercityafc.com",
+        "url": "https://www.gloucestercityafc.com",
         "sameAs": ["https://GCAFCOfficial"],
         "keywords": "semi-professional",
         "logo": {
@@ -1096,7 +1096,7 @@
         "@type": "SportsTeam",
         "name": "Hereford",
         "slogan": "The Bulls",
-        "url": "https://herefordfc.co.uk",
+        "url": "https://www.herefordfc.co.uk",
         "sameAs": ["https://HerefordFC"],
         "logo": {
           "@type": "ImageObject",
@@ -1175,7 +1175,7 @@
         "@type": "SportsTeam",
         "name": "Kings Lynn Town",
         "slogan": "The Linnets",
-        "url": "https://kltown.co.uk",
+        "url": "https://www.kltown.co.uk",
         "sameAs": ["https://officialKLtown"],
         "logo": {
           "@type": "ImageObject",
@@ -1253,7 +1253,7 @@
         "@type": "SportsTeam",
         "name": "Scarborough Athletic",
         "slogan": "The Seadogs",
-        "url": "https://scarboroughathletic.com",
+        "url": "https://www.scarboroughathletic.com",
         "sameAs": ["https://safc"],
         "logo": {
           "@type": "ImageObject",
@@ -1719,7 +1719,7 @@
         "@type": "SportsTeam",
         "name": "Hemel Hempstead Town",
         "slogan": "The Tudors",
-        "url": "https://hemelfc.com",
+        "url": "https://www.hemelfc.com",
         "sameAs": ["https://hemelfc"],
         "logo": {
           "@type": "ImageObject",
@@ -2001,7 +2001,7 @@
         "@type": "SportsTeam",
         "name": "Aveley",
         "slogan": "The Millers",
-        "url": "https://pitchero.com/clubs/aveley",
+        "url": "https://www.pitchero.com/clubs/aveley",
         "sameAs": ["https://AveleyFC"],
         "logo": {
           "@type": "ImageObject",
@@ -2079,7 +2079,7 @@
         "@type": "SportsTeam",
         "name": "Bognor Regis Town",
         "slogan": "The Rocks",
-        "url": "https://pitchero.com/clubs/bognorregistownfc",
+        "url": "https://www.pitchero.com/clubs/bognorregistownfc",
         "sameAs": ["https://rocks1883"],
         "logo": {
           "@type": "ImageObject",
@@ -2182,7 +2182,7 @@
         "@type": "SportsTeam",
         "name": "Carshalton Athletic",
         "slogan": "The Robins",
-        "url": "https://carshaltonathletic.co.uk",
+        "url": "https://www.carshaltonathletic.co.uk",
         "sameAs": ["https://CarshaltonA_FC"],
         "logo": {
           "@type": "ImageObject",
@@ -2534,7 +2534,7 @@
         "@type": "SportsTeam",
         "name": "Wingate & Finchley",
         "slogan": "The Blues",
-        "url": "https://wingatefinchley.com",
+        "url": "https://www.wingatefinchley.com",
         "sameAs": ["https://WinFinchleyFC"],
         "logo": {
           "@type": "ImageObject",

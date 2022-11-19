@@ -1,10 +1,11 @@
 ---
 layout: base.njk
-permalink: /league/index.html
+permalink: /leagues/index.html
 eleventyComputed:
     title: "Football Conference Leagues"
     description: "A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier."
 ---
+{% from "breadcrumb.macro.njk" import breadcrumb %}
 
 <header class="container-fluid hero" id="trophy" data-theme="dark">
     <div class="container">
@@ -17,6 +18,8 @@ eleventyComputed:
         </div>
     </div>
 </header>
+
+{{ breadcrumb("Leagues")}}
 
 <main class="container">
 
@@ -32,16 +35,15 @@ eleventyComputed:
             {% for league in leagues | sort(attribute = "tier")%}
                 <tr>
                     <td>
-                        {{ league.tier | ordinal }}
+                        {{ league.additionalProperty.@value | ordinal }}
                     </td>
                     <th>
-                        <a href="/league/{{ league.name | slugify }}">
-                            {{ league.sponsor }}
-                            {{ league.name}}
+                        <a href="/leagues/{{ league.name | slugify }}">
+                            {{ league.alternateName}}
                         </a>
                     </th>
                     <td>
-                        {{ league.clubs | length }}
+                        {{ league.members | length }}
                     </td>
                 </tr>
             {% endfor %}

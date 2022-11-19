@@ -6,8 +6,19 @@ const ordinal = require("ordinal");
 const commaNumber = require("comma-number");
 const EleventyFetch = require("@11ty/eleventy-fetch");
 const distFrom = require("distance-from");
+const purgeCssPlugin = require("eleventy-plugin-purgecss");
+const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 
 module.exports = function (eleventyConfig) {
+  /** Add PurgeCSS plugin */
+  eleventyConfig.addPlugin(purgeCssPlugin, {
+    config: "./purgecss.config.js",
+    quiet: false,
+  });
+
+  /** Check for broken links */
+  eleventyConfig.addPlugin(brokenLinksPlugin);
+
   /** Add loader for YAML files */
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
@@ -23,7 +34,6 @@ module.exports = function (eleventyConfig) {
   /** Add a filter to format inline dates for <time> tags */
   const formatDate = (date, format) => dayjs(date).format(format);
   eleventyConfig.addFilter("date", formatDate);
-
   eleventyConfig.addFilter("ordinal", (num) => ordinal(num));
   eleventyConfig.addFilter("commaNumber", (num) => commaNumber(num));
 
@@ -32,21 +42,14 @@ module.exports = function (eleventyConfig) {
     return distance.toFixed(1);
   });
 
-  
   eleventyConfig.addTransform("prettier", function (content, outputPath) {
     const extname = path.extname(outputPath);
     switch (extname) {
       case ".html":
-        return prettier.format(content, { printWidth: 512, parser: "html" });
+        return prettier.format(content, { printWidth: 80, parser: "html" });
 
       case ".css":
         return prettier.format(content, { printWidth: 80, parser: "css" });
-
-      case ".yaml":
-        return prettier.format(content, { printWidth: 80, parser: "yaml" });
-
-      case ".json":
-        return prettier.format(content, { printWidth: 80, parser: "json" });
 
       default:
         return content;

@@ -1,10 +1,11 @@
 ---
 layout: base.njk
-permalink: /ground/index.html
+permalink: /grounds/index.html
 eleventyComputed:
     title: "Football Conference Leagues"
     description: "A directory of {{ grounds.length }} English non-league grounds, sorted by capacity."
 ---
+{% from "breadcrumb.macro.njk" import breadcrumb %}
 
 <header class="container-fluid hero" id="ground" data-theme="dark">
     <div class="container">
@@ -18,8 +19,9 @@ eleventyComputed:
     </div>
 </header>
 
-<main class="container">
+{{ breadcrumb("Grounds")}}
 
+<main class="container">
     <table role="grid">
         <thead>
             <tr>
@@ -30,27 +32,24 @@ eleventyComputed:
             </tr>
         </thead>
         <tbody>
-            {% for ground in grounds | sort(attribute = "capacity") | reverse %}
+            {% for ground in grounds | sort(attribute = "maximumAttendeeCapacity") | reverse %}
                 <tr id="{{ ground.name | slugify }}">
                     <td>
                         {{ loop.index | ordinal }}
                     </td>
                     <th>
-                        <a href="/ground/{{ ground.region | slugify }}/{{ ground.name | slugify }}">
+                        <a href="/grounds/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}">
                             {{ ground.name }}
                         </a>
                     </th>
                     <td>
-                        {% set club = "" %}
-                        {% for c in clubs %}
-                            {% if c.ground == ground.name %}
-                                <a href="/club/{{ c.name | slugify }}" class="secondary">{{ c.name }}</a>
-                                {% set club = c %}
-                            {% endif %}
+                        {% for club in ground.subOrganization %}
+                            <a href="/club/{{ club.name | slugify }}" class="secondary">{{ club.name }}</a>
+                            {%- if not loop.last %},{%- endif %}
                         {% endfor %}
                     </td>
                     <td>
-                        {{ ground.capacity | commaNumber }}
+                        {{ ground.maximumAttendeeCapacity | commaNumber }}
                     </td>
                 </tr>
             {% endfor %}

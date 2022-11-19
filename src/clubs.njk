@@ -1,12 +1,12 @@
 ---
 layout: base.njk
-permalink: /club/index.html
+permalink: /clubs/index.html
 title: Clubs
 eleventyComputed:
     description: "A directory of {{ clubs.length }} non-league clubs, sorted alphabetically"
 ---
-{% from "macros.njk" import fc %}
 {% from "macros.njk" import emoji %}
+{% from "breadcrumb.macro.njk" import breadcrumb %}
 
 <header class="container-fluid hero" id="club" data-theme="dark">
     <div class="container">
@@ -31,28 +31,15 @@ eleventyComputed:
         </thead>
         <tbody>
             {% for club in clubs | sort(attribute = "name") %}
-                {% set region = "" %}
-                {% for g in grounds %}
-                    {% if g.name == club.ground %}
-                        {% set region = g.region %}
-                    {% endif %}
-                {% endfor %}
                 <tr>
                     <th>
-                        <a href="/club/{{ club.name | slugify }}">{{ club.name }}</a>
+                        <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
                     </th>
                     <td>
-                        <a href="/ground/{{ region | slugify }}/{{ club.ground | slugify }}" class="secondary">{{ club.ground }}</a><br/>
+                        <a href="/grounds/{{ club.location.areaServed.name | slugify }}/{{ club.location.name | slugify }}" class="secondary">{{ club.location.name }}</a><br/>
                     </td>
                     <td>
-                        {# Determine what league the club is in #}
-                        {% for l in leagues %}
-                            {% for c in l.clubs %}
-                                {% if c.name == club.name %}
-                                    {{ l.name }}
-                                {% endif %}
-                            {% endfor %}
-                        {% endfor %}
+                        {{ club.memberOf.name }}
                     </td>
                 </tr>
             {% endfor %}

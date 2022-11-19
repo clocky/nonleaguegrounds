@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/maps.css">
-        <meta name="description" content="{% if description %}{{ description }}{% else %}{{ meta.description }}{% endif %}">
+        <meta name="description" content="{% if description %}{{ description | safe }}{% else %}{{ meta.description | safe }}{% endif %}">
         <title>
             {% if title %}{{ title }}{%else%}{{ meta.title }}{%endif%}
             </title>
@@ -25,15 +25,15 @@
                     </ul>
                     <ul>
                         <li>
-                            <a href="/ground/">
+                            <a href="/grounds/">
                                 <span class="emoji">🏟️</span> Grounds</a>
                         </li>
                         <li>
-                            <a href="/club/">
+                            <a href="/clubs/">
                                 <span class="emoji">⚽</span> Clubs</a>
                         </li>
                         <li>
-                            <a href="/league/">
+                            <a href="/leagues/">
                                 <span class="emoji">🏆</span> Leagues</a>
                         </li>
                     </ul>
@@ -46,15 +46,36 @@
                         <p>
                             {{ meta.description }}
                         </p>
-                        <ul>
-                            {% for league in leagues %}
-                                <li>
-                                    <small>
-                                        <a href="/league/{{ league.name | slugify }}/">{{ league.name }}</a>
-                                    </small>
-                                </li>
-                            {% endfor %}
-                        </ul>
+                        <div>
+                            <strong>Leagues</strong>
+                            <ul>
+                                {% for league in leagues %}
+                                    <li>
+                                        <small>
+                                            <a href="/leagues/{{ league.name | slugify }}/">{{ league.name }}</a>
+                                        </small>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% for region in regions | batch(5) %}
+                            <div>
+                                {% if loop.first %}
+                                    <strong>Regions</strong>
+                                {% else %}
+                                    <strong>&nbsp;</strong>
+                                {% endif %}
+                                <ul>
+                                    {% for region in region %}
+                                        <li>
+                                            <small>
+                                                <a href="/grounds/{{ region.name | slugify }}/">{{ region.name }}</a>
+                                            </small>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% endfor %}
                     </div>
                 </div>
             </footer>

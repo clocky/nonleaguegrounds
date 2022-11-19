@@ -16,7 +16,7 @@
       "@value": "https://nonleaguegrounds.com/club/aldershot-town"
     },
     "keywords": "professional",
-    "url": "https://theshots.co.uk",
+    "url": "https://www.theshots.co.uk",
     "sameAs": ["https://twitter.com/OfficialShots"],
     "foundingDate": {
       "@type": "Date",
@@ -178,7 +178,7 @@
       "@value": "https://nonleaguegrounds.com/club/barnet"
     },
     "keywords": "professional",
-    "url": "https://barnetfc.com",
+    "url": "https://www.barnetfc.com",
     "sameAs": ["https://twitter.com/BarnetFC"],
     "foundingDate": {
       "@type": "Date",
@@ -261,7 +261,7 @@
       "@value": "https://nonleaguegrounds.com/club/boreham-wood"
     },
     "keywords": "semi-professional",
-    "url": "https://borehamwoodfootballclub.co.uk",
+    "url": "https://www.borehamwoodfootballclub.co.uk",
     "sameAs": ["https://twitter.com/BOREHAM_WOODFC"],
     "foundingDate": {
       "@type": "Date",
@@ -342,7 +342,7 @@
       "@value": "https://nonleaguegrounds.com/club/bromley"
     },
     "keywords": "professional",
-    "url": "https://bromleyfc.tv",
+    "url": "https://www.bromleyfc.co.uk",
     "sameAs": ["https://twitter.com/bromleyfc"],
     "foundingDate": {
       "@type": "Date",
@@ -583,7 +583,7 @@
       "@value": "https://nonleaguegrounds.com/club/dorking-wanderers"
     },
     "keywords": "semi-professional",
-    "url": "https://dorkingwanderers.com",
+    "url": "https://www.dorkingwanderers.com",
     "sameAs": ["https://twitter.com/DorkingWDRS"],
     "foundingDate": {
       "@type": "Date",
@@ -666,7 +666,7 @@
       "@value": "https://nonleaguegrounds.com/club/eastleigh"
     },
     "keywords": "professional",
-    "url": "https://eastleighfc.com",
+    "url": "https://www.eastleighfc.com",
     "sameAs": ["https://twitter.com/eastleighfc"],
     "foundingDate": {
       "@type": "Date",
@@ -1071,7 +1071,7 @@
       "@value": "https://nonleaguegrounds.com/club/notts-county"
     },
     "keywords": "professional",
-    "url": "https://nottscountyfc.co.uk",
+    "url": "https://www.nottscountyfc.co.uk",
     "sameAs": ["https://twitter.com/Official_NCFC"],
     "foundingDate": {
       "@type": "Date",
@@ -1154,7 +1154,7 @@
       "@value": "https://nonleaguegrounds.com/club/oldham-athletic"
     },
     "keywords": "professional",
-    "url": "https://oldhamathletic.co.uk",
+    "url": "https://www.oldhamathletic.co.uk",
     "sameAs": ["https://twitter.com/OfficialOAFC"],
     "foundingDate": {
       "@type": "Date",
@@ -1230,7 +1230,7 @@
       "@value": "https://nonleaguegrounds.com/club/solihull-moors"
     },
     "keywords": "professional",
-    "url": "https://solihullmoorsfc.co.uk",
+    "url": "https://www.solihullmoorsfc.co.uk",
     "sameAs": ["https://twitter.com/SolihullMoors"],
     "foundingDate": {
       "@type": "Date",
@@ -1311,7 +1311,7 @@
       "@value": "https://nonleaguegrounds.com/club/southend-united"
     },
     "keywords": "professional",
-    "url": "https://southendunited.co.uk",
+    "url": "https://www.southendunited.co.uk",
     "sameAs": ["https://twitter.com/SUFCRootsHall"],
     "foundingDate": {
       "@type": "Date",
@@ -1388,7 +1388,7 @@
       "@value": "https://nonleaguegrounds.com/club/scunthorpe-united"
     },
     "keywords": "professional",
-    "url": "https://scunthorpe-united.co.uk",
+    "url": "https://www.scunthorpe-united.co.uk",
     "sameAs": ["https://twitter.com/SUFCOfficial"],
     "foundingDate": {
       "@type": "Date",
@@ -1542,7 +1542,7 @@
       "@value": "https://nonleaguegrounds.com/club/wealdstone"
     },
     "keywords": "semi-professional",
-    "url": "https://wealdstone-fc.com",
+    "url": "https://www.wealdstone-fc.com",
     "sameAs": ["https://twitter.com/WealdstoneFC"],
     "foundingDate": {
       "@type": "Date",
@@ -1711,7 +1711,7 @@
       "@value": "https://nonleaguegrounds.com/club/yeovil-town"
     },
     "keywords": "professional",
-    "url": "https://ytfc.net",
+    "url": "https://www.ytfc.net",
     "sameAs": ["https://twitter.com/YTFC"],
     "foundingDate": {
       "@type": "Date",
@@ -1868,7 +1868,7 @@
       "@value": "https://nonleaguegrounds.com/club/afc-fylde"
     },
     "keywords": "professional",
-    "url": "https://afcfylde.co.uk",
+    "url": "https://www.afcfylde.co.uk",
     "sameAs": ["https://twitter.com/AFCFylde"],
     "foundingDate": {
       "@type": "Date",
@@ -1949,7 +1949,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/afc-telford-united"
     },
-    "url": "https://telfordunited.com",
+    "url": "https://www.telfordunited.com",
     "sameAs": ["https://twitter.com/telfordutd"],
     "foundingDate": {
       "@type": "Date",
@@ -2191,7 +2191,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/blyth-spartans-afc"
     },
-    "url": "https://blythspartans.com",
+    "url": "https://www.blythspartans.com",
     "sameAs": ["https://twitter.com/Blyth_Spartans"],
     "foundingDate": {
       "@type": "Date",
@@ -2274,7 +2274,7 @@
       "@value": "https://nonleaguegrounds.com/club/boston-united"
     },
     "keywords": "semi-professional",
-    "url": "https://bostonunited.co.uk",
+    "url": "https://www.bostonunited.co.uk",
     "sameAs": ["https://twitter.com/bostonunited"],
     "foundingDate": {
       "@type": "Date",
@@ -2508,7 +2508,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/buxton"
     },
-    "url": "https://buxtonfc.co.uk",
+    "url": "https://www.buxtonfc.co.uk",
     "sameAs": ["https://twitter.com/Buxton_FC"],
     "foundingDate": {
       "@type": "Date",
@@ -2587,7 +2587,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/chester"
     },
-    "url": "https://chesterfc.com",
+    "url": "https://www.chesterfc.com",
     "sameAs": ["https://twitter.com/ChesterFC"],
     "foundingDate": {
       "@type": "Date",
@@ -2670,7 +2670,7 @@
       "@value": "https://nonleaguegrounds.com/club/chorley"
     },
     "keywords": "semi-professional",
-    "url": "https://chorleyfc.com",
+    "url": "https://www.chorleyfc.com",
     "sameAs": ["https://twitter.com/chorleyfc"],
     "foundingDate": {
       "@type": "Date",
@@ -2756,7 +2756,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/curzon-ashton"
     },
-    "url": "https://curzon-ashton.co.uk",
+    "url": "https://www.curzon-ashton.co.uk",
     "sameAs": ["https://twitter.com/CurzonAshton"],
     "foundingDate": {
       "@type": "Date",
@@ -2991,7 +2991,7 @@
       "@value": "https://nonleaguegrounds.com/club/gloucester-city-afc"
     },
     "keywords": "semi-professional",
-    "url": "https://gloucestercityafc.com",
+    "url": "https://www.gloucestercityafc.com",
     "sameAs": ["https://twitter.com/GCAFCOfficial"],
     "foundingDate": {
       "@type": "Date",
@@ -3071,7 +3071,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/hereford"
     },
-    "url": "https://herefordfc.co.uk",
+    "url": "https://www.herefordfc.co.uk",
     "sameAs": ["https://twitter.com/HerefordFC"],
     "foundingDate": {
       "@type": "Date",
@@ -3311,7 +3311,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/kings-lynn-town"
     },
-    "url": "https://kltown.co.uk",
+    "url": "https://www.kltown.co.uk",
     "sameAs": ["https://twitter.com/officialKLtown"],
     "foundingDate": {
       "@type": "Date",
@@ -3545,7 +3545,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/scarborough-athletic"
     },
-    "url": "https://scarboroughathletic.com",
+    "url": "https://www.scarboroughathletic.com",
     "sameAs": ["https://twitter.com/safc"],
     "foundingDate": {
       "@type": "Date",
@@ -4864,7 +4864,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/hemel-hempstead-town"
     },
-    "url": "https://hemelfc.com",
+    "url": "https://www.hemelfc.com",
     "sameAs": ["https://twitter.com/hemelfc"],
     "foundingDate": {
       "@type": "Date",
@@ -5713,7 +5713,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/aveley"
     },
-    "url": "https://pitchero.com/clubs/aveley",
+    "url": "https://www.pitchero.com/clubs/aveley",
     "sameAs": ["https://twitter.com/AveleyFC"],
     "foundingDate": {
       "@type": "Date",
@@ -5956,7 +5956,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/bognor-regis-town"
     },
-    "url": "https://pitchero.com/clubs/bognorregistownfc",
+    "url": "https://www.pitchero.com/clubs/bognorregistownfc",
     "sameAs": ["https://twitter.com/rocks1883"],
     "foundingDate": {
       "@type": "Date",
@@ -6260,7 +6260,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/carshalton-athletic"
     },
-    "url": "https://carshaltonathletic.co.uk",
+    "url": "https://www.carshaltonathletic.co.uk",
     "sameAs": ["https://twitter.com/CarshaltonA_FC"],
     "foundingDate": {
       "@type": "Date",
@@ -7307,7 +7307,7 @@
       "@type": "url",
       "@value": "https://nonleaguegrounds.com/club/wingate-and-finchley"
     },
-    "url": "https://wingatefinchley.com",
+    "url": "https://www.wingatefinchley.com",
     "sameAs": ["https://twitter.com/WinFinchleyFC"],
     "foundingDate": {
       "@type": "Date",
