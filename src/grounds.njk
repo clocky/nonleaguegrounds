@@ -22,7 +22,7 @@
 {% from "credit.macro.njk" import credit %}
 {% from "hero.macro.njk" import hero %}
 
-{{ hero("Grounds", "A directory of " + grounds.length + " non-league grounds, sorted by capacity", meta.image.ground, "A wide angle photo of a football ground, with players on the pitch under floodlights"  ) }}
+{{ hero("Grounds", "A directory of " + grounds.length | toWords + " non-league grounds, sorted by capacity", meta.image.ground, "A wide angle photo of a football ground, with players on the pitch under floodlights"  ) }}
 {{ breadcrumb("Grounds") }}
 
 <section class="section-desktop">
