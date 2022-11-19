@@ -94,6 +94,7 @@ An aerial photograph of {{ ground.name }} in {{ ground.address.addressLocality }
             href="https://www.google.com/maps/search/?api=1&zoom=18&query={{ ground.subOrganization[0].alternateName | urlencode }},{{ ground.name | urlencode }},{{ ground.address.addressLocality | urlencode }},{{ ground.address.postalCode | urlencode }}&basemap=roadmap" 
             target="_blank" 
             class="button" 
+            rel="noopener"
             aria-label="Open in Google Maps">
             <span class="icon">
               <i class="fab fa-google"></i>
@@ -103,6 +104,7 @@ An aerial photograph of {{ ground.name }} in {{ ground.address.addressLocality }
             href="http://maps.apple.com/?q={{ ground.name | urlencode }}&sll={{ground.latitude}},{{ground.longitude}}&z=18&t=m"
             target="_blank" 
             class="button" 
+            rel="noopener"
             aria-label="Open in Apple Maps">
             <span class="icon">
               <i class="fab fa-apple"></i>
@@ -113,6 +115,7 @@ An aerial photograph of {{ ground.name }} in {{ ground.address.addressLocality }
             href="https://bing.com/maps/default.aspx?cp={{ground.latitude}}~{{ground.longitude}}&lvl=17&ss={{ ground.name | urlencode }}"
             target="_blank" 
             class="button" 
+            rel="noopener"
             aria-label="Open in Bing Maps">
             <span class="icon">
               <i class="fab fa-microsoft"></i>
@@ -123,6 +126,7 @@ An aerial photograph of {{ ground.name }} in {{ ground.address.addressLocality }
             href="http://www.openstreetmap.org/#map=18/{{ground.latitude}}/{{ground.longitude}}"
             target="_blank" 
             class="button" 
+            rel="noopener"
             aria-label="Open in Open Street Maps">
             <span class="icon">
               <i class="fas fa-map"></i>
