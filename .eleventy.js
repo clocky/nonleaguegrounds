@@ -132,7 +132,6 @@ async function heroShortcode(src, alt) {
     class: "hero-background is-transparent",
     sizes:
       "(max-width: 319px) 240px, (max-width: 639px) 320px, (max-width: 1279px) 640px, (max-width: 1439px) 1280px, 1440px",
-    loading: "lazy",
     decoding: "async",
   };
   return Image.generateHTML(metadata, imageAttributes);
