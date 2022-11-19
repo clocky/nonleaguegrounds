@@ -50,7 +50,7 @@ eleventyComputed:
 
 
 {% set subtitle %}
-The {{ league.name }} is at the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs
+The {{ league.name }} is at the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length | toWords }} clubs
 {% endset %}
 
 
