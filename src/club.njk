@@ -10,20 +10,36 @@ eleventyComputed:
     description: "Information about {{ club.name }}, a {{club.status}} football club."
 ---
 {% from "breadcrumb.macro.njk" import breadcrumb %}
-{% from "hero.macro.njk" import hero %}
 
+<!-- Structured Data -->
 <script type="application/ld+json">
   {{ club | dump | safe }}
 </script>
 
 {% set img %}
-https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitude}},{{ club.location.longitude }}/18?mapSize=1280,800&query={{ club.location.name | urlencode }}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}
-{% endset %}
-{% set alt %}
-An aerial photograph of {{ club.location.name }} in {{ club.location.address.addressLocality }}, {{ club.location.address.addressRegion }}
+https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitude}},{{ club.location.longitude }}/18?mapSize=1280,800&query={{ club.location.name | urlencode }}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key=
 {% endset %}
 
-{{ hero(club.name, club.location.name, img, alt ) }}
+{% set bing = env.bing_maps_api_key %}
+
+<section class="hero is-medium is-dark has-background">
+  {% hero "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/" + club.location.latitude + "," + club.location.longitude + "/18?mapSize=1440,335&format=png&mapMetadata=0&key=" + bing,
+  club.name %}
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
+            {{ club.name }}
+          </h1>
+          <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
+            {{ club.location.name }}
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 {{ breadcrumb("Leagues", club.memberOf.name, club.name) }}
 
