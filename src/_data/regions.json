@@ -18,8 +18,8 @@
           "postalCode": "DE4 3AR"
         },
         "maximumAttendeeCapacity": 2400,
-        "latitude": "53.137031",
-        "longitude": "-1.551677",
+        "latitude": 53.137031,
+        "longitude": -1.551677,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Matlock Town",
@@ -56,8 +56,8 @@
           "postalCode": "DE56 1BA"
         },
         "maximumAttendeeCapacity": 2650,
-        "latitude": "53.027196",
-        "longitude": "-1.487347",
+        "latitude": 53.027196,
+        "longitude": -1.487347,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Belper Town",
@@ -93,8 +93,8 @@
           "postalCode": "PE21 6JN"
         },
         "maximumAttendeeCapacity": 5000,
-        "latitude": "52.956335",
-        "longitude": "-0.028533",
+        "latitude": 52.956335,
+        "longitude": -0.028533,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Boston United",
@@ -130,8 +130,8 @@
           "postalCode": "NN15 5PS"
         },
         "maximumAttendeeCapacity": 2400,
-        "latitude": "52.366808",
-        "longitude": "-0.689305",
+        "latitude": 52.366808,
+        "longitude": -0.689305,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Kettering Town",
@@ -167,8 +167,8 @@
           "postalCode": "NG2 3HJ"
         },
         "maximumAttendeeCapacity": 19841,
-        "latitude": "52.942672",
-        "longitude": "-1.137151",
+        "latitude": 52.942672,
+        "longitude": -1.137151,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Notts County",
@@ -205,8 +205,8 @@
           "postalCode": "DE55 7FZ"
         },
         "maximumAttendeeCapacity": 3600,
-        "latitude": "53.094516",
-        "longitude": "-1.381251",
+        "latitude": 53.094516,
+        "longitude": -1.381251,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Alfreton Town",
@@ -242,8 +242,8 @@
           "postalCode": "NN13 7EJ"
         },
         "maximumAttendeeCapacity": 3500,
-        "latitude": "52.024613",
-        "longitude": "-1.144039",
+        "latitude": 52.024613,
+        "longitude": -1.144039,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Brackley Town",
@@ -279,8 +279,8 @@
           "postalCode": "S41 8NZ"
         },
         "maximumAttendeeCapacity": 10600,
-        "latitude": "53.253583",
-        "longitude": "-1.425761",
+        "latitude": 53.253583,
+        "longitude": -1.425761,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Chesterfield",
@@ -317,8 +317,8 @@
           "postalCode": "DN21 2QW"
         },
         "maximumAttendeeCapacity": 4304,
-        "latitude": "53.403459",
-        "longitude": "-0.774463",
+        "latitude": 53.403459,
+        "longitude": -0.774463,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Gainsborough Trinity",
@@ -355,8 +355,8 @@
           "postalCode": "SK17 6QH"
         },
         "maximumAttendeeCapacity": 4000,
-        "latitude": "53.256603",
-        "longitude": "-1.906581",
+        "latitude": 53.256603,
+        "longitude": -1.906581,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Buxton",
@@ -401,8 +401,8 @@
           "postalCode": "AL1 4NF"
         },
         "maximumAttendeeCapacity": 5007,
-        "latitude": "51.754276",
-        "longitude": "-0.325157",
+        "latitude": 51.754276,
+        "longitude": -0.325157,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "St Albans City",
@@ -439,8 +439,8 @@
           "postalCode": "CM7 3AL"
         },
         "maximumAttendeeCapacity": 4151,
-        "latitude": "51.875305",
-        "longitude": "0.572989",
+        "latitude": 51.875305,
+        "longitude": 0.572989,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Braintree Town",
@@ -476,8 +476,8 @@
           "postalCode": "SS13 2BE"
         },
         "maximumAttendeeCapacity": 3500,
-        "latitude": "51.57405",
-        "longitude": "0.518133",
+        "latitude": 51.57405,
+        "longitude": 0.518133,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Bowers &amp; Pitsea",
@@ -513,8 +513,8 @@
           "postalCode": "PE1 3HA"
         },
         "maximumAttendeeCapacity": 2300,
-        "latitude": "52.593814",
-        "longitude": "-0.254312",
+        "latitude": 52.593814,
+        "longitude": -0.254312,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Peterborough Sports",
@@ -551,8 +551,8 @@
           "postalCode": "WD6 5AL"
         },
         "maximumAttendeeCapacity": 4502,
-        "latitude": "51.661937",
-        "longitude": "-0.272375",
+        "latitude": 51.661937,
+        "longitude": -0.272375,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Boreham Wood",
@@ -588,8 +588,8 @@
           "postalCode": "CM1 2EH"
         },
         "maximumAttendeeCapacity": 3065,
-        "latitude": "51.753231",
-        "longitude": "0.451471",
+        "latitude": 51.753231,
+        "longitude": 0.451471,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Chelmsford City",
@@ -625,8 +625,8 @@
           "postalCode": "CM12 9SA"
         },
         "maximumAttendeeCapacity": 5000,
-        "latitude": "51.621776",
-        "longitude": "0.403297",
+        "latitude": 51.621776,
+        "longitude": 0.403297,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Billericay Town",
@@ -662,8 +662,8 @@
           "postalCode": "CO7 0PL"
         },
         "maximumAttendeeCapacity": 1000,
-        "latitude": "51.815817",
-        "longitude": "1.026387",
+        "latitude": 51.815817,
+        "longitude": 1.026387,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Brightlingsea Regent",
@@ -700,8 +700,8 @@
           "postalCode": "SS8 7PX"
         },
         "maximumAttendeeCapacity": 4100,
-        "latitude": "51.516461",
-        "longitude": "0.615713",
+        "latitude": 51.516461,
+        "longitude": 0.615713,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Canvey Island",
@@ -738,8 +738,8 @@
           "postalCode": "EN6 1QN"
         },
         "maximumAttendeeCapacity": 2500,
-        "latitude": "51.696188",
-        "longitude": "-0.177662",
+        "latitude": 51.696188,
+        "longitude": -0.177662,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Potters Bar Town",
@@ -775,8 +775,8 @@
           "postalCode": "RM15 4PX"
         },
         "maximumAttendeeCapacity": 3500,
-        "latitude": "51.503481",
-        "longitude": "0.261341",
+        "latitude": 51.503481,
+        "longitude": 0.261341,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Aveley",
@@ -812,8 +812,8 @@
           "postalCode": "SS2 6NQ"
         },
         "maximumAttendeeCapacity": 12392,
-        "latitude": "51.549008",
-        "longitude": "0.701608",
+        "latitude": 51.549008,
+        "longitude": 0.701608,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Southend United",
@@ -849,8 +849,8 @@
           "postalCode": "SS8 0HH"
         },
         "maximumAttendeeCapacity": 3300,
-        "latitude": "51.512539",
-        "longitude": "0.575477",
+        "latitude": 51.512539,
+        "longitude": 0.575477,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Concord Rangers",
@@ -886,8 +886,8 @@
           "postalCode": "PE30 5PB"
         },
         "maximumAttendeeCapacity": 8200,
-        "latitude": "52.750067",
-        "longitude": "0.407411",
+        "latitude": 52.750067,
+        "longitude": 0.407411,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Kings Lynn Town",
@@ -923,8 +923,8 @@
           "postalCode": "EN8 8RU"
         },
         "maximumAttendeeCapacity": 3500,
-        "latitude": "51.694445",
-        "longitude": "-0.041577",
+        "latitude": 51.694445,
+        "longitude": -0.041577,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Cheshunt",
@@ -960,8 +960,8 @@
           "postalCode": "HP2 4HW"
         },
         "maximumAttendeeCapacity": 3152,
-        "latitude": "51.753881",
-        "longitude": "-0.444358",
+        "latitude": 51.753881,
+        "longitude": -0.444358,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Hemel Hempstead Town",
@@ -998,8 +998,8 @@
           "postalCode": "CM23 5RG"
         },
         "maximumAttendeeCapacity": 4525,
-        "latitude": "51.872673",
-        "longitude": "0.191994",
+        "latitude": 51.872673,
+        "longitude": 0.191994,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Bishop&#39;s Stortford",
@@ -1044,8 +1044,8 @@
           "postalCode": "TW12 2BX"
         },
         "maximumAttendeeCapacity": 3800,
-        "latitude": "51.415191",
-        "longitude": "-0.363244",
+        "latitude": 51.415191,
+        "longitude": -0.363244,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Hampton &amp; Richmond Borough",
@@ -1081,8 +1081,8 @@
           "postalCode": "SE22 8BD"
         },
         "maximumAttendeeCapacity": 3334,
-        "latitude": "51.461239",
-        "longitude": "-0.084018",
+        "latitude": 51.461239,
+        "longitude": -0.084018,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Dulwich Hamlet",
@@ -1118,8 +1118,8 @@
           "postalCode": "N17 7JP"
         },
         "maximumAttendeeCapacity": 2500,
-        "latitude": "51.605623",
-        "longitude": "-0.09266",
+        "latitude": 51.605623,
+        "longitude": -0.09266,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Haringey Borough",
@@ -1155,8 +1155,8 @@
           "postalCode": "HA4 6JQ"
         },
         "maximumAttendeeCapacity": 4085,
-        "latitude": "51.569398",
-        "longitude": "-0.416594",
+        "latitude": 51.569398,
+        "longitude": -0.416594,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Wealdstone",
@@ -1192,8 +1192,8 @@
           "postalCode": "BR2 9EF"
         },
         "maximumAttendeeCapacity": 5000,
-        "latitude": "51.390084",
-        "longitude": "0.021091",
+        "latitude": 51.390084,
+        "longitude": 0.021091,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Bromley",
@@ -1229,8 +1229,8 @@
           "postalCode": "BR2 9EF"
         },
         "maximumAttendeeCapacity": 5000,
-        "latitude": "51.390084",
-        "longitude": "0.021091",
+        "latitude": 51.390084,
+        "longitude": 0.021091,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Cray Wanderers",
@@ -1266,8 +1266,8 @@
           "postalCode": "RM14 2LX"
         },
         "maximumAttendeeCapacity": 3000,
-        "latitude": "51.556557",
-        "longitude": "0.23837",
+        "latitude": 51.556557,
+        "longitude": 0.23837,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Hornchurch",
@@ -1303,8 +1303,8 @@
           "postalCode": "SM4 6BF"
         },
         "maximumAttendeeCapacity": 3500,
-        "latitude": "51.393231",
-        "longitude": "-0.172327",
+        "latitude": 51.393231,
+        "longitude": -0.172327,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Kingstonian",
@@ -1341,8 +1341,8 @@
           "postalCode": "KT6 7NA"
         },
         "maximumAttendeeCapacity": 2000,
-        "latitude": "51.372154",
-        "longitude": "-0.287229",
+        "latitude": 51.372154,
+        "longitude": -0.287229,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Corinthian-Casuals",
@@ -1378,8 +1378,8 @@
           "postalCode": "DA16 1SY"
         },
         "maximumAttendeeCapacity": 4000,
-        "latitude": "51.460326",
-        "longitude": "0.116558",
+        "latitude": 51.460326,
+        "longitude": 0.116558,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Welling United",
@@ -1415,8 +1415,8 @@
           "postalCode": "EN1 3PL"
         },
         "maximumAttendeeCapacity": 2500,
-        "latitude": "51.659332",
-        "longitude": "-0.063843",
+        "latitude": 51.659332,
+        "longitude": -0.063843,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Enfield Town",
@@ -1452,8 +1452,8 @@
           "postalCode": "HA8 6AG"
         },
         "maximumAttendeeCapacity": 6418,
-        "latitude": "51.602623",
-        "longitude": "-0.291743",
+        "latitude": 51.602623,
+        "longitude": -0.291743,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Barnet",
@@ -1489,8 +1489,8 @@
           "postalCode": "N12 0PD"
         },
         "maximumAttendeeCapacity": 1500,
-        "latitude": "51.606848",
-        "longitude": "-0.171497",
+        "latitude": 51.606848,
+        "longitude": -0.171497,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Wingate &amp; Finchley",
@@ -1527,8 +1527,8 @@
           "postalCode": "RM10 7XL"
         },
         "maximumAttendeeCapacity": 6078,
-        "latitude": "51.547807",
-        "longitude": "0.159913",
+        "latitude": 51.547807,
+        "longitude": 0.159913,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Dagenham &amp; Redbridge",
@@ -1564,8 +1564,8 @@
           "postalCode": "SM5 2PW"
         },
         "maximumAttendeeCapacity": 5000,
-        "latitude": "51.369704",
-        "longitude": "-0.17179",
+        "latitude": 51.369704,
+        "longitude": -0.17179,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Carshalton Athletic",
@@ -1609,8 +1609,8 @@
           "postalCode": "DL1 5NR"
         },
         "maximumAttendeeCapacity": 3281,
-        "latitude": "54.509449",
-        "longitude": "-1.564142",
+        "latitude": 54.509449,
+        "longitude": -1.564142,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Darlington",
@@ -1646,8 +1646,8 @@
           "postalCode": "DL16 6JN"
         },
         "maximumAttendeeCapacity": 3000,
-        "latitude": "54.70451",
-        "longitude": "-1.599134",
+        "latitude": 54.70451,
+        "longitude": -1.599134,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Spennymoor Town",
@@ -1683,8 +1683,8 @@
           "postalCode": "NE61 2YX"
         },
         "maximumAttendeeCapacity": 3000,
-        "latitude": "55.155982",
-        "longitude": "-1.708834",
+        "latitude": 55.155982,
+        "longitude": -1.708834,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Morpeth Town AFC",
@@ -1720,8 +1720,8 @@
           "postalCode": "NE24 3JE"
         },
         "maximumAttendeeCapacity": 4130,
-        "latitude": "55.120879",
-        "longitude": "-1.511217",
+        "latitude": 55.120879,
+        "longitude": -1.511217,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Blyth Spartans AFC",
@@ -1758,8 +1758,8 @@
           "postalCode": "NE32 3UP"
         },
         "maximumAttendeeCapacity": 3500,
-        "latitude": "54.974526",
-        "longitude": "-1.470094",
+        "latitude": 54.974526,
+        "longitude": -1.470094,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "South Shields",
@@ -1795,8 +1795,8 @@
           "postalCode": "NE10 0EF"
         },
         "maximumAttendeeCapacity": 11750,
-        "latitude": "54.96102",
-        "longitude": "-1.57967",
+        "latitude": 54.96102,
+        "longitude": -1.57967,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Gateshead",
@@ -1832,8 +1832,8 @@
           "postalCode": "TS11 7BW"
         },
         "maximumAttendeeCapacity": 2500,
-        "latitude": "54.589177",
-        "longitude": "-1.016661",
+        "latitude": 54.589177,
+        "longitude": -1.016661,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Marske United",
@@ -1878,8 +1878,8 @@
           "postalCode": "M46 9FJ"
         },
         "maximumAttendeeCapacity": 2500,
-        "latitude": "53.523522",
-        "longitude": "-2.484992",
+        "latitude": 53.523522,
+        "longitude": -2.484992,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Atherton Collieries",
@@ -1915,8 +1915,8 @@
           "postalCode": "OL1 2PA"
         },
         "maximumAttendeeCapacity": 13513,
-        "latitude": "53.555148",
-        "longitude": "-2.128451",
+        "latitude": 53.555148,
+        "longitude": -2.128451,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Oldham Athletic",
@@ -1952,8 +1952,8 @@
           "postalCode": "SK15 2RT"
         },
         "maximumAttendeeCapacity": 6500,
-        "latitude": "53.475337",
-        "longitude": "-2.043855",
+        "latitude": 53.475337,
+        "longitude": -2.043855,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Stalybridge Celtic",
@@ -1989,8 +1989,8 @@
           "postalCode": "M40 0FJ"
         },
         "maximumAttendeeCapacity": 4700,
-        "latitude": "53.516649",
-        "longitude": "-2.180394",
+        "latitude": 53.516649,
+        "longitude": -2.180394,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "FC United of Manchester",
@@ -2027,8 +2027,8 @@
           "postalCode": "WA4 2RS"
         },
         "maximumAttendeeCapacity": 2550,
-        "latitude": "53.377071",
-        "longitude": "-2.569861",
+        "latitude": 53.377071,
+        "longitude": -2.569861,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Warrington Town",
@@ -2064,8 +2064,8 @@
           "postalCode": "CH1 4LT"
         },
         "maximumAttendeeCapacity": 6500,
-        "latitude": "53.189215",
-        "longitude": "-2.923496",
+        "latitude": 53.189215,
+        "longitude": -2.923496,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Chester",
@@ -2102,8 +2102,8 @@
           "postalCode": "SK14 5PL"
         },
         "maximumAttendeeCapacity": 4250,
-        "latitude": "53.450616",
-        "longitude": "-2.068183",
+        "latitude": 53.450616,
+        "longitude": -2.068183,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Hyde United",
@@ -2139,8 +2139,8 @@
           "postalCode": "LA1 5PE"
         },
         "maximumAttendeeCapacity": 3513,
-        "latitude": "54.051038",
-        "longitude": "-2.810882",
+        "latitude": 54.051038,
+        "longitude": -2.810882,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Lancaster City",
@@ -2176,8 +2176,8 @@
           "postalCode": "WA2 7SH"
         },
         "maximumAttendeeCapacity": 1345,
-        "latitude": "53.4004",
-        "longitude": "-2.575604",
+        "latitude": 53.4004,
+        "longitude": -2.575604,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Warrington Rylands 1906",
@@ -2214,8 +2214,8 @@
           "postalCode": "PR8 6JZ"
         },
         "maximumAttendeeCapacity": 6008,
-        "latitude": "53.638109",
-        "longitude": "-2.978859",
+        "latitude": 53.638109,
+        "longitude": -2.978859,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Southport",
@@ -2251,8 +2251,8 @@
           "postalCode": "OL6 8DY"
         },
         "maximumAttendeeCapacity": 4250,
-        "latitude": "53.501301",
-        "longitude": "-2.079707",
+        "latitude": 53.501301,
+        "longitude": -2.079707,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Ashton United",
@@ -2288,8 +2288,8 @@
           "postalCode": "PR4 3JZ"
         },
         "maximumAttendeeCapacity": 6000,
-        "latitude": "53.797367",
-        "longitude": "-2.889497",
+        "latitude": 53.797367,
+        "longitude": -2.889497,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "AFC Fylde",
@@ -2326,8 +2326,8 @@
           "postalCode": "WA15 8AP"
         },
         "maximumAttendeeCapacity": 7873,
-        "latitude": "53.383434",
-        "longitude": "-2.335159",
+        "latitude": 53.383434,
+        "longitude": -2.335159,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Altrincham",
@@ -2364,8 +2364,8 @@
           "postalCode": "L23 3AS"
         },
         "maximumAttendeeCapacity": 2150,
-        "latitude": "53.485173",
-        "longitude": "-3.033623",
+        "latitude": 53.485173,
+        "longitude": -3.033623,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Marine AFC",
@@ -2401,8 +2401,8 @@
           "postalCode": "PR5 6UU"
         },
         "maximumAttendeeCapacity": 3000,
-        "latitude": "53.727892",
-        "longitude": "-2.671923",
+        "latitude": 53.727892,
+        "longitude": -2.671923,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Bamber Bridge",
@@ -2439,8 +2439,8 @@
           "postalCode": "M26 3TQ"
         },
         "maximumAttendeeCapacity": 4080,
-        "latitude": "53.567592",
-        "longitude": "-2.340701",
+        "latitude": 53.567592,
+        "longitude": -2.340701,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Radcliffe",
@@ -2476,8 +2476,8 @@
           "postalCode": "OL7 9HG"
         },
         "maximumAttendeeCapacity": 4200,
-        "latitude": "53.494258",
-        "longitude": "-2.116084",
+        "latitude": 53.494258,
+        "longitude": -2.116084,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Curzon Ashton",
@@ -2514,8 +2514,8 @@
           "postalCode": "PR7 3DU"
         },
         "maximumAttendeeCapacity": 4300,
-        "latitude": "53.645567",
-        "longitude": "-2.629188",
+        "latitude": 53.645567,
+        "longitude": -2.629188,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Chorley",
@@ -2552,8 +2552,8 @@
           "postalCode": "CW5 5BS"
         },
         "maximumAttendeeCapacity": 3500,
-        "latitude": "53.072687",
-        "longitude": "-2.52846",
+        "latitude": 53.072687,
+        "longitude": -2.52846,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Nantwich Town",
@@ -2597,8 +2597,8 @@
           "postalCode": "SL2 5AY"
         },
         "maximumAttendeeCapacity": 2000,
-        "latitude": "51.5198622",
-        "longitude": "-0.5884198",
+        "latitude": 51.5198622,
+        "longitude": -0.5884198,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Slough Town",
@@ -2634,8 +2634,8 @@
           "postalCode": "RG17 0AY"
         },
         "maximumAttendeeCapacity": 3034,
-        "latitude": "51.408934",
-        "longitude": "-1.513463",
+        "latitude": 51.408934,
+        "longitude": -1.513463,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Hungerford Town",
@@ -2672,8 +2672,8 @@
           "postalCode": "CT19 5JU"
         },
         "maximumAttendeeCapacity": 4000,
-        "latitude": "51.086574",
-        "longitude": "1.159508",
+        "latitude": 51.086574,
+        "longitude": 1.159508,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Folkestone Invicta",
@@ -2710,8 +2710,8 @@
           "postalCode": "GU14 8UD"
         },
         "maximumAttendeeCapacity": 7000,
-        "latitude": "51.310449",
-        "longitude": "-0.762256",
+        "latitude": 51.310449,
+        "longitude": -0.762256,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Farnborough",
@@ -2747,8 +2747,8 @@
           "postalCode": "CT17 0QJ"
         },
         "maximumAttendeeCapacity": 5745,
-        "latitude": "51.137804",
-        "longitude": "1.284943",
+        "latitude": 51.137804,
+        "longitude": 1.284943,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Dover Athletic",
@@ -2784,8 +2784,8 @@
           "postalCode": "ME14 1LQ"
         },
         "maximumAttendeeCapacity": 4200,
-        "latitude": "51.28002",
-        "longitude": "0.516091",
+        "latitude": 51.28002,
+        "longitude": 0.516091,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Maidstone United",
@@ -2821,8 +2821,8 @@
           "postalCode": "CT9 5QY"
         },
         "maximumAttendeeCapacity": 2100,
-        "latitude": "51.380459",
-        "longitude": "1.373928",
+        "latitude": 51.380459,
+        "longitude": 1.373928,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Margate",
@@ -2859,8 +2859,8 @@
           "postalCode": "RH13 0AD"
         },
         "maximumAttendeeCapacity": 1980,
-        "latitude": "51.046893",
-        "longitude": "-0.340681",
+        "latitude": 51.046893,
+        "longitude": -0.340681,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Horsham",
@@ -2897,8 +2897,8 @@
           "postalCode": "GU22 9AA"
         },
         "maximumAttendeeCapacity": 6036,
-        "latitude": "51.306298",
-        "longitude": "-0.558875",
+        "latitude": 51.306298,
+        "longitude": -0.558875,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Woking",
@@ -2935,8 +2935,8 @@
           "postalCode": "TN10 3JW"
         },
         "maximumAttendeeCapacity": 3000,
-        "latitude": "51.211531",
-        "longitude": "0.269116",
+        "latitude": 51.211531,
+        "longitude": 0.269116,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Tonbridge Angels",
@@ -2972,8 +2972,8 @@
           "postalCode": "OX3 0NQ"
         },
         "maximumAttendeeCapacity": 3500,
-        "latitude": "51.773923",
-        "longitude": "-1.227743",
+        "latitude": 51.773923,
+        "longitude": -1.227743,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Oxford City",
@@ -3009,8 +3009,8 @@
           "postalCode": "RH4 1DX"
         },
         "maximumAttendeeCapacity": 3000,
-        "latitude": "51.234444",
-        "longitude": "-0.333543",
+        "latitude": 51.234444,
+        "longitude": -0.333543,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Dorking Wanderers",
@@ -3046,8 +3046,8 @@
           "postalCode": "PO21 2TY"
         },
         "maximumAttendeeCapacity": 4500,
-        "latitude": "50.786982",
-        "longitude": "-0.690213",
+        "latitude": 50.786982,
+        "longitude": -0.690213,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Bognor Regis Town",
@@ -3083,8 +3083,8 @@
           "postalCode": "DA1 1RT"
         },
         "maximumAttendeeCapacity": 4100,
-        "latitude": "51.437182",
-        "longitude": "0.230837",
+        "latitude": 51.437182,
+        "longitude": 0.230837,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Dartford",
@@ -3120,8 +3120,8 @@
           "postalCode": "BN23 7QH"
         },
         "maximumAttendeeCapacity": 7000,
-        "latitude": "50.80417",
-        "longitude": "0.32078",
+        "latitude": 50.80417,
+        "longitude": 0.32078,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Eastbourne Borough",
@@ -3158,8 +3158,8 @@
           "postalCode": "GU11 1TW"
         },
         "maximumAttendeeCapacity": 7100,
-        "latitude": "51.248415",
-        "longitude": "-0.754682",
+        "latitude": 51.248415,
+        "longitude": -0.754682,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Aldershot Town",
@@ -3196,8 +3196,8 @@
           "postalCode": "OX16 5AB"
         },
         "maximumAttendeeCapacity": 6500,
-        "latitude": "52.056796",
-        "longitude": "-1.325791",
+        "latitude": 52.056796,
+        "longitude": -1.325791,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Banbury United",
@@ -3234,8 +3234,8 @@
           "postalCode": "DA11 9GN"
         },
         "maximumAttendeeCapacity": 4769,
-        "latitude": "51.449556",
-        "longitude": "0.32237",
+        "latitude": 51.449556,
+        "longitude": 0.32237,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Ebbsfleet United",
@@ -3272,8 +3272,8 @@
           "postalCode": "SO50 9HT"
         },
         "maximumAttendeeCapacity": 5192,
-        "latitude": "50.95229",
-        "longitude": "-1.372023",
+        "latitude": 50.95229,
+        "longitude": -1.372023,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Eastleigh",
@@ -3309,8 +3309,8 @@
           "postalCode": "BN7 2XA"
         },
         "maximumAttendeeCapacity": 3000,
-        "latitude": "50.869019",
-        "longitude": "0.012321",
+        "latitude": 50.869019,
+        "longitude": 0.012321,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Lewes",
@@ -3346,8 +3346,8 @@
           "postalCode": "TN34 2AX"
         },
         "maximumAttendeeCapacity": 4050,
-        "latitude": "50.874501",
-        "longitude": "0.587099",
+        "latitude": 50.874501,
+        "longitude": 0.587099,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Hastings United",
@@ -3384,8 +3384,8 @@
           "postalCode": "PO9 5TH"
         },
         "maximumAttendeeCapacity": 5300,
-        "latitude": "50.867087",
-        "longitude": "-0.974097",
+        "latitude": 50.867087,
+        "longitude": -0.974097,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Havant &amp; Waterlooville",
@@ -3407,7 +3407,44 @@
           }
         }
       },
-      {},
+      {
+        "@type": "StadiumOrArena",
+        "name": "Winch's Field",
+        "alternateName": "The MBS Stadium",
+        "identifier": {
+          "@type": "URL",
+          "@value": "https://nonleaguegrounds.com/grounds/south-east/winch-s-field"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Stanley Gardens",
+          "addressLocality": "Herne Bay",
+          "postalCode": "CT6 5SG"
+        },
+        "maximumAttendeeCapacity": 3000,
+        "latitude": 51.364685,
+        "longitude": 1.129948,
+        "subOrganization": {
+          "@type": "SportsTeam",
+          "name": "Herne Bay",
+          "slogan": "The Bay",
+          "foundingDate": {
+            "@type": "Date",
+            "@value": 1886
+          },
+
+          "identifier": {
+            "@type": "URL",
+            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/herne-bay"
+          },
+
+          "logo": {
+            "@type": "ImageObject",
+            "contentURL": "https://media.api-sports.io/football/teams/7232.png",
+            "caption": "Herne Bay crest"
+          }
+        }
+      },
       {
         "@type": "StadiumOrArena",
         "name": "Woodside Road",
@@ -3423,8 +3460,8 @@
           "postalCode": "BN14 7HQ"
         },
         "maximumAttendeeCapacity": 4000,
-        "latitude": "50.82034",
-        "longitude": "-0.38482",
+        "latitude": 50.82034,
+        "longitude": -0.38482,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Worthing",
@@ -3460,8 +3497,8 @@
           "postalCode": "SL6 1SF"
         },
         "maximumAttendeeCapacity": 4000,
-        "latitude": "51.519889",
-        "longitude": "-0.717968",
+        "latitude": 51.519889,
+        "longitude": -0.717968,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Maidenhead United",
@@ -3505,8 +3542,8 @@
           "postalCode": "DT4 9XJ"
         },
         "maximumAttendeeCapacity": 6600,
-        "latitude": "50.619895",
-        "longitude": "-2.485182",
+        "latitude": 50.619895,
+        "longitude": -2.485182,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Weymouth",
@@ -3543,8 +3580,8 @@
           "postalCode": "TA1 2HG"
         },
         "maximumAttendeeCapacity": 2500,
-        "latitude": "51.016716",
-        "longitude": "-3.085107",
+        "latitude": 51.016716,
+        "longitude": -3.085107,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Taunton Town",
@@ -3580,8 +3617,8 @@
           "postalCode": "SN14 6LR"
         },
         "maximumAttendeeCapacity": 3000,
-        "latitude": "51.465604",
-        "longitude": "-2.128737",
+        "latitude": 51.465604,
+        "longitude": -2.128737,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Chippenham Town",
@@ -3617,8 +3654,8 @@
           "postalCode": "BA22 8YF"
         },
         "maximumAttendeeCapacity": 9565,
-        "latitude": "50.950234",
-        "longitude": "-2.673974",
+        "latitude": 50.950234,
+        "longitude": -2.673974,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Yeovil Town",
@@ -3655,8 +3692,8 @@
           "postalCode": "GL2 5HS"
         },
         "maximumAttendeeCapacity": 4000,
-        "latitude": "51.860324",
-        "longitude": "-2.262623",
+        "latitude": 51.860324,
+        "longitude": -2.262623,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Gloucester City AFC",
@@ -3692,8 +3729,8 @@
           "postalCode": "TQ1 3PS"
         },
         "maximumAttendeeCapacity": 6104,
-        "latitude": "50.476389",
-        "longitude": "-3.523874",
+        "latitude": 50.476389,
+        "longitude": -3.523874,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Torquay United AFC",
@@ -3729,8 +3766,8 @@
           "postalCode": "BA2 1DB"
         },
         "maximumAttendeeCapacity": 3528,
-        "latitude": "51.378847",
-        "longitude": "-2.395037",
+        "latitude": 51.378847,
+        "longitude": -2.395037,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Bath City",
@@ -3774,8 +3811,8 @@
           "postalCode": "LL11 2AH"
         },
         "maximumAttendeeCapacity": 10771,
-        "latitude": "53.051961",
-        "longitude": "-3.003804",
+        "latitude": 53.051961,
+        "longitude": -3.003804,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Wrexham AFC",
@@ -3819,8 +3856,8 @@
           "postalCode": "DY10 1NB"
         },
         "maximumAttendeeCapacity": 6238,
-        "latitude": "52.380496",
-        "longitude": "-2.242639",
+        "latitude": 52.380496,
+        "longitude": -2.242639,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Kidderminster Harriers",
@@ -3857,8 +3894,8 @@
           "postalCode": "B92 8PS"
         },
         "maximumAttendeeCapacity": 4510,
-        "latitude": "52.43892",
-        "longitude": "-1.75719",
+        "latitude": 52.43892,
+        "longitude": -1.75719,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Solihull Moors",
@@ -3894,8 +3931,8 @@
           "postalCode": "HR4 9JU"
         },
         "maximumAttendeeCapacity": 4913,
-        "latitude": "52.06073",
-        "longitude": "-2.71774",
+        "latitude": 52.06073,
+        "longitude": -2.71774,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Hereford",
@@ -3931,8 +3968,8 @@
           "postalCode": "ST16 3BX"
         },
         "maximumAttendeeCapacity": 4000,
-        "latitude": "52.818555",
-        "longitude": "-2.116846",
+        "latitude": 52.818555,
+        "longitude": -2.116846,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Stafford Rangers",
@@ -3968,8 +4005,8 @@
           "postalCode": "TF1 2NW"
         },
         "maximumAttendeeCapacity": 6400,
-        "latitude": "52.697376",
-        "longitude": "-2.501418",
+        "latitude": 52.697376,
+        "longitude": -2.501418,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "AFC Telford United",
@@ -4005,8 +4042,8 @@
           "postalCode": "CV33 9SA"
         },
         "maximumAttendeeCapacity": 2300,
-        "latitude": "52.244306",
-        "longitude": "-1.502849",
+        "latitude": 52.244306,
+        "longitude": -1.502849,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Leamington",
@@ -4050,8 +4087,8 @@
           "postalCode": "WF15 8DF"
         },
         "maximumAttendeeCapacity": 2000,
-        "latitude": "53.717658",
-        "longitude": "-1.711748",
+        "latitude": 53.717658,
+        "longitude": -1.711748,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Liversedge",
@@ -4087,8 +4124,8 @@
           "postalCode": "YO11 2JW"
         },
         "maximumAttendeeCapacity": 3252,
-        "latitude": "54.268845",
-        "longitude": "-0.413472",
+        "latitude": 54.268845,
+        "longitude": -0.413472,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Scarborough Athletic",
@@ -4124,8 +4161,8 @@
           "postalCode": "DN15 8TD"
         },
         "maximumAttendeeCapacity": 9088,
-        "latitude": "53.5866564",
-        "longitude": "-0.6953374",
+        "latitude": 53.5866564,
+        "longitude": -0.6953374,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Scunthorpe United",
@@ -4161,8 +4198,8 @@
           "postalCode": "BD6 2NG"
         },
         "maximumAttendeeCapacity": 3500,
-        "latitude": "53.758876",
-        "longitude": "-1.776174",
+        "latitude": 53.758876,
+        "longitude": -1.776174,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Bradford (Park Avenue) AFC",
@@ -4198,8 +4235,8 @@
           "postalCode": "LS20 8BT"
         },
         "maximumAttendeeCapacity": 4200,
-        "latitude": "53.877202",
-        "longitude": "-1.719401",
+        "latitude": 53.877202,
+        "longitude": -1.719401,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Guiseley AFC",
@@ -4235,8 +4272,8 @@
           "postalCode": "LS28 5BE"
         },
         "maximumAttendeeCapacity": 3900,
-        "latitude": "53.80972",
-        "longitude": "-1.664219",
+        "latitude": 53.80972,
+        "longitude": -1.664219,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Farsley Celtic",
@@ -4272,8 +4309,8 @@
           "postalCode": "HX1 2YT"
         },
         "maximumAttendeeCapacity": 10401,
-        "latitude": "53.716191",
-        "longitude": "-1.859217",
+        "latitude": 53.716191,
+        "longitude": -1.859217,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "FC Halifax Town",
@@ -4310,8 +4347,8 @@
           "postalCode": "YO21 3HZ"
         },
         "maximumAttendeeCapacity": 3500,
-        "latitude": "54.489984",
-        "longitude": "-0.627549",
+        "latitude": 54.489984,
+        "longitude": -0.627549,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Whitby Town",
@@ -4347,8 +4384,8 @@
           "postalCode": "YO32 9AF"
         },
         "maximumAttendeeCapacity": 8005,
-        "latitude": "53.98434",
-        "longitude": "-1.052927",
+        "latitude": 53.98434,
+        "longitude": -1.052927,
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "York City",

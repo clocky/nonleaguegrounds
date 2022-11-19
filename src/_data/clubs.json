@@ -6827,6 +6827,41 @@
         "name": "tier",
         "@value": 7
       }
+    },
+
+    "location": {
+      "@type": "StadiumOrArena",
+      "name": "Winch's Field",
+      "sponsor": {
+        "@type": "Organization",
+        "name": "The MBS Stadium"
+      },
+      "maximumAttendeeCapacity": "3000",
+      "priceRange": "££",
+      "latitude": "51.364685",
+      "longitude": "1.129948",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Stanley Gardens",
+        "addressLocality": "Herne Bay",
+        "addressRegion": "Kent",
+        "postalCode": "CT6 5SG",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "GB-ENG"
+        }
+      },
+
+      "areaServed": "South East",
+
+      "identifier": {
+        "@type": "url",
+        "@value": "https://nonleaguegrounds.com/grounds/south-east/winch-s-field"
+      }
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "South East"
     }
   },
 

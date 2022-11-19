@@ -5328,7 +5328,36 @@
       "@type": "AdministrativeArea",
       "name": "South East"
     },
-    "subOrganization": []
+    "subOrganization": [
+      {
+        "@type": "SportsTeam",
+        "name": "Herne Bay",
+        "alternateName": "Herne Bay Football Club",
+        "slogan": "The Bay",
+        "sport": "Association Football",
+        "logo": {
+          "@type": "ImageObject",
+          "contentURL": "https://media.api-sports.io/football/teams/7232.png",
+          "caption": "Herne Bay crest"
+        },
+        "foundingDate": {
+          "@type": "Date",
+          "@value": "1886"
+        },
+        "sameAs": ["https://twitter.com/HerneBayFC"],
+
+        "memberOf": {
+          "@type": "SportsOrganization",
+          "name": "Isthmian League Premier Division",
+          "alternateName": "Pitching In Isthmian League Premier Division",
+          "sponsor": {
+            "@type": "Organization",
+            "name": "Pitching In"
+          },
+          "logo": "https://media.api-sports.io/football/leagues/58.png"
+        }
+      }
+    ]
   },
   {
     "@type": "StadiumOrArena",
