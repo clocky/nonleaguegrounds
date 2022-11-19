@@ -51,15 +51,17 @@ permalink: "/grounds/{{ region.name | slug }}/index.html"
       <div class="columns">
         {% for ground in grounds %}
           <div class="column is-one-third">
-            <a href="/grounds/{{ region.name | slugify }}/{{ ground.name | slugify }}">
-              <figure class="image is-16by9">
-                {% aerial ground.latitude,
-                ground.longitude,
-                ground.name %}
-              </figure>
-              <h3 class="title is-5 mt-3">{{ ground.name }}</h3>
-              <p class="subtitle is-6">{{ ground.subOrganization.name | safe }}</p>
-            </a>
+            <figure class="image is-16by9">
+              {% aerial ground.latitude,
+              ground.longitude,
+              ground.name %}
+            </figure>
+            <h3 class="title is-5 mt-3">
+              <a href="/grounds/{{ region.name | slugify }}/{{ ground.name | slugify }}">
+                {{ ground.name }}
+              </a>
+            </h3>
+            <p class="subtitle is-6">{{ ground.subOrganization.name | safe }}</p>
           </div>
         {% endfor %}
       </div>
