@@ -6,22 +6,45 @@ pagination:
     alias: region
 permalink: "/grounds/{{ region.name | slug }}/index.html"
 ---
-{% from "macros.njk" import
-listClub %}
 
-{% from "hero.macro.njk" import hero %}
-{% from "credit.macro.njk" import credit %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 
 {%- set slug %}{{- region.name | slugify -}}{%- endset %}
 {% set img %}{{ meta.image.region[slug] }}{% endset %}
 
-{{ hero(region.name, "All grounds in " + region.name, img, "Photo illustrating the " + region.name) }}
+{%- set pushpins -%}
+{%- for ground in region.geoContains -%}
+  {%- if ground.latitude and ground.longitude %}&pp={{- ground.latitude -}},{{- ground.longitude -}};36{%- endif -%}
+{%- endfor -%}
+{%- endset -%}
+{%- set bing = env.bing_maps_api_key -%}
+
+<section class="hero is-medium is-dark has-background">
+  {% hero "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial?mapSize=1440,335" + pushpins + "&format=png&mapMetadata=0&key=" + bing,
+  region.name %}
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
+            {{ region.name }}
+          </h1>
+          <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
+            {{ region.geoContains.length | toWords | capitalize }} grounds from
+            {{ region.geoContains[0].name }} to {{ region.geoContains[region.geoContains.length - 1].name }}
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 {{ breadcrumb("Grounds", region.name) }}
 
 <script type="application/ld+json">
   {{ region | json | safe }}
 </script>
+
 <section class="section" id="{{ region.name | slugify }}">
   <div class="container is-max-desktop">
     {% for grounds in region.geoContains | sort(attribute = "name") | batch(3) %}
@@ -43,23 +66,3 @@ listClub %}
     {% endfor %}
   </div>
 </section>
-
-{% if region.name == "East Midlands" or region.name == "West Midlands"%}
-  {{ credit("tompodmore86", "Tod Podmore", "Midlands")}}
-{% elseif region.name == "North West" %}
-  {{ credit("dee_jay5", "Dave Walmisley", "North West England")}}
-{% elseif region.name == "South East" %}
-  {{ credit("stevepetcu", "Stefan-Daniel Petcu", "South East England")}}
-{% elseif region.name == "South West" %}
-  {{ credit("rmcollins175", "Rory Collins", "Devon")}}
-{% elseif region.name == "Wales" %}
-  {{ credit("mitchorr", "Mitchell Orr", "Wales")}}
-{% elseif region.name == "London" %}
-  {{ credit("bendavisual", "Benjamin Davies", "London")}}
-{% elseif region.name == "Yorkshire and the Humber" %}
-  {{ credit("timlumley", "Tim Lumley", "Leeds")}}
-{% elseif region.name == "East of England" %}
-  {{ credit("woz1867", "John Wozniak", "Southend")}}
-{% elseif region.name == "North East" %}
-  {{ credit("ybs9641", "Boris Yue", "Newcastle-upon-Tyne")}}
-{% endif %}
