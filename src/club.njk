@@ -88,9 +88,7 @@ An aerial photograph of {{ club.location.name }} in {{ club.location.address.add
 {% endset %}
 {{ hero(club.name, club.location.name, img, alt ) }}
 
-<div class="has-background-light is-hidden-mobile p-4">
-  {{ breadcrumb("Leagues", club.memberOf.name, club.name) }}
-</div>
+{{ breadcrumb("Leagues", club.memberOf.name, club.name) }}
 
 <section class="section">
   <div class="container is-max-desktop">
