@@ -41,22 +41,26 @@ eleventyComputed:
             {% set west = region.geoContains | sort(attribute = "longitude") | first %}
             {% set maparea %}{{ south.latitude }},{{ west.longitude }},{{ north.latitude }},{{ east.longitude }}{% endset %}
             <figure class="image is-4by3">
-              <img src="https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial?mapSize=640,480&mapArea={{ maparea }}&format=jpeg&mapMetadata=0&key={{bing}}"/>
+              {% if region.geoContains.length > 1 %}
+                <img src="https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial?mapSize=640,480&mapArea={{ maparea }}&format=jpeg&mapMetadata=0&key={{bing}}"/>
+              {% else %}
+                <img src="https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ region.geoContains[0].latitude }},{{ region.geoContains[0].longitude }}/7?mapSize=640,480&format=jpeg&mapMetadata=0&key={{bing}}"/>
+              {% endif %}
             </figure>
             <h3 class="title is-5 mt-3">
               <a href="/grounds/{{ region.name | slugify }}">
                 {{ region.name }}
               </a>
             </h3>
-            <p class="subtitle is-6">Featuring 
+            <p class="subtitle is-6">
               {% for ground in region
                 .geoContains
-                .slice(0, 5) | sort(attribute = "address.addressLocality") %}
+                .slice(0, 3) | sort(attribute = "address.addressLocality") %}
                 {{- ground.address.addressLocality }}
                 {%- if not loop.last %}, {% endif %}
               {% endfor %}
-              {% if region.geoContains.length > 5 %}
-                  and {{ region.geoContains.length - 5 }} more
+              {% if region.geoContains.length > 3 %}
+                  and {{ region.geoContains.length - 3 }} more
               {% endif %}
             </p>
           </div>
