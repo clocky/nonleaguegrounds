@@ -25,7 +25,7 @@ eleventyComputed:
             </thead>
             <tbody>
                 {% for league in leagues | sort(attribute = "additionalProperty.@value") %}
-                    <tr id="{{ ground.name | slugify }}">
+                    <tr id="{{ league.name | slugify }}">
                         <td class="is-hidden-mobile">
                             {{ league.additionalProperty.@value | ordinal }}
                         </td>

@@ -6,11 +6,7 @@ pagination:
     alias: region
 permalink: "/grounds/{{ region.name | slug }}/index.html"
 ---
-
 {% from "breadcrumb.macro.njk" import breadcrumb %}
-
-{%- set slug %}{{- region.name | slugify -}}{%- endset %}
-{% set img %}{{ meta.image.region[slug] }}{% endset %}
 
 {%- set pushpins -%}
 {%- for ground in region.geoContains -%}
