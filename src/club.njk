@@ -12,72 +12,8 @@ eleventyComputed:
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 {% from "hero.macro.njk" import hero %}
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SportsTeam",
-    "identifier": {
-      "@type": "url",
-      "@value": "{{ meta.base }}/club/{{ club.name | slugify }}"
-    },
-    "name": "{{ club.name }}",
-    "slogan": "{{ club.slogan }}",
-    "alternateName": "{{ club.alternateName }}",
-    {%- if club.url %}
-      "url": "{{ club.url }}",
-    {%- endif %}
-    "sameAs": [
-      {%- for url in club.sameAs %}
-        "{{ url }}"{% if not loop.last %},{% endif %}
-      {%- endfor %}
-    ],
-    "foundingDate": {
-      "@type": "Date",
-      "@value": "{{ club.founded | date(" YYYY ") | trim }}"
-    },
-    "sport": "Soccer",
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "{{ club.location.areaServed }}"
-    },
-    "memberOf": {
-      "@type": "SportsOrganization",
-      "sport": "Soccer",
-      "name": "{{ club.memberOf.name }}",
-      "alternateName": "{{ club.memberOf.alternateName }}",
-      "url": "{{ club.memberOf.url }}/"
-    },
-    "location": {
-      "@type": "StadiumOrArena",
-      "name": "{{ club.location.name }}",
-      "maximumAttendeeCapacity": "{{ club.location.maximumAttendeeCapacity }}",
-      "priceRange": "££",
-      "latitude": "{{ club.location.longitude }}",
-      "longitude": "{{ club.location.longitude }}",
-      "address": {
-        "@type": "PostalAddress",
-        {%- if stadium.address.streetAddress %}
-          "streetAddress": "{{ club.location.address.streetAddress }}",
-        {%- endif %}
-        "addressLocality": "{{ club.location.address.addressLocality }}",
-        "addressRegion": "{{ club.location.address.addressRegion }}",
-        "postalCode": "{{ club.location.address.postalCode }}",
-        "addressCountry": {
-          "@type": "Country",
-          "name": "{{ club.location.address.addressCountry.name }}"
-        }
-      },
-      {%- if ground.id %}
-        "image": "https://media.api-sports.io/football/venues/{{ ground.id }}.png",
-      {%- endif %}
-      {%- if ground.sponsor %}
-        "sponsor": {
-          "@type": "Organization",
-          "name": "{{ club.location.address.addressCounty }}"
-        }
-      {%- endif %}
-    }
-  }
+<script type="application/json+ld">
+  {{ club | dump | safe }}
 </script>
 
 {% set img %}
@@ -86,6 +22,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
 {% set alt %}
 An aerial photograph of {{ club.location.name }} in {{ club.location.address.addressLocality }}, {{ club.location.address.addressRegion }}
 {% endset %}
+
 {{ hero(club.name, club.location.name, img, alt ) }}
 
 {{ breadcrumb("Leagues", club.memberOf.name, club.name) }}
