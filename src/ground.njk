@@ -23,7 +23,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ ground.latitude }},{{
 An aerial photograph of {{ ground.name }} in {{ ground.address.addressLocality }}, {{ ground.address.addressRegion }}
 {% endset %}
 
-{{ hero(ground.name, ground.areaServed.name, img, alt ) }}
+{{ hero(ground.name, ground.address.addressLocality + " • " + ground.areaServed.name, img, alt ) }}
 {{ breadcrumb("Grounds", ground.areaServed.name, ground.name) }}
 
 <section class="section">
