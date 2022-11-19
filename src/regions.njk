@@ -3,12 +3,14 @@ layout: "base.njk"
 permalink: "/regions/"
 eleventyComputed: 
     title: "Non-League Grounds | Regions"
-    description: "A directory of {{ regions.length }} regions of the United Kingdom with non-league clubs."
+    description: "A directory of {{ regions.length | toWords }} regions of England and Wales that have non-league grounds."
 ---
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 {% from "hero.macro.njk" import hero %}
 
-{{ breadcrumb("Regions", region.name) }}
+{{ hero ("Regions", "A directory of " + regions.length | toWords + " regions of the England and Wales that have non-league grounds.", meta.image.regions, "Aerial photography of an unknown area in England showing cities and farmlands.") }}
+
+{{ breadcrumb("Regions") }}
 
 <section class="section" id="{{ region.name | slugify }}">
     <div class="container is-max-desktop">
