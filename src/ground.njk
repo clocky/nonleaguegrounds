@@ -86,7 +86,7 @@ An aerial photograph of {{ ground.name }} in {{ ground.address.addressLocality }
             {% else %} 
             The ground is the home of
             {% endif %}
-            <a href="/clubs/{{ club.name | safe | slugify }}">{{ club.alternateName }}</a>, 
+            <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | safe | slugify }}">{{ club.alternateName }}</a>, 
             who currently compete in the <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.name }}</a>.</p>
         {% endfor %}
         <div class="buttons">
