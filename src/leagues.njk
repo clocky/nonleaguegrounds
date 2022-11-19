@@ -6,11 +6,28 @@ eleventyComputed:
     description: "A directory of {{ leagues.length }} English football leagues and divisions."
 ---
 
-{% from "hero.macro.njk" import hero %}
 {% from "credit.macro.njk" import credit %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 
-{{ hero("Leagues", "A directory of " + leagues.length + " English football leagues and divisions, sorted by tier", meta.image.trophy, "Various gold trophies of different sizes"  ) }}
+<section class="hero is-medium is-dark has-background">
+    {% hero "./src/" + meta.image.trophy,
+    "Various gold trophies of different sizes" %}
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns">
+                <div class="column is-two-thirds">
+                    <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
+            Leagues
+          </h1>
+                    <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
+           A directory of {{leagues.length }}  English football leagues and divisions, sorted by tier.
+          </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 {{ breadcrumb("Leagues") }}
 
 <section class="section">
@@ -29,11 +46,13 @@ eleventyComputed:
                         <td class="is-hidden-mobile">
                             {{ league.additionalProperty.@value | ordinal }}
                         </td>
-                        <th class="has-text-weight-semibold" scope="row">
-                            <a href="/leagues/{{ league.name | slugify }}">
-                                <span class="is-hidden-mobile">{{ league.sponsor.name }}</span>
-                                {{ league.name }}
-                            </a>
+                        <th  scope="row">
+                            <h3 class="has-text-weight-semibold">
+                                <a href="/leagues/{{ league.name | slugify }}">
+                                    <span class="is-hidden-mobile">{{ league.sponsor.name }}</span>
+                                    {{ league.name }}
+                                </a>
+                            </h3>
                         </th>
                         <td class="has-text-centered">
                             {{ league.members.length }}
