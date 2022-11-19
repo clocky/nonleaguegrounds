@@ -5,7 +5,7 @@
                 <div class="columns">
                     {% for tier, items in leagues | groupby("additionalProperty.@value") %}
                         <div class="column is-one-third">
-                            <h4 class="title is-7 mb-1 has-text-white has-text-weight-semibold">{{ tier | int | ordinal }} tier</h4>
+                            <h4 class="title is-6 mb-1 has-text-white has-text-weight-semibold">{{ tier | int | ordinal }} tier</h4>
                             <ul>
                                 {% for league in items %}
                                     <li>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="column is-one-third">
-                <h4 class="title is-7 mb-1 has-text-white">Disclaimer</h4>
+                <h4 class="title is-6 mb-1 has-text-white">Disclaimer</h4>
                 <p class="is-size-7 has-text-grey-lighter">{{ meta.disclaimer }}</p>
             </div>
         </div>
