@@ -15,47 +15,6 @@ eleventyComputed:
 <script type="application/ld+json">
   {{ ground | json | safe }}
 </script>
-{# 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "StadiumOrArena",
-    "image": [
-      "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ground.latitude}},{{ground.longitude}}/17?mapSize=320,320&query={{ground.name | urlencode}}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}", "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ground.latitude}},{{ground.longitude}}/17?mapSize=568,320&query={{ground.name | urlencode}}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}", "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ground.latitude}},{{ground.longitude}}/17?mapSize=426,320&query={{ground.name | urlencode}}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}"
-    ],
-    "name": "{{ ground.name }}",
-    "priceRange": "££",
-    "maximumAttendeeCapacity": "{{ ground.capacity }}",
-    "location": {
-      "@type": "Place",
-      "latitude": "{{ ground.latitude }}",
-      "longitude": "{{ ground.longitude }}"
-    },
-    "identifier": {
-      "@type": "url",
-      "@id": "{{ meta.base }}/ground/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      {%- if ground.address.streetAddress %}"streetAddress": "{{ ground.address.streetAddress }}",{%- endif %}
-      "addressLocality": "{{ ground.address.addressLocality }}",
-      {%- if ground.address.addressRegion %}
-        "addressRegion": "{{ ground.address.addressRegion }}",
-      {%- endif %}
-      "postalCode": "{{ ground.address.postalCode }}",
-      "addressCountry": {
-        "@type": "Country",
-        "name": "{{ ground.address.addressCountry.name }}"
-      }
-    },
-    {%- if ground.sponsor %}
-      "sponsor": {
-        "@type": "Organization",
-        "name": "{{ ground.sponsor.name }}"
-      },
-    {%- endif %}
-  }
-</script> #}
 
 {% set img %}
 https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ ground.latitude }},{{ ground.longitude }}/18?mapSize=1280,800&query={{ ground.name | urlencode }}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}
