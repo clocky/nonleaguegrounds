@@ -185,7 +185,7 @@ async function crestShortcode(src, alt, name) {
 
   let imageAttributes = {
     alt,
-    sizes: "(min-width: 24px) 24px 48px 96px 128px",
+    sizes: "(max-width: 768px) 48px, (max-width: 1280px) 96px, 128px",
     loading: "lazy",
     decoding: "async",
   };
