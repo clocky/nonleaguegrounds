@@ -1,26 +1,26 @@
 <footer class="footer">
-    <div class="container is-max-desktop">
+  <div class="container is-max-desktop">
+    <div class="columns">
+      <div class="column is-two-thirds">
         <div class="columns">
-            <div class="column is-two-thirds">
-                <div class="columns">
-                    {% for tier, items in leagues | groupby("additionalProperty.@value") %}
-                        <div class="column is-one-third">
-                            <h4 class="title is-6 mb-1 has-text-white has-text-weight-semibold">{{ tier | int | ordinal }} tier</h4>
-                            <ul>
-                                {% for league in items %}
-                                    <li>
-                                        <a class="has-text-grey-light is-size-7" href="/leagues/{{ league.name | slugify }}/">{{ league.name }}</a>
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
+          {% for tier, items in leagues | groupby("additionalProperty.@value") %}
             <div class="column is-one-third">
-                <h4 class="title is-6 mb-1 has-text-white">Disclaimer</h4>
-                <p class="is-size-7 has-text-grey-lighter">{{ meta.disclaimer }}</p>
+              <h4 class="title is-6 mb-1 has-text-white has-text-weight-semibold">{{ tier | int | ordinal }} tier</h4>
+              <ul>
+                {% for league in items %}
+                  <li>
+                    <a class="has-text-grey-light is-size-7" href="/leagues/{{ league.name | slugify }}/">{{ league.name }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
             </div>
+          {% endfor %}
         </div>
+      </div>
+      <div class="column is-one-third">
+        <h4 class="title is-6 mb-1 has-text-white">Disclaimer</h4>
+        <p class="is-size-7 has-text-grey-lighter">{{ meta.disclaimer }}</p>
+      </div>
     </div>
+  </div>
 </footer>
