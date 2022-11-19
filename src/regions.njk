@@ -6,48 +6,62 @@ eleventyComputed:
     description: "A directory of {{ regions.length | toWords }} regions of England and Wales that have non-league grounds."
 ---
 {% from "breadcrumb.macro.njk" import breadcrumb %}
+{%- set bing = env.bing_maps_api_key -%}
 
 <section class="hero is-medium is-dark has-background">
-    {% hero "./src" + meta.image.regions,
-    "Aerial photography of an unknown area in England showing cities and farmlands." %}
-    <div class="hero-body">
-        <div class="container is-max-desktop">
-            <div class="columns">
-                <div class="column is-two-thirds">
-                    <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
-                        Regions
-                    </h1>
-                    <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
-                        A directory of {{ regions.length | toWords }} regions of England and Wales that have non-league grounds
-                    </h2>
-                </div>
-            </div>
+  {% hero "./src" + meta.image.regions,
+  "Aerial photography of an unknown area in England showing cities and farmlands." %}
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <h1 class="title is-size-1 is-size-2-tablet is-size-3-mobile has-text-weight-bold has-text-left">
+             Regions
+          </h1>
+          <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
+            A directory of {{ regions.length | toWords }} regions of England and Wales that have non-league grounds
+          </h2>
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
 {{ breadcrumb("Regions") }}
 
 <section class="section" id="{{ region.name | slugify }}">
-    <div class="container is-max-desktop">
-        {% for regions in regions | sort(attribute = "name") | batch(3) %}
-            <div class="columns">
-                {% for region in regions %}
-                    <div class="column is-one-third">
-                        <a href="/grounds/{{ region.name | slugify }}">
-                            {%- set slug %}{{- region.name | slugify -}}{%- endset %}
-                            {% set img %}{{ meta.image.region[slug] }}{% endset %}
-                            <figure class="image is-16by9">
-                                <img src="{{ img | url }}" alt="{{ region.name }} non-league football grounds">
-                            </figure>
-                            <p class="title is-5 mt-3">{{ region.name }}</p>
-                            <p class="subtitle is-6">{{ region.geoContains.length }} ground{%- if region.geoContains.length > 1 -%}s{%- endif -%}
-                            </p>
-
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
+  <div class="container is-max-desktop">
+    {% for region in regions | sort(attribute = "name") | batch(3) %}
+      <div class="columns">
+        {% for region in region %}
+          <div class="column is-one-third">
+            {% set north = region.geoContains | sort(attribute = "latitude") | reverse | first %}
+            {% set east = region.geoContains | sort(attribute = "longitude") | reverse | first %}
+            {% set south = region.geoContains | sort(attribute = "latitude") | first %}
+            {% set west = region.geoContains | sort(attribute = "longitude") | first %}
+            {% set maparea %}{{ south.latitude }},{{ west.longitude }},{{ north.latitude }},{{ east.longitude }}{% endset %}
+            <figure class="image is-4by3">
+              <img src="https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial?mapSize=640,480&mapArea={{ maparea }}&format=jpeg&mapMetadata=0&key={{bing}}"/>
+            </figure>
+            <h3 class="title is-5 mt-3">
+              <a href="/grounds/{{ region.name | slugify }}">
+                {{ region.name }}
+              </a>
+            </h3>
+            <p class="subtitle is-6">Featuring 
+              {% for ground in region
+                .geoContains
+                .slice(0, 5) | sort(attribute = "address.addressLocality") %}
+                {{- ground.address.addressLocality }}
+                {%- if not loop.last %}, {% endif %}
+              {% endfor %}
+              {% if region.geoContains.length > 5 %}
+                  and {{ region.geoContains.length - 5 }} more
+              {% endif %}
+            </p>
+          </div>
         {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
+  </div>
 </section>
