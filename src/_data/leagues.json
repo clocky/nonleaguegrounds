@@ -29,7 +29,7 @@
         "name": "Altrincham",
         "slogan": "The Robins",
         "url": "https://altrinchamfc.com",
-        "sameAs": ["https://altrinchamfc"],
+        "sameAs": ["https://twitter.com/altrinchamfc"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -46,6 +46,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.383434",
           "longitude": "-2.335159"
         }
@@ -56,7 +57,7 @@
         "name": "Aldershot Town",
         "slogan": "The Shots",
         "url": "https://www.theshots.co.uk",
-        "sameAs": ["https://OfficialShots"],
+        "sameAs": ["https://twitter.com/OfficialShots"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -73,6 +74,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.248415",
           "longitude": "-0.754682"
         }
@@ -83,7 +85,7 @@
         "name": "Barnet",
         "slogan": "The Bees",
         "url": "https://www.barnetfc.com",
-        "sameAs": ["https://BarnetFC"],
+        "sameAs": ["https://twitter.com/BarnetFC"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -100,6 +102,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.602623",
           "longitude": "-0.291743"
         }
@@ -110,7 +113,7 @@
         "name": "Boreham Wood",
         "slogan": "The Wood",
         "url": "https://www.borehamwoodfootballclub.co.uk",
-        "sameAs": ["https://BOREHAM_WOODFC"],
+        "sameAs": ["https://twitter.com/BOREHAM_WOODFC"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -127,6 +130,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.661937",
           "longitude": "-0.272375"
         }
@@ -137,7 +141,7 @@
         "name": "Bromley",
         "slogan": "The Ravens",
         "url": "https://www.bromleyfc.co.uk",
-        "sameAs": ["https://bromleyfc"],
+        "sameAs": ["https://twitter.com/bromleyfc"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -154,6 +158,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.390084",
           "longitude": "0.021091"
         }
@@ -164,7 +169,7 @@
         "name": "Chesterfield",
         "slogan": "The Spireites",
         "url": "https://chesterfield-fc.co.uk",
-        "sameAs": ["https://ChesterfieldFC"],
+        "sameAs": ["https://twitter.com/ChesterfieldFC"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -181,6 +186,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.253583",
           "longitude": "-1.425761"
         }
@@ -191,7 +197,7 @@
         "name": "Dagenham & Redbridge",
         "slogan": "The Daggers",
         "url": "https://daggers.co.uk",
-        "sameAs": ["https://Dag_RedFC"],
+        "sameAs": ["https://twitter.com/Dag_RedFC"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -208,6 +214,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.547807",
           "longitude": "0.159913"
         }
@@ -218,7 +225,7 @@
         "name": "Dorking Wanderers",
         "slogan": "The Wanderers",
         "url": "https://www.dorkingwanderers.com",
-        "sameAs": ["https://DorkingWDRS"],
+        "sameAs": ["https://twitter.com/DorkingWDRS"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -235,6 +242,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.234444",
           "longitude": "-0.333543"
         }
@@ -245,7 +253,7 @@
         "name": "Eastleigh",
         "slogan": "The Spitfires",
         "url": "https://www.eastleighfc.com",
-        "sameAs": ["https://eastleighfc"],
+        "sameAs": ["https://twitter.com/eastleighfc"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -262,6 +270,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "50.95229",
           "longitude": "-1.372023"
         }
@@ -272,7 +281,7 @@
         "name": "FC Halifax Town",
         "slogan": "The Shaymen",
         "url": "https://fchalifaxtown.com",
-        "sameAs": ["https://FCHTOnline"],
+        "sameAs": ["https://twitter.com/FCHTOnline"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -289,6 +298,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.716191",
           "longitude": "-1.859217"
         }
@@ -299,7 +309,7 @@
         "name": "Gateshead",
         "slogan": "The Tynesiders",
         "url": "https://gateshead-fc.com",
-        "sameAs": ["https://GatesheadFC"],
+        "sameAs": ["https://twitter.com/GatesheadFC"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -316,6 +326,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "54.96102",
           "longitude": "-1.57967"
         }
@@ -326,7 +337,7 @@
         "name": "Maidenhead United",
         "slogan": "The Magpies",
         "url": "https://maidenheadunitedfc.ktckts.com",
-        "sameAs": ["https://MUFCYorkRoad"],
+        "sameAs": ["https://twitter.com/MUFCYorkRoad"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -343,6 +354,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.519889",
           "longitude": "-0.717968"
         }
@@ -353,7 +365,7 @@
         "name": "Maidstone United",
         "slogan": "The Stones",
         "url": "https://maidstoneunited.co.uk",
-        "sameAs": ["https://maidstoneunited"],
+        "sameAs": ["https://twitter.com/maidstoneunited"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/1825.png",
@@ -369,6 +381,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.28002",
           "longitude": "0.516091"
         }
@@ -379,7 +392,7 @@
         "name": "Notts County",
         "slogan": "The Magpies",
         "url": "https://www.nottscountyfc.co.uk",
-        "sameAs": ["https://Official_NCFC"],
+        "sameAs": ["https://twitter.com/Official_NCFC"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -396,6 +409,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.942672",
           "longitude": "-1.137151"
         }
@@ -406,7 +420,7 @@
         "name": "Oldham Athletic",
         "slogan": "The Latics",
         "url": "https://www.oldhamathletic.co.uk",
-        "sameAs": ["https://OfficialOAFC"],
+        "sameAs": ["https://twitter.com/OfficialOAFC"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -423,6 +437,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.555148",
           "longitude": "-2.128451"
         }
@@ -433,7 +448,7 @@
         "name": "Solihull Moors",
         "slogan": "The Moors",
         "url": "https://www.solihullmoorsfc.co.uk",
-        "sameAs": ["https://SolihullMoors"],
+        "sameAs": ["https://twitter.com/SolihullMoors"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -450,6 +465,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.43892",
           "longitude": "-1.75719"
         }
@@ -460,7 +476,7 @@
         "name": "Southend United",
         "slogan": "The Shrimpers",
         "url": "https://www.southendunited.co.uk",
-        "sameAs": ["https://SUFCRootsHall"],
+        "sameAs": ["https://twitter.com/SUFCRootsHall"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -477,6 +493,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.549008",
           "longitude": "0.701608"
         }
@@ -487,7 +504,7 @@
         "name": "Scunthorpe United",
         "slogan": "The Iron",
         "url": "https://www.scunthorpe-united.co.uk",
-        "sameAs": ["https://SUFCOfficial"],
+        "sameAs": ["https://twitter.com/SUFCOfficial"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -504,6 +521,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.5866564",
           "longitude": "-0.6953374"
         }
@@ -514,7 +532,7 @@
         "name": "Torquay United AFC",
         "slogan": "The Gulls",
         "url": "https://torquayunited.com",
-        "sameAs": ["https://TUFC1899"],
+        "sameAs": ["https://twitter.com/TUFC1899"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -531,6 +549,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "50.476389",
           "longitude": "-3.523874"
         }
@@ -541,7 +560,7 @@
         "name": "Wealdstone",
         "slogan": "The Stones",
         "url": "https://www.wealdstone-fc.com",
-        "sameAs": ["https://WealdstoneFC"],
+        "sameAs": ["https://twitter.com/WealdstoneFC"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -558,6 +577,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.569398",
           "longitude": "-0.416594"
         }
@@ -568,7 +588,7 @@
         "name": "Woking",
         "slogan": "The Cardinals",
         "url": "https://wokingfc.co.uk",
-        "sameAs": ["https://wokingfc"],
+        "sameAs": ["https://twitter.com/wokingfc"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -585,6 +605,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.306298",
           "longitude": "-0.558875"
         }
@@ -595,7 +616,7 @@
         "name": "Wrexham AFC",
         "slogan": "The Red Dragons",
         "url": "https://wrexhamafc.co.uk",
-        "sameAs": ["https://Wrexham_AFC"],
+        "sameAs": ["https://twitter.com/Wrexham_AFC"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -612,6 +633,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.051961",
           "longitude": "-3.003804"
         }
@@ -622,7 +644,7 @@
         "name": "Yeovil Town",
         "slogan": "The Glovers",
         "url": "https://www.ytfc.net",
-        "sameAs": ["https://YTFC"],
+        "sameAs": ["https://twitter.com/YTFC"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -639,6 +661,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "50.950234",
           "longitude": "-2.673974"
         }
@@ -649,7 +672,7 @@
         "name": "York City",
         "slogan": "The Minstermen",
         "url": "https://yorkcityfootballclub.co.uk",
-        "sameAs": ["https://YorkCityFC"],
+        "sameAs": ["https://twitter.com/YorkCityFC"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -666,6 +689,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.98434",
           "longitude": "-1.052927"
         }
@@ -703,7 +727,7 @@
         "name": "AFC Fylde",
         "slogan": "The Coasters",
         "url": "https://www.afcfylde.co.uk",
-        "sameAs": ["https://AFCFylde"],
+        "sameAs": ["https://twitter.com/AFCFylde"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -720,6 +744,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.797367",
           "longitude": "-2.889497"
         }
@@ -730,7 +755,7 @@
         "name": "AFC Telford United",
         "slogan": "The Bucks",
         "url": "https://www.telfordunited.com",
-        "sameAs": ["https://telfordutd"],
+        "sameAs": ["https://twitter.com/telfordutd"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4688.png",
@@ -746,6 +771,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.697376",
           "longitude": "-2.501418"
         }
@@ -756,7 +782,7 @@
         "name": "Alfreton Town",
         "slogan": "The Reds",
         "url": "https://alfretontownfootballclub.com",
-        "sameAs": ["https://AlfretonTownFC"],
+        "sameAs": ["https://twitter.com/AlfretonTownFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4677.png",
@@ -772,6 +798,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.094516",
           "longitude": "-1.381251"
         }
@@ -782,7 +809,7 @@
         "name": "Banbury United",
         "slogan": "The Puritans",
         "url": "https://banburyunitedfc.co.uk",
-        "sameAs": ["https://BanburyUnitedFC"],
+        "sameAs": ["https://twitter.com/BanburyUnitedFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7696.png",
@@ -798,6 +825,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.056796",
           "longitude": "-1.325791"
         }
@@ -808,7 +836,7 @@
         "name": "Blyth Spartans AFC",
         "slogan": "The Spartans",
         "url": "https://www.blythspartans.com",
-        "sameAs": ["https://Blyth_Spartans"],
+        "sameAs": ["https://twitter.com/Blyth_Spartans"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8650.png",
@@ -824,6 +852,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "55.120879",
           "longitude": "-1.511217"
         }
@@ -834,7 +863,7 @@
         "name": "Boston United",
         "slogan": "The Pilgrims",
         "url": "https://www.bostonunited.co.uk",
-        "sameAs": ["https://bostonunited"],
+        "sameAs": ["https://twitter.com/bostonunited"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -851,6 +880,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.956335",
           "longitude": "-0.028533"
         }
@@ -861,7 +891,7 @@
         "name": "Brackley Town",
         "slogan": "The Saints",
         "url": "https://brackleytownfc.com",
-        "sameAs": ["https://BrackleyTownFC"],
+        "sameAs": ["https://twitter.com/BrackleyTownFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4701.png",
@@ -877,6 +907,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.024613",
           "longitude": "-1.144039"
         }
@@ -887,7 +918,7 @@
         "name": "Bradford (Park Avenue) AFC",
         "slogan": "The Green Army",
         "url": "https://bpafc.com",
-        "sameAs": ["https://BPAFCOfficial"],
+        "sameAs": ["https://twitter.com/BPAFCOfficial"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8651.png",
@@ -903,6 +934,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.758876",
           "longitude": "-1.776174"
         }
@@ -913,7 +945,7 @@
         "name": "Buxton",
         "slogan": "The Bucks",
         "url": "https://www.buxtonfc.co.uk",
-        "sameAs": ["https://Buxton_FC"],
+        "sameAs": ["https://twitter.com/Buxton_FC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7706.png",
@@ -929,6 +961,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.256603",
           "longitude": "-1.906581"
         }
@@ -939,7 +972,7 @@
         "name": "Chester",
         "slogan": "The Seals",
         "url": "https://www.chesterfc.com",
-        "sameAs": ["https://ChesterFC"],
+        "sameAs": ["https://twitter.com/ChesterFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/1820.png",
@@ -955,6 +988,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.189215",
           "longitude": "-2.923496"
         }
@@ -965,7 +999,7 @@
         "name": "Chorley",
         "slogan": "The Magpies",
         "url": "https://www.chorleyfc.com",
-        "sameAs": ["https://chorleyfc"],
+        "sameAs": ["https://twitter.com/chorleyfc"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -982,6 +1016,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.645567",
           "longitude": "-2.629188"
         }
@@ -992,7 +1027,7 @@
         "name": "Curzon Ashton",
         "slogan": "The Nash",
         "url": "https://www.curzon-ashton.co.uk",
-        "sameAs": ["https://CurzonAshton"],
+        "sameAs": ["https://twitter.com/CurzonAshton"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4703.png",
@@ -1008,6 +1043,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.494258",
           "longitude": "-2.116084"
         }
@@ -1018,7 +1054,7 @@
         "name": "Darlington",
         "slogan": "The Quakers",
         "url": "https://darlingtonfc.co.uk",
-        "sameAs": ["https://Official_Darlo"],
+        "sameAs": ["https://twitter.com/Official_Darlo"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8148.png",
@@ -1034,6 +1070,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "54.509449",
           "longitude": "-1.564142"
         }
@@ -1044,7 +1081,7 @@
         "name": "Farsley Celtic",
         "slogan": "The Celt Army",
         "url": "https://farsleyceltic.com",
-        "sameAs": ["https://FarsleyCelticFC"],
+        "sameAs": ["https://twitter.com/FarsleyCelticFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8652.png",
@@ -1060,6 +1097,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.80972",
           "longitude": "-1.664219"
         }
@@ -1070,7 +1108,7 @@
         "name": "Gloucester City AFC",
         "slogan": "The Tigers",
         "url": "https://www.gloucestercityafc.com",
-        "sameAs": ["https://GCAFCOfficial"],
+        "sameAs": ["https://twitter.com/GCAFCOfficial"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -1087,6 +1125,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.860324",
           "longitude": "-2.262623"
         }
@@ -1097,7 +1136,7 @@
         "name": "Hereford",
         "slogan": "The Bulls",
         "url": "https://www.herefordfc.co.uk",
-        "sameAs": ["https://HerefordFC"],
+        "sameAs": ["https://twitter.com/HerefordFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4692.png",
@@ -1113,6 +1152,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.06073",
           "longitude": "-2.71774"
         }
@@ -1123,7 +1163,7 @@
         "name": "Kettering Town",
         "slogan": "The Poppies",
         "url": "https://ketteringtownfc.com",
-        "sameAs": ["https://KTFCOfficial"],
+        "sameAs": ["https://twitter.com/KTFCOfficial"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8654.png",
@@ -1139,6 +1179,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.366808",
           "longitude": "-0.689305"
         }
@@ -1149,7 +1190,7 @@
         "name": "Kidderminster Harriers",
         "slogan": "The Kiddy",
         "url": "https://harriers.co.uk",
-        "sameAs": ["https://khfcofficial"],
+        "sameAs": ["https://twitter.com/khfcofficial"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -1166,6 +1207,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.380496",
           "longitude": "-2.242639"
         }
@@ -1176,7 +1218,7 @@
         "name": "Kings Lynn Town",
         "slogan": "The Linnets",
         "url": "https://www.kltown.co.uk",
-        "sameAs": ["https://officialKLtown"],
+        "sameAs": ["https://twitter.com/officialKLtown"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8655.png",
@@ -1192,6 +1234,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.750067",
           "longitude": "0.407411"
         }
@@ -1202,7 +1245,7 @@
         "name": "Leamington",
         "slogan": "The Brakes",
         "url": "https://leamingtonfc.co.uk",
-        "sameAs": ["https://LeamingtonFC"],
+        "sameAs": ["https://twitter.com/LeamingtonFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8656.png",
@@ -1218,6 +1261,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.244306",
           "longitude": "-1.502849"
         }
@@ -1228,7 +1272,7 @@
         "name": "Peterborough Sports",
         "slogan": "The Turbines",
         "url": "https://pslfc.com",
-        "sameAs": ["https://PSLFC"],
+        "sameAs": ["https://twitter.com/PSLFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7737.png",
@@ -1244,6 +1288,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.593814",
           "longitude": "-0.254312"
         }
@@ -1254,7 +1299,7 @@
         "name": "Scarborough Athletic",
         "slogan": "The Seadogs",
         "url": "https://www.scarboroughathletic.com",
-        "sameAs": ["https://safc"],
+        "sameAs": ["https://twitter.com/safc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7745.png",
@@ -1270,6 +1315,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "54.268845",
           "longitude": "-0.413472"
         }
@@ -1280,7 +1326,7 @@
         "name": "Southport",
         "slogan": "The Sandgrounders",
         "url": "https://southportfc.net",
-        "sameAs": ["https://southport_fc"],
+        "sameAs": ["https://twitter.com/southport_fc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/1826.png",
@@ -1296,6 +1342,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.638109",
           "longitude": "-2.978859"
         }
@@ -1306,7 +1353,7 @@
         "name": "Spennymoor Town",
         "slogan": "The Moors",
         "url": "https://spennymoortownfc.co.uk",
-        "sameAs": ["https://SpennymoorTown"],
+        "sameAs": ["https://twitter.com/SpennymoorTown"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/3707.png",
@@ -1322,6 +1369,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "54.70451",
           "longitude": "-1.599134"
         }
@@ -1359,7 +1407,7 @@
         "name": "Bath City",
         "slogan": "The Romans",
         "url": "https://bathcityfc.com",
-        "sameAs": ["https://BathCity_FC"],
+        "sameAs": ["https://twitter.com/BathCity_FC"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -1376,6 +1424,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.378847",
           "longitude": "-2.395037"
         }
@@ -1386,7 +1435,7 @@
         "name": "Braintree Town",
         "slogan": "The Iron",
         "url": "https://braintreetownfc.org.uk",
-        "sameAs": ["https://braintreetownfc"],
+        "sameAs": ["https://twitter.com/braintreetownfc"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -1403,6 +1452,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.875305",
           "longitude": "0.572989"
         }
@@ -1413,7 +1463,7 @@
         "name": "Chelmsford City",
         "slogan": "The Clarets",
         "url": "https://chelmsfordcityfc.com",
-        "sameAs": ["https://OfficialClarets"],
+        "sameAs": ["https://twitter.com/OfficialClarets"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -1430,6 +1480,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.753231",
           "longitude": "0.451471"
         }
@@ -1440,7 +1491,7 @@
         "name": "Cheshunt",
         "slogan": "The Ambers",
         "url": "https://cheshuntfc.com",
-        "sameAs": ["https://cheshuntfcscore"],
+        "sameAs": ["https://twitter.com/cheshuntfcscore"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7708.png",
@@ -1456,6 +1507,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.694445",
           "longitude": "-0.041577"
         }
@@ -1465,7 +1517,7 @@
         "@type": "SportsTeam",
         "name": "Chippenham Town",
         "slogan": "The Bluebirds",
-        "sameAs": ["https://ChipTownFC"],
+        "sameAs": ["https://twitter.com/ChipTownFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8147.png",
@@ -1481,6 +1533,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.465604",
           "longitude": "-2.128737"
         }
@@ -1491,7 +1544,7 @@
         "name": "Concord Rangers",
         "slogan": "The Beach Boys",
         "url": "https://concordrangers.co.uk",
-        "sameAs": ["https://ConcordRangers"],
+        "sameAs": ["https://twitter.com/ConcordRangers"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8658.png",
@@ -1507,6 +1560,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.512539",
           "longitude": "0.575477"
         }
@@ -1516,7 +1570,7 @@
         "@type": "SportsTeam",
         "name": "Dartford",
         "slogan": "The Darts",
-        "sameAs": ["https://dartfordfc"],
+        "sameAs": ["https://twitter.com/dartfordfc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4690.png",
@@ -1532,6 +1586,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.437182",
           "longitude": "0.230837"
         }
@@ -1542,7 +1597,7 @@
         "name": "Dover Athletic",
         "slogan": "The Whites",
         "url": "https://doverathletic.com",
-        "sameAs": ["https://Dover Athletic"],
+        "sameAs": ["https://twitter.com/Dover Athletic"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -1559,6 +1614,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.137804",
           "longitude": "1.284943"
         }
@@ -1568,7 +1624,7 @@
         "@type": "SportsTeam",
         "name": "Dulwich Hamlet",
         "slogan": "The Hamlet",
-        "sameAs": ["https://DulwichHamletFC"],
+        "sameAs": ["https://twitter.com/DulwichHamletFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8149.png",
@@ -1584,6 +1640,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.461239",
           "longitude": "-0.084018"
         }
@@ -1593,7 +1650,7 @@
         "@type": "SportsTeam",
         "name": "Eastbourne Borough",
         "slogan": "The Sports",
-        "sameAs": ["https://EBFCTheSports"],
+        "sameAs": ["https://twitter.com/EBFCTheSports"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4704.png",
@@ -1609,6 +1666,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "50.80417",
           "longitude": "0.32078"
         }
@@ -1618,7 +1676,7 @@
         "@type": "SportsTeam",
         "name": "Ebbsfleet United",
         "slogan": "The Fleet",
-        "sameAs": ["https://EUFCofficial"],
+        "sameAs": ["https://twitter.com/EUFCofficial"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/1840.png",
@@ -1634,6 +1692,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.449556",
           "longitude": "0.32237"
         }
@@ -1643,7 +1702,7 @@
         "@type": "SportsTeam",
         "name": "Farnborough",
         "slogan": "Boro",
-        "sameAs": ["https://FarnboroughFC"],
+        "sameAs": ["https://twitter.com/FarnboroughFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7715.png",
@@ -1659,6 +1718,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.310449",
           "longitude": "-0.762256"
         }
@@ -1668,7 +1728,7 @@
         "@type": "SportsTeam",
         "name": "Hampton & Richmond Borough",
         "slogan": "The Beavers",
-        "sameAs": ["https://HRBFC"],
+        "sameAs": ["https://twitter.com/HRBFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4680.png",
@@ -1684,6 +1744,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.415191",
           "longitude": "-0.363244"
         }
@@ -1693,7 +1754,7 @@
         "@type": "SportsTeam",
         "name": "Havant & Waterlooville",
         "slogan": "The Hawks",
-        "sameAs": ["https://HWFCOfficial"],
+        "sameAs": ["https://twitter.com/HWFCOfficial"],
         "keywords": "professional",
         "logo": {
           "@type": "ImageObject",
@@ -1710,6 +1771,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "50.867087",
           "longitude": "-0.974097"
         }
@@ -1720,7 +1782,7 @@
         "name": "Hemel Hempstead Town",
         "slogan": "The Tudors",
         "url": "https://www.hemelfc.com",
-        "sameAs": ["https://hemelfc"],
+        "sameAs": ["https://twitter.com/hemelfc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8660.png",
@@ -1736,6 +1798,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.753881",
           "longitude": "-0.444358"
         }
@@ -1746,7 +1809,7 @@
         "name": "Hungerford Town",
         "slogan": "The Crusaders",
         "url": "https://hungerfordtown.com",
-        "sameAs": ["https://HungerfordTown"],
+        "sameAs": ["https://twitter.com/HungerfordTown"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8661.png",
@@ -1762,6 +1825,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.408934",
           "longitude": "-1.513463"
         }
@@ -1771,7 +1835,7 @@
         "@type": "SportsTeam",
         "name": "Oxford City",
         "slogan": "The Hoops",
-        "sameAs": ["https://OxCityFC"],
+        "sameAs": ["https://twitter.com/OxCityFC"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -1788,6 +1852,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.773923",
           "longitude": "-1.227743"
         }
@@ -1797,7 +1862,7 @@
         "@type": "SportsTeam",
         "name": "Slough Town",
         "slogan": "The Rebels",
-        "sameAs": ["https://sloughtownfc"],
+        "sameAs": ["https://twitter.com/sloughtownfc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4685.png",
@@ -1813,6 +1878,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.5198622",
           "longitude": "-0.5884198"
         }
@@ -1822,7 +1888,7 @@
         "@type": "SportsTeam",
         "name": "St Albans City",
         "slogan": "The Saints",
-        "sameAs": ["https://stalbanscityfc"],
+        "sameAs": ["https://twitter.com/stalbanscityfc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4708.png",
@@ -1838,6 +1904,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.754276",
           "longitude": "-0.325157"
         }
@@ -1847,7 +1914,7 @@
         "@type": "SportsTeam",
         "name": "Taunton Town",
         "slogan": "The Peacocks",
-        "sameAs": ["https://TauntonTownFC"],
+        "sameAs": ["https://twitter.com/TauntonTownFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4711.png",
@@ -1863,6 +1930,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.016716",
           "longitude": "-3.085107"
         }
@@ -1872,7 +1940,7 @@
         "@type": "SportsTeam",
         "name": "Tonbridge Angels",
         "slogan": "The Angels",
-        "sameAs": ["https://tonbridgeangels"],
+        "sameAs": ["https://twitter.com/tonbridgeangels"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8662.png",
@@ -1888,6 +1956,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.211531",
           "longitude": "0.269116"
         }
@@ -1897,7 +1966,7 @@
         "@type": "SportsTeam",
         "name": "Welling United",
         "slogan": "The Wings",
-        "sameAs": ["https://wellingunited"],
+        "sameAs": ["https://twitter.com/wellingunited"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -1914,6 +1983,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.460326",
           "longitude": "0.116558"
         }
@@ -1923,7 +1993,7 @@
         "@type": "SportsTeam",
         "name": "Weymouth",
         "slogan": "The Terras",
-        "sameAs": ["https://theterras"],
+        "sameAs": ["https://twitter.com/theterras"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -1940,6 +2010,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "50.619895",
           "longitude": "-2.485182"
         }
@@ -1949,7 +2020,7 @@
         "@type": "SportsTeam",
         "name": "Worthing",
         "slogan": "The Rebels",
-        "sameAs": ["https://WorthingFC"],
+        "sameAs": ["https://twitter.com/WorthingFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7661.png",
@@ -1965,6 +2036,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "50.82034",
           "longitude": "-0.38482"
         }
@@ -2002,7 +2074,7 @@
         "name": "Aveley",
         "slogan": "The Millers",
         "url": "https://www.pitchero.com/clubs/aveley",
-        "sameAs": ["https://AveleyFC"],
+        "sameAs": ["https://twitter.com/AveleyFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7207.png",
@@ -2018,6 +2090,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.503481",
           "longitude": "0.261341"
         }
@@ -2028,7 +2101,7 @@
         "name": "Billericay Town",
         "slogan": "The Blues",
         "url": "https://billericaytownfc.co.uk",
-        "sameAs": ["https://BTFC"],
+        "sameAs": ["https://twitter.com/BTFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4678.png",
@@ -2044,6 +2117,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.621776",
           "longitude": "0.403297"
         }
@@ -2054,7 +2128,7 @@
         "name": "Bishop's Stortford",
         "slogan": "The Blues",
         "url": "https://bsfc.co.uk",
-        "sameAs": ["https://BSFCTheBlues"],
+        "sameAs": ["https://twitter.com/BSFCTheBlues"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7701.png",
@@ -2070,6 +2144,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.872673",
           "longitude": "0.191994"
         }
@@ -2080,7 +2155,7 @@
         "name": "Bognor Regis Town",
         "slogan": "The Rocks",
         "url": "https://www.pitchero.com/clubs/bognorregistownfc",
-        "sameAs": ["https://rocks1883"],
+        "sameAs": ["https://twitter.com/rocks1883"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7703.png",
@@ -2096,6 +2171,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "50.786982",
           "longitude": "-0.690213"
         }
@@ -2105,7 +2181,7 @@
         "@type": "SportsTeam",
         "name": "Bowers & Pitsea",
         "slogan": "The Bowers",
-        "sameAs": ["https://Bowerspitseafc"],
+        "sameAs": ["https://twitter.com/Bowerspitseafc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7764.png",
@@ -2121,6 +2197,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.57405",
           "longitude": "0.518133"
         }
@@ -2131,7 +2208,7 @@
         "name": "Brightlingsea Regent",
         "slogan": "The Rs",
         "url": "https://brightlingsearegentfc.com",
-        "sameAs": ["https://Brightlingseafc"],
+        "sameAs": ["https://twitter.com/Brightlingseafc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7704.png",
@@ -2147,6 +2224,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.815817",
           "longitude": "1.026387"
         }
@@ -2157,7 +2235,7 @@
         "name": "Canvey Island",
         "slogan": "The Gulls",
         "url": "https://canveyislandfc.com",
-        "sameAs": ["https://CIFC"],
+        "sameAs": ["https://twitter.com/CIFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7623.png",
@@ -2173,6 +2251,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.516461",
           "longitude": "0.615713"
         }
@@ -2183,7 +2262,7 @@
         "name": "Carshalton Athletic",
         "slogan": "The Robins",
         "url": "https://www.carshaltonathletic.co.uk",
-        "sameAs": ["https://CarshaltonA_FC"],
+        "sameAs": ["https://twitter.com/CarshaltonA_FC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7707.png",
@@ -2199,6 +2278,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.369704",
           "longitude": "-0.17179"
         }
@@ -2208,7 +2288,7 @@
         "@type": "SportsTeam",
         "name": "Corinthian-Casuals",
         "slogan": "The Casuals",
-        "sameAs": ["https://CorinthianCas"],
+        "sameAs": ["https://twitter.com/CorinthianCas"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7710.png",
@@ -2224,6 +2304,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.372154",
           "longitude": "-0.287229"
         }
@@ -2233,7 +2314,7 @@
         "@type": "SportsTeam",
         "name": "Cray Wanderers",
         "slogan": "The Wands",
-        "sameAs": ["https://OfficialWands"],
+        "sameAs": ["https://twitter.com/OfficialWands"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -2250,6 +2331,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.390084",
           "longitude": "0.021091"
         }
@@ -2260,7 +2342,7 @@
         "name": "Enfield Town",
         "slogan": "The Towners",
         "url": "https://etfc.london",
-        "sameAs": ["https://ETFCOfficial"],
+        "sameAs": ["https://twitter.com/ETFCOfficial"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7714.png",
@@ -2276,6 +2358,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.659332",
           "longitude": "-0.063843"
         }
@@ -2285,7 +2368,7 @@
         "@type": "SportsTeam",
         "name": "Folkestone Invicta",
         "slogan": "The Seasiders",
-        "sameAs": ["https://FIFC"],
+        "sameAs": ["https://twitter.com/FIFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7716.png",
@@ -2301,6 +2384,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.086574",
           "longitude": "1.159508"
         }
@@ -2310,7 +2394,7 @@
         "@type": "SportsTeam",
         "name": "Haringey Borough",
         "slogan": "The Borough",
-        "sameAs": ["https://HaringeyBoroFC"],
+        "sameAs": ["https://twitter.com/HaringeyBoroFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4681.png",
@@ -2326,6 +2410,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.605623",
           "longitude": "-0.09266"
         }
@@ -2336,7 +2421,7 @@
         "name": "Hastings United",
         "slogan": "The U&#39;s",
         "url": "https://hastingsunited.com",
-        "sameAs": ["https://hastingsufc"],
+        "sameAs": ["https://twitter.com/hastingsufc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7231.png",
@@ -2352,6 +2437,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "50.874501",
           "longitude": "0.587099"
         }
@@ -2361,7 +2447,7 @@
         "@type": "SportsTeam",
         "name": "Herne Bay",
         "slogan": "The Bay",
-        "sameAs": ["https://HerneBayFC"],
+        "sameAs": ["https://twitter.com/HerneBayFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7232.png",
@@ -2382,7 +2468,7 @@
         "name": "Hornchurch",
         "slogan": "The Urchins",
         "url": "https://hornchurchfc.com",
-        "sameAs": ["https://HornchurchFC"],
+        "sameAs": ["https://twitter.com/HornchurchFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7690.png",
@@ -2398,6 +2484,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.556557",
           "longitude": "0.23837"
         }
@@ -2407,7 +2494,7 @@
         "@type": "SportsTeam",
         "name": "Horsham",
         "slogan": "The Hornets",
-        "sameAs": ["https://HorshamFC"],
+        "sameAs": ["https://twitter.com/HorshamFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7723.png",
@@ -2423,6 +2510,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.046893",
           "longitude": "-0.340681"
         }
@@ -2432,7 +2520,7 @@
         "@type": "SportsTeam",
         "name": "Kingstonian",
         "slogan": "The Ks",
-        "sameAs": ["https://KingstonianFC"],
+        "sameAs": ["https://twitter.com/KingstonianFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7725.png",
@@ -2448,6 +2536,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.393231",
           "longitude": "-0.172327"
         }
@@ -2457,7 +2546,7 @@
         "@type": "SportsTeam",
         "name": "Lewes",
         "slogan": "The Rooks",
-        "sameAs": ["https://LewesFCMen"],
+        "sameAs": ["https://twitter.com/LewesFCMen"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7728.png",
@@ -2473,6 +2562,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "50.869019",
           "longitude": "0.012321"
         }
@@ -2483,7 +2573,7 @@
         "name": "Margate",
         "slogan": "The Gate",
         "url": "https://margate-fc.co.uk",
-        "sameAs": ["https://margate_fc"],
+        "sameAs": ["https://twitter.com/margate_fc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7730.png",
@@ -2499,6 +2589,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.380459",
           "longitude": "1.373928"
         }
@@ -2509,7 +2600,7 @@
         "name": "Potters Bar Town",
         "slogan": "The Scholars",
         "url": "https://pitchero.com/clubs/pottersbartownfc/",
-        "sameAs": ["https://pbtfc"],
+        "sameAs": ["https://twitter.com/pbtfc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7739.png",
@@ -2525,6 +2616,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.696188",
           "longitude": "-0.177662"
         }
@@ -2535,7 +2627,7 @@
         "name": "Wingate & Finchley",
         "slogan": "The Blues",
         "url": "https://www.wingatefinchley.com",
-        "sameAs": ["https://WinFinchleyFC"],
+        "sameAs": ["https://twitter.com/WinFinchleyFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7759.png",
@@ -2551,6 +2643,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "51.606848",
           "longitude": "-0.171497"
         }
@@ -2603,6 +2696,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.501301",
           "longitude": "-2.079707"
         }
@@ -2628,6 +2722,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.523522",
           "longitude": "-2.484992"
         }
@@ -2653,6 +2748,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.727892",
           "longitude": "-2.671923"
         }
@@ -2678,6 +2774,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.027196",
           "longitude": "-1.487347"
         }
@@ -2704,6 +2801,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.516649",
           "longitude": "-2.180394"
         }
@@ -2730,6 +2828,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.403459",
           "longitude": "-0.774463"
         }
@@ -2756,6 +2855,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.877202",
           "longitude": "-1.719401"
         }
@@ -2782,6 +2882,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.450616",
           "longitude": "-2.068183"
         }
@@ -2807,6 +2908,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "54.051038",
           "longitude": "-2.810882"
         }
@@ -2833,6 +2935,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.717658",
           "longitude": "-1.711748"
         }
@@ -2858,6 +2961,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.485173",
           "longitude": "-3.033623"
         }
@@ -2868,7 +2972,7 @@
         "name": "Marske United",
         "slogan": "The Seasiders",
         "url": "https://marskeunitedfc.org",
-        "sameAs": ["https://MarskeUnitedFC"],
+        "sameAs": ["https://twitter.com/MarskeUnitedFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7658.png",
@@ -2884,6 +2988,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "54.589177",
           "longitude": "-1.016661"
         }
@@ -2894,7 +2999,7 @@
         "name": "Matlock Town",
         "slogan": "The Gladiators",
         "url": "https://matlocktownfc.co.uk",
-        "sameAs": ["https://matlock_townfc"],
+        "sameAs": ["https://twitter.com/matlock_townfc"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7731.png",
@@ -2910,6 +3015,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.137031",
           "longitude": "-1.551677"
         }
@@ -2920,7 +3026,7 @@
         "name": "Morpeth Town AFC",
         "slogan": "The Highwaymen",
         "url": "https://morpethtownfc.com",
-        "sameAs": ["https://MorpethTownAFC"],
+        "sameAs": ["https://twitter.com/MorpethTownAFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7734.png",
@@ -2936,6 +3042,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "55.155982",
           "longitude": "-1.708834"
         }
@@ -2946,7 +3053,7 @@
         "name": "Nantwich Town",
         "slogan": "The Dabbers",
         "url": "https://nantwichtownfc.co.uk",
-        "sameAs": ["https://TheDabbers"],
+        "sameAs": ["https://twitter.com/TheDabbers"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/4697.png",
@@ -2962,6 +3069,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.072687",
           "longitude": "-2.52846"
         }
@@ -2972,7 +3080,7 @@
         "name": "Radcliffe",
         "slogan": "The Boro",
         "url": "https://radcliffefc.com",
-        "sameAs": ["https://radcliffeboro"],
+        "sameAs": ["https://twitter.com/radcliffeboro"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7740.png",
@@ -2988,6 +3096,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.567592",
           "longitude": "-2.340701"
         }
@@ -2998,7 +3107,7 @@
         "name": "South Shields",
         "slogan": "The Mariners",
         "url": "https://southshieldsfc.co.uk",
-        "sameAs": ["https://SouthShieldsFC"],
+        "sameAs": ["https://twitter.com/SouthShieldsFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7746.png",
@@ -3014,6 +3123,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "54.974526",
           "longitude": "-1.470094"
         }
@@ -3024,7 +3134,7 @@
         "name": "Stafford Rangers",
         "slogan": "The Rangers",
         "url": "https://staffordrangersfc.co.uk",
-        "sameAs": ["https://SRFCofficial"],
+        "sameAs": ["https://twitter.com/SRFCofficial"],
         "keywords": "semi-professional",
         "logo": {
           "@type": "ImageObject",
@@ -3041,6 +3151,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "52.818555",
           "longitude": "-2.116846"
         }
@@ -3051,7 +3162,7 @@
         "name": "Stalybridge Celtic",
         "slogan": "The Celts",
         "url": "https://stalybridgeceltic.co.uk",
-        "sameAs": ["https://StalyCelticFC"],
+        "sameAs": ["https://twitter.com/StalyCelticFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7749.png",
@@ -3067,6 +3178,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.475337",
           "longitude": "-2.043855"
         }
@@ -3077,7 +3189,7 @@
         "name": "Warrington Rylands 1906",
         "slogan": "The Blues",
         "url": "https://rylandsfc.co.uk",
-        "sameAs": ["https://RylandsFC"],
+        "sameAs": ["https://twitter.com/RylandsFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/8918.png",
@@ -3093,6 +3205,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.4004",
           "longitude": "-2.575604"
         }
@@ -3103,7 +3216,7 @@
         "name": "Warrington Town",
         "slogan": "The Wire",
         "url": "https://warringtontownfc.co.uk",
-        "sameAs": ["https://theyellows"],
+        "sameAs": ["https://twitter.com/theyellows"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7756.png",
@@ -3119,6 +3232,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "53.377071",
           "longitude": "-2.569861"
         }
@@ -3129,7 +3243,7 @@
         "name": "Whitby Town",
         "slogan": "The Seasiders",
         "url": "https://whitbytownfc.com",
-        "sameAs": ["https://WhitbyTownFC"],
+        "sameAs": ["https://twitter.com/WhitbyTownFC"],
         "logo": {
           "@type": "ImageObject",
           "contentURL": "https://media.api-sports.io/football/teams/7757.png",
@@ -3145,6 +3259,7 @@
         },
 
         "location": {
+          "@type": "Place",
           "latitude": "54.489984",
           "longitude": "-0.627549"
         }
