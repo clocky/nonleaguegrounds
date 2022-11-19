@@ -21,7 +21,7 @@
 {% from "credit.macro.njk" import credit %}
 {% from "hero.macro.njk" import hero %}
 
-{{ hero("Clubs", "A directory of " + clubs.length + " non-league clubs, sorted alphabetically", meta.image.club, "A crowd of people cheering at a football game or a concert, with a focus on two fans holding their arms aloft") }}
+{{ hero("Clubs", "A directory of " + clubs.length | toWords + " non-league clubs, sorted alphabetically", meta.image.club, "A crowd of people cheering at a football game or a concert, with a focus on two fans holding their arms aloft") }}
 
 <section class="section">
     <div class="container is-max-desktop">
