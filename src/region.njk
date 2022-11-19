@@ -30,8 +30,12 @@ permalink: "/grounds/{{ region.name | slug }}/index.html"
             {{ region.name }}
           </h1>
           <h2 class="subtitle is-size-4 is-size-5-tablet is-size-6-mobile has-text-left">
-            {{ region.geoContains.length | toWords | capitalize }} grounds from
+            {% if region.geoContains.length == 1%}
+              One ground, {{ region.geoContains[0].name }}
+            {% else %}
+              {{ region.geoContains.length | toWords | capitalize }} grounds from
             {{ region.geoContains[0].name }} to {{ region.geoContains[region.geoContains.length - 1].name }}
+            {% endif %}
           </h2>
         </div>
       </div>
@@ -57,7 +61,7 @@ permalink: "/grounds/{{ region.name | slug }}/index.html"
                 ground.longitude,
                 ground.name %}
               </figure>
-              <p class="title is-5 mt-3">{{ ground.name }}</p>
+              <h3 class="title is-5 mt-3">{{ ground.name }}</h3>
               <p class="subtitle is-6">{{ ground.subOrganization.name | safe }}</p>
             </a>
           </div>
