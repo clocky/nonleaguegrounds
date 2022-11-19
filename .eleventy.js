@@ -12,6 +12,7 @@ const Image = require("@11ty/eleventy-img");
 const slugify = require("slugify");
 const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
+const converter = require("number-to-words");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setQuietMode(true);
@@ -41,6 +42,9 @@ module.exports = function (eleventyConfig) {
   });
 
   /** Add team crest image handler shortcode */
+  eleventyConfig.addNunjucksAsyncShortcode("hero", heroShortcode);
+
+  /** Add team crest image handler shortcode */
   eleventyConfig.addNunjucksAsyncShortcode("crest", crestShortcode);
 
   /** Add Bing aerial image handler shortcode */
@@ -59,6 +63,10 @@ module.exports = function (eleventyConfig) {
   /** Format number with thousands separators, i.e. 1000 = 1,000 */
   eleventyConfig.addFilter("commaNumber", (num) => commaNumber(num));
 
+  /** Convert number to words, e.g. 19 = ninetenn */
+  eleventyConfig.addFilter("toWords", (num) => converter.toWords(num));
+
+  converter.toWords(13);
   eleventyConfig.addFilter("json", (json) => JSON.stringify(json, null, 4));
 
   /** Return the distance between two sets of lat,long co-ordinates */
@@ -107,12 +115,35 @@ module.exports = function (eleventyConfig) {
   };
 };
 
+async function heroShortcode(src, alt) {
+  let metadata = await Image(src, {
+    widths: [320, 640, 1280, 1440],
+    formats: ["avif", "jpeg"],
+    outputDir: "./dist/img/hero/",
+    urlPath: "/img/hero",
+    cacheOptions: {
+      duration: "4w",
+      directory: "./.cache/img",
+      removeUrlQueryParams: false,
+    },
+  });
+  let imageAttributes = {
+    alt,
+    class: "hero-background is-transparent",
+    sizes:
+      "(max-width: 319px) 240px, (max-width: 639px) 320px, (max-width: 1279px) 640px, (max-width: 1439px) 1280px, 1440px",
+    loading: "lazy",
+    decoding: "async",
+  };
+  return Image.generateHTML(metadata, imageAttributes);
+}
+
 async function aerialShortcode(lat, lon, name) {
   if (!!lat && !!lon) {
     const src = `https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/${lat},${lon}/18?mapSize=1280,720&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key=${process.env.BING_MAPS_API_KEY}`;
     name = slugify(name, { lower: true, customReplacements: [["'", ""]] });
     let metadata = await Image(src, {
-      widths: [240, 320, 640, 1280],
+      widths: [240, 320, 640],
       formats: ["avif", "jpeg"],
       outputDir: "./dist/img/aerial/",
       urlPath: "/img/aerial/",
@@ -126,9 +157,9 @@ async function aerialShortcode(lat, lon, name) {
       },
     });
     let imageAttributes = {
-      alt: `Bing aerial image of ${lat},${lon}`,
+      alt: `Bing aerial image of ${name}`,
       sizes:
-        "(max-width: 319px) 240px, (max-width: 639px) 320px, (max-width: 1279px) 640px, 1280px",
+        "(max-width: 319px) 240px, (max-width: 639px) 320px, (max-width: 1279px) 640px",
       loading: "lazy",
       decoding: "async",
     };
