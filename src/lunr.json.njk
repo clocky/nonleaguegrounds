@@ -6,7 +6,7 @@ permalink: /lunr.json
         {
             "title": "{{ ground.name }}",
             "url": "/grounds/{{ ground.areaServed.name | slug }}/{{ ground.name | slug }}/",
-            "description": "{{ ground.name }} {%- if ground.sponsor %}, officially known as {{ ground.sponsor.name }} for sponsorship reasons,{% endif %} is an {{ ground.subOrganization[0].sport | lower }} ground in {{ ground.address.addressLocality }} {%- if ground.address.addressRegion -%}, {{ ground.address.addressRegion }} {%- endif %} that holds {{ ground.maximumAttendeeCapacity | commaNumber }} people. {%- for club in ground.subOrganization | safe %} {%- if not loop.first %} The ground is shared with {%- else %} The ground is the home of {{ club.alternateName | safe }} who currently compete in the {{ club.memberOf.name }} {%- endif %} {%- endfor %}.",
+            "description": "{{ ground.name }} {%- if ground.sponsor %}, officially known as {{ ground.sponsor.name }} for sponsorship reasons,{% endif %} is an {{ ground.subOrganization[0].sport | lower }} ground in {{ ground.address.addressLocality }} {%- if ground.address.addressRegion -%}, {{ ground.address.addressRegion }} {%- endif %} that holds {{ ground.maximumAttendeeCapacity | commaNumber }} people. {%- for club in ground.subOrganization %} {%- if loop.first %} The ground is the home of {{ club.alternateName | safe }} {%- else %} The ground is shared with {{ club.alternateName | safe }} who currently compete in the {{ club.memberOf.name }} {%- endif %}. Nicknamed by fans as '{{ club.slogan }}' the club was founded {{ club.foundingDate.@value | ago}} years ago in {{ club.foundingDate.@value }}{%- endfor %}.",
         } {% if not loop.last %},{% endif %}
 {% endfor %}
 ]
