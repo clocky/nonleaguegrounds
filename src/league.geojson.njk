@@ -1,0 +1,28 @@
+---
+pagination:
+    data: leagues
+    size: 1
+    alias: league
+permalink: "leagues/{{ league.name | slugify }}.geojson"
+---
+{
+    "type": "FeatureCollection",
+    "features": [
+    {%- for club in league.members %}
+      {
+        "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [{{- club.location.longitude }}, {{ club.location.latitude -}}]
+          },
+        "properties": {
+          "name": "{{ club.name }}",
+          {%- if club.url %}
+          "url": "{{ club.url }}",
+          {%- endif %}
+          "amenity": "Football Stadium"
+        }
+      }{%- if not loop.last %},{%- endif %}
+    {%- endfor %}
+  ]  
+}
