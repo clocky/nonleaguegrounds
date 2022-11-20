@@ -3,23 +3,24 @@ pagination:
     data: clubs
     size: 1
     alias: club
-permalink: "/clubs/{{ club.name | slugify }}.vcf"
+permalink: "/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}.vcf"
 ---
 BEGIN:VCARD
 VERSION:3.0
-ORG: {{ club.alternateName | safe }}
+ORG: {{ club.alternateName | safe }};
 NICKNAME: {{ club.slogan }}
 BDAY: ----{{ club.foundingDate.@value | date("YYYY")}}
-item1.ADR;type=WORK;type=pref:;;{{ club.location.name }};{{ club.location.address.streetName }};{{ club.location.address.addressLocality | upper }};{{ club.location.address.addressRegion }};{{ club.location.address.postalCode }};United Kingdom
+item1.ADR;type=WORK;type=pref:;{{ club.location.name }};{{ club.location.address.streetName }};{{ club.location.address.addressLocality | upper }};{{ club.location.address.addressRegion }};{{ club.location.address.postalCode }};United Kingdom
 item1.X-ABADR:gb
-{% if club.twitter -%}X-SOCIALPROFILE;type=twitter:http://twitter.com/{{ club.twitter | lower }}
+{% if club.sameAs[0] -%}X-SOCIALPROFILE;type=twitter:{{ club.sameAs[0] | lower }}
 {% endif -%}
-{% if club.id -%}
-LOGO;VALUE=URI;TYPE=PNG:https://media.api-sports.io/football/teams/{{club.id}}.png
+{% if club.logo -%}
+LOGO;VALUE=URI;TYPE=PNG:{{ club.logo.contentURL }}
 {% endif -%}
+GEO;TYPE=work:geo:{{ club.location.latitude}},{{ club.location.longitude }}
 {% if club.url -%}
 item2.URL;type=pref:{{club.url}}
 item2.X-ABLabel:_$!<HomePage>!$_
 {% endif -%}
-SOURCE:{{ meta.base }}/downloads/{{ club.name | slugify }}.vcf
+SOURCE:{{ meta.base }}/{{ club.memberOf.name | slugify}}/{{ club.name | slugify }}.vcf
 END:VCARD
