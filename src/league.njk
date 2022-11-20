@@ -47,13 +47,13 @@ eleventyComputed:
 </section>
 {{ breadcrumb("Leagues", league.name) }}
 
-<section class="section">
+<section class="section-desktop">
   <div class="container is-max-desktop">
-    <div class="columns">
+    <div class="columns my-2">
       {% for clubs in league.members | sort | batch(8)  %}
         <div class="column is-one-third">
           {% for club in clubs %}
-            <article class="media">
+            <article class="media px-4">
               <figure class="media-left">
                 <p class="image is-48x48">
                   {% crest club.logo.contentURL, club.logo.caption, club.name  %}
