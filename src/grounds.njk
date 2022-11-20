@@ -9,13 +9,13 @@
         },
         reverse: true,
     },
-    permalink: "/grounds/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html",
+    permalink: "/grounds/all/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html",
     eleventyComputed: {
         title: "Non-League Grounds | Page {{ pagination.pageNumber + 1 }}",
         description: "A directory of {{ grounds.length }} English non-league grounds, sorted by capacity.",
         next: "{{ pagination.href.next }}",
         previous: "{{ pagination.href.previous }}",
-    },
+    }
 }
 ---
 {% from "breadcrumb.macro.njk" import breadcrumb %}
