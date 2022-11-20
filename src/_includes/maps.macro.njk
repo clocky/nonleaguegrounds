@@ -1,0 +1,78 @@
+{#
+    see: https://developer.apple.com/library/archive/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html
+#}
+{%- macro apple(ground) -%}
+    {%- set base = "maps.apple.com" -%}
+    {%- set query = ground.subOrganization[0].alternateName | replace(" ", "+") -%}
+    {%- set address %}
+    {%- if ground.name %}
+        {{- ground.name | replace(" ", "+") -}},
+    {%- endif %}
+    {%- if ground.address.streetName %}
+        {{- ground.address.streetName | replace(" ", "+") -}},
+    {%- endif %}
+    {%- if ground.address.addressLocality -%}
+        {{- ground.address.addressLocality | replace(" ", "+") -}},
+    {%- endif -%}
+    {%- if ground.address.postalCode -%}
+        {{- ground.address.postalCode | replace(" ", "+") -}}
+    {%- endif -%}
+    {%- endset -%}
+    {%- set latLon = ground.latitude + "," + ground.longitude -%}
+    {%- set zoom = 18 -%}
+    {%- set type = "m" -%}
+https://{{ base }}/?q={{ query }}&address={{ address }}&ll={{ latLon }}&z={{ zoom }}&t={{ type }}
+{%- endmacro -%}
+
+{%- macro bing(ground) %}
+    {%- set base = "bing.com/maps/default.aspx" -%}
+    {%- set centerPoint = ground.latitude + "~" + ground.longitude -%}
+    {%- set position = ground.latitude + "_~" + ground.longitude + "_" -%}
+    {%- set style = "r" %}
+    {%- set zoom = 17 %}
+    {%- set searchString = ground.subOrganization[0].alternateName | urlencode %}
+    {%- set address %}
+    {%- if ground.name %}
+        {{- ground.name | urlencode -}},
+    {%- endif %}
+    {%- if ground.address.streetName %}
+        {{- ground.address.streetName | urlencode -}},
+    {%- endif %}
+    {%- if ground.address.addressLocality -%}
+        {{- ground.address.addressLocality | urlencode -}},
+    {%- endif -%}
+    {%- if ground.address.postalCode -%}
+        {{- ground.address.postalCode | urlencode -}}
+    {%- endif -%}
+    {%- endset -%}
+https://{{ base }}?ss={{ searchString }}&cp={{ centerPoint }}&where1={{ address }}&style={{ style }}&lvl={{ zoom }}&rtp.adr={{ address }}~pos.{{ position }}
+{%- endmacro %}
+
+{%- macro google(ground) %}
+    {%- set base = "www.google.com/maps/search/?api=1" -%}
+    {%- set query %}
+    {{- ground.subOrganization[0].alternateName | urlencode -}},
+    {%- if ground.name %}
+        {{- ground.name | urlencode -}},
+    {%- endif %}
+    {%- if ground.address.streetName %}
+        {{- ground.address.streetName | urlencode -}},
+    {%- endif %}
+    {%- if ground.address.addressLocality -%}
+        {{- ground.address.addressLocality | urlencode -}},
+    {%- endif -%}
+    {%- if ground.address.postalCode -%}
+        {{- ground.address.postalCode | urlencode -}}
+    {%- endif -%}
+    {%- endset -%}
+https://{{ base }}&query={{ query }}
+    {%- endmacro %}
+
+
+{%- macro osm(ground) %}
+    {%- set base = "www.openstreetmap.org/" -%}
+    {%- set mapLatitude = ground.latitude -%}
+    {%- set mapLongitude = ground.longitude -%}
+    {%- set zoom = 18 -%}
+https://{{base}}?mlat={{ mapLatitude }}&mlon={{ mapLongitude }}#map={{ zoom }}/{{ mapLatitude }}/{{ mapLongitude }}
+{%- endmacro %}

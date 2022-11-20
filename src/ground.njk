@@ -10,15 +10,19 @@ eleventyComputed:
     description: "Information about the non-league football ground, {{ ground.name }}, with maps, address and contact information."
 ---
 {% from "breadcrumb.macro.njk" import breadcrumb %}
+{% from "maps.macro.njk" import apple,
+bing,
+google,
+osm %}
 
 <script type="application/ld+json">
   {{ ground | json | safe }}
 </script>
 
-{% set bing = env.bing_maps_api_key %}
+{% set bing_api = env.bing_maps_api_key %}
 
 <section class="hero is-medium is-dark has-background">
-  {% hero "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/" + ground.latitude + "," + ground.longitude + "/18?mapSize=1440,335&format=png&mapMetadata=0&key=" + bing,
+  {% hero "https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/" + ground.latitude + "," + ground.longitude + "/18?mapSize=1440,335&format=png&mapMetadata=0&key=" + bing_api,
   ground.name %}
   <div class="hero-body">
     <div class="container is-max-desktop">
@@ -60,9 +64,10 @@ eleventyComputed:
             <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | safe | slugify }}">{{ club.alternateName }}</a>, 
             who currently compete in the <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.name }}</a>.</p>
         {% endfor %}
+
         <div class="buttons">
           <a 
-            href="https://www.google.com/maps/search/?api=1&zoom=18&query={{ ground.subOrganization[0].alternateName | urlencode }},{{ ground.name | urlencode }},{{ ground.address.addressLocality | urlencode }},{{ ground.address.postalCode | urlencode }}&basemap=roadmap" 
+            href="{{ google(ground) }}" 
             target="_blank" 
             class="button" 
             rel="noopener"
@@ -72,7 +77,7 @@ eleventyComputed:
             </span>
             <span>Google Maps</span></a>
           <a 
-            href="http://maps.apple.com/?q={{ ground.name | urlencode }}&sll={{ground.latitude}},{{ground.longitude}}&z=18&t=m"
+            href="{{ apple(ground) }}"
             target="_blank" 
             class="button" 
             rel="noopener"
@@ -83,7 +88,7 @@ eleventyComputed:
             <span>Apple Maps</span>
           </a>
           <a 
-            href="https://bing.com/maps/default.aspx?cp={{ground.latitude}}~{{ground.longitude}}&lvl=17&ss={{ ground.name | urlencode }}"
+            href="{{ bing(ground) }}"
             target="_blank" 
             class="button" 
             rel="noopener"
@@ -94,11 +99,11 @@ eleventyComputed:
             <span>Bing Maps</span>
           </a>
           <a 
-            href="http://www.openstreetmap.org/#map=18/{{ground.latitude}}/{{ground.longitude}}"
+            href="{{ osm(ground) }}"
             target="_blank" 
             class="button" 
             rel="noopener"
-            aria-label="Open in Open Street Maps">
+            aria-label="Open in OpenStreetMap">
             <span class="icon">
               <i class="fas fa-map"></i>
             </span>
