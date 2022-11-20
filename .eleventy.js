@@ -140,7 +140,6 @@ async function heroShortcode(src, alt) {
       "(max-width: 768px) 384px, (max-width: 1023px) 768px, (max-width: 1215px) 1024px, 1440px",
     decoding: "async",
   };
-  console.log(`Hero: ${alt} at ${metadata.avif[0].size} bytes`);
   return Image.generateHTML(metadata, imageAttributes);
 }
 
@@ -169,7 +168,6 @@ async function aerialShortcode(lat, lon, name) {
       loading: "lazy",
       decoding: "async",
     };
-    console.log(`Thumbnail: ${name}`);
     return Image.generateHTML(metadata, imageAttributes);
   }
 }
@@ -198,6 +196,5 @@ async function crestShortcode(src, alt, name) {
     decoding: "async",
   };
 
-  console.log(`Crest: ${name}`);
   return Image.generateHTML(metadata, imageAttributes);
 }

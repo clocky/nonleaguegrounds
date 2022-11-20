@@ -29,7 +29,7 @@
   "author": "Mark McLaughlin",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.16",
+    "@11ty/eleventy": "^2.0.0-canary.17",
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
     "@fortawesome/fontawesome-free": "^6.2.0",
