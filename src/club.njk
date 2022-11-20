@@ -69,6 +69,19 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
           <a href="/grounds/{{ club.location.areaServed | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
           and are nicknamed <strong>"{{ club.slogan }}"</strong>.
         </p>
+        {% for url in club.sameAs %}
+          {% if url.slice(8, 15) == "twitter" %}
+            <a href="{{ url }}" target="_blank" rel="noopener" class="button is-link" style="background-color: #1DA1F2;">
+              <span class="icon">
+                <i class="fab fa-twitter"></i>
+              </span>
+              <span>
+                @{{ url.slice(20)  }}
+              </span>
+            </a>
+          {% endif %}
+        {% endfor %}
+
       </div>
       <div class="column is-one-third">
         <figure class="image is-128x128 mb-5">
@@ -92,18 +105,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
             </a>
           </p>
         {% endif %}
-        {% for url in club.sameAs %}
-          {% if url.slice(8, 15) == "twitter" %}
-            <h3 class="heading">Twitter</h3>
-            <p class="block">
-              <a href="{{ url }}" target="_blank" rel="noopener">@{{ url.slice(20) | lower }}
-                <span class="icon">
-                  <i class="fas fa-arrow-up-right-from-square"></i>
-                </span>
-              </a>
-            </p>
-          {% endif %}
-        {% endfor %}
+
       </div>
     </div>
   </div>
