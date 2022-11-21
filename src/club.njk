@@ -57,7 +57,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
           {%- endif -%}.
         </p>
         <p class="block is-size-6">
-          Founded {{ club.foundingDate.@value | ago }} years ago in {{ club.foundingDate.@value}}, the team currently compete in the
+          Founded {{ club.foundingDate | ago }} years ago in {{ club.foundingDate }}, the team currently compete in the
           <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
             {{ club.memberOf.name }}</a>, 
             {%- if club.memberOf.additionalProperty %}
@@ -69,23 +69,55 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
           <a href="/grounds/{{ club.location.areaServed | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
           and are nicknamed <strong>"{{ club.slogan }}"</strong>.
         </p>
-        {% for url in club.sameAs %}
-          {% if url.slice(8, 15) == "twitter" %}
-            <a href="{{ url }}" target="_blank" rel="noopener" class="button is-link" style="background-color: #1DA1F2;">
-              <span class="icon">
-                <i class="fab fa-twitter"></i>
-              </span>
-              <span>
-                @{{ url.slice(20)  }}
-              </span>
-            </a>
-          {% endif %}
-        {% endfor %}
+        <div class="buttons">
+          {% for url in club.sameAs %}
+            {% if url.slice(8, 15) == "twitter" %}
+              <a href="{{ url }}" target="_blank" rel="noopener" class="button is-link" style="background-color: #1DA1F2;">
+                <span class="icon">
+                  <i class="fab fa-twitter"></i>
+                </span>
+                <span>
+                @{{ url.slice(20) | lower}}
+                </span>
+              </a>
+            {% endif %}
+            {% if url.slice(8, 16) == "facebook" %}
+              <a href="{{ url }}" target="_blank" rel="noopener" class="button is-link" style="background-color: #4267B2;">
+                <span class="icon">
+                  <i class="fab fa-facebook"></i>
+                </span>
+                <span>
+                  {{ url.slice(21) | lower }}
+                </span>
+              </a>
+            {% endif %}
+            {% if url.slice(8, 17) == "instagram" %}
+              <a href="{{ url }}" target="_blank" rel="noopener" class="button is-link" style="background-color: #E1306C;">
+                <span class="icon">
+                  <i class="fab fa-instagram"></i>
+                </span>
+                <span>
+                  {{ url.slice(22) | lower }}
+                </span>
+              </a>
+            {% endif %}
+            {% if url.slice(8, 15) == "youtube" %}
+              <a href="{{ url }}" target="_blank" rel="noopener" class="button is-link" style="background-color: #FF0000;">
+                <span class="icon">
+                  <i class="fab fa-youtube"></i>
+                </span>
+                <span>
+                  {{ url.slice(20) | lower }}
+                </span>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
 
       </div>
       <div class="column is-one-third">
         <figure class="image is-128x128 mb-5">
-          {% crest club.logo.contentURL,
+          {% crest club.logo.contentUrl,
           club.logo.caption,
           club.name %}
         </figure>
@@ -95,10 +127,21 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
             {{ club.location.name }}
           </a>
         </p>
+        {% if club.telephone %}
+          <h3 class="heading">Phone</h3>
+          <p class="block">
+            <span class="icon">
+              <i class="fas fa-phone"></i>
+            </span>
+            <span>
+              {{ club.telephone }}
+            </span>
+          </p>
+        {% endif %}
         {% if club.url %}
           <h3 class="heading">Website</h3>
           <p class="block">
-            <a href="{{ club.url }}" target="_blank" rel="noopener">{{ club.url.slice(8) }}
+            <a href="{{ club.url}}" target="_blank" rel="noopener">{{ club.url.slice(8) }}
               <span class="icon">
                 <i class="fas fa-arrow-up-right-from-square"></i>
               </span>
@@ -119,7 +162,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
           <div>
             <p class="heading">Founded</p>
             <p class="title is-size-4">
-              <time datetime="YYYY">{{ club.foundingDate.@value }}</time>
+              <time datetime="YYYY">{{ club.foundingDate }}</time>
             </p>
           </div>
         {% endif %}
@@ -141,7 +184,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
         {% endif %}
       </div>
       <div class="level-item has-text-centered">
-        {% if club.memberOf.additionalProperty.@value %}
+        {% if club.memberOf.additionalProperty %}
           <div>
             <p class="heading">Tier</p>
             <p class="title is-size-4">{{ club.memberOf.additionalProperty.@value  }}</p>

@@ -15,11 +15,11 @@ item1.X-ABADR:gb
 {% if club.sameAs[0] -%}X-SOCIALPROFILE;type=twitter:{{ club.sameAs[0] | lower }}
 {% endif -%}
 {% if club.logo -%}
-LOGO;VALUE=URI;TYPE=PNG:{{ club.logo.contentURL }}
+LOGO;VALUE=URI;TYPE=PNG:{{ club.logo.contentUrl }}
 {% endif -%}
 GEO;TYPE=work:geo:{{ club.location.latitude}},{{ club.location.longitude }}
-{% if club.url -%}
-item2.URL;type=pref:{{club.url}}
+{% if club.url.@value -%}
+item2.URL;type=pref:{{club.url.@value}}
 item2.X-ABLabel:_$!<HomePage>!$_
 {% endif -%}
 SOURCE:{{ meta.base }}/{{ club.memberOf.name | slugify}}/{{ club.name | slugify }}.vcf

@@ -10,7 +10,7 @@ permalink: "/grounds/{{ region.name | slug }}/index.html"
 
 {%- set pushpins -%}
 {%- for ground in region.geoContains -%}
-  {%- if ground.latitude and ground.longitude %}&pp={{- ground.latitude -}},{{- ground.longitude -}};36{%- endif -%}
+  {%- if ground.latitude and ground.longitude %}&pp={{- ground.latitude-}},{{- ground.longitude -}};36{%- endif -%}
 {%- endfor -%}
 {%- endset -%}
 {%- set bing = env.bing_maps_api_key -%}

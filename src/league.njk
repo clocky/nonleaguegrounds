@@ -17,12 +17,9 @@ eleventyComputed:
 {{ league | dump | safe }}
 </script>
 
-{% set subtitle %}
-{% endset %}
-
 {%- set pushpins -%}
 {%- for club in league.members -%}
-  {%- if club.location.latitude and club.location.longitude %}&pp={{- club.location.latitude -}},{{- club.location.longitude -}};36{%- endif -%}
+  {%- if club.location.latitude and club.location.longitude  %}&pp={{- club.location.latitude -}},{{- club.location.longitude -}};36{%- endif -%}
 {%- endfor -%}
 {%- endset -%}
 {%- set bing = env.bing_maps_api_key -%}
@@ -56,7 +53,7 @@ eleventyComputed:
             <article class="media px-4">
               <figure class="media-left">
                 <p class="image is-48x48">
-                  {% crest club.logo.contentURL, club.logo.caption, club.name  %}
+                  {% crest club.logo.contentUrl, club.logo.caption, club.name  %}
                 </p>
               </figure>
               <div class="media-content">

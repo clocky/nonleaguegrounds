@@ -17,12 +17,12 @@ permalink: "leagues/{{ league.name | slugify }}.geojson"
           },
         "properties": {
           "name": "{{ club.name }}",
-          {%- if club.url %}
-          "url": "{{ club.url }}",
+          {%- if club.url.@value %}
+          "url": "{{ club.url.@value }}",
           {%- endif %}
           "amenity": "Football Stadium"
         }
       }{%- if not loop.last %},{%- endif %}
-    {%- endfor %}
-  ]  
+{%- endfor %}
+]  
 }

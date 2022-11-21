@@ -51,7 +51,7 @@ layout: base.njk
             Grounds
           </h3>
           <p class="has-text-grey-dark">
-              Leading with the {{ grounds[0].maximumAttendeeCapacity | commaNumber }}-capacity home of <strong>{{ grounds[0].subOrganization[0].name }}</strong>, 
+              Leading with the {{ grounds[0].maximumAttendeeCapacity.@value | commaNumber }}-capacity home of <strong>{{ grounds[0].subOrganization[0].name }}</strong>, 
               a list of {{ grounds.length }} English and Welsh non-league grounds.
             </p>
           <a href="/grounds/all" class="button is-info mt-4">View all grounds</a>
