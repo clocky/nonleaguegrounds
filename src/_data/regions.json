@@ -15,7 +15,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Causeway Lane",
           "addressLocality": "Matlock",
-          "postalCode": "DE4 3AR"
+          "postalCode": "DE4 3AR",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2400,
         "latitude": 53.137031,
@@ -24,10 +25,7 @@
           "@type": "SportsTeam",
           "name": "Matlock Town",
           "slogan": "The Gladiators",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1878
-          },
+          "foundingDate": "1878",
 
           "identifier": {
             "@type": "URL",
@@ -36,8 +34,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7731.png",
-            "caption": "Matlock Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7731.png",
+            "caption": "Crest of the football team Matlock Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -53,7 +53,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Bridge Street",
           "addressLocality": "Belper",
-          "postalCode": "DE56 1BA"
+          "postalCode": "DE56 1BA",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2650,
         "latitude": 53.027196,
@@ -62,10 +63,7 @@
           "@type": "SportsTeam",
           "name": "Belper Town",
           "slogan": "The Nailers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1883
-          },
+          "foundingDate": "1883",
 
           "identifier": {
             "@type": "URL",
@@ -74,8 +72,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7617.png",
-            "caption": "Belper Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7617.png",
+            "caption": "Crest of the football team Belper Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -90,7 +90,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Pilgrim Way",
           "addressLocality": "Boston",
-          "postalCode": "PE21 6JN"
+          "addressRegion": "Lincolnshire, Parts of Holland",
+          "postalCode": "PE21 6JN",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 5000,
         "latitude": 52.956335,
@@ -99,10 +101,7 @@
           "@type": "SportsTeam",
           "name": "Boston United",
           "slogan": "The Pilgrims",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1933
-          },
+          "foundingDate": "1933",
 
           "identifier": {
             "@type": "URL",
@@ -111,8 +110,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8146.png",
-            "caption": "Boston United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8146.png",
+            "caption": "Crest of the football team Boston United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -127,7 +128,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Polwell Lane",
           "addressLocality": "Kettering",
-          "postalCode": "NN15 5PS"
+          "addressRegion": "Northamptonshire",
+          "postalCode": "NN15 5PS",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2400,
         "latitude": 52.366808,
@@ -136,10 +139,7 @@
           "@type": "SportsTeam",
           "name": "Kettering Town",
           "slogan": "The Poppies",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1872
-          },
+          "foundingDate": "1872",
 
           "identifier": {
             "@type": "URL",
@@ -148,8 +148,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8654.png",
-            "caption": "Kettering Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8654.png",
+            "caption": "Crest of the football team Kettering Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -164,7 +166,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Meadow Lane",
           "addressLocality": "Nottingham",
-          "postalCode": "NG2 3HJ"
+          "addressRegion": "Nottinghamshire",
+          "postalCode": "NG2 3HJ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 19841,
         "latitude": 52.942672,
@@ -173,10 +177,7 @@
           "@type": "SportsTeam",
           "name": "Notts County",
           "slogan": "The Magpies",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1862
-          },
+          "foundingDate": "1862",
 
           "identifier": {
             "@type": "URL",
@@ -185,8 +186,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1376.png",
-            "caption": "Notts County crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1376.png",
+            "caption": "Crest of the football team Notts County",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -202,7 +205,9 @@
           "@type": "PostalAddress",
           "streetAddress": "North Street",
           "addressLocality": "Alfreton",
-          "postalCode": "DE55 7FZ"
+          "addressRegion": "Derbyshire",
+          "postalCode": "DE55 7FZ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3600,
         "latitude": 53.094516,
@@ -211,10 +216,7 @@
           "@type": "SportsTeam",
           "name": "Alfreton Town",
           "slogan": "The Reds",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1959
-          },
+          "foundingDate": "1959",
 
           "identifier": {
             "@type": "URL",
@@ -223,8 +225,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4677.png",
-            "caption": "Alfreton Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4677.png",
+            "caption": "Crest of the football team Alfreton Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -239,7 +243,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Churchill Way",
           "addressLocality": "Brackley",
-          "postalCode": "NN13 7EJ"
+          "addressRegion": "Northamptonshire",
+          "postalCode": "NN13 7EJ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3500,
         "latitude": 52.024613,
@@ -248,10 +254,7 @@
           "@type": "SportsTeam",
           "name": "Brackley Town",
           "slogan": "The Saints",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1930
-          },
+          "foundingDate": "1930",
 
           "identifier": {
             "@type": "URL",
@@ -260,8 +263,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4701.png",
-            "caption": "Brackley Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4701.png",
+            "caption": "Crest of the football team Brackley Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -276,7 +281,9 @@
           "@type": "PostalAddress",
           "streetAddress": "1866 Sheffield Road",
           "addressLocality": "Chesterfield",
-          "postalCode": "S41 8NZ"
+          "addressRegion": "Derbyshire",
+          "postalCode": "S41 8NZ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 10600,
         "latitude": 53.253583,
@@ -285,10 +292,7 @@
           "@type": "SportsTeam",
           "name": "Chesterfield",
           "slogan": "The Spireites",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1919
-          },
+          "foundingDate": "1919",
 
           "identifier": {
             "@type": "URL",
@@ -297,8 +301,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1345.png",
-            "caption": "Chesterfield crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1345.png",
+            "caption": "Crest of the football team Chesterfield",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -314,7 +320,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Northolme",
           "addressLocality": "Gainsborough",
-          "postalCode": "DN21 2QW"
+          "postalCode": "DN21 2QW",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4304,
         "latitude": 53.403459,
@@ -323,10 +330,7 @@
           "@type": "SportsTeam",
           "name": "Gainsborough Trinity",
           "slogan": "The Trinity",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1873
-          },
+          "foundingDate": "1873",
 
           "identifier": {
             "@type": "URL",
@@ -335,8 +339,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4691.png",
-            "caption": "Gainsborough Trinity crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4691.png",
+            "caption": "Crest of the football team Gainsborough Trinity",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -350,9 +356,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Buxton",
-          "postalCode": "SK17 6QH"
+          "addressRegion": "Derbyshire",
+          "postalCode": "SK17 6QH",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4000,
         "latitude": 53.256603,
@@ -361,10 +368,7 @@
           "@type": "SportsTeam",
           "name": "Buxton",
           "slogan": "The Bucks",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1877
-          },
+          "foundingDate": "1877",
 
           "identifier": {
             "@type": "URL",
@@ -373,8 +377,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7706.png",
-            "caption": "Buxton crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7706.png",
+            "caption": "Crest of the football team Buxton",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       }
@@ -396,9 +402,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "St Albans",
-          "postalCode": "AL1 4NF"
+          "addressRegion": "Hertfordshire",
+          "postalCode": "AL1 4NF",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 5007,
         "latitude": 51.754276,
@@ -407,10 +414,7 @@
           "@type": "SportsTeam",
           "name": "St Albans City",
           "slogan": "The Saints",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1908
-          },
+          "foundingDate": "1908",
 
           "identifier": {
             "@type": "URL",
@@ -419,8 +423,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4708.png",
-            "caption": "St Albans City crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4708.png",
+            "caption": "Crest of the football team St Albans City",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -436,7 +442,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Clockhouse Way",
           "addressLocality": "Braintree",
-          "postalCode": "CM7 3AL"
+          "addressRegion": "Essex",
+          "postalCode": "CM7 3AL",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4151,
         "latitude": 51.875305,
@@ -445,10 +453,7 @@
           "@type": "SportsTeam",
           "name": "Braintree Town",
           "slogan": "The Iron",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1898
-          },
+          "foundingDate": "1898",
 
           "identifier": {
             "@type": "URL",
@@ -457,8 +462,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1831.png",
-            "caption": "Braintree Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1831.png",
+            "caption": "Crest of the football team Braintree Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -473,19 +480,18 @@
           "@type": "PostalAddress",
           "streetAddress": "Crown Ave",
           "addressLocality": "Basildon",
-          "postalCode": "SS13 2BE"
+          "addressRegion": "Essex",
+          "postalCode": "SS13 2BE",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3500,
         "latitude": 51.57405,
         "longitude": 0.518133,
         "subOrganization": {
           "@type": "SportsTeam",
-          "name": "Bowers &amp; Pitsea",
+          "name": "Bowers & Pitsea",
           "slogan": "The Bowers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1946
-          },
+          "foundingDate": "1946",
 
           "identifier": {
             "@type": "URL",
@@ -494,8 +500,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7764.png",
-            "caption": "Bowers & Pitsea crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7764.png",
+            "caption": "Crest of the football team Bowers & Pitsea",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -510,7 +518,9 @@
           "@type": "PostalAddress",
           "streetAddress": "651 Lincoln Road",
           "addressLocality": "Peterborough",
-          "postalCode": "PE1 3HA"
+          "addressRegion": "Northamptonshire",
+          "postalCode": "PE1 3HA",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2300,
         "latitude": 52.593814,
@@ -519,10 +529,7 @@
           "@type": "SportsTeam",
           "name": "Peterborough Sports",
           "slogan": "The Turbines",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1908
-          },
+          "foundingDate": "1908",
 
           "identifier": {
             "@type": "URL",
@@ -531,8 +538,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7737.png",
-            "caption": "Peterborough Sports crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7737.png",
+            "caption": "Crest of the football team Peterborough Sports",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -548,7 +557,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Broughinge Road",
           "addressLocality": "Borehamwood",
-          "postalCode": "WD6 5AL"
+          "addressRegion": "Hertfordshire",
+          "postalCode": "WD6 5AL",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4502,
         "latitude": 51.661937,
@@ -557,10 +568,7 @@
           "@type": "SportsTeam",
           "name": "Boreham Wood",
           "slogan": "The Wood",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1948
-          },
+          "foundingDate": "1948",
 
           "identifier": {
             "@type": "URL",
@@ -569,8 +577,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1830.png",
-            "caption": "Boreham Wood crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1830.png",
+            "caption": "Crest of the football team Boreham Wood",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -585,7 +595,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Salerno Way",
           "addressLocality": "Chelmsford",
-          "postalCode": "CM1 2EH"
+          "addressRegion": "Essex",
+          "postalCode": "CM1 2EH",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3065,
         "latitude": 51.753231,
@@ -594,10 +606,7 @@
           "@type": "SportsTeam",
           "name": "Chelmsford City",
           "slogan": "The Clarets",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1938
-          },
+          "foundingDate": "1938",
 
           "identifier": {
             "@type": "URL",
@@ -606,8 +615,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4689.png",
-            "caption": "Chelmsford City crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4689.png",
+            "caption": "Crest of the football team Chelmsford City",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -622,7 +633,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Blunts Wall Road",
           "addressLocality": "Billericay",
-          "postalCode": "CM12 9SA"
+          "addressRegion": "Essex",
+          "postalCode": "CM12 9SA",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 5000,
         "latitude": 51.621776,
@@ -631,10 +644,7 @@
           "@type": "SportsTeam",
           "name": "Billericay Town",
           "slogan": "The Blues",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1880
-          },
+          "foundingDate": "1880",
 
           "identifier": {
             "@type": "URL",
@@ -643,8 +653,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4678.png",
-            "caption": "Billericay Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4678.png",
+            "caption": "Crest of the football team Billericay Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -657,9 +669,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Colchester",
-          "postalCode": "CO7 0PL"
+          "addressRegion": "Essex",
+          "postalCode": "CO7 0PL",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 1000,
         "latitude": 51.815817,
@@ -668,10 +681,7 @@
           "@type": "SportsTeam",
           "name": "Brightlingsea Regent",
           "slogan": "The Rs",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2005
-          },
+          "foundingDate": "2005",
 
           "identifier": {
             "@type": "URL",
@@ -680,8 +690,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7704.png",
-            "caption": "Brightlingsea Regent crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7704.png",
+            "caption": "Crest of the football team Brightlingsea Regent",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -695,9 +707,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Canvey Island",
-          "postalCode": "SS8 7PX"
+          "addressRegion": "Essex",
+          "postalCode": "SS8 7PX",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4100,
         "latitude": 51.516461,
@@ -706,10 +719,7 @@
           "@type": "SportsTeam",
           "name": "Canvey Island",
           "slogan": "The Gulls",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1926
-          },
+          "foundingDate": "1926",
 
           "identifier": {
             "@type": "URL",
@@ -718,8 +728,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7623.png",
-            "caption": "Canvey Island crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7623.png",
+            "caption": "Crest of the football team Canvey Island",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -735,7 +747,9 @@
           "@type": "PostalAddress",
           "streetAddress": "The Walk",
           "addressLocality": "Potters Bar",
-          "postalCode": "EN6 1QN"
+          "addressRegion": "Hertfordshire",
+          "postalCode": "EN6 1QN",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2500,
         "latitude": 51.696188,
@@ -744,10 +758,7 @@
           "@type": "SportsTeam",
           "name": "Potters Bar Town",
           "slogan": "The Scholars",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1960
-          },
+          "foundingDate": "1960",
 
           "identifier": {
             "@type": "URL",
@@ -756,8 +767,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7739.png",
-            "caption": "Potters Bar Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7739.png",
+            "caption": "Crest of the football team Potters Bar Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -770,9 +783,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "South Ockendon",
-          "postalCode": "RM15 4PX"
+          "addressRegion": "Essex",
+          "postalCode": "RM15 4PX",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3500,
         "latitude": 51.503481,
@@ -781,10 +795,7 @@
           "@type": "SportsTeam",
           "name": "Aveley",
           "slogan": "The Millers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1927
-          },
+          "foundingDate": "1927",
 
           "identifier": {
             "@type": "URL",
@@ -793,8 +804,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7207.png",
-            "caption": "Aveley crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7207.png",
+            "caption": "Crest of the football team Aveley",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -809,7 +822,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Victoria Avenue",
           "addressLocality": "Southend-on-Sea",
-          "postalCode": "SS2 6NQ"
+          "addressRegion": "Essex",
+          "postalCode": "SS2 6NQ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 12392,
         "latitude": 51.549008,
@@ -818,10 +833,7 @@
           "@type": "SportsTeam",
           "name": "Southend United",
           "slogan": "The Shrimpers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1906
-          },
+          "foundingDate": "1906",
 
           "identifier": {
             "@type": "URL",
@@ -830,8 +842,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1341.png",
-            "caption": "Southend United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1341.png",
+            "caption": "Crest of the football team Southend United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -844,9 +858,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Canvey Island",
-          "postalCode": "SS8 0HH"
+          "addressRegion": "Essex",
+          "postalCode": "SS8 0HH",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3300,
         "latitude": 51.512539,
@@ -855,10 +870,7 @@
           "@type": "SportsTeam",
           "name": "Concord Rangers",
           "slogan": "The Beach Boys",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1967
-          },
+          "foundingDate": "1967",
 
           "identifier": {
             "@type": "URL",
@@ -867,8 +879,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8658.png",
-            "caption": "Concord Rangers crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8658.png",
+            "caption": "Crest of the football team Concord Rangers",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -883,7 +897,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Tennyson Road",
           "addressLocality": "Kings Lynn",
-          "postalCode": "PE30 5PB"
+          "addressRegion": "Norfolk",
+          "postalCode": "PE30 5PB",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 8200,
         "latitude": 52.750067,
@@ -892,10 +908,7 @@
           "@type": "SportsTeam",
           "name": "Kings Lynn Town",
           "slogan": "The Linnets",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2010
-          },
+          "foundingDate": "2010",
 
           "identifier": {
             "@type": "URL",
@@ -904,8 +917,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8655.png",
-            "caption": "Kings Lynn Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8655.png",
+            "caption": "Crest of the football team Kings Lynn Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -920,7 +935,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Theobalds Lane",
           "addressLocality": "Waltham Cross",
-          "postalCode": "EN8 8RU"
+          "addressRegion": "Hertfordshire",
+          "postalCode": "EN8 8RU",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3500,
         "latitude": 51.694445,
@@ -929,10 +946,7 @@
           "@type": "SportsTeam",
           "name": "Cheshunt",
           "slogan": "The Ambers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1946
-          },
+          "foundingDate": "1946",
 
           "identifier": {
             "@type": "URL",
@@ -941,8 +955,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7708.png",
-            "caption": "Cheshunt crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7708.png",
+            "caption": "Crest of the football team Cheshunt",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -955,9 +971,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Hemel Hempstead",
-          "postalCode": "HP2 4HW"
+          "addressRegion": "Hertfordshire",
+          "postalCode": "HP2 4HW",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3152,
         "latitude": 51.753881,
@@ -966,10 +983,7 @@
           "@type": "SportsTeam",
           "name": "Hemel Hempstead Town",
           "slogan": "The Tudors",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1885
-          },
+          "foundingDate": "1885",
 
           "identifier": {
             "@type": "URL",
@@ -978,15 +992,17 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8660.png",
-            "caption": "Hemel Hempstead Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8660.png",
+            "caption": "Crest of the football team Hemel Hempstead Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
       {
         "@type": "StadiumOrArena",
         "name": "Woodside Park",
-        "alternateName": "ProKit UK Stadium",
+        "alternateName": "R & D Advisors UK Ltd Stadium",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/woodside-park"
@@ -995,19 +1011,18 @@
           "@type": "PostalAddress",
           "streetAddress": "Dunmow Road",
           "addressLocality": "Bishops Stortford",
-          "postalCode": "CM23 5RG"
+          "addressRegion": "Essex",
+          "postalCode": "CM23 5RG",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4525,
         "latitude": 51.872673,
         "longitude": 0.191994,
         "subOrganization": {
           "@type": "SportsTeam",
-          "name": "Bishop&#39;s Stortford",
+          "name": "Bishop's Stortford",
           "slogan": "The Blues",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1874
-          },
+          "foundingDate": "1874",
 
           "identifier": {
             "@type": "URL",
@@ -1016,8 +1031,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7701.png",
-            "caption": "Bishop's Stortford crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7701.png",
+            "caption": "Crest of the football team Bishop's Stortford",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       }
@@ -1039,21 +1056,19 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Hampton",
-          "postalCode": "TW12 2BX"
+          "addressRegion": "Middlesex",
+          "postalCode": "TW12 2BX",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3800,
         "latitude": 51.415191,
         "longitude": -0.363244,
         "subOrganization": {
           "@type": "SportsTeam",
-          "name": "Hampton &amp; Richmond Borough",
+          "name": "Hampton & Richmond Borough",
           "slogan": "The Beavers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1921
-          },
+          "foundingDate": "1921",
 
           "identifier": {
             "@type": "URL",
@@ -1062,8 +1077,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4680.png",
-            "caption": "Hampton & Richmond Borough crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4680.png",
+            "caption": "Crest of the football team Hampton & Richmond Borough",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1076,9 +1093,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "East Dulwich",
-          "postalCode": "SE22 8BD"
+          "addressRegion": "Surrey",
+          "postalCode": "SE22 8BD",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3334,
         "latitude": 51.461239,
@@ -1087,10 +1105,7 @@
           "@type": "SportsTeam",
           "name": "Dulwich Hamlet",
           "slogan": "The Hamlet",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1893
-          },
+          "foundingDate": "1893",
 
           "identifier": {
             "@type": "URL",
@@ -1099,14 +1114,17 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8149.png",
-            "caption": "Dulwich Hamlet crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8149.png",
+            "caption": "Crest of the football team Dulwich Hamlet",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
       {
         "@type": "StadiumOrArena",
         "name": "Coles Park",
+        "alternateName": "CVS Van Hire Stadium",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/coles-park"
@@ -1115,7 +1133,9 @@
           "@type": "PostalAddress",
           "streetAddress": "White Hart Lane",
           "addressLocality": "London",
-          "postalCode": "N17 7JP"
+          "addressRegion": "Middlesex",
+          "postalCode": "N17 7JP",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2500,
         "latitude": 51.605623,
@@ -1124,10 +1144,7 @@
           "@type": "SportsTeam",
           "name": "Haringey Borough",
           "slogan": "The Borough",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1973
-          },
+          "foundingDate": "1973",
 
           "identifier": {
             "@type": "URL",
@@ -1136,8 +1153,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4681.png",
-            "caption": "Haringey Borough crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4681.png",
+            "caption": "Crest of the football team Haringey Borough",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1150,9 +1169,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Ruislip",
-          "postalCode": "HA4 6JQ"
+          "addressRegion": "Middlesex",
+          "postalCode": "HA4 6JQ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4085,
         "latitude": 51.569398,
@@ -1161,10 +1181,7 @@
           "@type": "SportsTeam",
           "name": "Wealdstone",
           "slogan": "The Stones",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1899
-          },
+          "foundingDate": "1899",
 
           "identifier": {
             "@type": "URL",
@@ -1173,8 +1190,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8663.png",
-            "caption": "Wealdstone crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8663.png",
+            "caption": "Crest of the football team Wealdstone",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1189,7 +1208,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Hayes Lane",
           "addressLocality": "Bromley",
-          "postalCode": "BR2 9EF"
+          "addressRegion": "Kent",
+          "postalCode": "BR2 9EF",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 5000,
         "latitude": 51.390084,
@@ -1198,10 +1219,7 @@
           "@type": "SportsTeam",
           "name": "Bromley",
           "slogan": "The Ravens",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1892
-          },
+          "foundingDate": "1892",
 
           "identifier": {
             "@type": "URL",
@@ -1210,8 +1228,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1832.png",
-            "caption": "Bromley crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1832.png",
+            "caption": "Crest of the football team Bromley",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1226,7 +1246,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Hayes Lane",
           "addressLocality": "Bromley",
-          "postalCode": "BR2 9EF"
+          "addressRegion": "Kent",
+          "postalCode": "BR2 9EF",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 5000,
         "latitude": 51.390084,
@@ -1235,10 +1257,7 @@
           "@type": "SportsTeam",
           "name": "Cray Wanderers",
           "slogan": "The Wands",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1860
-          },
+          "foundingDate": "1860",
 
           "identifier": {
             "@type": "URL",
@@ -1247,8 +1266,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7711.png",
-            "caption": "Cray Wanderers crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7711.png",
+            "caption": "Crest of the football team Cray Wanderers",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1263,7 +1284,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Bridge Avenue",
           "addressLocality": "Upminster",
-          "postalCode": "RM14 2LX"
+          "addressRegion": "Essex",
+          "postalCode": "RM14 2LX",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3000,
         "latitude": 51.556557,
@@ -1271,11 +1294,8 @@
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Hornchurch",
-          "slogan": "The Urchins",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1923
-          },
+          "slogan": "The Mighty Urchins",
+          "foundingDate": "1923",
 
           "identifier": {
             "@type": "URL",
@@ -1284,8 +1304,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7690.png",
-            "caption": "Hornchurch crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7690.png",
+            "caption": "Crest of the football team Hornchurch",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1300,7 +1322,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Bishopsford Road",
           "addressLocality": "Morden",
-          "postalCode": "SM4 6BF"
+          "addressRegion": "Surrey",
+          "postalCode": "SM4 6BF",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3500,
         "latitude": 51.393231,
@@ -1309,10 +1333,7 @@
           "@type": "SportsTeam",
           "name": "Kingstonian",
           "slogan": "The Ks",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1885
-          },
+          "foundingDate": "1885",
 
           "identifier": {
             "@type": "URL",
@@ -1321,8 +1342,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7725.png",
-            "caption": "Kingstonian crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7725.png",
+            "caption": "Crest of the football team Kingstonian",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1338,7 +1361,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Queen Mary Close",
           "addressLocality": "Tolworth",
-          "postalCode": "KT6 7NA"
+          "addressRegion": "Surrey",
+          "postalCode": "KT6 7NA",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2000,
         "latitude": 51.372154,
@@ -1347,10 +1372,7 @@
           "@type": "SportsTeam",
           "name": "Corinthian-Casuals",
           "slogan": "The Casuals",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1939
-          },
+          "foundingDate": "1939",
 
           "identifier": {
             "@type": "URL",
@@ -1359,8 +1381,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7710.png",
-            "caption": "Corinthian-Casuals crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7710.png",
+            "caption": "Crest of the football team Corinthian-Casuals",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1373,9 +1397,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Welling",
-          "postalCode": "DA16 1SY"
+          "addressRegion": "Kent",
+          "postalCode": "DA16 1SY",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4000,
         "latitude": 51.460326,
@@ -1384,10 +1409,7 @@
           "@type": "SportsTeam",
           "name": "Welling United",
           "slogan": "The Wings",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1963
-          },
+          "foundingDate": "1963",
 
           "identifier": {
             "@type": "URL",
@@ -1396,8 +1418,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8664.png",
-            "caption": "Welling United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8664.png",
+            "caption": "Crest of the football team Welling United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1412,7 +1436,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Donkey Lane",
           "addressLocality": "Enfield",
-          "postalCode": "EN1 3PL"
+          "addressRegion": "Middlesex",
+          "postalCode": "EN1 3PL",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2500,
         "latitude": 51.659332,
@@ -1421,10 +1447,7 @@
           "@type": "SportsTeam",
           "name": "Enfield Town",
           "slogan": "The Towners",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2001
-          },
+          "foundingDate": "2001",
 
           "identifier": {
             "@type": "URL",
@@ -1433,8 +1456,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7714.png",
-            "caption": "Enfield Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7714.png",
+            "caption": "Crest of the football team Enfield Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1449,7 +1474,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Camrose Avenue",
           "addressLocality": "Edgware",
-          "postalCode": "HA8 6AG"
+          "addressRegion": "Middlesex",
+          "postalCode": "HA8 6AG",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6418,
         "latitude": 51.602623,
@@ -1458,10 +1485,7 @@
           "@type": "SportsTeam",
           "name": "Barnet",
           "slogan": "The Bees",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1888
-          },
+          "foundingDate": "1888",
 
           "identifier": {
             "@type": "URL",
@@ -1470,8 +1494,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1369.png",
-            "caption": "Barnet crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1369.png",
+            "caption": "Crest of the football team Barnet",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1486,19 +1512,18 @@
           "@type": "PostalAddress",
           "streetAddress": "Summers Lane",
           "addressLocality": "Finchley",
-          "postalCode": "N12 0PD"
+          "addressRegion": "Middlesex",
+          "postalCode": "N12 0PD",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 1500,
         "latitude": 51.606848,
         "longitude": -0.171497,
         "subOrganization": {
           "@type": "SportsTeam",
-          "name": "Wingate &amp; Finchley",
+          "name": "Wingate & Finchley",
           "slogan": "The Blues",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1991
-          },
+          "foundingDate": "1991",
 
           "identifier": {
             "@type": "URL",
@@ -1507,8 +1532,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7759.png",
-            "caption": "Wingate & Finchley crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7759.png",
+            "caption": "Crest of the football team Wingate & Finchley",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1524,19 +1551,18 @@
           "@type": "PostalAddress",
           "streetAddress": "Victoria Road",
           "addressLocality": "Dagenham",
-          "postalCode": "RM10 7XL"
+          "addressRegion": "Essex",
+          "postalCode": "RM10 7XL",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6078,
         "latitude": 51.547807,
         "longitude": 0.159913,
         "subOrganization": {
           "@type": "SportsTeam",
-          "name": "Dagenham &amp; Redbridge",
+          "name": "Dagenham & Redbridge",
           "slogan": "The Daggers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1992
-          },
+          "foundingDate": "1992",
 
           "identifier": {
             "@type": "URL",
@@ -1545,8 +1571,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1821.png",
-            "caption": "Dagenham & Redbridge crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1821.png",
+            "caption": "Crest of the football team Dagenham & Redbridge",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1561,7 +1589,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Colston Avenue",
           "addressLocality": "Sutton",
-          "postalCode": "SM5 2PW"
+          "addressRegion": "Surrey",
+          "postalCode": "SM5 2PW",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 5000,
         "latitude": 51.369704,
@@ -1570,10 +1600,7 @@
           "@type": "SportsTeam",
           "name": "Carshalton Athletic",
           "slogan": "The Robins",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1905
-          },
+          "foundingDate": "1905",
 
           "identifier": {
             "@type": "URL",
@@ -1582,8 +1609,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7707.png",
-            "caption": "Carshalton Athletic crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7707.png",
+            "caption": "Crest of the football team Carshalton Athletic",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       }
@@ -1606,7 +1635,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Grange Road",
           "addressLocality": "Darlington",
-          "postalCode": "DL1 5NR"
+          "addressRegion": "Durham",
+          "postalCode": "DL1 5NR",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3281,
         "latitude": 54.509449,
@@ -1615,10 +1646,7 @@
           "@type": "SportsTeam",
           "name": "Darlington",
           "slogan": "The Quakers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1883
-          },
+          "foundingDate": "1883",
 
           "identifier": {
             "@type": "URL",
@@ -1627,8 +1655,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8148.png",
-            "caption": "Darlington crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8148.png",
+            "caption": "Crest of the football team Darlington",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1643,7 +1673,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Durham Road",
           "addressLocality": "Spennymoor",
-          "postalCode": "DL16 6JN"
+          "addressRegion": "Durham",
+          "postalCode": "DL16 6JN",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3000,
         "latitude": 54.70451,
@@ -1652,10 +1684,7 @@
           "@type": "SportsTeam",
           "name": "Spennymoor Town",
           "slogan": "The Moors",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2005
-          },
+          "foundingDate": "2005",
 
           "identifier": {
             "@type": "URL",
@@ -1664,8 +1693,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/3707.png",
-            "caption": "Spennymoor Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/3707.png",
+            "caption": "Crest of the football team Spennymoor Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1680,7 +1711,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Pegswood",
           "addressLocality": "Morpeth",
-          "postalCode": "NE61 2YX"
+          "postalCode": "NE61 2YX",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3000,
         "latitude": 55.155982,
@@ -1689,10 +1721,7 @@
           "@type": "SportsTeam",
           "name": "Morpeth Town AFC",
           "slogan": "The Highwaymen",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1909
-          },
+          "foundingDate": "1909",
 
           "identifier": {
             "@type": "URL",
@@ -1701,8 +1730,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7734.png",
-            "caption": "Morpeth Town AFC crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7734.png",
+            "caption": "Crest of the football team Morpeth Town AFC",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1717,7 +1748,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Plessey Road",
           "addressLocality": "Blyth",
-          "postalCode": "NE24 3JE"
+          "addressRegion": "Northumberland",
+          "postalCode": "NE24 3JE",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4130,
         "latitude": 55.120879,
@@ -1726,10 +1759,7 @@
           "@type": "SportsTeam",
           "name": "Blyth Spartans AFC",
           "slogan": "The Spartans",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1899
-          },
+          "foundingDate": "1899",
 
           "identifier": {
             "@type": "URL",
@@ -1738,8 +1768,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8650.png",
-            "caption": "Blyth Spartans AFC crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8650.png",
+            "caption": "Crest of the football team Blyth Spartans AFC",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1755,7 +1787,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Shaftesbury Avenue",
           "addressLocality": "Jarrow",
-          "postalCode": "NE32 3UP"
+          "postalCode": "NE32 3UP",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3500,
         "latitude": 54.974526,
@@ -1764,10 +1797,7 @@
           "@type": "SportsTeam",
           "name": "South Shields",
           "slogan": "The Mariners",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1888
-          },
+          "foundingDate": "1888",
 
           "identifier": {
             "@type": "URL",
@@ -1776,8 +1806,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7746.png",
-            "caption": "South Shields crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7746.png",
+            "caption": "Crest of the football team South Shields",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1792,7 +1824,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Neilson Road",
           "addressLocality": "Gateshead",
-          "postalCode": "NE10 0EF"
+          "addressRegion": "Durham",
+          "postalCode": "NE10 0EF",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 11750,
         "latitude": 54.96102,
@@ -1801,10 +1835,7 @@
           "@type": "SportsTeam",
           "name": "Gateshead",
           "slogan": "The Tynesiders",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1977
-          },
+          "foundingDate": "1977",
 
           "identifier": {
             "@type": "URL",
@@ -1813,8 +1844,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1823.png",
-            "caption": "Gateshead crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1823.png",
+            "caption": "Crest of the football team Gateshead",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1829,7 +1862,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Mount Pleasant Avenue",
           "addressLocality": "Redcar",
-          "postalCode": "TS11 7BW"
+          "postalCode": "TS11 7BW",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2500,
         "latitude": 54.589177,
@@ -1838,10 +1872,7 @@
           "@type": "SportsTeam",
           "name": "Marske United",
           "slogan": "The Seasiders",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1956
-          },
+          "foundingDate": "1956",
 
           "identifier": {
             "@type": "URL",
@@ -1850,8 +1881,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7658.png",
-            "caption": "Marske United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7658.png",
+            "caption": "Crest of the football team Marske United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       }
@@ -1875,7 +1908,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Alder Street",
           "addressLocality": "Manchester",
-          "postalCode": "M46 9FJ"
+          "postalCode": "M46 9FJ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2500,
         "latitude": 53.523522,
@@ -1884,10 +1918,7 @@
           "@type": "SportsTeam",
           "name": "Atherton Collieries",
           "slogan": "The Colls",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1916
-          },
+          "foundingDate": "1916",
 
           "identifier": {
             "@type": "URL",
@@ -1896,8 +1927,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7694.png",
-            "caption": "Atherton Collieries crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7694.png",
+            "caption": "Crest of the football team Atherton Collieries",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1910,9 +1943,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Oldham",
-          "postalCode": "OL1 2PA"
+          "addressRegion": "Lancashire",
+          "postalCode": "OL1 2PA",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 13513,
         "latitude": 53.555148,
@@ -1921,10 +1955,7 @@
           "@type": "SportsTeam",
           "name": "Oldham Athletic",
           "slogan": "The Latics",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1895
-          },
+          "foundingDate": "1895",
 
           "identifier": {
             "@type": "URL",
@@ -1933,8 +1964,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1349.png",
-            "caption": "Oldham Athletic crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1349.png",
+            "caption": "Crest of the football team Oldham Athletic",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1949,7 +1982,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Mottram Road",
           "addressLocality": "Stalybridge",
-          "postalCode": "SK15 2RT"
+          "postalCode": "SK15 2RT",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6500,
         "latitude": 53.475337,
@@ -1958,10 +1992,7 @@
           "@type": "SportsTeam",
           "name": "Stalybridge Celtic",
           "slogan": "The Celts",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1909
-          },
+          "foundingDate": "1909",
 
           "identifier": {
             "@type": "URL",
@@ -1970,8 +2001,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7749.png",
-            "caption": "Stalybridge Celtic crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7749.png",
+            "caption": "Crest of the football team Stalybridge Celtic",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -1986,7 +2019,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Lightbowne Road",
           "addressLocality": "Moston",
-          "postalCode": "M40 0FJ"
+          "postalCode": "M40 0FJ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4700,
         "latitude": 53.516649,
@@ -1995,10 +2029,7 @@
           "@type": "SportsTeam",
           "name": "FC United of Manchester",
           "slogan": "The Reds",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2005
-          },
+          "foundingDate": "2005",
 
           "identifier": {
             "@type": "URL",
@@ -2007,8 +2038,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7754.png",
-            "caption": "FC United of Manchester crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7754.png",
+            "caption": "Crest of the football team FC United of Manchester",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2022,9 +2055,9 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Warrington",
-          "postalCode": "WA4 2RS"
+          "postalCode": "WA4 2RS",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2550,
         "latitude": 53.377071,
@@ -2033,10 +2066,7 @@
           "@type": "SportsTeam",
           "name": "Warrington Town",
           "slogan": "The Wire",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1949
-          },
+          "foundingDate": "1949",
 
           "identifier": {
             "@type": "URL",
@@ -2045,8 +2075,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7756.png",
-            "caption": "Warrington Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7756.png",
+            "caption": "Crest of the football team Warrington Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2061,7 +2093,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Bumpers Lane",
           "addressLocality": "Chester",
-          "postalCode": "CH1 4LT"
+          "addressRegion": "Cheshire",
+          "postalCode": "CH1 4LT",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6500,
         "latitude": 53.189215,
@@ -2070,10 +2104,7 @@
           "@type": "SportsTeam",
           "name": "Chester",
           "slogan": "The Seals",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2010
-          },
+          "foundingDate": "2010",
 
           "identifier": {
             "@type": "URL",
@@ -2082,8 +2113,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1820.png",
-            "caption": "Chester crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1820.png",
+            "caption": "Crest of the football team Chester",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2099,7 +2132,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Walker Lane",
           "addressLocality": "Hyde",
-          "postalCode": "SK14 5PL"
+          "postalCode": "SK14 5PL",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4250,
         "latitude": 53.450616,
@@ -2108,10 +2142,7 @@
           "@type": "SportsTeam",
           "name": "Hyde United",
           "slogan": "The Tigers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1919
-          },
+          "foundingDate": "1919",
 
           "identifier": {
             "@type": "URL",
@@ -2120,8 +2151,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4694.png",
-            "caption": "Hyde United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4694.png",
+            "caption": "Crest of the football team Hyde United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2136,7 +2169,8 @@
           "@type": "PostalAddress",
           "streetAddress": "West Road",
           "addressLocality": "Lancaster",
-          "postalCode": "LA1 5PE"
+          "postalCode": "LA1 5PE",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3513,
         "latitude": 54.051038,
@@ -2145,10 +2179,7 @@
           "@type": "SportsTeam",
           "name": "Lancaster City",
           "slogan": "The Dolly Blues",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1911
-          },
+          "foundingDate": "1911",
 
           "identifier": {
             "@type": "URL",
@@ -2157,8 +2188,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7726.png",
-            "caption": "Lancaster City crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7726.png",
+            "caption": "Crest of the football team Lancaster City",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2173,7 +2206,8 @@
           "@type": "PostalAddress",
           "streetAddress": "84 Gorsey Lane",
           "addressLocality": "Warrington",
-          "postalCode": "WA2 7SH"
+          "postalCode": "WA2 7SH",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 1345,
         "latitude": 53.4004,
@@ -2182,10 +2216,7 @@
           "@type": "SportsTeam",
           "name": "Warrington Rylands 1906",
           "slogan": "The Blues",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1906
-          },
+          "foundingDate": "1906",
 
           "identifier": {
             "@type": "URL",
@@ -2194,8 +2225,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8918.png",
-            "caption": "Warrington Rylands 1906 crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8918.png",
+            "caption": "Crest of the football team Warrington Rylands 1906",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2211,7 +2244,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Haig Avenue",
           "addressLocality": "Southport",
-          "postalCode": "PR8 6JZ"
+          "addressRegion": "Lancashire",
+          "postalCode": "PR8 6JZ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6008,
         "latitude": 53.638109,
@@ -2220,10 +2255,7 @@
           "@type": "SportsTeam",
           "name": "Southport",
           "slogan": "The Sandgrounders",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1881
-          },
+          "foundingDate": "1881",
 
           "identifier": {
             "@type": "URL",
@@ -2232,8 +2264,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1826.png",
-            "caption": "Southport crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1826.png",
+            "caption": "Crest of the football team Southport",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2248,7 +2282,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Surrey Street",
           "addressLocality": "Ashton-under-Lyne",
-          "postalCode": "OL6 8DY"
+          "postalCode": "OL6 8DY",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4250,
         "latitude": 53.501301,
@@ -2257,10 +2292,7 @@
           "@type": "SportsTeam",
           "name": "Ashton United",
           "slogan": "The Robins",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1878
-          },
+          "foundingDate": "1878",
 
           "identifier": {
             "@type": "URL",
@@ -2269,8 +2301,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7693.png",
-            "caption": "Ashton United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7693.png",
+            "caption": "Crest of the football team Ashton United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2283,9 +2317,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Wesham",
-          "postalCode": "PR4 3JZ"
+          "addressRegion": "Lancashire",
+          "postalCode": "PR4 3JZ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6000,
         "latitude": 53.797367,
@@ -2294,10 +2329,7 @@
           "@type": "SportsTeam",
           "name": "AFC Fylde",
           "slogan": "The Coasters",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1988
-          },
+          "foundingDate": "1988",
 
           "identifier": {
             "@type": "URL",
@@ -2306,8 +2338,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1839.png",
-            "caption": "AFC Fylde crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1839.png",
+            "caption": "Crest of the football team AFC Fylde",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2323,7 +2357,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Moss Lane",
           "addressLocality": "Altrincham",
-          "postalCode": "WA15 8AP"
+          "addressRegion": "Cheshire",
+          "postalCode": "WA15 8AP",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 7873,
         "latitude": 53.383434,
@@ -2332,10 +2368,7 @@
           "@type": "SportsTeam",
           "name": "Altrincham",
           "slogan": "The Robins",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1891
-          },
+          "foundingDate": "1891",
 
           "identifier": {
             "@type": "URL",
@@ -2344,8 +2377,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4700.png",
-            "caption": "Altrincham crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4700.png",
+            "caption": "Crest of the football team Altrincham",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2361,7 +2396,8 @@
           "@type": "PostalAddress",
           "streetAddress": "College Road",
           "addressLocality": "Liverpool",
-          "postalCode": "L23 3AS"
+          "postalCode": "L23 3AS",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2150,
         "latitude": 53.485173,
@@ -2370,10 +2406,7 @@
           "@type": "SportsTeam",
           "name": "Marine AFC",
           "slogan": "The Mariners",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1894
-          },
+          "foundingDate": "1894",
 
           "identifier": {
             "@type": "URL",
@@ -2382,8 +2415,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7656.png",
-            "caption": "Marine AFC crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7656.png",
+            "caption": "Crest of the football team Marine AFC",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2398,7 +2433,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Brownedge Road",
           "addressLocality": "Preston",
-          "postalCode": "PR5 6UU"
+          "postalCode": "PR5 6UU",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3000,
         "latitude": 53.727892,
@@ -2407,10 +2443,7 @@
           "@type": "SportsTeam",
           "name": "Bamber Bridge",
           "slogan": "The Brig",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1952
-          },
+          "foundingDate": "1952",
 
           "identifier": {
             "@type": "URL",
@@ -2419,8 +2452,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7695.png",
-            "caption": "Bamber Bridge crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7695.png",
+            "caption": "Crest of the football team Bamber Bridge",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2434,9 +2469,9 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Radcliffe",
-          "postalCode": "M26 3TQ"
+          "postalCode": "M26 3TQ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4080,
         "latitude": 53.567592,
@@ -2445,10 +2480,7 @@
           "@type": "SportsTeam",
           "name": "Radcliffe",
           "slogan": "The Boro",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1949
-          },
+          "foundingDate": "1949",
 
           "identifier": {
             "@type": "URL",
@@ -2457,8 +2489,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7740.png",
-            "caption": "Radcliffe crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7740.png",
+            "caption": "Crest of the football team Radcliffe",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2473,7 +2507,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Richmond Street",
           "addressLocality": "Ashton-under-Lyne",
-          "postalCode": "OL7 9HG"
+          "addressRegion": "Lancashire",
+          "postalCode": "OL7 9HG",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4200,
         "latitude": 53.494258,
@@ -2482,10 +2518,7 @@
           "@type": "SportsTeam",
           "name": "Curzon Ashton",
           "slogan": "The Nash",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1963
-          },
+          "foundingDate": "1963",
 
           "identifier": {
             "@type": "URL",
@@ -2494,8 +2527,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4703.png",
-            "caption": "Curzon Ashton crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4703.png",
+            "caption": "Crest of the football team Curzon Ashton",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2511,7 +2546,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Duke Street",
           "addressLocality": "Chorley",
-          "postalCode": "PR7 3DU"
+          "addressRegion": "Lancashire",
+          "postalCode": "PR7 3DU",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4300,
         "latitude": 53.645567,
@@ -2520,10 +2557,7 @@
           "@type": "SportsTeam",
           "name": "Chorley",
           "slogan": "The Magpies",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1883
-          },
+          "foundingDate": "1883",
 
           "identifier": {
             "@type": "URL",
@@ -2532,8 +2566,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4679.png",
-            "caption": "Chorley crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4679.png",
+            "caption": "Crest of the football team Chorley",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2547,9 +2583,9 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Nantwich",
-          "postalCode": "CW5 5BS"
+          "postalCode": "CW5 5BS",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3500,
         "latitude": 53.072687,
@@ -2558,10 +2594,7 @@
           "@type": "SportsTeam",
           "name": "Nantwich Town",
           "slogan": "The Dabbers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1884
-          },
+          "foundingDate": "1884",
 
           "identifier": {
             "@type": "URL",
@@ -2570,8 +2603,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4697.png",
-            "caption": "Nantwich Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4697.png",
+            "caption": "Crest of the football team Nantwich Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       }
@@ -2592,9 +2627,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Slough",
-          "postalCode": "SL2 5AY"
+          "addressRegion": "Buckinghamshire",
+          "postalCode": "SL2 5AY",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2000,
         "latitude": 51.5198622,
@@ -2603,10 +2639,7 @@
           "@type": "SportsTeam",
           "name": "Slough Town",
           "slogan": "The Rebels",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1890
-          },
+          "foundingDate": "1890",
 
           "identifier": {
             "@type": "URL",
@@ -2615,8 +2648,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4685.png",
-            "caption": "Slough Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4685.png",
+            "caption": "Crest of the football team Slough Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2631,7 +2666,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Bulpit Lane",
           "addressLocality": "Hungerford",
-          "postalCode": "RG17 0AY"
+          "addressRegion": "Berkshire",
+          "postalCode": "RG17 0AY",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3034,
         "latitude": 51.408934,
@@ -2640,10 +2677,7 @@
           "@type": "SportsTeam",
           "name": "Hungerford Town",
           "slogan": "The Crusaders",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1886
-          },
+          "foundingDate": "1886",
 
           "identifier": {
             "@type": "URL",
@@ -2652,8 +2686,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8661.png",
-            "caption": "Hungerford Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8661.png",
+            "caption": "Crest of the football team Hungerford Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2667,9 +2703,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Folkestone",
-          "postalCode": "CT19 5JU"
+          "addressRegion": "Kent",
+          "postalCode": "CT19 5JU",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4000,
         "latitude": 51.086574,
@@ -2678,10 +2715,7 @@
           "@type": "SportsTeam",
           "name": "Folkestone Invicta",
           "slogan": "The Seasiders",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1936
-          },
+          "foundingDate": "1936",
 
           "identifier": {
             "@type": "URL",
@@ -2690,8 +2724,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7716.png",
-            "caption": "Folkestone Invicta crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7716.png",
+            "caption": "Crest of the football team Folkestone Invicta",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2707,7 +2743,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Cherrywood Road",
           "addressLocality": "Farnborough",
-          "postalCode": "GU14 8UD"
+          "addressRegion": "Hampshire",
+          "postalCode": "GU14 8UD",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 7000,
         "latitude": 51.310449,
@@ -2716,10 +2754,7 @@
           "@type": "SportsTeam",
           "name": "Farnborough",
           "slogan": "Boro",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1967
-          },
+          "foundingDate": "1967",
 
           "identifier": {
             "@type": "URL",
@@ -2728,8 +2763,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7715.png",
-            "caption": "Farnborough crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7715.png",
+            "caption": "Crest of the football team Farnborough",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2744,7 +2781,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Lewisham Road",
           "addressLocality": "Dover",
-          "postalCode": "CT17 0QJ"
+          "addressRegion": "Kent",
+          "postalCode": "CT17 0QJ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 5745,
         "latitude": 51.137804,
@@ -2753,10 +2792,7 @@
           "@type": "SportsTeam",
           "name": "Dover Athletic",
           "slogan": "The Whites",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1983
-          },
+          "foundingDate": "1983",
 
           "identifier": {
             "@type": "URL",
@@ -2765,8 +2801,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1829.png",
-            "caption": "Dover Athletic crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1829.png",
+            "caption": "Crest of the football team Dover Athletic",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2781,7 +2819,9 @@
           "@type": "PostalAddress",
           "streetAddress": "James Whatman Way",
           "addressLocality": "Maidstone",
-          "postalCode": "ME14 1LQ"
+          "addressRegion": "Kent",
+          "postalCode": "ME14 1LQ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4200,
         "latitude": 51.28002,
@@ -2790,10 +2830,7 @@
           "@type": "SportsTeam",
           "name": "Maidstone United",
           "slogan": "The Stones",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1992
-          },
+          "foundingDate": "1992",
 
           "identifier": {
             "@type": "URL",
@@ -2802,8 +2839,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1825.png",
-            "caption": "Maidstone United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1825.png",
+            "caption": "Crest of the football team Maidstone United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2818,7 +2857,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Tivoli Park Avenue",
           "addressLocality": "Margate",
-          "postalCode": "CT9 5QY"
+          "addressRegion": "Kent",
+          "postalCode": "CT9 5QY",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2100,
         "latitude": 51.380459,
@@ -2827,10 +2868,7 @@
           "@type": "SportsTeam",
           "name": "Margate",
           "slogan": "The Gate",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1896
-          },
+          "foundingDate": "1896",
 
           "identifier": {
             "@type": "URL",
@@ -2839,8 +2877,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7730.png",
-            "caption": "Margate crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7730.png",
+            "caption": "Crest of the football team Margate",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2856,7 +2896,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Worthing Road",
           "addressLocality": "Horsham",
-          "postalCode": "RH13 0AD"
+          "addressRegion": "Sussex",
+          "postalCode": "RH13 0AD",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 1980,
         "latitude": 51.046893,
@@ -2865,10 +2907,7 @@
           "@type": "SportsTeam",
           "name": "Horsham",
           "slogan": "The Hornets",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1871
-          },
+          "foundingDate": "1871",
 
           "identifier": {
             "@type": "URL",
@@ -2877,8 +2916,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7723.png",
-            "caption": "Horsham crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7723.png",
+            "caption": "Crest of the football team Horsham",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2894,7 +2935,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Kingfield Road",
           "addressLocality": "Woking",
-          "postalCode": "GU22 9AA"
+          "addressRegion": "Surrey",
+          "postalCode": "GU22 9AA",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6036,
         "latitude": 51.306298,
@@ -2903,10 +2946,7 @@
           "@type": "SportsTeam",
           "name": "Woking",
           "slogan": "The Cardinals",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1887
-          },
+          "foundingDate": "1887",
 
           "identifier": {
             "@type": "URL",
@@ -2915,8 +2955,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1836.png",
-            "caption": "Woking crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1836.png",
+            "caption": "Crest of the football team Woking",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2932,7 +2974,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Darenth Avenue",
           "addressLocality": "Tonbridge",
-          "postalCode": "TN10 3JW"
+          "addressRegion": "Kent",
+          "postalCode": "TN10 3JW",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3000,
         "latitude": 51.211531,
@@ -2941,10 +2985,7 @@
           "@type": "SportsTeam",
           "name": "Tonbridge Angels",
           "slogan": "The Angels",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1947
-          },
+          "foundingDate": "1947",
 
           "identifier": {
             "@type": "URL",
@@ -2953,8 +2994,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8662.png",
-            "caption": "Tonbridge Angels crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8662.png",
+            "caption": "Crest of the football team Tonbridge Angels",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -2967,9 +3010,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Oxford",
-          "postalCode": "OX3 0NQ"
+          "addressRegion": "Oxfordshire",
+          "postalCode": "OX3 0NQ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3500,
         "latitude": 51.773923,
@@ -2978,10 +3022,7 @@
           "@type": "SportsTeam",
           "name": "Oxford City",
           "slogan": "The Hoops",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1882
-          },
+          "foundingDate": "1882",
 
           "identifier": {
             "@type": "URL",
@@ -2990,8 +3031,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1338.png",
-            "caption": "Oxford City crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1338.png",
+            "caption": "Crest of the football team Oxford City",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3006,7 +3049,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Mill Lane",
           "addressLocality": "Dorking",
-          "postalCode": "RH4 1DX"
+          "addressRegion": "Surrey",
+          "postalCode": "RH4 1DX",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3000,
         "latitude": 51.234444,
@@ -3015,10 +3060,7 @@
           "@type": "SportsTeam",
           "name": "Dorking Wanderers",
           "slogan": "The Wanderers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1999
-          },
+          "foundingDate": "1999",
 
           "identifier": {
             "@type": "URL",
@@ -3027,8 +3069,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8659.png",
-            "caption": "Dorking Wanderers crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8659.png",
+            "caption": "Crest of the football team Dorking Wanderers",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3041,9 +3085,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Bognor Regis",
-          "postalCode": "PO21 2TY"
+          "addressRegion": "Sussex",
+          "postalCode": "PO21 2TY",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4500,
         "latitude": 50.786982,
@@ -3052,10 +3097,7 @@
           "@type": "SportsTeam",
           "name": "Bognor Regis Town",
           "slogan": "The Rocks",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1883
-          },
+          "foundingDate": "1883",
 
           "identifier": {
             "@type": "URL",
@@ -3064,8 +3106,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7703.png",
-            "caption": "Bognor Regis Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7703.png",
+            "caption": "Crest of the football team Bognor Regis Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3078,9 +3122,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Dartford",
-          "postalCode": "DA1 1RT"
+          "addressRegion": "Kent",
+          "postalCode": "DA1 1RT",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4100,
         "latitude": 51.437182,
@@ -3089,10 +3134,7 @@
           "@type": "SportsTeam",
           "name": "Dartford",
           "slogan": "The Darts",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1888
-          },
+          "foundingDate": "1888",
 
           "identifier": {
             "@type": "URL",
@@ -3101,8 +3143,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4690.png",
-            "caption": "Dartford crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4690.png",
+            "caption": "Crest of the football team Dartford",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3117,7 +3161,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Priory Lane",
           "addressLocality": "Eastbourne",
-          "postalCode": "BN23 7QH"
+          "addressRegion": "East Sussex",
+          "postalCode": "BN23 7QH",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 7000,
         "latitude": 50.80417,
@@ -3126,10 +3172,7 @@
           "@type": "SportsTeam",
           "name": "Eastbourne Borough",
           "slogan": "The Sports",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1954
-          },
+          "foundingDate": "1954",
 
           "identifier": {
             "@type": "URL",
@@ -3138,8 +3181,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4704.png",
-            "caption": "Eastbourne Borough crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4704.png",
+            "caption": "Crest of the football team Eastbourne Borough",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3155,7 +3200,9 @@
           "@type": "PostalAddress",
           "streetAddress": "High Street",
           "addressLocality": "Aldershot",
-          "postalCode": "GU11 1TW"
+          "addressRegion": "Hampshire",
+          "postalCode": "GU11 1TW",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 7100,
         "latitude": 51.248415,
@@ -3164,10 +3211,7 @@
           "@type": "SportsTeam",
           "name": "Aldershot Town",
           "slogan": "The Shots",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1992
-          },
+          "foundingDate": "1992",
 
           "identifier": {
             "@type": "URL",
@@ -3176,8 +3220,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1818.png",
-            "caption": "Aldershot Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1818.png",
+            "caption": "Crest of the football team Aldershot Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3193,7 +3239,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Station Approach",
           "addressLocality": "Banbury",
-          "postalCode": "OX16 5AB"
+          "addressRegion": "Northamptonshire",
+          "postalCode": "OX16 5AB",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6500,
         "latitude": 52.056796,
@@ -3202,10 +3250,7 @@
           "@type": "SportsTeam",
           "name": "Banbury United",
           "slogan": "The Puritans",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1931
-          },
+          "foundingDate": "1931",
 
           "identifier": {
             "@type": "URL",
@@ -3214,8 +3259,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7696.png",
-            "caption": "Banbury United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7696.png",
+            "caption": "Crest of the football team Banbury United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3229,9 +3276,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Northfleet",
-          "postalCode": "DA11 9GN"
+          "addressRegion": "Kent",
+          "postalCode": "DA11 9GN",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4769,
         "latitude": 51.449556,
@@ -3240,10 +3288,7 @@
           "@type": "SportsTeam",
           "name": "Ebbsfleet United",
           "slogan": "The Fleet",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1946
-          },
+          "foundingDate": "1946",
 
           "identifier": {
             "@type": "URL",
@@ -3252,8 +3297,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1840.png",
-            "caption": "Ebbsfleet United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1840.png",
+            "caption": "Crest of the football team Ebbsfleet United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3269,7 +3316,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Stoneham Lane",
           "addressLocality": "Eastleigh",
-          "postalCode": "SO50 9HT"
+          "addressRegion": "Hampshire",
+          "postalCode": "SO50 9HT",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 5192,
         "latitude": 50.95229,
@@ -3278,10 +3327,7 @@
           "@type": "SportsTeam",
           "name": "Eastleigh",
           "slogan": "The Spitfires",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1946
-          },
+          "foundingDate": "1946",
 
           "identifier": {
             "@type": "URL",
@@ -3290,8 +3336,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1822.png",
-            "caption": "Eastleigh crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1822.png",
+            "caption": "Crest of the football team Eastleigh",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3306,7 +3354,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Mountfield Road",
           "addressLocality": "Lewes",
-          "postalCode": "BN7 2XA"
+          "addressRegion": "Sussex",
+          "postalCode": "BN7 2XA",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3000,
         "latitude": 50.869019,
@@ -3315,10 +3365,7 @@
           "@type": "SportsTeam",
           "name": "Lewes",
           "slogan": "The Rooks",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1885
-          },
+          "foundingDate": "1885",
 
           "identifier": {
             "@type": "URL",
@@ -3327,8 +3374,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7728.png",
-            "caption": "Lewes crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7728.png",
+            "caption": "Crest of the football team Lewes",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3343,7 +3392,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Elphinstone Road",
           "addressLocality": "Hastings",
-          "postalCode": "TN34 2AX"
+          "addressRegion": "Sussex",
+          "postalCode": "TN34 2AX",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4050,
         "latitude": 50.874501,
@@ -3351,11 +3402,8 @@
         "subOrganization": {
           "@type": "SportsTeam",
           "name": "Hastings United",
-          "slogan": "The U&amp;#39;s",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1893
-          },
+          "slogan": "The U's",
+          "foundingDate": "1893",
 
           "identifier": {
             "@type": "URL",
@@ -3364,8 +3412,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7231.png",
-            "caption": "Hastings United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7231.png",
+            "caption": "Crest of the football team Hastings United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3381,19 +3431,18 @@
           "@type": "PostalAddress",
           "streetAddress": "Martin Road",
           "addressLocality": "Havant",
-          "postalCode": "PO9 5TH"
+          "addressRegion": "Hampshire",
+          "postalCode": "PO9 5TH",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 5300,
         "latitude": 50.867087,
         "longitude": -0.974097,
         "subOrganization": {
           "@type": "SportsTeam",
-          "name": "Havant &amp; Waterlooville",
+          "name": "Havant & Waterlooville",
           "slogan": "The Hawks",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1998
-          },
+          "foundingDate": "1998",
 
           "identifier": {
             "@type": "URL",
@@ -3402,8 +3451,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1843.png",
-            "caption": "Havant & Waterlooville crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1843.png",
+            "caption": "Crest of the football team Havant & Waterlooville",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3419,7 +3470,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Stanley Gardens",
           "addressLocality": "Herne Bay",
-          "postalCode": "CT6 5SG"
+          "addressRegion": "Kent",
+          "postalCode": "CT6 5SG",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3000,
         "latitude": 51.364685,
@@ -3428,10 +3481,7 @@
           "@type": "SportsTeam",
           "name": "Herne Bay",
           "slogan": "The Bay",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1886
-          },
+          "foundingDate": "1886",
 
           "identifier": {
             "@type": "URL",
@@ -3440,8 +3490,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7232.png",
-            "caption": "Herne Bay crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7232.png",
+            "caption": "Crest of the football team Herne Bay",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3457,7 +3509,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Woodside Road",
           "addressLocality": "Worthing",
-          "postalCode": "BN14 7HQ"
+          "addressRegion": "West Sussex",
+          "postalCode": "BN14 7HQ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4000,
         "latitude": 50.82034,
@@ -3466,10 +3520,7 @@
           "@type": "SportsTeam",
           "name": "Worthing",
           "slogan": "The Rebels",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1886
-          },
+          "foundingDate": "1886",
 
           "identifier": {
             "@type": "URL",
@@ -3478,8 +3529,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7661.png",
-            "caption": "Worthing crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7661.png",
+            "caption": "Crest of the football team Worthing",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3492,9 +3545,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Maidenhead",
-          "postalCode": "SL6 1SF"
+          "addressRegion": "Berkshire",
+          "postalCode": "SL6 1SF",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4000,
         "latitude": 51.519889,
@@ -3503,10 +3557,7 @@
           "@type": "SportsTeam",
           "name": "Maidenhead United",
           "slogan": "The Magpies",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1870
-          },
+          "foundingDate": "1870",
 
           "identifier": {
             "@type": "URL",
@@ -3515,8 +3566,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1838.png",
-            "caption": "Maidenhead United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1838.png",
+            "caption": "Crest of the football team Maidenhead United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       }
@@ -3539,7 +3592,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Radipole Lane",
           "addressLocality": "Worthing",
-          "postalCode": "DT4 9XJ"
+          "addressRegion": "Dorset",
+          "postalCode": "DT4 9XJ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6600,
         "latitude": 50.619895,
@@ -3548,10 +3603,7 @@
           "@type": "SportsTeam",
           "name": "Weymouth",
           "slogan": "The Terras",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1890
-          },
+          "foundingDate": "1890",
 
           "identifier": {
             "@type": "URL",
@@ -3560,8 +3612,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8665.png",
-            "caption": "Weymouth crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8665.png",
+            "caption": "Crest of the football team Weymouth",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3577,7 +3631,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Wordsworth Drive",
           "addressLocality": "Taunton",
-          "postalCode": "TA1 2HG"
+          "addressRegion": "Somerset",
+          "postalCode": "TA1 2HG",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2500,
         "latitude": 51.016716,
@@ -3586,10 +3642,7 @@
           "@type": "SportsTeam",
           "name": "Taunton Town",
           "slogan": "The Peacocks",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1947
-          },
+          "foundingDate": "1947",
 
           "identifier": {
             "@type": "URL",
@@ -3598,8 +3651,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4711.png",
-            "caption": "Taunton Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4711.png",
+            "caption": "Crest of the football team Taunton Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3614,7 +3669,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Bristol Road",
           "addressLocality": "Chippenham",
-          "postalCode": "SN14 6LR"
+          "addressRegion": "Wiltshire",
+          "postalCode": "SN14 6LR",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3000,
         "latitude": 51.465604,
@@ -3623,10 +3680,7 @@
           "@type": "SportsTeam",
           "name": "Chippenham Town",
           "slogan": "The Bluebirds",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1873
-          },
+          "foundingDate": "1873",
 
           "identifier": {
             "@type": "URL",
@@ -3635,8 +3689,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8147.png",
-            "caption": "Chippenham Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8147.png",
+            "caption": "Crest of the football team Chippenham Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3649,9 +3705,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Yeovil",
-          "postalCode": "BA22 8YF"
+          "addressRegion": "Somerset",
+          "postalCode": "BA22 8YF",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 9565,
         "latitude": 50.950234,
@@ -3660,10 +3717,7 @@
           "@type": "SportsTeam",
           "name": "Yeovil Town",
           "slogan": "The Glovers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1895
-          },
+          "foundingDate": "1895",
 
           "identifier": {
             "@type": "URL",
@@ -3672,8 +3726,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1377.png",
-            "caption": "Yeovil Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1377.png",
+            "caption": "Crest of the football team Yeovil Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3689,7 +3745,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Sudmeadow Road",
           "addressLocality": "Hempsted",
-          "postalCode": "GL2 5HS"
+          "addressRegion": "Gloucestershire",
+          "postalCode": "GL2 5HS",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4000,
         "latitude": 51.860324,
@@ -3698,10 +3756,7 @@
           "@type": "SportsTeam",
           "name": "Gloucester City AFC",
           "slogan": "The Tigers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1883
-          },
+          "foundingDate": "1883",
 
           "identifier": {
             "@type": "URL",
@@ -3710,8 +3765,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8653.png",
-            "caption": "Gloucester City AFC crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8653.png",
+            "caption": "Crest of the football team Gloucester City AFC",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3726,7 +3783,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Marnham Road",
           "addressLocality": "Torquay",
-          "postalCode": "TQ1 3PS"
+          "addressRegion": "Devon",
+          "postalCode": "TQ1 3PS",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6104,
         "latitude": 50.476389,
@@ -3735,10 +3794,7 @@
           "@type": "SportsTeam",
           "name": "Torquay United AFC",
           "slogan": "The Gulls",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1899
-          },
+          "foundingDate": "1899",
 
           "identifier": {
             "@type": "URL",
@@ -3747,8 +3803,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1827.png",
-            "caption": "Torquay United AFC crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1827.png",
+            "caption": "Crest of the football team Torquay United AFC",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3763,7 +3821,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Dominion Road",
           "addressLocality": "Bath",
-          "postalCode": "BA2 1DB"
+          "addressRegion": "Somerset",
+          "postalCode": "BA2 1DB",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3528,
         "latitude": 51.378847,
@@ -3772,10 +3832,7 @@
           "@type": "SportsTeam",
           "name": "Bath City",
           "slogan": "The Romans",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1889
-          },
+          "foundingDate": "1889",
 
           "identifier": {
             "@type": "URL",
@@ -3784,8 +3841,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8657.png",
-            "caption": "Bath City crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8657.png",
+            "caption": "Crest of the football team Bath City",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       }
@@ -3808,7 +3867,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Mold Road",
           "addressLocality": "Wrexham",
-          "postalCode": "LL11 2AH"
+          "addressRegion": "Denbighshire",
+          "postalCode": "LL11 2AH",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 10771,
         "latitude": 53.051961,
@@ -3817,10 +3878,7 @@
           "@type": "SportsTeam",
           "name": "Wrexham AFC",
           "slogan": "The Red Dragons",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1864
-          },
+          "foundingDate": "1864",
 
           "identifier": {
             "@type": "URL",
@@ -3829,8 +3887,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1837.png",
-            "caption": "Wrexham AFC crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1837.png",
+            "caption": "Crest of the football team Wrexham AFC",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       }
@@ -3853,7 +3913,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Hoo Road",
           "addressLocality": "Kidderminster",
-          "postalCode": "DY10 1NB"
+          "addressRegion": "Worcestershire",
+          "postalCode": "DY10 1NB",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6238,
         "latitude": 52.380496,
@@ -3862,10 +3924,7 @@
           "@type": "SportsTeam",
           "name": "Kidderminster Harriers",
           "slogan": "The Kiddy",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1886
-          },
+          "foundingDate": "1886",
 
           "identifier": {
             "@type": "URL",
@@ -3874,8 +3933,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4695.png",
-            "caption": "Kidderminster Harriers crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4695.png",
+            "caption": "Crest of the football team Kidderminster Harriers",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3891,7 +3952,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Damson Parkway",
           "addressLocality": "Solihull",
-          "postalCode": "B92 8PS"
+          "addressRegion": "Warwickshire",
+          "postalCode": "B92 8PS",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4510,
         "latitude": 52.43892,
@@ -3900,10 +3963,7 @@
           "@type": "SportsTeam",
           "name": "Solihull Moors",
           "slogan": "The Moors",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2007
-          },
+          "foundingDate": "2007",
 
           "identifier": {
             "@type": "URL",
@@ -3912,8 +3972,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1834.png",
-            "caption": "Solihull Moors crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1834.png",
+            "caption": "Crest of the football team Solihull Moors",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3926,9 +3988,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Hereford",
-          "postalCode": "HR4 9JU"
+          "addressRegion": "Herefordshire",
+          "postalCode": "HR4 9JU",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4913,
         "latitude": 52.06073,
@@ -3937,10 +4000,7 @@
           "@type": "SportsTeam",
           "name": "Hereford",
           "slogan": "The Bulls",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2014
-          },
+          "foundingDate": "2014",
 
           "identifier": {
             "@type": "URL",
@@ -3949,8 +4009,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4692.png",
-            "caption": "Hereford crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4692.png",
+            "caption": "Crest of the football team Hereford",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -3963,9 +4025,9 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Stafford",
-          "postalCode": "ST16 3BX"
+          "postalCode": "ST16 3BX",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4000,
         "latitude": 52.818555,
@@ -3974,10 +4036,7 @@
           "@type": "SportsTeam",
           "name": "Stafford Rangers",
           "slogan": "The Rangers",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1876
-          },
+          "foundingDate": "1876",
 
           "identifier": {
             "@type": "URL",
@@ -3986,8 +4045,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7748.png",
-            "caption": "Stafford Rangers crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7748.png",
+            "caption": "Crest of the football team Stafford Rangers",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -4002,7 +4063,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Haybridge Road",
           "addressLocality": "Wellington",
-          "postalCode": "TF1 2NW"
+          "addressRegion": "Shropshire",
+          "postalCode": "TF1 2NW",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 6400,
         "latitude": 52.697376,
@@ -4011,10 +4074,7 @@
           "@type": "SportsTeam",
           "name": "AFC Telford United",
           "slogan": "The Bucks",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2004
-          },
+          "foundingDate": "2004",
 
           "identifier": {
             "@type": "URL",
@@ -4023,8 +4083,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/4688.png",
-            "caption": "AFC Telford United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/4688.png",
+            "caption": "Crest of the football team AFC Telford United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -4039,7 +4101,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Harbury Lane",
           "addressLocality": "Leamington Spa",
-          "postalCode": "CV33 9SA"
+          "addressRegion": "Warwickshire",
+          "postalCode": "CV33 9SA",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2300,
         "latitude": 52.244306,
@@ -4048,10 +4112,7 @@
           "@type": "SportsTeam",
           "name": "Leamington",
           "slogan": "The Brakes",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1933
-          },
+          "foundingDate": "1933",
 
           "identifier": {
             "@type": "URL",
@@ -4060,8 +4121,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8656.png",
-            "caption": "Leamington crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8656.png",
+            "caption": "Crest of the football team Leamington",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       }
@@ -4084,7 +4147,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Quakers Lane",
           "addressLocality": "Liversedge",
-          "postalCode": "WF15 8DF"
+          "postalCode": "WF15 8DF",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 2000,
         "latitude": 53.717658,
@@ -4093,10 +4157,7 @@
           "@type": "SportsTeam",
           "name": "Liversedge",
           "slogan": "The Sedge",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1910
-          },
+          "foundingDate": "1910",
 
           "identifier": {
             "@type": "URL",
@@ -4105,8 +4166,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8853.png",
-            "caption": "Liversedge crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8853.png",
+            "caption": "Crest of the football team Liversedge",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -4119,9 +4182,10 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "",
           "addressLocality": "Scarborough",
-          "postalCode": "YO11 2JW"
+          "addressRegion": "Yorkshire, North Riding",
+          "postalCode": "YO11 2JW",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3252,
         "latitude": 54.268845,
@@ -4130,10 +4194,7 @@
           "@type": "SportsTeam",
           "name": "Scarborough Athletic",
           "slogan": "The Seadogs",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2007
-          },
+          "foundingDate": "2007",
 
           "identifier": {
             "@type": "URL",
@@ -4142,8 +4203,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7745.png",
-            "caption": "Scarborough Athletic crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7745.png",
+            "caption": "Crest of the football team Scarborough Athletic",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -4158,7 +4221,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Doncaster Road",
           "addressLocality": "Scunthorpe",
-          "postalCode": "DN15 8TD"
+          "postalCode": "DN15 8TD",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 9088,
         "latitude": 53.5866564,
@@ -4167,10 +4231,7 @@
           "@type": "SportsTeam",
           "name": "Scunthorpe United",
           "slogan": "The Iron",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1899
-          },
+          "foundingDate": "1899",
 
           "identifier": {
             "@type": "URL",
@@ -4179,8 +4240,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1340.png",
-            "caption": "Scunthorpe United crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1340.png",
+            "caption": "Crest of the football team Scunthorpe United",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -4195,7 +4258,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Cemetery Road",
           "addressLocality": "Bradford",
-          "postalCode": "BD6 2NG"
+          "addressRegion": "Yorkshire, West Riding",
+          "postalCode": "BD6 2NG",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3500,
         "latitude": 53.758876,
@@ -4204,10 +4269,7 @@
           "@type": "SportsTeam",
           "name": "Bradford (Park Avenue) AFC",
           "slogan": "The Green Army",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1907
-          },
+          "foundingDate": "1907",
 
           "identifier": {
             "@type": "URL",
@@ -4216,8 +4278,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8651.png",
-            "caption": "Bradford (Park Avenue) AFC crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8651.png",
+            "caption": "Crest of the football team Bradford (Park Avenue) AFC",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -4232,7 +4296,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Otley Road",
           "addressLocality": "Guiseley",
-          "postalCode": "LS20 8BT"
+          "postalCode": "LS20 8BT",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 4200,
         "latitude": 53.877202,
@@ -4241,10 +4306,7 @@
           "@type": "SportsTeam",
           "name": "Guiseley AFC",
           "slogan": "The Lions",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1909
-          },
+          "foundingDate": "1909",
 
           "identifier": {
             "@type": "URL",
@@ -4253,8 +4315,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1824.png",
-            "caption": "Guiseley AFC crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1824.png",
+            "caption": "Crest of the football team Guiseley AFC",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -4269,7 +4333,9 @@
           "@type": "PostalAddress",
           "streetAddress": "87 Newlands",
           "addressLocality": "Pudsey",
-          "postalCode": "LS28 5BE"
+          "addressRegion": "Yorkshire, West Riding",
+          "postalCode": "LS28 5BE",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3900,
         "latitude": 53.80972,
@@ -4278,10 +4344,7 @@
           "@type": "SportsTeam",
           "name": "Farsley Celtic",
           "slogan": "The Celt Army",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1908
-          },
+          "foundingDate": "1908",
 
           "identifier": {
             "@type": "URL",
@@ -4290,8 +4353,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/8652.png",
-            "caption": "Farsley Celtic crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/8652.png",
+            "caption": "Crest of the football team Farsley Celtic",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -4306,7 +4371,9 @@
           "@type": "PostalAddress",
           "streetAddress": "Shaw Hill",
           "addressLocality": "Halifax",
-          "postalCode": "HX1 2YT"
+          "addressRegion": "West Yorkshire",
+          "postalCode": "HX1 2YT",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 10401,
         "latitude": 53.716191,
@@ -4315,10 +4382,7 @@
           "@type": "SportsTeam",
           "name": "FC Halifax Town",
           "slogan": "The Shaymen",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 2008
-          },
+          "foundingDate": "2008",
 
           "identifier": {
             "@type": "URL",
@@ -4327,8 +4391,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1841.png",
-            "caption": "FC Halifax Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1841.png",
+            "caption": "Crest of the football team FC Halifax Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -4344,7 +4410,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Upgang Lane",
           "addressLocality": "Whitby",
-          "postalCode": "YO21 3HZ"
+          "postalCode": "YO21 3HZ",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 3500,
         "latitude": 54.489984,
@@ -4353,10 +4420,7 @@
           "@type": "SportsTeam",
           "name": "Whitby Town",
           "slogan": "The Seasiders",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1880
-          },
+          "foundingDate": "1880",
 
           "identifier": {
             "@type": "URL",
@@ -4364,8 +4428,10 @@
           },
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/7757.png",
-            "caption": "Whitby Town crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/7757.png",
+            "caption": "Crest of the football team Whitby Town",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       },
@@ -4381,7 +4447,8 @@
           "@type": "PostalAddress",
           "streetAddress": "Kathyrn Avenue",
           "addressLocality": "York",
-          "postalCode": "YO32 9AF"
+          "postalCode": "YO32 9AF",
+          "addressCountry": "GB"
         },
         "maximumAttendeeCapacity": 8005,
         "latitude": 53.98434,
@@ -4390,10 +4457,7 @@
           "@type": "SportsTeam",
           "name": "York City",
           "slogan": "The Minstermen",
-          "foundingDate": {
-            "@type": "Date",
-            "@value": 1922
-          },
+          "foundingDate": "1922",
 
           "identifier": {
             "@type": "URL",
@@ -4402,8 +4466,10 @@
 
           "logo": {
             "@type": "ImageObject",
-            "contentURL": "https://media.api-sports.io/football/teams/1828.png",
-            "caption": "York City crest"
+            "contentUrl": "https://media.api-sports.io/football/teams/1828.png",
+            "caption": "Crest of the football team York City",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png"
           }
         }
       }
