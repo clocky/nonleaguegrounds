@@ -87,7 +87,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
                   <i class="fab fa-facebook"></i>
                 </span>
                 <span>
-                  {{ url.slice(21) | lower }}
+                  {{- url.slice(21) | lower -}}
                 </span>
               </a>
             {% endif %}
@@ -97,7 +97,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
                   <i class="fab fa-instagram"></i>
                 </span>
                 <span>
-                  {{ url.slice(22) | lower }}
+                  {{- url.slice(22) | lower -}}
                 </span>
               </a>
             {% endif %}
@@ -107,7 +107,11 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
                   <i class="fab fa-youtube"></i>
                 </span>
                 <span>
-                  {{ url.slice(20) | lower }}
+                  {% if url.slice(20, 27) == "channel" %}
+                    YouTube
+                  {% else %}
+                    {{ url.slice(20) | lower }}
+                  {% endif %}
                 </span>
               </a>
             {% endif %}
@@ -116,7 +120,7 @@ https://dev.virtualearth.net/REST/v1/Imagery/Map/Aerial/{{ club.location.latitud
 
       </div>
       <div class="column is-one-third">
-        <figure class="image is-128x128 mb-5">
+        <figure class="image mb-5 is-128x128">
           {% crest club.logo.contentUrl,
           club.logo.caption,
           club.name %}
