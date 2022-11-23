@@ -14,7 +14,6 @@ const purgeCssPlugin = require("eleventy-plugin-purgecss");
 const converter = require("number-to-words");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setQuietMode(true);
   if (process.env.ELEVENTY_ENV === "prod") {
     eleventyConfig.addPlugin(purgeCssPlugin, {
       config: "./purgecss.config.js",
