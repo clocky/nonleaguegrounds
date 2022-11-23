@@ -10,13 +10,11 @@ const distFrom = require("distance-from");
 const { minify } = require("terser");
 const Image = require("@11ty/eleventy-img");
 const slugify = require("slugify");
-const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
 const converter = require("number-to-words");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setQuietMode(true);
-  eleventyConfig.addPlugin(directoryOutputPlugin);
   if (process.env.ELEVENTY_ENV === "prod") {
     eleventyConfig.addPlugin(purgeCssPlugin, {
       config: "./purgecss.config.js",
