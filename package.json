@@ -21,6 +21,10 @@
     "soccer",
     "uk"
   ],
+  "browserslist": [
+    "> 0.25% and not dead",
+    "last 2 versions"
+  ],
   "prettier": {
     "singleQuote": false,
     "trailingComma": "es5",
