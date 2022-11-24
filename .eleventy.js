@@ -6,8 +6,16 @@ const ordinal = require("ordinal");
 const commaNumber = require("comma-number");
 const EleventyFetch = require("@11ty/eleventy-fetch");
 const distFrom = require("distance-from");
+const purgeCssPlugin = require("eleventy-plugin-purgecss");
 
 module.exports = function (eleventyConfig) {
+  if (process.env.ELEVENTY_ENV === "prod") {
+    eleventyConfig.addPlugin(purgeCssPlugin, {
+      config: "./purgecss.config.js",
+      quiet: false,
+    });
+  }
+  
   /** Add loader for YAML files */
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
