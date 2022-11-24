@@ -17,11 +17,11 @@ layout: base.njk
     {% for league in leagues %}
         <h2>{{ league.name | replace(" ", "\n") | nl2br | safe }}</h2>
         <div class="grid">
-            {% for column in league.clubs | batch(6)%}
+            {% for column in league.members | batch(6)%}
                 <ul>
-                    {% for team in column %}
+                    {% for club in column %}
                         <li>
-                            <a href="/club/{{ team.name | slugify }}/">{{ team.name }}</a>
+                            <a href="/{{ league.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
                         </li>
                     {% endfor %}
                 </ul>

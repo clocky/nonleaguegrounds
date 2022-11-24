@@ -19,7 +19,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/league/national-league"
+      "@value": "https://nonleaguegrounds.com/national-league"
     },
     "additionalProperty": {
       "@type": "PropertyValue",
@@ -49,11 +49,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/altrincham"
+          "@value": "https://nonleaguegrounds.com/national-league/altrincham"
         },
         "location": {
           "latitude": 53.383434,
           "longitude": -2.335159
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -76,11 +80,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/aldershot-town"
+          "@value": "https://nonleaguegrounds.com/national-league/aldershot-town"
         },
         "location": {
           "latitude": 51.248415,
           "longitude": -0.754682
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -103,11 +111,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/barnet"
+          "@value": "https://nonleaguegrounds.com/national-league/barnet"
         },
         "location": {
           "latitude": 51.602623,
           "longitude": -0.291743
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -130,11 +142,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/boreham-wood"
+          "@value": "https://nonleaguegrounds.com/national-league/boreham-wood"
         },
         "location": {
           "latitude": 51.661937,
           "longitude": -0.272375
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -159,11 +175,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/bromley"
+          "@value": "https://nonleaguegrounds.com/national-league/bromley"
         },
         "location": {
           "latitude": 51.390084,
           "longitude": 0.021091
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -188,11 +208,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/chesterfield"
+          "@value": "https://nonleaguegrounds.com/national-league/chesterfield"
         },
         "location": {
           "latitude": 53.253583,
           "longitude": -1.425761
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East Midlands"
         }
       },
       {
@@ -215,11 +239,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/dagenham-and-redbridge"
+          "@value": "https://nonleaguegrounds.com/national-league/dagenham-and-redbridge"
         },
         "location": {
           "latitude": 51.547807,
           "longitude": 0.159913
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -244,11 +272,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/dorking-wanderers"
+          "@value": "https://nonleaguegrounds.com/national-league/dorking-wanderers"
         },
         "location": {
           "latitude": 51.234444,
           "longitude": -0.333543
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -271,11 +303,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/eastleigh"
+          "@value": "https://nonleaguegrounds.com/national-league/eastleigh"
         },
         "location": {
           "latitude": 50.95229,
           "longitude": -1.372023
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -298,11 +334,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/fc-halifax-town"
+          "@value": "https://nonleaguegrounds.com/national-league/fc-halifax-town"
         },
         "location": {
           "latitude": 53.716191,
           "longitude": -1.859217
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Yorkshire and The Humber"
         }
       },
       {
@@ -322,11 +362,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/gateshead"
+          "@value": "https://nonleaguegrounds.com/national-league/gateshead"
         },
         "location": {
           "latitude": 54.96102,
           "longitude": -1.57967
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North East"
         }
       },
       {
@@ -349,11 +393,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/maidenhead-united"
+          "@value": "https://nonleaguegrounds.com/national-league/maidenhead-united"
         },
         "location": {
           "latitude": 51.519889,
           "longitude": -0.717968
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -372,11 +420,15 @@
         "url": "https://maidstoneunited.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/maidstone-united"
+          "@value": "https://nonleaguegrounds.com/national-league/maidstone-united"
         },
         "location": {
           "latitude": 51.28002,
           "longitude": 0.516091
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -396,11 +448,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/notts-county"
+          "@value": "https://nonleaguegrounds.com/national-league/notts-county"
         },
         "location": {
           "latitude": 52.942672,
           "longitude": -1.137151
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East Midlands"
         }
       },
       {
@@ -423,11 +479,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/oldham-athletic"
+          "@value": "https://nonleaguegrounds.com/national-league/oldham-athletic"
         },
         "location": {
           "latitude": 53.555148,
           "longitude": -2.128451
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -447,11 +507,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/solihull-moors"
+          "@value": "https://nonleaguegrounds.com/national-league/solihull-moors"
         },
         "location": {
           "latitude": 52.43892,
           "longitude": -1.75719
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "West Midlands"
         }
       },
       {
@@ -471,11 +535,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/southend-united"
+          "@value": "https://nonleaguegrounds.com/national-league/southend-united"
         },
         "location": {
           "latitude": 51.549008,
           "longitude": 0.701608
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -495,11 +563,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/scunthorpe-united"
+          "@value": "https://nonleaguegrounds.com/national-league/scunthorpe-united"
         },
         "location": {
           "latitude": 53.5866564,
           "longitude": -0.6953374
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Yorkshire and The Humber"
         }
       },
       {
@@ -519,11 +591,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/torquay-united-afc"
+          "@value": "https://nonleaguegrounds.com/national-league/torquay-united-afc"
         },
         "location": {
           "latitude": 50.476389,
           "longitude": -3.523874
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South West"
         }
       },
       {
@@ -546,11 +622,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/wealdstone"
+          "@value": "https://nonleaguegrounds.com/national-league/wealdstone"
         },
         "location": {
           "latitude": 51.569398,
           "longitude": -0.416594
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -570,11 +650,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/woking"
+          "@value": "https://nonleaguegrounds.com/national-league/woking"
         },
         "location": {
           "latitude": 51.306298,
           "longitude": -0.558875
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -594,11 +678,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/wrexham-afc"
+          "@value": "https://nonleaguegrounds.com/national-league/wrexham-afc"
         },
         "location": {
           "latitude": 53.051961,
           "longitude": -3.003804
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Wales"
         }
       },
       {
@@ -618,11 +706,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/yeovil-town"
+          "@value": "https://nonleaguegrounds.com/national-league/yeovil-town"
         },
         "location": {
           "latitude": 50.950234,
           "longitude": -2.673974
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South West"
         }
       },
       {
@@ -642,11 +734,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/york-city"
+          "@value": "https://nonleaguegrounds.com/national-league/york-city"
         },
         "location": {
           "latitude": 53.98434,
           "longitude": -1.052927
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Yorkshire and The Humber"
         }
       }
     ]
@@ -671,7 +767,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/league/national-league-north"
+      "@value": "https://nonleaguegrounds.com/national-league-north"
     },
     "additionalProperty": {
       "@type": "PropertyValue",
@@ -696,11 +792,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/afc-fylde"
+          "@value": "https://nonleaguegrounds.com/national-league-north/afc-fylde"
         },
         "location": {
           "latitude": 53.797367,
           "longitude": -2.889497
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -719,11 +819,15 @@
         "url": "https://www.telfordunited.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/afc-telford-united"
+          "@value": "https://nonleaguegrounds.com/national-league-north/afc-telford-united"
         },
         "location": {
           "latitude": 52.697376,
           "longitude": -2.501418
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "West Midlands"
         }
       },
       {
@@ -742,11 +846,15 @@
         "url": "https://alfretontownfootballclub.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/alfreton-town"
+          "@value": "https://nonleaguegrounds.com/national-league-north/alfreton-town"
         },
         "location": {
           "latitude": 53.094516,
           "longitude": -1.381251
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East Midlands"
         }
       },
       {
@@ -768,11 +876,15 @@
         "url": "https://banburyunitedfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/banbury-united"
+          "@value": "https://nonleaguegrounds.com/national-league-north/banbury-united"
         },
         "location": {
           "latitude": 52.056796,
           "longitude": -1.325791
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -791,11 +903,15 @@
         "url": "https://www.blythspartans.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/blyth-spartans-afc"
+          "@value": "https://nonleaguegrounds.com/national-league-north/blyth-spartans-afc"
         },
         "location": {
           "latitude": 55.120879,
           "longitude": -1.511217
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North East"
         }
       },
       {
@@ -815,11 +931,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/boston-united"
+          "@value": "https://nonleaguegrounds.com/national-league-north/boston-united"
         },
         "location": {
           "latitude": 52.956335,
           "longitude": -0.028533
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East Midlands"
         }
       },
       {
@@ -838,11 +958,15 @@
         "url": "https://brackleytownfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/brackley-town"
+          "@value": "https://nonleaguegrounds.com/national-league-north/brackley-town"
         },
         "location": {
           "latitude": 52.024613,
           "longitude": -1.144039
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East Midlands"
         }
       },
       {
@@ -861,11 +985,15 @@
         "url": "https://bpafc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/bradford-park-avenue-afc"
+          "@value": "https://nonleaguegrounds.com/national-league-north/bradford-park-avenue-afc"
         },
         "location": {
           "latitude": 53.758876,
           "longitude": -1.776174
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Yorkshire and The Humber"
         }
       },
       {
@@ -884,11 +1012,15 @@
         "url": "https://www.buxtonfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/buxton"
+          "@value": "https://nonleaguegrounds.com/national-league-north/buxton"
         },
         "location": {
           "latitude": 53.256603,
           "longitude": -1.906581
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East Midlands"
         }
       },
       {
@@ -907,11 +1039,15 @@
         "url": "https://www.chesterfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/chester"
+          "@value": "https://nonleaguegrounds.com/national-league-north/chester"
         },
         "location": {
           "latitude": 53.189215,
           "longitude": -2.923496
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -931,11 +1067,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/chorley"
+          "@value": "https://nonleaguegrounds.com/national-league-north/chorley"
         },
         "location": {
           "latitude": 53.645567,
           "longitude": -2.629188
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -954,11 +1094,15 @@
         "url": "https://www.curzon-ashton.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/curzon-ashton"
+          "@value": "https://nonleaguegrounds.com/national-league-north/curzon-ashton"
         },
         "location": {
           "latitude": 53.494258,
           "longitude": -2.116084
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -977,11 +1121,15 @@
         "url": "https://darlingtonfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/darlington"
+          "@value": "https://nonleaguegrounds.com/national-league-north/darlington"
         },
         "location": {
           "latitude": 54.509449,
           "longitude": -1.564142
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North East"
         }
       },
       {
@@ -1000,11 +1148,15 @@
         "url": "https://farsleyceltic.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/farsley-celtic"
+          "@value": "https://nonleaguegrounds.com/national-league-north/farsley-celtic"
         },
         "location": {
           "latitude": 53.80972,
           "longitude": -1.664219
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Yorkshire and The Humber"
         }
       },
       {
@@ -1024,11 +1176,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/gloucester-city-afc"
+          "@value": "https://nonleaguegrounds.com/national-league-north/gloucester-city-afc"
         },
         "location": {
           "latitude": 51.860324,
           "longitude": -2.262623
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South West"
         }
       },
       {
@@ -1047,11 +1203,15 @@
         "url": "https://www.herefordfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/hereford"
+          "@value": "https://nonleaguegrounds.com/national-league-north/hereford"
         },
         "location": {
           "latitude": 52.06073,
           "longitude": -2.71774
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "West Midlands"
         }
       },
       {
@@ -1070,11 +1230,15 @@
         "url": "https://ketteringtownfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/kettering-town"
+          "@value": "https://nonleaguegrounds.com/national-league-north/kettering-town"
         },
         "location": {
           "latitude": 52.366808,
           "longitude": -0.689305
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East Midlands"
         }
       },
       {
@@ -1094,11 +1258,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/kidderminster-harriers"
+          "@value": "https://nonleaguegrounds.com/national-league-north/kidderminster-harriers"
         },
         "location": {
           "latitude": 52.380496,
           "longitude": -2.242639
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "West Midlands"
         }
       },
       {
@@ -1117,11 +1285,15 @@
         "url": "https://www.kltown.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/kings-lynn-town"
+          "@value": "https://nonleaguegrounds.com/national-league-north/kings-lynn-town"
         },
         "location": {
           "latitude": 52.750067,
           "longitude": 0.407411
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1140,11 +1312,15 @@
         "url": "https://leamingtonfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/leamington"
+          "@value": "https://nonleaguegrounds.com/national-league-north/leamington"
         },
         "location": {
           "latitude": 52.244306,
           "longitude": -1.502849
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "West Midlands"
         }
       },
       {
@@ -1163,11 +1339,15 @@
         "url": "https://pslfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/peterborough-sports"
+          "@value": "https://nonleaguegrounds.com/national-league-north/peterborough-sports"
         },
         "location": {
           "latitude": 52.593814,
           "longitude": -0.254312
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1186,11 +1366,15 @@
         "url": "https://www.scarboroughathletic.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/scarborough-athletic"
+          "@value": "https://nonleaguegrounds.com/national-league-north/scarborough-athletic"
         },
         "location": {
           "latitude": 54.268845,
           "longitude": -0.413472
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Yorkshire and The Humber"
         }
       },
       {
@@ -1212,11 +1396,15 @@
         "url": "https://southportfc.net",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/southport"
+          "@value": "https://nonleaguegrounds.com/national-league-north/southport"
         },
         "location": {
           "latitude": 53.638109,
           "longitude": -2.978859
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -1235,11 +1423,15 @@
         "url": "https://spennymoortownfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/spennymoor-town"
+          "@value": "https://nonleaguegrounds.com/national-league-north/spennymoor-town"
         },
         "location": {
           "latitude": 54.70451,
           "longitude": -1.599134
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North East"
         }
       }
     ]
@@ -1264,7 +1456,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/league/national-league-south"
+      "@value": "https://nonleaguegrounds.com/national-league-south"
     },
     "additionalProperty": {
       "@type": "PropertyValue",
@@ -1289,11 +1481,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/bath-city"
+          "@value": "https://nonleaguegrounds.com/national-league-south/bath-city"
         },
         "location": {
           "latitude": 51.378847,
           "longitude": -2.395037
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South West"
         }
       },
       {
@@ -1316,11 +1512,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/braintree-town"
+          "@value": "https://nonleaguegrounds.com/national-league-south/braintree-town"
         },
         "location": {
           "latitude": 51.875305,
           "longitude": 0.572989
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1343,11 +1543,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/chelmsford-city"
+          "@value": "https://nonleaguegrounds.com/national-league-south/chelmsford-city"
         },
         "location": {
           "latitude": 51.753231,
           "longitude": 0.451471
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1366,11 +1570,15 @@
         "url": "https://cheshuntfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/cheshunt"
+          "@value": "https://nonleaguegrounds.com/national-league-south/cheshunt"
         },
         "location": {
           "latitude": 51.694445,
           "longitude": -0.041577
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1389,11 +1597,15 @@
         "url": "https://chippenhamtown.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/chippenham-town"
+          "@value": "https://nonleaguegrounds.com/national-league-south/chippenham-town"
         },
         "location": {
           "latitude": 51.465604,
           "longitude": -2.128737
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South West"
         }
       },
       {
@@ -1412,11 +1624,15 @@
         "url": "https://concordrangers.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/concord-rangers"
+          "@value": "https://nonleaguegrounds.com/national-league-south/concord-rangers"
         },
         "location": {
           "latitude": 51.512539,
           "longitude": 0.575477
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1438,11 +1654,15 @@
         "url": "https://dartfordfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/dartford"
+          "@value": "https://nonleaguegrounds.com/national-league-south/dartford"
         },
         "location": {
           "latitude": 51.437182,
           "longitude": 0.230837
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -1465,11 +1685,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/dover-athletic"
+          "@value": "https://nonleaguegrounds.com/national-league-south/dover-athletic"
         },
         "location": {
           "latitude": 51.137804,
           "longitude": 1.284943
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -1491,11 +1715,15 @@
         "url": "https://dulwichhamletfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/dulwich-hamlet"
+          "@value": "https://nonleaguegrounds.com/national-league-south/dulwich-hamlet"
         },
         "location": {
           "latitude": 51.461239,
           "longitude": -0.084018
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -1513,11 +1741,15 @@
         "foundingDate": "1954",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/eastbourne-borough"
+          "@value": "https://nonleaguegrounds.com/national-league-south/eastbourne-borough"
         },
         "location": {
           "latitude": 50.80417,
           "longitude": 0.32078
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -1539,11 +1771,15 @@
         "url": "https://ebbsfleetunited.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/ebbsfleet-united"
+          "@value": "https://nonleaguegrounds.com/national-league-south/ebbsfleet-united"
         },
         "location": {
           "latitude": 51.449556,
           "longitude": 0.32237
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -1565,11 +1801,15 @@
         "url": "https://farnboroughfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/farnborough"
+          "@value": "https://nonleaguegrounds.com/national-league-south/farnborough"
         },
         "location": {
           "latitude": 51.310449,
           "longitude": -0.762256
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -1592,11 +1832,15 @@
         "url": "https://hrbfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/hampton-and-richmond-borough"
+          "@value": "https://nonleaguegrounds.com/national-league-south/hampton-and-richmond-borough"
         },
         "location": {
           "latitude": 51.415191,
           "longitude": -0.363244
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -1619,11 +1863,15 @@
         "keywords": "professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/havant-and-waterlooville"
+          "@value": "https://nonleaguegrounds.com/national-league-south/havant-and-waterlooville"
         },
         "location": {
           "latitude": 50.867087,
           "longitude": -0.974097
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -1642,11 +1890,15 @@
         "url": "https://www.hemelfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/hemel-hempstead-town"
+          "@value": "https://nonleaguegrounds.com/national-league-south/hemel-hempstead-town"
         },
         "location": {
           "latitude": 51.753881,
           "longitude": -0.444358
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1668,11 +1920,15 @@
         "url": "https://hungerfordtown.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/hungerford-town"
+          "@value": "https://nonleaguegrounds.com/national-league-south/hungerford-town"
         },
         "location": {
           "latitude": 51.408934,
           "longitude": -1.513463
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -1692,11 +1948,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/oxford-city"
+          "@value": "https://nonleaguegrounds.com/national-league-south/oxford-city"
         },
         "location": {
           "latitude": 51.773923,
           "longitude": -1.227743
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -1715,11 +1975,15 @@
         "url": "https://sloughtownfc.net",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/slough-town"
+          "@value": "https://nonleaguegrounds.com/national-league-south/slough-town"
         },
         "location": {
           "latitude": 51.5198622,
           "longitude": -0.5884198
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -1738,11 +2002,15 @@
         "url": "https://stalbanscityfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/st-albans-city"
+          "@value": "https://nonleaguegrounds.com/national-league-south/st-albans-city"
         },
         "location": {
           "latitude": 51.754276,
           "longitude": -0.325157
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1761,11 +2029,15 @@
         "url": "https://tauntontown.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/taunton-town"
+          "@value": "https://nonleaguegrounds.com/national-league-south/taunton-town"
         },
         "location": {
           "latitude": 51.016716,
           "longitude": -3.085107
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South West"
         }
       },
       {
@@ -1784,11 +2056,15 @@
         "url": "https://tonbridgeangels.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/tonbridge-angels"
+          "@value": "https://nonleaguegrounds.com/national-league-south/tonbridge-angels"
         },
         "location": {
           "latitude": 51.211531,
           "longitude": 0.269116
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -1811,11 +2087,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/welling-united"
+          "@value": "https://nonleaguegrounds.com/national-league-south/welling-united"
         },
         "location": {
           "latitude": 51.460326,
           "longitude": 0.116558
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -1835,11 +2115,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/weymouth"
+          "@value": "https://nonleaguegrounds.com/national-league-south/weymouth"
         },
         "location": {
           "latitude": 50.619895,
           "longitude": -2.485182
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South West"
         }
       },
       {
@@ -1858,11 +2142,15 @@
         "url": "https://worthingfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/worthing"
+          "@value": "https://nonleaguegrounds.com/national-league-south/worthing"
         },
         "location": {
           "latitude": 50.82034,
           "longitude": -0.38482
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       }
     ]
@@ -1887,7 +2175,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/league/isthmian-league-premier-division"
+      "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division"
     },
     "additionalProperty": {
       "@type": "PropertyValue",
@@ -1914,11 +2202,15 @@
         "url": "https://www.pitchero.com/clubs/aveley",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/aveley"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/aveley"
         },
         "location": {
           "latitude": 51.503481,
           "longitude": 0.261341
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1940,11 +2232,15 @@
         "url": "https://billericaytownfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/billericay-town"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/billericay-town"
         },
         "location": {
           "latitude": 51.621776,
           "longitude": 0.403297
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1966,11 +2262,15 @@
         "url": "https://bsfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/bishop-s-stortford"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/bishop-s-stortford"
         },
         "location": {
           "latitude": 51.872673,
           "longitude": 0.191994
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -1992,11 +2292,15 @@
         "url": "https://www.pitchero.com/clubs/bognorregistownfc",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/bognor-regis-town"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/bognor-regis-town"
         },
         "location": {
           "latitude": 50.786982,
           "longitude": -0.690213
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -2018,11 +2322,15 @@
         "url": "https://bowersandpitseafootballclub.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/bowers-and-pitsea"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/bowers-and-pitsea"
         },
         "location": {
           "latitude": 51.57405,
           "longitude": 0.518133
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -2044,11 +2352,15 @@
         "url": "https://brightlingsearegentfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/brightlingsea-regent"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/brightlingsea-regent"
         },
         "location": {
           "latitude": 51.815817,
           "longitude": 1.026387
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -2070,11 +2382,15 @@
         "url": "https://canveyislandfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/canvey-island"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/canvey-island"
         },
         "location": {
           "latitude": 51.516461,
           "longitude": 0.615713
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -2096,11 +2412,15 @@
         "url": "https://www.carshaltonathletic.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/carshalton-athletic"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/carshalton-athletic"
         },
         "location": {
           "latitude": 51.369704,
           "longitude": -0.17179
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -2123,11 +2443,15 @@
         "keywords": "amateur",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/corinthian-casuals"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/corinthian-casuals"
         },
         "location": {
           "latitude": 51.372154,
           "longitude": -0.287229
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -2150,11 +2474,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/cray-wanderers"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/cray-wanderers"
         },
         "location": {
           "latitude": 51.390084,
           "longitude": 0.021091
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -2173,11 +2501,15 @@
         "url": "https://etfc.london",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/enfield-town"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/enfield-town"
         },
         "location": {
           "latitude": 51.659332,
           "longitude": -0.063843
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -2199,11 +2531,15 @@
         "url": "https://folkestoneinvictafc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/folkestone-invicta"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/folkestone-invicta"
         },
         "location": {
           "latitude": 51.086574,
           "longitude": 1.159508
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -2222,11 +2558,15 @@
         "url": "https://haringeyboroughfc.net",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/haringey-borough"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/haringey-borough"
         },
         "location": {
           "latitude": 51.605623,
           "longitude": -0.09266
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -2248,11 +2588,15 @@
         "url": "https://hastingsunited.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/hastings-united"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/hastings-united"
         },
         "location": {
           "latitude": 50.874501,
           "longitude": 0.587099
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -2274,11 +2618,15 @@
         "url": "https://hernebayfootballclub.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/herne-bay"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/herne-bay"
         },
         "location": {
           "latitude": 51.364685,
           "longitude": 1.129948
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -2302,11 +2650,15 @@
         "url": "https://hornchurchfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/hornchurch"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/hornchurch"
         },
         "location": {
           "latitude": 51.556557,
           "longitude": 0.23837
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -2328,11 +2680,15 @@
         "url": "https://horshamfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/horsham"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/horsham"
         },
         "location": {
           "latitude": 51.046893,
           "longitude": -0.340681
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -2354,11 +2710,15 @@
         "url": "https://kingstonian.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/kingstonian"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/kingstonian"
         },
         "location": {
           "latitude": 51.393231,
           "longitude": -0.172327
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       },
       {
@@ -2380,11 +2740,15 @@
         "url": "https://lewesfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/lewes"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/lewes"
         },
         "location": {
           "latitude": 50.869019,
           "longitude": 0.012321
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -2403,11 +2767,15 @@
         "url": "https://margate-fc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/margate"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/margate"
         },
         "location": {
           "latitude": 51.380459,
           "longitude": 1.373928
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "South East"
         }
       },
       {
@@ -2426,11 +2794,15 @@
         "url": "https://pitchero.com/clubs/pottersbartownfc/",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/potters-bar-town"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/potters-bar-town"
         },
         "location": {
           "latitude": 51.696188,
           "longitude": -0.177662
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East of England"
         }
       },
       {
@@ -2452,11 +2824,15 @@
         "url": "https://www.wingatefinchley.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/wingate-and-finchley"
+          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/wingate-and-finchley"
         },
         "location": {
           "latitude": 51.606848,
           "longitude": -0.171497
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "London"
         }
       }
     ]
@@ -2481,7 +2857,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/league/northern-premier-league"
+      "@value": "https://nonleaguegrounds.com/northern-premier-league"
     },
     "additionalProperty": {
       "@type": "PropertyValue",
@@ -2505,11 +2881,15 @@
         "url": "https://ashtonunited.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/ashton-united"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/ashton-united"
         },
         "location": {
           "latitude": 53.501301,
           "longitude": -2.079707
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2528,11 +2908,15 @@
         "url": "https://athertoncollieries.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/atherton-collieries"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/atherton-collieries"
         },
         "location": {
           "latitude": 53.523522,
           "longitude": -2.484992
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2554,11 +2938,15 @@
         "url": "https://bamberbridge.org",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/bamber-bridge"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/bamber-bridge"
         },
         "location": {
           "latitude": 53.727892,
           "longitude": -2.671923
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2577,11 +2965,15 @@
         "url": "https://belpertownfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/belper-town"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/belper-town"
         },
         "location": {
           "latitude": 53.027196,
           "longitude": -1.487347
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East Midlands"
         }
       },
       {
@@ -2603,11 +2995,15 @@
         "url": "https://fc-utd.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/fc-united-of-manchester"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/fc-united-of-manchester"
         },
         "location": {
           "latitude": 53.516649,
           "longitude": -2.180394
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2626,11 +3022,15 @@
         "url": "https://gainsboroughtrinity.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/gainsborough-trinity"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/gainsborough-trinity"
         },
         "location": {
           "latitude": 53.403459,
           "longitude": -0.774463
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East Midlands"
         }
       },
       {
@@ -2649,11 +3049,15 @@
         "url": "https://guiseleyafc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/guiseley-afc"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/guiseley-afc"
         },
         "location": {
           "latitude": 53.877202,
           "longitude": -1.719401
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Yorkshire and The Humber"
         }
       },
       {
@@ -2675,11 +3079,15 @@
         "url": "https://hydeunited.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/hyde-united"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/hyde-united"
         },
         "location": {
           "latitude": 53.450616,
           "longitude": -2.068183
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2701,11 +3109,15 @@
         "url": "https://www.pitchero.com/clubs/lancastercity",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/lancaster-city"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/lancaster-city"
         },
         "location": {
           "latitude": 54.051038,
           "longitude": -2.810882
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2724,11 +3136,15 @@
         "url": "https://liversedgefc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/liversedge"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/liversedge"
         },
         "location": {
           "latitude": 53.717658,
           "longitude": -1.711748
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Yorkshire and The Humber"
         }
       },
       {
@@ -2750,11 +3166,15 @@
         "url": "https://marinefc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/marine-afc"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/marine-afc"
         },
         "location": {
           "latitude": 53.485173,
           "longitude": -3.033623
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2773,11 +3193,15 @@
         "url": "https://marskeunitedfc.org",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/marske-united"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/marske-united"
         },
         "location": {
           "latitude": 54.589177,
           "longitude": -1.016661
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North East"
         }
       },
       {
@@ -2796,11 +3220,15 @@
         "url": "https://matlocktownfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/matlock-town"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/matlock-town"
         },
         "location": {
           "latitude": 53.137031,
           "longitude": -1.551677
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "East Midlands"
         }
       },
       {
@@ -2819,11 +3247,15 @@
         "url": "https://morpethtownfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/morpeth-town-afc"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/morpeth-town-afc"
         },
         "location": {
           "latitude": 55.155982,
           "longitude": -1.708834
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North East"
         }
       },
       {
@@ -2845,11 +3277,15 @@
         "url": "https://nantwichtownfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/nantwich-town"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/nantwich-town"
         },
         "location": {
           "latitude": 53.072687,
           "longitude": -2.52846
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2871,11 +3307,15 @@
         "url": "https://radcliffefc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/radcliffe"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/radcliffe"
         },
         "location": {
           "latitude": 53.567592,
           "longitude": -2.340701
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2894,11 +3334,15 @@
         "url": "https://southshieldsfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/south-shields"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/south-shields"
         },
         "location": {
           "latitude": 54.974526,
           "longitude": -1.470094
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North East"
         }
       },
       {
@@ -2918,11 +3362,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/stafford-rangers"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/stafford-rangers"
         },
         "location": {
           "latitude": 52.818555,
           "longitude": -2.116846
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "West Midlands"
         }
       },
       {
@@ -2944,11 +3392,15 @@
         "url": "https://stalybridgeceltic.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/stalybridge-celtic"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/stalybridge-celtic"
         },
         "location": {
           "latitude": 53.475337,
           "longitude": -2.043855
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2970,11 +3422,15 @@
         "url": "https://rylandsfc.co.uk",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/warrington-rylands-1906"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/warrington-rylands-1906"
         },
         "location": {
           "latitude": 53.4004,
           "longitude": -2.575604
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -2997,11 +3453,15 @@
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/warrington-town"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/warrington-town"
         },
         "location": {
           "latitude": 53.377071,
           "longitude": -2.569861
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "North West"
         }
       },
       {
@@ -3020,11 +3480,15 @@
         "url": "https://whitbytownfc.com",
         "identifier": {
           "@type": "url",
-          "@value": "https://nonleaguegrounds.com/club/whitby-town"
+          "@value": "https://nonleaguegrounds.com/northern-premier-league/whitby-town"
         },
         "location": {
           "latitude": 54.489984,
           "longitude": -0.627549
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Yorkshire and The Humber"
         }
       }
     ]

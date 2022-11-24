@@ -14,14 +14,14 @@
       "postalCode": "NG2 3HJ",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "East Midlands"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "East Midlands"
     },
     "subOrganization": [
       {
@@ -245,14 +245,14 @@
       "postalCode": "LL11 2AH",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Wales"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "Wales"
     },
     "subOrganization": [
       {
@@ -367,14 +367,14 @@
       "postalCode": "HX1 2YT",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Yorkshire and The Humber"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "Yorkshire and The Humber"
     },
     "subOrganization": [
       {
@@ -541,14 +541,14 @@
       "postalCode": "PE30 5PB",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "East of England"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "East of England"
     },
     "subOrganization": [
       {
@@ -1088,14 +1088,14 @@
       "postalCode": "CH1 4LT",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "North West"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "North West"
     },
     "subOrganization": [
       {
@@ -1149,14 +1149,14 @@
       "postalCode": "HA8 6AG",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "London"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "London"
     },
     "subOrganization": [
       {
@@ -1213,14 +1213,14 @@
       "postalCode": "TF1 2NW",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "West Midlands"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "West Midlands"
     },
     "subOrganization": [
       {
@@ -1453,14 +1453,14 @@
       "postalCode": "GU22 9AA",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "South East"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "South East"
     },
     "subOrganization": [
       {
@@ -1576,14 +1576,14 @@
       "postalCode": "PR4 3JZ",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "North West"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "North West"
     },
     "subOrganization": [
       {
@@ -1940,14 +1940,14 @@
       "postalCode": "CM12 9SA",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "East of England"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "East of England"
     },
     "subOrganization": [
       {
@@ -2060,14 +2060,14 @@
       "postalCode": "BR2 9EF",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "London"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "London"
     },
     "subOrganization": [
       {
@@ -2163,14 +2163,14 @@
       "postalCode": "HR4 9JU",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "West Midlands"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "West Midlands"
     },
     "subOrganization": [
       {
@@ -2591,14 +2591,14 @@
       "postalCode": "DN21 2QW",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "East Midlands"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "East Midlands"
     },
     "subOrganization": [
       {
@@ -2656,14 +2656,14 @@
       "postalCode": "PR7 3DU",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "North West"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "North West"
     },
     "subOrganization": [
       {
@@ -2720,14 +2720,14 @@
       "postalCode": "SK14 5PL",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "North West"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "artificial 4G",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "North West"
     },
     "subOrganization": [
       {
@@ -2894,14 +2894,14 @@
       "postalCode": "ME14 1LQ",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "South East"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "artificial turf",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "South East"
     },
     "subOrganization": [
       {
@@ -3074,14 +3074,14 @@
       "postalCode": "NE24 3JE",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "North East"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "North East"
     },
     "subOrganization": [
       {
@@ -3254,14 +3254,14 @@
       "postalCode": "HA4 6JQ",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "London"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "London"
     },
     "subOrganization": [
       {
@@ -3790,14 +3790,14 @@
       "postalCode": "SL6 1SF",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "South East"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "South East"
     },
     "subOrganization": [
       {
@@ -3854,14 +3854,14 @@
       "postalCode": "LS28 5BE",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Yorkshire and The Humber"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "Yorkshire and The Humber"
     },
     "subOrganization": [
       {
@@ -4038,14 +4038,14 @@
       "postalCode": "BA2 1DB",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "South West"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "South West"
     },
     "subOrganization": [
       {
@@ -4453,14 +4453,14 @@
       "postalCode": "RM15 4PX",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "East of England"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "4th generation artificial grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "East of England"
     },
     "subOrganization": [
       {
@@ -4684,14 +4684,14 @@
       "postalCode": "BD6 2NG",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Yorkshire and The Humber"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "Yorkshire and The Humber"
     },
     "subOrganization": [
       {
@@ -4913,14 +4913,14 @@
       "postalCode": "YO11 2JW",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Yorkshire and The Humber"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "artificial",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "Yorkshire and The Humber"
     },
     "subOrganization": [
       {
@@ -5615,14 +5615,14 @@
       "postalCode": "RH4 1DX",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "South East"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "South East"
     },
     "subOrganization": [
       {
@@ -6206,14 +6206,14 @@
       "postalCode": "NN15 5PS",
       "addressCountry": "GB"
     },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "East Midlands"
+    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "@value": "grass",
       "name": "surface"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "East Midlands"
     },
     "subOrganization": [
       {

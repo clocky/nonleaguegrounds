@@ -7,50 +7,48 @@ eleventyComputed:
 ---
 
 <header class="container-fluid hero" id="trophy" data-theme="dark">
-    <div class="container">
-        <h1>Leagues</h1>
-        <div class="grid">
-            <p>
-                <strong>A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier</strong>
-            </p>
-            <p></p>
-        </div>
+  <div class="container">
+    <h1>Leagues</h1>
+    <div class="grid">
+      <p>
+        <strong>A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier</strong>
+      </p>
+      <p></p>
     </div>
+  </div>
 </header>
 
 <main class="container">
-
-    <table role="grid">
-        <thead>
-            <tr>
-                <th scope="col">Tier</th>
-                <th scope="col">Name</th>
-                <th scope="col">Clubs</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for league in leagues | sort(attribute = "tier")%}
-                <tr>
-                    <td>
-                        {{ league.tier | ordinal }}
-                    </td>
-                    <th>
-                        <a href="/league/{{ league.name | slugify }}">
-                            {{ league.sponsor }}
-                            {{ league.name}}
-                        </a>
-                    </th>
-                    <td>
-                        {{ league.clubs | length }}
-                    </td>
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+  <table role="grid">
+    <thead>
+      <tr>
+        <th scope="col">Tier</th>
+        <th scope="col">Name</th>
+        <th scope="col">Clubs</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for league in leagues | sort(attribute = "additionalProperty.@value")%}
+        <tr>
+          <td>
+            {{ league.additionalProperty.@value | ordinal }}
+          </td>
+          <th>
+            <a href="/{{ league.name | slugify }}">
+              {{ league.alternateName }}
+            </a>
+          </th>
+          <td>
+            {{ league.clubs | length }}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </main>
 
 <footer class="container">
-    <small>
+  <small>
     Photo by <a href="https://unsplash.com/@zegarr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ezequiel Garrido</a> on <a href="https://unsplash.com/s/photos/trophy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    </small>
+  </small>
 </footer>

@@ -50,7 +50,7 @@
                             {% for league in leagues %}
                                 <li>
                                     <small>
-                                        <a href="/league/{{ league.name | slugify }}/">{{ league.name }}</a>
+                                        <a href="/{{ league.name | slugify }}">{{ league.name }}</a>
                                     </small>
                                 </li>
                             {% endfor %}
