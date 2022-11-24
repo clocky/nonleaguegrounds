@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
 ---
 <header class="container-fluid hero" id="league" data-theme="dark">
     <div class="container">
@@ -14,18 +15,29 @@ layout: base.njk
 </header>
 
 <main class="container">
-    {% for league in leagues %}
-        <h2>{{ league.name | replace(" ", "\n") | nl2br | safe }}</h2>
-        <div class="grid">
-            {% for column in league.members | batch(6)%}
-                <ul>
-                    {% for club in column %}
-                        <li>
-                            <a href="/{{ league.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            {% endfor %}
+    <div class="grid">
+        <div id="grounds">
+            <h4>Class-light and semantic</h4>
+            <p>
+              From the <strong>{{ leagues[0].name }}</strong> to the 
+              <strong>{{ leagues[leagues.length -1].name }}</strong>, 
+              a directory of {{ leagues.length }} English football conference leagues.
+          </p>
+            <a href="/leagues" role="button">View all leagues</a>
         </div>
-    {% endfor %}
+        <div id="grounds">
+            <h4>Grounds</h4>
+            <p> Leading with the {{ grounds[0].maximumAttendeeCapacity | commaNumber }}-capacity home of <strong>{{ grounds[0].subOrganization[0].name }}</strong>, 
+              a list of {{ grounds.length }} English and Welsh non-league grounds.</p>
+            <a href="/grounds" role="button">View all grounds</a>
+        </div>
+        <div id="grounds">
+            <h4>Regions</h4>
+            <p>
+             From the <strong>North East</strong> to the <strong>South West</strong>, 
+              a directory of clubs in the {{ regions.length }} regions of England and Wales
+            </p>
+            <a href="/regions" role="button">View all regions</a>
+        </div>
+    </div>
 </main>

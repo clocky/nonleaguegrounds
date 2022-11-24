@@ -2,7 +2,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Meadow Lane",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 19841,
     "latitude": 52.942672,
     "longitude": -1.137151,
@@ -14,6 +13,7 @@
       "postalCode": "NG2 3HJ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East Midlands"
@@ -44,7 +44,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -63,7 +62,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Boundary Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 13513,
     "latitude": 53.555148,
     "longitude": -2.128451,
@@ -74,6 +72,7 @@
       "postalCode": "OL1 2PA",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -102,7 +101,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -121,7 +119,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Roots Hall",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 12392,
     "latitude": 51.549008,
     "longitude": 0.701608,
@@ -133,6 +130,7 @@
       "postalCode": "SS2 6NQ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -158,7 +156,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -177,7 +174,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Gateshead International Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 11750,
     "latitude": 54.96102,
     "longitude": -1.57967,
@@ -189,6 +185,7 @@
       "postalCode": "NE10 0EF",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North East"
@@ -214,7 +211,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -233,7 +229,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Racecourse Ground",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 10771,
     "latitude": 53.051961,
     "longitude": -3.003804,
@@ -245,6 +240,7 @@
       "postalCode": "LL11 2AH",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Wales"
@@ -275,7 +271,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -294,7 +289,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Technique Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 10600,
     "latitude": 53.253583,
     "longitude": -1.425761,
@@ -306,6 +300,7 @@
       "postalCode": "S41 8NZ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East Midlands"
@@ -336,7 +331,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -355,7 +349,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "The Shay",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 10401,
     "latitude": 53.716191,
     "longitude": -1.859217,
@@ -367,6 +360,7 @@
       "postalCode": "HX1 2YT",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Yorkshire and The Humber"
@@ -400,7 +394,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -419,7 +412,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Huish Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 9565,
     "latitude": 50.950234,
     "longitude": -2.673974,
@@ -430,6 +422,7 @@
       "postalCode": "BA22 8YF",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South West"
@@ -455,7 +448,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -474,7 +466,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Glanford Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 9088,
     "latitude": 53.5866564,
     "longitude": -0.6953374,
@@ -485,6 +476,7 @@
       "postalCode": "DN15 8TD",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Yorkshire and The Humber"
@@ -510,7 +502,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -529,7 +520,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "The Walks Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 8200,
     "latitude": 52.750067,
     "longitude": 0.407411,
@@ -541,6 +531,7 @@
       "postalCode": "PE30 5PB",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -571,7 +562,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -590,7 +580,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "York Community Stadium",
-    "priceRange": "££",
+    "alternateName": "LNER Community Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "LNER Community Stadium"
@@ -605,6 +595,7 @@
       "postalCode": "YO32 9AF",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Yorkshire and The Humber"
@@ -630,7 +621,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -649,7 +639,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Moss Lane",
-    "priceRange": "££",
+    "alternateName": "J. Davidson Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "J. Davidson Stadium"
@@ -665,6 +655,7 @@
       "postalCode": "WA15 8AP",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -695,7 +686,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -714,7 +704,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Recreation Ground",
-    "priceRange": "££",
+    "alternateName": "The EBB Stadium at the Recreation Ground",
     "sponsor": {
       "@type": "Organization",
       "name": "The EBB Stadium at the Recreation Ground"
@@ -732,8 +722,9 @@
     },
     "mainEntityOfPage": {
       "@type": "URL",
-      "@value": "theshots.co.uk/club/directions/"
+      "@value": "https://theshots.co.uk/club/directions/"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -762,7 +753,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -781,7 +771,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Priory Lane",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 7000,
     "latitude": 50.80417,
     "longitude": 0.32078,
@@ -793,6 +782,7 @@
       "postalCode": "BN23 7QH",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -817,7 +807,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -836,7 +825,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Cherrywood Road",
-    "priceRange": "££",
+    "alternateName": "Easy As HGV Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Easy As HGV Stadium"
@@ -852,6 +841,7 @@
       "postalCode": "GU14 8UD",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -880,7 +870,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -899,7 +888,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Bob Lucas Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 6600,
     "latitude": 50.619895,
     "longitude": -2.485182,
@@ -911,6 +899,7 @@
       "postalCode": "DT4 9XJ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South West"
@@ -936,7 +925,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -955,7 +943,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Bower Fold",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 6500,
     "latitude": 53.475337,
     "longitude": -2.043855,
@@ -966,6 +953,7 @@
       "postalCode": "SK15 2RT",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -994,7 +982,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -1013,7 +1000,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Spencer Stadium",
-    "priceRange": "££",
+    "alternateName": "The Banbury Plant Hire Community Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Banbury Plant Hire Community Stadium"
@@ -1029,6 +1016,7 @@
       "postalCode": "OX16 5AB",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -1057,7 +1045,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1076,7 +1063,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Deva Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 6500,
     "latitude": 53.189215,
     "longitude": -2.923496,
@@ -1088,6 +1074,7 @@
       "postalCode": "CH1 4LT",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -1118,7 +1105,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1137,7 +1123,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "The Hive Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 6418,
     "latitude": 51.602623,
     "longitude": -0.291743,
@@ -1149,6 +1134,7 @@
       "postalCode": "HA8 6AG",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -1182,7 +1168,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1201,7 +1186,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "New Bucks Head",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 6400,
     "latitude": 52.697376,
     "longitude": -2.501418,
@@ -1213,6 +1197,7 @@
       "postalCode": "TF1 2NW",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "West Midlands"
@@ -1243,7 +1228,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1262,7 +1246,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Aggborough",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 6238,
     "latitude": 52.380496,
     "longitude": -2.242639,
@@ -1274,6 +1257,7 @@
       "postalCode": "DY10 1NB",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "West Midlands"
@@ -1299,7 +1283,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1318,7 +1301,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Plainmoor",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 6104,
     "latitude": 50.476389,
     "longitude": -3.523874,
@@ -1330,6 +1312,7 @@
       "postalCode": "TQ1 3PS",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South West"
@@ -1355,7 +1338,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1374,7 +1356,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Victoria Road",
-    "priceRange": "££",
+    "alternateName": "Chigwell Construction Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Chigwell Construction Stadium"
@@ -1390,6 +1372,7 @@
       "postalCode": "RM10 7XL",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -1418,7 +1401,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1437,7 +1419,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Kingfield Stadium",
-    "priceRange": "££",
+    "alternateName": "The Laithwaite Community Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Laithwaite Community Stadium"
@@ -1453,6 +1435,7 @@
       "postalCode": "GU22 9AA",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -1483,7 +1466,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1502,7 +1484,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Haig Avenue",
-    "priceRange": "££",
+    "alternateName": "Merseyrail Community Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Merseyrail Community Stadium"
@@ -1518,6 +1500,7 @@
       "postalCode": "PR8 6JZ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -1546,7 +1529,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1565,7 +1547,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Mill Farm",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 6000,
     "latitude": 53.797367,
     "longitude": -2.889497,
@@ -1576,6 +1557,7 @@
       "postalCode": "PR4 3JZ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -1606,7 +1588,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1625,7 +1606,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Crabble Athletic Ground",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 5745,
     "latitude": 51.137804,
     "longitude": 1.284943,
@@ -1637,6 +1617,7 @@
       "postalCode": "CT17 0QJ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -1665,7 +1646,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1684,7 +1664,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "The Westleigh",
-    "priceRange": "££",
+    "alternateName": "Draper Tools Community Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Draper Tools Community Stadium"
@@ -1700,6 +1680,7 @@
       "postalCode": "PO9 5TH",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -1728,7 +1709,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1747,7 +1727,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Ten Acres",
-    "priceRange": "££",
+    "alternateName": "Silverlake Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Silverlake Stadium"
@@ -1763,6 +1743,7 @@
       "postalCode": "SO50 9HT",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -1791,7 +1772,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1810,7 +1790,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Clarence Park",
-    "priceRange": "££",
+    "alternateName": "Mozzarella Fellas Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Mozzarella Fellas Stadium"
@@ -1825,6 +1805,7 @@
       "postalCode": "AL1 4NF",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -1850,7 +1831,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -1869,7 +1849,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "War Memorial Sports Ground",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 5000,
     "latitude": 51.369704,
     "longitude": -0.17179,
@@ -1881,6 +1860,7 @@
       "postalCode": "SM5 2PW",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -1909,7 +1889,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -1928,7 +1907,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "New Lodge",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 5000,
     "latitude": 51.621776,
     "longitude": 0.403297,
@@ -1940,6 +1918,7 @@
       "postalCode": "CM12 9SA",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -1973,7 +1952,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -1992,7 +1970,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Jakemans Community Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 5000,
     "latitude": 52.956335,
     "longitude": -0.028533,
@@ -2004,6 +1981,7 @@
       "postalCode": "PE21 6JN",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East Midlands"
@@ -2029,7 +2007,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -2048,7 +2025,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Hayes Lane",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 5000,
     "latitude": 51.390084,
     "longitude": 0.021091,
@@ -2060,6 +2036,7 @@
       "postalCode": "BR2 9EF",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -2095,7 +2072,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -2133,7 +2109,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -2152,7 +2127,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Edgar Street",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4913,
     "latitude": 52.06073,
     "longitude": -2.71774,
@@ -2163,6 +2137,7 @@
       "postalCode": "HR4 9JU",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "West Midlands"
@@ -2193,7 +2168,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -2212,7 +2186,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Stonebridge Road",
-    "priceRange": "££",
+    "alternateName": "Kuflink Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Kuflink Stadium"
@@ -2227,6 +2201,7 @@
       "postalCode": "DA11 9GN",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -2255,7 +2230,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -2274,7 +2248,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Broadhurst Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4700,
     "latitude": 53.516649,
     "longitude": -2.180394,
@@ -2285,6 +2258,7 @@
       "postalCode": "M40 0FJ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -2313,7 +2287,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -2332,7 +2305,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Woodside Park",
-    "priceRange": "££",
+    "alternateName": "R & D Advisors UK Ltd Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "R &amp; D Advisors UK Ltd Stadium"
@@ -2348,6 +2321,7 @@
       "postalCode": "CM23 5RG",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -2376,7 +2350,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -2395,7 +2368,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Damson Park",
-    "priceRange": "££",
+    "alternateName": "ARMCO Arena",
     "sponsor": {
       "@type": "Organization",
       "name": "ARMCO Arena"
@@ -2411,6 +2384,7 @@
       "postalCode": "B92 8PS",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "West Midlands"
@@ -2436,7 +2410,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -2455,7 +2428,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Meadow Park",
-    "priceRange": "££",
+    "alternateName": "LV Bet Stadium Meadow Park",
     "sponsor": {
       "@type": "Organization",
       "name": "LV Bet Stadium Meadow Park"
@@ -2471,6 +2444,7 @@
       "postalCode": "WD6 5AL",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -2499,7 +2473,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -2518,7 +2491,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Nyewood Lane",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4500,
     "latitude": 50.786982,
     "longitude": -0.690213,
@@ -2529,6 +2501,7 @@
       "postalCode": "PO21 2TY",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -2557,7 +2530,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -2576,7 +2548,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "The Northolme",
-    "priceRange": "££",
+    "alternateName": "Gainsborough Martin & Co. Arena",
     "sponsor": {
       "@type": "Organization",
       "name": "Gainsborough Martin &amp; Co. Arena"
@@ -2591,6 +2563,7 @@
       "postalCode": "DN21 2QW",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East Midlands"
@@ -2621,7 +2594,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -2640,7 +2612,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Victory Park",
-    "priceRange": "££",
+    "alternateName": "The Chorley Group Victory Park Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Chorley Group Victory Park Stadium"
@@ -2656,6 +2628,7 @@
       "postalCode": "PR7 3DU",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -2686,7 +2659,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -2705,7 +2677,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Ewen Fields",
-    "priceRange": "££",
+    "alternateName": "Project Solar Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Project Solar Stadium"
@@ -2720,6 +2692,7 @@
       "postalCode": "SK14 5PL",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -2753,7 +2726,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -2772,7 +2744,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Hurst Cross",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4250,
     "latitude": 53.501301,
     "longitude": -2.079707,
@@ -2783,6 +2754,7 @@
       "postalCode": "OL6 8DY",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -2808,7 +2780,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -2827,7 +2798,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Nethermoor Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4200,
     "latitude": 53.877202,
     "longitude": -1.719401,
@@ -2838,6 +2808,7 @@
       "postalCode": "LS20 8BT",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Yorkshire and The Humber"
@@ -2863,7 +2834,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -2882,7 +2852,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Gallagher Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4200,
     "latitude": 51.28002,
     "longitude": 0.516091,
@@ -2894,6 +2863,7 @@
       "postalCode": "ME14 1LQ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -2924,7 +2894,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -2943,7 +2912,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Tameside Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4200,
     "latitude": 53.494258,
     "longitude": -2.116084,
@@ -2955,6 +2923,7 @@
       "postalCode": "OL7 9HG",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -2980,7 +2949,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -2999,7 +2967,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Cressing Road",
-    "priceRange": "££",
+    "alternateName": "Dunmow Group Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Dunmow Group Stadium"
@@ -3015,6 +2983,7 @@
       "postalCode": "CM7 3AL",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -3043,7 +3012,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3062,7 +3030,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Croft Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4130,
     "latitude": 55.120879,
     "longitude": -1.511217,
@@ -3074,6 +3041,7 @@
       "postalCode": "NE24 3JE",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North East"
@@ -3104,7 +3072,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3123,7 +3090,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Park Lane",
-    "priceRange": "££",
+    "alternateName": "The Movie Starr Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Movie Starr Stadium"
@@ -3138,6 +3105,7 @@
       "postalCode": "SS8 7PX",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -3166,7 +3134,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -3185,7 +3152,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Princes Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4100,
     "latitude": 51.437182,
     "longitude": 0.230837,
@@ -3196,6 +3162,7 @@
       "postalCode": "DA1 1RT",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -3224,7 +3191,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3243,7 +3209,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Grosvenor Vale",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4085,
     "latitude": 51.569398,
     "longitude": -0.416594,
@@ -3254,6 +3219,7 @@
       "postalCode": "HA4 6JQ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -3287,7 +3253,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3306,7 +3271,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Stainton Park",
-    "priceRange": "££",
+    "alternateName": "Neuven Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Neuven Stadium"
@@ -3320,6 +3285,7 @@
       "postalCode": "M26 3TQ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -3348,7 +3314,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -3367,7 +3332,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "The Pilot Field",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4050,
     "latitude": 50.874501,
     "longitude": 0.587099,
@@ -3379,6 +3343,7 @@
       "postalCode": "TN34 2AX",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -3407,7 +3372,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -3426,7 +3390,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Marston Road",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4000,
     "latitude": 52.818555,
     "longitude": -2.116846,
@@ -3436,6 +3399,7 @@
       "postalCode": "ST16 3BX",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "West Midlands"
@@ -3461,7 +3425,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -3480,7 +3443,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Cheriton Road",
-    "priceRange": "££",
+    "alternateName": "The Buildkent Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Buildkent Stadium"
@@ -3495,6 +3458,7 @@
       "postalCode": "CT19 5JU",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -3523,7 +3487,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -3542,7 +3505,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Park View Road",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4000,
     "latitude": 51.460326,
     "longitude": 0.116558,
@@ -3553,6 +3515,7 @@
       "postalCode": "DA16 1SY",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -3581,7 +3544,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3600,7 +3562,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Woodside Road",
-    "priceRange": "££",
+    "alternateName": "The Crucial Environmental Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Crucial Environmental Stadium"
@@ -3616,6 +3578,7 @@
       "postalCode": "BN14 7HQ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -3641,7 +3604,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3660,7 +3622,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "The Silverlands",
-    "priceRange": "££",
+    "alternateName": "Tarmac Silverlands Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Tarmac Silverlands Stadium"
@@ -3675,6 +3637,7 @@
       "postalCode": "SK17 6QH",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East Midlands"
@@ -3700,7 +3663,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3719,7 +3681,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "New Meadow Park",
-    "priceRange": "££",
+    "alternateName": "TigerTurf Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "TigerTurf Stadium"
@@ -3735,6 +3697,7 @@
       "postalCode": "GL2 5HS",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South West"
@@ -3760,7 +3723,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3779,7 +3741,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "York Road",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 4000,
     "latitude": 51.519889,
     "longitude": -0.717968,
@@ -3790,6 +3751,7 @@
       "postalCode": "SL6 1SF",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -3823,7 +3785,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3842,7 +3803,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "The Citadel",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3900,
     "latitude": 53.80972,
     "longitude": -1.664219,
@@ -3854,6 +3814,7 @@
       "postalCode": "LS28 5BE",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Yorkshire and The Humber"
@@ -3884,7 +3845,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3903,7 +3863,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Beveree Stadium",
-    "priceRange": "££",
+    "alternateName": "The Rocket Hospitality Beveree Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Rocket Hospitality Beveree Stadium"
@@ -3918,6 +3878,7 @@
       "postalCode": "TW12 2BX",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -3947,7 +3908,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -3966,7 +3926,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "North Street",
-    "priceRange": "££",
+    "alternateName": "Impact Arena Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Impact Arena Stadium"
@@ -3982,6 +3942,7 @@
       "postalCode": "DE55 7FZ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East Midlands"
@@ -4007,7 +3968,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -4026,7 +3986,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Twerton Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3528,
     "latitude": 51.378847,
     "longitude": -2.395037,
@@ -4038,6 +3997,7 @@
       "postalCode": "BA2 1DB",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South West"
@@ -4068,7 +4028,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -4087,7 +4046,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Giant Axe",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3513,
     "latitude": 54.051038,
     "longitude": -2.810882,
@@ -4098,6 +4056,7 @@
       "postalCode": "LA1 5PE",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -4126,7 +4085,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -4145,7 +4103,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Turnbull Ground",
-    "priceRange": "££",
+    "alternateName": "Towbar Express Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Towbar Express Stadium"
@@ -4160,6 +4118,7 @@
       "postalCode": "YO21 3HZ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Yorkshire and The Humber"
@@ -4185,7 +4144,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -4204,7 +4162,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Filtrona Park",
-    "priceRange": "££",
+    "alternateName": "1st Cloud Arena",
     "sponsor": {
       "@type": "Organization",
       "name": "1st Cloud Arena"
@@ -4219,6 +4177,7 @@
       "postalCode": "NE32 3UP",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North East"
@@ -4244,7 +4203,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -4263,7 +4221,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Weaver Stadium",
-    "priceRange": "££",
+    "alternateName": "Optimum Pay Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Optimum Pay Stadium"
@@ -4277,6 +4235,7 @@
       "postalCode": "CW5 5BS",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -4305,7 +4264,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -4324,7 +4282,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Imperial Fields",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3500,
     "latitude": 51.393231,
     "longitude": -0.172327,
@@ -4336,6 +4293,7 @@
       "postalCode": "SM4 6BF",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -4364,7 +4322,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -4383,7 +4340,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Len Salmon Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3500,
     "latitude": 51.57405,
     "longitude": 0.518133,
@@ -4395,6 +4351,7 @@
       "postalCode": "SS13 2BE",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -4423,7 +4380,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -4442,7 +4398,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Parkside",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3500,
     "latitude": 51.503481,
     "longitude": 0.261341,
@@ -4453,6 +4408,7 @@
       "postalCode": "RM15 4PX",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -4486,7 +4442,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -4505,7 +4460,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "St James Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3500,
     "latitude": 52.024613,
     "longitude": -1.144039,
@@ -4517,6 +4471,7 @@
       "postalCode": "NN13 7EJ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East Midlands"
@@ -4542,7 +4497,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -4561,7 +4515,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Marsh Lane",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3500,
     "latitude": 51.773923,
     "longitude": -1.227743,
@@ -4572,6 +4525,7 @@
       "postalCode": "OX3 0NQ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -4597,7 +4551,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -4616,7 +4569,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Theobalds Lane",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3500,
     "latitude": 51.694445,
     "longitude": -0.041577,
@@ -4628,6 +4580,7 @@
       "postalCode": "EN8 8RU",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -4653,7 +4606,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -4672,7 +4624,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Horsfall Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3500,
     "latitude": 53.758876,
     "longitude": -1.776174,
@@ -4684,6 +4635,7 @@
       "postalCode": "BD6 2NG",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Yorkshire and The Humber"
@@ -4714,7 +4666,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -4733,7 +4684,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Champion Hill",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3334,
     "latitude": 51.461239,
     "longitude": -0.084018,
@@ -4744,6 +4694,7 @@
       "postalCode": "SE22 8BD",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -4772,7 +4723,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -4791,7 +4741,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Thames Road",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3300,
     "latitude": 51.512539,
     "longitude": 0.575477,
@@ -4802,6 +4751,7 @@
       "postalCode": "SS8 0HH",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -4827,7 +4777,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -4846,7 +4795,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Blackwell Meadows",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3281,
     "latitude": 54.509449,
     "longitude": -1.564142,
@@ -4858,6 +4806,7 @@
       "postalCode": "DL1 5NR",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North East"
@@ -4883,7 +4832,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -4902,7 +4850,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Flamingo Land Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3252,
     "latitude": 54.268845,
     "longitude": -0.413472,
@@ -4913,6 +4860,7 @@
       "postalCode": "YO11 2JW",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Yorkshire and The Humber"
@@ -4943,7 +4891,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -4962,7 +4909,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Vauxhall Road",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3152,
     "latitude": 51.753881,
     "longitude": -0.444358,
@@ -4973,6 +4919,7 @@
       "postalCode": "HP2 4HW",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -4998,7 +4945,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -5017,7 +4963,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Melbourne Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3065,
     "latitude": 51.753231,
     "longitude": 0.451471,
@@ -5029,6 +4974,7 @@
       "postalCode": "CM1 2EH",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -5057,7 +5003,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -5076,7 +5021,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Bulpit Lane",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3034,
     "latitude": 51.408934,
     "longitude": -1.513463,
@@ -5088,6 +5032,7 @@
       "postalCode": "RG17 0AY",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -5116,7 +5061,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -5135,7 +5079,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Craik Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3000,
     "latitude": 55.155982,
     "longitude": -1.708834,
@@ -5146,6 +5089,7 @@
       "postalCode": "NE61 2YX",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North East"
@@ -5171,7 +5115,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -5190,7 +5133,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Sir Tom Finney Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3000,
     "latitude": 53.727892,
     "longitude": -2.671923,
@@ -5201,6 +5143,7 @@
       "postalCode": "PR5 6UU",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -5229,7 +5172,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -5248,7 +5190,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "The Dripping Pan",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3000,
     "latitude": 50.869019,
     "longitude": 0.012321,
@@ -5260,6 +5201,7 @@
       "postalCode": "BN7 2XA",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -5288,7 +5230,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -5307,7 +5248,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Hornchurch Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3000,
     "latitude": 51.556557,
     "longitude": 0.23837,
@@ -5319,6 +5259,7 @@
       "postalCode": "RM14 2LX",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -5349,7 +5290,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -5368,7 +5308,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Winch's Field",
-    "priceRange": "££",
+    "alternateName": "The MBS Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The MBS Stadium"
@@ -5384,6 +5324,7 @@
       "postalCode": "CT6 5SG",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -5412,7 +5353,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -5431,7 +5371,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Longmead Stadium",
-    "priceRange": "££",
+    "alternateName": "Halcyon Wealth Longmead Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Halcyon Wealth Longmead Stadium"
@@ -5447,6 +5387,7 @@
       "postalCode": "TN10 3JW",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -5472,7 +5413,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -5491,7 +5431,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Hardenhuish Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3000,
     "latitude": 51.465604,
     "longitude": -2.128737,
@@ -5503,6 +5442,7 @@
       "postalCode": "SN14 6LR",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South West"
@@ -5528,7 +5468,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -5547,7 +5486,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Brewery Field",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3000,
     "latitude": 54.70451,
     "longitude": -1.599134,
@@ -5559,6 +5497,7 @@
       "postalCode": "DL16 6JN",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North East"
@@ -5584,7 +5523,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -5603,7 +5541,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Meadowbank",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 3000,
     "latitude": 51.234444,
     "longitude": -0.333543,
@@ -5615,6 +5552,7 @@
       "postalCode": "RH4 1DX",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -5650,7 +5588,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League",
-          "alternateName": "Vanarama National League",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -5669,7 +5606,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Christchurch Meadow",
-    "priceRange": "££",
+    "alternateName": "The Silver X Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Silver X Stadium"
@@ -5684,6 +5621,7 @@
       "postalCode": "DE56 1BA",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East Midlands"
@@ -5709,7 +5647,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -5728,7 +5665,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Cantilever Park",
-    "priceRange": "££",
+    "alternateName": "Drivers Direct Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Drivers Direct Stadium"
@@ -5742,6 +5679,7 @@
       "postalCode": "WA4 2RS",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -5770,7 +5708,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -5789,7 +5726,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Mount Pleasant",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 2500,
     "latitude": 54.589177,
     "longitude": -1.016661,
@@ -5800,6 +5736,7 @@
       "postalCode": "TS11 7BW",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North East"
@@ -5825,7 +5762,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -5844,7 +5780,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Alder House",
-    "priceRange": "££",
+    "alternateName": "Skuna Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "Skuna Stadium"
@@ -5859,6 +5795,7 @@
       "postalCode": "M46 9FJ",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -5884,7 +5821,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -5903,7 +5839,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Parkfield",
-    "priceRange": "££",
+    "alternateName": "The Lantern Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Lantern Stadium"
@@ -5919,6 +5855,7 @@
       "postalCode": "EN6 1QN",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -5944,7 +5881,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -5963,7 +5899,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Coles Park",
-    "priceRange": "££",
+    "alternateName": "CVS Van Hire Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "CVS Van Hire Stadium"
@@ -5979,6 +5915,7 @@
       "postalCode": "N17 7JP",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -6004,7 +5941,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -6023,7 +5959,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Queen Elizabeth II Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 2500,
     "latitude": 51.659332,
     "longitude": -0.063843,
@@ -6035,6 +5970,7 @@
       "postalCode": "EN1 3PL",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -6060,7 +5996,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -6079,7 +6014,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Cygnet Stadium",
-    "priceRange": "££",
+    "alternateName": "The Cygnet Health Care Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Cygnet Health Care Stadium"
@@ -6095,6 +6030,7 @@
       "postalCode": "TA1 2HG",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South West"
@@ -6120,7 +6056,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -6139,7 +6074,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Causeway Lane",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 2400,
     "latitude": 53.137031,
     "longitude": -1.551677,
@@ -6150,6 +6084,7 @@
       "postalCode": "DE4 3AR",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East Midlands"
@@ -6175,7 +6110,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -6194,7 +6128,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Latimer Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 2400,
     "latitude": 52.366808,
     "longitude": -0.689305,
@@ -6206,6 +6139,7 @@
       "postalCode": "NN15 5PS",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East Midlands"
@@ -6236,7 +6170,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -6255,7 +6188,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Lincoln Road",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 2300,
     "latitude": 52.593814,
     "longitude": -0.254312,
@@ -6267,6 +6199,7 @@
       "postalCode": "PE1 3HA",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -6292,7 +6225,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -6311,7 +6243,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "New Windmill Ground",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 2300,
     "latitude": 52.244306,
     "longitude": -1.502849,
@@ -6323,6 +6254,7 @@
       "postalCode": "CV33 9SA",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "West Midlands"
@@ -6348,7 +6280,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
-          "alternateName": "Vanarama National League North",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -6367,7 +6298,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Rossett Park",
-    "priceRange": "££",
+    "alternateName": "The Marine Travel Arena",
     "sponsor": {
       "@type": "Organization",
       "name": "The Marine Travel Arena"
@@ -6382,6 +6313,7 @@
       "postalCode": "L23 3AS",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -6410,7 +6342,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -6429,7 +6360,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Hartsdown Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 2100,
     "latitude": 51.380459,
     "longitude": 1.373928,
@@ -6441,6 +6371,7 @@
       "postalCode": "CT9 5QY",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -6466,7 +6397,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -6485,7 +6415,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Clayborn",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 2000,
     "latitude": 53.717658,
     "longitude": -1.711748,
@@ -6496,6 +6425,7 @@
       "postalCode": "WF15 8DF",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "Yorkshire and The Humber"
@@ -6521,7 +6451,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -6540,7 +6469,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "King George V Arena",
-    "priceRange": "££",
+    "alternateName": "The United Business Group Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The United Business Group Stadium"
@@ -6556,6 +6485,7 @@
       "postalCode": "KT6 7NA",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -6584,7 +6514,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -6603,7 +6532,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Arbour Park",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 2000,
     "latitude": 51.5198622,
     "longitude": -0.5884198,
@@ -6614,6 +6542,7 @@
       "postalCode": "SL2 5AY",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -6639,7 +6568,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
-          "alternateName": "Vanarama National League South",
           "sponsor": {
             "@type": "Organization",
             "name": "Vanarama"
@@ -6658,7 +6586,7 @@
   {
     "@type": "StadiumOrArena",
     "name": "Hop Oast Stadium",
-    "priceRange": "££",
+    "alternateName": "The Camping World Community Stadium",
     "sponsor": {
       "@type": "Organization",
       "name": "The Camping World Community Stadium"
@@ -6674,6 +6602,7 @@
       "postalCode": "RH13 0AD",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "South East"
@@ -6702,7 +6631,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -6721,7 +6649,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "The Maurice Rebak Stadium",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 1500,
     "latitude": 51.606848,
     "longitude": -0.171497,
@@ -6733,6 +6660,7 @@
       "postalCode": "N12 0PD",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "London"
@@ -6761,7 +6689,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -6780,7 +6707,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "Gorsey Lane",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 1345,
     "latitude": 53.4004,
     "longitude": -2.575604,
@@ -6791,6 +6717,7 @@
       "postalCode": "WA2 7SH",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "North West"
@@ -6819,7 +6746,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"
@@ -6838,7 +6764,6 @@
   {
     "@type": "StadiumOrArena",
     "name": "North Road",
-    "priceRange": "££",
     "maximumAttendeeCapacity": 1000,
     "latitude": 51.815817,
     "longitude": 1.026387,
@@ -6849,6 +6774,7 @@
       "postalCode": "CO7 0PL",
       "addressCountry": "GB"
     },
+    "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
       "name": "East of England"
@@ -6877,7 +6803,6 @@
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Isthmian League Premier Division",
-          "alternateName": "Pitching In Isthmian League Premier Division",
           "sponsor": {
             "@type": "Organization",
             "name": "Pitching In"

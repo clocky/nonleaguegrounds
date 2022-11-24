@@ -1,7 +1,21 @@
-@use "../../node_modules/@picocss/pico/scss/pico";
-
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWYabdcefghiklmnopqrstuvwxyz()&amp;amp;'");
-@import url("https://fonts.googleapis.com/css?family=Noto+Emoji&display=swap&text=🏟️⚽🏆󠁧󠁢󠁷󠁬󠁳🐦🐝🪵⛏️🔨🐦⛪🗡️󠁧󠁢󠁷󠁬󠁳🏃🦁󠁧󠁢󠁷󠁬󠁳✈️󠁧󠁢󠁷󠁬󠁳🏁🪨🏃󠁧󠁢󠁷󠁬󠁳🦐🧲🐦🪨🧤⛪🏖️🦌⚔️󠁧󠁢󠁷󠁬󠁳😇🪖🦌󠁧󠁢󠁷󠁬󠁳🦭🐦󠁧󠁢󠁷󠁬󠁳󠁧󠁢󠁷󠁬🪖🐯🐂󠁧󠁢󠁷󠁬󠁳🌺󠁧󠁢󠁷󠁬󠁳👶🐦󠁧󠁢󠁷󠁬󠁳✋󠁧󠁢󠁷󠁬󠁳✈️🐶🏖️󠁧󠁢󠁷󠁬󠁳⛵🧲🔴󠁧󠁢󠁷󠁬󠁳🐦🏖️󠁧󠁢󠁷󠁬󠁳🎯⚪󠁧󠁢󠁷󠁬󠁳🏠󠁧󠁢󠁷󠁬󠁳🦫🦅󠁧󠁢󠁷󠁬󠁳👑⚔️󠁧󠁢󠁷󠁬☘️󠁳⭕󠁧󠁢󠁷󠁬󠁳✊😇🦚😇🦅🌎󠁧󠁢󠁷󠁬󠁳✊🏴󠁧󠁢󠁷󠁬󠁳󠁿🙏🏻🍞🎻🇷🇰🪄👦🚪♟️🎓🍷🔫");
+@import url("https://fonts.googleapis.com/css?family=Noto+Emoji&display=swap&text=🏟️⚽🏆󠁧󠁢󠁷󠁬󠁳🐦📍🐝🪵⛏️🔨🐦⛪🗡️󠁧󠁢󠁷󠁬󠁳🏃🦁󠁧󠁢󠁷󠁬󠁳✈️󠁧󠁢󠁷󠁬󠁳🏁🪨🏃󠁧󠁢󠁷󠁬󠁳🦐🧲🐦🪨🧤⛪🏖️🦌⚔️󠁧󠁢󠁷󠁬󠁳😇🪖🦌󠁧󠁢󠁷󠁬󠁳🦭🐦󠁧󠁢󠁷󠁬󠁳󠁧󠁢󠁷󠁬🪖🐯🐂󠁧󠁢󠁷󠁬󠁳🌺󠁧󠁢󠁷󠁬󠁳👶🐦󠁧󠁢󠁷󠁬󠁳✋󠁧󠁢󠁷󠁬󠁳✈️🐶🏖️󠁧󠁢󠁷󠁬󠁳⛵🧲🔴󠁧󠁢󠁷󠁬󠁳🐦🏖️󠁧󠁢󠁷󠁬󠁳🎯⚪󠁧󠁢󠁷󠁬󠁳🏠󠁧󠁢󠁷󠁬󠁳🦫🦅󠁧󠁢󠁷󠁬󠁳👑⚔️󠁧󠁢󠁷󠁬☘️󠁳⭕󠁧󠁢󠁷󠁬󠁳✊😇🦚😇🦅🌎󠁧󠁢󠁷󠁬󠁳✊🏴󠁧󠁢󠁷󠁬󠁳󠁿🙏🏻🍞🎻🇷🇰🪄👦🚪♟️🎓🍷🔫");
+
+@import "../../node_modules/@picocss/pico/scss/variables";
+
+@import "../../node_modules/@picocss/pico/scss/themes/default";
+
+@import "../../node_modules/@picocss/pico/scss/functions";
+
+@import "../../node_modules/@picocss/pico/scss/components/nav";
+@import "../../node_modules/@picocss/pico/scss/content/button";
+@import "../../node_modules/@picocss/pico/scss/content/embedded";
+@import "../../node_modules/@picocss/pico/scss/content/table";
+@import "../../node_modules/@picocss/pico/scss/content/typography";
+@import "../../node_modules/@picocss/pico/scss/layout/container";
+@import "../../node_modules/@picocss/pico/scss/layout/document";
+@import "../../node_modules/@picocss/pico/scss/layout/sectioning";
+@import "../../node_modules/@picocss/pico/scss/layout/grid";
 
 .emoji {
   font-family: "Noto Emoji", sans-serif;
@@ -14,7 +28,7 @@
   --primary-hover: #0b6a0b;
   --primary-focus: #8cbd18
   --primary-inverse: #ffffff;
-  h1,h2, nav strong{
+  h1, nav strong{
     font-family: "Rubik Mono One", sans-serif;
     font-weight: 400;
     line-height: 1.75rem;
@@ -69,6 +83,11 @@ th {
 
 #trophy {
   background-image: url("../img/ezequiel-garrido-s6XWkKDKynY-unsplash.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#regions {
+  background-image: url("../img/william-hook-0er8ezF3Xhg-unsplash.jpg");
   background-color: rgba(0, 0, 0, 0.5);
 }
 

@@ -11,11 +11,10 @@ eleventyComputed:
 ---
 
 {% from "macros.njk" import staticmap as google %}
-
-{%- set address -%}
-{{ ground.name | replace("'", "") | urlencode -}},{{- ground.location.address.addressLocality | urlencode }},{{ ground.location.address.addressRegion | urlencode }},{{ ground.loaction.address.postalCode | urlencode }}
-{%- endset -%}
-{%- set key = env.google_maps_api_key -%}
+{% from "maps.macro.njk" import bing,
+osm,
+google,
+apple %}
 
 <script type="application/ld+json">
   {{ ground | dump | safe }}
@@ -29,17 +28,16 @@ eleventyComputed:
   </div>
 </header>
 
-<main class="container">
+<main class="container" itemscope itemtype="http://schema.org/StadiumOrArena">
   <div class="grid">
     <section>
-      <h3>Overview</h3>
-      <p class="block is-size-5">
-        <strong>{{ ground.name }}</strong>
-        {%- if ground.sponsor %}, officially known as <strong>{{ ground.sponsor.name | safe }}</strong> for sponsorship reasons, {% endif %}
+      <p>
+        <strong itemprop="name">{{ ground.name }}</strong>
+        {%- if ground.sponsor %}, officially known as <strong itemprop="alternateName">{{ ground.sponsor.name | safe }}</strong> for sponsorship reasons, {% endif %}
         is an {{ ground.subOrganization[0].sport | lower }} ground in {{ ground.address.addressLocality }}
         {%- if ground.address.addressRegion -%}
         , {{ ground.address.addressRegion }}
-        {%- endif %} that holds {{ ground.maximumAttendeeCapacity | commaNumber }} people.
+        {%- endif %} that holds <span itemprop="maximumAttendeeCapacity">{{ ground.maximumAttendeeCapacity | commaNumber }}</span> people.
       </p>
       {% for club in ground.subOrganization %}
         <p class="block">
@@ -49,7 +47,7 @@ eleventyComputed:
             The ground is the home of
             {% endif %}
           <a href="/{{ club.memberOf.name | slugify }}/{{ club.name | safe | slugify }}">{{ club.alternateName }}</a>, 
-            who currently compete in the <a href="/{{ club.memberOf.name | slugify }}">{{ club.memberOf.alternateName }}</a>.</p>
+            who currently compete in the <a href="/{{ club.memberOf.name | slugify }}">{{ club.memberOf.name }}</a>.</p>
       {% endfor %}
       <h4>Information</h4>
       <table role="grid">
@@ -57,14 +55,14 @@ eleventyComputed:
           <tr>
             <th>Name</th>
             <td>
-              {{ ground.name }}
+              {{ ground.name | safe }}
             </td>
           </tr>
           {% if ground.sponsor %}
             <tr>
               <th>Sponsor</th>
               <td>
-                {{ ground.sponsor.name }}
+                {{ ground.sponsor.name | safe }}
               </td>
             </tr>
           {% endif %}
@@ -125,17 +123,24 @@ eleventyComputed:
       <h4>Maps</h4>
       <p>
         <a 
-            href="https://www.google.com/maps/search/?api=1&zoom={{zoom}}&query={{address}}&basemap=roadmap" 
+            href="{{ google(ground) }}" 
             target="_blank" 
             role="button" 
             aria-label="Open in Google Maps">Google Maps</a>
         <a 
-            href="http://maps.apple.com/?q={{address}}&sll={{ground.latitude}},{{ground.longitude}}&z={{zoom}}&t=m"
+            href="{{ apple(ground) }}"
             target="_blank" 
             role="button" 
             aria-label="Open in Apple Maps">Apple Maps</a>
+      </p>
+      <p>
         <a 
-            href="http://www.openstreetmap.org/#map={{zoom}}/{{ground.latitude}}/{{ground.longitude}}"
+            href="{{ bing(ground) }}"
+            target="_blank" 
+            role="button" 
+            aria-label="Open in Bing Maps">Bing Maps</a>
+        <a 
+            href="{{ osm(ground) }}"
             target="_blank" 
             role="button" 
             aria-label="Open in Open Street Maps">OpenStreetMap</a>

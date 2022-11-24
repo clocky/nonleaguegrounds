@@ -3,6 +3,7 @@
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
     "name": "East Midlands",
+    "alternateName": "the East Midlands",
     "geoContains": [
       {
         "@type": "StadiumOrArena",
@@ -391,6 +392,7 @@
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
     "name": "East of England",
+    "alternateName": "the East of England",
     "geoContains": [
       {
         "@type": "StadiumOrArena",
@@ -1045,6 +1047,7 @@
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
     "name": "London",
+    "alternateName": "London",
     "geoContains": [
       {
         "@type": "StadiumOrArena",
@@ -1623,6 +1626,7 @@
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
     "name": "North East",
+    "alternateName": "the North East",
     "geoContains": [
       {
         "@type": "StadiumOrArena",
@@ -1895,6 +1899,7 @@
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
     "name": "North West",
+    "alternateName": "the North West",
     "geoContains": [
       {
         "@type": "StadiumOrArena",
@@ -2617,6 +2622,7 @@
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
     "name": "South East",
+    "alternateName": "the South East",
     "geoContains": [
       {
         "@type": "StadiumOrArena",
@@ -3580,6 +3586,7 @@
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
     "name": "South West",
+    "alternateName": "the South West",
     "geoContains": [
       {
         "@type": "StadiumOrArena",
@@ -3855,6 +3862,7 @@
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
     "name": "Wales",
+    "alternateName": "Wales",
     "geoContains": [
       {
         "@type": "StadiumOrArena",
@@ -3901,6 +3909,7 @@
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
     "name": "West Midlands",
+    "alternateName": "the West Midlands",
     "geoContains": [
       {
         "@type": "StadiumOrArena",
@@ -4135,6 +4144,7 @@
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
     "name": "Yorkshire and The Humber",
+    "alternateName": "Yorkshire and The Humber",
     "geoContains": [
       {
         "@type": "StadiumOrArena",

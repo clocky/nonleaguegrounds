@@ -1,0 +1,83 @@
+---
+layout: base.njk
+pagination:
+    data: regions
+    size: 1
+    alias: region
+permalink: "/{{ region.name | slugify }}/index.html"
+preload: "william-hook-0er8ezF3Xhg-unsplash.jpg"
+eleventyComputed:
+    title: "Clubs in the {{ region.name | safe }}"
+    description: Overview of non-league clubs of {{ region.alternateName | safe }}, with a total of {{ region.geoContains.length }} clubs"
+---
+{% from "macros.njk" import emoji %}
+
+{%- set markers -%}
+{%- for ground in region.geoContains -%}
+   &markers=size:mid|label:{{ ground.name.slice(0,1) | upper }}|{{ ground.latitude }},{{ ground.longitude }}
+{%- endfor -%}
+{%- endset -%}
+{%- set key = env.google_maps_api_key -%}
+
+<script type="application/ld+json">
+{{ region | dump | safe}}
+</script>
+
+<header class="container-fluid hero" id="regions" data-theme="dark">
+  <div class="container">
+    <h1>{{ region.name }}</h1>
+    <div class="grid">
+      <p>
+        <strong>
+          {{ region.alternateName | first | upper }}{{ region.alternateName.slice(1) }} {% if region.alternateName.slice(-1) == "s" %} are {% else %} is {% endif %} at the heart of the non-league pyramid, with a total of {{ region.geoContains.length }} clubs.
+        </strong>
+      </p>
+      <p>
+      </p>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="grid">
+    <table role="grid">
+      <thead>
+        <tr>
+          <th scope="col">Ground</th>
+          <th scope="col">Club</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for ground in region.geoContains %}
+          <tr>
+            <th>
+              <a href="/{{ region.name | slugify }}/{{ ground.name | slugify }}">
+                {{ ground.name }}
+              </a>
+            </th>
+            <td>
+              {{ ground.subOrganization.name }}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <figure class="container-fluid">
+      {% set caption = "Map of clubs in " + region.alternateName %}
+      <img 
+        src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" 
+        alt="{{ caption }}"
+      >
+      <figcaption>
+        <small>
+          {{ caption }}
+        </small>
+      </figcaption>
+    </figure>
+  </div>
+  <footer>
+    <small>
+Photo by <a href="https://unsplash.com/@williamtm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">William Hook</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </small>
+  </footer>
+</main>

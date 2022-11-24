@@ -68,15 +68,15 @@ eleventyComputed:
     </table>
     <figure class="container-fluid">
       {% set caption = "Map of " + league.name + " clubs" %}
+      <img 
+        src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" 
+        alt="{{ caption }}"
+      >
       <figcaption>
         <small>
           {{ caption }}
         </small>
       </figcaption>
-      <img 
-        src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" 
-        alt="{{ caption }}"
-      >
     </figure>
   </div>
   <footer>

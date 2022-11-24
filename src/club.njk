@@ -21,33 +21,35 @@ eleventyComputed:
   </div>
 </header>
 
-<main class="container" >
+<main class="container">
   <div class="grid">
-    <section>
-      <p class="block is-size-5">
-        <strong>
-          {{ club.alternateName }}
+    <section itemscope itemtype="https://schema.org/SportsTeam">
+      <h2 class="sr-only">Overview</h2>
+      <p>
+        <strong itemprop="alternateName">
+          {{- club.alternateName -}}
         </strong>
-          is an {{ club.sport | lower }} club, based in {{ club.location.address.addressLocality }}
+          is an <span itemprop="sport">{{ club.sport | lower }}</span> club, based in {{ club.location.address.addressLocality }}
         {%- if club.location.address.addressRegion -%}
             , {{ club.location.address.addressRegion }}
         {%- endif -%}.
         </p>
-      <p class="block is-size-6">
-          Founded {{ club.foundingDate | ago }} years ago in {{ club.foundingDate }}, the team currently compete in the
+      <p>
+          Founded {{ club.foundingDate | ago }} years ago in <span itemprop="foundingDate">{{ club.foundingDate }}</span>, the team currently compete in the
           <a href="/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
           {{ club.memberOf.name }}</a>, 
             {%- if club.memberOf.additionalProperty %}
             the {{ club.memberOf.additionalProperty.@value | ordinal }} tier of English football
             {%- endif %}.
         </p>
-      <p class="block is-size-6">
+      <p itemscope itemtype="https://schema.org/StadiumOrArena">
           They play their home matches at 
-          <a href="/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}" itemscope itemtype="https://schema.org/{{ club.areaServed.@type }}">{{ club.location.name }}</a>,
-          and are nicknamed <strong>"{{ club.slogan }}"</strong>.
+          <a href="/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}" itemprop="name">{{ club.location.name }}</a>,
+          and are nicknamed <strong itemprop="slogan">"{{ club.slogan }}"</strong>.
         </p>
     </section>
     <aside>
+      <h3>Details</h3>
       <table role="grid">
         <tbody>
           <tr>

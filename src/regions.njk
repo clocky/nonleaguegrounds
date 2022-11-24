@@ -1,0 +1,59 @@
+---
+layout: base.njk
+permalink: /regions/index.html
+preload: "william-hook-0er8ezF3Xhg-unsplash.jpg"
+eleventyComputed:
+    title: "Football Conference Regions"
+    description: "A directory of {{ regions.length }} leagues in the English football conference, sorted by tier."
+---
+
+<header class="container-fluid hero" id="regions" data-theme="dark">
+  <div class="container">
+    <h1>Regions</h1>
+    <div class="grid">
+      <p>
+        <strong>A directory of {{ regions.length }} regions in the English football conference system</strong>
+      </p>
+      <p></p>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <table role="grid">
+    <thead>
+      <tr>
+        <th scope="col">Region</th>
+        <th scope="col">Clubs</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for region in regions %}
+        <tr>
+          <th scope="row">
+            <a href="/{{ region.name | slugify }}">
+              {{ region.name }}
+            </a>
+          </th>
+          <td>
+            {% for ground in region
+              .geoContains
+              .slice(0, 4) | sort(attribute = "address.addressLocality") %}
+              {{- ground.address.addressLocality }}
+              {%- if not loop.last %}, {% endif %}
+            {% endfor %}
+            {% if region.geoContains.length > 4 %}
+                  and {{ region.geoContains.length - 4 }} more
+              {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</main>
+
+<footer class="container">
+  <small>
+Photo by <a href="https://unsplash.com/@williamtm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">William Hook</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </small>
+</footer>

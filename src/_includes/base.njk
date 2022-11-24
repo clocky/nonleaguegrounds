@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/maps.css">
+        {%- if preload %}
+            <link rel="preload" as="image" href="/img/{{ preload }}"/>
+        {%- endif %}
         <meta name="description" content="{% if description %}{{ description }}{% else %}{{ meta.description }}{% endif %}">
         <title>
             {% if title %}{{ title }}{%else%}{{ meta.title }}{%endif%}
@@ -25,16 +28,20 @@
                     </ul>
                     <ul>
                         <li>
-                            <a href="/ground/">
+                            <a href="/grounds">
                                 <span class="emoji">🏟️</span> Grounds</a>
                         </li>
                         <li>
-                            <a href="/club/">
+                            <a href="/clubs">
                                 <span class="emoji">⚽</span> Clubs</a>
                         </li>
                         <li>
-                            <a href="/league/">
+                            <a href="/leagues">
                                 <span class="emoji">🏆</span> Leagues</a>
+                        </li>
+                        <li>
+                            <a href="/regions">
+                                <span class="emoji">📍</span> Regions</a>
                         </li>
                     </ul>
                 </nav>

@@ -25,7 +25,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.theshots.co.uk",
       "sponsor": {
@@ -46,7 +45,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Recreation Ground",
-      "alternateName": "The EBB Stadium at the Recreation Ground",
       "sponsor": {
         "@type": "Organization",
         "name": "The EBB Stadium at the Recreation Ground"
@@ -100,7 +98,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://altrinchamfc.com",
       "sponsor": {
@@ -121,7 +118,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Moss Lane",
-      "alternateName": "J. Davidson Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "J. Davidson Stadium"
@@ -173,7 +169,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.barnetfc.com",
       "sponsor": {
@@ -246,7 +241,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.borehamwoodfootballclub.co.uk",
       "sponsor": {
@@ -267,7 +261,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Meadow Park",
-      "alternateName": "LV Bet Stadium Meadow Park",
       "sponsor": {
         "@type": "Organization",
         "name": "LV Bet Stadium Meadow Park"
@@ -321,7 +314,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.bromleyfc.co.uk",
       "sponsor": {
@@ -396,7 +388,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://chesterfield-fc.co.uk",
       "sponsor": {
@@ -465,7 +456,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://daggers.co.uk",
       "sponsor": {
@@ -486,7 +476,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Victoria Road",
-      "alternateName": "Chigwell Construction Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Chigwell Construction Stadium"
@@ -540,7 +529,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.dorkingwanderers.com",
       "sponsor": {
@@ -613,7 +601,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.eastleighfc.com",
       "sponsor": {
@@ -634,7 +621,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Ten Acres",
-      "alternateName": "Silverlake Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Silverlake Stadium"
@@ -687,7 +673,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://fchalifaxtown.com",
       "sponsor": {
@@ -757,7 +742,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://gateshead-fc.com",
       "sponsor": {
@@ -825,7 +809,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://maidenheadunitedfc.ktckts.com",
       "sponsor": {
@@ -893,7 +876,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://maidstoneunited.co.uk",
       "sponsor": {
@@ -963,7 +945,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.nottscountyfc.co.uk",
       "sponsor": {
@@ -1037,7 +1018,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.oldhamathletic.co.uk",
       "sponsor": {
@@ -1101,7 +1081,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.solihullmoorsfc.co.uk",
       "sponsor": {
@@ -1122,7 +1101,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Damson Park",
-      "alternateName": "ARMCO Arena",
       "sponsor": {
         "@type": "Organization",
         "name": "ARMCO Arena"
@@ -1171,7 +1149,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.southendunited.co.uk",
       "sponsor": {
@@ -1236,7 +1213,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.scunthorpe-united.co.uk",
       "sponsor": {
@@ -1300,7 +1276,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://torquayunited.com",
       "sponsor": {
@@ -1368,7 +1343,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.wealdstone-fc.com",
       "sponsor": {
@@ -1437,7 +1411,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://wokingfc.co.uk",
       "sponsor": {
@@ -1458,7 +1431,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Kingfield Stadium",
-      "alternateName": "The Laithwaite Community Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Laithwaite Community Stadium"
@@ -1512,7 +1484,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://www.ytfc.net",
       "sponsor": {
@@ -1576,7 +1547,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://yorkcityfootballclub.co.uk",
       "sponsor": {
@@ -1597,7 +1567,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "York Community Stadium",
-      "alternateName": "LNER Community Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "LNER Community Stadium"
@@ -1645,7 +1614,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.afcfylde.co.uk",
       "sponsor": {
@@ -1713,7 +1681,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.telfordunited.com",
       "sponsor": {
@@ -1782,7 +1749,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://alfretontownfootballclub.com",
       "sponsor": {
@@ -1803,7 +1769,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "North Street",
-      "alternateName": "Impact Arena Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Impact Arena Stadium"
@@ -1854,7 +1819,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://banburyunitedfc.co.uk",
       "sponsor": {
@@ -1875,7 +1839,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Spencer Stadium",
-      "alternateName": "The Banbury Plant Hire Community Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Banbury Plant Hire Community Stadium"
@@ -1923,7 +1886,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.blythspartans.com",
       "sponsor": {
@@ -1993,7 +1955,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.bostonunited.co.uk",
       "sponsor": {
@@ -2057,7 +2018,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://brackleytownfc.com",
       "sponsor": {
@@ -2121,7 +2081,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://bpafc.com",
       "sponsor": {
@@ -2190,7 +2149,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.buxtonfc.co.uk",
       "sponsor": {
@@ -2211,7 +2169,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "The Silverlands",
-      "alternateName": "Tarmac Silverlands Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Tarmac Silverlands Stadium"
@@ -2258,7 +2215,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.chesterfc.com",
       "sponsor": {
@@ -2328,7 +2284,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.chorleyfc.com",
       "sponsor": {
@@ -2349,7 +2304,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Victory Park",
-      "alternateName": "The Chorley Group Victory Park Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Chorley Group Victory Park Stadium"
@@ -2402,7 +2356,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.curzon-ashton.co.uk",
       "sponsor": {
@@ -2466,7 +2419,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://darlingtonfc.co.uk",
       "sponsor": {
@@ -2530,7 +2482,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://farsleyceltic.com",
       "sponsor": {
@@ -2600,7 +2551,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.gloucestercityafc.com",
       "sponsor": {
@@ -2621,7 +2571,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "New Meadow Park",
-      "alternateName": "TigerTurf Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "TigerTurf Stadium"
@@ -2669,7 +2618,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.herefordfc.co.uk",
       "sponsor": {
@@ -2737,7 +2685,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://ketteringtownfc.com",
       "sponsor": {
@@ -2807,7 +2754,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://harriers.co.uk",
       "sponsor": {
@@ -2871,7 +2817,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.kltown.co.uk",
       "sponsor": {
@@ -2940,7 +2885,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://leamingtonfc.co.uk",
       "sponsor": {
@@ -3004,7 +2948,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://pslfc.com",
       "sponsor": {
@@ -3068,7 +3011,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://www.scarboroughathletic.com",
       "sponsor": {
@@ -3140,7 +3082,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://southportfc.net",
       "sponsor": {
@@ -3161,7 +3102,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Haig Avenue",
-      "alternateName": "Merseyrail Community Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Merseyrail Community Stadium"
@@ -3209,7 +3149,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League North",
-      "alternateName": "Vanarama National League North",
       "sport": "Association Football",
       "url": "https://spennymoortownfc.co.uk",
       "sponsor": {
@@ -3274,7 +3213,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://bathcityfc.com",
       "sponsor": {
@@ -3347,7 +3285,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://braintreetownfc.org.uk",
       "sponsor": {
@@ -3368,7 +3305,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Cressing Road",
-      "alternateName": "Dunmow Group Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Dunmow Group Stadium"
@@ -3420,7 +3356,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://chelmsfordcityfc.com",
       "sponsor": {
@@ -3484,7 +3419,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://cheshuntfc.com",
       "sponsor": {
@@ -3548,7 +3482,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://chippenhamtown.com",
       "sponsor": {
@@ -3612,7 +3545,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://concordrangers.co.uk",
       "sponsor": {
@@ -3678,7 +3610,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://dartfordfc.com",
       "sponsor": {
@@ -3745,7 +3676,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://doverathletic.com",
       "sponsor": {
@@ -3812,7 +3742,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://dulwichhamletfc.co.uk",
       "sponsor": {
@@ -3874,7 +3803,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "sponsor": {
         "@type": "Organization",
@@ -3940,7 +3868,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://ebbsfleetunited.co.uk",
       "sponsor": {
@@ -3961,7 +3888,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Stonebridge Road",
-      "alternateName": "Kuflink Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Kuflink Stadium"
@@ -4011,7 +3937,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://farnboroughfc.co.uk",
       "sponsor": {
@@ -4032,7 +3957,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Cherrywood Road",
-      "alternateName": "Easy As HGV Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Easy As HGV Stadium"
@@ -4084,7 +4008,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://hrbfc.co.uk",
       "sponsor": {
@@ -4105,7 +4028,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Beveree Stadium",
-      "alternateName": "The Rocket Hospitality Beveree Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Rocket Hospitality Beveree Stadium"
@@ -4156,7 +4078,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://havantandwaterlooville.co.uk",
       "sponsor": {
@@ -4177,7 +4098,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "The Westleigh",
-      "alternateName": "Draper Tools Community Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Draper Tools Community Stadium"
@@ -4225,7 +4145,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://www.hemelfc.com",
       "sponsor": {
@@ -4291,7 +4210,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://hungerfordtown.com",
       "sponsor": {
@@ -4356,7 +4274,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://oxfordcityfc.co.uk",
       "sponsor": {
@@ -4419,7 +4336,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://sloughtownfc.net",
       "sponsor": {
@@ -4482,7 +4398,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://stalbanscityfc.com",
       "sponsor": {
@@ -4503,7 +4418,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Clarence Park",
-      "alternateName": "Mozzarella Fellas Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Mozzarella Fellas Stadium"
@@ -4550,7 +4464,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://tauntontown.com",
       "sponsor": {
@@ -4571,7 +4484,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Cygnet Stadium",
-      "alternateName": "The Cygnet Health Care Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Cygnet Health Care Stadium"
@@ -4619,7 +4531,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://tonbridgeangels.co.uk",
       "sponsor": {
@@ -4640,7 +4551,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Longmead Stadium",
-      "alternateName": "Halcyon Wealth Longmead Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Halcyon Wealth Longmead Stadium"
@@ -4692,7 +4602,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://wellingunited.com",
       "sponsor": {
@@ -4756,7 +4665,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://uptheterras.co.uk",
       "sponsor": {
@@ -4820,7 +4728,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
-      "alternateName": "Vanarama National League South",
       "sport": "Association Football",
       "url": "https://worthingfc.com",
       "sponsor": {
@@ -4841,7 +4748,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Woodside Road",
-      "alternateName": "The Crucial Environmental Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Crucial Environmental Stadium"
@@ -4890,7 +4796,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League",
-      "alternateName": "Vanarama National League",
       "sport": "Association Football",
       "url": "https://wrexhamafc.co.uk",
       "sponsor": {
@@ -4959,7 +4864,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://www.pitchero.com/clubs/aveley",
       "sponsor": {
@@ -5030,7 +4934,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://billericaytownfc.co.uk",
       "sponsor": {
@@ -5102,7 +5005,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://bsfc.co.uk",
       "sponsor": {
@@ -5123,7 +5025,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Woodside Park",
-      "alternateName": "R & D Advisors UK Ltd Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "R &amp; D Advisors UK Ltd Stadium"
@@ -5174,7 +5075,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://www.pitchero.com/clubs/bognorregistownfc",
       "sponsor": {
@@ -5240,7 +5140,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://bowersandpitseafootballclub.com",
       "sponsor": {
@@ -5307,7 +5206,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://brightlingsearegentfc.com",
       "sponsor": {
@@ -5373,7 +5271,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://canveyislandfc.com",
       "sponsor": {
@@ -5394,7 +5291,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Park Lane",
-      "alternateName": "The Movie Starr Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Movie Starr Stadium"
@@ -5445,7 +5341,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://www.carshaltonathletic.co.uk",
       "sponsor": {
@@ -5513,7 +5408,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://corinthian-casuals.com",
       "sponsor": {
@@ -5534,7 +5428,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "King George V Arena",
-      "alternateName": "The United Business Group Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The United Business Group Stadium"
@@ -5586,7 +5479,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://cwfc.co.uk",
       "sponsor": {
@@ -5656,7 +5548,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://etfc.london",
       "sponsor": {
@@ -5723,7 +5614,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://folkestoneinvictafc.co.uk",
       "sponsor": {
@@ -5744,7 +5634,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Cheriton Road",
-      "alternateName": "The Buildkent Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Buildkent Stadium"
@@ -5792,7 +5681,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://haringeyboroughfc.net",
       "sponsor": {
@@ -5813,7 +5701,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Coles Park",
-      "alternateName": "CVS Van Hire Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "CVS Van Hire Stadium"
@@ -5864,7 +5751,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://hastingsunited.com",
       "sponsor": {
@@ -5931,7 +5817,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://hernebayfootballclub.co.uk",
       "sponsor": {
@@ -5952,7 +5837,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Winch's Field",
-      "alternateName": "The MBS Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The MBS Stadium"
@@ -6006,7 +5890,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://hornchurchfc.com",
       "sponsor": {
@@ -6073,7 +5956,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://horshamfc.co.uk",
       "sponsor": {
@@ -6094,7 +5976,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Hop Oast Stadium",
-      "alternateName": "The Camping World Community Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Camping World Community Stadium"
@@ -6145,7 +6026,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://kingstonian.com",
       "sponsor": {
@@ -6212,7 +6092,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://lewesfc.com",
       "sponsor": {
@@ -6276,7 +6155,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://margate-fc.co.uk",
       "sponsor": {
@@ -6340,7 +6218,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://pitchero.com/clubs/pottersbartownfc/",
       "sponsor": {
@@ -6361,7 +6238,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Parkfield",
-      "alternateName": "The Lantern Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Lantern Stadium"
@@ -6412,7 +6288,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
-      "alternateName": "Pitching In Isthmian League Premier Division",
       "sport": "Association Football",
       "url": "https://www.wingatefinchley.com",
       "sponsor": {
@@ -6476,7 +6351,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://ashtonunited.co.uk",
       "sponsor": {
@@ -6539,7 +6413,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://athertoncollieries.co.uk",
       "sponsor": {
@@ -6560,7 +6433,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Alder House",
-      "alternateName": "Skuna Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Skuna Stadium"
@@ -6610,7 +6482,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://bamberbridge.org",
       "sponsor": {
@@ -6673,7 +6544,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://belpertownfc.co.uk",
       "sponsor": {
@@ -6694,7 +6564,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Christchurch Meadow",
-      "alternateName": "The Silver X Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "The Silver X Stadium"
@@ -6744,7 +6613,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://fc-utd.co.uk",
       "sponsor": {
@@ -6807,7 +6675,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://gainsboroughtrinity.com",
       "sponsor": {
@@ -6828,7 +6695,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "The Northolme",
-      "alternateName": "Gainsborough Martin & Co. Arena",
       "sponsor": {
         "@type": "Organization",
         "name": "Gainsborough Martin &amp; Co. Arena"
@@ -6880,7 +6746,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://guiseleyafc.co.uk",
       "sponsor": {
@@ -6946,7 +6811,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://hydeunited.co.uk",
       "sponsor": {
@@ -6967,7 +6831,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Ewen Fields",
-      "alternateName": "Project Solar Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Project Solar Stadium"
@@ -7022,7 +6885,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://www.pitchero.com/clubs/lancastercity",
       "sponsor": {
@@ -7085,7 +6947,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://liversedgefc.co.uk",
       "sponsor": {
@@ -7151,7 +7012,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://marinefc.com",
       "sponsor": {
@@ -7172,7 +7032,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Rossett Park",
-      "alternateName": "The Marine Travel Arena",
       "sponsor": {
         "@type": "Organization",
         "name": "The Marine Travel Arena"
@@ -7219,7 +7078,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://marskeunitedfc.org",
       "sponsor": {
@@ -7282,7 +7140,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://matlocktownfc.co.uk",
       "sponsor": {
@@ -7345,7 +7202,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://morpethtownfc.com",
       "sponsor": {
@@ -7411,7 +7267,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://nantwichtownfc.co.uk",
       "sponsor": {
@@ -7432,7 +7287,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Weaver Stadium",
-      "alternateName": "Optimum Pay Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Optimum Pay Stadium"
@@ -7482,7 +7336,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://radcliffefc.com",
       "sponsor": {
@@ -7503,7 +7356,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Stainton Park",
-      "alternateName": "Neuven Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Neuven Stadium"
@@ -7549,7 +7401,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://southshieldsfc.co.uk",
       "sponsor": {
@@ -7570,7 +7421,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Filtrona Park",
-      "alternateName": "1st Cloud Arena",
       "sponsor": {
         "@type": "Organization",
         "name": "1st Cloud Arena"
@@ -7618,7 +7468,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://staffordrangersfc.co.uk",
       "sponsor": {
@@ -7684,7 +7533,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://stalybridgeceltic.co.uk",
       "sponsor": {
@@ -7750,7 +7598,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://rylandsfc.co.uk",
       "sponsor": {
@@ -7818,7 +7665,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://warringtontownfc.co.uk",
       "sponsor": {
@@ -7839,7 +7685,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Cantilever Park",
-      "alternateName": "Drivers Direct Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Drivers Direct Stadium"
@@ -7885,7 +7730,6 @@
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
-      "alternateName": "Pitching In Northern Premier League",
       "sport": "Association Football",
       "url": "https://whitbytownfc.com",
       "sponsor": {
@@ -7906,7 +7750,6 @@
     "location": {
       "@type": "StadiumOrArena",
       "name": "Turnbull Ground",
-      "alternateName": "Towbar Express Stadium",
       "sponsor": {
         "@type": "Organization",
         "name": "Towbar Express Stadium"
