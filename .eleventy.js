@@ -20,10 +20,12 @@ module.exports = function (eleventyConfig) {
   /** Check for broken external links */
   /** Apple URL's always seem to 302, so we ignore them */
   eleventyConfig.addPlugin(brokenLinksPlugin, {
+    broken: "error",
+    redirect: "warn",
     cacheDuration: "1w",
-    excludeUrls: ["https://maps.apple.com/*"]
+    excludeUrls: ["https://maps.apple.com/*", "https://www.facebook.com/*", "https://www.youtube.com/channel/*"],
   });
-  
+
   /** Add loader for YAML files */
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
@@ -52,28 +54,30 @@ module.exports = function (eleventyConfig) {
   let yearsAgo = (year) => dayjs().diff(dayjs(year, "YYYY"), "year");
   eleventyConfig.addFilter("ago", yearsAgo);
 
-  eleventyConfig.addTransform("prettier", function (content, outputPath) {
-    const extname = path.extname(outputPath);
-    switch (extname) {
-      case ".html":
-        return prettier.format(content, { printWidth: 512, parser: "html" });
+  if (process.env.ELEVENTY_ENV === "development") {
+    eleventyConfig.addTransform("prettier", function (content, outputPath) {
+      const extname = path.extname(outputPath);
+      switch (extname) {
+        case ".html":
+          return prettier.format(content, { printWidth: 512, parser: "html" });
 
-      case ".css":
-        return prettier.format(content, { printWidth: 80, parser: "css" });
+        case ".css":
+          return prettier.format(content, { printWidth: 80, parser: "css" });
 
-      case ".yaml":
-        return prettier.format(content, { printWidth: 80, parser: "yaml" });
+        case ".yaml":
+          return prettier.format(content, { printWidth: 80, parser: "yaml" });
 
-      case ".json":
-        return prettier.format(content, { printWidth: 80, parser: "json" });
+        case ".json":
+          return prettier.format(content, { printWidth: 80, parser: "json" });
 
-      case ".xml":
-        return prettier.format(content, { printWidth: 256, parser: "html" });
+        case ".xml":
+          return prettier.format(content, { printWidth: 256, parser: "html" });
 
-      default:
-        return content;
-    }
-  });
+        default:
+          return content;
+      }
+    });
+  }
 
   return {
     dir: {
