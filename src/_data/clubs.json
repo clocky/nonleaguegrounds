@@ -3540,13 +3540,13 @@
     "sameAs": ["https://twitter.com/ConcordRangers"],
     "foundingDate": "1967",
     "sport": "Association Football",
-    "url": "https://concordrangers.co.uk",
+    "url": "https://www.concord-rangers.co.uk",
 
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
       "sport": "Association Football",
-      "url": "https://concordrangers.co.uk",
+      "url": "https://www.concord-rangers.co.uk",
       "sponsor": {
         "@type": "Organization",
         "name": "Vanarama"
@@ -3605,13 +3605,13 @@
     ],
     "foundingDate": "1888",
     "sport": "Association Football",
-    "url": "https://dartfordfc.com",
+    "url": "https://www.dartfordfc.com",
 
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
       "sport": "Association Football",
-      "url": "https://dartfordfc.com",
+      "url": "https://www.dartfordfc.com",
       "sponsor": {
         "@type": "Organization",
         "name": "Vanarama"
@@ -3671,13 +3671,13 @@
     "foundingDate": "1983",
     "sport": "Association Football",
     "keywords": "semi-professional",
-    "url": "https://doverathletic.com",
+    "url": "https://www.doverathletic.com",
 
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
       "sport": "Association Football",
-      "url": "https://doverathletic.com",
+      "url": "https://www.doverathletic.com",
       "sponsor": {
         "@type": "Organization",
         "name": "Vanarama"
@@ -3737,13 +3737,13 @@
     ],
     "foundingDate": "1893",
     "sport": "Association Football",
-    "url": "https://dulwichhamletfc.co.uk",
+    "url": "https://www.pitchero.com/clubs/dulwichhamlet",
 
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
       "sport": "Association Football",
-      "url": "https://dulwichhamletfc.co.uk",
+      "url": "https://www.pitchero.com/clubs/dulwichhamlet",
       "sponsor": {
         "@type": "Organization",
         "name": "Vanarama"
@@ -3863,13 +3863,13 @@
     ],
     "foundingDate": "1946",
     "sport": "Association Football",
-    "url": "https://ebbsfleetunited.co.uk",
+    "url": "https://www.ebbsfleetunited.co.uk",
 
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
       "sport": "Association Football",
-      "url": "https://ebbsfleetunited.co.uk",
+      "url": "https://www.ebbsfleetunited.co.uk",
       "sponsor": {
         "@type": "Organization",
         "name": "Vanarama"
@@ -4269,13 +4269,13 @@
     "foundingDate": "1882",
     "sport": "Association Football",
     "keywords": "semi-professional",
-    "url": "https://oxfordcityfc.co.uk",
+    "url": "https://www.oxfordcityfc.co.uk",
 
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
       "sport": "Association Football",
-      "url": "https://oxfordcityfc.co.uk",
+      "url": "https://www.oxfordcityfc.co.uk",
       "sponsor": {
         "@type": "Organization",
         "name": "Vanarama"
@@ -4393,13 +4393,13 @@
     "sameAs": ["https://twitter.com/stalbanscityfc"],
     "foundingDate": "1908",
     "sport": "Association Football",
-    "url": "https://stalbanscityfc.com",
+    "url": "https://www.stalbanscityfc.com",
 
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
       "sport": "Association Football",
-      "url": "https://stalbanscityfc.com",
+      "url": "https://www.stalbanscityfc.com",
       "sponsor": {
         "@type": "Organization",
         "name": "Vanarama"

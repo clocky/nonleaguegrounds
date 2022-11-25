@@ -51,7 +51,7 @@ eleventyComputed:
       <tbody>
         {% for club in league.members %}
           <tr>
-            <th>
+            <th scope="row">
               <a href="/{{ league.name | slugify }}/{{ club.name | slugify }}">
                 {{ club.name }}
               </a>

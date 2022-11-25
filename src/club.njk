@@ -24,7 +24,6 @@ eleventyComputed:
 <main class="container">
   <div class="grid">
     <section itemscope itemtype="https://schema.org/SportsTeam">
-      <h2 class="sr-only">Overview</h2>
       <p>
         <strong itemprop="alternateName">
           {{- club.alternateName -}}
@@ -49,28 +48,27 @@ eleventyComputed:
         </p>
     </section>
     <aside>
-      <h3>Details</h3>
       <table role="grid">
         <tbody>
           <tr>
-            <th>Full name</th>
+            <th scope="row">Full name</th>
             <td>{{ club.alternateName }}</td>
           </tr>
           <tr>
-            <th>Nickname</th>
+            <th scope="row">Nickname</th>
             <td>
               {{ club.slogan }}
               <span class="emoji">{{emoji(club.slogan)}}</span>
             </td>
           </tr>
           <tr>
-            <th>Founded</th>
+            <th scope="row">Founded</th>
             <td>
               <time datetime="YYYY">{{ club.foundingDate }}</time>
             </td>
           </tr>
           <tr>
-            <th>Ground</th>
+            <th scope="row">Ground</th>
             <td>
               <a href="/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}/">
                 {{ club.location.name }}
@@ -78,11 +76,11 @@ eleventyComputed:
             </td>
           </tr>
           <tr>
-            <th>Capacity</th>
+            <th scope="row">Capacity</th>
             <td>{{ club.location.maximumAttendeeCapacity | commaNumber }}</td>
           </tr>
           <tr>
-            <th>League</th>
+            <th scope="row">League</th>
             <td>
               <a href="/{{ club.memberOf.name | slugify }}">
                 {{ club.memberOf.name }}
@@ -91,7 +89,7 @@ eleventyComputed:
           </tr>
           {% if club.url %}
             <tr>
-              <th>Web</th>
+              <th scope="row">Web</th>
               <td>
                 <a href="{{ club.url }}/" target="_blank" rel="noopener">
                   {{ club.url.slice(8) }} ↗ </a>
@@ -100,7 +98,7 @@ eleventyComputed:
           {% endif %}
           {% if club.twitter %}
             <tr>
-              <th>Twitter</th>
+              <th scope="row">Twitter</th>
               <td>
                 <a href="https://twitter.com/@{{ club.twitter }}" target="_blank">@{{ club.twitter | lower }} ↗ </a>
               </td>

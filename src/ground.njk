@@ -53,14 +53,14 @@ apple %}
       <table role="grid">
         <tbody>
           <tr>
-            <th>Name</th>
+            <th scope="row">Name</th>
             <td>
               {{ ground.name | safe }}
             </td>
           </tr>
           {% if ground.sponsor %}
             <tr>
-              <th>Sponsor</th>
+              <th scope="row">Sponsor</th>
               <td>
                 {{ ground.sponsor.name | safe }}
               </td>
@@ -68,20 +68,20 @@ apple %}
           {% endif %}
           {% if ground.address.streetAddress %}
             <tr>
-              <th>Street</th>
+              <th scope="row">Street</th>
               <td>
                 {{ ground.address.streetAddress }}
               </td>
             </tr>
           {% endif %}
           <tr>
-            <th>Town</th>
+            <th scope="row">Town</th>
             <td>
               {{ ground.address.addressLocality | upper }}
             </td>
           </tr>
           <tr>
-            <th>Postcode</th>
+            <th scope="row">Postcode</th>
             <td>
               {{ ground.address.postalCode | upper }}
             </td>
@@ -121,30 +121,36 @@ apple %}
         {% endif %}
       </ul>
       <h4>Maps</h4>
-      <p>
-        <a 
+      <ul>
+        <li>
+          <a 
             href="{{ google(ground) }}" 
+            rel="noopener"
             target="_blank" 
-            role="button" 
             aria-label="Open in Google Maps">Google Maps</a>
-        <a 
+        </li>
+        <li>
+          <a 
             href="{{ apple(ground) }}"
+            rel="noopener"
             target="_blank" 
-            role="button" 
             aria-label="Open in Apple Maps">Apple Maps</a>
-      </p>
-      <p>
-        <a 
+        </li>
+        <li>
+          <a 
             href="{{ bing(ground) }}"
+            rel="noopener"
             target="_blank" 
-            role="button" 
             aria-label="Open in Bing Maps">Bing Maps</a>
-        <a 
+        </li>
+        <li>
+          <a 
             href="{{ osm(ground) }}"
+            rel="noopener"
             target="_blank" 
-            role="button" 
             aria-label="Open in Open Street Maps">OpenStreetMap</a>
-      </p>
+        </li>
+      </ul>
     </section>
     <aside>
       <figure>

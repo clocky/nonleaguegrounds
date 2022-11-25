@@ -3,6 +3,7 @@ layout: base.njk
 permalink: /clubs/index.html
 title: Clubs
 preload: "nicholas-green-nPz8akkUmDI-unsplash.jpg"
+date: git Last Modified
 eleventyComputed:
     description: "A directory of {{ clubs.length }} non-league clubs, sorted alphabetically"
 ---
@@ -32,7 +33,7 @@ eleventyComputed:
         <tbody>
             {% for club in clubs | sort(attribute = "name") %}
                 <tr>
-                    <th>
+                    <th scope="row">
                         <a href="/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
                     </th>
                     <td>

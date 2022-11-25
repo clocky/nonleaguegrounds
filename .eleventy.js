@@ -7,6 +7,7 @@ const commaNumber = require("comma-number");
 const EleventyFetch = require("@11ty/eleventy-fetch");
 const distFrom = require("distance-from");
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
+const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === "prod") {
@@ -15,6 +16,13 @@ module.exports = function (eleventyConfig) {
       quiet: false,
     });
   }
+
+  /** Check for broken external links */
+  /** Apple URL's always seem to 302, so we ignore them */
+  eleventyConfig.addPlugin(brokenLinksPlugin, {
+    cacheDuration: "1w",
+    excludeUrls: ["https://maps.apple.com/*"]
+  });
   
   /** Add loader for YAML files */
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));

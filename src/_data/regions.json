@@ -30,7 +30,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/matlock-town"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/matlock-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -68,7 +72,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/belper-town"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/belper-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -106,7 +114,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/boston-united"
+            "@value": "https://nonleaguegrounds.com/national-league-north/boston-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -144,7 +156,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/kettering-town"
+            "@value": "https://nonleaguegrounds.com/national-league-north/kettering-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -182,7 +198,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/notts-county"
+            "@value": "https://nonleaguegrounds.com/national-league/notts-county"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -221,7 +241,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/alfreton-town"
+            "@value": "https://nonleaguegrounds.com/national-league-north/alfreton-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -259,7 +283,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/brackley-town"
+            "@value": "https://nonleaguegrounds.com/national-league-north/brackley-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -297,7 +325,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/chesterfield"
+            "@value": "https://nonleaguegrounds.com/national-league/chesterfield"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -335,7 +367,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/gainsborough-trinity"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/gainsborough-trinity"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -373,7 +409,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/buxton"
+            "@value": "https://nonleaguegrounds.com/national-league-north/buxton"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -420,7 +460,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/st-albans-city"
+            "@value": "https://nonleaguegrounds.com/national-league-south/st-albans-city"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -459,7 +503,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/braintree-town"
+            "@value": "https://nonleaguegrounds.com/national-league-south/braintree-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -497,7 +545,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/bowers-and-pitsea"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/bowers-and-pitsea"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -535,7 +587,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/peterborough-sports"
+            "@value": "https://nonleaguegrounds.com/national-league-north/peterborough-sports"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -574,7 +630,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/boreham-wood"
+            "@value": "https://nonleaguegrounds.com/national-league/boreham-wood"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -612,7 +672,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/chelmsford-city"
+            "@value": "https://nonleaguegrounds.com/national-league-south/chelmsford-city"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -650,7 +714,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/billericay-town"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/billericay-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -687,7 +755,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/brightlingsea-regent"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/brightlingsea-regent"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -725,7 +797,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/canvey-island"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/canvey-island"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -764,7 +840,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/potters-bar-town"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/potters-bar-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -801,7 +881,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/aveley"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/aveley"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -839,7 +923,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/southend-united"
+            "@value": "https://nonleaguegrounds.com/national-league/southend-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -876,7 +964,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/concord-rangers"
+            "@value": "https://nonleaguegrounds.com/national-league-south/concord-rangers"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -914,7 +1006,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/kings-lynn-town"
+            "@value": "https://nonleaguegrounds.com/national-league-north/kings-lynn-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -952,7 +1048,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/cheshunt"
+            "@value": "https://nonleaguegrounds.com/national-league-south/cheshunt"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -989,7 +1089,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/hemel-hempstead-town"
+            "@value": "https://nonleaguegrounds.com/national-league-south/hemel-hempstead-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -1028,7 +1132,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/bishop-s-stortford"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/bishop-s-stortford"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -1075,7 +1183,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/hampton-and-richmond-borough"
+            "@value": "https://nonleaguegrounds.com/national-league-south/hampton-and-richmond-borough"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -1112,7 +1224,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/dulwich-hamlet"
+            "@value": "https://nonleaguegrounds.com/national-league-south/dulwich-hamlet"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -1151,7 +1267,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/haringey-borough"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/haringey-borough"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -1188,7 +1308,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/wealdstone"
+            "@value": "https://nonleaguegrounds.com/national-league/wealdstone"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -1226,7 +1350,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/bromley"
+            "@value": "https://nonleaguegrounds.com/national-league/bromley"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -1264,7 +1392,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/cray-wanderers"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/cray-wanderers"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -1302,7 +1434,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/hornchurch"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/hornchurch"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -1340,7 +1476,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/kingstonian"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/kingstonian"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -1379,7 +1519,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/corinthian-casuals"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/corinthian-casuals"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -1416,7 +1560,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/welling-united"
+            "@value": "https://nonleaguegrounds.com/national-league-south/welling-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -1454,7 +1602,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/enfield-town"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/enfield-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -1492,7 +1644,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/barnet"
+            "@value": "https://nonleaguegrounds.com/national-league/barnet"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -1530,7 +1686,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/wingate-and-finchley"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/wingate-and-finchley"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -1569,7 +1729,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/dagenham-and-redbridge"
+            "@value": "https://nonleaguegrounds.com/national-league/dagenham-and-redbridge"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -1607,7 +1771,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/carshalton-athletic"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/carshalton-athletic"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -1654,7 +1822,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/darlington"
+            "@value": "https://nonleaguegrounds.com/national-league-north/darlington"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -1692,7 +1864,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/spennymoor-town"
+            "@value": "https://nonleaguegrounds.com/national-league-north/spennymoor-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -1729,7 +1905,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/morpeth-town-afc"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/morpeth-town-afc"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -1767,7 +1947,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/blyth-spartans-afc"
+            "@value": "https://nonleaguegrounds.com/national-league-north/blyth-spartans-afc"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -1805,7 +1989,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/south-shields"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/south-shields"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -1843,7 +2031,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/gateshead"
+            "@value": "https://nonleaguegrounds.com/national-league/gateshead"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -1880,7 +2072,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/marske-united"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/marske-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -1927,7 +2123,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/atherton-collieries"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/atherton-collieries"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -1964,7 +2164,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/oldham-athletic"
+            "@value": "https://nonleaguegrounds.com/national-league/oldham-athletic"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -2001,7 +2205,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/stalybridge-celtic"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/stalybridge-celtic"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2038,7 +2246,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/fc-united-of-manchester"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/fc-united-of-manchester"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2075,7 +2287,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/warrington-town"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/warrington-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2113,7 +2329,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/chester"
+            "@value": "https://nonleaguegrounds.com/national-league-north/chester"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -2151,7 +2371,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/hyde-united"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/hyde-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2188,7 +2412,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/lancaster-city"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/lancaster-city"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2225,7 +2453,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/warrington-rylands-1906"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/warrington-rylands-1906"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2264,7 +2496,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/southport"
+            "@value": "https://nonleaguegrounds.com/national-league-north/southport"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -2301,7 +2537,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/ashton-united"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/ashton-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2338,7 +2578,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/afc-fylde"
+            "@value": "https://nonleaguegrounds.com/national-league-north/afc-fylde"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -2377,7 +2621,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/altrincham"
+            "@value": "https://nonleaguegrounds.com/national-league/altrincham"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -2415,7 +2663,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/marine-afc"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/marine-afc"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2452,7 +2704,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/bamber-bridge"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/bamber-bridge"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2489,7 +2745,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/radcliffe"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/radcliffe"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2527,7 +2787,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/curzon-ashton"
+            "@value": "https://nonleaguegrounds.com/national-league-north/curzon-ashton"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -2566,7 +2830,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/chorley"
+            "@value": "https://nonleaguegrounds.com/national-league-north/chorley"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -2603,7 +2871,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/nantwich-town"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/nantwich-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -2649,7 +2921,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/slough-town"
+            "@value": "https://nonleaguegrounds.com/national-league-south/slough-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -2687,7 +2963,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/hungerford-town"
+            "@value": "https://nonleaguegrounds.com/national-league-south/hungerford-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -2725,7 +3005,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/folkestone-invicta"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/folkestone-invicta"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -2764,7 +3048,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/farnborough"
+            "@value": "https://nonleaguegrounds.com/national-league-south/farnborough"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -2802,7 +3090,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/dover-athletic"
+            "@value": "https://nonleaguegrounds.com/national-league-south/dover-athletic"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -2840,7 +3132,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/maidstone-united"
+            "@value": "https://nonleaguegrounds.com/national-league/maidstone-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -2878,7 +3174,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/margate"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/margate"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -2917,7 +3217,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/horsham"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/horsham"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -2956,7 +3260,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/woking"
+            "@value": "https://nonleaguegrounds.com/national-league/woking"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -2995,7 +3303,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/tonbridge-angels"
+            "@value": "https://nonleaguegrounds.com/national-league-south/tonbridge-angels"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3032,7 +3344,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/oxford-city"
+            "@value": "https://nonleaguegrounds.com/national-league-south/oxford-city"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3070,7 +3386,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/dorking-wanderers"
+            "@value": "https://nonleaguegrounds.com/national-league/dorking-wanderers"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -3107,7 +3427,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/bognor-regis-town"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/bognor-regis-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -3144,7 +3468,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/dartford"
+            "@value": "https://nonleaguegrounds.com/national-league-south/dartford"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3182,7 +3510,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/eastbourne-borough"
+            "@value": "https://nonleaguegrounds.com/national-league-south/eastbourne-borough"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3221,7 +3553,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/aldershot-town"
+            "@value": "https://nonleaguegrounds.com/national-league/aldershot-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -3260,7 +3596,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/banbury-united"
+            "@value": "https://nonleaguegrounds.com/national-league-north/banbury-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -3298,7 +3638,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/ebbsfleet-united"
+            "@value": "https://nonleaguegrounds.com/national-league-south/ebbsfleet-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3337,7 +3681,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/eastleigh"
+            "@value": "https://nonleaguegrounds.com/national-league/eastleigh"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -3375,7 +3723,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/lewes"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/lewes"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -3413,7 +3765,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/hastings-united"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/hastings-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -3452,7 +3808,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/havant-and-waterlooville"
+            "@value": "https://nonleaguegrounds.com/national-league-south/havant-and-waterlooville"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3491,7 +3851,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/herne-bay"
+            "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/herne-bay"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Isthmian League Premier Division"
           },
 
           "logo": {
@@ -3530,7 +3894,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/worthing"
+            "@value": "https://nonleaguegrounds.com/national-league-south/worthing"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3567,7 +3935,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/maidenhead-united"
+            "@value": "https://nonleaguegrounds.com/national-league/maidenhead-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -3614,7 +3986,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/weymouth"
+            "@value": "https://nonleaguegrounds.com/national-league-south/weymouth"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3653,7 +4029,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/taunton-town"
+            "@value": "https://nonleaguegrounds.com/national-league-south/taunton-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3691,7 +4071,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/chippenham-town"
+            "@value": "https://nonleaguegrounds.com/national-league-south/chippenham-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3728,7 +4112,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/yeovil-town"
+            "@value": "https://nonleaguegrounds.com/national-league/yeovil-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -3767,7 +4155,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/gloucester-city-afc"
+            "@value": "https://nonleaguegrounds.com/national-league-north/gloucester-city-afc"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -3805,7 +4197,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/torquay-united-afc"
+            "@value": "https://nonleaguegrounds.com/national-league/torquay-united-afc"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -3843,7 +4239,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-south/bath-city"
+            "@value": "https://nonleaguegrounds.com/national-league-south/bath-city"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
           },
 
           "logo": {
@@ -3890,7 +4290,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/wrexham-afc"
+            "@value": "https://nonleaguegrounds.com/national-league/wrexham-afc"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -3937,7 +4341,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/kidderminster-harriers"
+            "@value": "https://nonleaguegrounds.com/national-league-north/kidderminster-harriers"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -3976,7 +4384,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/solihull-moors"
+            "@value": "https://nonleaguegrounds.com/national-league/solihull-moors"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -4013,7 +4425,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/hereford"
+            "@value": "https://nonleaguegrounds.com/national-league-north/hereford"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -4049,7 +4465,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/stafford-rangers"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/stafford-rangers"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -4087,7 +4507,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/afc-telford-united"
+            "@value": "https://nonleaguegrounds.com/national-league-north/afc-telford-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -4125,7 +4549,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/leamington"
+            "@value": "https://nonleaguegrounds.com/national-league-north/leamington"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -4171,7 +4599,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/liversedge"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/liversedge"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -4208,7 +4640,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/scarborough-athletic"
+            "@value": "https://nonleaguegrounds.com/national-league-north/scarborough-athletic"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -4245,7 +4681,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/scunthorpe-united"
+            "@value": "https://nonleaguegrounds.com/national-league/scunthorpe-united"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -4283,7 +4723,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/bradford-park-avenue-afc"
+            "@value": "https://nonleaguegrounds.com/national-league-north/bradford-park-avenue-afc"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -4320,7 +4764,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/guiseley-afc"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/guiseley-afc"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
 
           "logo": {
@@ -4358,7 +4806,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league-north/farsley-celtic"
+            "@value": "https://nonleaguegrounds.com/national-league-north/farsley-celtic"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League North"
           },
 
           "logo": {
@@ -4396,7 +4848,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/fc-halifax-town"
+            "@value": "https://nonleaguegrounds.com/national-league/fc-halifax-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {
@@ -4434,7 +4890,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/whitby-town"
+            "@value": "https://nonleaguegrounds.com/northern-premier-league/whitby-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
           },
           "logo": {
             "@type": "ImageObject",
@@ -4471,7 +4931,11 @@
 
           "identifier": {
             "@type": "URL",
-            "@value": "https://nonleaguegrounds.com/leagues/national-league/york-city"
+            "@value": "https://nonleaguegrounds.com/national-league/york-city"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League"
           },
 
           "logo": {

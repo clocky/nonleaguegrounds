@@ -2,6 +2,7 @@
 layout: base.njk
 permalink: /leagues/index.html
 preload: "ezequiel-garrido-s6XWkKDKynY-unsplash.jpg"
+date: git Last Modified
 eleventyComputed:
     title: "Football Conference Leagues"
     description: "A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier."
@@ -34,13 +35,13 @@ eleventyComputed:
           <td>
             {{ league.additionalProperty.@value | ordinal }}
           </td>
-          <th>
+          <th scope="row">
             <a href="/{{ league.name | slugify }}">
               {{ league.alternateName }}
             </a>
           </th>
           <td>
-            {{ league.clubs | length }}
+            {{ league.members | length }}
           </td>
         </tr>
       {% endfor %}

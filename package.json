@@ -9,7 +9,7 @@
     "watch:eleventy": "ELEVENTY_ENV=development eleventy --serve",
     "build:sass": "sass --no-source-map src/sass:dist/css",
     "build:eleventy": "ELEVENTY_ENV=prod eleventy --quiet",
-    "postbuild": "npm-run-all postbuild:css postbuild:map postbuild:sharp postbuild:compress",
+    "postbuild": "npm-run-all postbuild:css postbuild:map postbuild:pa11y postbuild:sharp postbuild:compress",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:sass build:eleventy",
     "postbuild:css": "lightningcss --minify --targets '> 0.25%, not IE 11' dist/css/style.css -o dist/css/style.css",
@@ -46,6 +46,7 @@
     "sass": "^1.55.0"
   },
   "devDependencies": {
+    "eleventy-plugin-broken-links": "^2.0.3",
     "gzipper": "^7.1.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",

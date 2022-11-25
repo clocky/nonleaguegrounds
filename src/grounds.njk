@@ -2,6 +2,7 @@
 layout: base.njk
 permalink: /grounds/index.html
 preload: "fancy-crave-qowyMze7jqg-unsplash.jpg"
+date: git Last Modified
 eleventyComputed:
     title: "Football Conference Leagues"
     description: "A directory of {{ grounds.length }} English non-league grounds, sorted by capacity."
@@ -36,7 +37,7 @@ eleventyComputed:
                     <td>
                         {{ loop.index | ordinal }}
                     </td>
-                    <th>
+                    <th scope="row">
                         <a href="/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}">
                             {{ ground.name }}
                         </a>

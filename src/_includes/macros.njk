@@ -92,7 +92,7 @@
         {%- set emoji = "󠁧󠁢󠁷󠁬󠁳✈️" -%}
     {%- elseif nick in["mariners"] -%}
         {%- set emoji = "⚓" -%}
-    {%- elseif nick in["brig"] -%}
+    {%- elseif nick in["brig", "fleet"] -%}
         {%- set emoji = "⛵" -%}
     {%- elseif nick in["colls"] -%}
         {%- set emoji = "⛏️" -%}
@@ -102,6 +102,8 @@
         {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🧤" -%}
     {%- elseif nick in["shrimpers"] -%}
         {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🦐" -%}
+    {%- elseif nick in["rangers"] -%}
+        {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🤠" -%}
     {%- elseif nick in["bees", "hornets"] -%}
         {%- set emoji = "󠁧󠁢󠁷󠁬󠁳🐝" -%}
     {%- elseif nick in["seals"] -%}

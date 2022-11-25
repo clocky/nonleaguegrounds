@@ -50,13 +50,15 @@ eleventyComputed:
       <tbody>
         {% for ground in region.geoContains %}
           <tr>
-            <th>
+            <th scope="row">
               <a href="/{{ region.name | slugify }}/{{ ground.name | slugify }}">
                 {{ ground.name }}
               </a>
             </th>
             <td>
-              {{ ground.subOrganization.name }}
+              <a href="/{{ ground.subOrganization.memberOf.name | slugify }}/{{ ground.subOrganization.name | slugify }}" class="secondary">
+                {{ ground.subOrganization.name }}
+              </a>
             </td>
           </tr>
         {% endfor %}

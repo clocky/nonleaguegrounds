@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+date: git Last Modified
 preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
 ---
 <header class="container-fluid hero" id="league" data-theme="dark">
@@ -16,28 +17,28 @@ preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
 
 <main class="container">
     <div class="grid">
-        <div id="grounds">
-            <h4>Class-light and semantic</h4>
+        <div id="leagues-panel">
+            <h4>Leagues</h4>
             <p>
               From the <strong>{{ leagues[0].name }}</strong> to the 
               <strong>{{ leagues[leagues.length -1].name }}</strong>, 
               a directory of {{ leagues.length }} English football conference leagues.
           </p>
-            <a href="/leagues" role="button">View all leagues</a>
+            <a href="/leagues">View all leagues →</a>
         </div>
-        <div id="grounds">
+        <div id="grounds-panel">
             <h4>Grounds</h4>
             <p> Leading with the {{ grounds[0].maximumAttendeeCapacity | commaNumber }}-capacity home of <strong>{{ grounds[0].subOrganization[0].name }}</strong>, 
               a list of {{ grounds.length }} English and Welsh non-league grounds.</p>
-            <a href="/grounds" role="button">View all grounds</a>
+            <a href="/grounds">View all grounds →</a>
         </div>
-        <div id="grounds">
+        <div id="regions-panel">
             <h4>Regions</h4>
             <p>
              From the <strong>North East</strong> to the <strong>South West</strong>, 
               a directory of clubs in the {{ regions.length }} regions of England and Wales
             </p>
-            <a href="/regions" role="button">View all regions</a>
+            <a href="/regions">View all regions →</a>
         </div>
     </div>
 </main>
