@@ -8,7 +8,7 @@ permalink: "/{{ region.name | slugify }}/index.html"
 preload: "william-hook-0er8ezF3Xhg-unsplash.jpg"
 eleventyComputed:
     title: "Clubs in the {{ region.name | safe }}"
-    description: Overview of non-league clubs of {{ region.alternateName | safe }}, with a total of {{ region.geoContains.length }} clubs"
+    description: "Overview of non-league clubs of {{ region.alternateName | safe }}, with a total of {{ region.geoContains.length }} clubs"
 ---
 {% from "macros.njk" import emoji %}
 
