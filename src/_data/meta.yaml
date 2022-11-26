@@ -3,3 +3,20 @@ base: https://nonleaguegrounds.com
 description: "Non-League football is the lifeblood of the game. It's where the
     game is played, where the fans are, where the stories are."
 disclaimer: "Whilst we endeavour to ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we commit to ensuring that the website remains available or that the material on the website is kept up-to-date."
+hero:
+    clubs:
+        src: samuel-regan-asante-YOtjUyEfClo-unsplash
+        author: Samuel Regan-Asante
+        id: fkaregan
+    leagues:
+        src: ezequiel-garrido-s6XWkKDKynY-unsplash
+        author: Ezequiel Garrido
+        id: zegarr
+    regions:
+        src: william-hook-0er8ezF3Xhg-unsplash
+        author: William Hook
+        id: williamtm
+    grounds:
+        src: fancy-crave-qowyMze7jqg-unsplash
+        author: Fancy Crave
+        id: fancycrave
