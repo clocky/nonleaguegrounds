@@ -15,12 +15,6 @@
     Cache-Control = "max-age=31536000, immutable"
 
 [[headers]]
-  for = "/*.ico.br"
-  [headers.values]
-    Content-Encoding = "br"
-    Content-Type = "image/x-icon"
-
-[[headers]]
   for = "/*.ico"
   [headers.values]
     Cache-Control = "max-age=31536000, immutable"
