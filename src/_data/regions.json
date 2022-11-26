@@ -40,9 +40,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7731.png",
-            "caption": "Crest of the football team Matlock Town",
+            "caption": "Matlock Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -82,9 +84,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7617.png",
-            "caption": "Crest of the football team Belper Town",
+            "caption": "Belper Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -124,9 +128,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8146.png",
-            "caption": "Crest of the football team Boston United",
+            "caption": "Boston United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -166,9 +172,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8654.png",
-            "caption": "Crest of the football team Kettering Town",
+            "caption": "Kettering Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -208,9 +216,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1376.png",
-            "caption": "Crest of the football team Notts County",
+            "caption": "Notts County crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -251,9 +261,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4677.png",
-            "caption": "Crest of the football team Alfreton Town",
+            "caption": "Alfreton Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -293,9 +305,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4701.png",
-            "caption": "Crest of the football team Brackley Town",
+            "caption": "Brackley Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 100,
+            "height": 100
           }
         }
       },
@@ -335,9 +349,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1345.png",
-            "caption": "Crest of the football team Chesterfield",
+            "caption": "Chesterfield crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -377,9 +393,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4691.png",
-            "caption": "Crest of the football team Gainsborough Trinity",
+            "caption": "Gainsborough Trinity crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -419,9 +437,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7706.png",
-            "caption": "Crest of the football team Buxton",
+            "caption": "Buxton crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 100,
+            "height": 100
           }
         }
       }
@@ -470,9 +490,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4708.png",
-            "caption": "Crest of the football team St Albans City",
+            "caption": "St Albans City crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 180,
+            "height": 180
           }
         }
       },
@@ -513,9 +535,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1831.png",
-            "caption": "Crest of the football team Braintree Town",
+            "caption": "Braintree Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 137,
+            "height": 138
           }
         }
       },
@@ -555,9 +579,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7764.png",
-            "caption": "Crest of the football team Bowers & Pitsea",
+            "caption": "Bowers & Pitsea crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -597,9 +623,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7737.png",
-            "caption": "Crest of the football team Peterborough Sports",
+            "caption": "Peterborough Sports crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -640,9 +668,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1830.png",
-            "caption": "Crest of the football team Boreham Wood",
+            "caption": "Boreham Wood crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -682,9 +712,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4689.png",
-            "caption": "Crest of the football team Chelmsford City",
+            "caption": "Chelmsford City crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 130,
+            "height": 130
           }
         }
       },
@@ -724,9 +756,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4678.png",
-            "caption": "Crest of the football team Billericay Town",
+            "caption": "Billericay Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 100,
+            "height": 100
           }
         }
       },
@@ -765,9 +799,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7704.png",
-            "caption": "Crest of the football team Brightlingsea Regent",
+            "caption": "Brightlingsea Regent crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -807,9 +843,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7623.png",
-            "caption": "Crest of the football team Canvey Island",
+            "caption": "Canvey Island crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -850,9 +888,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7739.png",
-            "caption": "Crest of the football team Potters Bar Town",
+            "caption": "Potters Bar Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 149,
+            "height": 141
           }
         }
       },
@@ -891,9 +931,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7207.png",
-            "caption": "Crest of the football team Aveley",
+            "caption": "Aveley crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -933,9 +975,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1341.png",
-            "caption": "Crest of the football team Southend United",
+            "caption": "Southend United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -974,9 +1018,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8658.png",
-            "caption": "Crest of the football team Concord Rangers",
+            "caption": "Concord Rangers crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1016,9 +1062,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8655.png",
-            "caption": "Crest of the football team Kings Lynn Town",
+            "caption": "Kings Lynn Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1058,9 +1106,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7708.png",
-            "caption": "Crest of the football team Cheshunt",
+            "caption": "Cheshunt crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1099,9 +1149,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8660.png",
-            "caption": "Crest of the football team Hemel Hempstead Town",
+            "caption": "Hemel Hempstead Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 120,
+            "height": 119
           }
         }
       },
@@ -1142,9 +1194,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7701.png",
-            "caption": "Crest of the football team Bishop's Stortford",
+            "caption": "Bishop's Stortford crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       }
@@ -1193,9 +1247,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4680.png",
-            "caption": "Crest of the football team Hampton & Richmond Borough",
+            "caption": "Hampton & Richmond Borough crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 124,
+            "height": 138
           }
         }
       },
@@ -1234,9 +1290,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8149.png",
-            "caption": "Crest of the football team Dulwich Hamlet",
+            "caption": "Dulwich Hamlet crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 120,
+            "height": 160
           }
         }
       },
@@ -1277,9 +1335,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4681.png",
-            "caption": "Crest of the football team Haringey Borough",
+            "caption": "Haringey Borough crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1318,9 +1378,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8663.png",
-            "caption": "Crest of the football team Wealdstone",
+            "caption": "Wealdstone crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 140,
+            "height": 144
           }
         }
       },
@@ -1360,9 +1422,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1832.png",
-            "caption": "Crest of the football team Bromley",
+            "caption": "Bromley crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 130,
+            "height": 130
           }
         }
       },
@@ -1402,9 +1466,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7711.png",
-            "caption": "Crest of the football team Cray Wanderers",
+            "caption": "Cray Wanderers crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 100,
+            "height": 100
           }
         }
       },
@@ -1444,9 +1510,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7690.png",
-            "caption": "Crest of the football team Hornchurch",
+            "caption": "Hornchurch crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1486,9 +1554,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7725.png",
-            "caption": "Crest of the football team Kingstonian",
+            "caption": "Kingstonian crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 93,
+            "height": 102
           }
         }
       },
@@ -1529,9 +1599,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7710.png",
-            "caption": "Crest of the football team Corinthian-Casuals",
+            "caption": "Corinthian-Casuals crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1570,9 +1642,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8664.png",
-            "caption": "Crest of the football team Welling United",
+            "caption": "Welling United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 141,
+            "height": 139
           }
         }
       },
@@ -1612,9 +1686,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7714.png",
-            "caption": "Crest of the football team Enfield Town",
+            "caption": "Enfield Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1654,9 +1730,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1369.png",
-            "caption": "Crest of the football team Barnet",
+            "caption": "Barnet crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1696,9 +1774,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7759.png",
-            "caption": "Crest of the football team Wingate & Finchley",
+            "caption": "Wingate & Finchley crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1739,9 +1819,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1821.png",
-            "caption": "Crest of the football team Dagenham & Redbridge",
+            "caption": "Dagenham & Redbridge crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1781,9 +1863,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7707.png",
-            "caption": "Crest of the football team Carshalton Athletic",
+            "caption": "Carshalton Athletic crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 100,
+            "height": 100
           }
         }
       }
@@ -1832,9 +1916,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8148.png",
-            "caption": "Crest of the football team Darlington",
+            "caption": "Darlington crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1874,9 +1960,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/3707.png",
-            "caption": "Crest of the football team Spennymoor Town",
+            "caption": "Spennymoor Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1915,9 +2003,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7734.png",
-            "caption": "Crest of the football team Morpeth Town AFC",
+            "caption": "Morpeth Town AFC crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1957,9 +2047,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8650.png",
-            "caption": "Crest of the football team Blyth Spartans AFC",
+            "caption": "Blyth Spartans AFC crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -1999,9 +2091,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7746.png",
-            "caption": "Crest of the football team South Shields",
+            "caption": "South Shields crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2041,9 +2135,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1823.png",
-            "caption": "Crest of the football team Gateshead",
+            "caption": "Gateshead crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2082,9 +2178,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7658.png",
-            "caption": "Crest of the football team Marske United",
+            "caption": "Marske United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 100,
+            "height": 115
           }
         }
       }
@@ -2133,9 +2231,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7694.png",
-            "caption": "Crest of the football team Atherton Collieries",
+            "caption": "Atherton Collieries crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2174,9 +2274,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1349.png",
-            "caption": "Crest of the football team Oldham Athletic",
+            "caption": "Oldham Athletic crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2215,9 +2317,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7749.png",
-            "caption": "Crest of the football team Stalybridge Celtic",
+            "caption": "Stalybridge Celtic crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 118,
+            "height": 138
           }
         }
       },
@@ -2256,9 +2360,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7754.png",
-            "caption": "Crest of the football team FC United of Manchester",
+            "caption": "FC United of Manchester crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2293,13 +2399,14 @@
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7756.png",
-            "caption": "Crest of the football team Warrington Town",
+            "caption": "Warrington Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 145,
+            "height": 180
           }
         }
       },
@@ -2339,9 +2446,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1820.png",
-            "caption": "Crest of the football team Chester",
+            "caption": "Chester crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2381,9 +2490,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4694.png",
-            "caption": "Crest of the football team Hyde United",
+            "caption": "Hyde United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 174,
+            "height": 172
           }
         }
       },
@@ -2422,9 +2533,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7726.png",
-            "caption": "Crest of the football team Lancaster City",
+            "caption": "Lancaster City crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2463,9 +2576,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8918.png",
-            "caption": "Crest of the football team Warrington Rylands 1906",
+            "caption": "Warrington Rylands 1906 crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2506,9 +2621,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1826.png",
-            "caption": "Crest of the football team Southport",
+            "caption": "Southport crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2547,9 +2664,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7693.png",
-            "caption": "Crest of the football team Ashton United",
+            "caption": "Ashton United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2588,9 +2707,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1839.png",
-            "caption": "Crest of the football team AFC Fylde",
+            "caption": "AFC Fylde crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2631,9 +2752,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4700.png",
-            "caption": "Crest of the football team Altrincham",
+            "caption": "Altrincham crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2673,9 +2796,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7656.png",
-            "caption": "Crest of the football team Marine AFC",
+            "caption": "Marine AFC crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 170,
+            "height": 170
           }
         }
       },
@@ -2714,9 +2839,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7695.png",
-            "caption": "Crest of the football team Bamber Bridge",
+            "caption": "Bamber Bridge crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2755,9 +2882,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7740.png",
-            "caption": "Crest of the football team Radcliffe",
+            "caption": "Radcliffe crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2797,9 +2926,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4703.png",
-            "caption": "Crest of the football team Curzon Ashton",
+            "caption": "Curzon Ashton crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2840,9 +2971,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4679.png",
-            "caption": "Crest of the football team Chorley",
+            "caption": "Chorley crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 100,
+            "height": 127
           }
         }
       },
@@ -2881,9 +3014,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4697.png",
-            "caption": "Crest of the football team Nantwich Town",
+            "caption": "Nantwich Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 188,
+            "height": 180
           }
         }
       }
@@ -2931,9 +3066,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4685.png",
-            "caption": "Crest of the football team Slough Town",
+            "caption": "Slough Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -2973,9 +3110,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8661.png",
-            "caption": "Crest of the football team Hungerford Town",
+            "caption": "Hungerford Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3015,9 +3154,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7716.png",
-            "caption": "Crest of the football team Folkestone Invicta",
+            "caption": "Folkestone Invicta crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3058,9 +3199,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7715.png",
-            "caption": "Crest of the football team Farnborough",
+            "caption": "Farnborough crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3100,9 +3243,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1829.png",
-            "caption": "Crest of the football team Dover Athletic",
+            "caption": "Dover Athletic crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3142,9 +3287,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1825.png",
-            "caption": "Crest of the football team Maidstone United",
+            "caption": "Maidstone United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3184,9 +3331,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7730.png",
-            "caption": "Crest of the football team Margate",
+            "caption": "Margate crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 175,
+            "height": 207
           }
         }
       },
@@ -3227,9 +3376,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7723.png",
-            "caption": "Crest of the football team Horsham",
+            "caption": "Horsham crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3270,9 +3421,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1836.png",
-            "caption": "Crest of the football team Woking",
+            "caption": "Woking crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3313,9 +3466,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8662.png",
-            "caption": "Crest of the football team Tonbridge Angels",
+            "caption": "Tonbridge Angels crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3354,9 +3509,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1338.png",
-            "caption": "Crest of the football team Oxford City",
+            "caption": "Oxford City crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3396,9 +3553,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8659.png",
-            "caption": "Crest of the football team Dorking Wanderers",
+            "caption": "Dorking Wanderers crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3437,9 +3596,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7703.png",
-            "caption": "Crest of the football team Bognor Regis Town",
+            "caption": "Bognor Regis Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 126,
+            "height": 138
           }
         }
       },
@@ -3478,9 +3639,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4690.png",
-            "caption": "Crest of the football team Dartford",
+            "caption": "Dartford crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 120,
+            "height": 129
           }
         }
       },
@@ -3520,9 +3683,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4704.png",
-            "caption": "Crest of the football team Eastbourne Borough",
+            "caption": "Eastbourne Borough crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3563,9 +3728,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1818.png",
-            "caption": "Crest of the football team Aldershot Town",
+            "caption": "Aldershot Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3606,9 +3773,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7696.png",
-            "caption": "Crest of the football team Banbury United",
+            "caption": "Banbury United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 100,
+            "height": 93
           }
         }
       },
@@ -3648,9 +3817,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1840.png",
-            "caption": "Crest of the football team Ebbsfleet United",
+            "caption": "Ebbsfleet United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3691,9 +3862,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1822.png",
-            "caption": "Crest of the football team Eastleigh",
+            "caption": "Eastleigh crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 130,
+            "height": 130
           }
         }
       },
@@ -3733,9 +3906,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7728.png",
-            "caption": "Crest of the football team Lewes",
+            "caption": "Lewes crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3775,9 +3950,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7231.png",
-            "caption": "Crest of the football team Hastings United",
+            "caption": "Hastings United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3818,9 +3995,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1843.png",
-            "caption": "Crest of the football team Havant & Waterlooville",
+            "caption": "Havant & Waterlooville crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 135,
+            "height": 138
           }
         }
       },
@@ -3861,9 +4040,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7232.png",
-            "caption": "Crest of the football team Herne Bay",
+            "caption": "Herne Bay crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3904,9 +4085,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7661.png",
-            "caption": "Crest of the football team Worthing",
+            "caption": "Worthing crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -3945,9 +4128,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1838.png",
-            "caption": "Crest of the football team Maidenhead United",
+            "caption": "Maidenhead United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 120
           }
         }
       }
@@ -3996,9 +4181,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8665.png",
-            "caption": "Crest of the football team Weymouth",
+            "caption": "Weymouth crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 109,
+            "height": 155
           }
         }
       },
@@ -4039,9 +4226,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4711.png",
-            "caption": "Crest of the football team Taunton Town",
+            "caption": "Taunton Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4081,9 +4270,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8147.png",
-            "caption": "Crest of the football team Chippenham Town",
+            "caption": "Chippenham Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4122,9 +4313,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1377.png",
-            "caption": "Crest of the football team Yeovil Town",
+            "caption": "Yeovil Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4165,9 +4358,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8653.png",
-            "caption": "Crest of the football team Gloucester City AFC",
+            "caption": "Gloucester City AFC crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4207,9 +4402,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1827.png",
-            "caption": "Crest of the football team Torquay United AFC",
+            "caption": "Torquay United AFC crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4249,9 +4446,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8657.png",
-            "caption": "Crest of the football team Bath City",
+            "caption": "Bath City crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       }
@@ -4300,9 +4499,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1837.png",
-            "caption": "Crest of the football team Wrexham AFC",
+            "caption": "Wrexham AFC crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       }
@@ -4351,9 +4552,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4695.png",
-            "caption": "Crest of the football team Kidderminster Harriers",
+            "caption": "Kidderminster Harriers crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4394,9 +4597,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1834.png",
-            "caption": "Crest of the football team Solihull Moors",
+            "caption": "Solihull Moors crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 144
           }
         }
       },
@@ -4435,9 +4640,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4692.png",
-            "caption": "Crest of the football team Hereford",
+            "caption": "Hereford crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4475,9 +4682,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7748.png",
-            "caption": "Crest of the football team Stafford Rangers",
+            "caption": "Stafford Rangers crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 116,
+            "height": 138
           }
         }
       },
@@ -4517,9 +4726,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4688.png",
-            "caption": "Crest of the football team AFC Telford United",
+            "caption": "AFC Telford United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4559,9 +4770,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8656.png",
-            "caption": "Crest of the football team Leamington",
+            "caption": "Leamington crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 218,
+            "height": 217
           }
         }
       }
@@ -4609,9 +4822,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8853.png",
-            "caption": "Crest of the football team Liversedge",
+            "caption": "Liversedge crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4650,9 +4865,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7745.png",
-            "caption": "Crest of the football team Scarborough Athletic",
+            "caption": "Scarborough Athletic crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4691,9 +4908,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1340.png",
-            "caption": "Crest of the football team Scunthorpe United",
+            "caption": "Scunthorpe United crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4733,9 +4952,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8651.png",
-            "caption": "Crest of the football team Bradford (Park Avenue) AFC",
+            "caption": "Bradford (Park Avenue) AFC crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 105,
+            "height": 95
           }
         }
       },
@@ -4774,9 +4995,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1824.png",
-            "caption": "Crest of the football team Guiseley AFC",
+            "caption": "Guiseley AFC crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4816,9 +5039,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8652.png",
-            "caption": "Crest of the football team Farsley Celtic",
+            "caption": "Farsley Celtic crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4858,9 +5083,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1841.png",
-            "caption": "Crest of the football team FC Halifax Town",
+            "caption": "FC Halifax Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       },
@@ -4899,9 +5126,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7757.png",
-            "caption": "Crest of the football team Whitby Town",
+            "caption": "Whitby Town crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 120,
+            "height": 145
           }
         }
       },
@@ -4941,9 +5170,11 @@
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1828.png",
-            "caption": "Crest of the football team York City",
+            "caption": "York City crest",
             "representativeOfPage": true,
-            "encodingFormat": "image/png"
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
           }
         }
       }

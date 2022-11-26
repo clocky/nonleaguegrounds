@@ -13,9 +13,11 @@
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/leagues/43.png",
-      "caption": "Logo for the English football conference National League",
+      "caption": "National League logo",
       "representativeOfPage": true,
-      "encodingFormat": "image/png"
+      "encodingFormat": "image/png",
+      "width": 150,
+      "height": 150
     },
     "identifier": {
       "@type": "url",
@@ -32,17 +34,18 @@
         "name": "Altrincham",
         "slogan": "The Robins",
         "sameAs": [
-          "https://twitter.com/altrinchamfc",
-          "https://facebook.com/officialalty",
-          "https://instagram.com/altrinchamfc",
-          "https://youtube.com/altytv"
+          "https://twitter.com/altrinchamfc/",
+          "https://www.facebook.com/officialalty",
+          "https://www.instagram.com/altrinchamfc/"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4700.png",
-          "caption": "Crest of the football team Altrincham",
+          "caption": "Altrincham crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1891",
         "url": "https://altrinchamfc.com",
@@ -65,15 +68,17 @@
         "name": "Aldershot Town",
         "slogan": "The Shots",
         "sameAs": [
-          "https://twitter.com/OfficialShots",
-          "https://facebook.com/AldershotTownFC"
+          "https://twitter.com/OfficialShots/",
+          "https://www.facebook.com/AldershotTownFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1818.png",
-          "caption": "Crest of the football team Aldershot Town",
+          "caption": "Aldershot Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1992",
         "url": "https://www.theshots.co.uk",
@@ -96,15 +101,17 @@
         "name": "Barnet",
         "slogan": "The Bees",
         "sameAs": [
-          "https://twitter.com/BarnetFC",
-          "https://facebook.com/BarnetFootballClub"
+          "https://twitter.com/BarnetFC/",
+          "https://www.facebook.com/BarnetFootballClub"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1369.png",
-          "caption": "Crest of the football team Barnet",
+          "caption": "Barnet crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1888",
         "url": "https://www.barnetfc.com",
@@ -127,15 +134,17 @@
         "name": "Boreham Wood",
         "slogan": "The Wood",
         "sameAs": [
-          "https://twitter.com/BOREHAM_WOODFC",
-          "https://facebook.com/BorehamWoodFC"
+          "https://twitter.com/BOREHAM_WOODFC/",
+          "https://www.facebook.com/BorehamWoodFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1830.png",
-          "caption": "Crest of the football team Boreham Wood",
+          "caption": "Boreham Wood crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1948",
         "url": "https://www.borehamwoodfootballclub.co.uk",
@@ -158,17 +167,18 @@
         "name": "Bromley",
         "slogan": "The Ravens",
         "sameAs": [
-          "https://twitter.com/bromleyfc",
-          "https://facebook.com/bromleyfc",
-          "https://instagram.com/bromleyfc",
-          "https://youtube.com/bromleyfctv"
+          "https://twitter.com/bromleyfc/",
+          "https://www.facebook.com/bromleyfc",
+          "https://www.instagram.com/bromleyfc/"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1832.png",
-          "caption": "Crest of the football team Bromley",
+          "caption": "Bromley crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 130,
+          "height": 130
         },
         "foundingDate": "1892",
         "url": "https://www.bromleyfc.co.uk",
@@ -191,17 +201,19 @@
         "name": "Chesterfield",
         "slogan": "The Spireites",
         "sameAs": [
-          "https://twitter.com/ChesterfieldFC",
-          "https://facebook.com/ChesterfieldFC",
-          "https://instagram.com/ChesterfieldFC",
-          "https://youtube.com/channel/UC6hnRkCdElagLJlOqlgukPA"
+          "https://twitter.com/ChesterfieldFC/",
+          "https://www.facebook.com/ChesterfieldFC",
+          "https://www.instagram.com/ChesterfieldFC/",
+          "https://www.youtube.com/channel/UC6hnRkCdElagLJlOqlgukPA"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1345.png",
-          "caption": "Crest of the football team Chesterfield",
+          "caption": "Chesterfield crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1919",
         "url": "https://chesterfield-fc.co.uk",
@@ -224,15 +236,17 @@
         "name": "Dagenham & Redbridge",
         "slogan": "The Daggers",
         "sameAs": [
-          "https://twitter.com/Dag_RedFC",
-          "https://facebook.com/OfficialDaggers"
+          "https://twitter.com/Dag_RedFC/",
+          "https://www.facebook.com/OfficialDaggers"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1821.png",
-          "caption": "Crest of the football team Dagenham & Redbridge",
+          "caption": "Dagenham & Redbridge crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1992",
         "url": "https://daggers.co.uk",
@@ -255,17 +269,19 @@
         "name": "Dorking Wanderers",
         "slogan": "The Wanderers",
         "sameAs": [
-          "https://twitter.com/DorkingWDRS",
-          "https://facebook.com/DorkingWanderersFC",
-          "https://instagram.com/dwfcofficial",
-          "https://youtube.com/channel/UC_i2iAybzL7Q_KeNPu6P3pA"
+          "https://twitter.com/DorkingWDRS/",
+          "https://www.facebook.com/DorkingWanderersFC",
+          "https://www.instagram.com/dwfcofficial/",
+          "https://www.youtube.com/channel/UC_i2iAybzL7Q_KeNPu6P3pA"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8659.png",
-          "caption": "Crest of the football team Dorking Wanderers",
+          "caption": "Dorking Wanderers crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1999",
         "url": "https://www.dorkingwanderers.com",
@@ -288,15 +304,17 @@
         "name": "Eastleigh",
         "slogan": "The Spitfires",
         "sameAs": [
-          "https://twitter.com/eastleighfc",
-          "https://facebook.com/eastleighfc"
+          "https://twitter.com/eastleighfc/",
+          "https://www.facebook.com/eastleighfc"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1822.png",
-          "caption": "Crest of the football team Eastleigh",
+          "caption": "Eastleigh crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 130,
+          "height": 130
         },
         "foundingDate": "1946",
         "url": "https://www.eastleighfc.com",
@@ -319,15 +337,17 @@
         "name": "FC Halifax Town",
         "slogan": "The Shaymen",
         "sameAs": [
-          "https://twitter.com/FCHTOnline",
-          "https://facebook.com/FCHTOnline"
+          "https://twitter.com/FCHTOnline/",
+          "https://www.facebook.com/FCHTOnline"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1841.png",
-          "caption": "Crest of the football team FC Halifax Town",
+          "caption": "FC Halifax Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "2008",
         "url": "https://fchalifaxtown.com",
@@ -349,13 +369,15 @@
         "@type": "SportsTeam",
         "name": "Gateshead",
         "slogan": "The Tynesiders",
-        "sameAs": ["https://twitter.com/GatesheadFC"],
+        "sameAs": ["https://twitter.com/GatesheadFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1823.png",
-          "caption": "Crest of the football team Gateshead",
+          "caption": "Gateshead crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1977",
         "url": "https://gateshead-fc.com",
@@ -378,15 +400,17 @@
         "name": "Maidenhead United",
         "slogan": "The Magpies",
         "sameAs": [
-          "https://twitter.com/MUFCYorkRoad",
-          "https://facebook.com/MUFCYorkRoad"
+          "https://twitter.com/MUFCYorkRoad/",
+          "https://www.facebook.com/MUFCYorkRoad"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1838.png",
-          "caption": "Crest of the football team Maidenhead United",
+          "caption": "Maidenhead United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 120
         },
         "foundingDate": "1870",
         "url": "https://maidenheadunitedfc.ktckts.com",
@@ -408,13 +432,15 @@
         "@type": "SportsTeam",
         "name": "Maidstone United",
         "slogan": "The Stones",
-        "sameAs": ["https://twitter.com/maidstoneunited"],
+        "sameAs": ["https://twitter.com/maidstoneunited/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1825.png",
-          "caption": "Crest of the football team Maidstone United",
+          "caption": "Maidstone United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1992",
         "url": "https://maidstoneunited.co.uk",
@@ -435,13 +461,15 @@
         "@type": "SportsTeam",
         "name": "Notts County",
         "slogan": "The Magpies",
-        "sameAs": ["https://twitter.com/Official_NCFC"],
+        "sameAs": ["https://twitter.com/Official_NCFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1376.png",
-          "caption": "Crest of the football team Notts County",
+          "caption": "Notts County crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1862",
         "url": "https://www.nottscountyfc.co.uk",
@@ -464,15 +492,17 @@
         "name": "Oldham Athletic",
         "slogan": "The Latics",
         "sameAs": [
-          "https://twitter.com/OfficialOAFC",
-          "https://facebook.com/OfficialOAFC"
+          "https://twitter.com/OfficialOAFC/",
+          "https://www.facebook.com/OfficialOAFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1349.png",
-          "caption": "Crest of the football team Oldham Athletic",
+          "caption": "Oldham Athletic crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1895",
         "url": "https://www.oldhamathletic.co.uk",
@@ -494,13 +524,15 @@
         "@type": "SportsTeam",
         "name": "Solihull Moors",
         "slogan": "The Moors",
-        "sameAs": ["https://twitter.com/SolihullMoors"],
+        "sameAs": ["https://twitter.com/SolihullMoors/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1834.png",
-          "caption": "Crest of the football team Solihull Moors",
+          "caption": "Solihull Moors crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 144
         },
         "foundingDate": "2007",
         "url": "https://www.solihullmoorsfc.co.uk",
@@ -522,13 +554,15 @@
         "@type": "SportsTeam",
         "name": "Southend United",
         "slogan": "The Shrimpers",
-        "sameAs": ["https://twitter.com/SUFCRootsHall"],
+        "sameAs": ["https://twitter.com/SUFCRootsHall/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1341.png",
-          "caption": "Crest of the football team Southend United",
+          "caption": "Southend United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1906",
         "url": "https://www.southendunited.co.uk",
@@ -550,13 +584,15 @@
         "@type": "SportsTeam",
         "name": "Scunthorpe United",
         "slogan": "The Iron",
-        "sameAs": ["https://twitter.com/SUFCOfficial"],
+        "sameAs": ["https://twitter.com/SUFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1340.png",
-          "caption": "Crest of the football team Scunthorpe United",
+          "caption": "Scunthorpe United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1899",
         "url": "https://www.scunthorpe-united.co.uk",
@@ -578,13 +614,15 @@
         "@type": "SportsTeam",
         "name": "Torquay United AFC",
         "slogan": "The Gulls",
-        "sameAs": ["https://twitter.com/TUFC1899"],
+        "sameAs": ["https://twitter.com/TUFC1899/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1827.png",
-          "caption": "Crest of the football team Torquay United AFC",
+          "caption": "Torquay United AFC crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1899",
         "url": "https://torquayunited.com",
@@ -607,15 +645,17 @@
         "name": "Wealdstone",
         "slogan": "The Stones",
         "sameAs": [
-          "https://twitter.com/WealdstoneFC",
-          "https://facebook.com/wealdstonefootballclub"
+          "https://twitter.com/WealdstoneFC/",
+          "https://www.facebook.com/wealdstonefootballclub"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8663.png",
-          "caption": "Crest of the football team Wealdstone",
+          "caption": "Wealdstone crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 140,
+          "height": 144
         },
         "foundingDate": "1899",
         "url": "https://www.wealdstone-fc.com",
@@ -637,13 +677,15 @@
         "@type": "SportsTeam",
         "name": "Woking",
         "slogan": "The Cardinals",
-        "sameAs": ["https://twitter.com/wokingfc"],
+        "sameAs": ["https://twitter.com/wokingfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1836.png",
-          "caption": "Crest of the football team Woking",
+          "caption": "Woking crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1887",
         "url": "https://wokingfc.co.uk",
@@ -665,16 +707,18 @@
         "@type": "SportsTeam",
         "name": "Wrexham AFC",
         "slogan": "The Red Dragons",
-        "sameAs": ["https://twitter.com/Wrexham_AFC"],
+        "sameAs": ["https://twitter.com/Wrexham_AFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1837.png",
-          "caption": "Crest of the football team Wrexham AFC",
+          "caption": "Wrexham AFC crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1864",
-        "url": "https://wrexhamafc.co.uk",
+        "url": "https://www.wrexhamafc.co.uk",
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -693,13 +737,15 @@
         "@type": "SportsTeam",
         "name": "Yeovil Town",
         "slogan": "The Glovers",
-        "sameAs": ["https://twitter.com/YTFC"],
+        "sameAs": ["https://twitter.com/YTFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1377.png",
-          "caption": "Crest of the football team Yeovil Town",
+          "caption": "Yeovil Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1895",
         "url": "https://www.ytfc.net",
@@ -721,13 +767,15 @@
         "@type": "SportsTeam",
         "name": "York City",
         "slogan": "The Minstermen",
-        "sameAs": ["https://twitter.com/YorkCityFC"],
+        "sameAs": ["https://twitter.com/YorkCityFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1828.png",
-          "caption": "Crest of the football team York City",
+          "caption": "York City crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1922",
         "url": "https://yorkcityfootballclub.co.uk",
@@ -761,9 +809,11 @@
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/leagues/50.png",
-      "caption": "Logo for the English football conference National League North",
+      "caption": "National League North logo",
       "representativeOfPage": true,
-      "encodingFormat": "image/png"
+      "encodingFormat": "image/png",
+      "width": 533,
+      "height": 150
     },
     "identifier": {
       "@type": "url",
@@ -779,13 +829,15 @@
         "@type": "SportsTeam",
         "name": "AFC Fylde",
         "slogan": "The Coasters",
-        "sameAs": ["https://twitter.com/AFCFylde"],
+        "sameAs": ["https://twitter.com/AFCFylde/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1839.png",
-          "caption": "Crest of the football team AFC Fylde",
+          "caption": "AFC Fylde crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1988",
         "url": "https://www.afcfylde.co.uk",
@@ -807,13 +859,15 @@
         "@type": "SportsTeam",
         "name": "AFC Telford United",
         "slogan": "The Bucks",
-        "sameAs": ["https://twitter.com/telfordutd"],
+        "sameAs": ["https://twitter.com/telfordutd/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4688.png",
-          "caption": "Crest of the football team AFC Telford United",
+          "caption": "AFC Telford United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "2004",
         "url": "https://www.telfordunited.com",
@@ -834,13 +888,15 @@
         "@type": "SportsTeam",
         "name": "Alfreton Town",
         "slogan": "The Reds",
-        "sameAs": ["https://twitter.com/AlfretonTownFC"],
+        "sameAs": ["https://twitter.com/AlfretonTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4677.png",
-          "caption": "Crest of the football team Alfreton Town",
+          "caption": "Alfreton Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1959",
         "url": "https://alfretontownfootballclub.com",
@@ -862,18 +918,20 @@
         "name": "Banbury United",
         "slogan": "The Puritans",
         "sameAs": [
-          "https://twitter.com/BanburyUnitedFC",
-          "https://facebook.com/BanburyUnitedFCOfficial"
+          "https://twitter.com/BanburyUnitedFC/",
+          "https://www.facebook.com/BanburyUnitedFCOfficial"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7696.png",
-          "caption": "Crest of the football team Banbury United",
+          "caption": "Banbury United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 100,
+          "height": 93
         },
         "foundingDate": "1931",
-        "url": "https://banburyunitedfc.co.uk",
+        "url": "https://www.banburyunitedfc.co.uk",
         "identifier": {
           "@type": "url",
           "@value": "https://nonleaguegrounds.com/national-league-north/banbury-united"
@@ -891,13 +949,15 @@
         "@type": "SportsTeam",
         "name": "Blyth Spartans AFC",
         "slogan": "The Spartans",
-        "sameAs": ["https://twitter.com/Blyth_Spartans"],
+        "sameAs": ["https://twitter.com/Blyth_Spartans/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8650.png",
-          "caption": "Crest of the football team Blyth Spartans AFC",
+          "caption": "Blyth Spartans AFC crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1899",
         "url": "https://www.blythspartans.com",
@@ -918,13 +978,15 @@
         "@type": "SportsTeam",
         "name": "Boston United",
         "slogan": "The Pilgrims",
-        "sameAs": ["https://twitter.com/bostonunited"],
+        "sameAs": ["https://twitter.com/bostonunited/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8146.png",
-          "caption": "Crest of the football team Boston United",
+          "caption": "Boston United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1933",
         "url": "https://www.bostonunited.co.uk",
@@ -946,13 +1008,15 @@
         "@type": "SportsTeam",
         "name": "Brackley Town",
         "slogan": "The Saints",
-        "sameAs": ["https://twitter.com/BrackleyTownFC"],
+        "sameAs": ["https://twitter.com/BrackleyTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4701.png",
-          "caption": "Crest of the football team Brackley Town",
+          "caption": "Brackley Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 100,
+          "height": 100
         },
         "foundingDate": "1930",
         "url": "https://brackleytownfc.com",
@@ -973,13 +1037,15 @@
         "@type": "SportsTeam",
         "name": "Bradford (Park Avenue) AFC",
         "slogan": "The Green Army",
-        "sameAs": ["https://twitter.com/BPAFCOfficial"],
+        "sameAs": ["https://twitter.com/BPAFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8651.png",
-          "caption": "Crest of the football team Bradford (Park Avenue) AFC",
+          "caption": "Bradford (Park Avenue) AFC crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 105,
+          "height": 95
         },
         "foundingDate": "1907",
         "url": "https://bpafc.com",
@@ -1000,13 +1066,15 @@
         "@type": "SportsTeam",
         "name": "Buxton",
         "slogan": "The Bucks",
-        "sameAs": ["https://twitter.com/Buxton_FC"],
+        "sameAs": ["https://twitter.com/Buxton_FC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7706.png",
-          "caption": "Crest of the football team Buxton",
+          "caption": "Buxton crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 100,
+          "height": 100
         },
         "foundingDate": "1877",
         "url": "https://www.buxtonfc.co.uk",
@@ -1027,13 +1095,15 @@
         "@type": "SportsTeam",
         "name": "Chester",
         "slogan": "The Seals",
-        "sameAs": ["https://twitter.com/ChesterFC"],
+        "sameAs": ["https://twitter.com/ChesterFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1820.png",
-          "caption": "Crest of the football team Chester",
+          "caption": "Chester crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "2010",
         "url": "https://www.chesterfc.com",
@@ -1054,13 +1124,15 @@
         "@type": "SportsTeam",
         "name": "Chorley",
         "slogan": "The Magpies",
-        "sameAs": ["https://twitter.com/chorleyfc"],
+        "sameAs": ["https://twitter.com/chorleyfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4679.png",
-          "caption": "Crest of the football team Chorley",
+          "caption": "Chorley crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 100,
+          "height": 127
         },
         "foundingDate": "1883",
         "url": "https://www.chorleyfc.com",
@@ -1082,13 +1154,15 @@
         "@type": "SportsTeam",
         "name": "Curzon Ashton",
         "slogan": "The Nash",
-        "sameAs": ["https://twitter.com/CurzonAshton"],
+        "sameAs": ["https://twitter.com/CurzonAshton/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4703.png",
-          "caption": "Crest of the football team Curzon Ashton",
+          "caption": "Curzon Ashton crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1963",
         "url": "https://www.curzon-ashton.co.uk",
@@ -1109,13 +1183,15 @@
         "@type": "SportsTeam",
         "name": "Darlington",
         "slogan": "The Quakers",
-        "sameAs": ["https://twitter.com/Official_Darlo"],
+        "sameAs": ["https://twitter.com/Official_Darlo/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8148.png",
-          "caption": "Crest of the football team Darlington",
+          "caption": "Darlington crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1883",
         "url": "https://darlingtonfc.co.uk",
@@ -1136,13 +1212,15 @@
         "@type": "SportsTeam",
         "name": "Farsley Celtic",
         "slogan": "The Celt Army",
-        "sameAs": ["https://twitter.com/FarsleyCelticFC"],
+        "sameAs": ["https://twitter.com/FarsleyCelticFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8652.png",
-          "caption": "Crest of the football team Farsley Celtic",
+          "caption": "Farsley Celtic crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1908",
         "url": "https://farsleyceltic.com",
@@ -1163,13 +1241,15 @@
         "@type": "SportsTeam",
         "name": "Gloucester City AFC",
         "slogan": "The Tigers",
-        "sameAs": ["https://twitter.com/GCAFCOfficial"],
+        "sameAs": ["https://twitter.com/GCAFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8653.png",
-          "caption": "Crest of the football team Gloucester City AFC",
+          "caption": "Gloucester City AFC crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1883",
         "url": "https://www.gloucestercityafc.com",
@@ -1191,13 +1271,15 @@
         "@type": "SportsTeam",
         "name": "Hereford",
         "slogan": "The Bulls",
-        "sameAs": ["https://twitter.com/HerefordFC"],
+        "sameAs": ["https://twitter.com/HerefordFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4692.png",
-          "caption": "Crest of the football team Hereford",
+          "caption": "Hereford crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "2014",
         "url": "https://www.herefordfc.co.uk",
@@ -1218,13 +1300,15 @@
         "@type": "SportsTeam",
         "name": "Kettering Town",
         "slogan": "The Poppies",
-        "sameAs": ["https://twitter.com/KTFCOfficial"],
+        "sameAs": ["https://twitter.com/KTFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8654.png",
-          "caption": "Crest of the football team Kettering Town",
+          "caption": "Kettering Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1872",
         "url": "https://ketteringtownfc.com",
@@ -1245,13 +1329,15 @@
         "@type": "SportsTeam",
         "name": "Kidderminster Harriers",
         "slogan": "The Kiddy",
-        "sameAs": ["https://twitter.com/khfcofficial"],
+        "sameAs": ["https://twitter.com/khfcofficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4695.png",
-          "caption": "Crest of the football team Kidderminster Harriers",
+          "caption": "Kidderminster Harriers crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1886",
         "url": "https://harriers.co.uk",
@@ -1273,13 +1359,15 @@
         "@type": "SportsTeam",
         "name": "Kings Lynn Town",
         "slogan": "The Linnets",
-        "sameAs": ["https://twitter.com/officialKLtown"],
+        "sameAs": ["https://twitter.com/officialKLtown/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8655.png",
-          "caption": "Crest of the football team Kings Lynn Town",
+          "caption": "Kings Lynn Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "2010",
         "url": "https://www.kltown.co.uk",
@@ -1300,13 +1388,15 @@
         "@type": "SportsTeam",
         "name": "Leamington",
         "slogan": "The Brakes",
-        "sameAs": ["https://twitter.com/LeamingtonFC"],
+        "sameAs": ["https://twitter.com/LeamingtonFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8656.png",
-          "caption": "Crest of the football team Leamington",
+          "caption": "Leamington crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 218,
+          "height": 217
         },
         "foundingDate": "1933",
         "url": "https://leamingtonfc.co.uk",
@@ -1327,13 +1417,15 @@
         "@type": "SportsTeam",
         "name": "Peterborough Sports",
         "slogan": "The Turbines",
-        "sameAs": ["https://twitter.com/PSLFC"],
+        "sameAs": ["https://twitter.com/PSLFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7737.png",
-          "caption": "Crest of the football team Peterborough Sports",
+          "caption": "Peterborough Sports crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1908",
         "url": "https://pslfc.com",
@@ -1354,13 +1446,15 @@
         "@type": "SportsTeam",
         "name": "Scarborough Athletic",
         "slogan": "The Seadogs",
-        "sameAs": ["https://twitter.com/safc"],
+        "sameAs": ["https://twitter.com/safc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7745.png",
-          "caption": "Crest of the football team Scarborough Athletic",
+          "caption": "Scarborough Athletic crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "2007",
         "url": "https://www.scarboroughathletic.com",
@@ -1382,15 +1476,17 @@
         "name": "Southport",
         "slogan": "The Sandgrounders",
         "sameAs": [
-          "https://twitter.com/southport_fc",
-          "https://facebook.com/SouthportFootballClub"
+          "https://twitter.com/southport_fc/",
+          "https://www.facebook.com/SouthportFootballClub"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1826.png",
-          "caption": "Crest of the football team Southport",
+          "caption": "Southport crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1881",
         "url": "https://southportfc.net",
@@ -1411,13 +1507,15 @@
         "@type": "SportsTeam",
         "name": "Spennymoor Town",
         "slogan": "The Moors",
-        "sameAs": ["https://twitter.com/SpennymoorTown"],
+        "sameAs": ["https://twitter.com/SpennymoorTown/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/3707.png",
-          "caption": "Crest of the football team Spennymoor Town",
+          "caption": "Spennymoor Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "2005",
         "url": "https://spennymoortownfc.co.uk",
@@ -1450,9 +1548,11 @@
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/leagues/51.png",
-      "caption": "Logo for the English football conference National League South",
+      "caption": "National League South logo",
       "representativeOfPage": true,
-      "encodingFormat": "image/png"
+      "encodingFormat": "image/png",
+      "width": 532,
+      "height": 150
     },
     "identifier": {
       "@type": "url",
@@ -1468,16 +1568,18 @@
         "@type": "SportsTeam",
         "name": "Bath City",
         "slogan": "The Romans",
-        "sameAs": ["https://twitter.com/BathCity_FC"],
+        "sameAs": ["https://twitter.com/BathCity_FC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8657.png",
-          "caption": "Crest of the football team Bath City",
+          "caption": "Bath City crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1889",
-        "url": "https://bathcityfc.com",
+        "url": "https://www.bathcityfc.com",
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -1497,15 +1599,17 @@
         "name": "Braintree Town",
         "slogan": "The Iron",
         "sameAs": [
-          "https://twitter.com/braintreetownfc",
-          "https://facebook.com/Braintreetownfcofficial"
+          "https://twitter.com/braintreetownfc/",
+          "https://www.facebook.com/Braintreetownfcofficial"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1831.png",
-          "caption": "Crest of the football team Braintree Town",
+          "caption": "Braintree Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 137,
+          "height": 138
         },
         "foundingDate": "1898",
         "url": "https://braintreetownfc.org.uk",
@@ -1528,15 +1632,17 @@
         "name": "Chelmsford City",
         "slogan": "The Clarets",
         "sameAs": [
-          "https://twitter.com/OfficialClarets",
-          "https://facebook.com/officialchelmsfordcityfc"
+          "https://twitter.com/OfficialClarets/",
+          "https://www.facebook.com/officialchelmsfordcityfc"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4689.png",
-          "caption": "Crest of the football team Chelmsford City",
+          "caption": "Chelmsford City crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 130,
+          "height": 130
         },
         "foundingDate": "1938",
         "url": "https://chelmsfordcityfc.com",
@@ -1558,13 +1664,15 @@
         "@type": "SportsTeam",
         "name": "Cheshunt",
         "slogan": "The Ambers",
-        "sameAs": ["https://twitter.com/cheshuntfcscore"],
+        "sameAs": ["https://twitter.com/cheshuntfcscore/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7708.png",
-          "caption": "Crest of the football team Cheshunt",
+          "caption": "Cheshunt crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1946",
         "url": "https://cheshuntfc.com",
@@ -1585,13 +1693,15 @@
         "@type": "SportsTeam",
         "name": "Chippenham Town",
         "slogan": "The Bluebirds",
-        "sameAs": ["https://twitter.com/ChipTownFC"],
+        "sameAs": ["https://twitter.com/ChipTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8147.png",
-          "caption": "Crest of the football team Chippenham Town",
+          "caption": "Chippenham Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1873",
         "url": "https://chippenhamtown.com",
@@ -1612,13 +1722,15 @@
         "@type": "SportsTeam",
         "name": "Concord Rangers",
         "slogan": "The Beach Boys",
-        "sameAs": ["https://twitter.com/ConcordRangers"],
+        "sameAs": ["https://twitter.com/ConcordRangers/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8658.png",
-          "caption": "Crest of the football team Concord Rangers",
+          "caption": "Concord Rangers crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1967",
         "url": "https://www.concord-rangers.co.uk",
@@ -1640,15 +1752,17 @@
         "name": "Dartford",
         "slogan": "The Darts",
         "sameAs": [
-          "https://twitter.com/dartfordfc",
-          "https://facebook.com/DartfordFootballClub"
+          "https://twitter.com/dartfordfc/",
+          "https://www.facebook.com/DartfordFootballClub"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4690.png",
-          "caption": "Crest of the football team Dartford",
+          "caption": "Dartford crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 120,
+          "height": 129
         },
         "foundingDate": "1888",
         "url": "https://www.dartfordfc.com",
@@ -1670,15 +1784,17 @@
         "name": "Dover Athletic",
         "slogan": "The Whites",
         "sameAs": [
-          "https://twitter.com/DoverAthletic",
-          "https://facebook.com/DoverAthleticFC"
+          "https://twitter.com/DoverAthletic/",
+          "https://www.facebook.com/DoverAthleticFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1829.png",
-          "caption": "Crest of the football team Dover Athletic",
+          "caption": "Dover Athletic crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1983",
         "url": "https://www.doverathletic.com",
@@ -1701,15 +1817,17 @@
         "name": "Dulwich Hamlet",
         "slogan": "The Hamlet",
         "sameAs": [
-          "https://twitter.com/DulwichHamletFC",
-          "https://facebook.com/DulwichHamletFC"
+          "https://twitter.com/DulwichHamletFC/",
+          "https://www.facebook.com/DulwichHamletFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8149.png",
-          "caption": "Crest of the football team Dulwich Hamlet",
+          "caption": "Dulwich Hamlet crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 120,
+          "height": 160
         },
         "foundingDate": "1893",
         "url": "https://www.pitchero.com/clubs/dulwichhamlet",
@@ -1730,13 +1848,15 @@
         "@type": "SportsTeam",
         "name": "Eastbourne Borough",
         "slogan": "The Sports",
-        "sameAs": ["https://twitter.com/EBFCTheSports"],
+        "sameAs": ["https://twitter.com/EBFCTheSports/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4704.png",
-          "caption": "Crest of the football team Eastbourne Borough",
+          "caption": "Eastbourne Borough crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1954",
         "identifier": {
@@ -1757,15 +1877,17 @@
         "name": "Ebbsfleet United",
         "slogan": "The Fleet",
         "sameAs": [
-          "https://twitter.com/EUFCofficial",
-          "https://facebook.com/EbbsfleetUnited"
+          "https://twitter.com/EUFCofficial/",
+          "https://www.facebook.com/EbbsfleetUnited"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1840.png",
-          "caption": "Crest of the football team Ebbsfleet United",
+          "caption": "Ebbsfleet United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1946",
         "url": "https://www.ebbsfleetunited.co.uk",
@@ -1787,15 +1909,17 @@
         "name": "Farnborough",
         "slogan": "Boro",
         "sameAs": [
-          "https://twitter.com/FarnboroughFC",
-          "https://facebook.com/FarnboroughFC2007"
+          "https://twitter.com/FarnboroughFC/",
+          "https://www.facebook.com/FarnboroughFC2007"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7715.png",
-          "caption": "Crest of the football team Farnborough",
+          "caption": "Farnborough crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1967",
         "url": "https://farnboroughfc.co.uk",
@@ -1817,16 +1941,18 @@
         "name": "Hampton & Richmond Borough",
         "slogan": "The Beavers",
         "sameAs": [
-          "https://twitter.com/HRBFC",
-          "https://facebook.com/HRBFCofficial",
-          "https://instagram.com/hrbfc"
+          "https://twitter.com/HRBFC/",
+          "https://www.facebook.com/HRBFCofficial",
+          "https://www.instagram.com/hrbfc/"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4680.png",
-          "caption": "Crest of the football team Hampton & Richmond Borough",
+          "caption": "Hampton & Richmond Borough crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 124,
+          "height": 138
         },
         "foundingDate": "1921",
         "url": "https://hrbfc.co.uk",
@@ -1848,18 +1974,20 @@
         "name": "Havant & Waterlooville",
         "slogan": "The Hawks",
         "sameAs": [
-          "https://twitter.com/HWFCOfficial",
-          "https://facebook.com/HWFCOfficial"
+          "https://twitter.com/HWFCOfficial/",
+          "https://www.facebook.com/HWFCOfficial"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1843.png",
-          "caption": "Crest of the football team Havant & Waterlooville",
+          "caption": "Havant & Waterlooville crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 135,
+          "height": 138
         },
         "foundingDate": "1998",
-        "url": "https://havantandwaterlooville.co.uk",
+        "url": "https://www.havantandwaterloovillefc.co.uk",
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -1878,13 +2006,15 @@
         "@type": "SportsTeam",
         "name": "Hemel Hempstead Town",
         "slogan": "The Tudors",
-        "sameAs": ["https://twitter.com/hemelfc"],
+        "sameAs": ["https://twitter.com/hemelfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8660.png",
-          "caption": "Crest of the football team Hemel Hempstead Town",
+          "caption": "Hemel Hempstead Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 120,
+          "height": 119
         },
         "foundingDate": "1885",
         "url": "https://www.hemelfc.com",
@@ -1906,15 +2036,17 @@
         "name": "Hungerford Town",
         "slogan": "The Crusaders",
         "sameAs": [
-          "https://twitter.com/HungerfordTown",
-          "https://facebook.com/Crusaders1886"
+          "https://twitter.com/HungerfordTown/",
+          "https://www.facebook.com/Crusaders1886"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8661.png",
-          "caption": "Crest of the football team Hungerford Town",
+          "caption": "Hungerford Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1886",
         "url": "https://hungerfordtown.com",
@@ -1935,13 +2067,15 @@
         "@type": "SportsTeam",
         "name": "Oxford City",
         "slogan": "The Hoops",
-        "sameAs": ["https://twitter.com/OxCityFC"],
+        "sameAs": ["https://twitter.com/OxCityFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1338.png",
-          "caption": "Crest of the football team Oxford City",
+          "caption": "Oxford City crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1882",
         "url": "https://www.oxfordcityfc.co.uk",
@@ -1963,13 +2097,15 @@
         "@type": "SportsTeam",
         "name": "Slough Town",
         "slogan": "The Rebels",
-        "sameAs": ["https://twitter.com/sloughtownfc"],
+        "sameAs": ["https://twitter.com/sloughtownfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4685.png",
-          "caption": "Crest of the football team Slough Town",
+          "caption": "Slough Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1890",
         "url": "https://sloughtownfc.net",
@@ -1990,13 +2126,15 @@
         "@type": "SportsTeam",
         "name": "St Albans City",
         "slogan": "The Saints",
-        "sameAs": ["https://twitter.com/stalbanscityfc"],
+        "sameAs": ["https://twitter.com/stalbanscityfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4708.png",
-          "caption": "Crest of the football team St Albans City",
+          "caption": "St Albans City crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 180,
+          "height": 180
         },
         "foundingDate": "1908",
         "url": "https://www.stalbanscityfc.com",
@@ -2017,13 +2155,15 @@
         "@type": "SportsTeam",
         "name": "Taunton Town",
         "slogan": "The Peacocks",
-        "sameAs": ["https://twitter.com/TauntonTownFC"],
+        "sameAs": ["https://twitter.com/TauntonTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4711.png",
-          "caption": "Crest of the football team Taunton Town",
+          "caption": "Taunton Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1947",
         "url": "https://tauntontown.com",
@@ -2044,16 +2184,18 @@
         "@type": "SportsTeam",
         "name": "Tonbridge Angels",
         "slogan": "The Angels",
-        "sameAs": ["https://twitter.com/tonbridgeangels"],
+        "sameAs": ["https://twitter.com/tonbridgeangels/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8662.png",
-          "caption": "Crest of the football team Tonbridge Angels",
+          "caption": "Tonbridge Angels crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1947",
-        "url": "https://tonbridgeangels.co.uk",
+        "url": "https://www.tonbridgeangels.co.uk",
         "identifier": {
           "@type": "url",
           "@value": "https://nonleaguegrounds.com/national-league-south/tonbridge-angels"
@@ -2072,15 +2214,17 @@
         "name": "Welling United",
         "slogan": "The Wings",
         "sameAs": [
-          "https://twitter.com/wellingunited",
-          "https://facebook.com/wellingunited"
+          "https://twitter.com/wellingunited/",
+          "https://www.facebook.com/wellingunited"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8664.png",
-          "caption": "Crest of the football team Welling United",
+          "caption": "Welling United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 141,
+          "height": 139
         },
         "foundingDate": "1963",
         "url": "https://wellingunited.com",
@@ -2102,13 +2246,15 @@
         "@type": "SportsTeam",
         "name": "Weymouth",
         "slogan": "The Terras",
-        "sameAs": ["https://twitter.com/theterras"],
+        "sameAs": ["https://twitter.com/theterras/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8665.png",
-          "caption": "Crest of the football team Weymouth",
+          "caption": "Weymouth crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 109,
+          "height": 155
         },
         "foundingDate": "1890",
         "url": "https://uptheterras.co.uk",
@@ -2130,13 +2276,15 @@
         "@type": "SportsTeam",
         "name": "Worthing",
         "slogan": "The Rebels",
-        "sameAs": ["https://twitter.com/WorthingFC"],
+        "sameAs": ["https://twitter.com/WorthingFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7661.png",
-          "caption": "Crest of the football team Worthing",
+          "caption": "Worthing crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1886",
         "url": "https://worthingfc.com",
@@ -2169,9 +2317,11 @@
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/leagues/58.png",
-      "caption": "Logo for the English football conference Isthmian League Premier Division",
+      "caption": "Isthmian League Premier Division logo",
       "representativeOfPage": true,
-      "encodingFormat": "image/png"
+      "encodingFormat": "image/png",
+      "width": 155,
+      "height": 150
     },
     "identifier": {
       "@type": "url",
@@ -2188,15 +2338,17 @@
         "name": "Aveley",
         "slogan": "The Millers",
         "sameAs": [
-          "https://twitter.com/AveleyFC",
-          "https://facebook.com/AveleyFC"
+          "https://twitter.com/AveleyFC/",
+          "https://www.facebook.com/AveleyFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7207.png",
-          "caption": "Crest of the football team Aveley",
+          "caption": "Aveley crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1927",
         "url": "https://www.pitchero.com/clubs/aveley",
@@ -2218,15 +2370,17 @@
         "name": "Billericay Town",
         "slogan": "The Blues",
         "sameAs": [
-          "https://twitter.com/BTFC",
-          "https://facebook.com/BillericayTownFootballClub"
+          "https://twitter.com/BTFC/",
+          "https://www.facebook.com/BillericayTownFootballClub"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4678.png",
-          "caption": "Crest of the football team Billericay Town",
+          "caption": "Billericay Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 100,
+          "height": 100
         },
         "foundingDate": "1880",
         "url": "https://billericaytownfc.co.uk",
@@ -2248,15 +2402,17 @@
         "name": "Bishop's Stortford",
         "slogan": "The Blues",
         "sameAs": [
-          "https://twitter.com/BSFCTheBlues",
-          "https://facebook.com/BSFCTheBlues"
+          "https://twitter.com/BSFCTheBlues/",
+          "https://www.facebook.com/BSFCTheBlues"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7701.png",
-          "caption": "Crest of the football team Bishop's Stortford",
+          "caption": "Bishop's Stortford crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1874",
         "url": "https://bsfc.co.uk",
@@ -2278,15 +2434,17 @@
         "name": "Bognor Regis Town",
         "slogan": "The Rocks",
         "sameAs": [
-          "https://twitter.com/rocks1883",
-          "https://facebook.com/rocks1883"
+          "https://twitter.com/rocks1883/",
+          "https://www.facebook.com/rocks1883"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7703.png",
-          "caption": "Crest of the football team Bognor Regis Town",
+          "caption": "Bognor Regis Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 126,
+          "height": 138
         },
         "foundingDate": "1883",
         "url": "https://www.pitchero.com/clubs/bognorregistownfc",
@@ -2308,15 +2466,17 @@
         "name": "Bowers & Pitsea",
         "slogan": "The Bowers",
         "sameAs": [
-          "https://twitter.com/Bowerspitseafc",
-          "https://facebook.com/bowers.pitsea.3"
+          "https://twitter.com/Bowerspitseafc/",
+          "https://www.facebook.com/bowers.pitsea.3"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7764.png",
-          "caption": "Crest of the football team Bowers & Pitsea",
+          "caption": "Bowers & Pitsea crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1946",
         "url": "https://bowersandpitseafootballclub.com",
@@ -2338,15 +2498,17 @@
         "name": "Brightlingsea Regent",
         "slogan": "The Rs",
         "sameAs": [
-          "https://twitter.com/Brightlingseafc",
-          "https://facebook.com/Brightlingsea.Football"
+          "https://twitter.com/Brightlingseafc/",
+          "https://www.facebook.com/Brightlingsea.Football"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7704.png",
-          "caption": "Crest of the football team Brightlingsea Regent",
+          "caption": "Brightlingsea Regent crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "2005",
         "url": "https://brightlingsearegentfc.com",
@@ -2368,15 +2530,17 @@
         "name": "Canvey Island",
         "slogan": "The Gulls",
         "sameAs": [
-          "https://twitter.com/CIFC",
-          "https://facebook.com/canveyislandfc"
+          "https://twitter.com/CIFC/",
+          "https://www.facebook.com/canveyislandfc"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7623.png",
-          "caption": "Crest of the football team Canvey Island",
+          "caption": "Canvey Island crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1926",
         "url": "https://canveyislandfc.com",
@@ -2398,15 +2562,17 @@
         "name": "Carshalton Athletic",
         "slogan": "The Robins",
         "sameAs": [
-          "https://twitter.com/CarshaltonA_FC",
-          "https://facebook.com/CarshaltonAthleticFC"
+          "https://twitter.com/CarshaltonA_FC/",
+          "https://www.facebook.com/CarshaltonAthleticFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7707.png",
-          "caption": "Crest of the football team Carshalton Athletic",
+          "caption": "Carshalton Athletic crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 100,
+          "height": 100
         },
         "foundingDate": "1905",
         "url": "https://www.carshaltonathletic.co.uk",
@@ -2428,15 +2594,17 @@
         "name": "Corinthian-Casuals",
         "slogan": "The Casuals",
         "sameAs": [
-          "https://twitter.com/CorinthianCas",
-          "https://facebook.com/officialcorinthiancasualsfc"
+          "https://twitter.com/CorinthianCas/",
+          "https://www.facebook.com/officialcorinthiancasualsfc"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7710.png",
-          "caption": "Crest of the football team Corinthian-Casuals",
+          "caption": "Corinthian-Casuals crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1939",
         "url": "https://corinthian-casuals.com",
@@ -2459,18 +2627,20 @@
         "name": "Cray Wanderers",
         "slogan": "The Wands",
         "sameAs": [
-          "https://twitter.com/OfficialWands",
-          "https://facebook.com/CrayWanderersFC"
+          "https://twitter.com/OfficialWands/",
+          "https://www.facebook.com/CrayWanderersFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7711.png",
-          "caption": "Crest of the football team Cray Wanderers",
+          "caption": "Cray Wanderers crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 100,
+          "height": 100
         },
         "foundingDate": "1860",
-        "url": "https://cwfc.co.uk",
+        "url": "https://www.cray-wanderers.com",
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -2489,13 +2659,15 @@
         "@type": "SportsTeam",
         "name": "Enfield Town",
         "slogan": "The Towners",
-        "sameAs": ["https://twitter.com/ETFCOfficial"],
+        "sameAs": ["https://twitter.com/ETFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7714.png",
-          "caption": "Crest of the football team Enfield Town",
+          "caption": "Enfield Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "2001",
         "url": "https://etfc.london",
@@ -2517,15 +2689,17 @@
         "name": "Folkestone Invicta",
         "slogan": "The Seasiders",
         "sameAs": [
-          "https://twitter.com/FIFC",
-          "https://facebook.com/folkestoneinvictafc"
+          "https://twitter.com/FIFC/",
+          "https://www.facebook.com/folkestoneinvictafc"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7716.png",
-          "caption": "Crest of the football team Folkestone Invicta",
+          "caption": "Folkestone Invicta crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1936",
         "url": "https://folkestoneinvictafc.co.uk",
@@ -2546,13 +2720,15 @@
         "@type": "SportsTeam",
         "name": "Haringey Borough",
         "slogan": "The Borough",
-        "sameAs": ["https://twitter.com/HaringeyBoroFC"],
+        "sameAs": ["https://twitter.com/HaringeyBoroFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4681.png",
-          "caption": "Crest of the football team Haringey Borough",
+          "caption": "Haringey Borough crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1973",
         "url": "https://haringeyboroughfc.net",
@@ -2574,15 +2750,17 @@
         "name": "Hastings United",
         "slogan": "The U's",
         "sameAs": [
-          "https://twitter.com/hastingsufc",
-          "https://facebook.com/HastingsUtd"
+          "https://twitter.com/hastingsufc/",
+          "https://www.facebook.com/HastingsUtd"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7231.png",
-          "caption": "Crest of the football team Hastings United",
+          "caption": "Hastings United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1893",
         "url": "https://hastingsunited.com",
@@ -2604,15 +2782,17 @@
         "name": "Herne Bay",
         "slogan": "The Bay",
         "sameAs": [
-          "https://twitter.com/HerneBayFC",
-          "https://facebook.com/hernebayfootballclub"
+          "https://twitter.com/HerneBayFC/",
+          "https://www.facebook.com/hernebayfootballclub"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7232.png",
-          "caption": "Crest of the football team Herne Bay",
+          "caption": "Herne Bay crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1886",
         "url": "https://hernebayfootballclub.co.uk",
@@ -2634,17 +2814,19 @@
         "name": "Hornchurch",
         "slogan": "The Mighty Urchins",
         "sameAs": [
-          "https://twitter.com/HornchurchFC",
-          "https://facebook.com/HornchurchFCofficial",
-          "https://instagram.com/hornchurchfcofficial",
-          "https://youtube.com/channel/UCpmfj7xGqG8dT-dY-paaaVg"
+          "https://twitter.com/HornchurchFC/",
+          "https://www.facebook.com/HornchurchFCofficial",
+          "https://www.instagram.com/hornchurchfcofficial/",
+          "https://www.youtube.com/channel/UCpmfj7xGqG8dT-dY-paaaVg"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7690.png",
-          "caption": "Crest of the football team Hornchurch",
+          "caption": "Hornchurch crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1923",
         "url": "https://hornchurchfc.com",
@@ -2666,15 +2848,17 @@
         "name": "Horsham",
         "slogan": "The Hornets",
         "sameAs": [
-          "https://twitter.com/HorshamFC",
-          "https://facebook.com/HorshamFC"
+          "https://twitter.com/HorshamFC/",
+          "https://www.facebook.com/HorshamFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7723.png",
-          "caption": "Crest of the football team Horsham",
+          "caption": "Horsham crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1871",
         "url": "https://horshamfc.co.uk",
@@ -2696,18 +2880,20 @@
         "name": "Kingstonian",
         "slogan": "The Ks",
         "sameAs": [
-          "https://twitter.com/KingstonianFC",
-          "https://facebook.com/kingstonianfc"
+          "https://twitter.com/KingstonianFC/",
+          "https://www.facebook.com/kingstonianfc"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7725.png",
-          "caption": "Crest of the football team Kingstonian",
+          "caption": "Kingstonian crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 93,
+          "height": 102
         },
         "foundingDate": "1885",
-        "url": "https://kingstonian.com",
+        "url": "https://www.kingstonian.com",
         "identifier": {
           "@type": "url",
           "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/kingstonian"
@@ -2726,15 +2912,17 @@
         "name": "Lewes",
         "slogan": "The Rooks",
         "sameAs": [
-          "https://twitter.com/LewesFCMen",
-          "https://facebook.com/LewesFC"
+          "https://twitter.com/LewesFCMen/",
+          "https://www.facebook.com/LewesFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7728.png",
-          "caption": "Crest of the football team Lewes",
+          "caption": "Lewes crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1885",
         "url": "https://lewesfc.com",
@@ -2755,13 +2943,15 @@
         "@type": "SportsTeam",
         "name": "Margate",
         "slogan": "The Gate",
-        "sameAs": ["https://twitter.com/margate_fc"],
+        "sameAs": ["https://twitter.com/margate_fc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7730.png",
-          "caption": "Crest of the football team Margate",
+          "caption": "Margate crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 175,
+          "height": 207
         },
         "foundingDate": "1896",
         "url": "https://margate-fc.co.uk",
@@ -2782,13 +2972,15 @@
         "@type": "SportsTeam",
         "name": "Potters Bar Town",
         "slogan": "The Scholars",
-        "sameAs": ["https://twitter.com/pbtfc"],
+        "sameAs": ["https://twitter.com/pbtfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7739.png",
-          "caption": "Crest of the football team Potters Bar Town",
+          "caption": "Potters Bar Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 149,
+          "height": 141
         },
         "foundingDate": "1960",
         "url": "https://pitchero.com/clubs/pottersbartownfc/",
@@ -2810,15 +3002,17 @@
         "name": "Wingate & Finchley",
         "slogan": "The Blues",
         "sameAs": [
-          "https://twitter.com/WinFinchleyFC",
-          "https://facebook.com/WingateFinchley"
+          "https://twitter.com/WinFinchleyFC/",
+          "https://www.facebook.com/WingateFinchley"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7759.png",
-          "caption": "Crest of the football team Wingate & Finchley",
+          "caption": "Wingate & Finchley crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1991",
         "url": "https://www.wingatefinchley.com",
@@ -2851,9 +3045,11 @@
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/leagues/59.png",
-      "caption": "Logo for the English football conference Northern Premier League",
+      "caption": "Northern Premier League logo",
       "representativeOfPage": true,
-      "encodingFormat": "image/png"
+      "encodingFormat": "image/png",
+      "width": 152,
+      "height": 150
     },
     "identifier": {
       "@type": "url",
@@ -2869,13 +3065,15 @@
         "@type": "SportsTeam",
         "name": "Ashton United",
         "slogan": "The Robins",
-        "sameAs": ["https://twitter.com/AshtonUnitedFC"],
+        "sameAs": ["https://twitter.com/AshtonUnitedFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7693.png",
-          "caption": "Crest of the football team Ashton United",
+          "caption": "Ashton United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1878",
         "url": "https://ashtonunited.co.uk",
@@ -2896,13 +3094,15 @@
         "@type": "SportsTeam",
         "name": "Atherton Collieries",
         "slogan": "The Colls",
-        "sameAs": ["https://twitter.com/ACFC1916"],
+        "sameAs": ["https://twitter.com/ACFC1916/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7694.png",
-          "caption": "Crest of the football team Atherton Collieries",
+          "caption": "Atherton Collieries crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1916",
         "url": "https://athertoncollieries.co.uk",
@@ -2924,15 +3124,17 @@
         "name": "Bamber Bridge",
         "slogan": "The Brig",
         "sameAs": [
-          "https://twitter.com/BamberBridgeFC",
-          "https://facebook.com/BamberBridgeF"
+          "https://twitter.com/BamberBridgeFC/",
+          "https://www.facebook.com/BamberBridgeF"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7695.png",
-          "caption": "Crest of the football team Bamber Bridge",
+          "caption": "Bamber Bridge crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1952",
         "url": "https://bamberbridge.org",
@@ -2953,13 +3155,15 @@
         "@type": "SportsTeam",
         "name": "Belper Town",
         "slogan": "The Nailers",
-        "sameAs": ["https://twitter.com/BelperTownFC"],
+        "sameAs": ["https://twitter.com/BelperTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7617.png",
-          "caption": "Crest of the football team Belper Town",
+          "caption": "Belper Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1883",
         "url": "https://belpertownfc.co.uk",
@@ -2981,15 +3185,17 @@
         "name": "FC United of Manchester",
         "slogan": "The Reds",
         "sameAs": [
-          "https://twitter.com/FCUnitedMcr",
-          "https://facebook.com/FCUnitedMcr"
+          "https://twitter.com/FCUnitedMcr/",
+          "https://www.facebook.com/FCUnitedMcr"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7754.png",
-          "caption": "Crest of the football team FC United of Manchester",
+          "caption": "FC United of Manchester crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "2005",
         "url": "https://fc-utd.co.uk",
@@ -3010,13 +3216,15 @@
         "@type": "SportsTeam",
         "name": "Gainsborough Trinity",
         "slogan": "The Trinity",
-        "sameAs": ["https://twitter.com/GainsTrinityFC"],
+        "sameAs": ["https://twitter.com/GainsTrinityFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4691.png",
-          "caption": "Crest of the football team Gainsborough Trinity",
+          "caption": "Gainsborough Trinity crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1873",
         "url": "https://gainsboroughtrinity.com",
@@ -3037,13 +3245,15 @@
         "@type": "SportsTeam",
         "name": "Guiseley AFC",
         "slogan": "The Lions",
-        "sameAs": ["https://twitter.com/GuiselyAFC"],
+        "sameAs": ["https://twitter.com/GuiselyAFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1824.png",
-          "caption": "Crest of the football team Guiseley AFC",
+          "caption": "Guiseley AFC crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1909",
         "url": "https://guiseleyafc.co.uk",
@@ -3065,15 +3275,17 @@
         "name": "Hyde United",
         "slogan": "The Tigers",
         "sameAs": [
-          "https://twitter.com/hydeunited",
-          "https://facebook.com/hydeunited"
+          "https://twitter.com/hydeunited/",
+          "https://www.facebook.com/hydeunited"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4694.png",
-          "caption": "Crest of the football team Hyde United",
+          "caption": "Hyde United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 174,
+          "height": 172
         },
         "foundingDate": "1919",
         "url": "https://hydeunited.co.uk",
@@ -3095,15 +3307,17 @@
         "name": "Lancaster City",
         "slogan": "The Dolly Blues",
         "sameAs": [
-          "https://twitter.com/LancasterCityFC",
-          "https://facebook.com/lancastercityfc"
+          "https://twitter.com/LancasterCityFC/",
+          "https://www.facebook.com/lancastercityfc"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7726.png",
-          "caption": "Crest of the football team Lancaster City",
+          "caption": "Lancaster City crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1911",
         "url": "https://www.pitchero.com/clubs/lancastercity",
@@ -3124,13 +3338,15 @@
         "@type": "SportsTeam",
         "name": "Liversedge",
         "slogan": "The Sedge",
-        "sameAs": ["https://twitter.com/Liversedge_FC"],
+        "sameAs": ["https://twitter.com/Liversedge_FC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8853.png",
-          "caption": "Crest of the football team Liversedge",
+          "caption": "Liversedge crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1910",
         "url": "https://liversedgefc.co.uk",
@@ -3152,15 +3368,17 @@
         "name": "Marine AFC",
         "slogan": "The Mariners",
         "sameAs": [
-          "https://twitter.com/MarineAFC",
-          "https://facebook.com/marinefootballclub"
+          "https://twitter.com/MarineAFC/",
+          "https://www.facebook.com/marinefootballclub"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7656.png",
-          "caption": "Crest of the football team Marine AFC",
+          "caption": "Marine AFC crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 170,
+          "height": 170
         },
         "foundingDate": "1894",
         "url": "https://marinefc.com",
@@ -3181,13 +3399,15 @@
         "@type": "SportsTeam",
         "name": "Marske United",
         "slogan": "The Seasiders",
-        "sameAs": ["https://twitter.com/MarskeUnitedFC"],
+        "sameAs": ["https://twitter.com/MarskeUnitedFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7658.png",
-          "caption": "Crest of the football team Marske United",
+          "caption": "Marske United crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 100,
+          "height": 115
         },
         "foundingDate": "1956",
         "url": "https://marskeunitedfc.org",
@@ -3208,16 +3428,18 @@
         "@type": "SportsTeam",
         "name": "Matlock Town",
         "slogan": "The Gladiators",
-        "sameAs": ["https://twitter.com/matlock_townfc"],
+        "sameAs": ["https://twitter.com/matlock_townfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7731.png",
-          "caption": "Crest of the football team Matlock Town",
+          "caption": "Matlock Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1878",
-        "url": "https://matlocktownfc.co.uk",
+        "url": "https://www.matlocktownfc.co.uk",
         "identifier": {
           "@type": "url",
           "@value": "https://nonleaguegrounds.com/northern-premier-league/matlock-town"
@@ -3235,13 +3457,15 @@
         "@type": "SportsTeam",
         "name": "Morpeth Town AFC",
         "slogan": "The Highwaymen",
-        "sameAs": ["https://twitter.com/MorpethTownAFC"],
+        "sameAs": ["https://twitter.com/MorpethTownAFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7734.png",
-          "caption": "Crest of the football team Morpeth Town AFC",
+          "caption": "Morpeth Town AFC crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1909",
         "url": "https://morpethtownfc.com",
@@ -3263,15 +3487,17 @@
         "name": "Nantwich Town",
         "slogan": "The Dabbers",
         "sameAs": [
-          "https://twitter.com/TheDabbers",
-          "https://facebook.com/nantwichtownfc"
+          "https://twitter.com/TheDabbers/",
+          "https://www.facebook.com/nantwichtownfc"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4697.png",
-          "caption": "Crest of the football team Nantwich Town",
+          "caption": "Nantwich Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 188,
+          "height": 180
         },
         "foundingDate": "1884",
         "url": "https://nantwichtownfc.co.uk",
@@ -3293,15 +3519,17 @@
         "name": "Radcliffe",
         "slogan": "The Boro",
         "sameAs": [
-          "https://twitter.com/radcliffeboro",
-          "https://facebook.com/radcliffeboro"
+          "https://twitter.com/radcliffeboro/",
+          "https://www.facebook.com/radcliffeboro"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7740.png",
-          "caption": "Crest of the football team Radcliffe",
+          "caption": "Radcliffe crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1949",
         "url": "https://radcliffefc.com",
@@ -3322,13 +3550,15 @@
         "@type": "SportsTeam",
         "name": "South Shields",
         "slogan": "The Mariners",
-        "sameAs": ["https://twitter.com/SouthShieldsFC"],
+        "sameAs": ["https://twitter.com/SouthShieldsFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7746.png",
-          "caption": "Crest of the football team South Shields",
+          "caption": "South Shields crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1888",
         "url": "https://southshieldsfc.co.uk",
@@ -3349,13 +3579,15 @@
         "@type": "SportsTeam",
         "name": "Stafford Rangers",
         "slogan": "The Rangers",
-        "sameAs": ["https://twitter.com/SRFCofficial"],
+        "sameAs": ["https://twitter.com/SRFCofficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7748.png",
-          "caption": "Crest of the football team Stafford Rangers",
+          "caption": "Stafford Rangers crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 116,
+          "height": 138
         },
         "foundingDate": "1876",
         "url": "https://staffordrangersfc.co.uk",
@@ -3378,15 +3610,17 @@
         "name": "Stalybridge Celtic",
         "slogan": "The Celts",
         "sameAs": [
-          "https://twitter.com/StalyCelticFC",
-          "https://facebook.com/stalycelticfc"
+          "https://twitter.com/StalyCelticFC/",
+          "https://www.facebook.com/stalycelticfc"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7749.png",
-          "caption": "Crest of the football team Stalybridge Celtic",
+          "caption": "Stalybridge Celtic crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 118,
+          "height": 138
         },
         "foundingDate": "1909",
         "url": "https://stalybridgeceltic.co.uk",
@@ -3408,15 +3642,17 @@
         "name": "Warrington Rylands 1906",
         "slogan": "The Blues",
         "sameAs": [
-          "https://twitter.com/RylandsFC",
-          "https://facebook.com/WarringtonRylandsFC"
+          "https://twitter.com/RylandsFC/",
+          "https://www.facebook.com/WarringtonRylandsFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8918.png",
-          "caption": "Crest of the football team Warrington Rylands 1906",
+          "caption": "Warrington Rylands 1906 crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
         },
         "foundingDate": "1906",
         "url": "https://rylandsfc.co.uk",
@@ -3438,15 +3674,17 @@
         "name": "Warrington Town",
         "slogan": "The Wire",
         "sameAs": [
-          "https://twitter.com/theyellows",
-          "https://facebook.com/WarringtonTownFC"
+          "https://twitter.com/theyellows/",
+          "https://www.facebook.com/WarringtonTownFC"
         ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7756.png",
-          "caption": "Crest of the football team Warrington Town",
+          "caption": "Warrington Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 145,
+          "height": 180
         },
         "foundingDate": "1949",
         "url": "https://warringtontownfc.co.uk",
@@ -3468,13 +3706,15 @@
         "@type": "SportsTeam",
         "name": "Whitby Town",
         "slogan": "The Seasiders",
-        "sameAs": ["https://twitter.com/WhitbyTownFC"],
+        "sameAs": ["https://twitter.com/WhitbyTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7757.png",
-          "caption": "Crest of the football team Whitby Town",
+          "caption": "Whitby Town crest",
           "representativeOfPage": true,
-          "encodingFormat": "image/png"
+          "encodingFormat": "image/png",
+          "width": 120,
+          "height": 145
         },
         "foundingDate": "1880",
         "url": "https://whitbytownfc.com",
