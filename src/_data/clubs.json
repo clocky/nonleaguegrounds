@@ -5595,12 +5595,12 @@
     ],
     "foundingDate": "1874",
     "sport": "Association Football",
-    "url": "https://bsfc.co.uk",
+    "url": "https://www.bsfc.co.uk",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
       "sport": "Association Football",
-      "url": "https://bsfc.co.uk",
+      "url": "https://www.bsfc.co.uk",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
@@ -8129,12 +8129,12 @@
     ],
     "foundingDate": "1884",
     "sport": "Association Football",
-    "url": "https://nantwichtownfc.co.uk",
+    "url": "https://www.nantwichtownfc.co.uk",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
       "sport": "Association Football",
-      "url": "https://nantwichtownfc.co.uk",
+      "url": "https://www.nantwichtownfc.co.uk",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
