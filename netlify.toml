@@ -2,6 +2,7 @@
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
+    Cache-Control = "max-age=300, immutable"
 
 [[headers]]
   for = "/*.html"
@@ -10,6 +11,11 @@
 
 [[headers]]
   for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
   [headers.values]
     Cache-Control = "max-age=31536000, immutable"
 
