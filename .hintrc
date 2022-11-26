@@ -1,7 +1,9 @@
 {
     "extends": ["web-recommended"],
     "hints": {
-        "axe/color": ["default", {"color-contrast-enhanced": "off"}]
+        "axe/color": ["default", {"color-contrast-enhanced": "off"}],
+        "http-compression": "off",
+        "compat-api/css": ["error", {"ignore": ["text-size-adjust", "-webkit-tap-highlight-color"]}],
     },
     "ignoredUrls": [{
         "domain": ".*\\.googleapis\\.com/.*",
