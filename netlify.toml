@@ -3,6 +3,10 @@ for = "/*"
   [headers.values]
   X-Content-Type-Options: nosniff
 
+for = "/*.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"
+
 [[edge_functions]]
   path = "/*"
   function = "strip-non-html-headers"
