@@ -71,13 +71,12 @@ eleventyComputed:
         {% for url in club.sameAs %}
           {% if url.includes("twitter") %}
             {% set user = url.split("/")[3] %}
-            <a class="twitter-timeline" href="https://twitter.com/{{ user }}?ref_src=twsrc%5Etfw">Tweets by @{{ user }}</a>
+            <a class="twitter-timeline" data-height="960" data-dnt="true" href="https://twitter.com/{{ user }}?ref_src=twsrc%5Etfw">Tweets by @{{ user }}</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           {% endif %}
         {% endfor %}
       </section>
       <aside>
-        <h4>Information</h4>
         <figure>
           <img src="{{ club.logo.contentUrl }}" width="{{ club.logo.width }}" height="{{ club.logo.height }}" alt="{{ club.logo.caption }}" itemprop="logo" style="text-align: center; margin-right: 1em; margin-bottom: 1rem;">
         </figure>
