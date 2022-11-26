@@ -1,0 +1,32 @@
+{% from "macros.njk" import staticmap as google %}
+
+{% macro aerial(ground, key) %}
+    {%- set address -%}
+    {{ground.latitude}},{{ground.longitude}}
+    {%- endset -%}
+    {%- set maptype = "satellite" -%}
+    {%- set zoom = 17 -%}
+    {%- set width = 640-%}
+    {%- set height = 240 -%}
+    {%- set format = "jpg" -%}
+
+header {
+    background-image: url("{{google(address, maptype, zoom, width, height, format, 2, key)}}");
+}
+
+@supports(background-image: image-set()) {
+    header {   
+        background-image: image-set(
+            url("{{google(address, maptype, zoom, width, height, format, 1, key)}}") 1x,
+            url("{{google(address, maptype, zoom, width, height, format, 2, key)}}") 2x);
+    }
+}
+
+@supports(background-image: -webkit-image-set()) {
+    header {   
+        background-image: -webkit-image-set(
+            url("{{google(address, maptype, zoom, width, height, format, 1, key)}}") 1x,
+            url("{{google(address, maptype, zoom, width, height, format, 2, key)}}") 2x)
+    }
+}
+{% endmacro %}
