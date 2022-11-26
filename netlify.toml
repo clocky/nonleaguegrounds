@@ -1,3 +1,8 @@
+[[headers]]
+for = "/*"
+  [headers.values]
+  X-Content-Type-Options: nosniff
+
 [[edge_functions]]
   path = "/*"
   function = "strip-non-html-headers"
