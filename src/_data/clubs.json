@@ -5141,12 +5141,12 @@
     "foundingDate": "1963",
     "sport": "Association Football",
     "keywords": "semi-professional",
-    "url": "https://wellingunited.com",
+    "url": "https://www.wellingunited.com",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "National League South",
       "sport": "Association Football",
-      "url": "https://wellingunited.com",
+      "url": "https://www.wellingunited.com",
       "sponsor": {
         "@type": "Organization",
         "name": "Vanarama"
@@ -5516,12 +5516,12 @@
     ],
     "foundingDate": "1880",
     "sport": "Association Football",
-    "url": "https://billericaytownfc.co.uk",
+    "url": "https://www.billericaytownfc.co.uk",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
       "sport": "Association Football",
-      "url": "https://billericaytownfc.co.uk",
+      "url": "https://www.billericaytownfc.co.uk",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
@@ -6429,12 +6429,12 @@
     ],
     "foundingDate": "1893",
     "sport": "Association Football",
-    "url": "https://hastingsunited.com",
+    "url": "https://www.hastingsunited.com",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
       "sport": "Association Football",
-      "url": "https://hastingsunited.com",
+      "url": "https://www.hastingsunited.com",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
@@ -6584,12 +6584,12 @@
     ],
     "foundingDate": "1923",
     "sport": "Association Football",
-    "url": "https://hornchurchfc.com",
+    "url": "https://www.hornchurchfc.com",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
       "sport": "Association Football",
-      "url": "https://hornchurchfc.com",
+      "url": "https://www.hornchurchfc.com",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
@@ -6658,12 +6658,12 @@
     ],
     "foundingDate": "1871",
     "sport": "Association Football",
-    "url": "https://horshamfc.co.uk",
+    "url": "https://www.horshamfc.co.uk",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
       "sport": "Association Football",
-      "url": "https://horshamfc.co.uk",
+      "url": "https://www.horshamfc.co.uk",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
@@ -6952,12 +6952,12 @@
     "sameAs": ["https://twitter.com/pbtfc/"],
     "foundingDate": "1960",
     "sport": "Association Football",
-    "url": "https://pitchero.com/clubs/pottersbartownfc/",
+    "url": "https://www.pitchero.com/clubs/pottersbartownfc",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
       "sport": "Association Football",
-      "url": "https://pitchero.com/clubs/pottersbartownfc/",
+      "url": "https://www.pitchero.com/clubs/pottersbartownfc",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
@@ -7465,12 +7465,12 @@
     "sameAs": ["https://twitter.com/GainsTrinityFC/"],
     "foundingDate": "1873",
     "sport": "Association Football",
-    "url": "https://gainsboroughtrinity.com",
+    "url": "https://www.gainsboroughtrinity.com",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
       "sport": "Association Football",
-      "url": "https://gainsboroughtrinity.com",
+      "url": "https://www.gainsboroughtrinity.com",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
@@ -8056,12 +8056,12 @@
     "sameAs": ["https://twitter.com/MorpethTownAFC/"],
     "foundingDate": "1909",
     "sport": "Association Football",
-    "url": "https://morpethtownfc.com",
+    "url": "https://www.morpethtownfc.com",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
       "sport": "Association Football",
-      "url": "https://morpethtownfc.com",
+      "url": "https://www.morpethtownfc.com",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
@@ -8279,12 +8279,12 @@
     "sameAs": ["https://twitter.com/SouthShieldsFC/"],
     "foundingDate": "1888",
     "sport": "Association Football",
-    "url": "https://southshieldsfc.co.uk",
+    "url": "https://www.southshieldsfc.co.uk",
     "memberOf": {
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
       "sport": "Association Football",
-      "url": "https://southshieldsfc.co.uk",
+      "url": "https://www.southshieldsfc.co.uk",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
