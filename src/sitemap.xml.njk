@@ -23,7 +23,7 @@ permalink: /sitemap.xml
     {%- endfor %}
     {%- for club in clubs | sort(attribute="memberOf.name" | sort(attribute = "name"))  -%}
         <url>
-            <loc>{{ meta.base }}/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}</loc>
+            <loc>{{ meta.base }}/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}</loc>
             <lastmod>{{ page.date | date("YYYY-MM-DD")}}</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
@@ -31,7 +31,7 @@ permalink: /sitemap.xml
     {%- endfor %}
     {% for ground in grounds | sort(attribute = "areaServed.name") | sort(attribute = "name") -%}
         <url>
-            <loc>{{ meta.base }}/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}</loc>
+            <loc>{{ meta.base }}/regions/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}</loc>
             <lastmod>{{ page.date | date("YYYY-MM-DD")}}</lastmod>
             <changefreq>yearly</changefreq>
             <priority>0.7</priority>
@@ -39,7 +39,15 @@ permalink: /sitemap.xml
     {%- endfor %}
     {%- for league in leagues | sort(attribute = "additionalProperty.@value") -%}
         <url>
-            <loc>{{ meta.base }}/{{ league.name | slugify }}</loc>
+            <loc>{{ meta.base }}/leagues/{{ league.name | slugify }}</loc>
+            <lastmod>{{ page.date | date("YYYY-MM-DD")}}</lastmod>
+            <changefreq>yearly</changefreq>
+            <priority>0.3</priority>
+        </url>
+    {%- endfor %}
+    {%- for region in regions | sort(attribute = "name") -%}
+        <url>
+            <loc>{{ meta.base }}/regions/{{ region.name | slugify }}</loc>
             <lastmod>{{ page.date | date("YYYY-MM-DD")}}</lastmod>
             <changefreq>yearly</changefreq>
             <priority>0.3</priority>
