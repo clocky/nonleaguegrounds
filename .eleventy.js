@@ -23,7 +23,16 @@ module.exports = function (eleventyConfig) {
     broken: "warn",
     redirect: "warn",
     cacheDuration: "1w",
-    excludeUrls: ["https://maps.apple.com/*", "https://www.facebook.com/*", "https://www.youtube.com/channel/*"],
+    /* 
+       All of these 'fail' due to 429 rate limit or 302 moved errors
+       but still have valid content.
+    */
+    excludeUrls: [
+      "https://maps.apple.com/*",
+      "https://www.facebook.com/*",
+      "https://www.youtube.com/channel/*",
+      "https://www.instagram.com/*",
+    ],
   });
 
   /** Add loader for YAML files */
