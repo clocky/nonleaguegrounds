@@ -1,116 +1,162 @@
 ---
-layout: base.njk
 pagination:
     data: clubs
     size: 1
     alias: club
-permalink: "/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}/index.html"
+permalink: "/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}/index.html"
 eleventyComputed:
     title: "{{ club.name }} | {{ meta.title }}"
     description: "Information about {{ club.name }}, a {{club.keywords}} football club."
 ---
+{% extends "base.njk" %}
+
 {% from "macros.njk" import emoji %}
+{% from "aerial.macro.njk" import aerial %}
+{% from "breadcrumb.macro.njk" import breadcrumb %}
 
-<script type="application/ld+json">
-  {{ club | dump | safe }}
-</script>
+{% block script %}
+  <script type="application/ld+json">
+    {{ club | dump | safe }}
+  </script>
+{% endblock %}
 
-<header class="container-fluid hero" id="{{ club.location.name | slugify }}" data-theme="dark">
-  <div class="container" >
-    <h1 id="{{ club.name | slugify }}">{{ club.name | replace(" ", "\n") | nl2br | safe}}</h1>
-  </div>
-</header>
+{% block css %}
+  <style>
+    {{aerial(club.location, env.google_maps_api_key)}}
+  </style>
+{% endblock %}
 
-<main class="container">
-  <div class="grid">
-    <section itemscope itemtype="https://schema.org/SportsTeam">
-      <p>
-        <strong itemprop="alternateName">
-          {{- club.alternateName -}}
-        </strong>
+{% block header %}
+  <header class="container-fluid hero" id="{{ club.location.name | slugify }}" data-theme="dark">
+    <div class="container">
+      <hgroup>
+        <h1 id="{{ club.name | slugify }}">{{ club.name | replace(" ", "\n") | nl2br | safe }}</h1>
+        <h2>{{ club.memberOf.name }} • {{ club.areaServed.name }}</h2>
+      </hgroup>
+    </div>
+  </header>
+{% endblock %}
+
+{% block breadcrumb %}
+  {{- breadcrumb("Leagues", club.memberOf.name, club.name) }}
+{% endblock %}
+
+{% block main %}
+  <main class="container">
+    <div class="grid" itemscope itemtype="https://schema.org/SportsTeam">
+      <section>
+        <h3>Overview</h3>
+        <p>
+          <strong itemprop="alternateName">
+            {{- club.alternateName -}}
+          </strong>
           is an <span itemprop="sport">{{ club.sport | lower }}</span> club, based in {{ club.location.address.addressLocality }}
-        {%- if club.location.address.addressRegion -%}
+          {%- if club.location.address.addressRegion -%}
             , {{ club.location.address.addressRegion }}
-        {%- endif -%}.
+          {%- endif -%}.
         </p>
-      <p>
+        <p>
           Founded {{ club.foundingDate | ago }} years ago in <span itemprop="foundingDate">{{ club.foundingDate }}</span>, the team currently compete in the
-          <a href="/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
-          {{ club.memberOf.name }}</a>, 
+          <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
+            {{ club.memberOf.name }}</a>, 
             {%- if club.memberOf.additionalProperty %}
             the {{ club.memberOf.additionalProperty.@value | ordinal }} tier of English football
             {%- endif %}.
         </p>
-      <p itemscope itemtype="https://schema.org/StadiumOrArena">
+        <p itemscope itemtype="https://schema.org/StadiumOrArena">
           They play their home matches at 
-          <a href="/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}" itemprop="name">{{ club.location.name }}</a>,
+          <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}" itemprop="name">{{ club.location.name }}</a>,
           and are nicknamed <strong itemprop="slogan">"{{ club.slogan }}"</strong>.
         </p>
-    </section>
-    <aside>
-      <table role="grid">
-        <tbody>
-          <tr>
-            <th scope="row">Full name</th>
-            <td>{{ club.alternateName }}</td>
-          </tr>
-          <tr>
-            <th scope="row">Nickname</th>
-            <td>
-              {{ club.slogan }}
-              <span class="emoji">{{emoji(club.slogan)}}</span>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">Founded</th>
-            <td>
-              <time datetime="YYYY">{{ club.foundingDate }}</time>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">Ground</th>
-            <td>
-              <a href="/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}/">
-                {{ club.location.name }}
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">Capacity</th>
-            <td>{{ club.location.maximumAttendeeCapacity | commaNumber }}</td>
-          </tr>
-          <tr>
-            <th scope="row">League</th>
-            <td>
-              <a href="/{{ club.memberOf.name | slugify }}">
-                {{ club.memberOf.name }}
-              </a>
-            </td>
-          </tr>
-          {% if club.url %}
+        {% for url in club.sameAs %}
+          {% if url.includes("twitter") %}
+            {% set user = url.split("/")[3] %}
+            <a class="twitter-timeline" href="https://twitter.com/{{ user }}?ref_src=twsrc%5Etfw">Tweets by @{{ user }}</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          {% endif %}
+        {% endfor %}
+      </section>
+      <aside>
+        <h4>Information</h4>
+        <figure>
+          <img src="{{ club.logo.contentUrl }}" width="{{ club.logo.width }}" height="{{ club.logo.height }}" alt="{{ club.logo.caption }}" itemprop="logo" style="text-align: center; margin-right: 1em; margin-bottom: 1rem;">
+        </figure>
+        <table role="grid">
+          <tbody>
             <tr>
-              <th scope="row">Web</th>
+              <th scope="row">Full name</th>
+              <td>{{ club.alternateName }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Nickname</th>
               <td>
-                <a href="{{ club.url }}/" target="_blank" rel="noopener">
-                  {{ club.url.slice(8) }} ↗ </a>
+                {{ club.slogan }}
+                <span class="emoji">{{emoji(club.slogan)}}</span>
               </td>
             </tr>
-          {% endif %}
-          {% if club.twitter %}
             <tr>
-              <th scope="row">Twitter</th>
+              <th scope="row">Founded</th>
               <td>
-                <a href="https://twitter.com/@{{ club.twitter }}" target="_blank">@{{ club.twitter | lower }} ↗ </a>
+                <time datetime="YYYY">{{ club.foundingDate }}</time>
               </td>
             </tr>
-          {% endif %}
-        </tbody>
-      </table>
-    </aside>
-  </div>
+            <tr>
+              <th scope="row">Ground</th>
+              <td>
+                <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}/">
+                  {{ club.location.name }}
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Capacity</th>
+              <td>{{ club.location.maximumAttendeeCapacity | commaNumber }}</td>
+            </tr>
+            <tr>
+              <th scope="row">League</th>
+              <td>
+                <a href="/leagues/{{ club.memberOf.name | slugify }}">
+                  {{ club.memberOf.name }}
+                </a>
+              </td>
+            </tr>
+            {% if club.url %}
+              <tr>
+                <th scope="row">Web</th>
+                <td>
+                  <a href="{{ club.url }}/" 
+                    target="_blank" 
+                    rel="noopener" 
+                    hreflang="en-GB"
+                  >
+                    {{ club.url.slice(8) }} ↗ 
+                  </a>
+                </td>
+              </tr>
+            {% endif %}
+            {% for url in club.sameAs %}
+              {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") else url.split("/")[2].split(".")[1] -%}
+              {%- set user = url.split("/")[3] -%}
+              <tr>
+                <th scope="row">{{ network | capitalize }}</th>
+                <td>
+                  <a 
+                    href="{{ url }}"
+                    target="_blank"
+                    rel="noopener canonical"
+                    hreflang="en-US"
+                  >@{{ user }} ↗ </a>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </aside>
+    </div>
+  </main>
+{% endblock %}
 
-  <footer class="container">
-    <small>Background image supplied by <a href="https://developers.google.com/maps/documentation/maps-static/overview" target="_blank">Google Maps</a>
-    </small>
-  </footer>
-</main>
+<footer class="container">
+  <small>Background image supplied by <a href="https://developers.google.com/maps/documentation/maps-static/overview" target="_blank">Google Maps</a>
+  </small>
+</footer>

@@ -1,44 +1,60 @@
 ---
-layout: base.njk
 date: git Last Modified
 preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
 ---
-<header class="container-fluid hero" id="league" data-theme="dark">
-    <div class="container">
-        <h1>{{ meta.title | replace(" ", "\n") | nl2br | safe}}</h1>
-        <div class="grid">
-            <p>
-                <strong>{{ meta.description }}</strong>
-            </p>
-            <p></p>
-        </div>
-    </div>
-</header>
+{% extends "base.njk" %}
+{% from "unsplash.macro.njk" import unsplash %}
 
-<main class="container">
-    <div class="grid">
-        <div id="leagues-panel">
-            <h4>Leagues</h4>
-            <p>
-              From the <strong>{{ leagues[0].name }}</strong> to the 
-              <strong>{{ leagues[leagues.length -1].name }}</strong>, 
-              a directory of {{ leagues.length }} English football conference leagues.
+{%- block preload %}
+  <link rel="preload" as="image" href="/img/{{ meta.hero['clubs'].src }}.jpg"/>
+{%- endblock %}
+
+{%- block css %}
+  <style>
+    header {
+      background-image: url("/img/{{ meta.hero['clubs'].src }}.jpg");
+    };
+  </style>
+{%- endblock %}
+
+{% block header %}
+  <header class="container-fluid hero" id="clubs" data-theme="dark">
+    <div class="container">
+      <hgroup>
+        <h1>{{ meta.title | replace(" ", "\n") | nl2br | safe}}</h1>
+        <h2>{{ meta.description }}</h2>
+      </hgroup>
+    </div>
+  </header>
+{% endblock %}
+
+{% block main %}
+  <main class="container">
+    <section class="grid">
+      <div id="leagues-panel">
+        <h4>Leagues</h4>
+        <p>
+            From the <strong>{{ leagues[0].name }}</strong> to the 
+            <strong>{{ leagues[leagues.length -1].name }}</strong>, 
+            a directory of {{ leagues.length }} English football conference leagues.
           </p>
-            <a href="/leagues">View all leagues →</a>
-        </div>
-        <div id="grounds-panel">
-            <h4>Grounds</h4>
-            <p> Leading with the {{ grounds[0].maximumAttendeeCapacity | commaNumber }}-capacity home of <strong>{{ grounds[0].subOrganization[0].name }}</strong>, 
+        <a href="/leagues" role="button">View all leagues →</a>
+      </div>
+      <div id="grounds-panel">
+        <h4>Grounds</h4>
+        <p> Leading with the {{ grounds[0].maximumAttendeeCapacity | commaNumber }}-capacity home of <strong>{{ grounds[0].subOrganization[0].name }}</strong>, 
               a list of {{ grounds.length }} English and Welsh non-league grounds.</p>
-            <a href="/grounds">View all grounds →</a>
-        </div>
-        <div id="regions-panel">
-            <h4>Regions</h4>
-            <p>
+        <a href="/grounds" role="button">View all grounds →</a>
+      </div>
+      <div id="regions-panel">
+        <h4>Regions</h4>
+        <p>
              From the <strong>North East</strong> to the <strong>South West</strong>, 
               a directory of clubs in the {{ regions.length }} regions of England and Wales
             </p>
-            <a href="/regions">View all regions →</a>
-        </div>
-    </div>
-</main>
+        <a href="/regions" role="button">View all regions →</a>
+      </div>
+    </section>
+  </main>
+  {{ unsplash(meta.hero["clubs"]) }}
+{% endblock %}
