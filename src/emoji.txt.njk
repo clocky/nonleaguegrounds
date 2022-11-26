@@ -3,7 +3,7 @@ permalink: /emoji.txt
 ---
 {%- from "macros.njk" import emoji -%}
 {%- for club in clubs -%}
-    {% if club.nickname %}
-        {{- emoji(club.nickname) -}}
+    {% if club.slogan %}
+        {{- emoji(club.slogan)}}
     {% endif %}
 {%- endfor -%}
