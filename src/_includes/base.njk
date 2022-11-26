@@ -1,62 +1,25 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/maps.css">
-        <meta name="description" content="{% if description %}{{ description }}{% else %}{{ meta.description }}{% endif %}">
-        <title>
-            {% if title %}{{ title }}{%else%}{{ meta.title }}{%endif%}
-            </title>
-            <link rel="icon" href="/favicon.ico" sizes="any">
-            <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-            <link rel="manifest" href="/site.webmanifest">
-        </head>
-        <body>
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li>
-                            <strong>
-                                <a href="/">non<wbr>league<wbr>grounds<wbr>.com</a>
-                            </strong>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="/ground/">
-                                <span class="emoji">🏟️</span> Grounds</a>
-                        </li>
-                        <li>
-                            <a href="/club/">
-                                <span class="emoji">⚽</span> Clubs</a>
-                        </li>
-                        <li>
-                            <a href="/league/">
-                                <span class="emoji">🏆</span> Leagues</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            {{ content | safe }}
-            <footer class="container-fluid" data-theme="dark">
-                <div class="container">
-                    <div class="grid">
-                        <p>
-                            {{ meta.description }}
-                        </p>
-                        <ul>
-                            {% for league in leagues %}
-                                <li>
-                                    <small>
-                                        <a href="/league/{{ league.name | slugify }}/">{{ league.name }}</a>
-                                    </small>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-        </body>
-    </html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {%- block preload %}{%- endblock %}
+    {%- block css -%}{%- endblock %}
+    <link rel="stylesheet" href="/css/style.css">
+    {%- block script %}{%- endblock %}
+    <meta name="description" content="{% if description %}{{ description }}{% else %}{{ meta.description }}{% endif %}">
+    <title>
+      {% if title %}{{ title }}{%else%}{{ meta.title }}{%endif%}
+      </title>
+      <link rel="icon" href="/favicon.ico" sizes="any">
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+      <link rel="manifest" href="/site.webmanifest">
+    </head>
+    <body>
+      {% include "nav.njk" %}
+      {% block header %}{% endblock %}
+      {% block breadcrumb %}{% endblock %}
+      {% block main %}{% endblock %}
+      {% include "footer.njk" %}
+    </body>
+  </html>

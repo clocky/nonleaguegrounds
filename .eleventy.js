@@ -6,8 +6,35 @@ const ordinal = require("ordinal");
 const commaNumber = require("comma-number");
 const EleventyFetch = require("@11ty/eleventy-fetch");
 const distFrom = require("distance-from");
+const purgeCssPlugin = require("eleventy-plugin-purgecss");
+const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 
 module.exports = function (eleventyConfig) {
+  if (process.env.ELEVENTY_ENV === "prod") {
+    eleventyConfig.addPlugin(purgeCssPlugin, {
+      config: "./purgecss.config.js",
+      quiet: false,
+    });
+  }
+
+  /** Check for broken external links */
+  /** Apple URL's always seem to 302, so we ignore them */
+  eleventyConfig.addPlugin(brokenLinksPlugin, {
+    broken: "warn",
+    redirect: "warn",
+    cacheDuration: "1w",
+    /* 
+       All of these 'fail' due to 429 rate limit or 302 moved errors
+       but still have valid content.
+    */
+    excludeUrls: [
+      "https://maps.apple.com/*",
+      "https://www.facebook.com/*",
+      "https://www.youtube.com/channel/*",
+      "https://www.instagram.com/*",
+    ],
+  });
+
   /** Add loader for YAML files */
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
@@ -32,89 +59,34 @@ module.exports = function (eleventyConfig) {
     return distance.toFixed(1);
   });
 
-  eleventyConfig.addAsyncShortcode("county", async function (postcode) {
-    const response = await postcodesIO(postcode);
-    let county = "";
-    if (response && response.status === 200) {
-      if (response.result.admin_county != null) {
-        county = response.result.admin_county;
+  /** Add a filter to format inline dates for <time> tags */
+  let yearsAgo = (year) => dayjs().diff(dayjs(year, "YYYY"), "year");
+  eleventyConfig.addFilter("ago", yearsAgo);
+
+  if (process.env.ELEVENTY_ENV === "development") {
+    eleventyConfig.addTransform("prettier", function (content, outputPath) {
+      const extname = path.extname(outputPath);
+      switch (extname) {
+        case ".html":
+          return prettier.format(content, { printWidth: 512, parser: "html" });
+
+        case ".css":
+          return prettier.format(content, { printWidth: 80, parser: "css" });
+
+        case ".yaml":
+          return prettier.format(content, { printWidth: 80, parser: "yaml" });
+
+        case ".json":
+          return prettier.format(content, { printWidth: 80, parser: "json" });
+
+        case ".xml":
+          return prettier.format(content, { printWidth: 256, parser: "html" });
+
+        default:
+          return content;
       }
-    }
-    return county;
-  });
-
-  eleventyConfig.addAsyncShortcode("country", async function (postcode) {
-    const response = await postcodesIO(postcode);
-    let country = "";
-    let ISO3166 = "";
-    if (response && response.status === 200) {
-      if (response.result.country != null) {
-        country = response.result.country;
-      }
-    }
-    /* https://www.gov.uk/government/publications/open-standards-for-government/country-codes */
-    switch (country) {
-      case "England":
-        ISO3166 = "GB-ENG";
-        break;
-      case "Wales":
-        ISO3166 = "GB-WLS";
-        break;
-      case "Scotland":
-        ISO3166 = "GB-SCT";
-        break;
-      case "Northern Ireland":
-        ISO3166 = "GB-NIR";
-        break;
-      default:
-        ISO3166 = "GB";
-    }
-    return ISO3166;
-  });
-
-  eleventyConfig.addAsyncShortcode("region", async function (postcode) {
-    postcode = postcode.replace(/\s/g, "");
-    const response = await postcodesIO(postcode);
-    let region = "";
-    if (response && response.status === 200) {
-      if (response.result.region != null) {
-        region = response.result.region;
-      } else {
-        /* Backup for Welsh teams */
-        region = response.result.country;
-      }
-    }
-    return region;
-  });
-
-  eleventyConfig.addAsyncShortcode("district", async function (postcode) {
-    const response = await postcodesIO(postcode);
-    let district = "";
-    if (response && response.status === 200) {
-      district = response.result.admin_district;
-    }
-    return district;
-  });
-
-  eleventyConfig.addTransform("prettier", function (content, outputPath) {
-    const extname = path.extname(outputPath);
-    switch (extname) {
-      case ".html":
-        return prettier.format(content, { printWidth: 512, parser: "html" });
-
-      case ".css":
-        return prettier.format(content, { printWidth: 80, parser: "css" });
-
-      case ".yaml":
-        return prettier.format(content, { printWidth: 80, parser: "yaml" });
-
-      case ".json":
-        return prettier.format(content, { printWidth: 80, parser: "json" });
-
-      default:
-        return content;
-    }
-  });
+    });
+  }
 
   return {
     dir: {
@@ -123,14 +95,3 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
-
-async function postcodesIO(postcode) {
-  if (!postcode) {
-    return;
-  }
-  const url = `https://api.postcodes.io/postcodes/${postcode}`;
-  return EleventyFetch(url, {
-    duration: "1w",
-    type: "json",
-  });
-}

@@ -1,0 +1,74 @@
+---
+permalink: /regions/index.html
+preload: "william-hook-0er8ezF3Xhg-unsplash.jpg"
+date: git Last Modified
+eleventyComputed:
+    title: "Football Conference Regions"
+    description: "A directory of {{ regions.length }} leagues in the English football conference, sorted by tier."
+---
+{% extends "base.njk" %}
+{% from "unsplash.macro.njk" import unsplash %}
+{% from "breadcrumb.macro.njk" import breadcrumb %}
+
+{%- block preload %}
+  <link rel="preload" as="image" href="/img/{{ meta.hero['regions'].src }}.jpg"/>
+{%- endblock %}
+
+{%- block css %}
+  <style>
+    header {
+      background-image: url("/img/{{ meta.hero['regions'].src }}.jpg");
+    };
+  </style>
+{%- endblock %}
+
+{% block header %}
+  <header class="container-fluid hero" id="regions" data-theme="dark">
+    <div class="container">
+      <hgroup>
+        <h1>Regions</h1>
+        <h2>A directory of {{ regions.length }} regions in the English football conference system</h2>
+      </hgroup>
+    </div>
+  </header>
+{% endblock %}
+
+{% block breadcrumb %}
+  {{- breadcrumb("Regions") }}
+{% endblock %}
+
+{% block main %}
+  <main class="container">
+    <table role="grid">
+      <thead>
+        <tr>
+          <th scope="col">Region</th>
+          <th scope="col">Clubs</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for region in regions %}
+          <tr>
+            <th scope="row" id="region--{{ region.name | slugify }}">
+              <a href="/regions/{{ region.name | slugify }}">
+                {{- region.name -}}
+              </a>
+            </th>
+            <td>
+              {% for ground in region
+                .geoContains
+                .slice(0, 4) | sort(attribute = "address.addressLocality") %}
+                {{- ground.address.addressLocality }}
+                {%- if not loop.last %}, {% endif %}
+              {% endfor %}
+              {% if region.geoContains.length > 4 %}
+                  and {{ region.geoContains.length - 4 }} more
+              {% endif %}
+            </td>
+          </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </main>
+  {{ unsplash(meta.hero["regions"])}}
+{% endblock %}

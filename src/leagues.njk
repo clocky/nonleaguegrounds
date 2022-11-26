@@ -1,56 +1,70 @@
 ---
-layout: base.njk
-permalink: /league/index.html
+permalink: /leagues/index.html
+preload: "ezequiel-garrido-s6XWkKDKynY-unsplash.jpg"
+date: git Last Modified
 eleventyComputed:
     title: "Football Conference Leagues"
     description: "A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier."
 ---
+{% extends "base.njk" %}
+{% from "unsplash.macro.njk" import unsplash %}
+{% from "breadcrumb.macro.njk" import breadcrumb %}
 
-<header class="container-fluid hero" id="trophy" data-theme="dark">
+{%- block preload %}
+  <link rel="preload" as="image" href="/img/{{ meta.hero['leagues'].src }}.jpg"/>
+{%- endblock %}
+
+{%- block css %}
+  <style>
+    header {
+      background-image: url("/img/{{ meta.hero['leagues'].src }}.jpg");
+    };
+  </style>
+{%- endblock %}
+
+{% block header %}
+  <header class="container-fluid hero" id="trophy" data-theme="dark">
     <div class="container">
+      <hgroup>
         <h1>Leagues</h1>
-        <div class="grid">
-            <p>
-                <strong>A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier</strong>
-            </p>
-            <p></p>
-        </div>
+        <h2>A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier</h2>
+      </hgroup>
     </div>
-</header>
+  </header>
+{% endblock %}
 
-<main class="container">
+{% block breadcrumb %}
+  {{- breadcrumb("Leagues") }}
+{% endblock %}
 
+{% block main %}
+  <main class="container">
     <table role="grid">
-        <thead>
-            <tr>
-                <th scope="col">Tier</th>
-                <th scope="col">Name</th>
-                <th scope="col">Clubs</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for league in leagues | sort(attribute = "tier")%}
-                <tr>
-                    <td>
-                        {{ league.tier | ordinal }}
-                    </td>
-                    <th>
-                        <a href="/league/{{ league.name | slugify }}">
-                            {{ league.sponsor }}
-                            {{ league.name}}
-                        </a>
-                    </th>
-                    <td>
-                        {{ league.clubs | length }}
-                    </td>
-                </tr>
-            {% endfor %}
-        </tbody>
+      <thead>
+        <tr>
+          <th scope="col">Tier</th>
+          <th scope="col">Name</th>
+          <th scope="col">Clubs</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for league in leagues | sort(attribute = "additionalProperty.@value")%}
+          <tr>
+            <td>
+              {{ league.additionalProperty.@value | ordinal }}
+            </td>
+            <th scope="row">
+              <a href="/leagues/{{ league.name | slugify }}">
+                {{ league.alternateName }}
+              </a>
+            </th>
+            <td>
+              {{ league.members | length }}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
     </table>
-</main>
-
-<footer class="container">
-    <small>
-    Photo by <a href="https://unsplash.com/@zegarr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ezequiel Garrido</a> on <a href="https://unsplash.com/s/photos/trophy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    </small>
-</footer>
+  </main>
+  {{ unsplash(meta.hero["leagues"]) }}
+{% endblock %}

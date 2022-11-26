@@ -1,9 +1,6 @@
----
-permalink: "/css/maps.css"
----
 {% from "macros.njk" import staticmap as google %}
 
-{% for ground in grounds %}
+{% macro aerial(ground, key) %}
     {%- set address -%}
     {{ground.latitude}},{{ground.longitude}}
     {%- endset -%}
@@ -12,15 +9,13 @@ permalink: "/css/maps.css"
     {%- set width = 640-%}
     {%- set height = 240 -%}
     {%- set format = "jpg" -%}
-    {%- set key = env.google_maps_api_key -%}
 
-/* {{ground.name}} */
-header#{{ ground.name | slugify}} {
+header {
     background-image: url("{{google(address, maptype, zoom, width, height, format, 2, key)}}");
 }
 
 @supports(background-image: image-set()) {
-    header#{{ ground.name | slugify}} {   
+    header {   
         background-image: image-set(
             url("{{google(address, maptype, zoom, width, height, format, 1, key)}}") 1x,
             url("{{google(address, maptype, zoom, width, height, format, 2, key)}}") 2x);
@@ -28,11 +23,10 @@ header#{{ ground.name | slugify}} {
 }
 
 @supports(background-image: -webkit-image-set()) {
-    header#{{ ground.name | slugify}} {   
+    header {   
         background-image: -webkit-image-set(
             url("{{google(address, maptype, zoom, width, height, format, 1, key)}}") 1x,
-            url("{{google(address, maptype, zoom, width, height, format, 2, key)}}") 2x)
+            url("{{google(address, maptype, zoom, width, height, format, 2, key)}}") 2x);
     }
 }
-
-{% endfor %}
+{% endmacro %}

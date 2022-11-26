@@ -3,33 +3,30 @@ pagination:
     data: clubs
     size: 1
     alias: club
-permalink: "downloads/{{ club.name | slugify }}.vcf"
+permalink: "/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}.vcf"
 ---
-{% from "macros.njk" import fc %}
-
-{%- set ground = "" -%}
-
-{%- for g in grounds -%}
-    {%- if g.name == club.ground -%}
-        {%- set ground = g -%}
-    {%- endif -%}
-{%- endfor -%}
-
 BEGIN:VCARD
 VERSION:3.0
-ORG: {{ fc(club.name) | replace("\n", "") | replace("        ", " ") | safe }}
-NICKNAME: {{ club.nickname }}
-BDAY: ----{{ club.founded }}
-item1.ADR;type=WORK;type=pref:;;{{ ground.name }};{{ ground.street }};{{ ground.locality | upper }};{% county ground.postcode %};{{ ground.postcode }};United Kingdom
+ORG: {{ club.alternateName | safe }};
+NICKNAME: {{ club.slogan }}
+BDAY: ----{{ club.foundingDate.@value | date("YYYY")}}
+TEL;TYPE=main;TYPE=voice:{{ club.telephone }}
+item1.ADR;TYPE=main;type=pref:;{{ club.location.name }};{{ club.location.address.streetName }};{{ club.location.address.addressLocality | upper }};{{ club.location.address.addressRegion }};{{ club.location.address.postalCode }};United Kingdom
 item1.X-ABADR:gb
-{% if club.twitter -%}X-SOCIALPROFILE;type=twitter:http://twitter.com/{{ club.twitter | lower }}
+{%- for url in club.sameAs %}
+{%- set network = url.split("/")[2].split(".")[0] -%}
+{%- set user = url.split("/")[3] -%}
+{%- if network in ["twitter", "facebook"] %}
+X-SOCIALPROFILE;type={{ network | lower }};x-user={{ user }}:{{ url }}
+{%- endif %}
+{%- endfor %}
+{% if club.logo -%}
+LOGO;VALUE=URI;TYPE=PNG:{{ club.logo.contentUrl }}
 {% endif -%}
-{% if club.id -%}
-LOGO;VALUE=URI;TYPE=PNG:https://media.api-sports.io/football/teams/{{club.id}}.png
-{% endif -%}
-{% if club.url -%}
-item2.URL;type=pref:https://{{club.url}}
+GEO;TYPE=work:geo:{{ club.location.latitude}},{{ club.location.longitude }}
+{% if club.url.@value -%}
+item2.URL;type=pref:{{club.url.@value}}
 item2.X-ABLabel:_$!<HomePage>!$_
 {% endif -%}
-SOURCE:{{ meta.base }}/downloads/{{ club.name | slugify }}.vcf
+SOURCE:{{ meta.base }}/{{ club.memberOf.name | slugify}}/{{ club.name | slugify }}.vcf
 END:VCARD

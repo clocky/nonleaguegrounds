@@ -1,0 +1,18 @@
+<footer class="container-fluid" data-theme="dark">
+  <div class="container">
+    <div class="grid">
+      <p>
+        <small>{{ meta.disclaimer }}</small>
+      </p>
+      <ul>
+        {%- for league in leagues %}
+          <li>
+            <small>
+              <a href="/leagues/{{ league.name | slugify }}">{{ league.name }}</a>
+            </small>
+          </li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</footer>

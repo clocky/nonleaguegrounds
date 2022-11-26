@@ -1,101 +1,105 @@
 ---
-layout: base.njk
 pagination:
     data: leagues
     size: 1
     alias: league
-permalink: "league/{{ league.name | slugify }}/index.html"
+permalink: "/leagues/{{ league.name | slugify }}/index.html"
 eleventyComputed:
-    title: "Clubs in the {{ league.sponsor | safe }} {{ league.name | safe }}"
-    description: The {{ league.sponsor }} {{ league.name }} is the {{ league.tier | ordinal }} tier of the English football pyramid, with a total of {{ league.clubs.length }} clubs"
+    title: "Clubs in the {{ league.alternateName | safe }}"
+    description: The {{ league.alternateName }} is the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs"
 ---
+{% extends "base.njk" %}
 {% from "macros.njk" import emoji %}
+{% from "breadcrumb.macro.njk" import breadcrumb %}
+{% from "unsplash.macro.njk" import unsplash %}
 
 {%- set markers -%}
-{%- for club in league.clubs -%}
-    {%- for c in clubs -%}
-        {%- if c.name == club.name -%}
-            {%- for g in grounds -%}
-                {%- if c.ground == g.name -%}
-                    &markers=size:mid|label:{{club.name.slice(0,1) | upper }}|{{ g.latitude }},{{ g.longitude }}
-                {%- endif -%}
-            {%- endfor -%}
-        {%- endif -%}
-    {%- endfor -%}
+{%- for club in league.members -%}
+   &markers=size:mid|label:{{club.name.slice(0,1) | upper }}|{{ club.location.latitude }},{{ club.location.longitude }}
 {%- endfor -%}
 {%- endset -%}
 {%- set key = env.google_maps_api_key -%}
 
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SportsOrganization",
-        "name": "{{ league.name }}",
-        "alternateName": "{{ league.sponsor }} {{ league.name }}",
-        "sponsor": {
-            "@type": "Organization",
-            "name": "{{ league.sponsor }}"
-        },
-        "url": "https://{{ league.url }}",
-        "identifier": {
-            "@type": "url",
-            "@value": "{{ meta.base }}/league/{{ league.name | slugify }}"
-        },    
-    }
-</script>
+{%- block preload %}
+  <link rel="preload" as="image" href="/img/{{ meta.hero['leagues'].src }}.jpg"/>
+  <link rel="preconnect" href="https://maps.googleapis.com" />
+{%- endblock %}
 
-<header class="container-fluid hero" id="league" data-theme="dark">
-    <div class="container">
-        <h1>{{ league.sponsor }} {{ league.name }}</h1>
-        <div class="grid">
-            <p><strong>The {{ league.name }} is at the {{ league.tier | ordinal }} tier of the
-                English football pyramid, with a total of
-                {{ league.clubs.length }} clubs</strong></p>
-            <p></p>
-        </div>
-    </div>
+{%- block css %}
+  <style>
+    header {
+      background-image: url("/img/{{ meta.hero['leagues'].src }}.jpg");
+    };
+  </style>
+{%- endblock %}
+
+{%- block script %}
+  <script type="application/ld+json">
+    {{ league | dump | safe }}
+  </script>
+{%- endblock %}
+
+{% block header %}
+<header class="container-fluid hero" data-theme="dark">
+  <div class="container">
+    <hgroup>
+    <h1>{{ league.alternateName }}</h1>
+        <h2>
+          The {{ league.name }} is at the {{ league.additionalProperty.@value | ordinal }} tier of the
+          English football pyramid, with a total of
+          {{ league.members.length }} clubs
+        </h2>
+    </hgroup>
+  </div>
 </header>
+{% endblock %}
 
+{% block breadcrumb %}
+  {{- breadcrumb("Leagues", league.name) }}
+{% endblock %}
+
+
+{% block main %}
 <main class="container">
-
-    <div class="grid">
-        <table role="grid">
-            <thead>
-                <tr>
-                    <th scope="col">Club</th>
-                    <th scope="col">Nickname</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for club in league.clubs %}
-                    <tr>
-                        <th>
-                            <a href="/club/{{ club.name | slugify }}">{{ club.name }}</a>
-                        </th>
-                        {% for c in clubs %}
-                            {% if c.name == club.name %}
-                                <td>
-                                    {% if c.nickname %}
-                                    <span class="emoji">{{ emoji(c.nickname) }}</span> {{ c.nickname }}
-                                    {% endif %}
-                                </td>
-                            {% endif %}
-                        {% endfor %}
-                    </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-        <figure class="container-fluid">
-            {% set caption = "Map of " + league.name + " clubs" %}
-            <figcaption>
-                <small>{{ caption }}</small>
-            </figcaption>
-            <img src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" alt="{{ caption }}">
-        </figure>
-    </div>
-    <footer>
+  <div class="grid">
+    <table role="grid">
+      <thead>
+        <tr>
+          <th scope="col">Club</th>
+          <th scope="col">Nickname</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for club in league.members %}
+          <tr>
+            <th scope="row">
+              <a href="/leagues/{{ league.name | slugify }}/{{ club.name | slugify }}">
+                {{- club.name -}}
+              </a>
+            </th>
+            <td>
+              <span class="emoji">
+                {{- emoji(club.slogan) -}}
+              </span>
+              {{ club.slogan -}}
+            </td>
+          </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+    <figure class="container-fluid">
+      {% set caption = "Map of " + league.name + " clubs" %}
+      <img 
+        src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" 
+        alt="{{ caption }}"
+      >
+      <figcaption>
         <small>
-        Photo by <a href="https://unsplash.com/@fkaregan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Regan-Asante</a> on <a href="https://unsplash.com/s/photos/non-league?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          {{- caption -}}
         </small>
-    </footer>
+      </figcaption>
+    </figure>
+  </div>
 </main>
+  {{ unsplash(meta.hero["leagues"]) }}
+{% endblock %}

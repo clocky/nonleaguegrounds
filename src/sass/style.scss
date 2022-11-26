@@ -1,7 +1,22 @@
-@use "../../node_modules/@picocss/pico/scss/pico";
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWYabdcefghiklmnopqrstuvwxyz()&amp;amp;'");
+@import url("https://fonts.googleapis.com/css?family=Noto+Emoji&display=swap&text=🏟️⚽🏆󠁧󠁢󠁷󠁬󠁳🐦📍🐝🪵⛏️🔨🤠🐦⛪🗡️󠁧󠁢󠁷󠁬󠁳🏃🦁󠁧󠁢󠁷󠁬󠁳✈️󠁧󠁢󠁷󠁬󠁳🏁🪨🏃󠁧󠁢󠁷󠁬󠁳🦐🧲🐦🪨🧤⛪🏖️🦌⚔️󠁧󠁢󠁷󠁬󠁳😇🪖🦌󠁧󠁢󠁷󠁬󠁳🦭🐦󠁧󠁢󠁷󠁬󠁳󠁧󠁢󠁷󠁬🪖🐯🐂󠁧󠁢󠁷󠁬󠁳🌺󠁧󠁢󠁷󠁬󠁳👶🐦󠁧󠁢󠁷󠁬󠁳✋󠁧󠁢󠁷󠁬󠁳✈️🐶🏖️󠁧󠁢󠁷󠁬󠁳⛵🧲🔴󠁧󠁢󠁷󠁬󠁳🐦🏖️󠁧󠁢󠁷󠁬󠁳🎯⚪󠁧󠁢󠁷󠁬󠁳🏠󠁧󠁢󠁷󠁬󠁳🦫🦅󠁧󠁢󠁷󠁬󠁳👑⚔️󠁧󠁢󠁷󠁬☘️󠁳⭕󠁧󠁢󠁷󠁬󠁳✊😇🦚😇🦅🌎󠁧󠁢󠁷󠁬󠁳✊🏴󠁧󠁢󠁷󠁬󠁳󠁿🙏🏻🍞🎻🇷🇰🪄👦🚪♟️🎓🍷🔫");
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWYabdcefghiklmnopqrstuvwxyz()'");
-@import url("https://fonts.googleapis.com/css?family=Noto+Emoji&display=swap&text=🏟️⚽🏆󠁧󠁢󠁷󠁬󠁳🐦󠁧󠁢󠁷󠁬󠁳🐝🪵🐦⛪🗡️󠁧󠁢󠁷󠁬󠁳🏃󠁧󠁢󠁷󠁬󠁳✈️󠁧󠁢󠁷󠁬󠁳🏁🐦🪨🐦󠁧󠁢󠁷󠁬󠁳🏃󠁧󠁢󠁷󠁬󠁳🦐🧲🐦🪨🔴󠁧󠁢󠁷󠁬󠁳🧤⛪🏖️🦌🔴󠁧󠁢󠁷󠁬󠁳⚔️󠁧󠁢󠁷󠁬󠁳😇🪖🦌󠁧󠁢󠁷󠁬󠁳🦭🐦󠁧󠁢󠁷󠁬󠁳󠁧󠁢󠁷󠁬🪖🐯🐂󠁧󠁢󠁷󠁬󠁳🌺󠁧󠁢󠁷󠁬󠁳👶🐦󠁧󠁢󠁷󠁬󠁳✋󠁧󠁢󠁷󠁬󠁳✈️🐶🏖️󠁧󠁢󠁷󠁬󠁳🧲🔴󠁧󠁢󠁷󠁬󠁳🐦🏖️󠁧󠁢󠁷󠁬󠁳🎯⚪󠁧󠁢󠁷󠁬󠁳🏠󠁧󠁢󠁷󠁬󠁳🦫🦅󠁧󠁢󠁷󠁬󠁳👑⚔️󠁧󠁢󠁷󠁬󠁳⭕󠁧󠁢󠁷󠁬󠁳✊😇🦚😇🦅🌎󠁧󠁢󠁷󠁬󠁳✊🏴󠁧󠁢󠁷󠁬󠁳󠁿🙏🏻🍞🎻🇷🇰🪄👦🚪♟️🎓🍷");
+@import "../../node_modules/@picocss/pico/scss/variables";
+
+@import "../../node_modules/@picocss/pico/scss/themes/default";
+
+@import "../../node_modules/@picocss/pico/scss/functions";
+
+@import "../../node_modules/@picocss/pico/scss/components/nav";
+@import "../../node_modules/@picocss/pico/scss/content/button";
+@import "../../node_modules/@picocss/pico/scss/content/embedded";
+@import "../../node_modules/@picocss/pico/scss/content/table";
+@import "../../node_modules/@picocss/pico/scss/content/typography";
+@import "../../node_modules/@picocss/pico/scss/layout/container";
+@import "../../node_modules/@picocss/pico/scss/layout/document";
+@import "../../node_modules/@picocss/pico/scss/layout/sectioning";
+@import "../../node_modules/@picocss/pico/scss/layout/grid";
+@import "../../node_modules/@picocss/pico/scss/layout/scroller";
 
 .emoji {
   font-family: "Noto Emoji", sans-serif;
@@ -14,22 +29,42 @@
   --primary-hover: #0b6a0b;
   --primary-focus: #8cbd18
   --primary-inverse: #ffffff;
-  h1,h2, nav strong{
-    font-family: "Rubik Mono One", sans-serif;
-    font-weight: 400;
-    line-height: 1.75rem;
-  }
-  h1 {
-    display: inline-block;
-    padding: 0.5rem 0.75rem;
-    background-color: #000000;
 
-  }
-  nav li strong a {
-    color: #212121;
-    &:hover {
-      color: var(--primary);
+  hgroup {
+    h1 {
+      font-family: "Rubik Mono One";
+      background-color: #000;
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      max-width: 66vw;
+      line-height: 2.5rem;
+   }
+    h2 {
+      margin-top: 1rem;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.75);
+      max-width: 50vw;
+
     }
+  }
+}
+
+div.container-fluid {
+  &:has(nav[aria-label="breadcrumb"]) {
+      background-color: #f0f0f0;
+  }
+}
+
+figure {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  div.grid {
+    grid-column-gap: 3rem;
+    grid-template-columns: auto 40%;
   }
 }
 
@@ -41,8 +76,8 @@ th {
   font-weight: 500;
 }
 
-.hero {
-  background-color: rgba(0, 0, 0, 0.1);
+header {
+  background-color: rgba(0, 0, 0, 0.5);
   background-position: center;
   background-size: cover;
   background-blend-mode: darken;
@@ -50,30 +85,4 @@ th {
 
 :target {
   border: 2px solid #000000;
-}
-
-#club {
-  background-image: url("../img/nicholas-green-nPz8akkUmDI-unsplash.jpg");
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#ground {
-  background-image: url("../img/fancy-crave-qowyMze7jqg-unsplash.jpg");
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#league {
-  background-image: url("../img/samuel-regan-asante-YOtjUyEfClo-unsplash.jpg");
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#trophy {
-  background-image: url("../img/ezequiel-garrido-s6XWkKDKynY-unsplash.jpg");
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#home {
-  h2 {
-    flex-shrink: initial;
-  }
 }
