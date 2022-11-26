@@ -20,7 +20,7 @@ module.exports = function (eleventyConfig) {
   /** Check for broken external links */
   /** Apple URL's always seem to 302, so we ignore them */
   eleventyConfig.addPlugin(brokenLinksPlugin, {
-    broken: "error",
+    broken: "warn",
     redirect: "warn",
     cacheDuration: "1w",
     excludeUrls: ["https://maps.apple.com/*", "https://www.facebook.com/*", "https://www.youtube.com/channel/*"],
