@@ -1,9 +1,10 @@
 [[headers]]
-for = "/*"
+  for = "/*"
   [headers.values]
-  X-Content-Type-Options = "nosniff"
+    X-Content-Type-Options = "nosniff"
 
-for = "/*.webmanifest"
+[[headers]]
+  for = "/*.webmanifest"
   [headers.values]
     Content-Type = "application/manifest+json"
 
