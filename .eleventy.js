@@ -8,6 +8,8 @@ const EleventyFetch = require("@11ty/eleventy-fetch");
 const distFrom = require("distance-from");
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
 const brokenLinksPlugin = require("eleventy-plugin-broken-links");
+const pluginRev = require("eleventy-plugin-rev");
+const eleventySass = require("eleventy-sass");
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === "prod") {
@@ -16,6 +18,8 @@ module.exports = function (eleventyConfig) {
       quiet: false,
     });
   }
+  eleventyConfig.addPlugin(pluginRev);
+  eleventyConfig.addPlugin(eleventySass, { rev: true });
 
   /** Check for broken external links */
   /** Apple URL's always seem to 302, so we ignore them */
