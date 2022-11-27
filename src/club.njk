@@ -5,7 +5,7 @@ pagination:
     alias: club
 permalink: "/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}/index.html"
 eleventyComputed:
-    title: "{{ club.name }} | {{ meta.title }}"
+    title: "{{ club.name | safe }} | {{ meta.title }}"
     description: "Information about {{ club.name }}, a {{club.keywords}} football club."
 ---
 {% extends "base.njk" %}
