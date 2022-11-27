@@ -20,8 +20,9 @@ apple %}
 
 {% extends "base.njk" %}
 
-{%- block preload %}
+{%- block link %}
   <link rel="preload" as="image" href="{{ staticmap(ground.latitude + "," + ground.longitude, 'satellite', 17, 640, 240, 'jpg', 2, env.google_maps_api_key)}}"/>
+  <link rel="canonical" href="{{ meta.base }}/regions/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}">
 {%- endblock %}
 
 {% block css %}

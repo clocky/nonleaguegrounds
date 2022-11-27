@@ -10,8 +10,9 @@ eleventyComputed:
 {% from "unsplash.macro.njk" import unsplash %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 
-{%- block preload %}
+{%- block link %}
   <link rel="preload" as="image" href="/img/{{ meta.hero['regions'].src }}.jpg"/>
+  <link rel="canonical" href="{{ meta.base }}/regions">
 {%- endblock %}
 
 {%- block css %}

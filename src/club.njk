@@ -13,6 +13,12 @@ eleventyComputed:
 {% from "macros.njk" import emoji %}
 {% from "aerial.macro.njk" import aerial %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
+{% from "macros.njk" import staticmap %}
+
+{% block link %}
+  <link rel="preload" as="image" href="{{ staticmap(club.location.latitude + "," + club.location.longitude, 'satellite', 17, 640, 240, 'jpg', 2, env.google_maps_api_key)}}"/>
+  <link rel="canonical" href="{{ meta.base }}/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">
+{% endblock %}
 
 {% block script %}
   <script type="application/ld+json">

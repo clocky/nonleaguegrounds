@@ -20,9 +20,10 @@ eleventyComputed:
 {%- endset -%}
 {%- set key = env.google_maps_api_key -%}
 
-{%- block preload %}
-  <link rel="preload" as="image" href="/img/{{ meta.hero['leagues'].src }}.jpg"/>
+{%- block link %}
   <link rel="preconnect" href="https://maps.googleapis.com" />
+  <link rel="preload" as="image" href="/img/{{ meta.hero['leagues'].src }}.jpg"/>
+  <link rel="canonical" href="{{ meta.base }}/leagues/{{ league.name | slugify }}">
 {%- endblock %}
 
 {%- block css %}

@@ -5,7 +5,7 @@ preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
 {% extends "base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
 
-{%- block preload %}
+{%- block link %}
   <link rel="preload" as="image" href="/img/{{ meta.hero['clubs'].src }}.jpg"/>
 {%- endblock %}
 
