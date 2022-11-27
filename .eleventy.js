@@ -12,14 +12,24 @@ const pluginRev = require("eleventy-plugin-rev");
 const eleventySass = require("eleventy-sass");
 
 module.exports = function (eleventyConfig) {
-  if (process.env.ELEVENTY_ENV === "prod") {
+  if (process.env.ELEVENTY_ENV === "production") {
     eleventyConfig.addPlugin(purgeCssPlugin, {
       config: "./purgecss.config.js",
       quiet: false,
     });
   }
   eleventyConfig.addPlugin(pluginRev);
-  eleventyConfig.addPlugin(eleventySass, { rev: true });
+  eleventyConfig.addPlugin(eleventySass, {
+    compileOptions: {
+      permalink: function(contents, inputPath) {
+        return (data) => data.page.filePathStem.replace(/^\/sass\//, "/css/") + ".css";
+      }
+    },
+    sass: {
+      style: "compressed",
+    },
+    rev: true
+  });
 
   /** Check for broken external links */
   /** Apple URL's always seem to 302, so we ignore them */
