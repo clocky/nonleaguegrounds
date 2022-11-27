@@ -3,6 +3,7 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Cache-Control = "max-age=180, immutable"
+    Content-Security-Policy = "default-src 'self';"
 
 [[headers]]
   for = "/*.html"
