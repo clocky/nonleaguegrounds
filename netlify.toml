@@ -3,7 +3,7 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Cache-Control = "max-age=180, immutable"
-    Content-Security-Policy = "default-src 'self'; font-src https://fonts.googleapis.com; script-src https://plausible.io; style-src 'unsafe-inline';"
+    Content-Security-Policy = "default-src 'self'; connect-src https://plausible.io; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;"
 
 [[headers]]
   for = "/*.html"
