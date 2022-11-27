@@ -1,5 +1,6 @@
 [
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Meadow Lane",
     "maximumAttendeeCapacity": 19841,
@@ -13,10 +14,7 @@
       "postalCode": "NG2 3HJ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-midlands/meadow-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-midlands/meadow-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -69,6 +67,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Boundary Park",
     "maximumAttendeeCapacity": 13513,
@@ -81,10 +80,7 @@
       "postalCode": "OL1 2PA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/boundary-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/boundary-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -135,6 +131,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Roots Hall",
     "maximumAttendeeCapacity": 12392,
@@ -148,10 +145,7 @@
       "postalCode": "SS2 6NQ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/roots-hall"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/roots-hall",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -199,6 +193,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Gateshead International Stadium",
     "maximumAttendeeCapacity": 11750,
@@ -212,10 +207,7 @@
       "postalCode": "NE10 0EF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-east/gateshead-international-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-east/gateshead-international-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -263,6 +255,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Racecourse Ground",
     "maximumAttendeeCapacity": 10771,
@@ -276,10 +269,7 @@
       "postalCode": "LL11 2AH",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/wales/racecourse-ground"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/wales/racecourse-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -332,6 +322,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Technique Stadium",
     "maximumAttendeeCapacity": 10600,
@@ -345,10 +336,7 @@
       "postalCode": "S41 8NZ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-midlands/technique-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-midlands/technique-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -401,6 +389,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "The Shay",
     "maximumAttendeeCapacity": 10401,
@@ -414,10 +403,7 @@
       "postalCode": "HX1 2YT",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-shay"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-shay",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -473,6 +459,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Huish Park",
     "maximumAttendeeCapacity": 9565,
@@ -485,10 +472,7 @@
       "postalCode": "BA22 8YF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-west/huish-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-west/huish-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -536,6 +520,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Glanford Park",
     "maximumAttendeeCapacity": 9088,
@@ -548,10 +533,7 @@
       "postalCode": "DN15 8TD",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/glanford-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/glanford-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -599,6 +581,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "The Walks Stadium",
     "maximumAttendeeCapacity": 8200,
@@ -612,10 +595,7 @@
       "postalCode": "PE30 5PB",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/the-walks-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/the-walks-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -668,6 +648,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "York Community Stadium",
     "alternateName": "LNER Community Stadium",
@@ -685,10 +666,7 @@
       "postalCode": "YO32 9AF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/york-community-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/york-community-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -736,6 +714,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Moss Lane",
     "alternateName": "J. Davidson Stadium",
@@ -754,10 +733,7 @@
       "postalCode": "WA15 8AP",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/moss-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/moss-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -809,6 +785,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Recreation Ground",
     "alternateName": "The EBB Stadium at the Recreation Ground",
@@ -831,10 +808,7 @@
       "@type": "URL",
       "@value": "https://theshots.co.uk/club/directions/"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/recreation-ground"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/recreation-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -885,6 +859,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Priory Lane",
     "maximumAttendeeCapacity": 7000,
@@ -898,10 +873,7 @@
       "postalCode": "BN23 7QH",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/priory-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/priory-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -948,6 +920,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Cherrywood Road",
     "alternateName": "Easy As HGV Stadium",
@@ -966,10 +939,7 @@
       "postalCode": "GU14 8UD",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/cherrywood-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/cherrywood-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1020,6 +990,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Bob Lucas Stadium",
     "maximumAttendeeCapacity": 6600,
@@ -1033,10 +1004,7 @@
       "postalCode": "DT4 9XJ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-west/bob-lucas-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-west/bob-lucas-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1084,6 +1052,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Bower Fold",
     "maximumAttendeeCapacity": 6500,
@@ -1096,10 +1065,7 @@
       "postalCode": "SK15 2RT",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/bower-fold"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/bower-fold",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1150,6 +1116,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Spencer Stadium",
     "alternateName": "The Banbury Plant Hire Community Stadium",
@@ -1168,10 +1135,7 @@
       "postalCode": "OX16 5AB",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/spencer-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/spencer-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1222,6 +1186,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Deva Stadium",
     "maximumAttendeeCapacity": 6500,
@@ -1235,10 +1200,7 @@
       "postalCode": "CH1 4LT",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/deva-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/deva-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1291,6 +1253,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "The Hive Stadium",
     "maximumAttendeeCapacity": 6418,
@@ -1304,10 +1267,7 @@
       "postalCode": "HA8 6AG",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/the-hive-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/the-hive-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1363,6 +1323,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "New Bucks Head",
     "maximumAttendeeCapacity": 6400,
@@ -1376,10 +1337,7 @@
       "postalCode": "TF1 2NW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/west-midlands/new-bucks-head"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/west-midlands/new-bucks-head",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1432,6 +1390,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Aggborough",
     "maximumAttendeeCapacity": 6238,
@@ -1445,10 +1404,7 @@
       "postalCode": "DY10 1NB",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/west-midlands/aggborough"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/west-midlands/aggborough",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1496,6 +1452,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Plainmoor",
     "maximumAttendeeCapacity": 6104,
@@ -1509,10 +1466,7 @@
       "postalCode": "TQ1 3PS",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-west/plainmoor"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-west/plainmoor",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1560,6 +1514,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Victoria Road",
     "alternateName": "Chigwell Construction Stadium",
@@ -1578,10 +1533,7 @@
       "postalCode": "RM10 7XL",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/victoria-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/victoria-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1632,6 +1584,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Kingfield Stadium",
     "alternateName": "The Laithwaite Community Stadium",
@@ -1650,10 +1603,7 @@
       "postalCode": "GU22 9AA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/kingfield-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/kingfield-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1706,6 +1656,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Haig Avenue",
     "alternateName": "Merseyrail Community Stadium",
@@ -1724,10 +1675,7 @@
       "postalCode": "PR8 6JZ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/haig-avenue"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/haig-avenue",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1778,6 +1726,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Mill Farm",
     "maximumAttendeeCapacity": 6000,
@@ -1790,10 +1739,7 @@
       "postalCode": "PR4 3JZ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/mill-farm"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/mill-farm",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1846,6 +1792,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Crabble Athletic Ground",
     "maximumAttendeeCapacity": 5745,
@@ -1859,10 +1806,7 @@
       "postalCode": "CT17 0QJ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/crabble-athletic-ground"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/crabble-athletic-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1913,6 +1857,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "The Westleigh",
     "alternateName": "Draper Tools Community Stadium",
@@ -1931,10 +1876,7 @@
       "postalCode": "PO9 5TH",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/the-westleigh"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/the-westleigh",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1985,6 +1927,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Ten Acres",
     "alternateName": "Silverlake Stadium",
@@ -2003,10 +1946,7 @@
       "postalCode": "SO50 9HT",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/ten-acres"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/ten-acres",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2057,6 +1997,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Clarence Park",
     "alternateName": "Mozzarella Fellas Stadium",
@@ -2074,10 +2015,7 @@
       "postalCode": "AL1 4NF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/clarence-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/clarence-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2125,6 +2063,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "War Memorial Sports Ground",
     "maximumAttendeeCapacity": 5000,
@@ -2138,10 +2077,7 @@
       "postalCode": "SM5 2PW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/war-memorial-sports-ground"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/war-memorial-sports-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2192,6 +2128,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "New Lodge",
     "maximumAttendeeCapacity": 5000,
@@ -2205,10 +2142,7 @@
       "postalCode": "CM12 9SA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/new-lodge"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/new-lodge",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2264,6 +2198,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Jakemans Community Stadium",
     "maximumAttendeeCapacity": 5000,
@@ -2277,10 +2212,7 @@
       "postalCode": "PE21 6JN",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-midlands/jakemans-community-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-midlands/jakemans-community-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2328,6 +2260,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Hayes Lane",
     "maximumAttendeeCapacity": 5000,
@@ -2341,10 +2274,7 @@
       "postalCode": "BR2 9EF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/hayes-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/hayes-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2443,6 +2373,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Edgar Street",
     "maximumAttendeeCapacity": 4913,
@@ -2455,10 +2386,7 @@
       "postalCode": "HR4 9JU",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/west-midlands/edgar-street"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/west-midlands/edgar-street",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2511,6 +2439,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Stonebridge Road",
     "alternateName": "Kuflink Stadium",
@@ -2528,10 +2457,7 @@
       "postalCode": "DA11 9GN",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/stonebridge-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/stonebridge-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2582,6 +2508,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Broadhurst Park",
     "maximumAttendeeCapacity": 4700,
@@ -2594,10 +2521,7 @@
       "postalCode": "M40 0FJ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/broadhurst-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/broadhurst-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2648,6 +2572,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Woodside Park",
     "alternateName": "R & D Advisors UK Ltd Stadium",
@@ -2666,10 +2591,7 @@
       "postalCode": "CM23 5RG",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/woodside-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/woodside-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2720,6 +2642,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Damson Park",
     "alternateName": "ARMCO Arena",
@@ -2738,10 +2661,7 @@
       "postalCode": "B92 8PS",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/west-midlands/damson-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/west-midlands/damson-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2789,6 +2709,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Meadow Park",
     "alternateName": "LV Bet Stadium Meadow Park",
@@ -2807,10 +2728,7 @@
       "postalCode": "WD6 5AL",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/meadow-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/meadow-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2861,6 +2779,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Nyewood Lane",
     "maximumAttendeeCapacity": 4500,
@@ -2873,10 +2792,7 @@
       "postalCode": "PO21 2TY",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/nyewood-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/nyewood-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2927,6 +2843,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "The Northolme",
     "alternateName": "Gainsborough Martin & Co. Arena",
@@ -2944,10 +2861,7 @@
       "postalCode": "DN21 2QW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-midlands/the-northolme"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-midlands/the-northolme",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3000,6 +2914,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Victory Park",
     "alternateName": "The Chorley Group Victory Park Stadium",
@@ -3018,10 +2933,7 @@
       "postalCode": "PR7 3DU",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/victory-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/victory-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3074,6 +2986,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Ewen Fields",
     "alternateName": "Project Solar Stadium",
@@ -3091,10 +3004,7 @@
       "postalCode": "SK14 5PL",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/ewen-fields"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/ewen-fields",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3150,6 +3060,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Hurst Cross",
     "maximumAttendeeCapacity": 4250,
@@ -3162,10 +3073,7 @@
       "postalCode": "OL6 8DY",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/hurst-cross"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/hurst-cross",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3213,6 +3121,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Nethermoor Park",
     "maximumAttendeeCapacity": 4200,
@@ -3225,10 +3134,7 @@
       "postalCode": "LS20 8BT",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/nethermoor-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/nethermoor-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3276,6 +3182,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Gallagher Stadium",
     "maximumAttendeeCapacity": 4200,
@@ -3289,10 +3196,7 @@
       "postalCode": "ME14 1LQ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/gallagher-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/gallagher-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3345,6 +3249,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Tameside Stadium",
     "maximumAttendeeCapacity": 4200,
@@ -3358,10 +3263,7 @@
       "postalCode": "OL7 9HG",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/tameside-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/tameside-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3409,6 +3311,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Cressing Road",
     "alternateName": "Dunmow Group Stadium",
@@ -3427,10 +3330,7 @@
       "postalCode": "CM7 3AL",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/cressing-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/cressing-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3481,6 +3381,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Croft Park",
     "maximumAttendeeCapacity": 4130,
@@ -3494,10 +3395,7 @@
       "postalCode": "NE24 3JE",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-east/croft-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-east/croft-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3550,6 +3448,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Park Lane",
     "alternateName": "The Movie Starr Stadium",
@@ -3567,10 +3466,7 @@
       "postalCode": "SS8 7PX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/park-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/park-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3621,6 +3517,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Princes Park",
     "maximumAttendeeCapacity": 4100,
@@ -3633,10 +3530,7 @@
       "postalCode": "DA1 1RT",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/princes-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/princes-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3687,6 +3581,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Grosvenor Vale",
     "maximumAttendeeCapacity": 4085,
@@ -3699,10 +3594,7 @@
       "postalCode": "HA4 6JQ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/grosvenor-vale"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/grosvenor-vale",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3758,6 +3650,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Stainton Park",
     "alternateName": "Neuven Stadium",
@@ -3774,10 +3667,7 @@
       "postalCode": "M26 3TQ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/stainton-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/stainton-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3828,6 +3718,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "The Pilot Field",
     "maximumAttendeeCapacity": 4050,
@@ -3841,10 +3732,7 @@
       "postalCode": "TN34 2AX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/the-pilot-field"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/the-pilot-field",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3895,6 +3783,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Marston Road",
     "maximumAttendeeCapacity": 4000,
@@ -3906,10 +3795,7 @@
       "postalCode": "ST16 3BX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/west-midlands/marston-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/west-midlands/marston-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3957,6 +3843,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Cheriton Road",
     "alternateName": "The Buildkent Stadium",
@@ -3974,10 +3861,7 @@
       "postalCode": "CT19 5JU",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/cheriton-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/cheriton-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4028,6 +3912,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Park View Road",
     "maximumAttendeeCapacity": 4000,
@@ -4040,10 +3925,7 @@
       "postalCode": "DA16 1SY",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/park-view-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/park-view-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4094,6 +3976,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Woodside Road",
     "alternateName": "The Crucial Environmental Stadium",
@@ -4112,10 +3995,7 @@
       "postalCode": "BN14 7HQ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/woodside-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/woodside-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4163,6 +4043,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "The Silverlands",
     "alternateName": "Tarmac Silverlands Stadium",
@@ -4180,10 +4061,7 @@
       "postalCode": "SK17 6QH",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-midlands/the-silverlands"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-midlands/the-silverlands",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4231,6 +4109,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "New Meadow Park",
     "alternateName": "TigerTurf Stadium",
@@ -4249,10 +4128,7 @@
       "postalCode": "GL2 5HS",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-west/new-meadow-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-west/new-meadow-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4300,6 +4176,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "York Road",
     "maximumAttendeeCapacity": 4000,
@@ -4312,10 +4189,7 @@
       "postalCode": "SL6 1SF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/york-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/york-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4371,6 +4245,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "The Citadel",
     "maximumAttendeeCapacity": 3900,
@@ -4384,10 +4259,7 @@
       "postalCode": "LS28 5BE",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-citadel"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-citadel",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4440,6 +4312,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Beveree Stadium",
     "alternateName": "The Rocket Hospitality Beveree Stadium",
@@ -4457,10 +4330,7 @@
       "postalCode": "TW12 2BX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/beveree-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/beveree-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4512,6 +4382,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "North Street",
     "alternateName": "Impact Arena Stadium",
@@ -4530,10 +4401,7 @@
       "postalCode": "DE55 7FZ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-midlands/north-street"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-midlands/north-street",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4581,6 +4449,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Twerton Park",
     "maximumAttendeeCapacity": 3528,
@@ -4594,10 +4463,7 @@
       "postalCode": "BA2 1DB",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-west/twerton-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-west/twerton-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4650,6 +4516,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Giant Axe",
     "maximumAttendeeCapacity": 3513,
@@ -4662,10 +4529,7 @@
       "postalCode": "LA1 5PE",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/giant-axe"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/giant-axe",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4716,6 +4580,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Turnbull Ground",
     "alternateName": "Towbar Express Stadium",
@@ -4733,10 +4598,7 @@
       "postalCode": "YO21 3HZ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/turnbull-ground"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/turnbull-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4784,6 +4646,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Filtrona Park",
     "alternateName": "1st Cloud Arena",
@@ -4801,10 +4664,7 @@
       "postalCode": "NE32 3UP",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-east/filtrona-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-east/filtrona-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4852,6 +4712,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Weaver Stadium",
     "alternateName": "Optimum Pay Stadium",
@@ -4868,10 +4729,7 @@
       "postalCode": "CW5 5BS",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/weaver-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/weaver-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4922,6 +4780,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Imperial Fields",
     "maximumAttendeeCapacity": 3500,
@@ -4935,10 +4794,7 @@
       "postalCode": "SM4 6BF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/imperial-fields"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/imperial-fields",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4989,6 +4845,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Len Salmon Stadium",
     "maximumAttendeeCapacity": 3500,
@@ -5002,10 +4859,7 @@
       "postalCode": "SS13 2BE",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/len-salmon-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/len-salmon-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5056,6 +4910,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Parkside",
     "maximumAttendeeCapacity": 3500,
@@ -5068,10 +4923,7 @@
       "postalCode": "RM15 4PX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/parkside"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/parkside",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5127,6 +4979,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "St James Park",
     "maximumAttendeeCapacity": 3500,
@@ -5140,10 +4993,7 @@
       "postalCode": "NN13 7EJ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-midlands/st-james-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-midlands/st-james-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5191,6 +5041,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Marsh Lane",
     "maximumAttendeeCapacity": 3500,
@@ -5203,10 +5054,7 @@
       "postalCode": "OX3 0NQ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/marsh-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/marsh-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5254,6 +5102,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Theobalds Lane",
     "maximumAttendeeCapacity": 3500,
@@ -5267,10 +5116,7 @@
       "postalCode": "EN8 8RU",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/theobalds-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/theobalds-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5318,6 +5164,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Horsfall Stadium",
     "maximumAttendeeCapacity": 3500,
@@ -5331,10 +5178,7 @@
       "postalCode": "BD6 2NG",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5387,6 +5231,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Champion Hill",
     "maximumAttendeeCapacity": 3334,
@@ -5399,10 +5244,7 @@
       "postalCode": "SE22 8BD",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/champion-hill"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/champion-hill",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5453,6 +5295,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Thames Road",
     "maximumAttendeeCapacity": 3300,
@@ -5465,10 +5308,7 @@
       "postalCode": "SS8 0HH",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/thames-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/thames-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5516,6 +5356,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Blackwell Meadows",
     "maximumAttendeeCapacity": 3281,
@@ -5529,10 +5370,7 @@
       "postalCode": "DL1 5NR",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-east/blackwell-meadows"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-east/blackwell-meadows",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5580,6 +5418,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Flamingo Land Stadium",
     "maximumAttendeeCapacity": 3252,
@@ -5592,10 +5431,7 @@
       "postalCode": "YO11 2JW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/flamingo-land-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/flamingo-land-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5648,6 +5484,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Vauxhall Road",
     "maximumAttendeeCapacity": 3152,
@@ -5660,10 +5497,7 @@
       "postalCode": "HP2 4HW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/vauxhall-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/vauxhall-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5711,6 +5545,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Melbourne Stadium",
     "maximumAttendeeCapacity": 3065,
@@ -5724,10 +5559,7 @@
       "postalCode": "CM1 2EH",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/melbourne-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/melbourne-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5778,6 +5610,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Bulpit Lane",
     "maximumAttendeeCapacity": 3034,
@@ -5791,10 +5624,7 @@
       "postalCode": "RG17 0AY",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/bulpit-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/bulpit-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5845,6 +5675,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Craik Park",
     "maximumAttendeeCapacity": 3000,
@@ -5857,10 +5688,7 @@
       "postalCode": "NE61 2YX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-east/craik-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-east/craik-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5908,6 +5736,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Sir Tom Finney Stadium",
     "maximumAttendeeCapacity": 3000,
@@ -5920,10 +5749,7 @@
       "postalCode": "PR5 6UU",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/sir-tom-finney-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/sir-tom-finney-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5974,6 +5800,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "The Dripping Pan",
     "maximumAttendeeCapacity": 3000,
@@ -5987,10 +5814,7 @@
       "postalCode": "BN7 2XA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/the-dripping-pan"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/the-dripping-pan",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6041,6 +5865,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Hornchurch Stadium",
     "maximumAttendeeCapacity": 3000,
@@ -6054,10 +5879,7 @@
       "postalCode": "RM14 2LX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/hornchurch-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/hornchurch-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6110,6 +5932,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Winch's Field",
     "alternateName": "The MBS Stadium",
@@ -6128,10 +5951,7 @@
       "postalCode": "CT6 5SG",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/winch-s-field"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/winch-s-field",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6182,6 +6002,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Longmead Stadium",
     "alternateName": "Halcyon Wealth Longmead Stadium",
@@ -6200,10 +6021,7 @@
       "postalCode": "TN10 3JW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/longmead-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/longmead-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6251,6 +6069,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Hardenhuish Park",
     "maximumAttendeeCapacity": 3000,
@@ -6264,10 +6083,7 @@
       "postalCode": "SN14 6LR",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-west/hardenhuish-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-west/hardenhuish-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6315,6 +6131,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Brewery Field",
     "maximumAttendeeCapacity": 3000,
@@ -6328,10 +6145,7 @@
       "postalCode": "DL16 6JN",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-east/brewery-field"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-east/brewery-field",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6379,6 +6193,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Meadowbank",
     "maximumAttendeeCapacity": 3000,
@@ -6392,10 +6207,7 @@
       "postalCode": "RH4 1DX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/meadowbank"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/meadowbank",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6453,6 +6265,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Christchurch Meadow",
     "alternateName": "The Silver X Stadium",
@@ -6470,10 +6283,7 @@
       "postalCode": "DE56 1BA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-midlands/christchurch-meadow"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-midlands/christchurch-meadow",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6521,6 +6331,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Cantilever Park",
     "alternateName": "Drivers Direct Stadium",
@@ -6537,10 +6348,7 @@
       "postalCode": "WA4 2RS",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/cantilever-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/cantilever-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6591,6 +6399,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Mount Pleasant",
     "maximumAttendeeCapacity": 2500,
@@ -6603,10 +6412,7 @@
       "postalCode": "TS11 7BW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-east/mount-pleasant"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-east/mount-pleasant",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6654,6 +6460,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Alder House",
     "alternateName": "Skuna Stadium",
@@ -6671,10 +6478,7 @@
       "postalCode": "M46 9FJ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/alder-house"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/alder-house",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6722,6 +6526,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Parkfield",
     "alternateName": "The Lantern Stadium",
@@ -6740,10 +6545,7 @@
       "postalCode": "EN6 1QN",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/parkfield"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/parkfield",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6791,6 +6593,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Coles Park",
     "alternateName": "CVS Van Hire Stadium",
@@ -6809,10 +6612,7 @@
       "postalCode": "N17 7JP",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/coles-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/coles-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6860,6 +6660,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Queen Elizabeth II Stadium",
     "maximumAttendeeCapacity": 2500,
@@ -6873,10 +6674,7 @@
       "postalCode": "EN1 3PL",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/queen-elizabeth-ii-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/queen-elizabeth-ii-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6924,6 +6722,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Cygnet Stadium",
     "alternateName": "The Cygnet Health Care Stadium",
@@ -6942,10 +6741,7 @@
       "postalCode": "TA1 2HG",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-west/cygnet-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-west/cygnet-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6993,6 +6789,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Causeway Lane",
     "maximumAttendeeCapacity": 2400,
@@ -7005,10 +6802,7 @@
       "postalCode": "DE4 3AR",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-midlands/causeway-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-midlands/causeway-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7056,6 +6850,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Latimer Park",
     "maximumAttendeeCapacity": 2400,
@@ -7069,10 +6864,7 @@
       "postalCode": "NN15 5PS",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-midlands/latimer-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-midlands/latimer-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7125,6 +6917,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Lincoln Road",
     "maximumAttendeeCapacity": 2300,
@@ -7138,10 +6931,7 @@
       "postalCode": "PE1 3HA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/lincoln-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/lincoln-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7189,6 +6979,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "New Windmill Ground",
     "maximumAttendeeCapacity": 2300,
@@ -7202,10 +6993,7 @@
       "postalCode": "CV33 9SA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/west-midlands/new-windmill-ground"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/west-midlands/new-windmill-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7253,6 +7041,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Rossett Park",
     "alternateName": "The Marine Travel Arena",
@@ -7270,10 +7059,7 @@
       "postalCode": "L23 3AS",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/rossett-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/rossett-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7324,6 +7110,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Hartsdown Park",
     "maximumAttendeeCapacity": 2100,
@@ -7337,10 +7124,7 @@
       "postalCode": "CT9 5QY",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/hartsdown-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/hartsdown-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7388,6 +7172,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Clayborn",
     "maximumAttendeeCapacity": 2000,
@@ -7400,10 +7185,7 @@
       "postalCode": "WF15 8DF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/clayborn"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/clayborn",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7451,6 +7233,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "King George V Arena",
     "alternateName": "The United Business Group Stadium",
@@ -7469,10 +7252,7 @@
       "postalCode": "KT6 7NA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/king-george-v-arena"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/king-george-v-arena",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7523,6 +7303,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Arbour Park",
     "maximumAttendeeCapacity": 2000,
@@ -7535,10 +7316,7 @@
       "postalCode": "SL2 5AY",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/arbour-park"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/arbour-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7586,6 +7364,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Hop Oast Stadium",
     "alternateName": "The Camping World Community Stadium",
@@ -7604,10 +7383,7 @@
       "postalCode": "RH13 0AD",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/south-east/hop-oast-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/south-east/hop-oast-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7658,6 +7434,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "The Maurice Rebak Stadium",
     "maximumAttendeeCapacity": 1500,
@@ -7671,10 +7448,7 @@
       "postalCode": "N12 0PD",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/london/the-maurice-rebak-stadium"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/london/the-maurice-rebak-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7725,6 +7499,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Gorsey Lane",
     "maximumAttendeeCapacity": 1345,
@@ -7737,10 +7512,7 @@
       "postalCode": "WA2 7SH",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/north-west/gorsey-lane"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/north-west/gorsey-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7791,6 +7563,7 @@
     ]
   },
   {
+    "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "North Road",
     "maximumAttendeeCapacity": 1000,
@@ -7803,10 +7576,7 @@
       "postalCode": "CO7 0PL",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "url": "https://nonleaguegrounds.com/regions/east-of-england/north-road"
-    },
+    "identifier": "https://nonleaguegrounds.com/regions/east-of-england/north-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
