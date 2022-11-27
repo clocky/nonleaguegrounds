@@ -197,7 +197,7 @@ apple %}
           </tbody>
         </table>
         {% for club in ground.subOrganization %}
-          <a href="/{{ club.memberOf.name | slugify }}/{{ club.name | slugify}}.vcf" role="button" download class="outline">Save to address book</a>
+          <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify}}.vcf" role="button" download class="outline">Save to address book</a>
         {% endfor %}
       </aside>
     </div>
