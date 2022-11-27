@@ -11,10 +11,12 @@ preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
 
 {%- block css %}
   <style>
+    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text={{ meta.title | replace(' ', '') | upper }}");
     header {
       background-image: url("/img/{{ meta.hero['clubs'].src }}.jpg");
     };
   </style>
+  
 {%- endblock %}
 
 {% block header %}

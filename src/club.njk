@@ -28,7 +28,8 @@ eleventyComputed:
 
 {% block css %}
   <style>
-    {{aerial(club.location, env.google_maps_api_key)}}
+    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text={{ club.name | replace(' ', '') | upper }}");
+    {{ aerial(club.location, env.google_maps_api_key) }}
   </style>
 {% endblock %}
 

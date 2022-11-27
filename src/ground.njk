@@ -27,6 +27,7 @@ apple %}
 
 {% block css %}
   <style>
+    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text={{ ground.name | replace(' ', '') | upper }}");
     {{aerial(ground, env.google_maps_api_key)}}
   </style>
 {% endblock %}
