@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Emoji&display=swap&text=🏟️⚽🏆󠁧󠁢󠁷󠁬󠁳🐦📍🐝🪵⛏️🔨🤠🐦⛪🗡️󠁧󠁢󠁷󠁬󠁳🏃🦁󠁧󠁢󠁷󠁬󠁳✈️󠁧󠁢󠁷󠁬󠁳🏁🪨🏃󠁧󠁢󠁷󠁬󠁳🦐🧲🐦🪨🧤⛪🏖️🦌⚔️󠁧󠁢󠁷󠁬󠁳😇🪖🦌󠁧󠁢󠁷󠁬󠁳🦭🐦󠁧󠁢󠁷󠁬󠁳󠁧󠁢󠁷󠁬🪖🐯🐂󠁧󠁢󠁷󠁬󠁳🌺󠁧󠁢󠁷󠁬󠁳👶🐦󠁧󠁢󠁷󠁬󠁳✋󠁧󠁢󠁷󠁬󠁳✈️🐶🏖️󠁧󠁢󠁷󠁬󠁳⛵🧲🔴󠁧󠁢󠁷󠁬󠁳🐦🏖️󠁧󠁢󠁷󠁬󠁳🎯⚪󠁧󠁢󠁷󠁬󠁳🏠󠁧󠁢󠁷󠁬󠁳🦫🦅󠁧󠁢󠁷󠁬󠁳👑⚔️󠁧󠁢󠁷󠁬☘️󠁳⭕󠁧󠁢󠁷󠁬󠁳✊😇🦚😇🦅🌎󠁧󠁢󠁷󠁬󠁳✊🏴󠁧󠁢󠁷󠁬󠁳󠁿🙏🏻🍞🎻🇷🇰🪄👦🚪♟️🎓🍷🔫");
+@import url("https://fonts.googleapis.com/css?family=Noto+Emoji&display=swap&text=🏟️⚽🏆󠁧󠁢󠁷󠁬󠁳🐦📍🐝🪵⛏️🔨🤠🐦⛪🗡️󠁧󠁢󠁷󠁬󠁳🏃🦁󠁧󠁢󠁷󠁬󠁳✈️󠁧󠁢󠁷󠁬󠁳🏁🪨🏃󠁧󠁢󠁷󠁬󠁳🦐🧲🐦🪨🧤⛪🏖️🦌⚔️󠁧󠁢󠁷󠁬󠁳😇🪖🦌󠁧󠁢󠁷󠁬󠁳🦭🐦󠁧󠁢󠁷󠁬󠁳󠁧󠁢󠁷󠁬🪖🐯🐂󠁧󠁢󠁷󠁬󠁳🌺󠁧󠁢󠁷󠁬󠁳👶🐦󠁧󠁢󠁷󠁬󠁳✋󠁧󠁢󠁷󠁬󠁳✈️🐶🏖️󠁧󠁢󠁷󠁬󠁳⛵🧲🔴󠁧󠁢󠁷󠁬󠁳🐦🏖️󠁧󠁢󠁷󠁬󠁳🎯⚪󠁧󠁢󠁷󠁬󠁳🏠󠁧󠁢󠁷󠁬󠁳🦫🦅󠁧󠁢󠁷󠁬󠁳👑⚔️󠁧󠁢󠁷󠁬☘️󠁳⭕󠁧󠁢󠁷󠁬󠁳✊😇🦚😇🦅🌎󠁧󠁢󠁷󠁬󠁳✊🏴󠁧󠁢󠁷󠁬󠁳󠁿🙏🏻🍞🎻🇷🇰🪄👦🚪♟️🎓🍷🔫⚓🗺️ ");
 
 @import "../../node_modules/@picocss/pico/scss/variables";
 @import "../../node_modules/@picocss/pico/scss/themes/default";
@@ -21,15 +21,15 @@
 
 /* Hide unnecessary elements on mobile */
 
-@media(max-width: 576px) {
+@media (max-width: 576px) {
   .is-hidden-mobile {
     display: none;
   }
   nav {
-  span.label {
+    span.label {
       display: none;
     }
-  .emoji {
+    .emoji {
       font-size: 1.25rem;
     }
   }
@@ -40,7 +40,8 @@
     display: none;
   }
   hgroup {
-    h1, h2 {
+    h1,
+    h2 {
       max-width: 100vw;
     }
   }
@@ -49,34 +50,31 @@
   }
 }
 
-
-@media(min-width: 576px) {
+@media (min-width: 576px) {
   section#home {
     grid-column-gap: 2rem;
   }
   div.panel {
     margin-bottom: 2rem;
   }
-    hgroup {
-      h1 {
-        max-width: 66vw;
-      }
-      h2 {
-        max-width: 50vw;
-      }
+  hgroup {
+    h1 {
+      max-width: 66vw;
+    }
+    h2 {
+      max-width: 50vw;
+    }
   }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
 }
-
-
 
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
   --primary: #107c10;
   --primary-hover: #0b6a0b;
-  --primary-focus: #8cbd18
+  --primary-focus: #8cbd18;
   --primary-inverse: #ffffff;
   hgroup {
     h1 {
@@ -87,7 +85,7 @@
       font-weight: 900;
       text-transform: uppercase;
       line-height: 2.5rem;
-   }
+    }
     h2 {
       margin-top: 1rem;
       font-weight: 700;
@@ -96,9 +94,26 @@
   }
 }
 
+@media only screen and (prefers-color-scheme: dark) {
+    :root {
+    --primary: #8cbd18;
+    --primary-hover: #0b6a0b;
+    --primary-focus: #107c10;
+    --primary-inverse: #212121;
+  }
+  .emoji {
+    color: #fff;
+  }
+  div.container-fluid {
+    &:has(nav[aria-label="breadcrumb"]) {
+      background-color: #212121;
+    }
+  }
+}
+
 div.container-fluid {
   &:has(nav[aria-label="breadcrumb"]) {
-      background-color: #f0f0f0;
+    background-color: #f0f0f0;
   }
 }
 
@@ -114,7 +129,7 @@ figure {
 }
 
 footer[data-theme="dark"] {
-  background-color: #212121
+  background-color: #212121;
 }
 
 th {
