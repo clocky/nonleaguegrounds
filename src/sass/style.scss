@@ -14,20 +14,9 @@
 @import "../../node_modules/@picocss/pico/scss/layout/grid";
 @import "../../node_modules/@picocss/pico/scss/layout/scroller";
 
-[data-theme="light"],
-:root:not([data-theme="dark"]) {
-  .emoji {
-    font-family: "Noto Emoji", sans-serif;
-    color: #000;
-  }
-}
-
-[data-theme="dark"],
-:root:not([data-theme="light"]) {
-  .emoji {
-    font-family: "Noto Emoji", sans-serif;
-    color: #fff;
-  }
+.emoji {
+  font-family: "Noto Emoji", sans-serif;
+  color: #000;
 }
 
 /* Hide unnecessary elements on mobile */
@@ -101,6 +90,23 @@
       margin-top: 1rem;
       font-weight: 700;
       color: rgba(255, 255, 255, 0.75);
+    }
+  }
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+    :root {
+    --primary: #8cbd18;
+    --primary-hover: #0b6a0b;
+    --primary-focus: #107c10;
+    --primary-inverse: #212121;
+  }
+  .emoji {
+    color: #fff;
+  }
+  div.container-fluid {
+    &:has(nav[aria-label="breadcrumb"]) {
+      background-color: #212121;
     }
   }
 }
