@@ -46,7 +46,7 @@ eleventyComputed:
         <tr>
           <th scope="col">Tier</th>
           <th scope="col">Name</th>
-          <th scope="col">Clubs</th>
+          <th scope="col" class="is-hidden-mobile">Clubs</th>
         </tr>
       </thead>
       <tbody>
@@ -60,7 +60,7 @@ eleventyComputed:
                 {{ league.alternateName }}
               </a>
             </th>
-            <td>
+            <td class="is-hidden-mobile">
               {{ league.members | length }}
             </td>
           </tr>

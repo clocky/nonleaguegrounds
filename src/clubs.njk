@@ -41,7 +41,7 @@ eleventyComputed:
         <tr>
           <th scope="col">Club</th>
           <th scope="col">Ground</th>
-          <th scope="col">League</th>
+          <th scope="col" class="is-hidden-mobile">League</th>
         </tr>
       </thead>
       <tbody>
@@ -53,7 +53,7 @@ eleventyComputed:
             <td>
               <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}" class="secondary">{{ club.location.name }}</a>
             </td>
-            <td>
+            <td class="is-hidden-mobile">
               {{ club.memberOf.name }}
             </td>
           </tr>

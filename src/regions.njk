@@ -45,7 +45,7 @@ eleventyComputed:
       <thead>
         <tr>
           <th scope="col">Region</th>
-          <th scope="col">Clubs</th>
+          <th scope="col" class="is-hidden-mobile">Clubs</th>
         </tr>
       </thead>
       <tbody>
@@ -56,7 +56,7 @@ eleventyComputed:
                 {{- region.name -}}
               </a>
             </th>
-            <td>
+            <td class="is-hidden-mobile">
               {% for ground in region
                 .geoContains
                 .slice(0, 4) | sort(attribute = "address.addressLocality") %}
