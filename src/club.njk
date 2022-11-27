@@ -50,30 +50,30 @@ eleventyComputed:
 
 {% block main %}
   <main class="container">
-    <div class="grid" itemscope itemtype="https://schema.org/SportsTeam">
+    <div class="grid">
       <section>
         <h3>Overview</h3>
         <p>
-          <strong itemprop="alternateName">
+          <strong>
             {{- club.alternateName -}}
           </strong>
-          is an <span itemprop="sport">{{ club.sport | lower }}</span> club, based in {{ club.location.address.addressLocality }}
+          is an {{ club.sport | lower }} club, based in {{ club.location.address.addressLocality }}
           {%- if club.location.address.addressRegion -%}
             , {{ club.location.address.addressRegion }}
           {%- endif -%}.
         </p>
         <p>
-          Founded {{ club.foundingDate | ago }} years ago in <span itemprop="foundingDate">{{ club.foundingDate }}</span>, the team currently compete in the
+          Founded {{ club.foundingDate | ago }} years ago in {{ club.foundingDate }}, the team currently compete in the
           <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
             {{ club.memberOf.name }}</a>, 
             {%- if club.memberOf.additionalProperty %}
             the {{ club.memberOf.additionalProperty.@value | ordinal }} tier of English football
             {%- endif %}.
         </p>
-        <p itemscope itemtype="https://schema.org/StadiumOrArena">
+        <p>
           They play their home matches at 
-          <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}" itemprop="name">{{ club.location.name }}</a>,
-          and are nicknamed <strong itemprop="slogan">"{{ club.slogan }}"</strong>.
+          <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
+          and are nicknamed <strong>"{{ club.slogan }}"</strong>.
         </p>
         {% for url in club.sameAs %}
           {% if url.includes("twitter") %}
@@ -85,7 +85,7 @@ eleventyComputed:
       </section>
       <aside>
         <figure>
-          <img src="{{ club.logo.contentUrl }}" width="{{ club.logo.width }}" height="{{ club.logo.height }}" alt="{{ club.logo.caption }}" itemprop="logo" style="text-align: center; margin-right: 1em; margin-bottom: 1rem;">
+          <img src="{{ club.logo.contentUrl }}" width="{{ club.logo.width }}" height="{{ club.logo.height }}" alt="{{ club.logo.caption }}" style="text-align: center; margin-right: 1em; margin-bottom: 1rem;">
         </figure>
         <table role="grid">
           <tbody>
