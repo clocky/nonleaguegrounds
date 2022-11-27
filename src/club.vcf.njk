@@ -28,5 +28,5 @@ GEO;TYPE=work:geo:{{ club.location.latitude}},{{ club.location.longitude }}
 item2.URL;type=pref:{{club.url.@value}}
 item2.X-ABLabel:_$!<HomePage>!$_
 {% endif -%}
-SOURCE:{{ meta.base }}/{{ club.memberOf.name | slugify}}/{{ club.name | slugify }}.vcf
+SOURCE:{{ meta.base }}/leagues/{{ club.memberOf.name | slugify}}/{{ club.name | slugify }}.vcf
 END:VCARD
