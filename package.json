@@ -8,7 +8,7 @@
     "watch:sass": "sass --no-source-map --watch src/sass:dist/css",
     "watch:eleventy": "ELEVENTY_ENV=development eleventy --serve",
     "build:sass": "sass --no-source-map src/sass:dist/css",
-    "build:eleventy": "ELEVENTY_ENV=prod eleventy",
+    "build:eleventy": "ELEVENTY_ENV=prod eleventy --quiet",
     "postbuild": "npm-run-all postbuild:css postbuild:sharp",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:sass build:eleventy",
