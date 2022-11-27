@@ -69,17 +69,17 @@ apple %}
 {% endblock %}
 
 {% block main %}
-  <main class="container" itemscope itemtype="http://schema.org/StadiumOrArena">
+  <main class="container">
     <div class="grid">
       <section>
         <h3>Overview</h3>
         <p>
-          <strong itemprop="name">{{ ground.name }}</strong>
-          {%- if ground.sponsor %}, officially known as <strong itemprop="alternateName">{{ ground.sponsor.name | safe }}</strong> for sponsorship reasons, {% endif %}
+          <strong>{{ ground.name }}</strong>
+          {%- if ground.sponsor %}, officially known as <strong>{{ ground.sponsor.name | safe }}</strong> for sponsorship reasons, {% endif %}
         is an {{ ground.subOrganization[0].sport | lower }} ground in {{ ground.address.addressLocality }}
           {%- if ground.address.addressRegion -%}
         , {{ ground.address.addressRegion }}
-          {%- endif %} that holds <span itemprop="maximumAttendeeCapacity">{{ ground.maximumAttendeeCapacity | commaNumber }}</span> people.
+          {%- endif %} that holds {{ ground.maximumAttendeeCapacity | commaNumber }} people.
       </p>
         {% for club in ground.subOrganization %}
           <p>
