@@ -8,6 +8,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Causeway Lane",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-midlands/causeway-lane"
@@ -52,6 +53,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Christchurch Meadow",
+        "priceRange": "££",
         "alternateName": "The Silver X Stadium",
         "identifier": {
           "@type": "URL",
@@ -97,6 +99,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Jakemans Community Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-midlands/jakemans-community-stadium"
@@ -142,6 +145,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Latimer Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-midlands/latimer-park"
@@ -187,6 +191,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Meadow Lane",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-midlands/meadow-lane"
@@ -232,6 +237,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "North Street",
+        "priceRange": "££",
         "alternateName": "Impact Arena Stadium",
         "identifier": {
           "@type": "URL",
@@ -278,6 +284,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "St James Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-midlands/st-james-park"
@@ -323,6 +330,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Technique Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-midlands/technique-stadium"
@@ -368,6 +376,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "The Northolme",
+        "priceRange": "££",
         "alternateName": "Gainsborough Martin & Co. Arena",
         "identifier": {
           "@type": "URL",
@@ -413,6 +422,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "The Silverlands",
+        "priceRange": "££",
         "alternateName": "Tarmac Silverlands Stadium",
         "identifier": {
           "@type": "URL",
@@ -467,6 +477,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Clarence Park",
+        "priceRange": "££",
         "alternateName": "Mozzarella Fellas Stadium",
         "identifier": {
           "@type": "URL",
@@ -512,6 +523,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Cressing Road",
+        "priceRange": "££",
         "alternateName": "Dunmow Group Stadium",
         "identifier": {
           "@type": "URL",
@@ -558,6 +570,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Len Salmon Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/len-salmon-stadium"
@@ -603,6 +616,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Lincoln Road",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/lincoln-road"
@@ -648,6 +662,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Meadow Park",
+        "priceRange": "££",
         "alternateName": "LV Bet Stadium Meadow Park",
         "identifier": {
           "@type": "URL",
@@ -694,6 +709,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Melbourne Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/melbourne-stadium"
@@ -739,6 +755,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "New Lodge",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/new-lodge"
@@ -784,6 +801,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "North Road",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/north-road"
@@ -828,6 +846,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Park Lane",
+        "priceRange": "££",
         "alternateName": "The Movie Starr Stadium",
         "identifier": {
           "@type": "URL",
@@ -873,6 +892,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Parkfield",
+        "priceRange": "££",
         "alternateName": "The Lantern Stadium",
         "identifier": {
           "@type": "URL",
@@ -919,6 +939,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Parkside",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/parkside"
@@ -963,6 +984,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Roots Hall",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/roots-hall"
@@ -1008,6 +1030,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Thames Road",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/thames-road"
@@ -1052,6 +1075,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "The Walks Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/the-walks-stadium"
@@ -1097,6 +1121,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Theobalds Lane",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/theobalds-lane"
@@ -1142,6 +1167,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Vauxhall Road",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/east-of-england/vauxhall-road"
@@ -1186,6 +1212,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Woodside Park",
+        "priceRange": "££",
         "alternateName": "R & D Advisors UK Ltd Stadium",
         "identifier": {
           "@type": "URL",
@@ -1241,6 +1268,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Beveree Stadium",
+        "priceRange": "££",
         "alternateName": "The Rocket Hospitality Beveree Stadium",
         "identifier": {
           "@type": "URL",
@@ -1286,6 +1314,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Champion Hill",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/champion-hill"
@@ -1330,6 +1359,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Coles Park",
+        "priceRange": "££",
         "alternateName": "CVS Van Hire Stadium",
         "identifier": {
           "@type": "URL",
@@ -1376,6 +1406,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Grosvenor Vale",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/grosvenor-vale"
@@ -1420,6 +1451,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Hayes Lane",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/hayes-lane"
@@ -1465,6 +1497,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Hayes Lane",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/hayes-lane"
@@ -1510,6 +1543,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Hornchurch Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/hornchurch-stadium"
@@ -1555,6 +1589,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Imperial Fields",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/imperial-fields"
@@ -1600,6 +1635,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "King George V Arena",
+        "priceRange": "££",
         "alternateName": "The United Business Group Stadium",
         "identifier": {
           "@type": "URL",
@@ -1646,6 +1682,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Park View Road",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/park-view-road"
@@ -1690,6 +1727,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Queen Elizabeth II Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/queen-elizabeth-ii-stadium"
@@ -1735,6 +1773,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "The Hive Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/the-hive-stadium"
@@ -1780,6 +1819,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "The Maurice Rebak Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/the-maurice-rebak-stadium"
@@ -1825,6 +1865,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Victoria Road",
+        "priceRange": "££",
         "alternateName": "Chigwell Construction Stadium",
         "identifier": {
           "@type": "URL",
@@ -1871,6 +1912,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "War Memorial Sports Ground",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/london/war-memorial-sports-ground"
@@ -1925,6 +1967,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Blackwell Meadows",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-east/blackwell-meadows"
@@ -1970,6 +2013,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Brewery Field",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-east/brewery-field"
@@ -2015,6 +2059,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Craik Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-east/craik-park"
@@ -2059,6 +2104,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Croft Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-east/croft-park"
@@ -2104,6 +2150,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Filtrona Park",
+        "priceRange": "££",
         "alternateName": "1st Cloud Arena",
         "identifier": {
           "@type": "URL",
@@ -2149,6 +2196,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Gateshead International Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-east/gateshead-international-stadium"
@@ -2194,6 +2242,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Mount Pleasant",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-east/mount-pleasant"
@@ -2247,6 +2296,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Alder House",
+        "priceRange": "££",
         "alternateName": "Skuna Stadium",
         "identifier": {
           "@type": "URL",
@@ -2292,6 +2342,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Boundary Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-west/boundary-park"
@@ -2336,6 +2387,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Bower Fold",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-west/bower-fold"
@@ -2380,6 +2432,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Broadhurst Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-west/broadhurst-park"
@@ -2424,6 +2477,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Cantilever Park",
+        "priceRange": "££",
         "alternateName": "Drivers Direct Stadium",
         "identifier": {
           "@type": "URL",
@@ -2467,6 +2521,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Deva Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-west/deva-stadium"
@@ -2512,6 +2567,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Ewen Fields",
+        "priceRange": "££",
         "alternateName": "Project Solar Stadium",
         "identifier": {
           "@type": "URL",
@@ -2557,6 +2613,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Giant Axe",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-west/giant-axe"
@@ -2601,6 +2658,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Gorsey Lane",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-west/gorsey-lane"
@@ -2645,6 +2703,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Haig Avenue",
+        "priceRange": "££",
         "alternateName": "Merseyrail Community Stadium",
         "identifier": {
           "@type": "URL",
@@ -2691,6 +2750,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Hurst Cross",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-west/hurst-cross"
@@ -2735,6 +2795,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Mill Farm",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-west/mill-farm"
@@ -2779,6 +2840,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Moss Lane",
+        "priceRange": "££",
         "alternateName": "J. Davidson Stadium",
         "identifier": {
           "@type": "URL",
@@ -2825,6 +2887,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Rossett Park",
+        "priceRange": "££",
         "alternateName": "The Marine Travel Arena",
         "identifier": {
           "@type": "URL",
@@ -2870,6 +2933,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Sir Tom Finney Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-west/sir-tom-finney-stadium"
@@ -2914,6 +2978,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Stainton Park",
+        "priceRange": "££",
         "alternateName": "Neuven Stadium",
         "identifier": {
           "@type": "URL",
@@ -2958,6 +3023,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Tameside Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/north-west/tameside-stadium"
@@ -3003,6 +3069,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Victory Park",
+        "priceRange": "££",
         "alternateName": "The Chorley Group Victory Park Stadium",
         "identifier": {
           "@type": "URL",
@@ -3049,6 +3116,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Weaver Stadium",
+        "priceRange": "££",
         "alternateName": "Optimum Pay Stadium",
         "identifier": {
           "@type": "URL",
@@ -3102,6 +3170,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Arbour Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/arbour-park"
@@ -3146,6 +3215,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Bulpit Lane",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/bulpit-lane"
@@ -3191,6 +3261,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Cheriton Road",
+        "priceRange": "££",
         "alternateName": "The Buildkent Stadium",
         "identifier": {
           "@type": "URL",
@@ -3236,6 +3307,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Cherrywood Road",
+        "priceRange": "££",
         "alternateName": "Easy As HGV Stadium",
         "identifier": {
           "@type": "URL",
@@ -3282,6 +3354,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Crabble Athletic Ground",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/crabble-athletic-ground"
@@ -3327,6 +3400,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Gallagher Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/gallagher-stadium"
@@ -3372,6 +3446,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Hartsdown Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/hartsdown-park"
@@ -3417,6 +3492,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Hop Oast Stadium",
+        "priceRange": "££",
         "alternateName": "The Camping World Community Stadium",
         "identifier": {
           "@type": "URL",
@@ -3463,6 +3539,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Kingfield Stadium",
+        "priceRange": "££",
         "alternateName": "The Laithwaite Community Stadium",
         "identifier": {
           "@type": "URL",
@@ -3509,6 +3586,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Longmead Stadium",
+        "priceRange": "££",
         "alternateName": "Halcyon Wealth Longmead Stadium",
         "identifier": {
           "@type": "URL",
@@ -3555,6 +3633,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Marsh Lane",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/marsh-lane"
@@ -3599,6 +3678,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Meadowbank",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/meadowbank"
@@ -3644,6 +3724,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Nyewood Lane",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/nyewood-lane"
@@ -3688,6 +3769,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Princes Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/princes-park"
@@ -3732,6 +3814,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Priory Lane",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/priory-lane"
@@ -3777,6 +3860,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Recreation Ground",
+        "priceRange": "££",
         "alternateName": "The EBB Stadium at the Recreation Ground",
         "identifier": {
           "@type": "URL",
@@ -3823,6 +3907,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Spencer Stadium",
+        "priceRange": "££",
         "alternateName": "The Banbury Plant Hire Community Stadium",
         "identifier": {
           "@type": "URL",
@@ -3869,6 +3954,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Stonebridge Road",
+        "priceRange": "££",
         "alternateName": "Kuflink Stadium",
         "identifier": {
           "@type": "URL",
@@ -3914,6 +4000,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Ten Acres",
+        "priceRange": "££",
         "alternateName": "Silverlake Stadium",
         "identifier": {
           "@type": "URL",
@@ -3960,6 +4047,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "The Dripping Pan",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/the-dripping-pan"
@@ -4005,6 +4093,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "The Pilot Field",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/the-pilot-field"
@@ -4050,6 +4139,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "The Westleigh",
+        "priceRange": "££",
         "alternateName": "Draper Tools Community Stadium",
         "identifier": {
           "@type": "URL",
@@ -4096,6 +4186,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Winch's Field",
+        "priceRange": "££",
         "alternateName": "The MBS Stadium",
         "identifier": {
           "@type": "URL",
@@ -4142,6 +4233,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Woodside Road",
+        "priceRange": "££",
         "alternateName": "The Crucial Environmental Stadium",
         "identifier": {
           "@type": "URL",
@@ -4188,6 +4280,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "York Road",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-east/york-road"
@@ -4241,6 +4334,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Bob Lucas Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-west/bob-lucas-stadium"
@@ -4286,6 +4380,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Cygnet Stadium",
+        "priceRange": "££",
         "alternateName": "The Cygnet Health Care Stadium",
         "identifier": {
           "@type": "URL",
@@ -4332,6 +4427,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Hardenhuish Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-west/hardenhuish-park"
@@ -4377,6 +4473,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Huish Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-west/huish-park"
@@ -4421,6 +4518,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "New Meadow Park",
+        "priceRange": "££",
         "alternateName": "TigerTurf Stadium",
         "identifier": {
           "@type": "URL",
@@ -4467,6 +4565,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Plainmoor",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-west/plainmoor"
@@ -4512,6 +4611,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Twerton Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/south-west/twerton-park"
@@ -4566,6 +4666,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Racecourse Ground",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/wales/racecourse-ground"
@@ -4620,6 +4721,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Aggborough",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/west-midlands/aggborough"
@@ -4665,6 +4767,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Damson Park",
+        "priceRange": "££",
         "alternateName": "ARMCO Arena",
         "identifier": {
           "@type": "URL",
@@ -4711,6 +4814,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Edgar Street",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/west-midlands/edgar-street"
@@ -4755,6 +4859,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Marston Road",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/west-midlands/marston-road"
@@ -4798,6 +4903,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "New Bucks Head",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/west-midlands/new-bucks-head"
@@ -4843,6 +4949,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "New Windmill Ground",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/west-midlands/new-windmill-ground"
@@ -4897,6 +5004,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Clayborn",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/yorkshire-and-the-humber/clayborn"
@@ -4941,6 +5049,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Flamingo Land Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/yorkshire-and-the-humber/flamingo-land-stadium"
@@ -4985,6 +5094,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Glanford Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/yorkshire-and-the-humber/glanford-park"
@@ -5029,6 +5139,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Horsfall Stadium",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/yorkshire-and-the-humber/horsfall-stadium"
@@ -5074,6 +5185,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Nethermoor Park",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/yorkshire-and-the-humber/nethermoor-park"
@@ -5118,6 +5230,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "The Citadel",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/yorkshire-and-the-humber/the-citadel"
@@ -5163,6 +5276,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "The Shay",
+        "priceRange": "££",
         "identifier": {
           "@type": "URL",
           "@value": "https://nonleaguegrounds.com/grounds/yorkshire-and-the-humber/the-shay"
@@ -5208,6 +5322,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "Turnbull Ground",
+        "priceRange": "££",
         "alternateName": "Towbar Express Stadium",
         "identifier": {
           "@type": "URL",
@@ -5252,6 +5367,7 @@
       {
         "@type": "StadiumOrArena",
         "name": "York Community Stadium",
+        "priceRange": "££",
         "alternateName": "LNER Community Stadium",
         "identifier": {
           "@type": "URL",
