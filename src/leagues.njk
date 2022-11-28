@@ -9,6 +9,7 @@ eleventyComputed:
 {% extends "base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
+{% from "hero.macro.njk" import hero %}
 
 {%- block link %}
   <link rel="preload" as="image" href="/img/{{ meta.hero['leagues'].src }}.jpg"/>
@@ -16,23 +17,10 @@ eleventyComputed:
 {%- endblock %}
 
 {%- block css %}
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text=LEAGUES");
-    header {
-      background-image: url("/img/{{ meta.hero['leagues'].src }}.jpg");
-    };
-  </style>
 {%- endblock %}
 
 {% block header %}
-  <header class="container-fluid hero" id="trophy" data-theme="dark">
-    <div class="container">
-      <hgroup>
-        <h1>Leagues</h1>
-        <h2>A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier</h2>
-      </hgroup>
-    </div>
-  </header>
+  {{ hero("Leagues", "A directory of " + leagues.length + " leagues in the English football conference, sorted by tier", meta.hero['leagues'].src) }}
 {% endblock %}
 
 {% block breadcrumb %}
@@ -41,7 +29,7 @@ eleventyComputed:
 
 {% block main %}
   <main class="container">
-    <table role="grid">
+    <table class="{{ meta.class.table }}">
       <thead>
         <tr>
           <th scope="col">Tier</th>

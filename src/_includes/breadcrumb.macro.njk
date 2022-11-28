@@ -1,36 +1,26 @@
-{% macro breadcrumb(tree, branch, leaf) %}
-  <div class="container-fluid">
-    <div class="container">
-      <nav aria-label="breadcrumb">
-        <ul>
-          <li>
-            <a href="/">Home</a>
+{%- macro breadcrumb(tree, branch, leaf) %}
+  <div class="container py-4 is-hidden-mobile">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        {%- if tree %}
+          <li {% if not branch -%} class="is-active has-text-weight-semibold" {%- endif %}>
+            <a href="/{{ tree | slugify }}" {% if not branch -%} aria-current="page" {%- endif %}>{{ tree }}</a>
           </li>
-          {%- if tree %}
-            <li>
-              {% if branch %}
-                <a href="/{{ tree | slugify }}/">{{- tree -}}</a>
-              {% else %}
-                {{- tree -}}
-              {% endif %}
-            </li>
-          {%- endif %}
-          {%- if branch %}
-            <li>
-              {% if leaf %}
-                <a href="/{{ tree | slugify }}/{{ branch | slugify }}">{{- branch -}}</a>
-              {% else %}
-                {{- branch -}}
-              {% endif %}
-            </li>
-          {%- endif %}
-          {%- if leaf %}
-            <li>
-              {{- leaf -}}
-            </li>
-          {%- endif %}
-        </ul>
-      </nav>
-    </div>
+        {%- endif %}
+        {%- if branch %}
+          <li {% if not leaf -%} class="is-active has-text-weight-semibold" {%- endif %}>
+            <a href="/{{ tree | slugify }}/{{ branch | slugify }}" {% if not leaf -%} aria-current="page" {%- endif %}>{{ branch }}</a>
+          </li>
+        {%- endif %}
+        {%- if leaf %}
+          <li class="is-active has-text-weight-semibold">
+            <a href="/{{ tree | slugify }}/{{ branch | slugify }}/{{ leaf | slugify }}" aria-current="page">{{ leaf }}</a>
+          </li>
+        {%- endif %}
+      </ul>
+    </nav>
   </div>
-{% endmacro %}
+{%- endmacro %}

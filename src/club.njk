@@ -10,9 +10,10 @@ eleventyComputed:
 ---
 {% extends "base.njk" %}
 
-{% from "macros.njk" import emoji %}
+{% from "emoji.macro.njk" import emoji %}
 {% from "aerial.macro.njk" import aerial %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
+{% from "hero.macro.njk" import hero %}
 {% from "macros.njk" import staticmap %}
 
 {% block link %}
@@ -28,20 +29,12 @@ eleventyComputed:
 
 {% block css %}
   <style>
-    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text={{ club.name | replace(' ', '') | upper | urlencode }}");
-    {{ aerial(club.location, env.google_maps_api_key) }}
+    {{aerial(club.location, env.google_maps_api_key)}}
   </style>
 {% endblock %}
 
 {% block header %}
-  <header class="container-fluid hero" id="{{ club.location.name | slugify }}" data-theme="dark">
-    <div class="container">
-      <hgroup>
-        <h1 id="{{ club.name | slugify }}">{{ club.name | replace(" ", "\n") | nl2br | safe }}</h1>
-        <h2>{{ club.memberOf.name }} • {{ club.areaServed.name }}</h2>
-      </hgroup>
-    </div>
-  </header>
+  {{ hero(club.name, club.memberOf.name, meta.hero['regions'].src, type = "medium") }}
 {% endblock %}
 
 {% block breadcrumb %}
@@ -52,8 +45,8 @@ eleventyComputed:
   <main class="container">
     <div class="grid">
       <section>
-        <h3>Overview</h3>
-        <p>
+        <h3 class="is-hidden-mobile">Overview</h3>
+        <p class="block">
           <strong>
             {{- club.alternateName -}}
           </strong>
@@ -62,7 +55,7 @@ eleventyComputed:
             , {{ club.location.address.addressRegion }}
           {%- endif -%}.
         </p>
-        <p>
+        <p class="block">
           Founded {{ club.foundingDate | ago }} years ago in {{ club.foundingDate }}, the team currently compete in the
           <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
             {{ club.memberOf.name }}</a>, 
@@ -70,7 +63,7 @@ eleventyComputed:
             the {{ club.memberOf.additionalProperty.@value | ordinal }} tier of English football
             {%- endif %}.
         </p>
-        <p>
+        <p class="block">
           They play their home matches at 
           <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
           and are nicknamed <strong>"{{ club.slogan }}"</strong>.
@@ -78,8 +71,7 @@ eleventyComputed:
         {% for url in club.sameAs %}
           {% if url.includes("twitter") %}
             {% set user = url.split("/")[3] %}
-            <a class="twitter-timeline" data-height="960" data-dnt="true" href="https://twitter.com/{{ user }}?ref_src=twsrc%5Etfw">Tweets by @{{ user }}</a>
-            <script async src="https://platform.twitter.com/widgets.js"></script>
+            <a href="https://twitter.com/intent/follow?{{ user }}?original_referer={{ meta.base | urlencode }}/&ref_src={{ "twsrc^tfw\|twcamp^buttonembed\|twterm^follow\|twgr^" | urlencode }}{{ user }}&region=follow_link&screen_name={{ user }}" class="button is-info is-responsive is-rounded has-text-weight-semibold">Follow @{{ user }}</a>
           {% endif %}
         {% endfor %}
       </section>
@@ -87,37 +79,28 @@ eleventyComputed:
         <figure>
           <img src="{{ club.logo.contentUrl }}" width="{{ club.logo.width }}" height="{{ club.logo.height }}" alt="{{ club.logo.caption }}" style="text-align: center; margin-right: 1em; margin-bottom: 1rem;">
         </figure>
-        <table role="grid">
+
+        <article class="box">
+          <h4 class="heading">Full name</h4>
+          <p class="block">{{ club.alternateName }}</p>
+          <h4 class="heading">Nickname</h4>
+          <p class="block">{{ club.slogan }}</p>
+          <h4 class="heading">Founded</h4>
+          <p class="block">
+            <time datetime="YYYY">{{ club.foundingDate }}</time>
+          </p>
+          <h4 class="heading">Ground</h4>
+          <p class="block">
+            <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}/">
+              {{ club.location.name }}
+            </a>
+          </p>
+          <h4 class="heading">Capacity</h4>
+          <p class="block">{{ club.location.maximumAttendeeCapacity | commaNumber }}</p>
+        </article>
+
+        <table class="table">
           <tbody>
-            <tr>
-              <th scope="row">Full name</th>
-              <td>{{ club.alternateName }}</td>
-            </tr>
-            <tr>
-              <th scope="row">Nickname</th>
-              <td>
-                {{ club.slogan }}
-                <span class="emoji">{{emoji(club.slogan)}}</span>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">Founded</th>
-              <td>
-                <time datetime="YYYY">{{ club.foundingDate }}</time>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">Ground</th>
-              <td>
-                <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}/">
-                  {{ club.location.name }}
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">Capacity</th>
-              <td>{{ club.location.maximumAttendeeCapacity | commaNumber }}</td>
-            </tr>
             <tr>
               <th scope="row">League</th>
               <td>
@@ -157,6 +140,7 @@ eleventyComputed:
             {% endfor %}
           </tbody>
         </table>
+
       </aside>
     </div>
   </main>

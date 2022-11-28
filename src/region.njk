@@ -11,20 +11,14 @@ eleventyComputed:
 {% extends "base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
+{% from "hero.macro.njk" import hero %}
 
 {%- block link %}
   <link rel="preload" as="image" href="/img/{{ meta.hero['regions'].src }}.jpg"/>
   <link rel="canonical" href="{{ meta.base }}/regions/{{ region.name | slugify }}/">
 {%- endblock %}
 
-{%- block css %}
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text={{ region.name | replace(' ', '') | upper }}");
-    header {
-      background-image: url("/img/{{ meta.hero['regions'].src }}.jpg");
-    };
-  </style>
-{%- endblock %}
+{%- block css %}{%- endblock %}
 
 {% block script %}
   <script type="application/ld+json">
@@ -33,19 +27,14 @@ eleventyComputed:
 {% endblock %}
 
 {% block header %}
-  <header class="container-fluid hero" id="regions" data-theme="dark">
-    <div class="container">
-      <hgroup>
-        <h1>{{ region.name | replace(" ", "\n") | nl2br | safe }}</h1>
-        <h2>
-          {{ region.alternateName | first | upper }}{{ region.alternateName.slice(1) }}
-          {% if region
-            .alternateName
-            .slice(-1) == "s" %} are {% else %} is {% endif %} at the heart of the non-league pyramid, with a total of {{ region.geoContains.length }} clubs.
-      </h2>
-      </hgroup>
-    </div>
-  </header>
+  {% set title = region.name %}
+  {%- set subtitle %}
+  {{- region.alternateName | first | upper }}{{ region.alternateName.slice(1) }}
+  {% if region
+    .alternateName
+    .slice(-1) == "s" %} are {% else %} is {% endif %} at the heart of the non-league pyramid, with a total of {{ region.geoContains.length }} clubs.
+  {%- endset %}
+  {{ hero(title, subtitle, meta.hero['regions'].src) }}
 {% endblock %}
 
 {% block breadcrumb %}
@@ -55,7 +44,7 @@ eleventyComputed:
 {% block main %}
   <main class="container">
     <div class="grid">
-      <table role="grid">
+      <table class="{{ meta.class.table }}">
         <thead>
           <tr>
             <th scope="col">Ground</th>

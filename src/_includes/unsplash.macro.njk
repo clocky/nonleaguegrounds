@@ -1,10 +1,10 @@
 {% macro unsplash(metadata) %}
-  <footer class="container-fluid">
+  <section class="section">
     <div class="container">
       <small>
-        Photo by <a href="https://unsplash.com/@{{ metadata.id }}?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">{{ metadata.author }}</a> 
-        on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash ↗</a>
+        Photo by <a href="https://unsplash.com/@{{ metadata.id }}?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="has-text-info">{{ metadata.author }}</a> 
+        on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="has-text-info">Unsplash ↗</a>
       </small>
     </div>
-  </footer>
+  </section>
 {% endmacro %}

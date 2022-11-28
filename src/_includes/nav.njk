@@ -1,30 +1,21 @@
-<div class="container">
-  <nav>
-    <ul>
-      <li>
-        <strong>
-          <a href="/">Non-League Grounds<wbr></a>
-        </strong>
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <a href="/grounds">
-          <span class="emoji" role="img" aria-label="arena">🏟️</span><span class="label"> Grounds</span>
-        </a>
-      </li>
-      <li>
-        <a href="/clubs">
-          <span class="emoji" role="img" aria-label="football">⚽</span><span class="label"> Clubs</span></a>
-      </li>
-      <li>
-        <a href="/leagues">
-          <span class="emoji" role="img" aria-label="trophy">🏆</span><span class="label"> Leagues</span></a>
-      </li>
-      <li>
-        <a href="/regions">
-          <span class="emoji" role="img" aria-label="world map">🗺️</span><span class="label"> Regions</span></a>
-      </li>
-    </ul>
-  </nav>
-</div>
+<nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-weight-semibold" href="/">Non-League Grounds</a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="navbar-menu">
+      <div class="navbar-end">
+        {%- for item in["Grounds", "Clubs", "Leagues", "Regions"] %}
+          <a class="navbar-item" href="/{{ item | lower }}">
+            {{- item -}}
+          </a>
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+</nav>

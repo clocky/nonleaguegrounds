@@ -1,0 +1,12 @@
+{% macro hero(title, subtitle, img, color = "dark", type = "halfheight")%}
+  {# See: https://codepen.io/leonidboykov/pen/Edvvpm #}
+  <section class="hero is-{{ color }} is-{{ type }} has-background">
+    <img class="hero-background is-transparent" src="/img/{{ img }}.jpg" alt="{{ title }}">
+    <div class="hero-body">
+      <div class="container has-text-left has-text-centered-mobile">
+        <h1 class="title">{{ title }}</h1>
+        <h2 class="subtitle">{{ subtitle }}</h2>
+      </div>
+    </div>
+  </section>
+{% endmacro %}

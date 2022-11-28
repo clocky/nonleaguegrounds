@@ -9,30 +9,17 @@ eleventyComputed:
 {% extends "base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
+{% from "hero.macro.njk" import hero %}
 
 {%- block link %}
   <link rel="preload" as="image" href="/img/{{ meta.hero['regions'].src }}.jpg"/>
   <link rel="canonical" href="{{ meta.base }}/regions">
 {%- endblock %}
 
-{%- block css %}
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text=REGIONS");
-    header {
-      background-image: url("/img/{{ meta.hero['regions'].src }}.jpg");
-    };
-  </style>
-{%- endblock %}
+{%- block css %}{%- endblock %}
 
 {% block header %}
-  <header class="container-fluid hero" id="regions" data-theme="dark">
-    <div class="container">
-      <hgroup>
-        <h1>Regions</h1>
-        <h2>A directory of {{ regions.length }} regions in the English football conference system</h2>
-      </hgroup>
-    </div>
-  </header>
+  {{ hero("Regions", "A directory of " + regions.length + " regions in the English football conference system", meta.hero['regions'].src) }}
 {% endblock %}
 
 {% block breadcrumb %}
@@ -41,7 +28,7 @@ eleventyComputed:
 
 {% block main %}
   <main class="container">
-    <table role="grid">
+    <table class="{{ meta.class.table }}">
       <thead>
         <tr>
           <th scope="col">Region</th>

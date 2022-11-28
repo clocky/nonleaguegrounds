@@ -4,30 +4,17 @@ preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
 ---
 {% extends "base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
+{% from "hero.macro.njk" import hero %}
 
 {%- block link %}
   <link rel="preload" as="image" href="/img/{{ meta.hero['clubs'].src }}.jpg"/>
 {%- endblock %}
 
 {%- block css %}
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text={{ meta.title | replace(' ', '') | upper }}");
-    header {
-      background-image: url("/img/{{ meta.hero['clubs'].src }}.jpg");
-    };
-  </style>
-
 {%- endblock %}
 
 {% block header %}
-  <header class="container-fluid hero" id="clubs" data-theme="dark">
-    <div class="container">
-      <hgroup>
-        <h1>{{ meta.title | replace(" ", "\n") | nl2br | safe}}</h1>
-        <h2>{{ meta.description }}</h2>
-      </hgroup>
-    </div>
-  </header>
+  {{ hero(meta.title, meta.description, meta.hero['clubs'].src ) }}
 {% endblock %}
 
 {% block main %}
