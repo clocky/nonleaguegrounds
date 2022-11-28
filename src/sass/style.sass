@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Emoji&display=swap&text=🏟️⚽🏆󠁧󠁢󠁷󠁬󠁳🐦📍🐝🪵⛏️🔨🤠🐦⛪🗡️󠁧󠁢󠁷󠁬󠁳🏃🦁󠁧󠁢󠁷󠁬󠁳✈️󠁧󠁢󠁷󠁬󠁳🏁🪨🏃󠁧󠁢󠁷󠁬󠁳🦐🧲🐦🪨🧤⛪🏖️🦌⚔️󠁧󠁢󠁷󠁬󠁳😇🪖🦌󠁧󠁢󠁷󠁬󠁳🦭🐦󠁧󠁢󠁷󠁬󠁳󠁧󠁢󠁷󠁬🪖🐯🐂󠁧󠁢󠁷󠁬󠁳🌺󠁧󠁢󠁷󠁬󠁳👶🐦󠁧󠁢󠁷󠁬󠁳✋󠁧󠁢󠁷󠁬󠁳✈️🐶🏖️󠁧󠁢󠁷󠁬󠁳⛵🧲🔴󠁧󠁢󠁷󠁬󠁳🐦🏖️󠁧󠁢󠁷󠁬󠁳🎯⚪󠁧󠁢󠁷󠁬󠁳🏠󠁧󠁢󠁷󠁬󠁳🦫🦅󠁧󠁢󠁷󠁬󠁳👑⚔️󠁧󠁢󠁷󠁬☘️󠁳⭕󠁧󠁢󠁷󠁬󠁳✊😇🦚😇🦅🌎󠁧󠁢󠁷󠁬󠁳✊🏴󠁧󠁢󠁷󠁬󠁳󠁿🙏🏻🍞🎻🇷🇰🪄👦🚪♟️🎓🍷🔫⚓🗺️ ")
+@import "../../node_modules/bulma/bulma.sass"
+
+[role="img"]
+  font-family: "Noto Emoji", sans-serif
+
+/* https://rsms.me/inter/ */
+:root
+  font-family: 'Inter', sans-serif
+
+@supports (font-variation-settings: normal)
+  :root
+    font-family: 'Inter var', sans-serif
+
+body
+  color: #1b1b1b
+
+/* https://codepen.io/leonidboykov/pen/Edvvpm */
+
+.hero
+  &.has-background
+    position: relative
+    overflow: hidden
+  &-background
+    position: absolute
+    object-fit: cover
+    object-position: center center
+    width: 100%
+    height: 100%
+    &.is-transparent
+      opacity: 0.3
