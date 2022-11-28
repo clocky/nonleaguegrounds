@@ -3,20 +3,20 @@
     <nav class="breadcrumb" aria-label="breadcrumbs">
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="/" class="has-text-weight-bold">Home</a>
         </li>
         {%- if tree %}
-          <li {% if not branch -%} class="is-active has-text-weight-semibold" {%- endif %}>
+          <li  class="{% if not branch -%}is-active{%- endif %} has-text-weight-semibold">
             <a href="/{{ tree | slugify }}" {% if not branch -%} aria-current="page" {%- endif %}>{{ tree }}</a>
           </li>
         {%- endif %}
         {%- if branch %}
-          <li {% if not leaf -%} class="is-active has-text-weight-semibold" {%- endif %}>
+          <li class="{% if not leaf -%}is-active{%- endif %} has-text-weight-medium">
             <a href="/{{ tree | slugify }}/{{ branch | slugify }}" {% if not leaf -%} aria-current="page" {%- endif %}>{{ branch }}</a>
           </li>
         {%- endif %}
         {%- if leaf %}
-          <li class="is-active has-text-weight-semibold">
+          <li class="is-active has-text-weight-normal">
             <a href="/{{ tree | slugify }}/{{ branch | slugify }}/{{ leaf | slugify }}" aria-current="page">{{ leaf }}</a>
           </li>
         {%- endif %}
