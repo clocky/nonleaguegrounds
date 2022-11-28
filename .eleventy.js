@@ -46,6 +46,7 @@ module.exports = function (eleventyConfig) {
       "https://www.facebook.com/*",
       "https://www.youtube.com/channel/*",
       "https://www.instagram.com/*",
+      "https://twitter.com/*",
     ],
   });
 
