@@ -20,3 +20,5 @@ hero:
         src: fancy-crave-qowyMze7jqg-unsplash
         author: Fancy Crave
         id: fancycrave
+class:
+    table: table is-fullwidth is-striped
