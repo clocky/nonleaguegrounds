@@ -7,6 +7,7 @@ eleventyComputed:
 ---
 {% extends "base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
+{% from "hero.macro.njk" import hero %}
 
 {%- block link %}
   <link rel="preload" as="image" href="/img/{{ meta.hero['grounds'].src }}.jpg"/>
@@ -14,23 +15,10 @@ eleventyComputed:
 {%- endblock %}
 
 {%- block css %}
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text=GROUNDS");
-    header {
-      background-image: url("/img/{{ meta.hero['grounds'].src }}.jpg");
-    };
-  </style>
 {%- endblock %}
 
 {% block header %}
-  <header class="container-fluid hero" id="ground" data-theme="dark">
-    <div class="container">
-      <hgroup>
-        <h1>Grounds</h1>
-        <h2>A directory of {{ grounds.length }} English non-league grounds, sorted by capacity</h2>
-      </hgroup>
-    </div>
-  </header>
+  {{ hero("Grounds", description, meta.hero['grounds'].src) }}
 {% endblock %}
 
 {% block main %}
