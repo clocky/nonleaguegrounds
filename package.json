@@ -7,12 +7,13 @@
     "webhint": "npx hint -c .hintrc https://www.nonleaguegrounds.com",
     "watch:eleventy": "ELEVENTY_ENV=development eleventy --serve",
     "build:eleventy": "ELEVENTY_ENV=production eleventy --quiet",
-    "postbuild": "npm-run-all postbuild:css postbuild:sharp",
+    "postbuild": "npm-run-all postbuild:css postbuild:sharp postbuild:avif",
     "start": "npm-run-all --parallel watch:*",
     "prebuild": "rimraf dist",
     "build": "npm-run-all build:eleventy",
     "postbuild:css": "lightningcss --minify --targets '> 0.25%, not IE 11' dist/css/style*.css -o dist/css/style*.css",
     "postbuild:sharp": "sharp resize 1280 -i dist/img/*.jpg -o dist/img --optimize",
+    "postbuild:avif": "sharp resize 1280 -i dist/img/*.avif -o dist/img --optimize",
     "postbuild:compress": "gzipper compress --zopfli --brotli --include css,ico,webmanifest ./dist"
   },
   "keywords": [

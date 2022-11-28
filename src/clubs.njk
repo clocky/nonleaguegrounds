@@ -8,18 +8,16 @@ eleventyComputed:
 ---
 {% extends "base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
+{% from "image-set.macro.njk" import imageSet with context %}
 
 {%- block link %}
-  <link rel="preload" as="image" href="/img/{{ meta.hero['clubs'].src }}.jpg"/>
   <link rel="canonical" href="{{ meta.base }}/clubs">
 {%- endblock %}
 
 {%- block css %}
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text=CLUBS");
-    header {
-      background-image: url("/img/{{ meta.hero['clubs'].src }}.jpg");
-    };
+    {{- imageSet("clubs")}}
   </style>
 {%- endblock %}
 

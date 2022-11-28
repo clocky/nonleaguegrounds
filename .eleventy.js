@@ -59,6 +59,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/_data/");
 
   eleventyConfig.addPassthroughCopy("./src/img/*.jpg");
+  eleventyConfig.addPassthroughCopy("./src/img/*.avif");
   eleventyConfig.addPassthroughCopy({ "./src/img/favicon": "/" });
 
   /** Add a filter to format inline dates for <time> tags */
