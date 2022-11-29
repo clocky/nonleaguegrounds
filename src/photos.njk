@@ -1,0 +1,63 @@
+---
+permalink: /photos/index.html
+title: Photos
+date: Last Modified
+eleventyComputed:
+    description: "Credits for the Creative Commons photos used on this site."
+---
+{% extends "base.njk" %}
+{% from "hero.macro.njk" import hero %}
+
+{%- block link %}
+  <link rel="canonical" href="{{ meta.base }}/photos">
+{%- endblock %}
+
+{%- block css %}{%- endblock %}
+
+{% block header %}
+  {{ hero("Photos", description, meta.hero['clubs'].src) }}
+{% endblock %}
+
+{% block main %}
+  <main class="container">
+    {% for batch in clubs | batch(8) %}
+      <div class="columns is-variable is-6">
+        {% for club in batch %}
+          {% if club.image %}
+            <div class="column">
+              <script type="application/ld+json">
+                {{ club.image | dump | safe }}
+              </script>
+              <figure class="image">
+                <picture>
+                  <source srcset="{{ club.image.contentUrl.split('.')[0] | safe }}.avif" type="image/avif">
+                  <source srcset="{{ club.image.contentUrl.split('.')[0] | safe }}.jpg" type="image/jpeg">
+                  <img 
+                    src="{{ club.image.contentUrl }}" 
+                    alt="{{ club.image.caption }}" 
+                    width="{{ club.image.width }}" 
+                    height="{{ club.image.height }}" 
+                    type="{{ club.image.encodingFormat }}"
+                    loading="async"
+                    decoding="lazy"
+                  >
+                </picture>
+                <figcaption class="mt-3 mb-6">
+                  <p class="has-text-weight-bold">
+                    <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}" class="is-dark">
+                      {{ club.alternateName }}
+                    </a>
+                  </p>
+                  <p class="block is-size-7">
+                    <a href="https://www.flickr.com/photos/{{ club.image.creator.identifier }}" class="has-text-danger">{{ club.image.creator.name }}</a> on 
+                    <a href="https://www.flickr.com/photos/{{ club.image.creator.identifier }}/{{ club.image.identifier }}" class="has-text-danger">Flickr ↗</a>
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </main>
+{% endblock %}
