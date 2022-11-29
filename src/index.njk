@@ -10,11 +10,10 @@ preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
   <link rel="preload" as="image" href="/img/{{ meta.hero['clubs'].src }}.jpg"/>
 {%- endblock %}
 
-{%- block css %}
-{%- endblock %}
+{%- block css %}{%- endblock %}
 
 {% block header %}
-  {{ hero(meta.title, meta.description, meta.hero['clubs'].src ) }}
+  {{ hero(meta.title, meta.description, meta.hero['home'].src ) }}
 {% endblock %}
 
 {% block main %}
