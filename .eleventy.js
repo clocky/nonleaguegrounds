@@ -21,14 +21,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRev);
   eleventyConfig.addPlugin(eleventySass, {
     compileOptions: {
-      permalink: function(contents, inputPath) {
-        return (data) => data.page.filePathStem.replace(/^\/sass\//, "/css/") + ".css";
-      }
+      permalink: function (contents, inputPath) {
+        return (data) =>
+          data.page.filePathStem.replace(/^\/sass\//, "/css/") + ".css";
+      },
     },
     sass: {
       style: "compressed",
     },
-    rev: true
+    rev: true,
   });
 
   /** Check for broken external links */
@@ -59,8 +60,8 @@ module.exports = function (eleventyConfig) {
   /** Watch data source file for changes */
   eleventyConfig.addWatchTarget("./src/_data/");
 
-  eleventyConfig.addPassthroughCopy("./src/img/*.jpg");
-  eleventyConfig.addPassthroughCopy("./src/img/*.avif");
+  eleventyConfig.addPassthroughCopy("./src/img/**/*.jpg");
+  eleventyConfig.addPassthroughCopy("./src/img/**/*.avif");
   eleventyConfig.addPassthroughCopy({ "./src/img/favicon": "/" });
 
   /** Add a filter to format inline dates for <time> tags */
