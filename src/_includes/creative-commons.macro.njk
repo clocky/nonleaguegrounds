@@ -1,0 +1,8 @@
+{% macro creativeCommons(metadata) %}
+  <div class="container">
+    <small>
+      Photo by <a href="https://www.flickr.com/photos/{{ metadata.id }}" class="has-text-info">{{ metadata.author }}</a> 
+      on <a href="https://www.flickr.com/photos/{{ metadata.id }}/{{ metadata.src.split('_')[0] }}" class="has-text-danger">Flickr ↗</a>
+    </small>
+  </div>
+{% endmacro %}
