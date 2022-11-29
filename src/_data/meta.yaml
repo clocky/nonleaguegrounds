@@ -4,10 +4,14 @@ description: "Non-League football is the lifeblood of the game. It's where the
     game is played, where the fans are, where the stories are."
 disclaimer: "Whilst we endeavour to ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we commit to ensuring that the website remains available or that the material on the website is kept up-to-date."
 hero:
-    clubs:
+    home:
         src: samuel-regan-asante-YOtjUyEfClo-unsplash
         author: Samuel Regan-Asante
         id: fkaregan
+    clubs:
+        src: richard-boyle-KGvLHzpOiaQ-unsplash
+        author: Richard Boyle
+        id: hellorich
     leagues:
         src: ezequiel-garrido-s6XWkKDKynY-unsplash
         author: Ezequiel Garrido
@@ -20,5 +24,6 @@ hero:
         src: fancy-crave-qowyMze7jqg-unsplash
         author: Fancy Crave
         id: fancycrave
+
 class:
     table: table is-fullwidth is-striped
