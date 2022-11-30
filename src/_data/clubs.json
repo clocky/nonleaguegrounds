@@ -79,6 +79,26 @@
         "@type": "url",
         "@value": "https://nonleaguegrounds.com/regions/south-east"
       }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "/img/photos/4583760420_aa0075c82a_k.jpg",
+      "caption": "Aldershot Town by Paul Wilkinson",
+      "representativeOfPage": true,
+      "encodingFormat": "image/jpeg",
+      "isFamilyFriendly": true,
+      "identifier": 4583760420,
+      "width": 1280,
+      "height": 960,
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Paul Wilkinson",
+        "identifier": "eepaul",
+        "givenName": "Paul",
+        "familyName": "Wilkinson"
+      }
     }
   },
   {
@@ -169,9 +189,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "34253996810",
+      "identifier": 34253996810,
       "width": 1280,
       "height": 686,
+      "license": "https://creativecommons.org/licenses/by-nd/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -351,9 +372,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "14782399846",
+      "identifier": 14782399846,
       "width": 1280,
       "height": 848,
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -696,9 +718,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "32477388441",
+      "identifier": 32477388441,
       "width": 1280,
       "height": 608,
+      "license": "https://creativecommons.org/licenses/by/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -1493,9 +1516,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "9808054475",
+      "identifier": 9808054475,
       "width": 1280,
       "height": 853,
+      "license": "https://creativecommons.org/licenses/by/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -1898,9 +1922,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "40822695674",
+      "identifier": 40822695674,
       "width": 1280,
       "height": 853,
+      "license": "https://creativecommons.org/licenses/by/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -1995,9 +2020,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "50614605518",
+      "identifier": 50614605518,
       "width": 1280,
       "height": 661,
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -2090,9 +2116,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "6070890549",
+      "identifier": 6070890549,
       "width": 1280,
       "height": 960,
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -2264,9 +2291,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "8114403972",
+      "identifier": 8114403972,
       "width": 1280,
       "height": 976,
+      "license": "https://creativecommons.org/licenses/by/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -2894,9 +2922,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "50614605518",
+      "identifier": 50614605518,
       "width": 1280,
       "height": 661,
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -4053,6 +4082,24 @@
         "@type": "url",
         "@value": "https://nonleaguegrounds.com/regions/east-of-england"
       }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "/img/photos/14505941950_34d9572c5e_k.jpg",
+      "caption": "Chelmsford City by hallison97photo",
+      "representativeOfPage": true,
+      "encodingFormat": "image/jpeg",
+      "isFamilyFriendly": true,
+      "identifier": 14505941950,
+      "width": 1280,
+      "height": 848,
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "hallison97photo",
+        "identifier": "hallison97photo"
+      }
     }
   },
   {
@@ -4506,9 +4553,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "19945177675",
+      "identifier": 19945177675,
       "width": 1280,
       "height": 854,
+      "license": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -5129,6 +5177,26 @@
         "@type": "url",
         "@value": "https://nonleaguegrounds.com/regions/south-east"
       }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "/img/photos/4618393512_13a4095609_k.jpg",
+      "caption": "Oxford City by Simon Q",
+      "representativeOfPage": true,
+      "encodingFormat": "image/jpeg",
+      "isFamilyFriendly": true,
+      "identifier": 4618393512,
+      "width": 1280,
+      "height": 960,
+      "license": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Simon Q",
+        "identifier": "simononly",
+        "givenName": "Simon",
+        "familyName": "Q"
+      }
     }
   },
   {
@@ -5209,9 +5277,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "19290512948",
+      "identifier": 19290512948,
       "width": 1280,
       "height": 753,
+      "license": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -5608,9 +5677,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "409890826",
+      "identifier": 409890826,
       "width": 1280,
       "height": 961,
+      "license": "https://creativecommons.org/licenses/by-nd/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -6250,9 +6320,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "50386233988",
+      "identifier": 50386233988,
       "width": 1280,
       "height": 854,
+      "license": "https://creativecommons.org/licenses/by/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -7286,9 +7357,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "52510810531",
+      "identifier": 52510810531,
       "width": 1280,
       "height": 854,
+      "license": "https://creativecommons.org/licenses/by/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -7447,6 +7519,26 @@
         "@type": "url",
         "@value": "https://nonleaguegrounds.com/regions/east-of-england"
       }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "/img/photos/48732420503_a4223955c1_k.jpg",
+      "caption": "Potters Bar Town by James Boyes",
+      "representativeOfPage": true,
+      "encodingFormat": "image/jpeg",
+      "isFamilyFriendly": true,
+      "identifier": 48732420503,
+      "width": 1280,
+      "height": 844,
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "James Boyes",
+        "identifier": "jamesboyes",
+        "givenName": "James",
+        "familyName": "Boyes"
+      }
     }
   },
   {
@@ -7531,9 +7623,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "49043569588",
+      "identifier": 49043569588,
       "width": 1280,
       "height": 772,
+      "license": "https://creativecommons.org/licenses/by/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -7773,9 +7866,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "15628240133",
+      "identifier": 15628240133,
       "width": 1280,
       "height": 960,
+      "license": "https://creativecommons.org/licenses/by-nc/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -7941,9 +8035,10 @@
       "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
       "isFamilyFriendly": true,
-      "identifier": "40822695674",
+      "identifier": 40822695674,
       "width": 1280,
       "height": 853,
+      "license": "https://creativecommons.org/licenses/by/2.0/",
       "creator": {
         "@context": "https://schema.org",
         "@type": "Person",
