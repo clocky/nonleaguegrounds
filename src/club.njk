@@ -14,10 +14,13 @@ eleventyComputed:
 {% from "aerial.macro.njk" import aerial %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 {% from "hero.macro.njk" import hero %}
+{% from "creative-commons.macro.njk" import creativeCommons %}
 {% from "macros.njk" import staticmap %}
 
 {% block link %}
-  <link rel="preload" as="image" href="{{ staticmap(club.location.latitude + "," + club.location.longitude, 'satellite', 17, 640, 240, 'jpg', 2, env.google_maps_api_key)}}"/>
+  {%- if club.image %}
+    <link rel="preload" as="image" href="{{ club.image.contentUrl.split(".")[0] }}.avif"/>
+  {%- endif %}
   <link rel="canonical" href="{{ meta.base }}/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">
 {% endblock %}
 
@@ -27,14 +30,16 @@ eleventyComputed:
   </script>
 {% endblock %}
 
-{% block css %}
-  <style>
-    {{aerial(club.location, env.google_maps_api_key)}}
-  </style>
-{% endblock %}
+{% block css %}{% endblock %}
 
 {% block header %}
-  {{ hero(club.name, club.memberOf.name, meta.hero['regions'].src, type = "medium") }}
+  {% if club.image %}
+    {% set src = club
+      .image
+      .contentUrl
+      .split(".")[0] %}
+  {% endif %}
+  {{ hero(club.name, club.memberOf.name, src, type = "medium") }}
 {% endblock %}
 
 {% block breadcrumb %}
@@ -43,9 +48,9 @@ eleventyComputed:
 
 {% block main %}
   <main class="container">
-    <div class="grid">
-      <section>
-        <h3 class="is-hidden-mobile">Overview</h3>
+    <div class="columns">
+      <section class="column is-two-thirds">
+        <h3 class="subtitle is-hidden-mobile">Overview</h3>
         <p class="block">
           <strong>
             {{- club.alternateName -}}
@@ -75,7 +80,7 @@ eleventyComputed:
           {% endif %}
         {% endfor %}
       </section>
-      <aside>
+      <aside class="column is-one-third">
         <figure>
           <img src="{{ club.logo.contentUrl }}" width="{{ club.logo.width }}" height="{{ club.logo.height }}" alt="{{ club.logo.caption }}" style="text-align: center; margin-right: 1em; margin-bottom: 1rem;">
         </figure>
@@ -144,9 +149,9 @@ eleventyComputed:
       </aside>
     </div>
   </main>
+
 {% endblock %}
 
-<footer class="container">
-  <small>Background image supplied by <a href="https://developers.google.com/maps/documentation/maps-static/overview" target="_blank">Google Maps</a>
-  </small>
-</footer>
+{% block attribution %}
+  {{ creativeCommons(club.image)}}
+{% endblock %}
