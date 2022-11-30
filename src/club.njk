@@ -153,5 +153,11 @@ eleventyComputed:
 {% endblock %}
 
 {% block attribution %}
-  {{ creativeCommons(club.image)}}
+  {#-
+    Show a Creative Commons license and link back to Flickr if 
+    there's a club image in the original schema.org data.
+  -#}
+  {%- if club.image %}
+    {{ creativeCommons(club.image)}}
+  {% endif %}
 {% endblock %}
