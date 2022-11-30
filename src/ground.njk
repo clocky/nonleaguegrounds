@@ -45,7 +45,7 @@ apple %}
     Home of
       {%- for club in ground.subOrganization -%}
         {%- if not loop.first -%}, and{% endif %}
-      {{ club.name -}}
+      {{ club.name | safe -}}
     {%- endfor -%}
   {% endset %}
 {{- hero(ground.name, subtitle) }}
