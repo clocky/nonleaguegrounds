@@ -1,8 +1,13 @@
-{% macro creativeCommons(metadata) %}
+{% macro creativeCommons(image) %}
   <div class="container">
     <small>
-      Photo by <a href="https://www.flickr.com/photos/{{ metadata.id }}" class="has-text-info">{{ metadata.author }}</a> 
-      on <a href="https://www.flickr.com/photos/{{ metadata.id }}/{{ metadata.src.split('_')[0] }}" class="has-text-danger">Flickr ↗</a>
+      Photo by <a href="https://www.flickr.com/photos/{{ image.creator.identifier }}" class="has-text-danger">{{ image.creator.name }}</a> 
+      on <a href="https://www.flickr.com/photos/{{ image.creator.identifier }}/{{ image.identifier }}" class="has-text-danger">Flickr ↗</a>
+      {% if image.license %}
+        <p>
+          <a href="{{ image.license }}" class="has-text-black has-text-weight-bold">CC-{{ image.license.split("/")[4] | upper }}-{{ image.license.split("/")[5] | upper }}</a>
+        </p>
+      {% endif %}
     </small>
   </div>
 {% endmacro %}
