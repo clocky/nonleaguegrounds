@@ -2,8 +2,8 @@
   {# See: https://codepen.io/leonidboykov/pen/Edvvpm #}
   <section class="hero is-{{ color }} is-{{ type }} has-background">
     <picture>
-      <source srcset="/img/{{ img }}.avif" type="image/avif">
-      <source srcset="/img/{{ img }}.jpeg" type="image/jpeg">
+      <source srcset="{{ img }}.avif" type="image/avif">
+      <source srcset="{{ img }}.jpeg" type="image/jpeg">
       <img class="hero-background is-transparent" src="/img/{{ img }}.jpg" alt="{{ title }}">
     </picture>
     <div class="hero-body">
