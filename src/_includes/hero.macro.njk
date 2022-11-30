@@ -1,11 +1,14 @@
 {% macro hero(title, subtitle, img, color = "dark", type = "halfheight")%}
   {# See: https://codepen.io/leonidboykov/pen/Edvvpm #}
-  <section class="hero is-{{ color }} is-{{ type }} has-background">
-    <picture>
-      <source srcset="{{ img }}.avif" type="image/avif">
-      <source srcset="{{ img }}.jpeg" type="image/jpeg">
-      <img class="hero-background is-transparent" src="/img/{{ img }}.jpg" alt="{{ title }}">
-    </picture>
+  {# Smaller hero height if there's no supplied image #}
+  <section class="hero is-{{ color }} is-{{ type if img else 'small' }} has-background">
+    {%- if img %}
+      <picture>
+        <source srcset="{{ img }}.avif" type="image/avif">
+        <source srcset="{{ img }}.jpeg" type="image/jpeg">
+        <img class="hero-background is-transparent" src="/img/{{ img }}.jpg" alt="{{ title }}">
+      </picture>
+    {%- endif %}
     <div class="hero-body">
       <div class="container has-text-left has-text-centered-mobile">
         <h1 class="title">{{ title }}</h1>
