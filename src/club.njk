@@ -49,8 +49,7 @@ eleventyComputed:
 {% block main %}
   <main class="container">
     <div class="columns">
-      <section class="column is-two-thirds">
-        <h3 class="subtitle is-hidden-mobile">Overview</h3>
+      <article class="column is-two-thirds">
         <p class="block">
           <strong>
             {{- club.alternateName -}}
@@ -79,13 +78,39 @@ eleventyComputed:
             <a href="https://twitter.com/intent/follow?{{ user }}?original_referer={{ meta.base | urlencode }}/&ref_src={{ "twsrc^tfw\|twcamp^buttonembed\|twterm^follow\|twgr^" | urlencode }}{{ user }}&region=follow_link&screen_name={{ user }}" class="button is-info is-responsive is-rounded has-text-weight-semibold">Follow @{{ user }}</a>
           {% endif %}
         {% endfor %}
-      </section>
+
+        <!-- www -->
+        <nav class="level">
+          {% if club.url %}
+            <div class="level-item has-text-centered">
+              <p class="heading">web</p>
+              <p class="title">
+                <a href="{{ club.url }}/" target="_blank" rel="noopener">
+                  {{ club.url.slice(8) }} ↗ 
+                </a>
+              </p>
+            </div>
+          {% endif %}
+          <!-- social -->
+          {% for url in club.sameAs %}
+            {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") else url.split("/")[2].split(".")[1] -%}
+            {%- set user = url.split("/")[3] -%}
+            <div class="level-item has-text-centered">
+              <p class="heading">{{ network | capitalize }}</p>
+              <p class="title">
+                @{{user}}
+                {# <a href="{{ url }}" target="_blank" rel="noopener canonical">@{{ user }} ↗ </a> #}
+              </p>
+            </div>
+          {% endfor %}
+        </nav>
+      </article>
       <aside class="column is-one-third">
         <figure>
           <img src="{{ club.logo.contentUrl }}" width="{{ club.logo.width }}" height="{{ club.logo.height }}" alt="{{ club.logo.caption }}" style="text-align: center; margin-right: 1em; margin-bottom: 1rem;">
         </figure>
 
-        <article class="box">
+        <div>
           <h4 class="heading">Full name</h4>
           <p class="block">{{ club.alternateName }}</p>
           <h4 class="heading">Nickname</h4>
@@ -100,52 +125,13 @@ eleventyComputed:
               {{ club.location.name }}
             </a>
           </p>
+          <h4 class="heading">League</h4>
+          <p class="block">
+            {{ club.memberOf.name }}
+          </p>
           <h4 class="heading">Capacity</h4>
           <p class="block">{{ club.location.maximumAttendeeCapacity | commaNumber }}</p>
-        </article>
-
-        <table class="table">
-          <tbody>
-            <tr>
-              <th scope="row">League</th>
-              <td>
-                <a href="/leagues/{{ club.memberOf.name | slugify }}">
-                  {{ club.memberOf.name }}
-                </a>
-              </td>
-            </tr>
-            {% if club.url %}
-              <tr>
-                <th scope="row">Web</th>
-                <td>
-                  <a href="{{ club.url }}/" 
-                    target="_blank" 
-                    rel="noopener" 
-                    hreflang="en-GB"
-                  >
-                    {{ club.url.slice(8) }} ↗ 
-                  </a>
-                </td>
-              </tr>
-            {% endif %}
-            {% for url in club.sameAs %}
-              {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") else url.split("/")[2].split(".")[1] -%}
-              {%- set user = url.split("/")[3] -%}
-              <tr>
-                <th scope="row">{{ network | capitalize }}</th>
-                <td>
-                  <a 
-                    href="{{ url }}"
-                    target="_blank"
-                    rel="noopener canonical"
-                    hreflang="en-US"
-                  >@{{ user }} ↗ </a>
-                </td>
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-
+        </div>
       </aside>
     </div>
   </main>
