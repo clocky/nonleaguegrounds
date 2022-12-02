@@ -8,7 +8,7 @@ eleventyComputed:
     title: "{{ ground.name | safe }} | {{ meta.title }}"
     description: "Information about the non-league football ground, {{ ground.name }}, with maps, address and contact information."
 ---
-{% extends "base.njk" %}
+{% extends "./_layouts/base.njk" %}
 
 {% from "macros.njk" import staticmap %}
 {% from "aerial.macro.njk" import aerial %}
@@ -20,19 +20,13 @@ osm,
 google,
 apple %}
 
-{% extends "base.njk" %}
+{% extends "./_layouts/base.njk" %}
 
 {%- block link %}
-  <link rel="preload" as="image" href="{{ staticmap(ground.latitude + "," + ground.longitude, 'satellite', 17, 640, 240, 'jpg', 2, env.google_maps_api_key)}}"/>
   <link rel="canonical" href="{{ meta.base }}/regions/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}">
 {%- endblock %}
 
-{% block css %}
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text={{ ground.name | replace(' ', '') | upper }}");
-    {{aerial(ground, env.google_maps_api_key)}}
-  </style>
-{% endblock %}
+{% block css %}{% endblock %}
 
 {% block script %}
   <script type="application/ld+json">
@@ -44,151 +38,158 @@ apple %}
   {% set subtitle %}
     Home of
       {%- for club in ground.subOrganization -%}
-        {%- if not loop.first -%}, and{% endif %}
-      {{ club.name | safe -}}
-    {%- endfor -%}
+    {%- if not loop.first -%}, and{% endif %}
+    {{ club.name | safe -}}
+  {%- endfor -%}
   {% endset %}
-{{- hero(ground.name, subtitle) }}
+  {{- hero(ground.name, subtitle) }}
 {% endblock %}
 
 {% block breadcrumb %}
-{{- breadcrumb("Regions", ground.areaServed.name, ground.name) }}
+  {{- breadcrumb("Regions", ground.areaServed.name, ground.name) }}
 {% endblock %}
 
 {% block main %}
-<main class="container">
-  <div class="grid">
-    <section>
-      <h3 class="title is-hidden-mobile">Overview</h3>
-      <p class="block">
-        <strong>{{ ground.name }}</strong>
-        {%- if ground.sponsor %}, officially known as <strong>{{ ground.sponsor.name | safe }}</strong> for sponsorship reasons, {% endif %}
-        is an {{ ground.subOrganization[0].sport | lower }} ground in {{ ground.address.addressLocality }}
-        {%- if ground.address.addressRegion -%}
-        , {{ ground.address.addressRegion }}
-        {%- endif %} that holds {{ ground.maximumAttendeeCapacity | commaNumber }} people.
-      </p>
-      {% for club in ground.subOrganization %}
+  <main class="container">
+    <div class="columns">
+      <section class="column is-two-thirds">
         <p class="block">
-          {% if not loop.first %} 
+          <strong>{{ ground.name }}</strong>
+          {%- if ground.sponsor %}, officially known as <strong>{{ ground.sponsor.name | safe }}</strong> for sponsorship reasons, {% endif %}
+        is an {{ ground.subOrganization[0].sport | lower }} ground in {{ ground.address.addressLocality }}
+          {%- if ground.address.addressRegion -%}
+        , {{ ground.address.addressRegion }}
+          {%- endif %} that holds {{ ground.maximumAttendeeCapacity | commaNumber }} people.
+      </p>
+        {% for club in ground.subOrganization %}
+          <p class="block">
+            {% if not loop.first %} 
             In addition, the ground is shared with 
             {% else %} 
             The ground is the home of
             {% endif %}
-          <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | safe | slugify }}">{{ club.alternateName }}</a>, 
+            <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | safe | slugify }}">{{ club.alternateName }}</a>, 
             who currently compete in the <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.name }}</a>.</p>
-      {% endfor %}
-      <figure>
-        <img src="https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels/{{ground.latitude}},{{ground.longitude}}/18?mapSize=720,360&query={{ground.name | urlencode}}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}"  alt="An aerial photograph of {{ ground.name }} in {{ ground.locality }}, {{ ground.region }}.">
-        <figcaption>
-          <small>Bing Maps view of {{ ground.name }}, {{ ground.address.addressLocality }}</small>
-        </figcaption>
-      </figure>
-      <h4 class="subtitle">Nearby grounds</h4>
-      <ul>
-        {% set count = 0%}
-        {% for away in grounds %}
-          {% set distance %}
-          {% distance ground.latitude,
-          ground.longitude,
-          away.latitude,
-          away.longitude %}
-          {% endset %}
-          {% if distance < 15 and away.name != ground.name %}
-            <li>
-              {% for club in clubs %}
-                {% if club.location.name == away.name %}
-                  <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
-                  {% set count = count + 1 %}
-                {% endif %}
-              {% endfor %} at 
+        {% endfor %}
+        <figure>
+          <img src="https://dev.virtualearth.net/REST/v1/Imagery/Map/AerialWithLabels/{{ground.latitude}},{{ground.longitude}}/18?mapSize=720,360&query={{ground.name | urlencode}}&mapLayer=Basemap,Buildings&format=jpeg&mapMetadata=0&key={{ env.bing_maps_api_key }}"  alt="An aerial photograph of {{ ground.name }} in {{ ground.locality }}, {{ ground.region }}.">
+          <figcaption>
+            <small>Bing Maps view of {{ ground.name }}, {{ ground.address.addressLocality }}</small>
+          </figcaption>
+        </figure>
+        <h4 class="subtitle">Nearby grounds</h4>
+        <ul>
+          {% set count = 0%}
+          {% for away in grounds %}
+            {% set distance %}
+            {% distance ground.latitude,
+            ground.longitude,
+            away.latitude,
+            away.longitude %}
+            {% endset %}
+            {% if distance < 15 and away.name != ground.name %}
+              <li>
+                {% for club in clubs %}
+                  {% if club.location.name == away.name %}
+                    <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
+                    {% set count = count + 1 %}
+                  {% endif %}
+                {% endfor %} at 
                 <a href="/regions/{{ away.areaServed.name | slugify }}/{{ away.name|slugify }}">{{ away.name }}</a>
                 ({{ distance | round(1) }} mi)
               </li>
-          {% endif %}
-        {% endfor %}
-        {% if count == 0 %}
-          <li>
+            {% endif %}
+          {% endfor %}
+          {% if count == 0 %}
+            <li>
               No grounds found within a 10 mile radius.
           </li>
-        {% endif %}
-      </ul>
-      <h4>Maps</h4>
-      <ul>
-        <li>
-          <a 
-            href="{{ google(ground) }}" 
-            rel="noopener"
-            target="_blank" 
-            aria-label="Open in Google Maps">Google Maps</a>
-        </li>
-        <li>
-          <a 
-            href="{{ apple(ground) }}"
-            rel="noopener"
-            target="_blank" 
-            aria-label="Open in Apple Maps">Apple Maps</a>
-        </li>
-        <li>
-          <a 
-            href="{{ bing(ground) }}"
-            rel="noopener"
-            target="_blank" 
-            aria-label="Open in Bing Maps">Bing Maps</a>
-        </li>
-        <li>
-          <a 
-            href="{{ osm(ground) }}"
-            rel="noopener"
-            target="_blank" 
-            aria-label="Open in Open Street Maps">OpenStreetMap</a>
-        </li>
-      </ul>
-    </section>
-    <aside>
-      <h4>Information</h4>
-      <table role="grid">
-        <tbody>
-          <tr>
-            <th scope="row">Name</th>
-            <td>
-              {{ ground.name | safe }}
-            </td>
-          </tr>
-          {% if ground.sponsor %}
+          {% endif %}
+        </ul>
+        <div class="dropdown">
+          <div class="dropdown-trigger">
+            <button class="button" aria-haspopup="true" aria-controls="view-maps">
+              <span>Show map</span>
+              <span class="icon is-small">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+          <div class="dropdown-menu" id="view-maps" role="menu">
+            <div class="dropdown-content">
+              <a 
+              href="{{ google(ground) }}" 
+              rel="noopener"
+              target="_blank"
+              class="dropdown-item"
+              aria-label="Open in Google Maps">Google Maps</a>
+              <a 
+              href="{{ apple(ground) }}"
+              rel="noopener"
+              target="_blank" 
+              class="dropdown-item"
+              aria-label="Open in Apple Maps">Apple Maps</a>
+              <a 
+              href="{{ bing(ground) }}"
+              rel="noopener"
+              target="_blank" 
+              class="dropdown-item"
+              aria-label="Open in Bing Maps">Bing Maps</a>
+              <a 
+              href="{{ osm(ground) }}"
+              rel="noopener"
+              target="_blank" 
+              class="dropdown-item"
+              aria-label="Open in Open Street Maps">OpenStreetMap</a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <aside class="column">
+        <h4>Information</h4>
+        <table role="grid">
+          <tbody>
             <tr>
-              <th scope="row">Sponsor</th>
+              <th scope="row">Name</th>
               <td>
-                {{ ground.sponsor.name | safe }}
+                {{ ground.name | safe }}
               </td>
             </tr>
-          {% endif %}
-          {% if ground.address.streetAddress != ground.name %}
+            {% if ground.sponsor %}
+              <tr>
+                <th scope="row">Sponsor</th>
+                <td>
+                  {{ ground.sponsor.name | safe }}
+                </td>
+              </tr>
+            {% endif %}
+            {% if ground.address.streetAddress != ground.name %}
+              <tr>
+                <th scope="row">Street</th>
+                <td>
+                  {{ ground.address.streetAddress }}
+                </td>
+              </tr>
+            {% endif %}
             <tr>
-              <th scope="row">Street</th>
+              <th scope="row">Town</th>
               <td>
-                {{ ground.address.streetAddress }}
+                {{ ground.address.addressLocality | upper }}
               </td>
             </tr>
-          {% endif %}
-          <tr>
-            <th scope="row">Town</th>
-            <td>
-              {{ ground.address.addressLocality | upper }}
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">Postcode</th>
-            <td>
-              {{ ground.address.postalCode | upper }}
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      {% for club in ground.subOrganization %}
-        <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify}}.vcf" role="button" download class="outline">Save to address book</a>
-      {% endfor %}
-    </aside>
-  </div>
-</main>
+            <tr>
+              <th scope="row">Postcode</th>
+              <td>
+                {{ ground.address.postalCode | upper }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        {% for club in ground.subOrganization %}
+          <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify}}.vcf" role="button" download class="outline">Save to address book</a>
+        {% endfor %}
+      </aside>
+    </div>
+  </main>
 {% endblock %}

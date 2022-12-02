@@ -6,18 +6,17 @@ eleventyComputed:
     title: "Football Conference Leagues"
     description: "A directory of {{ leagues.length }} leagues in the English football conference, sorted by tier."
 ---
-{% extends "base.njk" %}
+{% extends "./_layouts/base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 {% from "hero.macro.njk" import hero %}
 
 {%- block link %}
-  <link rel="preload" as="image" href="/img/{{ meta.hero['leagues'].src }}.jpg"/>
+  <link rel="preload" as="image" href="{{ meta.hero['leagues'].src }}.jpg"/>
   <link rel="canonical" href="{{ meta.base }}/leagues">
 {%- endblock %}
 
-{%- block css %}
-{%- endblock %}
+{%- block css %}{%- endblock %}
 
 {% block header %}
   {{ hero("Leagues", "A directory of " + leagues.length + " leagues in the English football conference, sorted by tier", meta.hero['leagues'].src) }}

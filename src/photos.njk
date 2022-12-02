@@ -5,7 +5,7 @@ date: Last Modified
 eleventyComputed:
     description: "Credits for the Creative Commons photos used on this site."
 ---
-{% extends "base.njk" %}
+{% extends "./_layouts/base.njk" %}
 {% from "hero.macro.njk" import hero %}
 
 {%- block link %}
@@ -21,15 +21,15 @@ eleventyComputed:
 {% block main %}
   <main class="container">
     {% for batch in clubs | batch(8) %}
-    <div class="columns">
-      {% for club in batch %}
-      {% if club.image %}
-    <div class="column">
-        <script type="application/ld+json">
-          {{ club.image | dump | safe }}
-        </script>
-        {% set ratio %}
-        {% if club.image.height == 1024 %}
+      <div class="columns">
+        {% for club in batch %}
+          {% if club.image %}
+            <div class="column">
+              <script type="application/ld+json">
+                {{ club.image | dump | safe }}
+              </script>
+              {% set ratio %}
+              {% if club.image.height == 1024 %}
           is-5by4
         {% elif club.image.height > 950 and club.image.height < 970 %}
           is-4by3
@@ -42,13 +42,13 @@ eleventyComputed:
         {% elif club.image.height > 630 and club.image.height < 650 %}
           is-2by1
         {% endif %}
-        {% endset %}
-        <figure>
-          <figure class="image {{ ratio -}}">
-            <picture>
-              <source srcset="{{ club.image.contentUrl.split('.')[0] | safe }}.avif" type="image/avif">
-              <source srcset="{{ club.image.contentUrl.split('.')[0] | safe }}.jpg" type="image/jpeg">
-              <img 
+              {% endset %}
+              <figure>
+                <figure class="image {{ ratio -}}">
+                  <picture>
+                    <source srcset="{{ club.image.contentUrl.split('.')[0] | safe }}.avif" type="image/avif">
+                    <source srcset="{{ club.image.contentUrl.split('.')[0] | safe }}.jpg" type="image/jpeg">
+                    <img 
                     src="{{ club.image.contentUrl }}" 
                     alt="{{ club.image.caption }}" 
                     width="{{ club.image.width }}" 
@@ -57,33 +57,33 @@ eleventyComputed:
                     loading="async"
                     decoding="lazy"
                   >
-            </picture>
-          </figure>
-          <figcaption class="mt-3 mb-6">
-            <p class="has-text-weight-bold">
-              <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}" class="is-dark">
-                {{ club.alternateName }}
-              </a>
-            </p>
-            <p class="is-size-7">
-              <a href="https://www.flickr.com/photos/{{ club.image.creator.identifier }}" class="has-text-danger">{{ club.image.creator.name }}</a> on 
+                  </picture>
+                </figure>
+                <figcaption class="mt-3 mb-6">
+                  <p class="has-text-weight-bold">
+                    <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}" class="is-dark">
+                      {{ club.alternateName }}
+                    </a>
+                  </p>
+                  <p class="is-size-7">
+                    <a href="https://www.flickr.com/photos/{{ club.image.creator.identifier }}" class="has-text-danger">{{ club.image.creator.name }}</a> on 
                     <a href="https://www.flickr.com/photos/{{ club.image.creator.identifier }}/{{ club.image.identifier }}" class="has-text-danger">Flickr ↗</a>
-            </p>
-            {%- if club.image.license %}
-              <p class="is-size-7 has-text-weight-bold">
-                {% set license = club
-                  .image
-                  .license
-                  .split("/") %}
-                <a href="{{ club.image.license }}" class="has-text-dark">CC-{{ license[4] | upper }}-{{ license[5] | upper }} ↗</a>
-              </p>
-            {%- endif %}
-          </figcaption>
-        </figure>
+                  </p>
+                  {%- if club.image.license %}
+                    <p class="is-size-7 has-text-weight-bold">
+                      {% set license = club
+                        .image
+                        .license
+                        .split("/") %}
+                      <a href="{{ club.image.license }}" class="has-text-dark">CC-{{ license[4] | upper }}-{{ license[5] | upper }} ↗</a>
+                    </p>
+                  {%- endif %}
+                </figcaption>
+              </figure>
+            </div>
+          {% endif %}
+        {% endfor %}
       </div>
-      {% endif %}
-    {% endfor %}
-    </div>
     {% endfor %}
   </main>
 {% endblock %}

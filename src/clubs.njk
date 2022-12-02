@@ -6,12 +6,12 @@ date: git Last Modified
 eleventyComputed:
     description: "A directory of {{ clubs.length }} non-league clubs, sorted alphabetically"
 ---
-{% extends "base.njk" %}
+{% extends "./_layouts/base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
 {% from "hero.macro.njk" import hero %}
 
 {%- block link %}
-  <link rel="preload" as="image" href="/img/{{ meta.hero['clubs'].src }}.jpg"/>
+  <link rel="preload" as="image" href="{{ meta.hero['clubs'].src }}.jpg"/>
   <link rel="canonical" href="{{ meta.base }}/clubs">
 {%- endblock %}
 

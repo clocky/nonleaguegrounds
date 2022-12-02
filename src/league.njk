@@ -8,7 +8,7 @@ eleventyComputed:
     title: "Clubs in the {{ league.alternateName | safe }}"
     description: "The {{ league.name }} is at the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs"
 ---
-{% extends "base.njk" %}
+{% extends "./_layouts/base.njk" %}
 
 {% from "emoji.macro.njk" import emoji %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
