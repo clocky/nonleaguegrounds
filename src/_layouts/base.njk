@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include "head.njk" %}
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    {%- block link %}{%- endblock %}
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/styles.css">
+    {%- block css -%}{%- endblock %}
+    {%- block script %}{%- endblock %}
+    <title>
+      {%- if title %}{{ title }}
+      {% else %}{{ meta.title }}
+      {% endif -%}
+    </title>
+    {%- if env.eleventy == "production" %}
+      <script defer data-domain="nonleaguegrounds.com" src="https://plausible.io/js/script.outbound-links.js"></script>
+    {%- endif %}
+  </head>
+  <body class="has-navbar-fixed-top">
+    {% include "nav.njk" %}
+    {% block header %}{% endblock %}
+    {% block breadcrumb %}{% endblock %}
+    <section class="section">
+      {% block main %}{% endblock %}
+    </section>
+    <section class="section">
+      {% block attribution %}{% endblock %}
+    </section>
+    {% include "footer.njk" %}
+  </body>
+  <script src="/js/app.min.js" defer></script>
+</html>
