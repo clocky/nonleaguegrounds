@@ -12,8 +12,6 @@
     "build:eleventy": "ELEVENTY_ENV=production eleventy",
     "build:scripts": "esbuild src/_assets/scripts/app.js --bundle --minify --outfile=dist/js/app.min.js",
     "postbuild": "lightningcss --minify --targets '> 0.25%, not IE 11' dist/css/styles.css -o dist/css/styles.min.css",
-    "postbuild:sharp": "sharp resize 1280 -i dist/img/*.jpg -o dist/img --optimize",
-    "postbuild:avif": "sharp resize 1280 -i dist/img/*.avif -o dist/img --optimize",
     "postbuild:compress": "gzipper compress --zopfli --brotli --include css,ico,webmanifest ./dist",
     "build": "npm-run-all --sequential clean build:*",
     "start": "npm-run-all build:sass --parallel watch:*"
@@ -56,7 +54,6 @@
     "ordinal": "^1.0.3",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "sass": "^1.56.1",
-    "sharp-cli": "^3.0.0"
+    "sass": "^1.56.1"
   }
 }
