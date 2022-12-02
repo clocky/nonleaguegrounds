@@ -18,9 +18,6 @@ module.exports = function (eleventyConfig) {
     });
   }
 
-
-  /** Check for broken external links */
-  /** Apple URL's always seem to 302, so we ignore them */
   eleventyConfig.addPlugin(brokenLinksPlugin, {
     broken: "warn",
     redirect: "warn",
@@ -48,8 +45,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/_data/");
 
   eleventyConfig.addPassthroughCopy("./src/js/*.js");
-  eleventyConfig.addPassthroughCopy("./src/img/**/*.jpg");
-  eleventyConfig.addPassthroughCopy("./src/img/**/*.avif");
   eleventyConfig.addPassthroughCopy({"src/static": "/"});
 
   /** Add a filter to format inline dates for <time> tags */
