@@ -8,8 +8,7 @@ const EleventyFetch = require("@11ty/eleventy-fetch");
 const distFrom = require("distance-from");
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
 const brokenLinksPlugin = require("eleventy-plugin-broken-links");
-const pluginRev = require("eleventy-plugin-rev");
-const eleventySass = require("eleventy-sass");
+
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === "production") {
@@ -18,19 +17,7 @@ module.exports = function (eleventyConfig) {
       quiet: false,
     });
   }
-  eleventyConfig.addPlugin(pluginRev);
-  eleventyConfig.addPlugin(eleventySass, {
-    compileOptions: {
-      permalink: function (contents, inputPath) {
-        return (data) =>
-          data.page.filePathStem.replace(/^\/sass\//, "/css/") + ".css";
-      },
-    },
-    sass: {
-      style: "compressed",
-    },
-    rev: true,
-  });
+
 
   /** Check for broken external links */
   /** Apple URL's always seem to 302, so we ignore them */
@@ -60,9 +47,10 @@ module.exports = function (eleventyConfig) {
   /** Watch data source file for changes */
   eleventyConfig.addWatchTarget("./src/_data/");
 
+  eleventyConfig.addPassthroughCopy("./src/js/*.js");
   eleventyConfig.addPassthroughCopy("./src/img/**/*.jpg");
   eleventyConfig.addPassthroughCopy("./src/img/**/*.avif");
-  eleventyConfig.addPassthroughCopy({ "./src/img/favicon": "/" });
+  eleventyConfig.addPassthroughCopy({"src/static": "/"});
 
   /** Add a filter to format inline dates for <time> tags */
   const formatDate = (date, format) => dayjs(date).format(format);
@@ -107,6 +95,11 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "src",
       output: "dist",
+			includes: "_includes",
+      layouts: "_layouts"
     },
+    templateFormats: ["njk"],
+    htmlTemplateEngine: "njk",
+    passthroughFileCopy: true,
   };
 };
