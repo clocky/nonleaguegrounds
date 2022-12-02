@@ -4,5 +4,5 @@ module.exports = {
 
   // CSS files to be purged in-place
   css: ["./dist/css/*.css"],
-  safelist: [":where"]
+  safelist: [":where"],
 };
