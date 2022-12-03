@@ -111,12 +111,12 @@ module.exports = function (eleventyConfig) {
   };
 };
 
-async function imageShortcode(src, alt, sizes) {
+async function imageShortcode(src, alt, sizes, urlPath) {
   const slug = slugify(alt, { lower: true, strict: true });
   let metadata = await Image(src, {
     widths: [768, 1216],
-    urlPath: "/img/clubs",
-    outputDir: "dist/img/clubs/",
+    urlPath: `/img/${urlPath}`,
+    outputDir: `dist/img/${urlPath}`,
     formats: ["avif", "jpeg"],
     cacheDuration: "7d",
     filenameFormat: function (id, src, width, format, options, alt) {;
