@@ -29,3 +29,21 @@ hero:
 
 class:
     table: table is-fullwidth is-striped
+
+nav:
+    - label: Grounds
+      icon: flag
+      color: danger-dark
+    - label: Clubs
+      icon: futbol
+      color: dark
+    - label: Leagues
+      icon: trophy
+      color: warning-dark
+    - label: Regions
+      icon: map-location
+      color: success-dark
+    - label: Photos
+      icon: camera
+      color: info-dark
+ 

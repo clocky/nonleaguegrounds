@@ -10,9 +10,13 @@
     </div>
     <div class="navbar-menu" id="navbar-menu">
       <div class="navbar-end">
-        {%- for item in["Grounds", "Clubs", "Leagues", "Regions"] %}
-          <a class="navbar-item" href="/{{ item | lower }}">
-            {{- item -}}
+        {%- for item in meta.nav %}
+          {% set url = "/" + item.label | lower %}
+          <a href="{{ url }}" class="navbar-item">
+            <span class="icon has-text-{{ item.color }}">
+              <i class="fa-solid fa-{{ item.icon }}"></i>
+            </span>
+            <span class="pl-1">{{- item.label -}}</span>
           </a>
         {%- endfor %}
       </div>
