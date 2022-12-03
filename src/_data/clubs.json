@@ -22,6 +22,20 @@
     "foundingDate": "1992",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Aldershot Town playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#C32D27"
+        },
+        {
+          "@type": "Color",
+          "@value": "#172576"
+        }
+      ]
+    },
     "url": "https://www.theshots.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -35,7 +49,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -45,7 +59,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/aldershot-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/aldershot-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -69,7 +83,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/recreation-ground"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/recreation-ground"
       }
     },
     "areaServed": {
@@ -77,17 +91,16 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "4583760420_aa0075c82a_k.jpg",
+      "about": "Aldershot Town",
       "caption": "Aldershot Town by Paul Wilkinson",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 4583760420,
       "width": 2048,
       "height": 1536,
@@ -122,11 +135,26 @@
     "sameAs": [
       "https://twitter.com/altrinchamfc/",
       "https://www.facebook.com/officialalty",
-      "https://www.instagram.com/altrinchamfc/"
+      "https://www.instagram.com/altrinchamfc/",
+      "https://www.youtube.com/altytv"
     ],
     "foundingDate": "1891",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Altrincham playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "Red"
+        },
+        {
+          "@type": "Color",
+          "@value": "White"
+        }
+      ]
+    },
     "url": "https://altrinchamfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -140,7 +168,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -150,7 +178,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/altrincham"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/altrincham"
     },
     "location": {
       "@context": "https://schema.org",
@@ -174,7 +202,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/moss-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/moss-lane"
       }
     },
     "areaServed": {
@@ -182,17 +210,16 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "34253996810_aae7358d7d_k.jpg",
+      "about": "Altrincham",
       "caption": "Altrincham by Neil Southern",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 34253996810,
       "width": 2048,
       "height": 1097,
@@ -231,6 +258,20 @@
     "foundingDate": "1888",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Barnet playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#0D0807"
+        },
+        {
+          "@type": "Color",
+          "@value": "#FF7700"
+        }
+      ]
+    },
     "url": "https://www.barnetfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -244,7 +285,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -254,7 +295,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/barnet"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/barnet"
     },
     "location": {
       "@context": "https://schema.org",
@@ -274,7 +315,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/the-hive-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/the-hive-stadium"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -287,7 +328,7 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     }
   },
@@ -326,7 +367,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -336,7 +377,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/boreham-wood"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/boreham-wood"
     },
     "location": {
       "@context": "https://schema.org",
@@ -360,7 +401,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/meadow-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/meadow-park"
       }
     },
     "areaServed": {
@@ -368,17 +409,16 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "14782399846_d2b13b6128_k.jpg",
+      "about": "Boreham Wood",
       "caption": "Boreham Wood by hallison97photo",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 14782399846,
       "width": 2047,
       "height": 1356,
@@ -411,7 +451,8 @@
     "sameAs": [
       "https://twitter.com/bromleyfc/",
       "https://www.facebook.com/bromleyfc",
-      "https://www.instagram.com/bromleyfc/"
+      "https://www.instagram.com/bromleyfc/",
+      "https://www.youtube.com/bromleyfctv"
     ],
     "foundingDate": "1892",
     "sport": "Association Football",
@@ -429,7 +470,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -439,7 +480,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/bromley"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/bromley"
     },
     "location": {
       "@context": "https://schema.org",
@@ -459,7 +500,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/hayes-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/hayes-lane"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -472,7 +513,7 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     }
   },
@@ -513,7 +554,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -523,7 +564,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/chesterfield"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/chesterfield"
     },
     "location": {
       "@context": "https://schema.org",
@@ -543,7 +584,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands/technique-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/technique-stadium"
       }
     },
     "areaServed": {
@@ -551,7 +592,7 @@
       "name": "East Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands"
       }
     }
   },
@@ -591,7 +632,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -601,7 +642,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/dagenham-and-redbridge"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/dagenham-and-redbridge"
     },
     "location": {
       "@context": "https://schema.org",
@@ -625,7 +666,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/victoria-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/victoria-road"
       }
     },
     "areaServed": {
@@ -633,7 +674,7 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     }
   },
@@ -661,6 +702,24 @@
     "foundingDate": "1999",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Dorking Wanderers playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#0E216E"
+        },
+        {
+          "@type": "Color",
+          "@value": "#ffffff"
+        },
+        {
+          "@type": "Color",
+          "@value": "#D12F2D"
+        }
+      ]
+    },
     "url": "https://www.dorkingwanderers.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -674,7 +733,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -684,7 +743,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/dorking-wanderers"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/dorking-wanderers"
     },
     "location": {
       "@context": "https://schema.org",
@@ -704,7 +763,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/meadowbank"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/meadowbank"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -717,17 +776,16 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "32477388441_9a422eda0e_k.jpg",
+      "about": "Dorking Wanderers",
       "caption": "Dorking Wanderers by James Boyes",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 32477388441,
       "width": 2048,
       "height": 973,
@@ -779,7 +837,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -789,7 +847,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/eastleigh"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/eastleigh"
     },
     "location": {
       "@context": "https://schema.org",
@@ -813,7 +871,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/ten-acres"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/ten-acres"
       }
     },
     "areaServed": {
@@ -821,7 +879,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -861,7 +919,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -871,7 +929,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/fc-halifax-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/fc-halifax-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -891,7 +949,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-shay"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-shay"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -904,7 +962,7 @@
       "name": "Yorkshire and The Humber",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber"
       }
     }
   },
@@ -940,7 +998,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -950,7 +1008,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/gateshead"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/gateshead"
     },
     "location": {
       "@context": "https://schema.org",
@@ -970,7 +1028,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east/gateshead-international-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east/gateshead-international-stadium"
       }
     },
     "areaServed": {
@@ -978,7 +1036,7 @@
       "name": "North East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east"
       }
     }
   },
@@ -1017,7 +1075,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1027,7 +1085,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/maidenhead-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/maidenhead-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1046,7 +1104,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/york-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/york-road"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1059,7 +1117,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -1094,7 +1152,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1104,7 +1162,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/maidstone-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/maidstone-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1124,7 +1182,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/gallagher-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/gallagher-stadium"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1137,17 +1195,16 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "33434638613_fbdd3e4439_k.jpg",
+      "about": "Maidstone United",
       "caption": "Maidstone United by quisnovus",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 33434638613,
       "width": 2048,
       "height": 1210,
@@ -1194,7 +1251,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1204,7 +1261,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/notts-county"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/notts-county"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1224,7 +1281,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands/meadow-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/meadow-lane"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1237,7 +1294,7 @@
       "name": "East Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands"
       }
     }
   },
@@ -1277,7 +1334,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1287,7 +1344,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/oldham-athletic"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/oldham-athletic"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1306,7 +1363,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/boundary-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/boundary-park"
       }
     },
     "areaServed": {
@@ -1314,7 +1371,29 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "35632342402_725fdbb3c3_k.jpg",
+      "about": "Oldham Athletic",
+      "caption": "Oldham Athletic by Diego Sideburns",
+      "encodingFormat": "image/jpeg",
+      "identifier": 35632342402,
+      "width": 2048,
+      "height": 1073,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "datePublished": "2017-07-07",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Diego Sideburns",
+        "identifier": "diego_sideburns",
+        "givenName": "Diego",
+        "familyName": "Sideburns"
       }
     }
   },
@@ -1350,7 +1429,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1360,7 +1439,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/solihull-moors"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/solihull-moors"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1384,7 +1463,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands/damson-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/damson-park"
       }
     },
     "areaServed": {
@@ -1392,7 +1471,7 @@
       "name": "West Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands"
       }
     }
   },
@@ -1428,7 +1507,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1438,7 +1517,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/southend-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/southend-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1458,7 +1537,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/roots-hall"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/roots-hall"
       }
     },
     "areaServed": {
@@ -1466,7 +1545,7 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     }
   },
@@ -1502,7 +1581,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1512,7 +1591,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/scunthorpe-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/scunthorpe-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1531,7 +1610,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/glanford-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/glanford-park"
       }
     },
     "areaServed": {
@@ -1539,17 +1618,16 @@
       "name": "Yorkshire and The Humber",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "9808054475_50f26377ac_k.jpg",
+      "about": "Scunthorpe United",
       "caption": "Scunthorpe United by vagueonthehow",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 9808054475,
       "width": 2048,
       "height": 1365,
@@ -1596,7 +1674,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1606,7 +1684,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/torquay-united-afc"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/torquay-united-afc"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1626,7 +1704,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west/plainmoor"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west/plainmoor"
       }
     },
     "areaServed": {
@@ -1634,7 +1712,7 @@
       "name": "South West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west"
       }
     }
   },
@@ -1673,7 +1751,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1683,7 +1761,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/wealdstone"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/wealdstone"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1702,7 +1780,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/grosvenor-vale"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/grosvenor-vale"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1715,17 +1793,16 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "31649040978_116bc3c6d4_o.jpg",
+      "about": "Wealdstone",
       "caption": "Wealdstone by Ungry Young Man",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 31649040978,
       "width": 1440,
       "height": 1080,
@@ -1774,7 +1851,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1784,7 +1861,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/woking"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/woking"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1808,7 +1885,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/kingfield-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/kingfield-stadium"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1821,7 +1898,28 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "5802057598_7cead1e4a2_k.jpg",
+      "about": "Woking",
+      "caption": "Woking by Chris Turner",
+      "encodingFormat": "image/jpeg",
+      "identifier": 5802057598,
+      "width": 2047,
+      "height": 1501,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Chris Turner",
+        "identifier": "photoplod",
+        "givenName": "Chris",
+        "familyName": "Turner"
       }
     }
   },
@@ -1857,7 +1955,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1867,7 +1965,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/yeovil-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/yeovil-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1886,7 +1984,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west/huish-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west/huish-park"
       }
     },
     "areaServed": {
@@ -1894,7 +1992,7 @@
       "name": "South West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west"
       }
     }
   },
@@ -1930,7 +2028,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -1940,7 +2038,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/york-city"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/york-city"
     },
     "location": {
       "@context": "https://schema.org",
@@ -1963,7 +2061,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/york-community-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/york-community-stadium"
       }
     },
     "areaServed": {
@@ -1971,17 +2069,16 @@
       "name": "Yorkshire and The Humber",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "40822695674_3845bfe490_o.jpg",
+      "about": "York City",
       "caption": "York City by Mark Lee",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 40822695674,
       "width": 1700,
       "height": 1133,
@@ -2017,6 +2114,20 @@
     "foundingDate": "1988",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "AFC Fylde playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#DB4433"
+        },
+        {
+          "@type": "Color",
+          "@value": "#1C488B"
+        }
+      ]
+    },
     "url": "https://www.afcfylde.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2030,7 +2141,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2040,7 +2151,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/afc-fylde"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/afc-fylde"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2059,7 +2170,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/mill-farm"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/mill-farm"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2072,17 +2183,16 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "50614605518_1761a20fc0_k.jpg",
+      "about": "AFC Fylde",
       "caption": "AFC Fylde by biddleofnowhere",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 50614605518,
       "width": 2048,
       "height": 1057,
@@ -2115,6 +2225,16 @@
     "sameAs": ["https://twitter.com/telfordutd/"],
     "foundingDate": "2004",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "AFC Telford United playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#182849"
+        }
+      ]
+    },
     "url": "https://www.telfordunited.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2128,7 +2248,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2138,7 +2258,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/afc-telford-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/afc-telford-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2158,7 +2278,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands/new-bucks-head"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/new-bucks-head"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2171,17 +2291,16 @@
       "name": "West Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "6070890549_a00ae0c8d6_k.jpg",
+      "about": "AFC Telford United",
       "caption": "AFC Telford United by mattythewhite",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 6070890549,
       "width": 2048,
       "height": 1536,
@@ -2211,9 +2330,22 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/AlfretonTownFC/"],
+    "sameAs": [
+      "https://twitter.com/AlfretonTownFC/",
+      "https://www.facebook.com/AlfretonTownFC"
+    ],
     "foundingDate": "1959",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Alfreton Town playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#E31B1B"
+        }
+      ]
+    },
     "url": "https://alfretontownfootballclub.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2227,7 +2359,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2237,7 +2369,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/alfreton-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/alfreton-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2261,7 +2393,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands/north-street"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/north-street"
       }
     },
     "areaServed": {
@@ -2269,7 +2401,7 @@
       "name": "East Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands"
       }
     }
   },
@@ -2307,7 +2439,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2317,7 +2449,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/banbury-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/banbury-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2341,7 +2473,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/spencer-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/spencer-stadium"
       }
     },
     "areaServed": {
@@ -2349,17 +2481,16 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "8114403972_d65a79df2e_o.jpg",
+      "about": "Banbury United",
       "caption": "Banbury United by grassrootsgroundswell",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 8114403972,
       "width": 1611,
       "height": 1229,
@@ -2405,7 +2536,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2415,7 +2546,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/blyth-spartans-afc"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/blyth-spartans-afc"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2435,7 +2566,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east/croft-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east/croft-park"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2448,7 +2579,7 @@
       "name": "North East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east"
       }
     }
   },
@@ -2484,7 +2615,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2494,7 +2625,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/boston-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/boston-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2514,7 +2645,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands/jakemans-community-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/jakemans-community-stadium"
       }
     },
     "areaServed": {
@@ -2522,7 +2653,7 @@
       "name": "East Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands"
       }
     }
   },
@@ -2557,7 +2688,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2567,7 +2698,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/brackley-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/brackley-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2587,7 +2718,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands/st-james-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/st-james-park"
       }
     },
     "areaServed": {
@@ -2595,7 +2726,7 @@
       "name": "East Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands"
       }
     }
   },
@@ -2630,7 +2761,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2640,7 +2771,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/bradford-park-avenue-afc"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/bradford-park-avenue-afc"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2660,7 +2791,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-stadium"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2673,7 +2804,7 @@
       "name": "Yorkshire and The Humber",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber"
       }
     }
   },
@@ -2708,7 +2839,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2718,7 +2849,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/buxton"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/buxton"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2741,7 +2872,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands/the-silverlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/the-silverlands"
       }
     },
     "areaServed": {
@@ -2749,7 +2880,7 @@
       "name": "East Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands"
       }
     }
   },
@@ -2784,7 +2915,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2794,7 +2925,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/chester"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/chester"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2814,7 +2945,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/deva-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/deva-stadium"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2827,7 +2958,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -2863,7 +2994,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2873,7 +3004,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/chorley"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/chorley"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2897,7 +3028,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/victory-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/victory-park"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2910,7 +3041,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -2945,7 +3076,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2955,7 +3086,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/curzon-ashton"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/curzon-ashton"
     },
     "location": {
       "@context": "https://schema.org",
@@ -2975,7 +3106,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/tameside-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/tameside-stadium"
       }
     },
     "areaServed": {
@@ -2983,17 +3114,16 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "50614605518_1761a20fc0_k.jpg",
+      "about": "Curzon Ashton",
       "caption": "Curzon Ashton by biddleofnowhere",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 50614605518,
       "width": 2048,
       "height": 1057,
@@ -3039,7 +3169,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3049,7 +3179,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/darlington"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/darlington"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3069,7 +3199,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east/blackwell-meadows"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east/blackwell-meadows"
       }
     },
     "areaServed": {
@@ -3077,7 +3207,7 @@
       "name": "North East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east"
       }
     }
   },
@@ -3112,7 +3242,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3122,7 +3252,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/farsley-celtic"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/farsley-celtic"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3142,7 +3272,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-citadel"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-citadel"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3155,7 +3285,27 @@
       "name": "Yorkshire and The Humber",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "49405063011_e8feb02164_k.jpg",
+      "about": "Farsley Celtic",
+      "caption": "Farsley Celtic by biddleofnowhere",
+      "encodingFormat": "image/jpeg",
+      "identifier": 49405063011,
+      "width": 2048,
+      "height": 1390,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "datePublished": "2020-01-17",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "biddleofnowhere",
+        "identifier": "biddleofnowhere"
       }
     }
   },
@@ -3191,7 +3341,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3201,7 +3351,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/gloucester-city-afc"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/gloucester-city-afc"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3225,7 +3375,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west/new-meadow-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west/new-meadow-park"
       }
     },
     "areaServed": {
@@ -3233,7 +3383,7 @@
       "name": "South West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west"
       }
     }
   },
@@ -3268,7 +3418,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3278,7 +3428,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/hereford"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/hereford"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3297,7 +3447,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands/edgar-street"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/edgar-street"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3310,7 +3460,7 @@
       "name": "West Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands"
       }
     }
   },
@@ -3345,7 +3495,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3355,7 +3505,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/kettering-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/kettering-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3375,7 +3525,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands/latimer-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/latimer-park"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3388,7 +3538,7 @@
       "name": "East Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands"
       }
     }
   },
@@ -3424,7 +3574,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3434,7 +3584,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/kidderminster-harriers"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/kidderminster-harriers"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3454,7 +3604,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands/aggborough"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/aggborough"
       }
     },
     "areaServed": {
@@ -3462,7 +3612,27 @@
       "name": "West Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "49112276033_c9e0658eca_k.jpg",
+      "about": "Kidderminster Harriers",
+      "caption": "Kidderminster Harriers by biddleofnowhere",
+      "encodingFormat": "image/jpeg",
+      "identifier": 49112276033,
+      "width": 2048,
+      "height": 1038,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "datePublished": "2020-01-17",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "biddleofnowhere",
+        "identifier": "biddleofnowhere"
       }
     }
   },
@@ -3497,7 +3667,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3507,7 +3677,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/kings-lynn-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/kings-lynn-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3527,7 +3697,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/the-walks-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/the-walks-stadium"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3540,7 +3710,7 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     }
   },
@@ -3575,7 +3745,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3585,7 +3755,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/leamington"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/leamington"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3605,7 +3775,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands/new-windmill-ground"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/new-windmill-ground"
       }
     },
     "areaServed": {
@@ -3613,7 +3783,7 @@
       "name": "West Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands"
       }
     }
   },
@@ -3648,7 +3818,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3658,7 +3828,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/peterborough-sports"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/peterborough-sports"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3678,7 +3848,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/lincoln-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/lincoln-road"
       }
     },
     "areaServed": {
@@ -3686,7 +3856,7 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     }
   },
@@ -3721,7 +3891,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3731,7 +3901,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/scarborough-athletic"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/scarborough-athletic"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3750,7 +3920,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/flamingo-land-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/flamingo-land-stadium"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3763,7 +3933,7 @@
       "name": "Yorkshire and The Humber",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber"
       }
     }
   },
@@ -3802,7 +3972,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3812,7 +3982,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/southport"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/southport"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3836,7 +4006,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/haig-avenue"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/haig-avenue"
       }
     },
     "areaServed": {
@@ -3844,7 +4014,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -3879,7 +4049,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-north"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3889,7 +4059,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-north/spennymoor-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/spennymoor-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3909,7 +4079,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east/brewery-field"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east/brewery-field"
       }
     },
     "areaServed": {
@@ -3917,7 +4087,7 @@
       "name": "North East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east"
       }
     }
   },
@@ -3953,7 +4123,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3963,7 +4133,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/bath-city"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/bath-city"
     },
     "location": {
       "@context": "https://schema.org",
@@ -3983,7 +4153,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west/twerton-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west/twerton-park"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -3996,7 +4166,7 @@
       "name": "South West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west"
       }
     }
   },
@@ -4035,7 +4205,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4045,7 +4215,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/braintree-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/braintree-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4069,7 +4239,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/cressing-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/cressing-road"
       }
     },
     "areaServed": {
@@ -4077,7 +4247,7 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     }
   },
@@ -4116,7 +4286,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4126,7 +4296,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/chelmsford-city"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/chelmsford-city"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4146,7 +4316,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/melbourne-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/melbourne-stadium"
       }
     },
     "areaServed": {
@@ -4154,17 +4324,16 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "14505941950_34d9572c5e_k.jpg",
+      "about": "Chelmsford City",
       "caption": "Chelmsford City by hallison97photo",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 14505941950,
       "width": 2047,
       "height": 1356,
@@ -4210,7 +4379,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4220,7 +4389,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/cheshunt"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/cheshunt"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4240,7 +4409,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/theobalds-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/theobalds-lane"
       }
     },
     "areaServed": {
@@ -4248,7 +4417,7 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     }
   },
@@ -4283,7 +4452,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4293,7 +4462,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/chippenham-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/chippenham-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4313,7 +4482,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west/hardenhuish-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west/hardenhuish-park"
       }
     },
     "areaServed": {
@@ -4321,17 +4490,16 @@
       "name": "South West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "45316488454_8b2b12e074_k.jpg",
+      "about": "Chippenham Town",
       "caption": "Chippenham Town by Martin Addison",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 45316488454,
       "width": 2048,
       "height": 1035,
@@ -4379,7 +4547,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4389,7 +4557,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/concord-rangers"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/concord-rangers"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4408,7 +4576,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/thames-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/thames-road"
       }
     },
     "areaServed": {
@@ -4416,7 +4584,7 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     }
   },
@@ -4454,7 +4622,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4464,7 +4632,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/dartford"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/dartford"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4483,7 +4651,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/princes-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/princes-park"
       }
     },
     "areaServed": {
@@ -4491,7 +4659,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -4530,7 +4698,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4540,7 +4708,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/dover-athletic"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/dover-athletic"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4560,7 +4728,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/crabble-athletic-ground"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/crabble-athletic-ground"
       }
     },
     "areaServed": {
@@ -4568,17 +4736,16 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "4225234913_7fd7a4e70c_o.jpg",
+      "about": "Dover Athletic",
       "caption": "Dover Athletic by Dan Dyer",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 4225234913,
       "width": 1515,
       "height": 1051,
@@ -4629,7 +4796,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4639,7 +4806,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/dulwich-hamlet"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/dulwich-hamlet"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4658,7 +4825,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/champion-hill"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/champion-hill"
       }
     },
     "areaServed": {
@@ -4666,17 +4833,16 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "19945177675_68f06b2b85_k.jpg",
+      "about": "Dulwich Hamlet",
       "caption": "Dulwich Hamlet by Duncan WJ Palmer",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 19945177675,
       "width": 2047,
       "height": 1365,
@@ -4699,6 +4865,7 @@
     "name": "Eastbourne Borough",
     "alternateName": "Eastbourne Borough Football Club",
     "slogan": "The Sports",
+    "telephone": "+441323766265",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/4704.png",
@@ -4708,21 +4875,41 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/EBFCTheSports/"],
+    "sameAs": [
+      "https://twitter.com/EBFCTheSports/",
+      "https://www.facebook.com/ebfcthesports",
+      "https://www.instagram.com/ebfc_official/"
+    ],
     "foundingDate": "1954",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Eastbourne Borough playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "rgb(220, 38, 38)"
+        },
+        {
+          "@type": "Color",
+          "@value": "rgb(255, 255, 255)"
+        }
+      ]
+    },
+    "url": "https://ebfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
       "@type": "SportsOrganization",
       "name": "National League South",
       "sport": "Association Football",
+      "url": "https://ebfc.co.uk",
       "sponsor": {
         "@type": "Organization",
         "name": "Vanarama"
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4732,12 +4919,16 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/eastbourne-borough"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/eastbourne-borough"
     },
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "Priory Lane",
+      "sponsor": {
+        "@type": "Organization",
+        "name": "SO Legal Community Stadium"
+      },
       "maximumAttendeeCapacity": 7000,
       "priceRange": "££",
       "latitude": 50.80417,
@@ -4752,7 +4943,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/priory-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/priory-lane"
       }
     },
     "areaServed": {
@@ -4760,7 +4951,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -4798,7 +4989,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4808,7 +4999,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/ebbsfleet-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/ebbsfleet-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4831,7 +5022,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/stonebridge-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/stonebridge-road"
       }
     },
     "areaServed": {
@@ -4839,7 +5030,29 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "5595015110_78ae78357c_k.jpg",
+      "about": "Ebbsfleet United",
+      "caption": "Ebbsfleet United by Chris Turner",
+      "encodingFormat": "image/jpeg",
+      "identifier": 5595015110,
+      "width": 2047,
+      "height": 1421,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "datePublished": "2011-04-04",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Chris Turner",
+        "identifier": "photoplod",
+        "givenName": "Chris",
+        "familyName": "Turner"
       }
     }
   },
@@ -4877,7 +5090,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4887,7 +5100,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/farnborough"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/farnborough"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4911,7 +5124,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/cherrywood-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/cherrywood-road"
       }
     },
     "areaServed": {
@@ -4919,7 +5132,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -4958,7 +5171,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -4968,7 +5181,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/hampton-and-richmond-borough"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/hampton-and-richmond-borough"
     },
     "location": {
       "@context": "https://schema.org",
@@ -4991,7 +5204,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/beveree-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/beveree-stadium"
       }
     },
     "areaServed": {
@@ -4999,7 +5212,7 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     }
   },
@@ -5038,7 +5251,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5048,7 +5261,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/havant-and-waterlooville"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/havant-and-waterlooville"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5072,7 +5285,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/the-westleigh"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/the-westleigh"
       }
     },
     "areaServed": {
@@ -5080,7 +5293,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -5115,7 +5328,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5125,7 +5338,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/hemel-hempstead-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/hemel-hempstead-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5144,7 +5357,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/vauxhall-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/vauxhall-road"
       }
     },
     "areaServed": {
@@ -5152,7 +5365,29 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "6036409848_c7cb889893_k.jpg",
+      "about": "Hemel Hempstead Town",
+      "caption": "Hemel Hempstead Town by Martin Addison",
+      "encodingFormat": "image/jpeg",
+      "identifier": 6036409848,
+      "width": 2047,
+      "height": 1229,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "datePublished": "2011-08-08",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Martin Addison",
+        "identifier": "martin_addison",
+        "givenName": "Martin",
+        "familyName": "Addison"
       }
     }
   },
@@ -5190,7 +5425,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5200,7 +5435,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/hungerford-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/hungerford-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5220,7 +5455,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/bulpit-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/bulpit-lane"
       }
     },
     "areaServed": {
@@ -5228,7 +5463,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -5264,7 +5499,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5274,7 +5509,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/oxford-city"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/oxford-city"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5293,7 +5528,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/marsh-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/marsh-lane"
       }
     },
     "areaServed": {
@@ -5301,17 +5536,16 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "4618393512_13a4095609_k.jpg",
+      "about": "Oxford City",
       "caption": "Oxford City by Simon Q",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 4618393512,
       "width": 2048,
       "height": 1536,
@@ -5359,7 +5593,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5369,7 +5603,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/slough-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/slough-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5388,7 +5622,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/arbour-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/arbour-park"
       }
     },
     "areaServed": {
@@ -5396,17 +5630,16 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "19290512948_37d0aee229_o.jpg",
+      "about": "Slough Town",
       "caption": "Slough Town by Phil Standfield",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 19290512948,
       "width": 1200,
       "height": 706,
@@ -5454,7 +5687,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5464,7 +5697,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/st-albans-city"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/st-albans-city"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5487,7 +5720,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/clarence-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/clarence-park"
       }
     },
     "areaServed": {
@@ -5495,7 +5728,7 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     }
   },
@@ -5530,7 +5763,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5540,7 +5773,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/taunton-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/taunton-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5564,7 +5797,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west/cygnet-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west/cygnet-stadium"
       }
     },
     "areaServed": {
@@ -5572,7 +5805,7 @@
       "name": "South West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west"
       }
     }
   },
@@ -5607,7 +5840,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5617,7 +5850,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/tonbridge-angels"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/tonbridge-angels"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5641,7 +5874,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/longmead-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/longmead-stadium"
       }
     },
     "areaServed": {
@@ -5649,7 +5882,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -5688,7 +5921,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5698,7 +5931,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/welling-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/welling-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5717,7 +5950,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/park-view-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/park-view-road"
       }
     },
     "areaServed": {
@@ -5725,7 +5958,7 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     }
   },
@@ -5748,6 +5981,20 @@
     "foundingDate": "1890",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Weymouth playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "LightBlue"
+        },
+        {
+          "@type": "Color",
+          "@value": "Maroon"
+        }
+      ]
+    },
     "url": "https://uptheterras.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5761,7 +6008,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5771,7 +6018,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/weymouth"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/weymouth"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5791,7 +6038,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west/bob-lucas-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west/bob-lucas-stadium"
       }
     },
     "areaServed": {
@@ -5799,17 +6046,16 @@
       "name": "South West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-west"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "409890826_19e41197d9_o.jpg",
+      "about": "Weymouth",
       "caption": "Weymouth by Spencer Jarvis",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 409890826,
       "width": 1864,
       "height": 1400,
@@ -5844,6 +6090,16 @@
     "sameAs": ["https://twitter.com/WorthingFC/"],
     "foundingDate": "1886",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Worthing playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "Red"
+        }
+      ]
+    },
     "url": "https://worthingfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5857,7 +6113,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league-south"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5867,7 +6123,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league-south/worthing"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/worthing"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5891,7 +6147,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/woodside-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/woodside-road"
       }
     },
     "areaServed": {
@@ -5899,7 +6155,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -5935,7 +6191,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/national-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/national-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5945,7 +6201,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/national-league/wrexham-afc"
+      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/wrexham-afc"
     },
     "location": {
       "@context": "https://schema.org",
@@ -5965,7 +6221,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/wales/racecourse-ground"
+        "@value": "https://www.nonleaguegrounds.com/regions/wales/racecourse-ground"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -5978,7 +6234,7 @@
       "name": "Wales",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/wales"
+        "@value": "https://www.nonleaguegrounds.com/regions/wales"
       }
     }
   },
@@ -6016,7 +6272,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6026,7 +6282,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/aveley"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/aveley"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6045,7 +6301,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/parkside"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/parkside"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6058,7 +6314,7 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     }
   },
@@ -6079,10 +6335,22 @@
     },
     "sameAs": [
       "https://twitter.com/BTFC/",
-      "https://www.facebook.com/BillericayTownFootballClub"
+      "https://www.facebook.com/BillericayTownFootballClub",
+      "https://www.instagram.com/billericaytown/",
+      "https://www.youtube.com/channel/UC4TJmqo4c_XBw_Yw6nNjUuw"
     ],
     "foundingDate": "1880",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Billericay Town playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#1618BF"
+        }
+      ]
+    },
     "url": "https://www.billericaytownfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6096,7 +6364,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6106,7 +6374,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/billericay-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/billericay-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6126,7 +6394,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/new-lodge"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/new-lodge"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6139,7 +6407,7 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     }
   },
@@ -6160,10 +6428,26 @@
     },
     "sameAs": [
       "https://twitter.com/BSFCTheBlues/",
-      "https://www.facebook.com/BSFCTheBlues"
+      "https://www.facebook.com/BSFCTheBlues",
+      "https://www.instagram.com/bishops_stortfordfc/",
+      "https://www.youtube.com/channel/UCY0J8ch0Jx9lirFFwXTTHbw"
     ],
     "foundingDate": "1874",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Bishop&#39;s Stortford playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#1B4491"
+        },
+        {
+          "@type": "Color",
+          "@value": "#FFFFFF"
+        }
+      ]
+    },
     "url": "https://www.bsfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6177,7 +6461,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6187,7 +6471,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/bishop-s-stortford"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/bishop-s-stortford"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6211,7 +6495,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/woodside-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/woodside-park"
       }
     },
     "areaServed": {
@@ -6219,7 +6503,7 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     }
   },
@@ -6257,7 +6541,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6267,7 +6551,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/bognor-regis-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/bognor-regis-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6286,7 +6570,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/nyewood-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/nyewood-lane"
       }
     },
     "areaServed": {
@@ -6294,17 +6578,16 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "30557955000_d10d4d3fc3_k.jpg",
+      "about": "Bognor Regis Town",
       "caption": "Bognor Regis Town by Martin Addison",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 30557955000,
       "width": 2048,
       "height": 1270,
@@ -6355,7 +6638,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6365,7 +6648,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/bowers-and-pitsea"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/bowers-and-pitsea"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6385,7 +6668,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/len-salmon-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/len-salmon-stadium"
       }
     },
     "areaServed": {
@@ -6393,7 +6676,29 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "48770561272_620b3c19e6_k.jpg",
+      "about": "Bowers &amp; Pitsea",
+      "caption": "Bowers &amp; Pitsea by James Boyes",
+      "encodingFormat": "image/jpeg",
+      "identifier": 48770561272,
+      "width": 2047,
+      "height": 1123,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "datePublished": "2019-09-20",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "James Boyes",
+        "identifier": "jamesboyes",
+        "givenName": "James",
+        "familyName": "Boyes"
       }
     }
   },
@@ -6431,7 +6736,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6441,7 +6746,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/brightlingsea-regent"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/brightlingsea-regent"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6460,7 +6765,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/north-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/north-road"
       }
     },
     "areaServed": {
@@ -6468,17 +6773,16 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "50386233988_a7a05a3d4e_k.jpg",
+      "about": "Brightlingsea Regent",
       "caption": "Brightlingsea Regent by James Boyes",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 50386233988,
       "width": 2047,
       "height": 1365,
@@ -6529,7 +6833,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6539,7 +6843,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/canvey-island"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/canvey-island"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6562,7 +6866,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/park-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/park-lane"
       }
     },
     "areaServed": {
@@ -6570,17 +6874,16 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "13174635074_c1a4719f3c_k.jpg",
+      "about": "Canvey Island",
       "caption": "Canvey Island by hallison97photo",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 13174635074,
       "width": 2047,
       "height": 1356,
@@ -6630,7 +6933,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6640,7 +6943,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/carshalton-athletic"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/carshalton-athletic"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6660,7 +6963,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/war-memorial-sports-ground"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/war-memorial-sports-ground"
       }
     },
     "areaServed": {
@@ -6668,17 +6971,16 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "9485549020_d981411ff3_k.jpg",
+      "about": "Carshalton Athletic",
       "caption": "Carshalton Athletic by Martin Addison",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 9485549020,
       "width": 2048,
       "height": 1435,
@@ -6717,6 +7019,20 @@
     "foundingDate": "1939",
     "sport": "Association Football",
     "keywords": "amateur",
+    "owns": {
+      "@type": "Product",
+      "name": "Corinthian-Casuals playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#692F2F"
+        },
+        {
+          "@type": "Color",
+          "@value": "#DA8DD9"
+        }
+      ]
+    },
     "url": "https://corinthian-casuals.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6730,7 +7046,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6740,7 +7056,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/corinthian-casuals"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/corinthian-casuals"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6764,7 +7080,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/king-george-v-arena"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/king-george-v-arena"
       }
     },
     "areaServed": {
@@ -6772,7 +7088,7 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     }
   },
@@ -6811,7 +7127,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6821,7 +7137,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/cray-wanderers"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/cray-wanderers"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6841,7 +7157,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/hayes-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/hayes-lane"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6854,7 +7170,7 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     }
   },
@@ -6890,7 +7206,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6900,7 +7216,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/enfield-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/enfield-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6920,7 +7236,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/queen-elizabeth-ii-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/queen-elizabeth-ii-stadium"
       }
     },
     "areaServed": {
@@ -6928,7 +7244,7 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     }
   },
@@ -6966,7 +7282,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -6976,7 +7292,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/folkestone-invicta"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/folkestone-invicta"
     },
     "location": {
       "@context": "https://schema.org",
@@ -6999,7 +7315,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/cheriton-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/cheriton-road"
       }
     },
     "areaServed": {
@@ -7007,17 +7323,16 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "33246481528_8b79fd7cd5_k.jpg",
+      "about": "Folkestone Invicta",
       "caption": "Folkestone Invicta by Martin Addison",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 33246481528,
       "width": 2048,
       "height": 1116,
@@ -7066,7 +7381,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7076,7 +7391,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/haringey-borough"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/haringey-borough"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7100,7 +7415,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/coles-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/coles-park"
       }
     },
     "areaServed": {
@@ -7108,7 +7423,7 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     }
   },
@@ -7146,7 +7461,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7156,7 +7471,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/hastings-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/hastings-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7176,7 +7491,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/the-pilot-field"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/the-pilot-field"
       }
     },
     "areaServed": {
@@ -7184,7 +7499,29 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "24478581897_6999879a06_k.jpg",
+      "about": "Hastings United",
+      "caption": "Hastings United by James Boyes",
+      "encodingFormat": "image/jpeg",
+      "identifier": 24478581897,
+      "width": 2048,
+      "height": 1323,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "datePublished": "2017-12-25",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "James Boyes",
+        "identifier": "jamesboyes",
+        "givenName": "James",
+        "familyName": "Boyes"
       }
     }
   },
@@ -7222,7 +7559,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7232,7 +7569,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/herne-bay"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/herne-bay"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7256,7 +7593,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/winch-s-field"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/winch-s-field"
       }
     },
     "areaServed": {
@@ -7264,7 +7601,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -7305,7 +7642,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7315,7 +7652,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/hornchurch"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/hornchurch"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7335,7 +7672,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/hornchurch-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/hornchurch-stadium"
       }
     },
     "areaServed": {
@@ -7343,7 +7680,29 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "9484328783_6a07245179_b.jpg",
+      "about": "Hornchurch",
+      "caption": "Hornchurch by James Boyes",
+      "encodingFormat": "image/jpeg",
+      "identifier": 9484328783,
+      "width": 1024,
+      "height": 867,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "datePublished": "2013-08-09",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "James Boyes",
+        "identifier": "jamesboyes",
+        "givenName": "James",
+        "familyName": "Boyes"
       }
     }
   },
@@ -7381,7 +7740,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7391,7 +7750,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/horsham"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/horsham"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7415,7 +7774,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/hop-oast-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/hop-oast-stadium"
       }
     },
     "areaServed": {
@@ -7423,7 +7782,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -7461,7 +7820,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7471,7 +7830,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/kingstonian"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/kingstonian"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7491,7 +7850,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/imperial-fields"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/imperial-fields"
       }
     },
     "areaServed": {
@@ -7499,7 +7858,7 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     }
   },
@@ -7537,7 +7896,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7547,7 +7906,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/lewes"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/lewes"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7567,7 +7926,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/the-dripping-pan"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/the-dripping-pan"
       }
     },
     "areaServed": {
@@ -7575,17 +7934,16 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "52510810531_de29ccde8e_k.jpg",
+      "about": "Lewes",
       "caption": "Lewes by James Boyes",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 52510810531,
       "width": 2048,
       "height": 1366,
@@ -7633,7 +7991,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7643,7 +8001,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/margate"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/margate"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7663,7 +8021,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east/hartsdown-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/hartsdown-park"
       }
     },
     "areaServed": {
@@ -7671,7 +8029,7 @@
       "name": "South East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/south-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
     }
   },
@@ -7706,7 +8064,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7716,7 +8074,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/potters-bar-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/potters-bar-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7740,7 +8098,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england/parkfield"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/parkfield"
       }
     },
     "areaServed": {
@@ -7748,17 +8106,16 @@
       "name": "East of England",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-of-england"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-of-england"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "48732420503_a4223955c1_k.jpg",
+      "about": "Potters Bar Town",
       "caption": "Potters Bar Town by James Boyes",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 48732420503,
       "width": 2048,
       "height": 1351,
@@ -7809,7 +8166,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division"
+        "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7819,7 +8176,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/isthmian-league-premier-division/wingate-and-finchley"
+      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/wingate-and-finchley"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7839,7 +8196,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london/the-maurice-rebak-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/london/the-maurice-rebak-stadium"
       }
     },
     "areaServed": {
@@ -7847,17 +8204,16 @@
       "name": "London",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/london"
+        "@value": "https://www.nonleaguegrounds.com/regions/london"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "49043569588_9f74603952_k.jpg",
+      "about": "Wingate &amp; Finchley",
       "caption": "Wingate &amp; Finchley by James Boyes",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 49043569588,
       "width": 2048,
       "height": 1235,
@@ -7888,7 +8244,12 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/AshtonUnitedFC/"],
+    "sameAs": [
+      "https://twitter.com/AshtonUnitedFC/",
+      "https://www.facebook.com/AsthtonUnitedFC",
+      "https://www.instagram.com/ashtonunitedfc/",
+      "https://www.youtube.com/channel/UCg42S3qN-tEcJzAXq_-w3mg"
+    ],
     "foundingDate": "1878",
     "sport": "Association Football",
     "url": "https://ashtonunited.co.uk",
@@ -7904,7 +8265,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7914,7 +8275,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/ashton-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/ashton-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -7933,7 +8294,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/hurst-cross"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/hurst-cross"
       }
     },
     "areaServed": {
@@ -7941,7 +8302,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -7960,7 +8321,10 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/ACFC1916/"],
+    "sameAs": [
+      "https://twitter.com/ACFC1916/",
+      "https://www.facebook.com/AthertonCollieries"
+    ],
     "foundingDate": "1916",
     "sport": "Association Football",
     "url": "https://athertoncollieries.co.uk",
@@ -7976,7 +8340,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -7986,7 +8350,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/atherton-collieries"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/atherton-collieries"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8009,7 +8373,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/alder-house"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/alder-house"
       }
     },
     "areaServed": {
@@ -8017,7 +8381,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -8055,7 +8419,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8065,7 +8429,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/bamber-bridge"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/bamber-bridge"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8084,7 +8448,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/sir-tom-finney-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/sir-tom-finney-stadium"
       }
     },
     "areaServed": {
@@ -8092,17 +8456,16 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "15628240133_76a210fbf8_k.jpg",
+      "about": "Bamber Bridge",
       "caption": "Bamber Bridge by alexfenton",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 15628240133,
       "width": 2048,
       "height": 1536,
@@ -8123,6 +8486,7 @@
     "name": "Belper Town",
     "alternateName": "Belper Town Football Club",
     "slogan": "The Nailers",
+    "telephone": "+441773825549",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/7617.png",
@@ -8132,7 +8496,10 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/BelperTownFC/"],
+    "sameAs": [
+      "https://twitter.com/BelperTownFC/",
+      "https://www.facebook.com/belpertownfc"
+    ],
     "foundingDate": "1883",
     "sport": "Association Football",
     "url": "https://belpertownfc.co.uk",
@@ -8148,7 +8515,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8158,7 +8525,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/belper-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/belper-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8166,7 +8533,7 @@
       "name": "Christchurch Meadow",
       "sponsor": {
         "@type": "Organization",
-        "name": "The Silver X Stadium"
+        "name": "Raygar Stadium"
       },
       "maximumAttendeeCapacity": 2650,
       "priceRange": "££",
@@ -8181,7 +8548,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands/christchurch-meadow"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/christchurch-meadow"
       }
     },
     "areaServed": {
@@ -8189,17 +8556,16 @@
       "name": "East Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "2924644125_99a48bb66a_o.jpg",
+      "about": "Belper Town",
       "caption": "Belper Town by Russell Davies",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 2924644125,
       "width": 1544,
       "height": 1024,
@@ -8233,7 +8599,8 @@
     },
     "sameAs": [
       "https://twitter.com/FCUnitedMcr/",
-      "https://www.facebook.com/FCUnitedMcr"
+      "https://www.facebook.com/FCUnitedMcr",
+      "https://www.youtube.com/FCUnitedMcr"
     ],
     "foundingDate": "2005",
     "sport": "Association Football",
@@ -8250,7 +8617,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8260,7 +8627,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/fc-united-of-manchester"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/fc-united-of-manchester"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8279,7 +8646,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/broadhurst-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/broadhurst-park"
       }
     },
     "areaServed": {
@@ -8287,17 +8654,16 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "40822695674_3845bfe490_o.jpg",
+      "about": "FC United of Manchester",
       "caption": "FC United of Manchester by Mark Lee",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 40822695674,
       "width": 1700,
       "height": 1133,
@@ -8345,7 +8711,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8355,7 +8721,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/gainsborough-trinity"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/gainsborough-trinity"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8378,7 +8744,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands/the-northolme"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/the-northolme"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8391,7 +8757,7 @@
       "name": "East Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands"
       }
     }
   },
@@ -8410,7 +8776,12 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/GuiselyAFC/"],
+    "sameAs": [
+      "https://twitter.com/GuiselyAFC/",
+      "https://www.facebook.com/GuiseleyAFC",
+      "https://www.instagram.com/guiseleyafc1909/",
+      "https://www.youtube.com/OfficialGuiseleyAFC"
+    ],
     "foundingDate": "1909",
     "sport": "Association Football",
     "url": "https://guiseleyafc.co.uk",
@@ -8426,7 +8797,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8436,7 +8807,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/guiseley-afc"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/guiseley-afc"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8455,7 +8826,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/nethermoor-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/nethermoor-park"
       }
     },
     "areaServed": {
@@ -8463,7 +8834,29 @@
       "name": "Yorkshire and The Humber",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "41762597892_f7f35612be_k.jpg",
+      "about": "Guiseley AFC",
+      "caption": "Guiseley AFC by Peter Hughes",
+      "encodingFormat": "image/jpeg",
+      "identifier": 41762597892,
+      "width": 2047,
+      "height": 1365,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "datePublished": "2016-09-09",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Peter Hughes",
+        "identifier": "sgwarnog",
+        "givenName": "Peter",
+        "familyName": "Hughes"
       }
     }
   },
@@ -8488,6 +8881,20 @@
     ],
     "foundingDate": "1919",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Hyde United playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#dd3333"
+        },
+        {
+          "@type": "Color",
+          "@value": "#ffffff"
+        }
+      ]
+    },
     "url": "https://hydeunited.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8501,7 +8908,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8511,7 +8918,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/hyde-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/hyde-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8534,7 +8941,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/ewen-fields"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/ewen-fields"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8547,7 +8954,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -8572,6 +8979,16 @@
     ],
     "foundingDate": "1911",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Lancaster City playing kit",
+      "color": [
+        {
+          "@type": "Color",
+          "@value": "#004C92"
+        }
+      ]
+    },
     "url": "https://www.pitchero.com/clubs/lancastercity",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8585,7 +9002,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8595,7 +9012,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/lancaster-city"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/lancaster-city"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8614,7 +9031,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/giant-axe"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/giant-axe"
       }
     },
     "areaServed": {
@@ -8622,7 +9039,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -8657,7 +9074,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8667,7 +9084,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/liversedge"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/liversedge"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8686,7 +9103,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/clayborn"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/clayborn"
       }
     },
     "areaServed": {
@@ -8694,7 +9111,7 @@
       "name": "Yorkshire and The Humber",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber"
       }
     }
   },
@@ -8732,7 +9149,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8742,7 +9159,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/marine-afc"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/marine-afc"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8765,7 +9182,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/rossett-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/rossett-park"
       }
     },
     "areaServed": {
@@ -8773,7 +9190,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -8808,7 +9225,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8818,7 +9235,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/marske-united"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/marske-united"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8837,7 +9254,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east/mount-pleasant"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east/mount-pleasant"
       }
     },
     "areaServed": {
@@ -8845,7 +9262,7 @@
       "name": "North East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east"
       }
     }
   },
@@ -8880,7 +9297,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8890,7 +9307,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/matlock-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/matlock-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8909,7 +9326,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands/causeway-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/causeway-lane"
       }
     },
     "areaServed": {
@@ -8917,7 +9334,7 @@
       "name": "East Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/east-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/east-midlands"
       }
     }
   },
@@ -8952,7 +9369,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -8962,7 +9379,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/morpeth-town-afc"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/morpeth-town-afc"
     },
     "location": {
       "@context": "https://schema.org",
@@ -8981,7 +9398,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east/craik-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east/craik-park"
       }
     },
     "areaServed": {
@@ -8989,17 +9406,16 @@
       "name": "North East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east"
       }
     },
     "image": {
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "3013271615_48e7361f7d_h.jpg",
+      "about": "Morpeth Town AFC",
       "caption": "Morpeth Town AFC by Whitley Bay FC",
-      "representativeOfPage": true,
       "encodingFormat": "image/jpeg",
-      "isFamilyFriendly": true,
       "identifier": 3013271615,
       "width": 1417,
       "height": 936,
@@ -9050,7 +9466,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -9060,7 +9476,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/nantwich-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/nantwich-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -9082,7 +9498,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/weaver-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/weaver-stadium"
       }
     },
     "areaServed": {
@@ -9090,7 +9506,29 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
+      }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "50334537661_ce8008a7fc_o.jpg",
+      "about": "Nantwich Town",
+      "caption": "Nantwich Town by Michael Ripley",
+      "encodingFormat": "image/jpeg",
+      "identifier": 50334537661,
+      "width": 1114,
+      "height": 743,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "datePublished": "2020-09-11",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Michael Ripley",
+        "identifier": "michaelripleyphotography",
+        "givenName": "Michael",
+        "familyName": "Ripley"
       }
     }
   },
@@ -9129,7 +9567,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -9139,7 +9577,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/radcliffe"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/radcliffe"
     },
     "location": {
       "@context": "https://schema.org",
@@ -9161,7 +9599,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/stainton-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/stainton-park"
       }
     },
     "areaServed": {
@@ -9169,7 +9607,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -9204,7 +9642,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -9214,7 +9652,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/south-shields"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/south-shields"
     },
     "location": {
       "@context": "https://schema.org",
@@ -9237,7 +9675,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east/filtrona-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east/filtrona-park"
       }
     },
     "areaServed": {
@@ -9245,7 +9683,7 @@
       "name": "North East",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-east"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east"
       }
     }
   },
@@ -9281,7 +9719,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -9291,7 +9729,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/stafford-rangers"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/stafford-rangers"
     },
     "location": {
       "@context": "https://schema.org",
@@ -9309,7 +9747,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands/marston-road"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/marston-road"
       }
     },
     "areaServed": {
@@ -9317,7 +9755,7 @@
       "name": "West Midlands",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/west-midlands"
+        "@value": "https://www.nonleaguegrounds.com/regions/west-midlands"
       }
     }
   },
@@ -9356,7 +9794,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -9366,7 +9804,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/stalybridge-celtic"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/stalybridge-celtic"
     },
     "location": {
       "@context": "https://schema.org",
@@ -9385,7 +9823,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/bower-fold"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/bower-fold"
       }
     },
     "areaServed": {
@@ -9393,7 +9831,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -9431,7 +9869,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -9441,7 +9879,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/warrington-rylands-1906"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/warrington-rylands-1906"
     },
     "location": {
       "@context": "https://schema.org",
@@ -9460,7 +9898,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/gorsey-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/gorsey-lane"
       }
     },
     "areaServed": {
@@ -9468,7 +9906,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -9508,7 +9946,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -9518,7 +9956,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/warrington-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/warrington-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -9540,7 +9978,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west/cantilever-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/cantilever-park"
       }
     },
     "areaServed": {
@@ -9548,7 +9986,7 @@
       "name": "North West",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/north-west"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west"
       }
     }
   },
@@ -9583,7 +10021,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league"
+        "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -9593,7 +10031,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/leagues/northern-premier-league/whitby-town"
+      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/whitby-town"
     },
     "location": {
       "@context": "https://schema.org",
@@ -9616,7 +10054,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/turnbull-ground"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/turnbull-ground"
       }
     },
     "areaServed": {
@@ -9624,7 +10062,7 @@
       "name": "Yorkshire and The Humber",
       "identifier": {
         "@type": "url",
-        "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber"
       }
     }
   }

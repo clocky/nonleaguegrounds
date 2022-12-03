@@ -16,7 +16,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-midlands/meadow-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/meadow-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -85,7 +85,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/boundary-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/boundary-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -153,7 +153,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/roots-hall"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/roots-hall"
     },
     "priceRange": "££",
     "areaServed": {
@@ -218,7 +218,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-east/gateshead-international-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-east/gateshead-international-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -283,7 +283,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/wales/racecourse-ground"
+      "@value": "https://www.nonleaguegrounds.com/regions/wales/racecourse-ground"
     },
     "priceRange": "££",
     "areaServed": {
@@ -353,7 +353,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-midlands/technique-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/technique-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -423,7 +423,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-shay"
+      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-shay"
     },
     "priceRange": "££",
     "areaServed": {
@@ -495,7 +495,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-west/huish-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-west/huish-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -559,7 +559,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/glanford-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/glanford-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -624,7 +624,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/the-walks-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/the-walks-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -698,7 +698,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/york-community-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/york-community-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -768,7 +768,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/moss-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/moss-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -797,7 +797,8 @@
         "sameAs": [
           "https://twitter.com/altrinchamfc/",
           "https://www.facebook.com/officialalty",
-          "https://www.instagram.com/altrinchamfc/"
+          "https://www.instagram.com/altrinchamfc/",
+          "https://www.youtube.com/altytv"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -846,7 +847,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/recreation-ground"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/recreation-ground"
     },
     "priceRange": "££",
     "areaServed": {
@@ -901,6 +902,11 @@
     "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Priory Lane",
+    "alternateName": "SO Legal Community Stadium",
+    "sponsor": {
+      "@type": "Organization",
+      "name": "SO Legal Community Stadium"
+    },
     "maximumAttendeeCapacity": 7000,
     "latitude": 50.80417,
     "longitude": 0.32078,
@@ -914,7 +920,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/priory-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/priory-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -939,7 +945,12 @@
           "height": 150
         },
         "foundingDate": "1954",
-        "sameAs": ["https://twitter.com/EBFCTheSports/"],
+        "url": "https://ebfc.co.uk",
+        "sameAs": [
+          "https://twitter.com/EBFCTheSports/",
+          "https://www.facebook.com/ebfcthesports",
+          "https://www.instagram.com/ebfc_official/"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
@@ -983,7 +994,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/cherrywood-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/cherrywood-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1051,7 +1062,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-west/bob-lucas-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-west/bob-lucas-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1115,7 +1126,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/bower-fold"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/bower-fold"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1188,7 +1199,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/spencer-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/spencer-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1256,7 +1267,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/deva-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/deva-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1326,7 +1337,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/the-hive-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/the-hive-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1399,7 +1410,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/west-midlands/new-bucks-head"
+      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/new-bucks-head"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1469,7 +1480,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/west-midlands/aggborough"
+      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/aggborough"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1534,7 +1545,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-west/plainmoor"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-west/plainmoor"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1604,7 +1615,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/victoria-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/victoria-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1677,7 +1688,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/kingfield-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/kingfield-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1752,7 +1763,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/haig-avenue"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/haig-avenue"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1819,7 +1830,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/mill-farm"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/mill-farm"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1889,7 +1900,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/crabble-athletic-ground"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/crabble-athletic-ground"
     },
     "priceRange": "££",
     "areaServed": {
@@ -1962,7 +1973,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/the-westleigh"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/the-westleigh"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2035,7 +2046,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/ten-acres"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/ten-acres"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2107,7 +2118,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/clarence-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/clarence-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2172,7 +2183,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/war-memorial-sports-ground"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/war-memorial-sports-ground"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2240,7 +2251,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/new-lodge"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/new-lodge"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2273,7 +2284,9 @@
         "url": "https://www.billericaytownfc.co.uk",
         "sameAs": [
           "https://twitter.com/BTFC/",
-          "https://www.facebook.com/BillericayTownFootballClub"
+          "https://www.facebook.com/BillericayTownFootballClub",
+          "https://www.instagram.com/billericaytown/",
+          "https://www.youtube.com/channel/UC4TJmqo4c_XBw_Yw6nNjUuw"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2313,7 +2326,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-midlands/jakemans-community-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/jakemans-community-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2378,7 +2391,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/hayes-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/hayes-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2412,7 +2425,8 @@
         "sameAs": [
           "https://twitter.com/bromleyfc/",
           "https://www.facebook.com/bromleyfc",
-          "https://www.instagram.com/bromleyfc/"
+          "https://www.instagram.com/bromleyfc/",
+          "https://www.youtube.com/bromleyfctv"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2493,7 +2507,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/west-midlands/edgar-street"
+      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/edgar-street"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2567,7 +2581,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/stonebridge-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/stonebridge-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2634,7 +2648,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/broadhurst-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/broadhurst-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2662,7 +2676,8 @@
         "url": "https://fc-utd.co.uk",
         "sameAs": [
           "https://twitter.com/FCUnitedMcr/",
-          "https://www.facebook.com/FCUnitedMcr"
+          "https://www.facebook.com/FCUnitedMcr",
+          "https://www.youtube.com/FCUnitedMcr"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2707,7 +2722,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/woodside-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/woodside-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2735,7 +2750,9 @@
         "url": "https://www.bsfc.co.uk",
         "sameAs": [
           "https://twitter.com/BSFCTheBlues/",
-          "https://www.facebook.com/BSFCTheBlues"
+          "https://www.facebook.com/BSFCTheBlues",
+          "https://www.instagram.com/bishops_stortfordfc/",
+          "https://www.youtube.com/channel/UCY0J8ch0Jx9lirFFwXTTHbw"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2780,7 +2797,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/west-midlands/damson-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/damson-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2850,7 +2867,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/meadow-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/meadow-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2917,7 +2934,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/nyewood-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/nyewood-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -2989,7 +3006,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-midlands/the-northolme"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/the-northolme"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3064,7 +3081,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/victory-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/victory-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3138,7 +3155,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/ewen-fields"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/ewen-fields"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3210,7 +3227,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/hurst-cross"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/hurst-cross"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3236,7 +3253,12 @@
         },
         "foundingDate": "1878",
         "url": "https://ashtonunited.co.uk",
-        "sameAs": ["https://twitter.com/AshtonUnitedFC/"],
+        "sameAs": [
+          "https://twitter.com/AshtonUnitedFC/",
+          "https://www.facebook.com/AsthtonUnitedFC",
+          "https://www.instagram.com/ashtonunitedfc/",
+          "https://www.youtube.com/channel/UCg42S3qN-tEcJzAXq_-w3mg"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
@@ -3274,7 +3296,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/nethermoor-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/nethermoor-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3300,7 +3322,12 @@
         },
         "foundingDate": "1909",
         "url": "https://guiseleyafc.co.uk",
-        "sameAs": ["https://twitter.com/GuiselyAFC/"],
+        "sameAs": [
+          "https://twitter.com/GuiselyAFC/",
+          "https://www.facebook.com/GuiseleyAFC",
+          "https://www.instagram.com/guiseleyafc1909/",
+          "https://www.youtube.com/OfficialGuiseleyAFC"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
@@ -3339,7 +3366,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/gallagher-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/gallagher-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3409,7 +3436,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/tameside-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/tameside-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3479,7 +3506,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/cressing-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/cressing-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3547,7 +3574,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-east/croft-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-east/croft-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3621,7 +3648,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/park-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/park-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3688,7 +3715,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/princes-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/princes-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3755,7 +3782,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/grosvenor-vale"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/grosvenor-vale"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3831,7 +3858,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/stainton-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/stainton-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3899,7 +3926,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/the-pilot-field"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/the-pilot-field"
     },
     "priceRange": "££",
     "areaServed": {
@@ -3965,7 +3992,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/west-midlands/marston-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/marston-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4034,7 +4061,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/cheriton-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/cheriton-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4101,7 +4128,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/park-view-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/park-view-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4174,7 +4201,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/woodside-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/woodside-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4243,7 +4270,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-midlands/the-silverlands"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/the-silverlands"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4313,7 +4340,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-west/new-meadow-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-west/new-meadow-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4377,7 +4404,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/york-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/york-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4450,7 +4477,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-citadel"
+      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-citadel"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4524,7 +4551,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/beveree-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/beveree-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4598,7 +4625,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-midlands/north-street"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/north-street"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4624,7 +4651,10 @@
         },
         "foundingDate": "1959",
         "url": "https://alfretontownfootballclub.com",
-        "sameAs": ["https://twitter.com/AlfretonTownFC/"],
+        "sameAs": [
+          "https://twitter.com/AlfretonTownFC/",
+          "https://www.facebook.com/AlfretonTownFC"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
@@ -4663,7 +4693,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-west/twerton-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-west/twerton-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4732,7 +4762,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/giant-axe"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/giant-axe"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4804,7 +4834,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/turnbull-ground"
+      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/turnbull-ground"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4873,7 +4903,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-east/filtrona-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-east/filtrona-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -4941,7 +4971,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/weaver-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/weaver-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5009,7 +5039,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/imperial-fields"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/imperial-fields"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5077,7 +5107,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/len-salmon-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/len-salmon-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5144,7 +5174,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/parkside"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/parkside"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5217,7 +5247,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-midlands/st-james-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/st-james-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5281,7 +5311,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/marsh-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/marsh-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5346,7 +5376,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/theobalds-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/theobalds-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5411,7 +5441,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5480,7 +5510,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/champion-hill"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/champion-hill"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5547,7 +5577,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/thames-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/thames-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5612,7 +5642,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-east/blackwell-meadows"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-east/blackwell-meadows"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5676,7 +5706,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/flamingo-land-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/flamingo-land-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5745,7 +5775,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/vauxhall-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/vauxhall-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5810,7 +5840,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/melbourne-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/melbourne-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5878,7 +5908,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/bulpit-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/bulpit-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -5945,7 +5975,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-east/craik-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-east/craik-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6009,7 +6039,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/sir-tom-finney-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/sir-tom-finney-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6077,7 +6107,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/the-dripping-pan"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/the-dripping-pan"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6145,7 +6175,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/hornchurch-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/hornchurch-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6220,7 +6250,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/winch-s-field"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/winch-s-field"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6293,7 +6323,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/longmead-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/longmead-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6358,7 +6388,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-west/hardenhuish-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-west/hardenhuish-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6423,7 +6453,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-east/brewery-field"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-east/brewery-field"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6488,7 +6518,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/meadowbank"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/meadowbank"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6550,10 +6580,10 @@
     "@context": "https://schema.org",
     "@type": "StadiumOrArena",
     "name": "Christchurch Meadow",
-    "alternateName": "The Silver X Stadium",
+    "alternateName": "Raygar Stadium",
     "sponsor": {
       "@type": "Organization",
-      "name": "The Silver X Stadium"
+      "name": "Raygar Stadium"
     },
     "maximumAttendeeCapacity": 2650,
     "latitude": 53.027196,
@@ -6567,7 +6597,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-midlands/christchurch-meadow"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/christchurch-meadow"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6593,7 +6623,10 @@
         },
         "foundingDate": "1883",
         "url": "https://belpertownfc.co.uk",
-        "sameAs": ["https://twitter.com/BelperTownFC/"],
+        "sameAs": [
+          "https://twitter.com/BelperTownFC/",
+          "https://www.facebook.com/belpertownfc"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
@@ -6635,7 +6668,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/cantilever-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/cantilever-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6702,7 +6735,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-east/mount-pleasant"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-east/mount-pleasant"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6771,7 +6804,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/alder-house"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/alder-house"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6797,7 +6830,10 @@
         },
         "foundingDate": "1916",
         "url": "https://athertoncollieries.co.uk",
-        "sameAs": ["https://twitter.com/ACFC1916/"],
+        "sameAs": [
+          "https://twitter.com/ACFC1916/",
+          "https://www.facebook.com/AthertonCollieries"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
@@ -6841,7 +6877,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/parkfield"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/parkfield"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6911,7 +6947,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/coles-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/coles-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -6976,7 +7012,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/queen-elizabeth-ii-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/queen-elizabeth-ii-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7046,7 +7082,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-west/cygnet-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-west/cygnet-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7110,7 +7146,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-midlands/causeway-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/causeway-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7175,7 +7211,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-midlands/latimer-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/latimer-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7245,7 +7281,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/lincoln-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/lincoln-road"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7310,7 +7346,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/west-midlands/new-windmill-ground"
+      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/new-windmill-ground"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7379,7 +7415,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/rossett-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/rossett-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7447,7 +7483,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/hartsdown-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/hartsdown-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7511,7 +7547,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/yorkshire-and-the-humber/clayborn"
+      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/clayborn"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7581,7 +7617,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/king-george-v-arena"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/king-george-v-arena"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7648,7 +7684,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/arbour-park"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/arbour-park"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7718,7 +7754,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/south-east/hop-oast-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/hop-oast-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7786,7 +7822,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/london/the-maurice-rebak-stadium"
+      "@value": "https://www.nonleaguegrounds.com/regions/london/the-maurice-rebak-stadium"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7853,7 +7889,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/north-west/gorsey-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/north-west/gorsey-lane"
     },
     "priceRange": "££",
     "areaServed": {
@@ -7920,7 +7956,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://nonleaguegrounds.com/regions/east-of-england/north-road"
+      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/north-road"
     },
     "priceRange": "££",
     "areaServed": {
