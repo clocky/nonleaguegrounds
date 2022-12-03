@@ -50,8 +50,8 @@ eleventyComputed:
 
 {% block main %}
   <main class="container">
-    <div class="grid">
-      <table class="{{ meta.class.table }}">
+    <div class="columns is-half">
+      <table class="{{ meta.class.table }} column">
         <thead>
           <tr>
             <th scope="col">Club</th>
@@ -76,7 +76,7 @@ eleventyComputed:
           {%- endfor %}
         </tbody>
       </table>
-      <figure class="container-fluid">
+      <figure class="column is-half">
         {% set caption = "Map of " + league.name + " clubs" %}
         <img 
         src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" 
