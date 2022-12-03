@@ -22,8 +22,9 @@
   </head>
   <body class="has-navbar-fixed-top">
     {% include "nav.njk" %}
-    {% block header %}{% endblock %}
     {% block breadcrumb %}{% endblock %}
+    {% block header %}{% endblock %}
+    {% block actions %}{% endblock %}
     <section class="section">
       {% block main %}{% endblock %}
     </section>
