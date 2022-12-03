@@ -1,19 +1,17 @@
 ---
 date: git Last Modified
-preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
 ---
 {% extends "./_layouts/base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
 {% from "hero.macro.njk" import hero %}
 
 {%- block link %}
-  <link rel="preload" as="image" href="{{ meta.hero['clubs'].src }}.jpg"/>
 {%- endblock %}
 
 {%- block css %}{%- endblock %}
 
 {% block header %}
-  {{ hero(meta.title, meta.description, meta.hero['home'].src, "halfheight" ) }}
+  {{ hero(meta.title, meta.description, "./src/_assets/img/unsplash/" + meta.hero['home'].src, "halfheight" ) }}
 {% endblock %}
 
 {% block main %}
@@ -21,7 +19,7 @@ preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
     <div class="columns">
       <div class="column is-one-third">
         <figure class="image is-4by3">
-        {% image "src" + meta.hero.leagues.src + ".jpg", "Leagues", "33vw" %}
+        {% image "src/_assets/img/unsplash/" + meta.hero.leagues.src + ".jpg", "Leagues", "33vw" %}
         </figure>
       </div>
       <div class="column is-half px-6">
