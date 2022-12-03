@@ -10,17 +10,12 @@ eleventyComputed:
 ---
 {% extends "./_layouts/base.njk" %}
 
-{% from "emoji.macro.njk" import emoji %}
 {% from "aerial.macro.njk" import aerial %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
-{% from "hero.macro.njk" import hero %}
 {% from "creative-commons.macro.njk" import creativeCommons %}
 {% from "macros.njk" import staticmap %}
 
 {% block link %}
-  {%- if club.image %}
-    <link rel="preload" as="image" href="{{ club.image.contentUrl.split(".")[0] }}.avif"/>
-  {%- endif %}
   <link rel="canonical" href="{{ meta.base }}/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">
 {% endblock %}
 
@@ -32,32 +27,66 @@ eleventyComputed:
 
 {% block css %}{% endblock %}
 
-{% block header %}
-  {% if club.image %}
-    {% set src = club
-      .image
-      .contentUrl
-      .split(".")[0] %}
-  {% endif %}
-  {{ hero(club.name, club.memberOf.name, src, type = "medium") }}
-{% endblock %}
-
 {% block breadcrumb %}
   {{- breadcrumb("Leagues", club.memberOf.name, club.name) }}
+{% endblock %}
+
+{% block header %}
+  <section class="hero is-white is-{{ 'small' if club.image else 'small' }} has-background">
+    {% if club.image %}
+      {% image "./src" + club.image.contentUrl, club.name, "100vw", "clubs" %}
+    {% endif %}
+    <div class="hero-body">
+      <div class="container has-text-left">
+        <h1 class="title has-background-white is-inline-block has-text-weight-bold {% if club.image -%}p-4{% endif %} is-size-2">{{ club.name | replace(" ", "\n") | nl2br | safe }}</h1>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+{% block actions %}
+<section class="container pt-3">
+  <div class="level">
+    <div class="level-left">
+      {% for url in club.sameAs %}
+        <div class="level-item">
+          {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") else url.split("/")[2].split(".")[1] -%}
+          {%- set user = url.split("/")[3] -%}
+          <a href="{{ url }}" target="_blank" rel="noopener canonical" class="button is-white">
+            <span class="icon is-{{ network | lower }}">
+              <i class="fab fa-{{ network | lower }}"></i>
+            </span>
+            <span id="{{ network | lower }}-label">{{ network | capitalize }}</span>
+          </a>
+        </div>
+      {% endfor %}
+      {% if club.url %}
+        <div class="level-item">
+          <a href="{{ club.url }}/" target="_blank" class="button is-text" rel="noopener">
+            <span>{{ club.url.slice(8) }}</span>
+            <span class="icon is-small">
+              <i class="fas fa-arrow-up-right-from-square"></i>
+            </span>
+          </a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
 {% endblock %}
 
 {% block main %}
   <main class="container">
     <div class="columns">
-      <article class="column is-two-thirds">
-        <p class="block">
+      <article class="column is-half">
+        <p class="block is-size-5">
           <strong>
             {{- club.alternateName -}}
           </strong>
-          is an {{ club.sport | lower }} club, based in {{ club.location.address.addressLocality }}
+          is an {{ club.sport | lower }} club based in {{ club.location.address.addressLocality }}
           {%- if club.location.address.addressRegion -%}
             , {{ club.location.address.addressRegion }}
-          {%- endif -%}.
+          {%- endif %} in {{ club.areaServed.name }}.
         </p>
         <p class="block">
           Founded {{ club.foundingDate | ago }} years ago in {{ club.foundingDate }}, the team currently compete in the
@@ -72,47 +101,10 @@ eleventyComputed:
           <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
           and are nicknamed <strong>"{{ club.slogan }}"</strong>.
         </p>
-        {% for url in club.sameAs %}
-          {% if url.includes("twitter") %}
-            {% set user = url.split("/")[3] %}
-            <a href="https://twitter.com/intent/follow?{{ user }}?original_referer={{ meta.base | urlencode }}/&ref_src={{ "twsrc^tfw\|twcamp^buttonembed\|twterm^follow\|twgr^" | urlencode }}{{ user }}&region=follow_link&screen_name={{ user }}" class="button is-info is-responsive is-rounded has-text-weight-semibold">Follow @{{ user }}</a>
-          {% endif %}
-        {% endfor %}
-
-        <!-- www -->
-        <nav class="level">
-          {% if club.url %}
-            <div class="level-item has-text-centered">
-              <p class="heading">web</p>
-              <p class="title">
-                <a href="{{ club.url }}/" target="_blank" rel="noopener">
-                  {{ club.url.slice(8) }} ↗ 
-                </a>
-              </p>
-            </div>
-          {% endif %}
-          <!-- social -->
-          {% for url in club.sameAs %}
-            {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") else url.split("/")[2].split(".")[1] -%}
-            {%- set user = url.split("/")[3] -%}
-            <div class="level-item has-text-centered">
-              <p class="heading">{{ network | capitalize }}</p>
-              <p class="title">
-                @{{user}}
-                {# <a href="{{ url }}" target="_blank" rel="noopener canonical">@{{ user }} ↗ </a> #}
-              </p>
-            </div>
-          {% endfor %}
-        </nav>
       </article>
-      <aside class="column is-one-third">
-        <figure>
-          <img src="{{ club.logo.contentUrl }}" width="{{ club.logo.width }}" height="{{ club.logo.height }}" alt="{{ club.logo.caption }}" style="text-align: center; margin-right: 1em; margin-bottom: 1rem;">
-        </figure>
 
+      <aside class="column is-one-quarter">
         <div>
-          <h4 class="heading">Full name</h4>
-          <p class="block">{{ club.alternateName }}</p>
           <h4 class="heading">Nickname</h4>
           <p class="block">{{ club.slogan }}</p>
           <h4 class="heading">Founded</h4>
@@ -129,21 +121,14 @@ eleventyComputed:
           <p class="block">
             {{ club.memberOf.name }}
           </p>
-          <h4 class="heading">Capacity</h4>
-          <p class="block">{{ club.location.maximumAttendeeCapacity | commaNumber }}</p>
         </div>
+      </aside>
+      <aside class="column is-one-quarter">
+        {%- if club.image %}
+          {{ creativeCommons(club.image)}}
+        {% endif %}
       </aside>
     </div>
   </main>
 
-{% endblock %}
-
-{% block attribution %}
-  {#-
-    Show a Creative Commons license and link back to Flickr if 
-    there's a club image in the original schema.org data.
-  -#}
-  {%- if club.image %}
-    {{ creativeCommons(club.image)}}
-  {% endif %}
 {% endblock %}
