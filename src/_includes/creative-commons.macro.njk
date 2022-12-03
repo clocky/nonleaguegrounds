@@ -1,13 +1,15 @@
 {% macro creativeCommons(image) %}
-  <div class="container">
-    <small>
-      Photo by <a href="https://www.flickr.com/photos/{{ image.creator.identifier }}" class="has-text-danger">{{ image.creator.name }}</a> 
-      on <a href="https://www.flickr.com/photos/{{ image.creator.identifier }}/{{ image.identifier }}" class="has-text-danger">Flickr ↗</a>
+      <p>
+        <small>
+        <a href="https://www.flickr.com/photos/{{ image.creator.identifier }}" class="has-text-danger">{{ image.creator.name }}</a> 
+        on <a href="https://www.flickr.com/photos/{{ image.creator.identifier }}/{{ image.identifier }}" class="has-text-danger">Flickr</a>
+        </small>
+      </p>
       {% if image.license %}
       {% set type = image.license.split("/")[4] | upper %}
       {% set version = image.license.split("/")[5] | upper %}
       {% set cc = type.split("-") %}
-        <p class="block">
+        <p class="block is-size-7">
           <span clas="icon">
             <i class="fab fa-creative-commons"></i>
               {% for c in cc %}
@@ -17,6 +19,4 @@
           <a href="{{ image.license }}" class="has-text-black has-text-weight-semibold">CC-{{ type }}-{{ version }}</a>
         </p>
       {% endif %}
-    </small>
-  </div>
 {% endmacro %}
