@@ -1,23 +1,23 @@
 {%- macro breadcrumb(tree, branch, leaf) %}
-  <section class="section py-4 has-background-light is-hidden-mobile">
+  <section class="section py-4 is-hidden-mobile">
     <div class="container">
       <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
           <li>
-            <a href="/" class="has-text-weight-bold">Home</a>
+            <a href="/">Home</a>
           </li>
           {%- if tree %}
-            <li  class="{% if not branch -%}is-active{%- endif %} has-text-weight-semibold">
+            <li  class="{% if not branch -%}is-active{%- endif %}">
               <a href="/{{ tree | slugify }}" {% if not branch -%} aria-current="page" {%- endif %}>{{ tree }}</a>
             </li>
           {%- endif %}
           {%- if branch %}
-            <li class="{% if not leaf -%}is-active{%- endif %} has-text-weight-medium">
+            <li class="{% if not leaf -%}is-active{%- endif %}">
               <a href="/{{ tree | slugify }}/{{ branch | slugify }}" {% if not leaf -%} aria-current="page" {%- endif %}>{{ branch }}</a>
             </li>
           {%- endif %}
           {%- if leaf %}
-            <li class="is-active has-text-weight-normal">
+            <li class="is-active">
               <a href="/{{ tree | slugify }}/{{ branch | slugify }}/{{ leaf | slugify }}" aria-current="page">{{ leaf }}</a>
             </li>
           {%- endif %}
