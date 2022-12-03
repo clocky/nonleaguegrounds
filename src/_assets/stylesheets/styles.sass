@@ -1,3 +1,7 @@
+@import "variables"
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome"
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands"
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid"
 @import url("https://fonts.googleapis.com/css?family=Noto+Emoji&display=swap&text=🏟️⚽🏆󠁧󠁢󠁷󠁬󠁳🐦📍🐝🪵⛏️🔨🤠🐦⛪🗡️󠁧󠁢󠁷󠁬󠁳🏃🦁󠁧󠁢󠁷󠁬󠁳✈️󠁧󠁢󠁷󠁬󠁳🏁🪨🏃󠁧󠁢󠁷󠁬󠁳🦐🧲🐦🪨🧤⛪🏖️🦌⚔️󠁧󠁢󠁷󠁬󠁳😇🪖🦌󠁧󠁢󠁷󠁬󠁳🦭🐦󠁧󠁢󠁷󠁬󠁳󠁧󠁢󠁷󠁬🪖🐯🐂󠁧󠁢󠁷󠁬󠁳🌺󠁧󠁢󠁷󠁬󠁳👶🐦󠁧󠁢󠁷󠁬󠁳✋󠁧󠁢󠁷󠁬󠁳✈️🐶🏖️󠁧󠁢󠁷󠁬󠁳⛵🧲🔴󠁧󠁢󠁷󠁬󠁳🐦🏖️󠁧󠁢󠁷󠁬󠁳🎯⚪󠁧󠁢󠁷󠁬󠁳🏠󠁧󠁢󠁷󠁬󠁳🦫🦅󠁧󠁢󠁷󠁬󠁳👑⚔️󠁧󠁢󠁷󠁬☘️󠁳⭕󠁧󠁢󠁷󠁬󠁳✊😇🦚😇🦅🌎󠁧󠁢󠁷󠁬󠁳✊🏴󠁧󠁢󠁷󠁬󠁳󠁿🙏🏻🍞🎻🇷🇰🪄👦🚪♟️🎓🍷🔫⚓🗺️ ")
 
 $family-primary: "Inter", sans-serif
@@ -15,6 +19,7 @@ $family-primary: "Inter", sans-serif
   &.has-background
     position: relative
     overflow: hidden
+
   &-background
     position: absolute
     object-fit: cover
@@ -22,7 +27,15 @@ $family-primary: "Inter", sans-serif
     width: 100%
     height: 100%
     &.is-transparent
-      opacity: 0.3
-    .hero-body
-      h2
-        letter-spacing: -0.125rem
+      opacity: 1
+
+.hero-body
+  h1
+    letter-spacing: -0.1rem
+
+$brand-colors: ("twitter": #1DA1F2, "facebook": #4267B2, "instagram": #E1306C, "youtube": #FF0000)
+
+
+@each $brand, $color in $brand-colors
+  .is-#{$brand}
+    color: $color
