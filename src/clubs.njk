@@ -37,10 +37,15 @@ eleventyComputed:
             <th scope="row">
               <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
               {%- if env.eleventy == "development" %}
+              {% if club.owns %}
+                <span class="tag is-danger is-normal is-light">kit</span>
+              {% else %}
+                <a class="button is-small is-danger" target="_blank" rel="noopener" href="{{ club.url }}">Site</a>
+              {% endif %}
               {% if club.image %}
                 <span class="tag is-success is-normal is-light">image</span>
               {% else %}
-                <a class="button is-small is-link" target="_blank" rel="noopener" href="https://wordpress.org/openverse/search/?q={{ club.name | urlencode }}&license=by,by-sa,by-nd,by-nc,by-nc-sa,by-nc-nd">Search </a>
+                <a class="button is-small is-success" target="_blank" rel="noopener" href="https://wordpress.org/openverse/search/?q={{ club.name | urlencode }}&license=by,by-sa,by-nd,by-nc,by-nc-sa,by-nc-nd">Search </a>
               {% endif %}
               {%- endif %}
             </th>
