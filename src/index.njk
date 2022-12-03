@@ -13,42 +13,41 @@ preload: "samuel-regan-asante-YOtjUyEfClo-unsplash.jpg"
 {%- block css %}{%- endblock %}
 
 {% block header %}
-  {{ hero(meta.title, meta.description, meta.hero['home'].src ) }}
+  {{ hero(meta.title, meta.description, meta.hero['home'].src, "halfheight" ) }}
 {% endblock %}
 
 {% block main %}
-  <main class="container">
-    <section class="grid" id="home">
-      <div id="leagues-panel" class="panel">
-        <hgroup>
-          <h3>Leagues</h3>
-          <p>
-            From the <strong>{{ leagues[0].name }}</strong> to the 
-            <strong>{{ leagues[leagues.length -1].name }}</strong>, 
-            a directory of {{ leagues.length }} English football conference leagues.
-          </p>
-        </hgroup>
-        <a href="/leagues" role="button">View all leagues →</a>
+  <section class="section has-background-white">
+    <div class="columns">
+      <div class="column is-one-third">
+        <figure class="image is-4by3">
+        {% image "src" + meta.hero.leagues.src + ".jpg", "Leagues", "33vw" %}
+        </figure>
       </div>
-      <div id="grounds-panel" class="panel">
-        <hgroup>
+      <div class="column is-half px-6">
+        <h3 class="is-size-3 has-text-weight-semibold">Leagues</h3>
+        <p class="is-size-5 mb-5 mt-3 has-text-grey">
+          From the <strong>{{ leagues[0].name }}</strong> to the 
+          <strong>{{ leagues[leagues.length -1].name }}</strong>, 
+          a directory of {{ leagues.length }} English football conference leagues.
+        </p>
+        <p class="block">
+          <a href="/leagues" class="button is-warning">View all leagues →</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <main class="container">
           <h3>Grounds</h3>
           <p> Leading with the {{ grounds[0].maximumAttendeeCapacity | commaNumber }}-capacity home of <strong>{{ grounds[0].subOrganization[0].name }}</strong>, 
               a list of {{ grounds.length }} English and Welsh non-league grounds.</p>
-        </hgroup>
         <a href="/grounds" role="button">View all grounds →</a>
-      </div>
-      <div id="regions-panel" class="panel">
-        <hgroup>
           <h3>Regions</h3>
           <p>
              From the <strong>North East</strong> to the <strong>South West</strong>, 
               a directory of clubs in the {{ regions.length }} regions of England and Wales
             </p>
-        </hgroup>
         <a href="/regions" role="button">View all regions →</a>
-      </div>
-    </section>
   </main>
   {{ unsplash(meta.hero["clubs"]) }}
 {% endblock %}
