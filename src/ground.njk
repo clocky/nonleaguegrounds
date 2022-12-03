@@ -38,7 +38,7 @@ apple %}
     <div class="level">
       <div class="level-left">
         <div class="level-item">
-          <a href="{{ google(ground) }}" rel="noopener" target="_blank" class="button is-white" aria-label="Open in Google Maps">
+          <a href="{{ google(ground) }}" rel="noopener" target="_blank" class="button is-light" aria-label="Open in Google Maps">
             <span class="icon is-google">
               <i class="fab fa-google"></i>
             </span>
@@ -46,7 +46,7 @@ apple %}
           </a>
         </div>
         <div class="level-item">
-          <a href="{{ apple(ground) }}" rel="noopener" target="_blank" class="button is-white" aria-label="Open in Apple Maps">
+          <a href="{{ apple(ground) }}" rel="noopener" target="_blank" class="button is-light" aria-label="Open in Apple Maps">
             <span class="icon is-apple">
               <i class="fab fa-apple"></i>
             </span>
@@ -54,7 +54,7 @@ apple %}
           </a>
         </div>
         <div class="level-item">
-          <a href="{{ bing(ground) }}" rel="noopener" target="_blank" class="button is-white" aria-label="Open in Bing Maps">
+          <a href="{{ bing(ground) }}" rel="noopener" target="_blank" class="button is-light" aria-label="Open in Bing Maps">
             <span class="icon is-microsoft">
               <i class="fab fa-microsoft"></i>
             </span>
@@ -62,7 +62,7 @@ apple %}
           </a>
         </div>
         <div class="level-item">
-          <a href="{{ osm(ground) }}" rel="noopener" target="_blank" class="button is-white" aria-label="Open in Open Street Maps">
+          <a href="{{ osm(ground) }}" rel="noopener" target="_blank" class="button is-light" aria-label="Open in Open Street Maps">
             <span class="icon is-openstreetmap">
               <i class="fa-solid fa-map"></i>
             </span>
@@ -97,7 +97,7 @@ apple %}
 
 {% block main %}
   <main class="container">
-    <div class="columns">
+    <div class="columns is-variable is-8">
       <section class="column is-half">
         <p class="block is-size-5">
           <strong>{{ ground.name }}</strong>
@@ -121,10 +121,11 @@ apple %}
       <aside class="column is-one-quarter">
         {% for club in ground.subOrganization %}
         <h4 class="heading">Address</h4>
-        <p>{{ club.alternateName }}</p>
-        <p>{{ ground.name | safe }}</p>
+        <p class="has-text-weight-semibold"> {{ club.alternateName }}</p>
         {% if ground.sponsor %}
-        <p>{{ ground.sponsor.name | safe }}</p>
+          <p>{{ ground.sponsor.name | safe }}</p>
+        {% else %}
+          <p>{{ ground.name | safe }}</p>
         {% endif %}
         
         {% if ground.address.streetAddress != ground.name %}
@@ -160,8 +161,8 @@ apple %}
                     <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
                     {% set count = count + 1 %}
                   {% endif %}
-                {% endfor %} at 
-                <a href="/regions/{{ away.areaServed.name | slugify }}/{{ away.name|slugify }}">{{ away.name }}</a>
+                {% endfor %}
+                {# <a href="/regions/{{ away.areaServed.name | slugify }}/{{ away.name|slugify }}">{{ away.name }}</a> #}
                 <span class="tag">{{ distance | round(1) }} mi</span>
               </li>
             {% endif %}
