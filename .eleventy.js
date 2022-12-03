@@ -4,11 +4,12 @@ const prettier = require("prettier");
 const yaml = require("js-yaml");
 const ordinal = require("ordinal");
 const commaNumber = require("comma-number");
-const EleventyFetch = require("@11ty/eleventy-fetch");
 const distFrom = require("distance-from");
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
 const brokenLinksPlugin = require("eleventy-plugin-broken-links");
-
+const Image = require("@11ty/eleventy-img");
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const slugify = require("slugify");
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === "production") {
@@ -17,6 +18,8 @@ module.exports = function (eleventyConfig) {
       quiet: false,
     });
   }
+
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   eleventyConfig.addPlugin(brokenLinksPlugin, {
     broken: "warn",
@@ -38,21 +41,30 @@ module.exports = function (eleventyConfig) {
   /** Add loader for YAML files */
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
-  /** Watch SASS files for changes */
   eleventyConfig.addWatchTarget("./src/sass/");
-
-  /** Watch data source file for changes */
   eleventyConfig.addWatchTarget("./src/_data/");
 
-  eleventyConfig.addPassthroughCopy("./src/js/*.js");
-  eleventyConfig.addPassthroughCopy({"src/static": "/"});
+  /**
+   * Pass through copy
+   */
 
-  /** Add a filter to format inline dates for <time> tags */
+  eleventyConfig.addPassthroughCopy({ "node_modules/@fortawesome/fontawesome-free/webfonts": "webfonts" });
+  eleventyConfig.addPassthroughCopy("./src/js/*.js");
+  eleventyConfig.addPassthroughCopy({ "src/static": "/" });
+
+  /**
+   * Filters
+   */
+
   const formatDate = (date, format) => dayjs(date).format(format);
   eleventyConfig.addFilter("date", formatDate);
-
   eleventyConfig.addFilter("ordinal", (num) => ordinal(num));
   eleventyConfig.addFilter("commaNumber", (num) => commaNumber(num));
+
+  /**
+   * Shortcodes
+   */
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
   eleventyConfig.addShortcode("distance", (a, b, x, y) => {
     let distance = new distFrom([a, b]).to([x, y]).in("mi");
@@ -90,11 +102,36 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "src",
       output: "dist",
-			includes: "_includes",
-      layouts: "_layouts"
+      includes: "_includes",
+      layouts: "_layouts",
     },
     templateFormats: ["njk"],
     htmlTemplateEngine: "njk",
     passthroughFileCopy: true,
   };
 };
+
+async function imageShortcode(src, alt, sizes) {
+  const slug = slugify(alt, { lower: true, strict: true });
+  let metadata = await Image(src, {
+    widths: [768, 1216],
+    urlPath: "/img/clubs",
+    outputDir: "dist/img/clubs/",
+    formats: ["avif", "jpeg"],
+    cacheDuration: "7d",
+    filenameFormat: function (id, src, width, format, options, alt) {;
+      return `${slug}-${width}w.${format}`;
+    }
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    class: "hero-background is-transparent",
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes);
+}
