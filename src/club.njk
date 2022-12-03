@@ -25,7 +25,19 @@ eleventyComputed:
   </script>
 {% endblock %}
 
-{% block css %}{% endblock %}
+{% block css %}
+    {%- if club.owns  %}
+    <style>
+      section.hero.is-white {
+        {% if club.owns.color.length > 1 %}
+        background: linear-gradient(90deg, {{ club.owns.color[0].@value }} 0%, {{ club.owns.color[1].@value }} 100%) ! important;
+        {% else %}
+        background: {{ club.owns.color[0].@value }} ! important;
+        {% endif %}
+      }
+    </style>
+    {%- endif %}
+{% endblock %}
 
 {% block breadcrumb %}
   {{- breadcrumb("Leagues", club.memberOf.name, club.name) }}
@@ -34,11 +46,11 @@ eleventyComputed:
 {% block header %}
   <section class="hero is-white is-{{ 'small' if club.image else 'small' }} has-background">
     {% if club.image %}
-      {% image "./src" + club.image.contentUrl, club.name, "100vw", "clubs" %}
+      {% image "./src/_assets/img/flickr/" + club.image.contentUrl, club.name, "100vw", "clubs" %}
     {% endif %}
     <div class="hero-body">
       <div class="container has-text-left">
-        <h1 class="title has-background-white is-inline-block has-text-weight-bold {% if club.image -%}p-4{% endif %} is-size-2">{{ club.name | replace(" ", "\n") | nl2br | safe }}</h1>
+        <h1 class="title has-background-white is-inline-block has-text-weight-bold {% if club.image or club.owns -%}p-4{% endif %} is-size-2">{{ club.name | replace(" ", "\n") | nl2br | safe }}</h1>
       </div>
     </div>
   </section>
@@ -52,11 +64,11 @@ eleventyComputed:
         <div class="level-item">
           {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") else url.split("/")[2].split(".")[1] -%}
           {%- set user = url.split("/")[3] -%}
-          <a href="{{ url }}" target="_blank" rel="noopener canonical" class="button is-white">
+          <a href="{{ url }}" target="_blank" rel="noopener canonical" class="button is-light">
             <span class="icon is-{{ network | lower }}">
               <i class="fab fa-{{ network | lower }}"></i>
             </span>
-            <span id="{{ network | lower }}-label">{{ network | capitalize }}</span>
+            <span id="{{ network | lower }}-label">{{ "YouTube" if network == "youtube" else network | capitalize }}</span>
           </a>
         </div>
       {% endfor %}
@@ -65,7 +77,7 @@ eleventyComputed:
           <a href="{{ club.url }}/" target="_blank" class="button is-text" rel="noopener">
             <span>{{ club.url.slice(8) }}</span>
             <span class="icon is-small">
-              <i class="fas fa-arrow-up-right-from-square"></i>
+              <i class="fas fa-arrow-up-right-from-square is-size-7"></i>
             </span>
           </a>
         </div>
@@ -77,8 +89,8 @@ eleventyComputed:
 
 {% block main %}
   <main class="container">
-    <div class="columns">
-      <article class="column is-half">
+    <div class="columns is-variable is-8">
+      <article class="column is-three-fifths">
         <p class="block is-size-5">
           <strong>
             {{- club.alternateName -}}
@@ -103,7 +115,7 @@ eleventyComputed:
         </p>
       </article>
 
-      <aside class="column is-one-quarter">
+      <aside class="column is-one-fifth">
         <div>
           <h4 class="heading">Nickname</h4>
           <p class="block">{{ club.slogan }}</p>
@@ -117,14 +129,11 @@ eleventyComputed:
               {{ club.location.name }}
             </a>
           </p>
-          <h4 class="heading">League</h4>
-          <p class="block">
-            {{ club.memberOf.name }}
-          </p>
         </div>
       </aside>
-      <aside class="column is-one-quarter">
+      <aside class="column is-one-fifth">
         {%- if club.image %}
+        <h4 class="heading">Photo Credit</h4>
           {{ creativeCommons(club.image)}}
         {% endif %}
       </aside>
