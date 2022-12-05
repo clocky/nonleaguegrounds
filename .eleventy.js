@@ -29,12 +29,12 @@ module.exports = function (eleventyConfig) {
        All of these 'fail' due to 429 rate limit or 302 moved errors
        but still have valid content.
     */
-    excludeUrls: [
-      "https://maps.apple.com/*",
-      "https://www.facebook.com/*",
-      "https://www.youtube.com/channel/*",
-      "https://www.instagram.com/*",
-      "https://twitter.com/*",
+    excludeUrls: [ 
+     "https://maps.apple.com/*",          // Redirects to /place?q and 404's
+     "https://www.facebook.com/*",        // Gives a 302 error with Location:
+     "https://www.youtube.com/channel/*", 
+     "https://twitter.com/*",
+     "https://altrinchamfc.com/*",      // Avoid cdn.shopify.com error
     ],
   });
 
@@ -111,14 +111,14 @@ module.exports = function (eleventyConfig) {
   };
 };
 
-async function imageShortcode(src, alt, sizes, urlPath) {
+async function imageShortcode(src, widths, formats, alt, sizes, urlPath) {
   const slug = slugify(alt, { lower: true, strict: true });
   let metadata = await Image(src, {
-    widths: [768, 1216],
+    widths: widths,
     urlPath: `/img/${urlPath}`,
     outputDir: `dist/img/${urlPath}`,
-    formats: ["avif", "jpeg"],
-    cacheDuration: "7d",
+    formats: formats,
+    cacheDuration: "1y",
     filenameFormat: function (id, src, width, format, options, alt) {;
       return `${slug}-${width}w.${format}`;
     }
