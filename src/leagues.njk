@@ -37,10 +37,10 @@ eleventyComputed:
         </tr>
       </thead>
       <tbody>
-        {% for league in leagues | sort(attribute = "additionalProperty.@value")%}
+        {% for league in leagues | sort(attribute = "additionalProperty.value")%}
           <tr>
             <td>
-              {{ league.additionalProperty.@value | ordinal }}
+              {{ league.additionalProperty.value | ordinal }}
             </td>
             <th scope="row">
               <a href="/leagues/{{ league.name | slugify }}">
