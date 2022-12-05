@@ -38,7 +38,7 @@ eleventyExcludeFromCollections: true
             <priority>0.7</priority>
         </url>
     {%- endfor %}
-    {%- for league in leagues | sort(attribute = "additionalProperty.@value") -%}
+    {%- for league in leagues | sort(attribute = "additionalProperty.value") -%}
         <url>
             <loc>{{ meta.base }}/leagues/{{ league.name | slugify }}</loc>
             <lastmod>{{ page.date | date("YYYY-MM-DD")}}</lastmod>
