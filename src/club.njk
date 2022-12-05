@@ -33,26 +33,26 @@ eleventyComputed:
         background: linear-gradient(
             135deg, 
         {%- if club.owns.color.length == 2 %}
-            {{ club.owns.color[0].value }} 0%, 
-            {{ club.owns.color[0].value }} 10.5rem,
-            {{ club.owns.color[1].value }} 10.51rem,
-            {{ club.owns.color[1].value }} 15rem,
-            {{ club.owns.color[0].value }} 15.01rem,
-            {{ club.owns.color[0].value }} 15.50rem,
+            {{ club.owns.color[0] }} 0%, 
+            {{ club.owns.color[0] }} 10.5rem,
+            {{ club.owns.color[1] }} 10.51rem,
+            {{ club.owns.color[1] }} 15rem,
+            {{ club.owns.color[0] }} 15.01rem,
+            {{ club.owns.color[0] }} 15.50rem,
             #ffffff 15.51rem,
             #ffffff 100%
         {%- elif club.owns.color.length == 3 %}
-            {{ club.owns.color[0].value }} 0%, 
-            {{ club.owns.color[0].value }} 10.5rem,
-            {{ club.owns.color[1].value }} 10.51rem,
-            {{ club.owns.color[1].value }} 15rem,
-            {{ club.owns.color[2].value }} 15.01rem,
-            {{ club.owns.color[2].value }} 15.50rem,
+            {{ club.owns.color[0] }} 0%, 
+            {{ club.owns.color[0] }} 10.5rem,
+            {{ club.owns.color[1] }} 10.51rem,
+            {{ club.owns.color[1] }} 15rem,
+            {{ club.owns.color[2] }} 15.01rem,
+            {{ club.owns.color[2] }} 15.50rem,
             #ffffff 15.51rem,
             #ffffff 100%
         {%- else %}
-            {{ club.owns.color[0].value }} 0%, 
-            {{ club.owns.color[0].value }} 15.5rem,
+            {{ club.owns.color[0] }} 0%, 
+            {{ club.owns.color[0] }} 15.5rem,
             #ffffff 15.51rem,
             #ffffff 100%
         {%- endif %}
@@ -86,7 +86,7 @@ eleventyComputed:
     <div class="level-left">
       {% for url in club.sameAs %}
         <div class="level-item">
-          {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") else url.split("/")[2].split(".")[1] -%}
+          {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") or url.includes("soundcloud") else url.split("/")[2].split(".")[1] -%}
           {%- set user = url.split("/")[3] -%}
           <a href="{{ url }}" target="_blank" rel="noopener canonical" class="button is-white">
             <span class="icon is-{{ network | lower }}">
