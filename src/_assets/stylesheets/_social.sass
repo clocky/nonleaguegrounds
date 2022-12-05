@@ -1,0 +1,5 @@
+$brand-colors: ("twitter": #1DA1F2, "facebook": #4267B2, "instagram": #E1306C, "youtube": #FF0000, "google": #4285F4, "apple": #000000, "microsoft": #00809D, "openstreetmap": #7EBC6F, "tiktok": #FE2C55, "soundcloud": #FF8800)
+
+@each $brand, $color in $brand-colors
+  .is-#{$brand}
+    color: $color
