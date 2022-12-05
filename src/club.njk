@@ -26,16 +26,40 @@ eleventyComputed:
 {% endblock %}
 
 {% block css %}
-    {%- if club.owns  %}
+    {%- if club.owns %}
+    {%- if not club.image %}
     <style>
-      section.hero.is-white {
-        {% if club.owns.color.length > 1 %}
-        background: linear-gradient(90deg, {{ club.owns.color[0].@value }} 0%, {{ club.owns.color[1].@value }} 100%) ! important;
-        {% else %}
-        background: {{ club.owns.color[0].@value }} ! important;
-        {% endif %}
+      section.hero {
+        background: linear-gradient(
+            135deg, 
+        {%- if club.owns.color.length == 2 %}
+            {{ club.owns.color[0].value }} 0%, 
+            {{ club.owns.color[0].value }} 10.5rem,
+            {{ club.owns.color[1].value }} 10.51rem,
+            {{ club.owns.color[1].value }} 15rem,
+            {{ club.owns.color[0].value }} 15.01rem,
+            {{ club.owns.color[0].value }} 15.50rem,
+            #ffffff 15.51rem,
+            #ffffff 100%
+        {%- elif club.owns.color.length == 3 %}
+            {{ club.owns.color[0].value }} 0%, 
+            {{ club.owns.color[0].value }} 10.5rem,
+            {{ club.owns.color[1].value }} 10.51rem,
+            {{ club.owns.color[1].value }} 15rem,
+            {{ club.owns.color[2].value }} 15.01rem,
+            {{ club.owns.color[2].value }} 15.50rem,
+            #ffffff 15.51rem,
+            #ffffff 100%
+        {%- else %}
+            {{ club.owns.color[0].value }} 0%, 
+            {{ club.owns.color[0].value }} 15.5rem,
+            #ffffff 15.51rem,
+            #ffffff 100%
+        {%- endif %}
+        );
       }
     </style>
+    {%- endif %}
     {%- endif %}
 {% endblock %}
 
@@ -44,31 +68,31 @@ eleventyComputed:
 {% endblock %}
 
 {% block header %}
-  <section class="hero is-white is-{{ 'small' if club.image else 'small' }} has-background">
+  <section class="hero {% if club.owns === false %}is-white{% endif %} is-small has-background">
     {% if club.image %}
-      {% image "./src/_assets/img/flickr/" + club.image.contentUrl, club.name, "100vw", "clubs" %}
+      {% image "./src/_assets/img/flickr/" + club.image.contentUrl, [640, 768, 1024, 1366, 1600, 1920],  ["avif", "jpeg"], club.name, "100vw", "clubs" %}
     {% endif %}
     <div class="hero-body">
       <div class="container has-text-left">
-        <h1 class="title has-background-white is-inline-block has-text-weight-bold {% if club.image or club.owns -%}p-4{% endif %} is-size-2">{{ club.name | replace(" ", "\n") | nl2br | safe }}</h1>
+        <h1 class="title has-background-white is-inline-block has-text-weight-bold {% if club.image or club.owns -%}p-4{% endif %} is-size-2 is-size-3-mobile">{{ club.name }}</h1>
       </div>
     </div>
   </section>
 {% endblock %}
 
 {% block actions %}
-<section class="container pt-3">
-  <div class="level">
+<section class="section pt-4 pb-0">
+  <div class="level is-mobile container">
     <div class="level-left">
       {% for url in club.sameAs %}
         <div class="level-item">
           {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") else url.split("/")[2].split(".")[1] -%}
           {%- set user = url.split("/")[3] -%}
-          <a href="{{ url }}" target="_blank" rel="noopener canonical" class="button is-light">
+          <a href="{{ url }}" target="_blank" rel="noopener canonical" class="button is-white">
             <span class="icon is-{{ network | lower }}">
               <i class="fab fa-{{ network | lower }}"></i>
             </span>
-            <span id="{{ network | lower }}-label">{{ "YouTube" if network == "youtube" else network | capitalize }}</span>
+            {# <span id="{{ network | lower }}-label" class="is-hidden-mobile">{{ "YouTube" if network == "youtube" else network | capitalize }}</span> #}
           </a>
         </div>
       {% endfor %}
@@ -90,32 +114,36 @@ eleventyComputed:
 {% block main %}
   <main class="container">
     <div class="columns is-variable is-8">
-      <article class="column is-three-fifths">
+      <article class="column is-half">
         <p class="block is-size-5">
           <strong>
             {{- club.alternateName -}}
           </strong>
-          is an {{ club.sport | lower }} club based in {{ club.location.address.addressLocality }}
+          {%- if club.keywords %}
+          is a {{ club.keywords }}
+          {%- endif %}
+          {{ club.sport | lower }} club based in {{ club.location.address.addressLocality }}
           {%- if club.location.address.addressRegion -%}
             , {{ club.location.address.addressRegion }}
-          {%- endif %} in {{ club.areaServed.name }}.
+          {%- endif %}.
         </p>
         <p class="block">
-          Founded {{ club.foundingDate | ago }} years ago in {{ club.foundingDate }}, the team currently compete in the
+          The club was founded in {{ club.foundingDate }}, and currently plays in the
           <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
             {{ club.memberOf.name }}</a>, 
             {%- if club.memberOf.additionalProperty %}
-            the {{ club.memberOf.additionalProperty.@value | ordinal }} tier of English football
+            the {{ club.memberOf.additionalProperty.value | ordinal }} tier of 
+            the English football league system
             {%- endif %}.
         </p>
         <p class="block">
-          They play their home matches at 
+          {{ club.name }} plays its home matches at 
           <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
-          and are nicknamed <strong>"{{ club.slogan }}"</strong>.
+          a stadium which has a capacity of {{ club.location.maximumAttendeeCapacity | commaNumber }} spectators.
         </p>
       </article>
 
-      <aside class="column is-one-fifth">
+      <aside class="column is-one-quarter">
         <div>
           <h4 class="heading">Nickname</h4>
           <p class="block">{{ club.slogan }}</p>
@@ -131,7 +159,7 @@ eleventyComputed:
           </p>
         </div>
       </aside>
-      <aside class="column is-one-fifth">
+      <aside class="column is-one-quarter">
         {%- if club.image %}
         <h4 class="heading">Photo Credit</h4>
           {{ creativeCommons(club.image)}}

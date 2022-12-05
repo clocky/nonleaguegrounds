@@ -6,7 +6,7 @@ pagination:
 permalink: "/leagues/{{ league.name | slugify }}/index.html"
 eleventyComputed:
     title: "Clubs in the {{ league.alternateName | safe }}"
-    description: "The {{ league.name }} is at the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs"
+    description: "The {{ league.name }} is at the {{ league.additionalProperty.value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs"
 ---
 {% extends "./_layouts/base.njk" %}
 
@@ -14,6 +14,7 @@ eleventyComputed:
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 {% from "hero.macro.njk" import hero %}
 {% from "unsplash.macro.njk" import unsplash %}
+{% from "club-card.macro.njk" import clubCard %}
 
 {%- set markers -%}
 {%- for club in league.members -%}
@@ -32,16 +33,15 @@ eleventyComputed:
 
 {%- block script %}
   <script type="application/ld+json">
-    {{ league | dump | safe }}
+    {# {{ league | dump | safe }} #}
   </script>
 {%- endblock %}
 
 {% block header %}
   {%- set subtitle %}
-    The {{ league.name }} is at the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs
+    The {{ league.name }} is at the {{ league.additionalProperty.value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs
   {%- endset %}
   {{- hero(league.alternateName, description, meta.hero['leagues'].src) }}
-
 {% endblock %}
 
 {% block breadcrumb %}
@@ -49,46 +49,17 @@ eleventyComputed:
 {% endblock %}
 
 {% block main %}
-  <main class="container">
-    <div class="columns is-half">
-      <table class="{{ meta.class.table }} column">
-        <thead>
-          <tr>
-            <th scope="col">Club</th>
-            <th scope="col" class="is-hidden-mobile">Nickname</th>
-          </tr>
-        </thead>
-        <tbody>
-          {%- for club in league.members %}
-            <tr>
-              <th scope="row">
-                <a href="/leagues/{{ league.name | slugify }}/{{ club.name | slugify }}">
-                  {{- club.name -}}
-                </a>
-              </th>
-              <td class="is-hidden-mobile">
-                <span role="img" class="has-text-black">
-                  {{- emoji(club.slogan) -}}
-                </span>
-                <span class="has-text-grey-dark">{{ club.slogan -}}</span>
-              </td>
-            </tr>
-          {%- endfor %}
-        </tbody>
-      </table>
-      <figure class="column is-half">
-        {% set caption = "Map of " + league.name + " clubs" %}
-        <img 
-        src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" 
-        alt="{{ caption }}"
-      >
-        <figcaption>
-          <small>
-            {{- caption -}}
-          </small>
-        </figcaption>
-      </figure>
+  <div class="container">
+    {% for clubs in league.members | sort(attribute = "name") | batch(3) %}
+    <div class="columns">
+      {% for club in clubs %}
+        <div class="column is-one-third">
+          {{ clubCard(club, league) }}
+        </div>
+      {% endfor %}
     </div>
-  </main>
+    {% endfor %}
+  </div>
   {{ unsplash(meta.hero["leagues"]) }}
 {% endblock %}
+
