@@ -9,6 +9,7 @@
         "@type": "StadiumOrArena",
         "name": "Causeway Lane",
         "priceRange": "££",
+        "alternateName": "Proctor Cars Stadium",
         "identifier": {
           "@type": "URL",
           "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/causeway-lane"
@@ -20,7 +21,7 @@
           "postalCode": "DE4 3AR",
           "addressCountry": "GB"
         },
-        "maximumAttendeeCapacity": 2400,
+        "maximumAttendeeCapacity": 2300,
         "latitude": 53.137031,
         "longitude": -1.551677,
         "subOrganization": {
@@ -108,7 +109,7 @@
           "@type": "PostalAddress",
           "streetAddress": "Pilgrim Way",
           "addressLocality": "Boston",
-          "addressRegion": "Lincolnshire, Parts of Holland",
+          "addressRegion": "Lincolnshire",
           "postalCode": "PE21 6JN",
           "addressCountry": "GB"
         },
@@ -2149,52 +2150,6 @@
       },
       {
         "@type": "StadiumOrArena",
-        "name": "Filtrona Park",
-        "priceRange": "££",
-        "alternateName": "1st Cloud Arena",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-east/filtrona-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Shaftesbury Avenue",
-          "addressLocality": "Jarrow",
-          "postalCode": "NE32 3UP",
-          "addressCountry": "GB"
-        },
-        "maximumAttendeeCapacity": 3500,
-        "latitude": 54.974526,
-        "longitude": -1.470094,
-        "subOrganization": {
-          "@context": "https://schema.org",
-          "@type": "SportsTeam",
-          "name": "South Shields",
-          "slogan": "The Mariners",
-          "foundingDate": "1888",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/south-shields"
-          },
-          "memberOf": {
-            "@type": "SportsOrganization",
-            "name": "Northern Premier League"
-          },
-
-          "logo": {
-            "@type": "ImageObject",
-            "contentUrl": "https://media.api-sports.io/football/teams/7746.png",
-            "caption": "South Shields crest",
-            "representativeOfPage": true,
-            "encodingFormat": "image/png",
-            "width": 150,
-            "height": 150
-          }
-        }
-      },
-      {
-        "@type": "StadiumOrArena",
         "name": "Gateshead International Stadium",
         "priceRange": "££",
         "identifier": {
@@ -2232,6 +2187,52 @@
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1823.png",
             "caption": "Gateshead crest",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
+          }
+        }
+      },
+      {
+        "@type": "StadiumOrArena",
+        "name": "Mariners Park",
+        "priceRange": "££",
+        "alternateName": "1st Cloud Arena",
+        "identifier": {
+          "@type": "URL",
+          "@value": "https://www.nonleaguegrounds.com/grounds/north-east/mariners-park"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Shaftesbury Avenue",
+          "addressLocality": "Jarrow",
+          "postalCode": "NE32 3UP",
+          "addressCountry": "GB"
+        },
+        "maximumAttendeeCapacity": 3500,
+        "latitude": 54.974526,
+        "longitude": -1.470094,
+        "subOrganization": {
+          "@context": "https://schema.org",
+          "@type": "SportsTeam",
+          "name": "South Shields",
+          "slogan": "The Mariners",
+          "foundingDate": "1888",
+
+          "identifier": {
+            "@type": "URL",
+            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/south-shields"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "Northern Premier League"
+          },
+
+          "logo": {
+            "@type": "ImageObject",
+            "contentUrl": "https://media.api-sports.io/football/teams/7746.png",
+            "caption": "South Shields crest",
             "representativeOfPage": true,
             "encodingFormat": "image/png",
             "width": 150,
@@ -2485,6 +2486,7 @@
         },
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "Common Lane",
           "addressLocality": "Warrington",
           "postalCode": "WA4 2RS",
           "addressCountry": "GB"
@@ -2496,7 +2498,7 @@
           "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Warrington Town",
-          "slogan": "The Wire",
+          "slogan": "The Yellows",
           "foundingDate": "1949",
 
           "identifier": {
@@ -2704,7 +2706,6 @@
         "@type": "StadiumOrArena",
         "name": "Haig Avenue",
         "priceRange": "££",
-        "alternateName": "Merseyrail Community Stadium",
         "identifier": {
           "@type": "URL",
           "@value": "https://www.nonleaguegrounds.com/grounds/north-west/haig-avenue"
@@ -2759,6 +2760,7 @@
           "@type": "PostalAddress",
           "streetAddress": "Surrey Street",
           "addressLocality": "Ashton-under-Lyne",
+          "addressRegion": "Greater Manchester",
           "postalCode": "OL6 8DY",
           "addressCountry": "GB"
         },
@@ -2802,6 +2804,7 @@
         },
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "Coronation Way",
           "addressLocality": "Wesham",
           "addressRegion": "Lancashire",
           "postalCode": "PR4 3JZ",
@@ -5004,11 +5007,11 @@
     "geoContains": [
       {
         "@type": "StadiumOrArena",
-        "name": "Clayborn",
+        "name": "Clayborn Ground",
         "priceRange": "££",
         "identifier": {
           "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/clayborn"
+          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/clayborn-ground"
         },
         "address": {
           "@type": "PostalAddress",

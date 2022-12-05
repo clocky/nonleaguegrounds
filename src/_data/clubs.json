@@ -25,17 +25,9 @@
     "owns": {
       "@type": "Product",
       "name": "Aldershot Town playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#C32D27"
-        },
-        {
-          "@type": "Color",
-          "@value": "#172576"
-        }
-      ]
+      "color": ["#C32D27", "#172576"]
     },
+
     "url": "https://www.theshots.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -53,14 +45,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/aldershot-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -144,17 +133,9 @@
     "owns": {
       "@type": "Product",
       "name": "Altrincham playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "Red"
-        },
-        {
-          "@type": "Color",
-          "@value": "White"
-        }
-      ]
+      "color": ["Red", "White"]
     },
+
     "url": "https://altrinchamfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -172,14 +153,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/altrincham"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -261,17 +239,9 @@
     "owns": {
       "@type": "Product",
       "name": "Barnet playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#0D0807"
-        },
-        {
-          "@type": "Color",
-          "@value": "#FF7700"
-        }
-      ]
+      "color": ["#0D0807", "#FF7700"]
     },
+
     "url": "https://www.barnetfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -289,14 +259,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/barnet"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -336,6 +303,7 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Boreham Wood",
+    "legalName": "Boreham Wood Football Club Ltd",
     "alternateName": "Boreham Wood Football Club",
     "slogan": "The Wood",
     "logo": {
@@ -349,11 +317,18 @@
     },
     "sameAs": [
       "https://twitter.com/BOREHAM_WOODFC/",
-      "https://www.facebook.com/BorehamWoodFC"
+      "https://www.facebook.com/BorehamWoodFC",
+      "https://www.instagram.com/boreham_woodfc/"
     ],
     "foundingDate": "1948",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Boreham Wood playing kit",
+      "color": ["#ffffff", "#000000"]
+    },
+
     "url": "https://www.borehamwoodfootballclub.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -371,14 +346,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/boreham-wood"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -457,6 +429,12 @@
     "foundingDate": "1892",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Bromley playing kit",
+      "color": ["#ffffff", "#B18E5C", "#161412"]
+    },
+
     "url": "https://www.bromleyfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -474,14 +452,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/bromley"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -523,6 +498,7 @@
     "name": "Chesterfield",
     "alternateName": "Chesterfield Football Club",
     "slogan": "The Spireites",
+    "telephone": "+441246269300",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/1345.png",
@@ -541,6 +517,12 @@
     "foundingDate": "1919",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Chesterfield playing kit",
+      "color": ["#3974C0", "#ffffff"]
+    },
+
     "url": "https://chesterfield-fc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -558,14 +540,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/chesterfield"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -614,11 +593,18 @@
     },
     "sameAs": [
       "https://twitter.com/Dag_RedFC/",
-      "https://www.facebook.com/OfficialDaggers"
+      "https://www.facebook.com/OfficialDaggers",
+      "https://www.youtube.com/OfficialDaggers"
     ],
     "foundingDate": "1992",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Dagenham &amp; Redbridge playing kit",
+      "color": ["#D74D3E", "#141D6A", "#ffffff"]
+    },
+
     "url": "https://daggers.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -636,14 +622,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/dagenham-and-redbridge"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -705,21 +688,9 @@
     "owns": {
       "@type": "Product",
       "name": "Dorking Wanderers playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#0E216E"
-        },
-        {
-          "@type": "Color",
-          "@value": "#ffffff"
-        },
-        {
-          "@type": "Color",
-          "@value": "#D12F2D"
-        }
-      ]
+      "color": ["#0E216E", "#ffffff", "#D12F2D"]
     },
+
     "url": "https://www.dorkingwanderers.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -737,14 +708,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/dorking-wanderers"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -819,11 +787,18 @@
     },
     "sameAs": [
       "https://twitter.com/eastleighfc/",
-      "https://www.facebook.com/eastleighfc"
+      "https://www.facebook.com/eastleighfc",
+      "https://www.youtube.com/channel/UCqLcYxPm8O12KguuUIN6hPw"
     ],
     "foundingDate": "1946",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Eastleigh playing kit",
+      "color": ["#0D228E", "#ffffff"]
+    },
+
     "url": "https://www.eastleighfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -841,14 +816,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/eastleigh"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -881,12 +853,35 @@
         "@type": "url",
         "@value": "https://www.nonleaguegrounds.com/regions/south-east"
       }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "5621569982_c05900b39f_k.jpg",
+      "about": "Eastleigh",
+      "caption": "Eastleigh by Chris Turner",
+      "encodingFormat": "image/jpeg",
+      "identifier": 5621569982,
+      "width": 2048,
+      "height": 1786,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "datePublished": "2010-04-11",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Chris Turner",
+        "identifier": "photoplod",
+        "givenName": "Chris",
+        "familyName": "Turner"
+      }
     }
   },
   {
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "FC Halifax Town",
+    "legalName": "FC Halifax Town Ltd",
     "alternateName": "FC Halifax Town",
     "slogan": "The Shaymen",
     "telephone": "+441422341222",
@@ -906,6 +901,12 @@
     "foundingDate": "2008",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "FC Halifax Town playing kit",
+      "color": ["#3165A7"]
+    },
+
     "url": "https://fchalifaxtown.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -923,14 +924,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/fc-halifax-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -981,10 +979,20 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/GatesheadFC/"],
+    "sameAs": [
+      "https://twitter.com/GatesheadFC/",
+      "https://www.facebook.com/gaetesheadfc",
+      "https://www.instagram.com/gfc_official/"
+    ],
     "foundingDate": "1977",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Gateshead playing kit",
+      "color": ["#221F26", "#ffffff"]
+    },
+
     "url": "https://gateshead-fc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1002,14 +1010,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/gateshead"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1057,18 +1062,26 @@
     },
     "sameAs": [
       "https://twitter.com/MUFCYorkRoad/",
-      "https://www.facebook.com/MUFCYorkRoad"
+      "https://www.facebook.com/MUFCYorkRoad",
+      "https://www.instagram.com/MUFCYorkRoad/",
+      "https://www.youtube.com/channel/UCTaaLTWyqUPNH2CuCwMswKw"
     ],
     "foundingDate": "1870",
     "sport": "Association Football",
     "keywords": "semi-professional",
-    "url": "https://maidenheadunitedfc.ktckts.com",
+    "owns": {
+      "@type": "Product",
+      "name": "Maidenhead United playing kit",
+      "color": ["#060807", "#ffffff"]
+    },
+
+    "url": "https://www.pitchero.com/clubs/maidenheadunited",
     "memberOf": {
       "@context": "https://schema.org",
       "@type": "SportsOrganization",
       "name": "National League",
       "sport": "Association Football",
-      "url": "https://maidenheadunitedfc.ktckts.com",
+      "url": "https://www.pitchero.com/clubs/maidenheadunited",
       "sponsor": {
         "@type": "Organization",
         "name": "Vanarama"
@@ -1079,14 +1092,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/maidenhead-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1136,9 +1146,20 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/maidstoneunited/"],
+    "sameAs": [
+      "https://twitter.com/maidstoneunited/",
+      "https://www.facebook.com/MaidstoneUnitedFC",
+      "https://www.instagram.com/maidstoneunited/",
+      "https://www.youtube.com/stonestv"
+    ],
     "foundingDate": "1992",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Maidstone United playing kit",
+      "color": ["#E0A03C", "#434343"]
+    },
+
     "url": "https://maidstoneunited.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1156,14 +1177,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/maidstone-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1234,10 +1252,22 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/Official_NCFC/"],
+    "sameAs": [
+      "https://twitter.com/Official_NCFC/",
+      "https://www.facebook.com/nottscountyfootballclub",
+      "https://www.instagram.com/nottscountyfc/",
+      "https://www.youtube.com/OfficialNCFC",
+      "https://www.tiktok.com/@nottscountyofficial/"
+    ],
     "foundingDate": "1862",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Notts County playing kit",
+      "color": ["#000000", "#ffffff", "#817653"]
+    },
+
     "url": "https://www.nottscountyfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1255,14 +1285,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/notts-county"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1302,6 +1329,13 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Oldham Athletic",
+    "legalName": "OLDHAM ATHLETIC (2004) ASSOCIATION FOOTBALL CLUB LIMITED",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "4989487"
+    },
+    "vatID": "831 8971 04",
     "alternateName": "Oldham Athletic Football Club",
     "slogan": "The Latics",
     "telephone": "+441616244972",
@@ -1316,11 +1350,19 @@
     },
     "sameAs": [
       "https://twitter.com/OfficialOAFC/",
-      "https://www.facebook.com/OfficialOAFC"
+      "https://www.facebook.com/OfficialOAFC",
+      "https://www.instagram.com/officialoafc/",
+      "https://www.youtube.com/OfficialOAFC"
     ],
     "foundingDate": "1895",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Oldham Athletic playing kit",
+      "color": ["#2253A0", "#ffffff"]
+    },
+
     "url": "https://www.oldhamathletic.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1338,14 +1380,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/oldham-athletic"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1401,6 +1440,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Solihull Moors",
+    "legalName": "Solihull Moors Football Club CIC",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "9196428"
+    },
     "alternateName": "Solihull Moors Football Club",
     "slogan": "The Moors",
     "logo": {
@@ -1412,10 +1457,21 @@
       "width": 150,
       "height": 144
     },
-    "sameAs": ["https://twitter.com/SolihullMoors/"],
+    "sameAs": [
+      "https://twitter.com/SolihullMoors/",
+      "https://www.facebook.com/SolihullMoorsFootballClub",
+      "https://www.instagram.com/SolihullMoorsFootballClub/",
+      "https://www.youtube.com/channel/UCgRZcsv149ICk40Gw0yMKCA"
+    ],
     "foundingDate": "2007",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Solihull Moors playing kit",
+      "color": ["#F9EB4E", "#FFFFFF"]
+    },
+
     "url": "https://www.solihullmoorsfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1433,14 +1489,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/solihull-moors"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1481,6 +1534,7 @@
     "name": "Southend United",
     "alternateName": "Southend United Football Club",
     "slogan": "The Shrimpers",
+    "telephone": "+441702304050",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/1341.png",
@@ -1490,10 +1544,21 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/SUFCRootsHall/"],
+    "sameAs": [
+      "https://twitter.com/SUFCRootsHall/",
+      "https://www.facebook.com/SouthendUnitedFC",
+      "https://www.instagram.com/SUFCRootsHall/",
+      "https://www.youtube.com/channel/UCtUEQDOQpXmZuAH9beGN4Aw"
+    ],
     "foundingDate": "1906",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Southend United playing kit",
+      "color": ["#0C2751", "#ffffff"]
+    },
+
     "url": "https://www.southendunited.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1511,14 +1576,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/southend-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1553,6 +1615,13 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Scunthorpe United",
+    "legalName": "Scunthorpe United Football Club",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "123622"
+    },
+    "vatID": "128 5234 74",
     "alternateName": "Scunthorpe United Football Club",
     "slogan": "The Iron",
     "logo": {
@@ -1564,10 +1633,21 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/SUFCOfficial/"],
+    "sameAs": [
+      "https://twitter.com/SUFCOfficial/",
+      "https://www.facebook.com/sufcofficial",
+      "https://www.instagram.com/sufcofficial/",
+      "https://www.youtube.com/ScunthorpeUnitedFC"
+    ],
     "foundingDate": "1899",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Scunthorpe United playing kit",
+      "color": ["#7B2D35", "#7AB1E2"]
+    },
+
     "url": "https://www.scunthorpe-united.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1585,14 +1665,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/scunthorpe-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1657,10 +1734,19 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/TUFC1899/"],
+    "sameAs": [
+      "https://twitter.com/TUFC1899/",
+      "https://www.facebook.com/officialtufc"
+    ],
     "foundingDate": "1899",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Torquay United AFC playing kit",
+      "color": ["#F8D347", "#2852B1"]
+    },
+
     "url": "https://torquayunited.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1678,14 +1764,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/torquay-united-afc"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1738,6 +1821,12 @@
     "foundingDate": "1899",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Wealdstone playing kit",
+      "color": ["#1B43CE", "#ffffff"]
+    },
+
     "url": "https://www.wealdstone-fc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1755,14 +1844,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/wealdstone"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1838,6 +1924,12 @@
     "foundingDate": "1887",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Woking playing kit",
+      "color": ["#A41123", "#ffffff"]
+    },
+
     "url": "https://wokingfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1855,14 +1947,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/woking"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -1942,6 +2031,12 @@
     "foundingDate": "1895",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Yeovil Town playing kit",
+      "color": ["#4DAC26", "#FFFF54"]
+    },
+
     "url": "https://www.ytfc.net",
     "memberOf": {
       "@context": "https://schema.org",
@@ -1959,14 +2054,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/yeovil-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2000,6 +2092,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "York City",
+    "legalName": "York City Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "4689338"
+    },
     "alternateName": "York City Football Club",
     "slogan": "The Minstermen",
     "logo": {
@@ -2011,10 +2109,21 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/YorkCityFC/"],
+    "sameAs": [
+      "https://twitter.com/YorkCityFC/",
+      "https://www.facebook.com/yorkcityfc",
+      "https://www.instagram.com/yorkcityfc/",
+      "https://www.youtube.com/channel/UCpkc1g75A0UXDIBpqunFIpA"
+    ],
     "foundingDate": "1922",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "York City playing kit",
+      "color": ["#72253C", "#D8C39F"]
+    },
+
     "url": "https://yorkcityfootballclub.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2032,14 +2141,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/york-city"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2099,8 +2205,10 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "AFC Fylde",
+    "legalName": "A. F. C. FYLDE LIMITED",
     "alternateName": "AFC Fylde",
     "slogan": "The Coasters",
+    "telephone": "+441772682593",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/1839.png",
@@ -2117,17 +2225,9 @@
     "owns": {
       "@type": "Product",
       "name": "AFC Fylde playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#DB4433"
-        },
-        {
-          "@type": "Color",
-          "@value": "#1C488B"
-        }
-      ]
+      "color": ["#DB4433", "#1C488B"]
     },
+
     "url": "https://www.afcfylde.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2145,14 +2245,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/afc-fylde"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2163,6 +2260,7 @@
       "longitude": -2.889497,
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Coronation Way",
         "addressLocality": "Wesham",
         "addressRegion": "Lancashire",
         "postalCode": "PR4 3JZ",
@@ -2228,13 +2326,9 @@
     "owns": {
       "@type": "Product",
       "name": "AFC Telford United playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#182849"
-        }
-      ]
+      "color": ["#182849"]
     },
+
     "url": "https://www.telfordunited.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2252,14 +2346,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/afc-telford-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2339,13 +2430,9 @@
     "owns": {
       "@type": "Product",
       "name": "Alfreton Town playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#E31B1B"
-        }
-      ]
+      "color": ["#E31B1B"]
     },
+
     "url": "https://alfretontownfootballclub.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2363,14 +2450,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/alfreton-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2426,6 +2510,7 @@
     ],
     "foundingDate": "1931",
     "sport": "Association Football",
+
     "url": "https://www.banburyunitedfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2443,14 +2528,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/banbury-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2520,9 +2602,18 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/Blyth_Spartans/"],
+    "sameAs": [
+      "https://twitter.com/Blyth_Spartans/",
+      "https://www.youtube.com/channel/UCHttu5gBShjrfml2oG3WQlg"
+    ],
     "foundingDate": "1899",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Blyth Spartans AFC playing kit",
+      "color": ["#ffffff", "#326F43"]
+    },
+
     "url": "https://www.blythspartans.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2540,14 +2631,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/blyth-spartans-afc"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2581,6 +2669,27 @@
         "@type": "url",
         "@value": "https://www.nonleaguegrounds.com/regions/north-east"
       }
+    },
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "26576948650_73ca59735d_k.jpg",
+      "about": "Blyth Spartans AFC",
+      "caption": "Blyth Spartans AFC by Ally Middleton",
+      "encodingFormat": "image/jpeg",
+      "identifier": 26576948650,
+      "width": 2048,
+      "height": 1852,
+      "countryOfOrigin": "GB",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+      "creator": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ally Middleton",
+        "identifier": "46339582@N00",
+        "givenName": "Ally",
+        "familyName": "Middleton"
+      }
     }
   },
   {
@@ -2598,10 +2707,19 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/bostonunited/"],
+    "sameAs": [
+      "https://twitter.com/bostonunited/",
+      "https://www.facebook.com/officialbostonunited"
+    ],
     "foundingDate": "1933",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Boston United playing kit",
+      "color": ["#F4CA44", "#1C1819"]
+    },
+
     "url": "https://www.bostonunited.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2619,14 +2737,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/boston-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2639,7 +2754,7 @@
         "@type": "PostalAddress",
         "streetAddress": "Pilgrim Way",
         "addressLocality": "Boston",
-        "addressRegion": "Lincolnshire, Parts of Holland",
+        "addressRegion": "Lincolnshire",
         "postalCode": "PE21 6JN",
         "addressCountry": "GB"
       },
@@ -2672,9 +2787,18 @@
       "width": 100,
       "height": 100
     },
-    "sameAs": ["https://twitter.com/BrackleyTownFC/"],
+    "sameAs": [
+      "https://twitter.com/BrackleyTownFC/",
+      "https://www.instagram.com/brackleytownfc/"
+    ],
     "foundingDate": "1930",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Brackley Town playing kit",
+      "color": ["#B62619"]
+    },
+
     "url": "https://brackleytownfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2692,14 +2816,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/brackley-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2734,6 +2855,7 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Bradford (Park Avenue) AFC",
+    "legalName": "Bradford (Park Avenue) AFC C.I.C",
     "alternateName": "Bradford (Park Avenue) AFC",
     "slogan": "The Green Army",
     "logo": {
@@ -2745,9 +2867,20 @@
       "width": 105,
       "height": 95
     },
-    "sameAs": ["https://twitter.com/BPAFCOfficial/"],
+    "sameAs": [
+      "https://twitter.com/BPAFCOfficial/",
+      "https://www.facebook.com/BPAFCOfficial",
+      "https://www.instagram.com/bpafcofficial/",
+      "https://www.youtube.com/channel/UCvuh3yG8G8ATMmRAw1a7RtQ"
+    ],
     "foundingDate": "1907",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Bradford (Park Avenue) AFC playing kit",
+      "color": ["#439541", "#ffffff"]
+    },
+
     "url": "https://bpafc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2765,14 +2898,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/bradford-park-avenue-afc"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2826,6 +2956,7 @@
     "sameAs": ["https://twitter.com/Buxton_FC/"],
     "foundingDate": "1877",
     "sport": "Association Football",
+
     "url": "https://www.buxtonfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2843,14 +2974,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/buxton"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2899,9 +3027,19 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/ChesterFC/"],
+    "sameAs": [
+      "https://twitter.com/ChesterFC/",
+      "https://www.facebook.com/ChesterFC",
+      "https://www.youtube.com/channel/UCMOQ-2zdo-MZEqGn8f1U6zA"
+    ],
     "foundingDate": "2010",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Chester playing kit",
+      "color": ["#22549F", "#ffffff", "#F4CA4B"]
+    },
+
     "url": "https://www.chesterfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2919,14 +3057,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/chester"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -2981,6 +3116,7 @@
     "foundingDate": "1883",
     "sport": "Association Football",
     "keywords": "semi-professional",
+
     "url": "https://www.chorleyfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -2998,14 +3134,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/chorley"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3063,6 +3196,7 @@
     "sameAs": ["https://twitter.com/CurzonAshton/"],
     "foundingDate": "1963",
     "sport": "Association Football",
+
     "url": "https://www.curzon-ashton.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3080,14 +3214,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/curzon-ashton"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3156,6 +3287,7 @@
     "sameAs": ["https://twitter.com/Official_Darlo/"],
     "foundingDate": "1883",
     "sport": "Association Football",
+
     "url": "https://darlingtonfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3173,14 +3305,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/darlington"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3229,6 +3358,7 @@
     "sameAs": ["https://twitter.com/FarsleyCelticFC/"],
     "foundingDate": "1908",
     "sport": "Association Football",
+
     "url": "https://farsleyceltic.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3246,14 +3376,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/farsley-celtic"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3328,6 +3455,7 @@
     "foundingDate": "1883",
     "sport": "Association Football",
     "keywords": "semi-professional",
+
     "url": "https://www.gloucestercityafc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3345,14 +3473,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/gloucester-city-afc"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3405,6 +3530,7 @@
     "sameAs": ["https://twitter.com/HerefordFC/"],
     "foundingDate": "2014",
     "sport": "Association Football",
+
     "url": "https://www.herefordfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3422,14 +3548,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/hereford"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3482,6 +3605,12 @@
     "sameAs": ["https://twitter.com/KTFCOfficial/"],
     "foundingDate": "1872",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Kettering Town playing kit",
+      "color": ["#EA332C", "#ffffff", "#000000"]
+    },
+
     "url": "https://ketteringtownfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3499,14 +3628,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/kettering-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3561,6 +3687,7 @@
     "foundingDate": "1886",
     "sport": "Association Football",
     "keywords": "professional",
+
     "url": "https://harriers.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3578,14 +3705,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/kidderminster-harriers"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3654,6 +3778,7 @@
     "sameAs": ["https://twitter.com/officialKLtown/"],
     "foundingDate": "2010",
     "sport": "Association Football",
+
     "url": "https://www.kltown.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3671,14 +3796,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/kings-lynn-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3729,9 +3851,20 @@
       "width": 218,
       "height": 217
     },
-    "sameAs": ["https://twitter.com/LeamingtonFC/"],
+    "sameAs": [
+      "https://twitter.com/LeamingtonFC/",
+      "https://www.facebook.com/leamingtonfc",
+      "https://www.instagram.com/brakesofficial/",
+      "https://www.tiktok.com/@leamingtonfc/"
+    ],
     "foundingDate": "1933",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Leamington playing kit",
+      "color": ["#E4BE4E", "#000000"]
+    },
+
     "url": "https://leamingtonfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3749,14 +3882,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/leamington"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3805,6 +3935,7 @@
     "sameAs": ["https://twitter.com/PSLFC/"],
     "foundingDate": "1908",
     "sport": "Association Football",
+
     "url": "https://pslfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3822,14 +3953,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/peterborough-sports"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3878,6 +4006,7 @@
     "sameAs": ["https://twitter.com/safc/"],
     "foundingDate": "2007",
     "sport": "Association Football",
+
     "url": "https://www.scarboroughathletic.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3895,14 +4024,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/scarborough-athletic"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -3955,10 +4081,18 @@
     },
     "sameAs": [
       "https://twitter.com/southport_fc/",
-      "https://www.facebook.com/SouthportFootballClub"
+      "https://www.facebook.com/SouthportFootballClub",
+      "https://www.instagram.com/southportfootballclub/",
+      "https://www.youtube.com/SouthportFCTV"
     ],
     "foundingDate": "1881",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Southport playing kit",
+      "color": ["#EEB551", "#191C24"]
+    },
+
     "url": "https://southportfc.net",
     "memberOf": {
       "@context": "https://schema.org",
@@ -3976,22 +4110,15 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/southport"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "Haig Avenue",
-      "sponsor": {
-        "@type": "Organization",
-        "name": "Merseyrail Community Stadium"
-      },
       "maximumAttendeeCapacity": 6008,
       "priceRange": "££",
       "latitude": 53.638109,
@@ -4036,6 +4163,7 @@
     "sameAs": ["https://twitter.com/SpennymoorTown/"],
     "foundingDate": "2005",
     "sport": "Association Football",
+
     "url": "https://spennymoortownfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4053,14 +4181,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-north/spennymoor-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4110,6 +4235,7 @@
     "foundingDate": "1889",
     "sport": "Association Football",
     "keywords": "semi-professional",
+
     "url": "https://www.bathcityfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4127,14 +4253,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/bath-city"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4176,6 +4299,7 @@
     "name": "Braintree Town",
     "alternateName": "Braintree Town Football Club",
     "slogan": "The Iron",
+    "telephone": "+441376345617",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/1831.png",
@@ -4187,11 +4311,19 @@
     },
     "sameAs": [
       "https://twitter.com/braintreetownfc/",
-      "https://www.facebook.com/Braintreetownfcofficial"
+      "https://www.facebook.com/Braintreetownfcofficial",
+      "https://www.instagram.com/Braintreetownfcofficial/",
+      "https://www.youtube.com/channel/UCy7H5rNSd2Sko9J_LdGbxZA"
     ],
     "foundingDate": "1898",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Braintree Town playing kit",
+      "color": ["#ED7F31", "#ffffff", "#0101E2"]
+    },
+
     "url": "https://braintreetownfc.org.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4209,14 +4341,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/braintree-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4273,6 +4402,7 @@
     "foundingDate": "1938",
     "sport": "Association Football",
     "keywords": "semi-professional",
+
     "url": "https://chelmsfordcityfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4290,14 +4420,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/chelmsford-city"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4363,9 +4490,19 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/cheshuntfcscore/"],
+    "sameAs": [
+      "https://twitter.com/cheshuntfcscore/",
+      "https://www.facebook.com/cheshuntfc",
+      "https://www.instagram.com/cheshuntfcofficial/"
+    ],
     "foundingDate": "1946",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Cheshunt playing kit",
+      "color": ["#1C1C1C", "#EEB654"]
+    },
+
     "url": "https://cheshuntfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4383,14 +4520,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/cheshunt"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4439,6 +4573,7 @@
     "sameAs": ["https://twitter.com/ChipTownFC/"],
     "foundingDate": "1873",
     "sport": "Association Football",
+
     "url": "https://chippenhamtown.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4456,14 +4591,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/chippenham-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4531,9 +4663,19 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/ConcordRangers/"],
+    "sameAs": [
+      "https://twitter.com/ConcordRangers/",
+      "https://www.facebook.com/ConcordRangersFC",
+      "https://www.youtube.com/BeachBoysTV"
+    ],
     "foundingDate": "1967",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Concord Rangers playing kit",
+      "color": ["#F8DD4A", "#ffffff", "#204390"]
+    },
+
     "url": "https://www.concord-rangers.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4551,14 +4693,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/concord-rangers"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4609,6 +4748,7 @@
     ],
     "foundingDate": "1888",
     "sport": "Association Football",
+
     "url": "https://www.dartfordfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4626,14 +4766,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/dartford"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4685,6 +4822,7 @@
     "foundingDate": "1983",
     "sport": "Association Football",
     "keywords": "semi-professional",
+
     "url": "https://www.doverathletic.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4702,14 +4840,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/dover-athletic"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4783,6 +4918,7 @@
     ],
     "foundingDate": "1893",
     "sport": "Association Football",
+
     "url": "https://www.pitchero.com/clubs/dulwichhamlet",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4800,14 +4936,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/dulwich-hamlet"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4885,17 +5018,9 @@
     "owns": {
       "@type": "Product",
       "name": "Eastbourne Borough playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "rgb(220, 38, 38)"
-        },
-        {
-          "@type": "Color",
-          "@value": "rgb(255, 255, 255)"
-        }
-      ]
+      "color": ["rgb(220, 38, 38)", "rgb(255, 255, 255)"]
     },
+
     "url": "https://ebfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4913,14 +5038,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/eastbourne-borough"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -4976,6 +5098,7 @@
     ],
     "foundingDate": "1946",
     "sport": "Association Football",
+
     "url": "https://www.ebbsfleetunited.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -4993,14 +5116,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/ebbsfleet-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5077,6 +5197,7 @@
     ],
     "foundingDate": "1967",
     "sport": "Association Football",
+
     "url": "https://farnboroughfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5094,14 +5215,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/farnborough"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5158,6 +5276,12 @@
     ],
     "foundingDate": "1921",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Hampton &amp; Richmond Borough playing kit",
+      "color": ["#27223C", "#A63226"]
+    },
+
     "url": "https://hrbfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5175,14 +5299,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/hampton-and-richmond-borough"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5238,6 +5359,7 @@
     "foundingDate": "1998",
     "sport": "Association Football",
     "keywords": "professional",
+
     "url": "https://www.havantandwaterloovillefc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5255,14 +5377,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/havant-and-waterlooville"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5315,6 +5434,7 @@
     "sameAs": ["https://twitter.com/hemelfc/"],
     "foundingDate": "1885",
     "sport": "Association Football",
+
     "url": "https://www.hemelfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5332,14 +5452,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/hemel-hempstead-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5397,6 +5514,7 @@
     "name": "Hungerford Town",
     "alternateName": "Hungerford Town Football Club",
     "slogan": "The Crusaders",
+    "telephone": "+441488760088",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/8661.png",
@@ -5408,10 +5526,17 @@
     },
     "sameAs": [
       "https://twitter.com/HungerfordTown/",
-      "https://www.facebook.com/Crusaders1886"
+      "https://www.facebook.com/Crusaders1886",
+      "https://www.instagram.com/hungerfordtown/"
     ],
     "foundingDate": "1886",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Hungerford Town playing kit",
+      "color": ["rgb(255, 255, 255)", "rgb(0, 0, 0)"]
+    },
+
     "url": "https://hungerfordtown.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5429,14 +5554,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/hungerford-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5486,6 +5608,7 @@
     "foundingDate": "1882",
     "sport": "Association Football",
     "keywords": "semi-professional",
+
     "url": "https://www.oxfordcityfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5503,14 +5626,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/oxford-city"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5580,6 +5700,7 @@
     "sameAs": ["https://twitter.com/sloughtownfc/"],
     "foundingDate": "1890",
     "sport": "Association Football",
+
     "url": "https://sloughtownfc.net",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5597,14 +5718,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/slough-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5674,6 +5792,7 @@
     "sameAs": ["https://twitter.com/stalbanscityfc/"],
     "foundingDate": "1908",
     "sport": "Association Football",
+
     "url": "https://www.stalbanscityfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5691,14 +5810,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/st-albans-city"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5750,6 +5866,7 @@
     "sameAs": ["https://twitter.com/TauntonTownFC/"],
     "foundingDate": "1947",
     "sport": "Association Football",
+
     "url": "https://tauntontown.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5767,14 +5884,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/taunton-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5827,6 +5941,7 @@
     "sameAs": ["https://twitter.com/tonbridgeangels/"],
     "foundingDate": "1947",
     "sport": "Association Football",
+
     "url": "https://www.tonbridgeangels.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5844,14 +5959,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/tonbridge-angels"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5908,6 +6020,7 @@
     "foundingDate": "1963",
     "sport": "Association Football",
     "keywords": "semi-professional",
+
     "url": "https://www.wellingunited.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -5925,14 +6038,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/welling-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -5984,17 +6094,9 @@
     "owns": {
       "@type": "Product",
       "name": "Weymouth playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "LightBlue"
-        },
-        {
-          "@type": "Color",
-          "@value": "Maroon"
-        }
-      ]
+      "color": ["LightBlue", "Maroon"]
     },
+
     "url": "https://uptheterras.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6012,14 +6114,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/weymouth"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -6093,13 +6192,9 @@
     "owns": {
       "@type": "Product",
       "name": "Worthing playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "Red"
-        }
-      ]
+      "color": ["Red"]
     },
+
     "url": "https://worthingfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6117,14 +6212,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 6
+        "propertyID": "tier",
+        "value": 6
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league-south/worthing"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -6174,10 +6266,23 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/Wrexham_AFC/"],
+    "sameAs": [
+      "https://twitter.com/Wrexham_AFC/",
+      "https://www.facebook.com/wrexhamfootballclub",
+      "https://www.instagram.com/wrexham_afc/",
+      "https://www.youtube.com/channel/UCS7BAYpqOSaYy-pZp6oO4PA",
+      "https://www.tiktok.com/@wrexham_afc/",
+      "https://soundcloud.com/griff92"
+    ],
     "foundingDate": "1864",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Wrexham AFC playing kit",
+      "color": ["#B32B25"]
+    },
+
     "url": "https://www.wrexhamafc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6195,14 +6300,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 5
+        "propertyID": "tier",
+        "value": 5
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/national-league/wrexham-afc"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -6255,10 +6357,17 @@
     },
     "sameAs": [
       "https://twitter.com/AveleyFC/",
-      "https://www.facebook.com/AveleyFC"
+      "https://www.facebook.com/AveleyFC",
+      "https://www.instagram.com/aveleyfc/"
     ],
     "foundingDate": "1927",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Aveley playing kit",
+      "color": ["#1E169D", "#ffffff"]
+    },
+
     "url": "https://www.pitchero.com/clubs/aveley",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6276,14 +6385,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/aveley"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -6344,13 +6450,9 @@
     "owns": {
       "@type": "Product",
       "name": "Billericay Town playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#1618BF"
-        }
-      ]
+      "color": ["#1618BF"]
     },
+
     "url": "https://www.billericaytownfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6368,14 +6470,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/billericay-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -6437,17 +6536,9 @@
     "owns": {
       "@type": "Product",
       "name": "Bishop&#39;s Stortford playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#1B4491"
-        },
-        {
-          "@type": "Color",
-          "@value": "#FFFFFF"
-        }
-      ]
+      "color": ["#1B4491", "#FFFFFF"]
     },
+
     "url": "https://www.bsfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6465,14 +6556,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/bishop-s-stortford"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -6528,6 +6616,7 @@
     ],
     "foundingDate": "1883",
     "sport": "Association Football",
+
     "url": "https://www.pitchero.com/clubs/bognorregistownfc",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6545,14 +6634,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/bognor-regis-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -6625,6 +6711,7 @@
     ],
     "foundingDate": "1946",
     "sport": "Association Football",
+
     "url": "https://bowersandpitseafootballclub.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6642,14 +6729,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/bowers-and-pitsea"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -6723,6 +6807,7 @@
     ],
     "foundingDate": "2005",
     "sport": "Association Football",
+
     "url": "https://brightlingsearegentfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6740,14 +6825,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/brightlingsea-regent"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -6820,6 +6902,7 @@
     ],
     "foundingDate": "1926",
     "sport": "Association Football",
+
     "url": "https://canveyislandfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6837,14 +6920,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/canvey-island"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -6920,6 +7000,7 @@
     ],
     "foundingDate": "1905",
     "sport": "Association Football",
+
     "url": "https://www.carshaltonathletic.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -6937,14 +7018,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/carshalton-athletic"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7022,17 +7100,9 @@
     "owns": {
       "@type": "Product",
       "name": "Corinthian-Casuals playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#692F2F"
-        },
-        {
-          "@type": "Color",
-          "@value": "#DA8DD9"
-        }
-      ]
+      "color": ["#692F2F", "#DA8DD9"]
     },
+
     "url": "https://corinthian-casuals.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7050,14 +7120,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/corinthian-casuals"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7114,6 +7181,7 @@
     "foundingDate": "1860",
     "sport": "Association Football",
     "keywords": "semi-professional",
+
     "url": "https://www.cray-wanderers.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7131,14 +7199,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/cray-wanderers"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7193,6 +7258,7 @@
     "sameAs": ["https://twitter.com/ETFCOfficial/"],
     "foundingDate": "2001",
     "sport": "Association Football",
+
     "url": "https://etfc.london",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7210,14 +7276,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/enfield-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7269,6 +7332,7 @@
     ],
     "foundingDate": "1936",
     "sport": "Association Football",
+
     "url": "https://folkestoneinvictafc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7286,14 +7350,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/folkestone-invicta"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7368,13 +7429,14 @@
     "sameAs": ["https://twitter.com/HaringeyBoroFC/"],
     "foundingDate": "1973",
     "sport": "Association Football",
-    "url": "https://haringeyboroughfc.net",
+
+    "url": "https://www.haringeyboroughfc.net",
     "memberOf": {
       "@context": "https://schema.org",
       "@type": "SportsOrganization",
       "name": "Isthmian League Premier Division",
       "sport": "Association Football",
-      "url": "https://haringeyboroughfc.net",
+      "url": "https://www.haringeyboroughfc.net",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
@@ -7385,14 +7447,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/haringey-borough"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7448,6 +7507,7 @@
     ],
     "foundingDate": "1893",
     "sport": "Association Football",
+
     "url": "https://www.hastingsunited.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7465,14 +7525,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/hastings-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7542,10 +7599,18 @@
     },
     "sameAs": [
       "https://twitter.com/HerneBayFC/",
-      "https://www.facebook.com/hernebayfootballclub"
+      "https://www.facebook.com/hernebayfootballclub",
+      "https://www.instagram.com/hbfc_official/",
+      "https://www.youtube.com/channel/UCw8GwQcXNvL71vAqMmAuPDA"
     ],
     "foundingDate": "1886",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Herne Bay playing kit",
+      "color": ["#1A378E"]
+    },
+
     "url": "https://hernebayfootballclub.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7563,14 +7628,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/herne-bay"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7629,6 +7691,7 @@
     ],
     "foundingDate": "1923",
     "sport": "Association Football",
+
     "url": "https://www.hornchurchfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7646,14 +7709,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/hornchurch"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7723,10 +7783,18 @@
     },
     "sameAs": [
       "https://twitter.com/HorshamFC/",
-      "https://www.facebook.com/HorshamFC"
+      "https://www.facebook.com/HorshamFC",
+      "https://www.instagram.com/horsham_fc/",
+      "https://www.youtube.com/channel/UChmmGkCpFY4s5bneAJZ7Oqw"
     ],
     "foundingDate": "1871",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Horsham playing kit",
+      "color": ["#357942", "#F5C242"]
+    },
+
     "url": "https://www.horshamfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7744,14 +7812,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/horsham"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7807,6 +7872,12 @@
     ],
     "foundingDate": "1885",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Kingstonian playing kit",
+      "color": ["#BB271A", "#ffffff"]
+    },
+
     "url": "https://www.kingstonian.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7824,14 +7895,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/kingstonian"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7883,6 +7951,7 @@
     ],
     "foundingDate": "1885",
     "sport": "Association Football",
+
     "url": "https://lewesfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7900,14 +7969,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/lewes"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -7978,6 +8044,7 @@
     "sameAs": ["https://twitter.com/margate_fc/"],
     "foundingDate": "1896",
     "sport": "Association Football",
+
     "url": "https://margate-fc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -7995,14 +8062,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/margate"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8051,6 +8115,7 @@
     "sameAs": ["https://twitter.com/pbtfc/"],
     "foundingDate": "1960",
     "sport": "Association Football",
+
     "url": "https://www.pitchero.com/clubs/pottersbartownfc",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8068,14 +8133,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/potters-bar-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8153,6 +8215,7 @@
     ],
     "foundingDate": "1991",
     "sport": "Association Football",
+
     "url": "https://www.wingatefinchley.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8170,14 +8233,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/isthmian-league-premier-division/wingate-and-finchley"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8252,6 +8312,12 @@
     ],
     "foundingDate": "1878",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Ashton United playing kit",
+      "color": ["#AE3034", "#ffffff"]
+    },
+
     "url": "https://ashtonunited.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8269,14 +8335,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/ashton-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8289,6 +8352,7 @@
         "@type": "PostalAddress",
         "streetAddress": "Surrey Street",
         "addressLocality": "Ashton-under-Lyne",
+        "addressRegion": "Greater Manchester",
         "postalCode": "OL6 8DY",
         "addressCountry": "GB"
       },
@@ -8327,6 +8391,12 @@
     ],
     "foundingDate": "1916",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Atherton Collieries playing kit",
+      "color": ["#ffffff", "#000000"]
+    },
+
     "url": "https://athertoncollieries.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8344,14 +8414,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/atherton-collieries"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8406,6 +8473,7 @@
     ],
     "foundingDate": "1952",
     "sport": "Association Football",
+
     "url": "https://bamberbridge.org",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8423,14 +8491,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/bamber-bridge"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8502,6 +8567,7 @@
     ],
     "foundingDate": "1883",
     "sport": "Association Football",
+
     "url": "https://belpertownfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8519,14 +8585,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/belper-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8604,6 +8667,7 @@
     ],
     "foundingDate": "2005",
     "sport": "Association Football",
+
     "url": "https://fc-utd.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8621,14 +8685,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/fc-united-of-manchester"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8698,6 +8759,7 @@
     "sameAs": ["https://twitter.com/GainsTrinityFC/"],
     "foundingDate": "1873",
     "sport": "Association Football",
+
     "url": "https://www.gainsboroughtrinity.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8715,14 +8777,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/gainsborough-trinity"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8784,6 +8843,7 @@
     ],
     "foundingDate": "1909",
     "sport": "Association Football",
+
     "url": "https://guiseleyafc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8801,14 +8861,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/guiseley-afc"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8884,17 +8941,9 @@
     "owns": {
       "@type": "Product",
       "name": "Hyde United playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#dd3333"
-        },
-        {
-          "@type": "Color",
-          "@value": "#ffffff"
-        }
-      ]
+      "color": ["#dd3333", "#ffffff"]
     },
+
     "url": "https://hydeunited.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -8912,14 +8961,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/hyde-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -8982,13 +9028,9 @@
     "owns": {
       "@type": "Product",
       "name": "Lancaster City playing kit",
-      "color": [
-        {
-          "@type": "Color",
-          "@value": "#004C92"
-        }
-      ]
+      "color": ["#004C92"]
     },
+
     "url": "https://www.pitchero.com/clubs/lancastercity",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9006,14 +9048,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/lancaster-city"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -9049,6 +9088,7 @@
     "name": "Liversedge",
     "alternateName": "Liversedge Football Club",
     "slogan": "The Sedge",
+    "telephone": "+441274875958",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/8853.png",
@@ -9058,9 +9098,19 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/Liversedge_FC/"],
+    "sameAs": [
+      "https://twitter.com/Liversedge_FC/",
+      "https://www.facebook.com/LiversedgeFootballClub",
+      "https://www.instagram.com/official_liversedge_fc/"
+    ],
     "foundingDate": "1910",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Liversedge playing kit",
+      "color": ["rgb(116, 207, 255)", "#ffffff"]
+    },
+
     "url": "https://liversedgefc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9078,18 +9128,15 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/liversedge"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
-      "name": "Clayborn",
+      "name": "Clayborn Ground",
       "maximumAttendeeCapacity": 2000,
       "priceRange": "££",
       "latitude": 53.717658,
@@ -9103,7 +9150,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/clayborn"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/clayborn-ground"
       }
     },
     "areaServed": {
@@ -9136,6 +9183,12 @@
     ],
     "foundingDate": "1894",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Marine AFC playing kit",
+      "color": ["#000000", "#CEB04E"]
+    },
+
     "url": "https://marinefc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9153,14 +9206,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/marine-afc"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -9212,6 +9262,7 @@
     "sameAs": ["https://twitter.com/MarskeUnitedFC/"],
     "foundingDate": "1956",
     "sport": "Association Football",
+
     "url": "https://marskeunitedfc.org",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9229,14 +9280,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/marske-united"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -9272,6 +9320,7 @@
     "name": "Matlock Town",
     "alternateName": "Matlock Town Football Club",
     "slogan": "The Gladiators",
+    "telephone": "+441629583866",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/7731.png",
@@ -9281,9 +9330,18 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/matlock_townfc/"],
+    "sameAs": [
+      "https://twitter.com/matlock_townfc/",
+      "https://www.facebook.com/matlock.townfc"
+    ],
     "foundingDate": "1878",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Matlock Town playing kit",
+      "color": ["#152043"]
+    },
+
     "url": "https://www.matlocktownfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9301,19 +9359,20 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/matlock-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "Causeway Lane",
-      "maximumAttendeeCapacity": 2400,
+      "sponsor": {
+        "@type": "Organization",
+        "name": "Proctor Cars Stadium"
+      },
+      "maximumAttendeeCapacity": 2300,
       "priceRange": "££",
       "latitude": 53.137031,
       "longitude": -1.551677,
@@ -9356,6 +9415,7 @@
     "sameAs": ["https://twitter.com/MorpethTownAFC/"],
     "foundingDate": "1909",
     "sport": "Association Football",
+
     "url": "https://www.morpethtownfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9373,14 +9433,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/morpeth-town-afc"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -9453,6 +9510,7 @@
     ],
     "foundingDate": "1884",
     "sport": "Association Football",
+
     "url": "https://www.nantwichtownfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9470,14 +9528,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/nantwich-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -9554,6 +9609,12 @@
     ],
     "foundingDate": "1949",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Radcliffe playing kit",
+      "color": ["#19419F", "#F8E35E"]
+    },
+
     "url": "https://radcliffefc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9571,14 +9632,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/radcliffe"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -9615,6 +9673,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "South Shields",
+    "legalName": "South Shields Football Club 1888 Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "9651123"
+    },
     "alternateName": "South Shields Football Club",
     "slogan": "The Mariners",
     "logo": {
@@ -9626,9 +9690,20 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/SouthShieldsFC/"],
+    "sameAs": [
+      "https://twitter.com/SouthShieldsFC/",
+      "https://www.facebook.com/southshieldsfc",
+      "https://www.instagram.com/southshieldsfc/",
+      "https://www.youtube.com/southshieldsfc"
+    ],
     "foundingDate": "1888",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "South Shields playing kit",
+      "color": ["#6F2935", "#8FCFE6"]
+    },
+
     "url": "https://www.southshieldsfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9646,18 +9721,15 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/south-shields"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
-      "name": "Filtrona Park",
+      "name": "Mariners Park",
       "sponsor": {
         "@type": "Organization",
         "name": "1st Cloud Arena"
@@ -9675,7 +9747,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://www.nonleaguegrounds.com/regions/north-east/filtrona-park"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-east/mariners-park"
       }
     },
     "areaServed": {
@@ -9706,13 +9778,14 @@
     "foundingDate": "1876",
     "sport": "Association Football",
     "keywords": "semi-professional",
-    "url": "https://staffordrangersfc.co.uk",
+
+    "url": "https://www.staffordrangersfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
       "@type": "SportsOrganization",
       "name": "Northern Premier League",
       "sport": "Association Football",
-      "url": "https://staffordrangersfc.co.uk",
+      "url": "https://www.staffordrangersfc.co.uk",
       "sponsor": {
         "@type": "Organization",
         "name": "Pitching In"
@@ -9723,14 +9796,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/stafford-rangers"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -9781,6 +9851,12 @@
     ],
     "foundingDate": "1909",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Stalybridge Celtic playing kit",
+      "color": ["#3170EA", "#ffffff"]
+    },
+
     "url": "https://stalybridgeceltic.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9798,14 +9874,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/stalybridge-celtic"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -9856,6 +9929,12 @@
     ],
     "foundingDate": "1906",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Warrington Rylands 1906 playing kit",
+      "color": ["#264793"]
+    },
+
     "url": "https://rylandsfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9873,14 +9952,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/warrington-rylands-1906"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -9914,8 +9990,9 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Warrington Town",
+    "legalName": "Warrington Town FC Ltd",
     "alternateName": "Warrington Town Football Club",
-    "slogan": "The Wire",
+    "slogan": "The Yellows",
     "telephone": "+447854123199",
     "logo": {
       "@type": "ImageObject",
@@ -9928,11 +10005,19 @@
     },
     "sameAs": [
       "https://twitter.com/theyellows/",
-      "https://www.facebook.com/WarringtonTownFC"
+      "https://www.facebook.com/WarringtonTownFC",
+      "https://www.instagram.com/warringtontownfc/",
+      "https://www.youtube.com/channel/UCuJtu1BX2ZISz1ekKEG746A/"
     ],
     "foundingDate": "1949",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Warrington Town playing kit",
+      "color": ["#FDFF54", "#1331A4"]
+    },
+
     "url": "https://warringtontownfc.co.uk",
     "memberOf": {
       "@context": "https://schema.org",
@@ -9950,14 +10035,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/warrington-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
@@ -9972,6 +10054,7 @@
       "longitude": -2.569861,
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Common Lane",
         "addressLocality": "Warrington",
         "postalCode": "WA4 2RS",
         "addressCountry": "GB"
@@ -10005,9 +10088,19 @@
       "width": 120,
       "height": 145
     },
-    "sameAs": ["https://twitter.com/WhitbyTownFC/"],
+    "sameAs": [
+      "https://twitter.com/WhitbyTownFC/",
+      "https://www.facebook.com/whitbytownfc",
+      "https://www.instagram.com/whitbytownfc/"
+    ],
     "foundingDate": "1880",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Whitby Town playing kit",
+      "color": ["#0D1B89"]
+    },
+
     "url": "https://whitbytownfc.com",
     "memberOf": {
       "@context": "https://schema.org",
@@ -10025,14 +10118,11 @@
       },
       "additionalProperty": {
         "@type": "PropertyValue",
-        "name": "tier",
-        "@value": 7
+        "propertyID": "tier",
+        "value": 7
       }
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/leagues/northern-premier-league/whitby-town"
-    },
+
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",

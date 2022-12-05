@@ -25,8 +25,8 @@
     },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "name": "tier",
-      "@value": 5
+      "propertyID": "tier",
+      "value": 5
     },
     "members": [
       {
@@ -51,6 +51,12 @@
         },
         "foundingDate": "1891",
         "url": "https://altrinchamfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Altrincham playing kit",
+          "color": ["Red", "White"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -85,6 +91,12 @@
         },
         "foundingDate": "1992",
         "url": "https://www.theshots.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Aldershot Town playing kit",
+          "color": ["#C32D27", "#172576"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -119,6 +131,12 @@
         },
         "foundingDate": "1888",
         "url": "https://www.barnetfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Barnet playing kit",
+          "color": ["#0D0807", "#FF7700"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -140,7 +158,8 @@
         "slogan": "The Wood",
         "sameAs": [
           "https://twitter.com/BOREHAM_WOODFC/",
-          "https://www.facebook.com/BorehamWoodFC"
+          "https://www.facebook.com/BorehamWoodFC",
+          "https://www.instagram.com/boreham_woodfc/"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -153,6 +172,12 @@
         },
         "foundingDate": "1948",
         "url": "https://www.borehamwoodfootballclub.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Boreham Wood playing kit",
+          "color": ["#ffffff", "#000000"]
+        },
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -189,6 +214,12 @@
         },
         "foundingDate": "1892",
         "url": "https://www.bromleyfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Bromley playing kit",
+          "color": ["#ffffff", "#B18E5C", "#161412"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -225,6 +256,12 @@
         },
         "foundingDate": "1919",
         "url": "https://chesterfield-fc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Chesterfield playing kit",
+          "color": ["#3974C0", "#ffffff"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -246,7 +283,8 @@
         "slogan": "The Daggers",
         "sameAs": [
           "https://twitter.com/Dag_RedFC/",
-          "https://www.facebook.com/OfficialDaggers"
+          "https://www.facebook.com/OfficialDaggers",
+          "https://www.youtube.com/OfficialDaggers"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -259,6 +297,12 @@
         },
         "foundingDate": "1992",
         "url": "https://daggers.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Dagenham &amp; Redbridge playing kit",
+          "color": ["#D74D3E", "#141D6A", "#ffffff"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -295,6 +339,12 @@
         },
         "foundingDate": "1999",
         "url": "https://www.dorkingwanderers.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Dorking Wanderers playing kit",
+          "color": ["#0E216E", "#ffffff", "#D12F2D"]
+        },
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -316,7 +366,8 @@
         "slogan": "The Spitfires",
         "sameAs": [
           "https://twitter.com/eastleighfc/",
-          "https://www.facebook.com/eastleighfc"
+          "https://www.facebook.com/eastleighfc",
+          "https://www.youtube.com/channel/UCqLcYxPm8O12KguuUIN6hPw"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -329,6 +380,12 @@
         },
         "foundingDate": "1946",
         "url": "https://www.eastleighfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Eastleigh playing kit",
+          "color": ["#0D228E", "#ffffff"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -363,6 +420,12 @@
         },
         "foundingDate": "2008",
         "url": "https://fchalifaxtown.com",
+        "owns": {
+          "@type": "Product",
+          "name": "FC Halifax Town playing kit",
+          "color": ["#3165A7"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -382,7 +445,11 @@
         "@type": "SportsTeam",
         "name": "Gateshead",
         "slogan": "The Tynesiders",
-        "sameAs": ["https://twitter.com/GatesheadFC/"],
+        "sameAs": [
+          "https://twitter.com/GatesheadFC/",
+          "https://www.facebook.com/gaetesheadfc",
+          "https://www.instagram.com/gfc_official/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1823.png",
@@ -394,6 +461,12 @@
         },
         "foundingDate": "1977",
         "url": "https://gateshead-fc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Gateshead playing kit",
+          "color": ["#221F26", "#ffffff"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -415,7 +488,9 @@
         "slogan": "The Magpies",
         "sameAs": [
           "https://twitter.com/MUFCYorkRoad/",
-          "https://www.facebook.com/MUFCYorkRoad"
+          "https://www.facebook.com/MUFCYorkRoad",
+          "https://www.instagram.com/MUFCYorkRoad/",
+          "https://www.youtube.com/channel/UCTaaLTWyqUPNH2CuCwMswKw"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -427,7 +502,13 @@
           "height": 120
         },
         "foundingDate": "1870",
-        "url": "https://maidenheadunitedfc.ktckts.com",
+        "url": "https://www.pitchero.com/clubs/maidenheadunited",
+        "owns": {
+          "@type": "Product",
+          "name": "Maidenhead United playing kit",
+          "color": ["#060807", "#ffffff"]
+        },
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -447,7 +528,12 @@
         "@type": "SportsTeam",
         "name": "Maidstone United",
         "slogan": "The Stones",
-        "sameAs": ["https://twitter.com/maidstoneunited/"],
+        "sameAs": [
+          "https://twitter.com/maidstoneunited/",
+          "https://www.facebook.com/MaidstoneUnitedFC",
+          "https://www.instagram.com/maidstoneunited/",
+          "https://www.youtube.com/stonestv"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1825.png",
@@ -459,6 +545,12 @@
         },
         "foundingDate": "1992",
         "url": "https://maidstoneunited.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Maidstone United playing kit",
+          "color": ["#E0A03C", "#434343"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league/maidstone-united"
@@ -477,7 +569,13 @@
         "@type": "SportsTeam",
         "name": "Notts County",
         "slogan": "The Magpies",
-        "sameAs": ["https://twitter.com/Official_NCFC/"],
+        "sameAs": [
+          "https://twitter.com/Official_NCFC/",
+          "https://www.facebook.com/nottscountyfootballclub",
+          "https://www.instagram.com/nottscountyfc/",
+          "https://www.youtube.com/OfficialNCFC",
+          "https://www.tiktok.com/@nottscountyofficial/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1376.png",
@@ -489,6 +587,12 @@
         },
         "foundingDate": "1862",
         "url": "https://www.nottscountyfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Notts County playing kit",
+          "color": ["#000000", "#ffffff", "#817653"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -510,7 +614,9 @@
         "slogan": "The Latics",
         "sameAs": [
           "https://twitter.com/OfficialOAFC/",
-          "https://www.facebook.com/OfficialOAFC"
+          "https://www.facebook.com/OfficialOAFC",
+          "https://www.instagram.com/officialoafc/",
+          "https://www.youtube.com/OfficialOAFC"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -523,6 +629,12 @@
         },
         "foundingDate": "1895",
         "url": "https://www.oldhamathletic.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Oldham Athletic playing kit",
+          "color": ["#2253A0", "#ffffff"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -542,7 +654,12 @@
         "@type": "SportsTeam",
         "name": "Solihull Moors",
         "slogan": "The Moors",
-        "sameAs": ["https://twitter.com/SolihullMoors/"],
+        "sameAs": [
+          "https://twitter.com/SolihullMoors/",
+          "https://www.facebook.com/SolihullMoorsFootballClub",
+          "https://www.instagram.com/SolihullMoorsFootballClub/",
+          "https://www.youtube.com/channel/UCgRZcsv149ICk40Gw0yMKCA"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1834.png",
@@ -554,6 +671,12 @@
         },
         "foundingDate": "2007",
         "url": "https://www.solihullmoorsfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Solihull Moors playing kit",
+          "color": ["#F9EB4E", "#FFFFFF"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -573,7 +696,12 @@
         "@type": "SportsTeam",
         "name": "Southend United",
         "slogan": "The Shrimpers",
-        "sameAs": ["https://twitter.com/SUFCRootsHall/"],
+        "sameAs": [
+          "https://twitter.com/SUFCRootsHall/",
+          "https://www.facebook.com/SouthendUnitedFC",
+          "https://www.instagram.com/SUFCRootsHall/",
+          "https://www.youtube.com/channel/UCtUEQDOQpXmZuAH9beGN4Aw"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1341.png",
@@ -585,6 +713,12 @@
         },
         "foundingDate": "1906",
         "url": "https://www.southendunited.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Southend United playing kit",
+          "color": ["#0C2751", "#ffffff"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -604,7 +738,12 @@
         "@type": "SportsTeam",
         "name": "Scunthorpe United",
         "slogan": "The Iron",
-        "sameAs": ["https://twitter.com/SUFCOfficial/"],
+        "sameAs": [
+          "https://twitter.com/SUFCOfficial/",
+          "https://www.facebook.com/sufcofficial",
+          "https://www.instagram.com/sufcofficial/",
+          "https://www.youtube.com/ScunthorpeUnitedFC"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1340.png",
@@ -616,6 +755,12 @@
         },
         "foundingDate": "1899",
         "url": "https://www.scunthorpe-united.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Scunthorpe United playing kit",
+          "color": ["#7B2D35", "#7AB1E2"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -635,7 +780,10 @@
         "@type": "SportsTeam",
         "name": "Torquay United AFC",
         "slogan": "The Gulls",
-        "sameAs": ["https://twitter.com/TUFC1899/"],
+        "sameAs": [
+          "https://twitter.com/TUFC1899/",
+          "https://www.facebook.com/officialtufc"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1827.png",
@@ -647,6 +795,12 @@
         },
         "foundingDate": "1899",
         "url": "https://torquayunited.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Torquay United AFC playing kit",
+          "color": ["#F8D347", "#2852B1"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -681,6 +835,12 @@
         },
         "foundingDate": "1899",
         "url": "https://www.wealdstone-fc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Wealdstone playing kit",
+          "color": ["#1B43CE", "#ffffff"]
+        },
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -712,6 +872,12 @@
         },
         "foundingDate": "1887",
         "url": "https://wokingfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Woking playing kit",
+          "color": ["#A41123", "#ffffff"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -731,7 +897,14 @@
         "@type": "SportsTeam",
         "name": "Wrexham AFC",
         "slogan": "The Red Dragons",
-        "sameAs": ["https://twitter.com/Wrexham_AFC/"],
+        "sameAs": [
+          "https://twitter.com/Wrexham_AFC/",
+          "https://www.facebook.com/wrexhamfootballclub",
+          "https://www.instagram.com/wrexham_afc/",
+          "https://www.youtube.com/channel/UCS7BAYpqOSaYy-pZp6oO4PA",
+          "https://www.tiktok.com/@wrexham_afc/",
+          "https://soundcloud.com/griff92"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1837.png",
@@ -743,6 +916,12 @@
         },
         "foundingDate": "1864",
         "url": "https://www.wrexhamafc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Wrexham AFC playing kit",
+          "color": ["#B32B25"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -774,6 +953,12 @@
         },
         "foundingDate": "1895",
         "url": "https://www.ytfc.net",
+        "owns": {
+          "@type": "Product",
+          "name": "Yeovil Town playing kit",
+          "color": ["#4DAC26", "#FFFF54"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -793,7 +978,12 @@
         "@type": "SportsTeam",
         "name": "York City",
         "slogan": "The Minstermen",
-        "sameAs": ["https://twitter.com/YorkCityFC/"],
+        "sameAs": [
+          "https://twitter.com/YorkCityFC/",
+          "https://www.facebook.com/yorkcityfc",
+          "https://www.instagram.com/yorkcityfc/",
+          "https://www.youtube.com/channel/UCpkc1g75A0UXDIBpqunFIpA"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1828.png",
@@ -805,6 +995,12 @@
         },
         "foundingDate": "1922",
         "url": "https://yorkcityfootballclub.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "York City playing kit",
+          "color": ["#72253C", "#D8C39F"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -847,8 +1043,8 @@
     },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "name": "tier",
-      "@value": 6
+      "propertyID": "tier",
+      "value": 6
     },
     "members": [
       {
@@ -868,6 +1064,12 @@
         },
         "foundingDate": "1988",
         "url": "https://www.afcfylde.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "AFC Fylde playing kit",
+          "color": ["#DB4433", "#1C488B"]
+        },
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -899,6 +1101,12 @@
         },
         "foundingDate": "2004",
         "url": "https://www.telfordunited.com",
+        "owns": {
+          "@type": "Product",
+          "name": "AFC Telford United playing kit",
+          "color": ["#182849"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/afc-telford-united"
@@ -932,6 +1140,12 @@
         },
         "foundingDate": "1959",
         "url": "https://alfretontownfootballclub.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Alfreton Town playing kit",
+          "color": ["#E31B1B"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/alfreton-town"
@@ -965,6 +1179,7 @@
         },
         "foundingDate": "1931",
         "url": "https://www.banburyunitedfc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/banbury-united"
@@ -983,7 +1198,10 @@
         "@type": "SportsTeam",
         "name": "Blyth Spartans AFC",
         "slogan": "The Spartans",
-        "sameAs": ["https://twitter.com/Blyth_Spartans/"],
+        "sameAs": [
+          "https://twitter.com/Blyth_Spartans/",
+          "https://www.youtube.com/channel/UCHttu5gBShjrfml2oG3WQlg"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8650.png",
@@ -995,6 +1213,12 @@
         },
         "foundingDate": "1899",
         "url": "https://www.blythspartans.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Blyth Spartans AFC playing kit",
+          "color": ["#ffffff", "#326F43"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/blyth-spartans-afc"
@@ -1013,7 +1237,10 @@
         "@type": "SportsTeam",
         "name": "Boston United",
         "slogan": "The Pilgrims",
-        "sameAs": ["https://twitter.com/bostonunited/"],
+        "sameAs": [
+          "https://twitter.com/bostonunited/",
+          "https://www.facebook.com/officialbostonunited"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8146.png",
@@ -1025,6 +1252,12 @@
         },
         "foundingDate": "1933",
         "url": "https://www.bostonunited.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Boston United playing kit",
+          "color": ["#F4CA44", "#1C1819"]
+        },
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -1044,7 +1277,10 @@
         "@type": "SportsTeam",
         "name": "Brackley Town",
         "slogan": "The Saints",
-        "sameAs": ["https://twitter.com/BrackleyTownFC/"],
+        "sameAs": [
+          "https://twitter.com/BrackleyTownFC/",
+          "https://www.instagram.com/brackleytownfc/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4701.png",
@@ -1056,6 +1292,12 @@
         },
         "foundingDate": "1930",
         "url": "https://brackleytownfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Brackley Town playing kit",
+          "color": ["#B62619"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/brackley-town"
@@ -1074,7 +1316,12 @@
         "@type": "SportsTeam",
         "name": "Bradford (Park Avenue) AFC",
         "slogan": "The Green Army",
-        "sameAs": ["https://twitter.com/BPAFCOfficial/"],
+        "sameAs": [
+          "https://twitter.com/BPAFCOfficial/",
+          "https://www.facebook.com/BPAFCOfficial",
+          "https://www.instagram.com/bpafcofficial/",
+          "https://www.youtube.com/channel/UCvuh3yG8G8ATMmRAw1a7RtQ"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8651.png",
@@ -1086,6 +1333,12 @@
         },
         "foundingDate": "1907",
         "url": "https://bpafc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Bradford (Park Avenue) AFC playing kit",
+          "color": ["#439541", "#ffffff"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/bradford-park-avenue-afc"
@@ -1116,6 +1369,7 @@
         },
         "foundingDate": "1877",
         "url": "https://www.buxtonfc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/buxton"
@@ -1134,7 +1388,11 @@
         "@type": "SportsTeam",
         "name": "Chester",
         "slogan": "The Seals",
-        "sameAs": ["https://twitter.com/ChesterFC/"],
+        "sameAs": [
+          "https://twitter.com/ChesterFC/",
+          "https://www.facebook.com/ChesterFC",
+          "https://www.youtube.com/channel/UCMOQ-2zdo-MZEqGn8f1U6zA"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1820.png",
@@ -1146,6 +1404,12 @@
         },
         "foundingDate": "2010",
         "url": "https://www.chesterfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Chester playing kit",
+          "color": ["#22549F", "#ffffff", "#F4CA4B"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/chester"
@@ -1176,6 +1440,7 @@
         },
         "foundingDate": "1883",
         "url": "https://www.chorleyfc.com",
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -1207,6 +1472,7 @@
         },
         "foundingDate": "1963",
         "url": "https://www.curzon-ashton.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/curzon-ashton"
@@ -1237,6 +1503,7 @@
         },
         "foundingDate": "1883",
         "url": "https://darlingtonfc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/darlington"
@@ -1267,6 +1534,7 @@
         },
         "foundingDate": "1908",
         "url": "https://farsleyceltic.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/farsley-celtic"
@@ -1297,6 +1565,7 @@
         },
         "foundingDate": "1883",
         "url": "https://www.gloucestercityafc.com",
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -1328,6 +1597,7 @@
         },
         "foundingDate": "2014",
         "url": "https://www.herefordfc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/hereford"
@@ -1358,6 +1628,12 @@
         },
         "foundingDate": "1872",
         "url": "https://ketteringtownfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Kettering Town playing kit",
+          "color": ["#EA332C", "#ffffff", "#000000"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/kettering-town"
@@ -1388,6 +1664,7 @@
         },
         "foundingDate": "1886",
         "url": "https://harriers.co.uk",
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -1419,6 +1696,7 @@
         },
         "foundingDate": "2010",
         "url": "https://www.kltown.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/kings-lynn-town"
@@ -1437,7 +1715,12 @@
         "@type": "SportsTeam",
         "name": "Leamington",
         "slogan": "The Brakes",
-        "sameAs": ["https://twitter.com/LeamingtonFC/"],
+        "sameAs": [
+          "https://twitter.com/LeamingtonFC/",
+          "https://www.facebook.com/leamingtonfc",
+          "https://www.instagram.com/brakesofficial/",
+          "https://www.tiktok.com/@leamingtonfc/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8656.png",
@@ -1449,6 +1732,12 @@
         },
         "foundingDate": "1933",
         "url": "https://leamingtonfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Leamington playing kit",
+          "color": ["#E4BE4E", "#000000"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/leamington"
@@ -1479,6 +1768,7 @@
         },
         "foundingDate": "1908",
         "url": "https://pslfc.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/peterborough-sports"
@@ -1509,6 +1799,7 @@
         },
         "foundingDate": "2007",
         "url": "https://www.scarboroughathletic.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/scarborough-athletic"
@@ -1529,7 +1820,9 @@
         "slogan": "The Sandgrounders",
         "sameAs": [
           "https://twitter.com/southport_fc/",
-          "https://www.facebook.com/SouthportFootballClub"
+          "https://www.facebook.com/SouthportFootballClub",
+          "https://www.instagram.com/southportfootballclub/",
+          "https://www.youtube.com/SouthportFCTV"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -1542,6 +1835,12 @@
         },
         "foundingDate": "1881",
         "url": "https://southportfc.net",
+        "owns": {
+          "@type": "Product",
+          "name": "Southport playing kit",
+          "color": ["#EEB551", "#191C24"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/southport"
@@ -1572,6 +1871,7 @@
         },
         "foundingDate": "2005",
         "url": "https://spennymoortownfc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/spennymoor-town"
@@ -1613,8 +1913,8 @@
     },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "name": "tier",
-      "@value": 6
+      "propertyID": "tier",
+      "value": 6
     },
     "members": [
       {
@@ -1634,6 +1934,7 @@
         },
         "foundingDate": "1889",
         "url": "https://www.bathcityfc.com",
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -1655,7 +1956,9 @@
         "slogan": "The Iron",
         "sameAs": [
           "https://twitter.com/braintreetownfc/",
-          "https://www.facebook.com/Braintreetownfcofficial"
+          "https://www.facebook.com/Braintreetownfcofficial",
+          "https://www.instagram.com/Braintreetownfcofficial/",
+          "https://www.youtube.com/channel/UCy7H5rNSd2Sko9J_LdGbxZA"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -1668,6 +1971,12 @@
         },
         "foundingDate": "1898",
         "url": "https://braintreetownfc.org.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Braintree Town playing kit",
+          "color": ["#ED7F31", "#ffffff", "#0101E2"]
+        },
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -1702,6 +2011,7 @@
         },
         "foundingDate": "1938",
         "url": "https://chelmsfordcityfc.com",
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -1721,7 +2031,11 @@
         "@type": "SportsTeam",
         "name": "Cheshunt",
         "slogan": "The Ambers",
-        "sameAs": ["https://twitter.com/cheshuntfcscore/"],
+        "sameAs": [
+          "https://twitter.com/cheshuntfcscore/",
+          "https://www.facebook.com/cheshuntfc",
+          "https://www.instagram.com/cheshuntfcofficial/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7708.png",
@@ -1733,6 +2047,12 @@
         },
         "foundingDate": "1946",
         "url": "https://cheshuntfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Cheshunt playing kit",
+          "color": ["#1C1C1C", "#EEB654"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/cheshunt"
@@ -1763,6 +2083,7 @@
         },
         "foundingDate": "1873",
         "url": "https://chippenhamtown.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/chippenham-town"
@@ -1781,7 +2102,11 @@
         "@type": "SportsTeam",
         "name": "Concord Rangers",
         "slogan": "The Beach Boys",
-        "sameAs": ["https://twitter.com/ConcordRangers/"],
+        "sameAs": [
+          "https://twitter.com/ConcordRangers/",
+          "https://www.facebook.com/ConcordRangersFC",
+          "https://www.youtube.com/BeachBoysTV"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8658.png",
@@ -1793,6 +2118,12 @@
         },
         "foundingDate": "1967",
         "url": "https://www.concord-rangers.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Concord Rangers playing kit",
+          "color": ["#F8DD4A", "#ffffff", "#204390"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/concord-rangers"
@@ -1826,6 +2157,7 @@
         },
         "foundingDate": "1888",
         "url": "https://www.dartfordfc.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/dartford"
@@ -1859,6 +2191,7 @@
         },
         "foundingDate": "1983",
         "url": "https://www.doverathletic.com",
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -1893,6 +2226,7 @@
         },
         "foundingDate": "1893",
         "url": "https://www.pitchero.com/clubs/dulwichhamlet",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/dulwich-hamlet"
@@ -1927,6 +2261,12 @@
         },
         "foundingDate": "1954",
         "url": "https://ebfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Eastbourne Borough playing kit",
+          "color": ["rgb(220, 38, 38)", "rgb(255, 255, 255)"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/eastbourne-borough"
@@ -1960,6 +2300,7 @@
         },
         "foundingDate": "1946",
         "url": "https://www.ebbsfleetunited.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/ebbsfleet-united"
@@ -1993,6 +2334,7 @@
         },
         "foundingDate": "1967",
         "url": "https://farnboroughfc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/farnborough"
@@ -2027,6 +2369,12 @@
         },
         "foundingDate": "1921",
         "url": "https://hrbfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Hampton &amp; Richmond Borough playing kit",
+          "color": ["#27223C", "#A63226"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/hampton-and-richmond-borough"
@@ -2060,6 +2408,7 @@
         },
         "foundingDate": "1998",
         "url": "https://www.havantandwaterloovillefc.co.uk",
+
         "keywords": "professional",
         "identifier": {
           "@type": "url",
@@ -2091,6 +2440,7 @@
         },
         "foundingDate": "1885",
         "url": "https://www.hemelfc.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/hemel-hempstead-town"
@@ -2111,7 +2461,8 @@
         "slogan": "The Crusaders",
         "sameAs": [
           "https://twitter.com/HungerfordTown/",
-          "https://www.facebook.com/Crusaders1886"
+          "https://www.facebook.com/Crusaders1886",
+          "https://www.instagram.com/hungerfordtown/"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -2124,6 +2475,12 @@
         },
         "foundingDate": "1886",
         "url": "https://hungerfordtown.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Hungerford Town playing kit",
+          "color": ["rgb(255, 255, 255)", "rgb(0, 0, 0)"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/hungerford-town"
@@ -2154,6 +2511,7 @@
         },
         "foundingDate": "1882",
         "url": "https://www.oxfordcityfc.co.uk",
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -2185,6 +2543,7 @@
         },
         "foundingDate": "1890",
         "url": "https://sloughtownfc.net",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/slough-town"
@@ -2215,6 +2574,7 @@
         },
         "foundingDate": "1908",
         "url": "https://www.stalbanscityfc.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/st-albans-city"
@@ -2245,6 +2605,7 @@
         },
         "foundingDate": "1947",
         "url": "https://tauntontown.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/taunton-town"
@@ -2275,6 +2636,7 @@
         },
         "foundingDate": "1947",
         "url": "https://www.tonbridgeangels.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/tonbridge-angels"
@@ -2308,6 +2670,7 @@
         },
         "foundingDate": "1963",
         "url": "https://www.wellingunited.com",
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -2339,6 +2702,12 @@
         },
         "foundingDate": "1890",
         "url": "https://uptheterras.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Weymouth playing kit",
+          "color": ["LightBlue", "Maroon"]
+        },
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -2370,6 +2739,12 @@
         },
         "foundingDate": "1886",
         "url": "https://worthingfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Worthing playing kit",
+          "color": ["Red"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-south/worthing"
@@ -2411,8 +2786,8 @@
     },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "name": "tier",
-      "@value": 7
+      "propertyID": "tier",
+      "value": 7
     },
     "members": [
       {
@@ -2422,7 +2797,8 @@
         "slogan": "The Millers",
         "sameAs": [
           "https://twitter.com/AveleyFC/",
-          "https://www.facebook.com/AveleyFC"
+          "https://www.facebook.com/AveleyFC",
+          "https://www.instagram.com/aveleyfc/"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -2435,6 +2811,12 @@
         },
         "foundingDate": "1927",
         "url": "https://www.pitchero.com/clubs/aveley",
+        "owns": {
+          "@type": "Product",
+          "name": "Aveley playing kit",
+          "color": ["#1E169D", "#ffffff"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/aveley"
@@ -2470,6 +2852,12 @@
         },
         "foundingDate": "1880",
         "url": "https://www.billericaytownfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Billericay Town playing kit",
+          "color": ["#1618BF"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/billericay-town"
@@ -2505,6 +2893,12 @@
         },
         "foundingDate": "1874",
         "url": "https://www.bsfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Bishop&#39;s Stortford playing kit",
+          "color": ["#1B4491", "#FFFFFF"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/bishop-s-stortford"
@@ -2538,6 +2932,7 @@
         },
         "foundingDate": "1883",
         "url": "https://www.pitchero.com/clubs/bognorregistownfc",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/bognor-regis-town"
@@ -2571,6 +2966,7 @@
         },
         "foundingDate": "1946",
         "url": "https://bowersandpitseafootballclub.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/bowers-and-pitsea"
@@ -2604,6 +3000,7 @@
         },
         "foundingDate": "2005",
         "url": "https://brightlingsearegentfc.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/brightlingsea-regent"
@@ -2637,6 +3034,7 @@
         },
         "foundingDate": "1926",
         "url": "https://canveyislandfc.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/canvey-island"
@@ -2670,6 +3068,7 @@
         },
         "foundingDate": "1905",
         "url": "https://www.carshaltonathletic.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/carshalton-athletic"
@@ -2703,6 +3102,12 @@
         },
         "foundingDate": "1939",
         "url": "https://corinthian-casuals.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Corinthian-Casuals playing kit",
+          "color": ["#692F2F", "#DA8DD9"]
+        },
+
         "keywords": "amateur",
         "identifier": {
           "@type": "url",
@@ -2737,6 +3142,7 @@
         },
         "foundingDate": "1860",
         "url": "https://www.cray-wanderers.com",
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -2768,6 +3174,7 @@
         },
         "foundingDate": "2001",
         "url": "https://etfc.london",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/enfield-town"
@@ -2801,6 +3208,7 @@
         },
         "foundingDate": "1936",
         "url": "https://folkestoneinvictafc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/folkestone-invicta"
@@ -2830,7 +3238,8 @@
           "height": 150
         },
         "foundingDate": "1973",
-        "url": "https://haringeyboroughfc.net",
+        "url": "https://www.haringeyboroughfc.net",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/haringey-borough"
@@ -2864,6 +3273,7 @@
         },
         "foundingDate": "1893",
         "url": "https://www.hastingsunited.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/hastings-united"
@@ -2884,7 +3294,9 @@
         "slogan": "The Bay",
         "sameAs": [
           "https://twitter.com/HerneBayFC/",
-          "https://www.facebook.com/hernebayfootballclub"
+          "https://www.facebook.com/hernebayfootballclub",
+          "https://www.instagram.com/hbfc_official/",
+          "https://www.youtube.com/channel/UCw8GwQcXNvL71vAqMmAuPDA"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -2897,6 +3309,12 @@
         },
         "foundingDate": "1886",
         "url": "https://hernebayfootballclub.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Herne Bay playing kit",
+          "color": ["#1A378E"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/herne-bay"
@@ -2932,6 +3350,7 @@
         },
         "foundingDate": "1923",
         "url": "https://www.hornchurchfc.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/hornchurch"
@@ -2952,7 +3371,9 @@
         "slogan": "The Hornets",
         "sameAs": [
           "https://twitter.com/HorshamFC/",
-          "https://www.facebook.com/HorshamFC"
+          "https://www.facebook.com/HorshamFC",
+          "https://www.instagram.com/horsham_fc/",
+          "https://www.youtube.com/channel/UChmmGkCpFY4s5bneAJZ7Oqw"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -2965,6 +3386,12 @@
         },
         "foundingDate": "1871",
         "url": "https://www.horshamfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Horsham playing kit",
+          "color": ["#357942", "#F5C242"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/horsham"
@@ -2998,6 +3425,12 @@
         },
         "foundingDate": "1885",
         "url": "https://www.kingstonian.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Kingstonian playing kit",
+          "color": ["#BB271A", "#ffffff"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/kingstonian"
@@ -3031,6 +3464,7 @@
         },
         "foundingDate": "1885",
         "url": "https://lewesfc.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/lewes"
@@ -3061,6 +3495,7 @@
         },
         "foundingDate": "1896",
         "url": "https://margate-fc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/margate"
@@ -3091,6 +3526,7 @@
         },
         "foundingDate": "1960",
         "url": "https://www.pitchero.com/clubs/pottersbartownfc",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/potters-bar-town"
@@ -3124,6 +3560,7 @@
         },
         "foundingDate": "1991",
         "url": "https://www.wingatefinchley.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/wingate-and-finchley"
@@ -3165,8 +3602,8 @@
     },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "name": "tier",
-      "@value": 7
+      "propertyID": "tier",
+      "value": 7
     },
     "members": [
       {
@@ -3191,6 +3628,12 @@
         },
         "foundingDate": "1878",
         "url": "https://ashtonunited.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Ashton United playing kit",
+          "color": ["#AE3034", "#ffffff"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/ashton-united"
@@ -3224,6 +3667,12 @@
         },
         "foundingDate": "1916",
         "url": "https://athertoncollieries.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Atherton Collieries playing kit",
+          "color": ["#ffffff", "#000000"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/atherton-collieries"
@@ -3257,6 +3706,7 @@
         },
         "foundingDate": "1952",
         "url": "https://bamberbridge.org",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/bamber-bridge"
@@ -3290,6 +3740,7 @@
         },
         "foundingDate": "1883",
         "url": "https://belpertownfc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/belper-town"
@@ -3324,6 +3775,7 @@
         },
         "foundingDate": "2005",
         "url": "https://fc-utd.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/fc-united-of-manchester"
@@ -3354,6 +3806,7 @@
         },
         "foundingDate": "1873",
         "url": "https://www.gainsboroughtrinity.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/gainsborough-trinity"
@@ -3389,6 +3842,7 @@
         },
         "foundingDate": "1909",
         "url": "https://guiseleyafc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/guiseley-afc"
@@ -3422,6 +3876,12 @@
         },
         "foundingDate": "1919",
         "url": "https://hydeunited.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Hyde United playing kit",
+          "color": ["#dd3333", "#ffffff"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/hyde-united"
@@ -3455,6 +3915,12 @@
         },
         "foundingDate": "1911",
         "url": "https://www.pitchero.com/clubs/lancastercity",
+        "owns": {
+          "@type": "Product",
+          "name": "Lancaster City playing kit",
+          "color": ["#004C92"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/lancaster-city"
@@ -3473,7 +3939,11 @@
         "@type": "SportsTeam",
         "name": "Liversedge",
         "slogan": "The Sedge",
-        "sameAs": ["https://twitter.com/Liversedge_FC/"],
+        "sameAs": [
+          "https://twitter.com/Liversedge_FC/",
+          "https://www.facebook.com/LiversedgeFootballClub",
+          "https://www.instagram.com/official_liversedge_fc/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8853.png",
@@ -3485,6 +3955,12 @@
         },
         "foundingDate": "1910",
         "url": "https://liversedgefc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Liversedge playing kit",
+          "color": ["rgb(116, 207, 255)", "#ffffff"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/liversedge"
@@ -3518,6 +3994,12 @@
         },
         "foundingDate": "1894",
         "url": "https://marinefc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Marine AFC playing kit",
+          "color": ["#000000", "#CEB04E"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/marine-afc"
@@ -3548,6 +4030,7 @@
         },
         "foundingDate": "1956",
         "url": "https://marskeunitedfc.org",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/marske-united"
@@ -3566,7 +4049,10 @@
         "@type": "SportsTeam",
         "name": "Matlock Town",
         "slogan": "The Gladiators",
-        "sameAs": ["https://twitter.com/matlock_townfc/"],
+        "sameAs": [
+          "https://twitter.com/matlock_townfc/",
+          "https://www.facebook.com/matlock.townfc"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7731.png",
@@ -3578,6 +4064,12 @@
         },
         "foundingDate": "1878",
         "url": "https://www.matlocktownfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Matlock Town playing kit",
+          "color": ["#152043"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/matlock-town"
@@ -3608,6 +4100,7 @@
         },
         "foundingDate": "1909",
         "url": "https://www.morpethtownfc.com",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/morpeth-town-afc"
@@ -3641,6 +4134,7 @@
         },
         "foundingDate": "1884",
         "url": "https://www.nantwichtownfc.co.uk",
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/nantwich-town"
@@ -3674,6 +4168,12 @@
         },
         "foundingDate": "1949",
         "url": "https://radcliffefc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Radcliffe playing kit",
+          "color": ["#19419F", "#F8E35E"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/radcliffe"
@@ -3692,7 +4192,12 @@
         "@type": "SportsTeam",
         "name": "South Shields",
         "slogan": "The Mariners",
-        "sameAs": ["https://twitter.com/SouthShieldsFC/"],
+        "sameAs": [
+          "https://twitter.com/SouthShieldsFC/",
+          "https://www.facebook.com/southshieldsfc",
+          "https://www.instagram.com/southshieldsfc/",
+          "https://www.youtube.com/southshieldsfc"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7746.png",
@@ -3704,6 +4209,12 @@
         },
         "foundingDate": "1888",
         "url": "https://www.southshieldsfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "South Shields playing kit",
+          "color": ["#6F2935", "#8FCFE6"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/south-shields"
@@ -3733,7 +4244,8 @@
           "height": 138
         },
         "foundingDate": "1876",
-        "url": "https://staffordrangersfc.co.uk",
+        "url": "https://www.staffordrangersfc.co.uk",
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -3768,6 +4280,12 @@
         },
         "foundingDate": "1909",
         "url": "https://stalybridgeceltic.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Stalybridge Celtic playing kit",
+          "color": ["#3170EA", "#ffffff"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/stalybridge-celtic"
@@ -3801,6 +4319,12 @@
         },
         "foundingDate": "1906",
         "url": "https://rylandsfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Warrington Rylands 1906 playing kit",
+          "color": ["#264793"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/warrington-rylands-1906"
@@ -3818,10 +4342,12 @@
         "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Warrington Town",
-        "slogan": "The Wire",
+        "slogan": "The Yellows",
         "sameAs": [
           "https://twitter.com/theyellows/",
-          "https://www.facebook.com/WarringtonTownFC"
+          "https://www.facebook.com/WarringtonTownFC",
+          "https://www.instagram.com/warringtontownfc/",
+          "https://www.youtube.com/channel/UCuJtu1BX2ZISz1ekKEG746A/"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -3834,6 +4360,12 @@
         },
         "foundingDate": "1949",
         "url": "https://warringtontownfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Warrington Town playing kit",
+          "color": ["#FDFF54", "#1331A4"]
+        },
+
         "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
@@ -3853,7 +4385,11 @@
         "@type": "SportsTeam",
         "name": "Whitby Town",
         "slogan": "The Seasiders",
-        "sameAs": ["https://twitter.com/WhitbyTownFC/"],
+        "sameAs": [
+          "https://twitter.com/WhitbyTownFC/",
+          "https://www.facebook.com/whitbytownfc",
+          "https://www.instagram.com/whitbytownfc/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7757.png",
@@ -3865,6 +4401,12 @@
         },
         "foundingDate": "1880",
         "url": "https://whitbytownfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Whitby Town playing kit",
+          "color": ["#0D1B89"]
+        },
+
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/whitby-town"
