@@ -111,8 +111,14 @@ apple %}
             The ground is the home of
             {% endif %}
             <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | safe | slugify }}">{{ club.alternateName }}</a>, 
-            who currently compete in the <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.name }}</a>.</p>
+            who currently compete in the <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.name }}</a>.
+          </p>
         {% endfor %}
+        {%- if ground.description %}
+          {%- for p in ground.description.split(". ") %}
+          <p class="block">{{ p | safe }}{% if not loop.last %}. {% endif %}</p>
+          {%- endfor %}
+        {%- endif %}
       </section>
       <aside class="column is-one-quarter">
         {% for club in ground.subOrganization %}
