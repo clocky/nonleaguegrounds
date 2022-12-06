@@ -50,3 +50,6 @@ package = "netlify-plugin-cache"
     "dist/img/common",
     "dist/img/grounds"
    ]
+
+[[plugins]]
+package = "netlify-plugin-debug-cache"
