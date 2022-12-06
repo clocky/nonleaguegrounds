@@ -2,7 +2,7 @@
 permalink: /grounds/index.html
 date: git Last Modified
 eleventyComputed:
-    title: "Football Conference Leagues"
+    title: "Football Conference Grounds"
     description: "A directory of {{ grounds.length }} English non-league grounds, sorted by capacity."
 ---
 {% extends "./_layouts/base.njk" %}
@@ -41,6 +41,21 @@ eleventyComputed:
               <a href="/regions/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}">
                 {{ ground.name }}
               </a>
+              {%- if env.eleventy == "development" %}
+                {%- if not ground.url %}
+                  <a class="button is-small" target="_blank" href="https://www.google.com/search?q=%22{{ ground.name | urlencode }}%22+site%3A{{ ground.subOrganization[0].url.slice(8) }}">ground</a>
+                  {% if ground.sponsor %}
+                    <a class="button is-small" target="_blank" href="https://www.google.com/search?q=%22{{ ground.sponsor.name | urlencode }}%22+site%3A{{ ground.subOrganization[0].url.slice(8) }}">sponsor</a>
+                  {% endif %}
+                {%- else %}
+                  <span class="tag is-success">url</span>
+                {%- endif %}
+                {%- if not ground.description %}
+                  <a class="button is-small" target="_blank" href="https://www.google.com/search?q=%22{{ ground.name | urlencode }}%22+site%3A{{ ground.subOrganization[0].url.slice(8) }}">search site</a>
+                {%- else %}
+                  <span class="tag is-success">note</span>
+                {%- endif %}
+              {%- endif %}
             </th>
             <td class="is-hidden-mobile">
               {% for club in ground.subOrganization %}
