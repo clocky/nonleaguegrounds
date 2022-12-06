@@ -44,4 +44,9 @@
 package = "netlify-plugin-cache"
 
   [plugins.inputs]
-  paths = [ ".cache" ]
+  paths = [
+    ".cache",
+    "dist/img/clubs",
+    "dist/img/common",
+    "dist/img/grounds"
+   ]
