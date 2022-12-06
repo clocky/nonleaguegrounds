@@ -71,7 +71,7 @@ eleventyComputed:
   <section class="hero {% if club.owns === false %}is-white{% endif %} is-small has-background">
     {% if club.image %}
       {# 640, 768, 1024, 1366, 1600, 1920 #}
-      {% image "./src/_assets/img/flickr/" + club.image.contentUrl, [1024],  ["avif", "jpeg"], club.name, "100vw", "clubs" %}
+      {% image "./src/_assets/img/flickr/" + club.image.contentUrl, [1024, 1366],  ["avif", "jpeg"], club.name, "100vw", "clubs" %}
     {% endif %}
     <div class="hero-body">
       <div class="container has-text-left">
