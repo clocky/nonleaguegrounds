@@ -122,6 +122,8 @@ eleventyComputed:
           </strong>
           {%- if club.keywords %}
           is a {{ club.keywords }}
+          {% else %}
+           is an 
           {%- endif %}
           {{ club.sport | lower }} club based in {{ club.location.address.addressLocality }}
           {%- if club.location.address.addressRegion -%}
@@ -142,6 +144,28 @@ eleventyComputed:
           <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
           a stadium which has a capacity of {{ club.location.maximumAttendeeCapacity | commaNumber }} spectators.
         </p>
+        {%- if club.description %}
+          {%- for sentence in club.description.split(". ") %}
+          <p class="block">
+            {{ sentence }}{% if not loop.last %}.{% endif %}
+          </p>
+          {%- endfor %}
+        {%- endif %}
+        {%- if club.legalName %}
+        <hr class="separator" />
+        <p class="block has-text-grey">
+          <small>
+          {%- if club.identifier.value %}
+            {% if club.identifier.value.slice(0,2) == "IP" %}
+            {{ club.legalName }} is a registered society under the Co-operative and Community Benefits Societies Act 2014 as an Industrial &amp; Provident Society
+            {% else %}
+          {{ club.alternateName }} is a trading name for {{ club.legalName }}, company number 
+            <a href="https://find-and-update.company-information.service.gov.uk/search?q={{ club.identifier.value }}" rel="noopener" target="_blank">{{ club.identifier.value }}</a>
+            {%- endif %}.
+          {%- endif %}
+          </small>
+        </p>
+        {%- endif %}
       </article>
 
       <aside class="column is-one-quarter">
