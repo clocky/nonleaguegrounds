@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BING_MAPS_API_KEY: ${{ secrets.BING_MAPS_API_KEY }}
 
     strategy:
       matrix:
