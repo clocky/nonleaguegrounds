@@ -4,6 +4,7 @@
     "@type": "SportsTeam",
     "name": "Aldershot Town",
     "alternateName": "Aldershot Town Football Club",
+    "description": "They were formed in 1992, following the demise of the original Aldershot Football Club, which had spent a short period in the Football League in the 1980s.",
     "slogan": "The Shots",
     "telephone": "+441252320211",
     "logo": {
@@ -1019,7 +1020,7 @@
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "Gateshead International Stadium",
-      "maximumAttendeeCapacity": 11750,
+      "maximumAttendeeCapacity": 11800,
       "priceRange": "££",
       "latitude": 54.96102,
       "longitude": -1.57967,
@@ -1049,6 +1050,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Maidenhead United",
+    "legalName": "Maidenhead United Football Club Ltd",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "5691046"
+    },
     "alternateName": "Maidenhead United Football Club",
     "slogan": "The Magpies",
     "logo": {
@@ -1242,6 +1249,7 @@
     "@type": "SportsTeam",
     "name": "Notts County",
     "alternateName": "Notts County Football Club",
+    "description": "Notts County has a long and storied history, having played in the English Football League for over 100 years and winning the League Two title in the 2010-11 season.",
     "slogan": "The Magpies",
     "logo": {
       "@type": "ImageObject",
@@ -1680,7 +1688,7 @@
       "longitude": -0.6953374,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Doncaster Road",
+        "streetAddress": "Jack Brownsword Way",
         "addressLocality": "Scunthorpe",
         "postalCode": "DN15 8TD",
         "addressCountry": "GB"
@@ -1909,7 +1917,14 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Woking",
+    "legalName": "Woking Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "3329172"
+    },
     "alternateName": "Woking Football Club",
+    "description": "Woking has a dedicated fan base and has enjoyed some recent successes, such as winning the National League South title in the 2016-17 season.",
     "slogan": "The Cardinals",
     "logo": {
       "@type": "ImageObject",
@@ -1920,7 +1935,11 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/wokingfc/"],
+    "sameAs": [
+      "https://twitter.com/wokingfc/",
+      "https://www.facebook.com/wokingfc",
+      "https://www.instagram.com/wokingfc/"
+    ],
     "foundingDate": "1887",
     "sport": "Association Football",
     "keywords": "professional",
@@ -2017,6 +2036,7 @@
     "@type": "SportsTeam",
     "name": "Yeovil Town",
     "alternateName": "Yeovil Town Football Club",
+    "description": "The club has a long history and has played in the Football League in the past, reaching the Championship, the second tier of English football, in the 2013-14 season.",
     "slogan": "The Glovers",
     "logo": {
       "@type": "ImageObject",
@@ -2069,6 +2089,7 @@
       "longitude": -2.673974,
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Lufton Way",
         "addressLocality": "Yeovil",
         "addressRegion": "Somerset",
         "postalCode": "BA22 8YF",
@@ -2205,7 +2226,13 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "AFC Fylde",
-    "legalName": "A. F. C. FYLDE LIMITED",
+    "legalName": "A. F. C. Fylde Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "5916248"
+    },
+    "isicV4": "93110",
     "alternateName": "AFC Fylde",
     "slogan": "The Coasters",
     "telephone": "+441772682593",
@@ -2309,6 +2336,13 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "AFC Telford United",
+    "legalName": "AFC Telford United Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "5138735"
+    },
+    "isicV4": "93110",
     "alternateName": "AFC Telford United",
     "slogan": "The Bucks",
     "logo": {
@@ -2411,6 +2445,7 @@
     "@type": "SportsTeam",
     "name": "Alfreton Town",
     "alternateName": "Alfreton Town Football Club",
+    "description": "The club has never played in the Football League, but have reached the second round of the FA Cup on three occasions.",
     "slogan": "The Reds",
     "logo": {
       "@type": "ImageObject",
@@ -2427,6 +2462,7 @@
     ],
     "foundingDate": "1959",
     "sport": "Association Football",
+    "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
       "name": "Alfreton Town playing kit",
@@ -2510,6 +2546,11 @@
     ],
     "foundingDate": "1931",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Banbury United playing kit",
+      "color": ["#F6EC4E", "#E83830"]
+    },
 
     "url": "https://www.banburyunitedfc.co.uk",
     "memberOf": {
@@ -2696,6 +2737,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Boston United",
+    "legalName": "Boston United Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "303529"
+    },
     "alternateName": "Boston United Football Club",
     "slogan": "The Pilgrims",
     "logo": {
@@ -2906,7 +2953,7 @@
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
-      "name": "Horsfall Stadium",
+      "name": "Horsfall Community Stadium",
       "maximumAttendeeCapacity": 3500,
       "priceRange": "££",
       "latitude": 53.758876,
@@ -2915,13 +2962,13 @@
         "@type": "PostalAddress",
         "streetAddress": "Cemetery Road",
         "addressLocality": "Bradford",
-        "addressRegion": "Yorkshire, West Riding",
+        "addressRegion": "West Yorkshire",
         "postalCode": "BD6 2NG",
         "addressCountry": "GB"
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-stadium"
+        "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-community-stadium"
       },
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -2953,9 +3000,18 @@
       "width": 100,
       "height": 100
     },
-    "sameAs": ["https://twitter.com/Buxton_FC/"],
+    "sameAs": [
+      "https://twitter.com/Buxton_FC/",
+      "https://www.facebook.com/462263437187284",
+      "https://www.instagram.com/buxton_fc/"
+    ],
     "foundingDate": "1877",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Buxton playing kit",
+      "color": ["#194063", "#ffffff"]
+    },
 
     "url": "https://www.buxtonfc.co.uk",
     "memberOf": {
@@ -2985,7 +3041,7 @@
       "name": "The Silverlands",
       "sponsor": {
         "@type": "Organization",
-        "name": "Tarmac Silverlands Stadium"
+        "name": "The Tarmac Silverlands Stadium"
       },
       "maximumAttendeeCapacity": 4000,
       "priceRange": "££",
@@ -3066,7 +3122,11 @@
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "Deva Stadium",
-      "maximumAttendeeCapacity": 6500,
+      "sponsor": {
+        "@type": "Organization",
+        "name": "Swansway Chester Stadium"
+      },
+      "maximumAttendeeCapacity": 5400,
       "priceRange": "££",
       "latitude": 53.189215,
       "longitude": -2.923496,
@@ -3112,10 +3172,20 @@
       "width": 100,
       "height": 127
     },
-    "sameAs": ["https://twitter.com/chorleyfc/"],
+    "sameAs": [
+      "https://twitter.com/chorleyfc/",
+      "https://www.facebook.com/ChorleyFC",
+      "https://www.instagram.com/chorley_fc/",
+      "https://www.youtube.com/channel/UCQlY_0NJyTiNd3MuYdhz-cA"
+    ],
     "foundingDate": "1883",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Chorley playing kit",
+      "color": ["#ffffff", "#000000", "#CB3741"]
+    },
 
     "url": "https://www.chorleyfc.com",
     "memberOf": {
@@ -3182,6 +3252,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Curzon Ashton",
+    "legalName": "Curzon Ashton Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "IP29461R"
+    },
     "alternateName": "Curzon Ashton Football Club",
     "slogan": "The Nash",
     "logo": {
@@ -3193,9 +3269,18 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/CurzonAshton/"],
+    "sameAs": [
+      "https://twitter.com/CurzonAshton/",
+      "https://www.facebook.com/CurzonAshtonFootballClub",
+      "https://www.instagram.com/curzonashton/"
+    ],
     "foundingDate": "1963",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Curzon Ashton playing kit",
+      "color": ["#152EA7", "#ffffff"]
+    },
 
     "url": "https://www.curzon-ashton.co.uk",
     "memberOf": {
@@ -3273,6 +3358,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Darlington",
+    "legalName": "Darlington 1883 Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "7914690"
+    },
     "alternateName": "Darlington Football Club",
     "slogan": "The Quakers",
     "logo": {
@@ -3284,9 +3375,18 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/Official_Darlo/"],
+    "sameAs": [
+      "https://twitter.com/Official_Darlo/",
+      "https://www.facebook.com/darlingtonfc",
+      "https://www.youtube.com/channel/UCkvYibKVfoeG67iNuRwxCkg"
+    ],
     "foundingDate": "1883",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Darlington playing kit",
+      "color": ["#FAFAFA", "#353A3F", "#CD4B3B"]
+    },
 
     "url": "https://darlingtonfc.co.uk",
     "memberOf": {
@@ -3344,6 +3444,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Farsley Celtic",
+    "legalName": "FC2010 Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "6997399"
+    },
     "alternateName": "Farsley Celtic Football Club",
     "slogan": "The Celt Army",
     "logo": {
@@ -3355,9 +3461,19 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/FarsleyCelticFC/"],
+    "sameAs": [
+      "https://twitter.com/FarsleyCelticFC/",
+      "https://www.facebook.com/farsleycelticfc",
+      "https://www.instagram.com/farsleycelticfc/",
+      "https://www.tiktok.com/@farsleycelticfc/"
+    ],
     "foundingDate": "1908",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Farsley Celtic playing kit",
+      "color": ["#ffffff", "#43964F"]
+    },
 
     "url": "https://farsleyceltic.com",
     "memberOf": {
@@ -3391,9 +3507,9 @@
       "longitude": -1.664219,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "87 Newlands",
-        "addressLocality": "Pudsey",
-        "addressRegion": "Yorkshire, West Riding",
+        "streetAddress": "Newlands",
+        "addressLocality": "Farsley",
+        "addressRegion": "West Yorkshire",
         "postalCode": "LS28 5BE",
         "addressCountry": "GB"
       },
@@ -3440,6 +3556,13 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Gloucester City AFC",
+    "legalName": "Gloucester City Association Football Club (1980)",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "1479143"
+    },
+    "isicV4": "93199 - Other sports activities",
     "alternateName": "Gloucester City AFC",
     "slogan": "The Tigers",
     "logo": {
@@ -3451,10 +3574,20 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/GCAFCOfficial/"],
+    "sameAs": [
+      "https://twitter.com/GCAFCOfficial/",
+      "https://www.facebook.com/gcafcofficial",
+      "https://www.instagram.com/gloucestercityafc/",
+      "https://www.youtube.com/GloucesterCityAFC1883"
+    ],
     "foundingDate": "1883",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Gloucester City AFC playing kit",
+      "color": ["#CC2D24", "#EBBC42"]
+    },
 
     "url": "https://www.gloucestercityafc.com",
     "memberOf": {
@@ -3775,7 +3908,12 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/officialKLtown/"],
+    "sameAs": [
+      "https://twitter.com/officialKLtown/",
+      "https://www.facebook.com/www.kltown.co.uk",
+      "https://www.instagram.com/officialkltownfc/",
+      "https://www.youtube.com/channel/UC8fjhxpARGa_ywt3UKPgSUQ"
+    ],
     "foundingDate": "2010",
     "sport": "Association Football",
 
@@ -3840,6 +3978,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Leamington",
+    "legalName": "Leamington Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "1756713"
+    },
     "alternateName": "Leamington Football Club",
     "slogan": "The Brakes",
     "logo": {
@@ -3891,6 +4035,10 @@
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "New Windmill Ground",
+      "sponsor": {
+        "@type": "Organization",
+        "name": "Your Co-Op Community Stadium"
+      },
       "maximumAttendeeCapacity": 2300,
       "priceRange": "££",
       "latitude": 52.244306,
@@ -3992,6 +4140,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Scarborough Athletic",
+    "legalName": "Scarborough Athletic FC Society Ltd",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "IP30123R"
+    },
     "alternateName": "Scarborough Athletic Football Club",
     "slogan": "The Seadogs",
     "logo": {
@@ -4003,9 +4157,19 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/safc/"],
+    "sameAs": [
+      "https://twitter.com/safc/",
+      "https://www.facebook.com/scarboroughathletic",
+      "https://www.instagram.com/scarboroughathletic/",
+      "https://www.youtube.com/channel/UCqpZ6rmMH_keHkS83sAx6ew"
+    ],
     "foundingDate": "2007",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Scarborough Athletic playing kit",
+      "color": ["#C8353D", "#ffffff"]
+    },
 
     "url": "https://www.scarboroughathletic.com",
     "memberOf": {
@@ -4040,7 +4204,7 @@
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Scarborough",
-        "addressRegion": "Yorkshire, North Riding",
+        "addressRegion": "West Yorkshire",
         "postalCode": "YO11 2JW",
         "addressCountry": "GB"
       },
@@ -4297,6 +4461,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Braintree Town",
+    "legalName": "Braintree Town Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "2050949"
+    },
     "alternateName": "Braintree Town Football Club",
     "slogan": "The Iron",
     "telephone": "+441376345617",
@@ -4354,7 +4524,7 @@
         "@type": "Organization",
         "name": "Dunmow Group Stadium"
       },
-      "maximumAttendeeCapacity": 4151,
+      "maximumAttendeeCapacity": 4222,
       "priceRange": "££",
       "latitude": 51.875305,
       "longitude": 0.572989,
@@ -4733,6 +4903,7 @@
     "name": "Dartford",
     "alternateName": "Dartford Football Club",
     "slogan": "The Darts",
+    "telephone": "+441322299991",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/4690.png",
@@ -4775,12 +4946,17 @@
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "Princes Park",
+      "sponsor": {
+        "@type": "Organization",
+        "name": "Bericote Powerhouse Princes Park"
+      },
       "maximumAttendeeCapacity": 4100,
       "priceRange": "££",
       "latitude": 51.437182,
       "longitude": 0.230837,
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Darenth Road",
         "addressLocality": "Dartford",
         "addressRegion": "Kent",
         "postalCode": "DA1 1RT",
@@ -5385,7 +5561,7 @@
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
-      "name": "The Westleigh",
+      "name": "Westleigh Park",
       "sponsor": {
         "@type": "Organization",
         "name": "Draper Tools Community Stadium"
@@ -5404,7 +5580,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://www.nonleaguegrounds.com/regions/south-east/the-westleigh"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/westleigh-park"
       }
     },
     "areaServed": {
@@ -6256,6 +6432,7 @@
     "@type": "SportsTeam",
     "name": "Wrexham AFC",
     "alternateName": "Wrexham AFC",
+    "description": "The club has a dedicated fan base and has enjoyed some recent successes, such as winning the FA Trophy in 2013. Wrexham AFC also has a strong academy and has produced several talented players who have gone on to play for other professional clubs.",
     "slogan": "The Red Dragons",
     "logo": {
       "@type": "ImageObject",
@@ -6309,7 +6486,7 @@
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "Racecourse Ground",
-      "maximumAttendeeCapacity": 10771,
+      "maximumAttendeeCapacity": 10500,
       "priceRange": "££",
       "latitude": 53.051961,
       "longitude": -3.003804,
@@ -6400,6 +6577,7 @@
       "longitude": 0.261341,
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Park Lane",
         "addressLocality": "South Ockendon",
         "addressRegion": "Essex",
         "postalCode": "RM15 4PX",
@@ -6898,7 +7076,9 @@
     },
     "sameAs": [
       "https://twitter.com/CIFC/",
-      "https://www.facebook.com/canveyislandfc"
+      "https://www.facebook.com/canveyislandfc",
+      "https://www.instagram.com/canveyislandfc/",
+      "https://www.youtube.com/channel/UCgT1wSEbC1ZVClt5jnFfmlg"
     ],
     "foundingDate": "1926",
     "sport": "Association Football",
@@ -7315,6 +7495,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Folkestone Invicta",
+    "legalName": "Folkestone Invicta F.C. Ltd",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "4243803"
+    },
     "alternateName": "Folkestone Invicta Football Club",
     "slogan": "The Seasiders",
     "logo": {
@@ -7475,6 +7661,11 @@
       "identifier": {
         "@type": "url",
         "@value": "https://www.nonleaguegrounds.com/regions/london/coles-park"
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "surface",
+        "@value": "3G"
       }
     },
     "areaServed": {
@@ -8312,6 +8503,7 @@
     ],
     "foundingDate": "1878",
     "sport": "Association Football",
+    "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
       "name": "Ashton United playing kit",
@@ -8374,6 +8566,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Atherton Collieries",
+    "legalName": "Atherton Collieries FC Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "742002"
+    },
     "alternateName": "Atherton Collieries Football Club",
     "slogan": "The Colls",
     "logo": {
@@ -8473,6 +8671,7 @@
     ],
     "foundingDate": "1952",
     "sport": "Association Football",
+    "keywords": "semi-professional",
 
     "url": "https://bamberbridge.org",
     "memberOf": {
@@ -8549,6 +8748,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Belper Town",
+    "legalName": "Belper Town Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "1969308"
+    },
     "alternateName": "Belper Town Football Club",
     "slogan": "The Nailers",
     "telephone": "+441773825549",
@@ -8596,7 +8801,7 @@
       "name": "Christchurch Meadow",
       "sponsor": {
         "@type": "Organization",
-        "name": "Raygar Stadium"
+        "name": "The Raygar Stadium"
       },
       "maximumAttendeeCapacity": 2650,
       "priceRange": "££",
@@ -8650,6 +8855,7 @@
     "@type": "SportsTeam",
     "name": "FC United of Manchester",
     "alternateName": "FC United of Manchester",
+    "description": "The club was founded in 2005 by a group of supporters of Manchester United who were unhappy with the direction of the club under its American owners, the Glazer family. Since then, FC United has become known for its strong fan ownership model and commitment to community engagement.",
     "slogan": "The Reds",
     "logo": {
       "@type": "ImageObject",
@@ -8824,6 +9030,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Guiseley AFC",
+    "legalName": "Guiseley Association Football Club Ltd",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "2629783"
+    },
     "alternateName": "Guiseley AFC",
     "slogan": "The Lions",
     "logo": {
@@ -8843,6 +9055,11 @@
     ],
     "foundingDate": "1909",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Guiseley AFC playing kit",
+      "color": ["#153979", "#ffffff"]
+    },
 
     "url": "https://guiseleyafc.co.uk",
     "memberOf": {
@@ -8870,7 +9087,7 @@
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "Nethermoor Park",
-      "maximumAttendeeCapacity": 4200,
+      "maximumAttendeeCapacity": 4021,
       "priceRange": "££",
       "latitude": 53.877202,
       "longitude": -1.719401,
@@ -9960,21 +10177,21 @@
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
-      "name": "Gorsey Lane",
+      "name": "Rylands Recreation Club",
       "maximumAttendeeCapacity": 1345,
       "priceRange": "££",
       "latitude": 53.4004,
       "longitude": -2.575604,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "84 Gorsey Lane",
+        "streetAddress": "Gorsey Lane",
         "addressLocality": "Warrington",
         "postalCode": "WA2 7SH",
         "addressCountry": "GB"
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://www.nonleaguegrounds.com/regions/north-west/gorsey-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/north-west/rylands-recreation-club"
       }
     },
     "areaServed": {
@@ -9991,6 +10208,11 @@
     "@type": "SportsTeam",
     "name": "Warrington Town",
     "legalName": "Warrington Town FC Ltd",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "6412371"
+    },
     "alternateName": "Warrington Town Football Club",
     "slogan": "The Yellows",
     "telephone": "+447854123199",
@@ -10044,10 +10266,6 @@
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "Cantilever Park",
-      "sponsor": {
-        "@type": "Organization",
-        "name": "Drivers Direct Stadium"
-      },
       "maximumAttendeeCapacity": 2550,
       "priceRange": "££",
       "latitude": 53.377071,

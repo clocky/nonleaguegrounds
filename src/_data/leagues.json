@@ -860,7 +860,11 @@
         "@type": "SportsTeam",
         "name": "Woking",
         "slogan": "The Cardinals",
-        "sameAs": ["https://twitter.com/wokingfc/"],
+        "sameAs": [
+          "https://twitter.com/wokingfc/",
+          "https://www.facebook.com/wokingfc",
+          "https://www.instagram.com/wokingfc/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1836.png",
@@ -1146,6 +1150,7 @@
           "color": ["#E31B1B"]
         },
 
+        "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/national-league-north/alfreton-town"
@@ -1179,6 +1184,11 @@
         },
         "foundingDate": "1931",
         "url": "https://www.banburyunitedfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Banbury United playing kit",
+          "color": ["#F6EC4E", "#E83830"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -1357,7 +1367,11 @@
         "@type": "SportsTeam",
         "name": "Buxton",
         "slogan": "The Bucks",
-        "sameAs": ["https://twitter.com/Buxton_FC/"],
+        "sameAs": [
+          "https://twitter.com/Buxton_FC/",
+          "https://www.facebook.com/462263437187284",
+          "https://www.instagram.com/buxton_fc/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7706.png",
@@ -1369,6 +1383,11 @@
         },
         "foundingDate": "1877",
         "url": "https://www.buxtonfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Buxton playing kit",
+          "color": ["#194063", "#ffffff"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -1428,7 +1447,12 @@
         "@type": "SportsTeam",
         "name": "Chorley",
         "slogan": "The Magpies",
-        "sameAs": ["https://twitter.com/chorleyfc/"],
+        "sameAs": [
+          "https://twitter.com/chorleyfc/",
+          "https://www.facebook.com/ChorleyFC",
+          "https://www.instagram.com/chorley_fc/",
+          "https://www.youtube.com/channel/UCQlY_0NJyTiNd3MuYdhz-cA"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4679.png",
@@ -1440,6 +1464,11 @@
         },
         "foundingDate": "1883",
         "url": "https://www.chorleyfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Chorley playing kit",
+          "color": ["#ffffff", "#000000", "#CB3741"]
+        },
 
         "keywords": "semi-professional",
         "identifier": {
@@ -1460,7 +1489,11 @@
         "@type": "SportsTeam",
         "name": "Curzon Ashton",
         "slogan": "The Nash",
-        "sameAs": ["https://twitter.com/CurzonAshton/"],
+        "sameAs": [
+          "https://twitter.com/CurzonAshton/",
+          "https://www.facebook.com/CurzonAshtonFootballClub",
+          "https://www.instagram.com/curzonashton/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4703.png",
@@ -1472,6 +1505,11 @@
         },
         "foundingDate": "1963",
         "url": "https://www.curzon-ashton.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Curzon Ashton playing kit",
+          "color": ["#152EA7", "#ffffff"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -1491,7 +1529,11 @@
         "@type": "SportsTeam",
         "name": "Darlington",
         "slogan": "The Quakers",
-        "sameAs": ["https://twitter.com/Official_Darlo/"],
+        "sameAs": [
+          "https://twitter.com/Official_Darlo/",
+          "https://www.facebook.com/darlingtonfc",
+          "https://www.youtube.com/channel/UCkvYibKVfoeG67iNuRwxCkg"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8148.png",
@@ -1503,6 +1545,11 @@
         },
         "foundingDate": "1883",
         "url": "https://darlingtonfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Darlington playing kit",
+          "color": ["#FAFAFA", "#353A3F", "#CD4B3B"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -1522,7 +1569,12 @@
         "@type": "SportsTeam",
         "name": "Farsley Celtic",
         "slogan": "The Celt Army",
-        "sameAs": ["https://twitter.com/FarsleyCelticFC/"],
+        "sameAs": [
+          "https://twitter.com/FarsleyCelticFC/",
+          "https://www.facebook.com/farsleycelticfc",
+          "https://www.instagram.com/farsleycelticfc/",
+          "https://www.tiktok.com/@farsleycelticfc/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8652.png",
@@ -1534,6 +1586,11 @@
         },
         "foundingDate": "1908",
         "url": "https://farsleyceltic.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Farsley Celtic playing kit",
+          "color": ["#ffffff", "#43964F"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -1553,7 +1610,12 @@
         "@type": "SportsTeam",
         "name": "Gloucester City AFC",
         "slogan": "The Tigers",
-        "sameAs": ["https://twitter.com/GCAFCOfficial/"],
+        "sameAs": [
+          "https://twitter.com/GCAFCOfficial/",
+          "https://www.facebook.com/gcafcofficial",
+          "https://www.instagram.com/gloucestercityafc/",
+          "https://www.youtube.com/GloucesterCityAFC1883"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8653.png",
@@ -1565,6 +1627,11 @@
         },
         "foundingDate": "1883",
         "url": "https://www.gloucestercityafc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Gloucester City AFC playing kit",
+          "color": ["#CC2D24", "#EBBC42"]
+        },
 
         "keywords": "semi-professional",
         "identifier": {
@@ -1684,7 +1751,12 @@
         "@type": "SportsTeam",
         "name": "Kings Lynn Town",
         "slogan": "The Linnets",
-        "sameAs": ["https://twitter.com/officialKLtown/"],
+        "sameAs": [
+          "https://twitter.com/officialKLtown/",
+          "https://www.facebook.com/www.kltown.co.uk",
+          "https://www.instagram.com/officialkltownfc/",
+          "https://www.youtube.com/channel/UC8fjhxpARGa_ywt3UKPgSUQ"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8655.png",
@@ -1787,7 +1859,12 @@
         "@type": "SportsTeam",
         "name": "Scarborough Athletic",
         "slogan": "The Seadogs",
-        "sameAs": ["https://twitter.com/safc/"],
+        "sameAs": [
+          "https://twitter.com/safc/",
+          "https://www.facebook.com/scarboroughathletic",
+          "https://www.instagram.com/scarboroughathletic/",
+          "https://www.youtube.com/channel/UCqpZ6rmMH_keHkS83sAx6ew"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7745.png",
@@ -1799,6 +1876,11 @@
         },
         "foundingDate": "2007",
         "url": "https://www.scarboroughathletic.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Scarborough Athletic playing kit",
+          "color": ["#C8353D", "#ffffff"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -3021,7 +3103,9 @@
         "slogan": "The Gulls",
         "sameAs": [
           "https://twitter.com/CIFC/",
-          "https://www.facebook.com/canveyislandfc"
+          "https://www.facebook.com/canveyislandfc",
+          "https://www.instagram.com/canveyislandfc/",
+          "https://www.youtube.com/channel/UCgT1wSEbC1ZVClt5jnFfmlg"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -3634,6 +3718,7 @@
           "color": ["#AE3034", "#ffffff"]
         },
 
+        "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/ashton-united"
@@ -3707,6 +3792,7 @@
         "foundingDate": "1952",
         "url": "https://bamberbridge.org",
 
+        "keywords": "semi-professional",
         "identifier": {
           "@type": "url",
           "@value": "https://www.nonleaguegrounds.com/northern-premier-league/bamber-bridge"
@@ -3842,6 +3928,11 @@
         },
         "foundingDate": "1909",
         "url": "https://guiseleyafc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Guiseley AFC playing kit",
+          "color": ["#153979", "#ffffff"]
+        },
 
         "identifier": {
           "@type": "url",
