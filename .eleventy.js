@@ -34,7 +34,8 @@ module.exports = function (eleventyConfig) {
      "https://www.facebook.com/*",        // Gives a 302 error with Location:
      "https://www.youtube.com/channel/*", 
      "https://twitter.com/*",
-     "https://altrinchamfc.com/*",      // Avoid cdn.shopify.com error
+     "https://www.instagram.com/*",       // Gives a 429 error
+     "https://altrinchamfc.com/*",        // Avoid cdn.shopify.com error
     ],
   });
 
