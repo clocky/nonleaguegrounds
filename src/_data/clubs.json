@@ -1337,7 +1337,7 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Oldham Athletic",
-    "legalName": "OLDHAM ATHLETIC (2004) ASSOCIATION FOOTBALL CLUB LIMITED",
+    "legalName": "Oldham Athletic (2004) Association Football Club Limited",
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
@@ -3660,9 +3660,19 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/HerefordFC/"],
+    "sameAs": [
+      "https://twitter.com/HerefordFC/",
+      "https://www.facebook.com/officialherefordfc",
+      "https://www.instagram.com/HEREFORD_FC/",
+      "https://www.youtube.com/HerefordFC_Official"
+    ],
     "foundingDate": "2014",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Hereford playing kit",
+      "color": ["#333333", "#ffffff", "#C62A1C"]
+    },
 
     "url": "https://www.herefordfc.co.uk",
     "memberOf": {
@@ -3816,10 +3826,20 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/khfcofficial/"],
+    "sameAs": [
+      "https://twitter.com/khfcofficial/",
+      "https://www.facebook.com/khfcofficial",
+      "https://www.instagram.com/khfcofficial/",
+      "https://www.youtube.com/khfcofficial"
+    ],
     "foundingDate": "1886",
     "sport": "Association Football",
     "keywords": "professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Kidderminster Harriers playing kit",
+      "color": ["#ffffff", "#BF372F"]
+    },
 
     "url": "https://harriers.co.uk",
     "memberOf": {
@@ -3916,6 +3936,11 @@
     ],
     "foundingDate": "2010",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Kings Lynn Town playing kit",
+      "color": ["#284171", "#CBAB56"]
+    },
 
     "url": "https://www.kltown.co.uk",
     "memberOf": {
@@ -4080,9 +4105,17 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/PSLFC/"],
+    "sameAs": [
+      "https://twitter.com/PSLFC/",
+      "https://www.facebook.com/peterboroughsports"
+    ],
     "foundingDate": "1908",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Peterborough Sports playing kit",
+      "color": ["#283A90", "#F3F554"]
+    },
 
     "url": "https://pslfc.com",
     "memberOf": {
@@ -9360,7 +9393,7 @@
       "longitude": -1.711748,
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Quakers Lane",
+        "streetAddress": "Quaker Lane",
         "addressLocality": "Liversedge",
         "postalCode": "WF15 8DF",
         "addressCountry": "GB"

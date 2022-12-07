@@ -787,6 +787,7 @@
       "@value": "https://www.yorkcityfootballclub.co.uk/club/visit-us"
     },
     "url": "https://www.yorkcityfootballclub.co.uk/club/visit-us",
+    "description": "This community stadium leisure complex heralded a new era for sports and community services in the city. It provided a new football and rugby stadium for professional and community sport as well as leisure facilities for York.",
     "identifier": {
       "@type": "url",
       "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/york-community-stadium"
@@ -1571,7 +1572,12 @@
         },
         "foundingDate": "1886",
         "url": "https://harriers.co.uk",
-        "sameAs": ["https://twitter.com/khfcofficial/"],
+        "sameAs": [
+          "https://twitter.com/khfcofficial/",
+          "https://www.facebook.com/khfcofficial",
+          "https://www.instagram.com/khfcofficial/",
+          "https://www.youtube.com/khfcofficial"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
@@ -1613,7 +1619,7 @@
       "@value": "https://torquayunited.com/fans/directions/"
     },
     "url": "https://torquayunited.com/fans/directions/",
-    "description": "Plainmoor Stadium is situated in St. Marychurch, an area of Torquay that is within walking distance of Torquay town centre.",
+    "description": "Plainmoor Stadium is situated in St Marychurch, an area of Torquay that is within walking distance of Torquay town centre.",
     "identifier": {
       "@type": "url",
       "@value": "https://www.nonleaguegrounds.com/regions/south-west/plainmoor"
@@ -2759,7 +2765,12 @@
         },
         "foundingDate": "2014",
         "url": "https://www.herefordfc.co.uk",
-        "sameAs": ["https://twitter.com/HerefordFC/"],
+        "sameAs": [
+          "https://twitter.com/HerefordFC/",
+          "https://www.facebook.com/officialherefordfc",
+          "https://www.instagram.com/HEREFORD_FC/",
+          "https://www.youtube.com/HerefordFC_Official"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
@@ -4116,6 +4127,12 @@
       "postalCode": "M26 3TQ",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": {
+      "@type": "URL",
+      "@value": "https://www.radcliffefc.com/a/match-day-information-47253.html?page=4"
+    },
+    "url": "https://www.radcliffefc.com/a/match-day-information-47253.html?page=4",
+    "description": "The stadium has been home to Radcliffe Football Club since 1970 and the ground has played host to many famous teams and footballers over the years.",
     "identifier": {
       "@type": "url",
       "@value": "https://www.nonleaguegrounds.com/regions/north-west/stainton-park"
@@ -5355,6 +5372,12 @@
       "postalCode": "CW5 5BS",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": {
+      "@type": "URL",
+      "@value": "https://www.nantwichtownfc.co.uk/first-time-at-the-weaver-stadium/"
+    },
+    "url": "https://www.nantwichtownfc.co.uk/first-time-at-the-weaver-stadium/",
+    "description": "Visitors can take in the sights of Nantwich Town Centre on the way to the ground, which is an historic market town with the impressive St Mary's Church and Tudor buildings. There are plenty of places to have lunch and drinks.",
     "identifier": {
       "@type": "url",
       "@value": "https://www.nonleaguegrounds.com/regions/north-west/weaver-stadium"
@@ -7761,7 +7784,10 @@
         },
         "foundingDate": "1908",
         "url": "https://pslfc.com",
-        "sameAs": ["https://twitter.com/PSLFC/"],
+        "sameAs": [
+          "https://twitter.com/PSLFC/",
+          "https://www.facebook.com/peterboroughsports"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
@@ -8009,7 +8035,7 @@
     "longitude": -1.711748,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Quakers Lane",
+      "streetAddress": "Quaker Lane",
       "addressLocality": "Liversedge",
       "postalCode": "WF15 8DF",
       "addressCountry": "GB"
@@ -8155,6 +8181,11 @@
       "postalCode": "SL2 5AY",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": {
+      "@type": "URL",
+      "@value": "https://www.sloughtownfc.net/how-to-find-us"
+    },
+    "url": "https://www.sloughtownfc.net/how-to-find-us",
     "identifier": {
       "@type": "url",
       "@value": "https://www.nonleaguegrounds.com/regions/south-east/arbour-park"

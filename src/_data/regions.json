@@ -5020,7 +5020,7 @@
         },
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Quakers Lane",
+          "streetAddress": "Quaker Lane",
           "addressLocality": "Liversedge",
           "postalCode": "WF15 8DF",
           "addressCountry": "GB"

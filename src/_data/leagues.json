@@ -1652,7 +1652,12 @@
         "@type": "SportsTeam",
         "name": "Hereford",
         "slogan": "The Bulls",
-        "sameAs": ["https://twitter.com/HerefordFC/"],
+        "sameAs": [
+          "https://twitter.com/HerefordFC/",
+          "https://www.facebook.com/officialherefordfc",
+          "https://www.instagram.com/HEREFORD_FC/",
+          "https://www.youtube.com/HerefordFC_Official"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4692.png",
@@ -1664,6 +1669,11 @@
         },
         "foundingDate": "2014",
         "url": "https://www.herefordfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Hereford playing kit",
+          "color": ["#333333", "#ffffff", "#C62A1C"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -1719,7 +1729,12 @@
         "@type": "SportsTeam",
         "name": "Kidderminster Harriers",
         "slogan": "The Kiddy",
-        "sameAs": ["https://twitter.com/khfcofficial/"],
+        "sameAs": [
+          "https://twitter.com/khfcofficial/",
+          "https://www.facebook.com/khfcofficial",
+          "https://www.instagram.com/khfcofficial/",
+          "https://www.youtube.com/khfcofficial"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4695.png",
@@ -1731,6 +1746,11 @@
         },
         "foundingDate": "1886",
         "url": "https://harriers.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Kidderminster Harriers playing kit",
+          "color": ["#ffffff", "#BF372F"]
+        },
 
         "keywords": "professional",
         "identifier": {
@@ -1768,6 +1788,11 @@
         },
         "foundingDate": "2010",
         "url": "https://www.kltown.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Kings Lynn Town playing kit",
+          "color": ["#284171", "#CBAB56"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -1828,7 +1853,10 @@
         "@type": "SportsTeam",
         "name": "Peterborough Sports",
         "slogan": "The Turbines",
-        "sameAs": ["https://twitter.com/PSLFC/"],
+        "sameAs": [
+          "https://twitter.com/PSLFC/",
+          "https://www.facebook.com/peterboroughsports"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7737.png",
@@ -1840,6 +1868,11 @@
         },
         "foundingDate": "1908",
         "url": "https://pslfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Peterborough Sports playing kit",
+          "color": ["#283A90", "#F3F554"]
+        },
 
         "identifier": {
           "@type": "url",
