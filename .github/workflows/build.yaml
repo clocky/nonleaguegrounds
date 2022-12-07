@@ -12,26 +12,21 @@ jobs:
     env:
       BING_MAPS_API_KEY: ${{ secrets.BING_MAPS_API_KEY }}
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-
     steps:
       - uses: actions/checkout@v3
-
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
       - name: Cache Eleventy-Img assets
         uses: actions/cache@v3
         with:
           path: |
             ~/.cache
             ~/dist/img/clubs
+            ~/dist/img/grounds
           key: |
             eleventy-fetch
             eleventy-img-clubs
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
+            eleventy-img-grounds
       - run: npm ci
       - run: npm run build --if-present
