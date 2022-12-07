@@ -22,16 +22,18 @@
   </head>
   <body class="has-navbar-fixed-top">
     {% include "nav.njk" %}
-    {% block breadcrumb %}{% endblock %}
-    {% block header %}{% endblock %}
-    {% block actions %}{% endblock %}
-    <section class="section">
-      {% block main %}{% endblock %}
-    </section>
-    <section class="section">
-      {% block attribution %}{% endblock %}
-    </section>
+    <main>
+      {% block breadcrumb %}{% endblock %}
+      {% block header %}{% endblock %}
+      {% block actions %}{% endblock %}
+      <section class="section">
+        {% block main %}{% endblock %}
+      </section>
+      <section class="section">
+        {% block attribution %}{% endblock %}
+      </section>
+    </main>
     {% include "footer.njk" %}
+    <script src="/js/app.min.js" defer></script>
   </body>
-  <script src="/js/app.min.js" defer></script>
 </html>
