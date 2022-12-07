@@ -15,37 +15,48 @@ date: git Last Modified
 {% endblock %}
 
 {% block main %}
-  <section class="section has-background-white">
+  <section class="section has-background">
     <div class="columns">
+
       <div class="column is-one-third">
-        <figure class="image is-4by3">
-        {% image "src/_assets/img/unsplash/" + meta.hero.leagues.src + ".jpg", [213,256,341,455,533,640], ["avif", "jpeg"], "Leagues", "33vw", "common" %}
-        </figure>
-      </div>
-      <div class="column is-half px-6">
-        <h3 class="is-size-3 has-text-weight-semibold">Leagues</h3>
-        <p class="is-size-5 mb-5 mt-3 has-text-grey">
+        <h3 class="is-size-4 has-text-weight-semibold">Leagues</h3>
+        <p class="is-size-6 mb-5 mt-3 has-text-grey">
           From the <strong>{{ leagues[0].name }}</strong> to the 
           <strong>{{ leagues[leagues.length -1].name }}</strong>, 
-          a directory of {{ leagues.length }} English football conference leagues.
+          a directory of {{ leagues.length }} English football conference 
+          leagues.
         </p>
         <p class="block">
-          <a href="/leagues" class="button is-warning">View all leagues →</a>
+          <a href="/leagues" class="button is-link">View all leagues →</a>
         </p>
       </div>
+
+      <div class="column is-one-third">
+        <h3 class="is-size-4 has-text-weight-semibold">Grounds</h3>
+        <p class="is-size-6 mb-5 mt-3 has-text-grey">
+          Leading with the {{ grounds[0].maximumAttendeeCapacity | commaNumber }}-capacity
+          home of <strong>{{ grounds[0].subOrganization[0].name }}</strong>, 
+          a list of {{ grounds.length }} English and Welsh non-league grounds.
+        </p>
+        <p class="block">
+          <a href="/grounds" class="button is-link">View all grounds →</a>
+        </p>
+      </div>
+
+      <div class="column is-one-third">
+        <h3 class="is-size-4 has-text-weight-semibold">Regions</h3>
+        <p class="is-size-6 mb-5 mt-3 has-text-grey">
+          From the <strong>North East</strong> to the <strong>South West</strong>, 
+          a directory of clubs in the {{ regions.length }} regions of 
+          England and Wales.
+        </p>
+        <p class="block">
+          <a href="/regions" class="button is-link">View all regions →</a>
+        </p>
+      </div>
+
     </div>
   </section>
-  <main class="container">
-          <h3>Grounds</h3>
-          <p> Leading with the {{ grounds[0].maximumAttendeeCapacity | commaNumber }}-capacity home of <strong>{{ grounds[0].subOrganization[0].name }}</strong>, 
-              a list of {{ grounds.length }} English and Welsh non-league grounds.</p>
-        <a href="/grounds" role="button">View all grounds →</a>
-          <h3>Regions</h3>
-          <p>
-             From the <strong>North East</strong> to the <strong>South West</strong>, 
-              a directory of clubs in the {{ regions.length }} regions of England and Wales
-            </p>
-        <a href="/regions" role="button">View all regions →</a>
-  </main>
+
   {{ unsplash(meta.hero["clubs"]) }}
 {% endblock %}
