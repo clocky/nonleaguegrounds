@@ -178,4 +178,13 @@ apple %}
       </section>
     </div>
   </div>
+  <section class="section">
+      <figure class="image is-2by1">
+        {# 640, 768, 1024, 1366, 1600, 1920 #}
+        {% set url %}{% staticmap ground.latitude +"," + ground.longitude, 1024, 512, 16, 2 %}{% endset %}
+        <!-- source: {{ url | safe }} -->
+        {% image url, [640, 768, 1024, 1366, 1600], ["webp", "png"], ground.name, "100vw", "maps" %}
+      </figure>
+  </section>
+
 {% endblock %}

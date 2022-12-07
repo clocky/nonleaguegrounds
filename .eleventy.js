@@ -10,6 +10,8 @@ const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 const Image = require("@11ty/eleventy-img");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const slugify = require("slugify");
+require('dotenv').config();
+const GOOGLE_MAPS_KEY = process.env.GOOGLE_MAPS_API_KEY;
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === "production") {
@@ -72,6 +74,10 @@ module.exports = function (eleventyConfig) {
     let distance = new distFrom([a, b]).to([x, y]).in("mi");
     return distance.toFixed(1);
   });
+
+  eleventyConfig.addShortcode("staticmap", function (address, width = 500, height = 500, zoom = 13, scale = 1, maptype="roadmap") {
+		return `https://maps.googleapis.com/maps/api/staticmap?center=${encodeURIComponent(address)}&zoom=${zoom}&scale=${scale}&size=${width}x${height}&maptype=${maptype}&key=${GOOGLE_MAPS_KEY}`;
+	});
 
   /** Add a filter to format inline dates for <time> tags */
   let yearsAgo = (year) => dayjs().diff(dayjs(year, "YYYY"), "year");
