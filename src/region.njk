@@ -42,51 +42,55 @@ eleventyComputed:
 {% endblock %}
 
 {% block main %}
-  <main class="container">
-    <div class="grid">
-      <table class="{{ meta.class.table }}">
-        <thead>
-          <tr>
-            <th scope="col">Ground</th>
-            <th scope="col">Club</th>
-          </tr>
-        </thead>
-        <tbody>
-          {%- for ground in region.geoContains %}
+  <section class="section">
+    <div class="columns">
+      <div class="column">
+        <table class="{{ meta.class.table }}">
+          <thead>
             <tr>
-              <th scope="row">
-                <a href="/regions/{{ region.name | slugify }}/{{ ground.name | slugify }}">
-                  {{- ground.name -}}
-                </a>
-              </th>
-              <td>
-                <a href="/leagues/{{ ground.subOrganization.memberOf.name | slugify }}/{{ ground.subOrganization.name | slugify }}" class="secondary">
-                  {{- ground.subOrganization.name -}}
-                </a>
-              </td>
+              <th scope="col">Ground</th>
+              <th scope="col">Club</th>
             </tr>
-          {%- endfor %}
-        </tbody>
-      </table>
-      <figure class="container-fluid">
-        {%- set markers -%}
-        {%- for ground in region.geoContains -%}
+          </thead>
+          <tbody>
+            {%- for ground in region.geoContains %}
+              <tr>
+                <th scope="row">
+                  <a href="/regions/{{ region.name | slugify }}/{{ ground.name | slugify }}">
+                    {{- ground.name -}}
+                  </a>
+                </th>
+                <td>
+                  <a href="/leagues/{{ ground.subOrganization.memberOf.name | slugify }}/{{ ground.subOrganization.name | slugify }}" class="secondary">
+                    {{- ground.subOrganization.name -}}
+                  </a>
+                </td>
+              </tr>
+            {%- endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="column">
+        <figure class="image is-1x1">
+          {%- set markers -%}
+          {%- for ground in region.geoContains -%}
           &markers=size:mid|label:{{ ground.name.slice(0,1) | upper }}|{{ ground.latitude }},{{ ground.longitude }}
-        {%- endfor -%}
-        {%- endset -%}
-        {%- set key = env.google_maps_api_key -%}
-        {% set caption = "Map of clubs in " + region.alternateName %}
-        <img 
+          {%- endfor -%}
+          {%- endset -%}
+          {%- set key = env.google_maps_api_key -%}
+          {% set caption = "Map of clubs in " + region.alternateName %}
+          <img 
         src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" 
         alt="{{ caption }}"
       >
-        <figcaption>
-          <small>
-            {{ caption }}
-          </small>
-        </figcaption>
-      </figure>
+          <figcaption>
+            <small>
+              {{ caption }}
+            </small>
+          </figcaption>
+        </figure>
+      </div>
     </div>
-  </main>
+  </section>
   {{ unsplash(meta.hero["regions"])}}
 {% endblock %}
