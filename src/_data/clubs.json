@@ -4360,6 +4360,11 @@
     "sameAs": ["https://twitter.com/SpennymoorTown/"],
     "foundingDate": "2005",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Spennymoor Town playing kit",
+      "color": ["#ffffff", "#000000", "#B02418"]
+    },
 
     "url": "https://spennymoortownfc.co.uk",
     "memberOf": {
@@ -5389,6 +5394,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Farnborough",
+    "legalName": "Boro FC Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "8644606"
+    },
     "alternateName": "Farnborough Football Club",
     "slogan": "Boro",
     "logo": {
@@ -5406,6 +5417,11 @@
     ],
     "foundingDate": "1967",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Farnborough playing kit",
+      "color": ["#E5D247", "#265BA7"]
+    },
 
     "url": "https://farnboroughfc.co.uk",
     "memberOf": {

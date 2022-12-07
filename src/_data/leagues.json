@@ -1986,6 +1986,11 @@
         },
         "foundingDate": "2005",
         "url": "https://spennymoortownfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Spennymoor Town playing kit",
+          "color": ["#ffffff", "#000000", "#B02418"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -2449,6 +2454,11 @@
         },
         "foundingDate": "1967",
         "url": "https://farnboroughfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Farnborough playing kit",
+          "color": ["#E5D247", "#265BA7"]
+        },
 
         "identifier": {
           "@type": "url",
