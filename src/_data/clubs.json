@@ -3,8 +3,17 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Aldershot Town",
+    "legalName": "Aldershot Town Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-8362929"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Aldershot Town Football Club",
-    "description": "They were formed in 1992, following the demise of the original Aldershot Football Club, which had spent a short period in the Football League in the 1980s.",
     "slogan": "The Shots",
     "telephone": "+441252320211",
     "logo": {
@@ -111,6 +120,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Altrincham",
+    "legalName": "Altrincham Football Club Community Sports Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-7990575"
+    },
+    "isicV4": "93110",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Altrincham Football Club",
     "slogan": "The Robins",
     "logo": {
@@ -219,6 +238,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Barnet",
+    "legalName": "Barnet Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-1239681"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Barnet Football Club",
     "slogan": "The Bees",
     "logo": {
@@ -305,6 +334,15 @@
     "@type": "SportsTeam",
     "name": "Boreham Wood",
     "legalName": "Boreham Wood Football Club Ltd",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2533129"
+    },
+    "isicV4": ["93120", "85510"],
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Boreham Wood Football Club",
     "slogan": "The Wood",
     "logo": {
@@ -410,6 +448,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Bromley",
+    "legalName": "Bromley F.C. (95) Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-3060560"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Bromley Football Club",
     "slogan": "The Ravens",
     "logo": {
@@ -497,6 +545,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Chesterfield",
+    "legalName": "Chesterfield F.C. Community Trust",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-6903318"
+    },
+    "isicV4": "93199",
+
+    "disambiguatingDescription": "Private Limited Company by guarantee without share capital use of &#39;Limited&#39; exemption",
+
     "alternateName": "Chesterfield Football Club",
     "slogan": "The Spireites",
     "telephone": "+441246269300",
@@ -580,6 +638,14 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Dagenham & Redbridge",
+    "legalName": "Dagenham and Redbridge Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-6134948"
+    },
+    "isicV4": "93199",
+
     "alternateName": "Dagenham & Redbridge Football Club",
     "slogan": "The Daggers",
     "telephone": "+442085921549",
@@ -666,6 +732,14 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Dorking Wanderers",
+    "legalName": "Dorking Wanderers FC Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-8964370"
+    },
+    "isicV4": "93120",
+
     "alternateName": "Dorking Wanderers Football Club",
     "slogan": "The Wanderers",
     "logo": {
@@ -775,6 +849,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Eastleigh",
+    "legalName": "Eastleigh Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-5488155"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Eastleigh Football Club",
     "slogan": "The Spitfires",
     "logo": {
@@ -883,6 +967,15 @@
     "@type": "SportsTeam",
     "name": "FC Halifax Town",
     "legalName": "FC Halifax Town Ltd",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-6557378"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "FC Halifax Town",
     "slogan": "The Shaymen",
     "telephone": "+441422341222",
@@ -969,6 +1062,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Gateshead",
+    "legalName": "Gateshead Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-1329847"
+    },
+    "isicV4": "93199",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Gateshead Football Club",
     "slogan": "The Tynesiders",
     "logo": {
@@ -1054,8 +1157,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "5691046"
+      "value": "GB-COH-5691046"
     },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Maidenhead United Football Club",
     "slogan": "The Magpies",
     "logo": {
@@ -1142,6 +1249,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Maidstone United",
+    "legalName": "Maidstone United Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-3720814"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Maidstone United Football Club",
     "slogan": "The Stones",
     "logo": {
@@ -1248,8 +1365,17 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Notts County",
+    "legalName": "Notts County Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-4789632"
+    },
+    "isicV4": ["93110", "93120"],
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Notts County Football Club",
-    "description": "Notts County has a long and storied history, having played in the English Football League for over 100 years and winning the League Two title in the 2010-11 season.",
     "slogan": "The Magpies",
     "logo": {
       "@type": "ImageObject",
@@ -1341,9 +1467,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "4989487"
+      "value": "GB-COH-4989487"
     },
-    "vatID": "831 8971 04",
+    "vatID": "GB 831 8971 04",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Oldham Athletic Football Club",
     "slogan": "The Latics",
     "telephone": "+441616244972",
@@ -1452,8 +1581,11 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "9196428"
+      "value": "GB-COH-9196428"
     },
+
+    "disambiguatingDescription": "Community Interest Company (CIC)",
+
     "alternateName": "Solihull Moors Football Club",
     "slogan": "The Moors",
     "logo": {
@@ -1540,6 +1672,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Southend United",
+    "legalName": "Southend United Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-89767"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Southend United Football Club",
     "slogan": "The Shrimpers",
     "telephone": "+441702304050",
@@ -1623,13 +1765,17 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Scunthorpe United",
-    "legalName": "Scunthorpe United Football Club",
+    "legalName": "Scunthorpe United Football Club Limited",
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "123622"
+      "value": "GB-COH-123622"
     },
-    "vatID": "128 5234 74",
+    "vatID": "GB 128 5234 74",
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Scunthorpe United Football Club",
     "slogan": "The Iron",
     "logo": {
@@ -1731,6 +1877,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Torquay United AFC",
+    "legalName": "Torquay United Association Football Club Limited (The)",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-175954"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Torquay United AFC",
     "slogan": "The Gulls",
     "logo": {
@@ -1811,6 +1967,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Wealdstone",
+    "legalName": "Wealdstone Football Club (2000) Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-3953962"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Wealdstone Football Club",
     "slogan": "The Stones",
     "logo": {
@@ -1921,10 +2087,13 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "3329172"
+      "value": "GB-COH-3329172"
     },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Woking Football Club",
-    "description": "Woking has a dedicated fan base and has enjoyed some recent successes, such as winning the National League South title in the 2016-17 season.",
     "slogan": "The Cardinals",
     "logo": {
       "@type": "ImageObject",
@@ -2035,8 +2204,17 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Yeovil Town",
+    "legalName": "Yeovil Town Football Club Ltd",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-13137403"
+    },
+    "isicV4": "93199",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Yeovil Town Football Club",
-    "description": "The club has a long history and has played in the Football League in the past, reaching the Championship, the second tier of English football, in the 2013-14 season.",
     "slogan": "The Glovers",
     "logo": {
       "@type": "ImageObject",
@@ -2117,8 +2295,11 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "4689338"
+      "value": "GB-COH-4689338"
     },
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "York City Football Club",
     "slogan": "The Minstermen",
     "logo": {
@@ -2230,9 +2411,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "5916248"
+      "value": "GB-COH-5916248"
     },
     "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "AFC Fylde",
     "slogan": "The Coasters",
     "telephone": "+441772682593",
@@ -2340,9 +2524,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "5138735"
+      "value": "GB-COH-5138735"
     },
     "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "AFC Telford United",
     "slogan": "The Bucks",
     "logo": {
@@ -2444,8 +2631,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Alfreton Town",
+    "legalName": "Alfreton Town Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2011224"
+    },
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Alfreton Town Football Club",
-    "description": "The club has never played in the Football League, but have reached the second round of the FA Cup on three occasions.",
     "slogan": "The Reds",
     "logo": {
       "@type": "ImageObject",
@@ -2529,6 +2724,15 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Banbury United",
+    "legalName": "Banbury United Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-RS007135"
+    },
+
+    "disambiguatingDescription": "Community Benefit Society",
+
     "alternateName": "Banbury United Football Club",
     "slogan": "The Puritans",
     "logo": {
@@ -2632,6 +2836,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Blyth Spartans AFC",
+    "legalName": "Blyth Spartans Association Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-409564"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Blyth Spartans AFC",
     "slogan": "The Spartans",
     "logo": {
@@ -2741,8 +2955,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "303529"
+      "value": "GB-COH-303529"
     },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Boston United Football Club",
     "slogan": "The Pilgrims",
     "logo": {
@@ -2823,6 +3041,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Brackley Town",
+    "legalName": "Pleasure Media Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-3693143"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Brackley Town Football Club",
     "slogan": "The Saints",
     "logo": {
@@ -2903,6 +3131,15 @@
     "@type": "SportsTeam",
     "name": "Bradford (Park Avenue) AFC",
     "legalName": "Bradford (Park Avenue) AFC C.I.C",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-11041112"
+    },
+    "isicV4": ["85510", "93120"],
+
+    "disambiguatingDescription": "Community Interest Company (CIC)",
+
     "alternateName": "Bradford (Park Avenue) AFC",
     "slogan": "The Green Army",
     "logo": {
@@ -2989,6 +3226,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Buxton",
+    "legalName": "Buxton Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2823127"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Buxton Football Club",
     "slogan": "The Bucks",
     "logo": {
@@ -3072,6 +3319,15 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Chester",
+    "legalName": "Chester City Supporters' Society Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-IP29159R"
+    },
+
+    "disambiguatingDescription": "Registered society",
+
     "alternateName": "Chester Football Club",
     "slogan": "The Seals",
     "logo": {
@@ -3161,6 +3417,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Chorley",
+    "legalName": "Chorley Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2959001"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Chorley Football Club",
     "slogan": "The Magpies",
     "logo": {
@@ -3256,8 +3522,11 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "IP29461R"
+      "value": "GB-COH-IP29461R"
     },
+
+    "disambiguatingDescription": "Registered society",
+
     "alternateName": "Curzon Ashton Football Club",
     "slogan": "The Nash",
     "logo": {
@@ -3362,8 +3631,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "7914690"
+      "value": "GB-COH-7914690"
     },
+    "isicV4": ["93110", "93120"],
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Darlington Football Club",
     "slogan": "The Quakers",
     "logo": {
@@ -3448,8 +3721,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "6997399"
+      "value": "GB-COH-6997399"
     },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Farsley Celtic Football Club",
     "slogan": "The Celt Army",
     "logo": {
@@ -3560,9 +3837,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "1479143"
+      "value": "GB-COH-1479143"
     },
-    "isicV4": "93199 - Other sports activities",
+    "isicV4": "93199",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Gloucester City AFC",
     "slogan": "The Tigers",
     "logo": {
@@ -3649,6 +3929,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Hereford",
+    "legalName": "Hereford FC Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-8970067"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Hereford Football Club",
     "slogan": "The Bulls",
     "logo": {
@@ -3734,6 +4024,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Kettering Town",
+    "legalName": "Kettering Town F.C. Management Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2267071"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Kettering Town Football Club",
     "slogan": "The Poppies",
     "logo": {
@@ -3815,6 +4115,14 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Kidderminster Harriers",
+    "legalName": "Kidderminster Harriers Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-484523"
+    },
+    "isicV4": ["93110", "93120"],
+
     "alternateName": "Kidderminster Harriers Football Club",
     "slogan": "The Kiddy",
     "logo": {
@@ -3917,6 +4225,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Kings Lynn Town",
+    "legalName": "Blue and Gold Holdings Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-10163614"
+    },
+    "isicV4": "64209",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Kings Lynn Town Football Club",
     "slogan": "The Linnets",
     "logo": {
@@ -4007,8 +4325,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "1756713"
+      "value": "GB-COH-1756713"
     },
+    "isicV4": ["93110", "93120", "93199"],
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Leamington Football Club",
     "slogan": "The Brakes",
     "logo": {
@@ -4094,6 +4416,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Peterborough Sports",
+    "legalName": "Peterborough Sports Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-8544721"
+    },
+    "isicV4": "93130",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Peterborough Sports Football Club",
     "slogan": "The Turbines",
     "logo": {
@@ -4177,8 +4509,11 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "IP30123R"
+      "value": "GB-COH-IP30123R"
     },
+
+    "disambiguatingDescription": "Registered society",
+
     "alternateName": "Scarborough Athletic Football Club",
     "slogan": "The Seadogs",
     "logo": {
@@ -4264,6 +4599,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Southport",
+    "legalName": "Southport Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-1486711"
+    },
+    "isicV4": ["93110", "93120"],
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Southport Football Club",
     "slogan": "The Sandgrounders",
     "telephone": "+441704533422",
@@ -4346,6 +4691,17 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Spennymoor Town",
+    "legalName": "Spennymoor Town FC Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-5002706"
+    },
+    "vatID": "GB 118 5469 96",
+    "isicV4": "93199",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Spennymoor Town Football Club",
     "slogan": "The Moors",
     "logo": {
@@ -4422,6 +4778,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Bath City",
+    "legalName": "Bath City Football Club, Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-176565"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Bath City Football Club",
     "slogan": "The Romans",
     "logo": {
@@ -4503,8 +4869,11 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "2050949"
+      "value": "GB-COH-2050949"
     },
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Braintree Town Football Club",
     "slogan": "The Iron",
     "telephone": "+441376345617",
@@ -4592,6 +4961,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Chelmsford City",
+    "legalName": "Chelmsford City Football Club Ltd",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-10818922"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Chelmsford City Football Club",
     "slogan": "The Clarets",
     "logo": {
@@ -4687,6 +5066,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Cheshunt",
+    "legalName": "Cheshunt Sports & Leisure Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-7532736"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Cheshunt Football Club",
     "slogan": "The Ambers",
     "logo": {
@@ -4767,6 +5156,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Chippenham Town",
+    "legalName": "Chippenham Town Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-4599480"
+    },
+    "isicV4": "82990",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Chippenham Town Football Club",
     "slogan": "The Bluebirds",
     "logo": {
@@ -4939,6 +5338,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Dartford",
+    "legalName": "Dartford F.C. (1992) Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2768338"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Dartford Football Club",
     "slogan": "The Darts",
     "telephone": "+441322299991",
@@ -5018,6 +5427,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Dover Athletic",
+    "legalName": "Dover Athletic Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-1747066"
+    },
+    "isicV4": "93199",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Dover Athletic Football Club",
     "slogan": "The Whites",
     "logo": {
@@ -5115,6 +5534,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Dulwich Hamlet",
+    "legalName": "Dulwich Hamlet Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2840930"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Dulwich Hamlet Football Club",
     "slogan": "The Hamlet",
     "logo": {
@@ -5210,6 +5639,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Eastbourne Borough",
+    "legalName": "Eastbourne Borough Football Club CIC",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-6658232"
+    },
+    "isicV4": "93199",
+
+    "disambiguatingDescription": "Community Interest Company (CIC)",
+
     "alternateName": "Eastbourne Borough Football Club",
     "slogan": "The Sports",
     "telephone": "+441323766265",
@@ -5295,6 +5734,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Ebbsfleet United",
+    "legalName": "Ebbsfleet United Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-412018"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Ebbsfleet United Football Club",
     "slogan": "The Fleet",
     "logo": {
@@ -5398,8 +5847,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "8644606"
+      "value": "GB-COH-8644606"
     },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Farnborough Football Club",
     "slogan": "Boro",
     "logo": {
@@ -5483,6 +5936,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Hampton & Richmond Borough",
+    "legalName": "Hampton and Richmond Borough Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-3399857"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Hampton & Richmond Borough Football Club",
     "slogan": "The Beavers",
     "logo": {
@@ -5566,6 +6029,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Havant & Waterlooville",
+    "legalName": "Havant and Waterlooville Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-1967707"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Havant & Waterlooville Football Club",
     "slogan": "The Hawks",
     "logo": {
@@ -5645,6 +6118,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Hemel Hempstead Town",
+    "legalName": "Hemel Hempstead Town Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-3271293"
+    },
+    "isicV4": "999999",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Hemel Hempstead Town Football Club",
     "slogan": "The Tudors",
     "logo": {
@@ -5787,7 +6270,7 @@
     "location": {
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
-      "name": "Bulpit Lane",
+      "name": "Town Ground",
       "maximumAttendeeCapacity": 3034,
       "priceRange": "££",
       "latitude": 51.408934,
@@ -5802,7 +6285,7 @@
       },
       "identifier": {
         "@type": "url",
-        "@value": "https://www.nonleaguegrounds.com/regions/south-east/bulpit-lane"
+        "@value": "https://www.nonleaguegrounds.com/regions/south-east/town-ground"
       }
     },
     "areaServed": {
@@ -5818,6 +6301,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Oxford City",
+    "legalName": "Oxford City Football Club 1882 Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-10757444"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Oxford City Football Club",
     "slogan": "The Hoops",
     "logo": {
@@ -5911,8 +6404,20 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Slough Town",
+    "legalName": "Orchard Community Sports Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-12131178"
+    },
+    "vatID": "GB 334 0810 35",
+    "isicV4": "93110",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Slough Town Football Club",
     "slogan": "The Rebels",
+    "telephone": "+447792126124",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/4685.png",
@@ -5922,7 +6427,12 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/sloughtownfc/"],
+    "sameAs": [
+      "https://twitter.com/sloughtownfc/",
+      "https://www.facebook.com/sloughtownfc",
+      "https://www.instagram.com/sloughtownfc/",
+      "https://www.youtube.com/sloughtownfc"
+    ],
     "foundingDate": "1890",
     "sport": "Association Football",
 
@@ -6003,6 +6513,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "St Albans City",
+    "legalName": "St.Albans City Football and Athletic Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-1922742"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "St Albans City Football Club",
     "slogan": "The Saints",
     "logo": {
@@ -6077,6 +6597,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Taunton Town",
+    "legalName": "Taunton Town Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-1582031"
+    },
+    "isicV4": "93120",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Taunton Town Football Club",
     "slogan": "The Peacocks",
     "logo": {
@@ -6152,6 +6682,15 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Tonbridge Angels",
+    "legalName": "Tonbridge Angels Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-IP032445"
+    },
+
+    "disambiguatingDescription": "Registered society",
+
     "alternateName": "Tonbridge Angels Football Club",
     "slogan": "The Angels",
     "logo": {
@@ -6227,6 +6766,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Welling United",
+    "legalName": "Welling United Football Club C.I.C.",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-8055420"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Community Interest Company (CIC)",
+
     "alternateName": "Welling United Football Club",
     "slogan": "The Wings",
     "logo": {
@@ -6301,6 +6850,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Weymouth",
+    "legalName": "Weymouth Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-199734"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Weymouth Football Club",
     "slogan": "The Terras",
     "logo": {
@@ -6400,6 +6959,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Worthing",
+    "legalName": "Worthing Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2729719"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Worthing Football Club",
     "slogan": "The Rebels",
     "logo": {
@@ -6480,8 +7049,17 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Wrexham AFC",
+    "legalName": "Wrexham AFC Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-7698872"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Wrexham AFC",
-    "description": "The club has a dedicated fan base and has enjoyed some recent successes, such as winning the FA Trophy in 2013. Wrexham AFC also has a strong academy and has produced several talented players who have gone on to play for other professional clubs.",
     "slogan": "The Red Dragons",
     "logo": {
       "@type": "ImageObject",
@@ -6570,6 +7148,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Aveley",
+    "legalName": "Aveley Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-8943550"
+    },
+    "isicV4": "93110",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Aveley Football Club",
     "slogan": "The Millers",
     "logo": {
@@ -6655,6 +7243,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Billericay Town",
+    "legalName": "Billericay Town Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-4172587"
+    },
+    "isicV4": ["93110", "93120"],
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Billericay Town Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -6741,6 +7339,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Bishop's Stortford",
+    "legalName": "Bishop's Stortford Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2489097"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Bishop's Stortford Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -6826,8 +7434,12 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Bognor Regis Town",
+
+    "nonProfitStatus": "UnincorporatedAssociationCharity",
+
     "alternateName": "Bognor Regis Town Football Club",
     "slogan": "The Rocks",
+    "telephone": "+441243822325",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/7703.png",
@@ -6921,6 +7533,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Bowers & Pitsea",
+    "legalName": "Bowers and Pitsea FC Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-11538016"
+    },
+    "isicV4": "93199",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Bowers & Pitsea Football Club",
     "slogan": "The Bowers",
     "logo": {
@@ -7112,6 +7734,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Canvey Island",
+    "legalName": "Canvey Island Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-4522700"
+    },
+    "isicV4": "93199",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Canvey Island Football Club",
     "slogan": "The Gulls",
     "logo": {
@@ -7211,6 +7843,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Carshalton Athletic",
+    "legalName": "Carshalton Athletic F.C. Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-5316320"
+    },
+    "isicV4": "93199",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Carshalton Athletic Football Club",
     "slogan": "The Robins",
     "telephone": "+442086422551",
@@ -7308,6 +7950,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Corinthian-Casuals",
+    "legalName": "Corinthian-Casuals Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-11976450"
+    },
+    "isicV4": "93120",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Corinthian-Casuals Football Club",
     "slogan": "The Casuals",
     "logo": {
@@ -7392,6 +8044,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Cray Wanderers",
+    "legalName": "Cray Wanderers Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-5228510"
+    },
+    "isicV4": "82990",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Cray Wanderers Football Club",
     "slogan": "The Wands",
     "logo": {
@@ -7472,6 +8134,15 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Enfield Town",
+    "legalName": "Enfield Town FC Supporters Society Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-IP29239R"
+    },
+
+    "disambiguatingDescription": "Registered society",
+
     "alternateName": "Enfield Town Football Club",
     "slogan": "The Towners",
     "telephone": "+447787875650",
@@ -7548,8 +8219,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "4243803"
+      "value": "GB-COH-4243803"
     },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Folkestone Invicta Football Club",
     "slogan": "The Seasiders",
     "logo": {
@@ -7730,6 +8405,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Hastings United",
+    "legalName": "Hastings United Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-3441850"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Hastings United Football Club",
     "slogan": "The U's",
     "logo": {
@@ -7826,6 +8511,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Herne Bay",
+    "legalName": "Herne Bay Football Club Community Interest Company",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-7963961"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Community Interest Company (CIC)",
+
     "alternateName": "Herne Bay Football Club",
     "slogan": "The Bay",
     "logo": {
@@ -7911,6 +8606,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Hornchurch",
+    "legalName": "Hornchurch Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-8568897"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Hornchurch Football Club",
     "slogan": "The Mighty Urchins",
     "telephone": "+441708220080",
@@ -8010,6 +8715,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Horsham",
+    "legalName": "Horsham Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-1494925"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Horsham Football Club",
     "slogan": "The Hornets",
     "logo": {
@@ -8095,6 +8810,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Kingstonian",
+    "legalName": "Kingstonian FC Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-4480694"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Kingstonian Football Club",
     "slogan": "The Ks",
     "logo": {
@@ -8174,6 +8899,15 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Lewes",
+    "legalName": "Lewes Community Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-IP030988"
+    },
+
+    "disambiguatingDescription": "Registered society",
+
     "alternateName": "Lewes Football Club",
     "slogan": "The Rooks",
     "logo": {
@@ -8270,6 +9004,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Margate",
+    "legalName": "Margate Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-1359836"
+    },
+    "isicV4": "93199",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Margate Football Club",
     "slogan": "The Gate",
     "logo": {
@@ -8341,6 +9085,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Potters Bar Town",
+    "legalName": "Potters Bar Town Football Club Ltd",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-13131851"
+    },
+    "isicV4": "93110",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Potters Bar Town Football Club",
     "slogan": "The Scholars",
     "logo": {
@@ -8438,6 +9192,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Wingate & Finchley",
+    "legalName": "Wingate & Finchley Football Development Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-6014465"
+    },
+    "isicV4": "93199",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Wingate & Finchley Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -8533,6 +9297,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Ashton United",
+    "legalName": "Ashton United Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2471345"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Ashton United Football Club",
     "slogan": "The Robins",
     "logo": {
@@ -8619,8 +9393,11 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "742002"
+      "value": "GB-COH-7420002"
     },
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Atherton Collieries Football Club",
     "slogan": "The Colls",
     "logo": {
@@ -8703,6 +9480,15 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Bamber Bridge",
+    "legalName": "Bamber Bridge Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-IP032000"
+    },
+
+    "disambiguatingDescription": "Registered society",
+
     "alternateName": "Bamber Bridge Football Club",
     "slogan": "The Brig",
     "logo": {
@@ -8801,8 +9587,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "1969308"
+      "value": "GB-COH-1969308"
     },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Belper Town Football Club",
     "slogan": "The Nailers",
     "telephone": "+441773825549",
@@ -8903,8 +9693,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "FC United of Manchester",
+    "legalName": "FC United Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-IP29969R"
+    },
+
+    "disambiguatingDescription": "Registered society",
+
     "alternateName": "FC United of Manchester",
-    "description": "The club was founded in 2005 by a group of supporters of Manchester United who were unhappy with the direction of the club under its American owners, the Glazer family. Since then, FC United has become known for its strong fan ownership model and commitment to community engagement.",
     "slogan": "The Reds",
     "logo": {
       "@type": "ImageObject",
@@ -8922,6 +9720,11 @@
     ],
     "foundingDate": "2005",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "FC United of Manchester playing kit",
+      "color": ["#D03430", "#FFFFFF", "#121212"]
+    },
 
     "url": "https://fc-utd.co.uk",
     "memberOf": {
@@ -9000,6 +9803,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Gainsborough Trinity",
+    "legalName": "Gainsborough Trinity Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-1004070"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Gainsborough Trinity Football Club",
     "slogan": "The Trinity",
     "logo": {
@@ -9083,8 +9896,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "2629783"
+      "value": "GB-COH-2629783"
     },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Guiseley AFC",
     "slogan": "The Lions",
     "logo": {
@@ -9187,6 +10004,15 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Hyde United",
+    "legalName": "Hyde United Community Association Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-RS007183"
+    },
+
+    "disambiguatingDescription": "Registered society",
+
     "alternateName": "Hyde United Football Club",
     "slogan": "The Tigers",
     "logo": {
@@ -9274,6 +10100,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Lancaster City",
+    "legalName": "Lancaster City F.C. Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-6010739"
+    },
+    "isicV4": "93120",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Lancaster City Football Club",
     "slogan": "The Dolly Blues",
     "logo": {
@@ -9352,6 +10188,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Liversedge",
+    "legalName": "Liversedge Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-3865776"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Liversedge Football Club",
     "slogan": "The Sedge",
     "telephone": "+441274875958",
@@ -9432,6 +10278,10 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Marine AFC",
+    "legalName": "Marine Association Football Club",
+
+    "nonProfitStatus": "UnincorporatedAssociationCharity",
+
     "alternateName": "Marine AFC",
     "slogan": "The Mariners",
     "logo": {
@@ -9514,6 +10364,9 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Marske United",
+
+    "nonProfitStatus": "UnincorporatedAssociationCharity",
+
     "alternateName": "Marske United Football Club",
     "slogan": "The Seasiders",
     "logo": {
@@ -9584,6 +10437,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Matlock Town",
+    "legalName": "Matlock Town F.C. Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-11843644"
+    },
+    "isicV4": ["85510", "93110", "93119"],
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Matlock Town Football Club",
     "slogan": "The Gladiators",
     "telephone": "+441629583866",
@@ -9667,6 +10530,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Morpeth Town AFC",
+    "legalName": "Morpeth Town Association Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-2860410"
+    },
+    "isicV4": "93120",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Morpeth Town AFC",
     "slogan": "The Highwaymen",
     "logo": {
@@ -9759,6 +10632,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Nantwich Town",
+    "legalName": "Nantwich Town Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-7328670"
+    },
+    "isicV4": "93110",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Nantwich Town Football Club",
     "slogan": "The Dabbers",
     "logo": {
@@ -9857,6 +10740,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Radcliffe",
+    "legalName": "Radcliffe Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-6609995"
+    },
+    "isicV4": "93120",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Radcliffe Football Club",
     "slogan": "The Boro",
     "telephone": "+441617248346",
@@ -9943,8 +10836,12 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "9651123"
+      "value": "GB-COH-9651123"
     },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "South Shields Football Club",
     "slogan": "The Mariners",
     "logo": {
@@ -10029,6 +10926,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Stafford Rangers",
+    "legalName": "Stafford Rangers Football Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-168812"
+    },
+    "isicV4": "93110",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Stafford Rangers Football Club",
     "slogan": "The Rangers",
     "logo": {
@@ -10099,6 +11006,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Stalybridge Celtic",
+    "legalName": "Stalybridge Celtic Football Club Limited (The)",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-292254"
+    },
+    "isicV4": "96090",
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Stalybridge Celtic Football Club",
     "slogan": "The Celts",
     "telephone": "+441613382828",
@@ -10178,6 +11095,16 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Warrington Rylands 1906",
+    "legalName": "Rylands Recreation Club Limited",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Company Number",
+      "value": "GB-COH-10294021"
+    },
+    "isicV4": "85110",
+
+    "nonProfitStatus": "LimitedByGuaranteeCharity",
+
     "alternateName": "Warrington Rylands 1906 Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -10260,8 +11187,11 @@
     "identifier": {
       "@type": "PropertyValue",
       "propertyID": "Company Number",
-      "value": "6412371"
+      "value": "GB-COH-6412371"
     },
+
+    "disambiguatingDescription": "Private limited Company",
+
     "alternateName": "Warrington Town Football Club",
     "slogan": "The Yellows",
     "telephone": "+447854123199",
@@ -10344,6 +11274,9 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Whitby Town",
+
+    "nonProfitStatus": "UnincorporatedAssociationCharity",
+
     "alternateName": "Whitby Town Football Club",
     "slogan": "The Seasiders",
     "logo": {

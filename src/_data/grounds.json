@@ -6340,7 +6340,7 @@
   {
     "@context": "https://schema.org",
     "@type": "StadiumOrArena",
-    "name": "Bulpit Lane",
+    "name": "Town Ground",
     "maximumAttendeeCapacity": 3034,
     "latitude": 51.408934,
     "longitude": -1.513463,
@@ -6354,7 +6354,7 @@
     },
     "identifier": {
       "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/bulpit-lane"
+      "@value": "https://www.nonleaguegrounds.com/regions/south-east/town-ground"
     },
     "priceRange": "££",
     "areaServed": {
@@ -8214,7 +8214,12 @@
         },
         "foundingDate": "1890",
         "url": "https://sloughtownfc.net",
-        "sameAs": ["https://twitter.com/sloughtownfc/"],
+        "sameAs": [
+          "https://twitter.com/sloughtownfc/",
+          "https://www.facebook.com/sloughtownfc",
+          "https://www.instagram.com/sloughtownfc/",
+          "https://www.youtube.com/sloughtownfc"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",

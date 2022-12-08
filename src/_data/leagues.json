@@ -2656,7 +2656,12 @@
         "@type": "SportsTeam",
         "name": "Slough Town",
         "slogan": "The Rebels",
-        "sameAs": ["https://twitter.com/sloughtownfc/"],
+        "sameAs": [
+          "https://twitter.com/sloughtownfc/",
+          "https://www.facebook.com/sloughtownfc",
+          "https://www.instagram.com/sloughtownfc/",
+          "https://www.youtube.com/sloughtownfc"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4685.png",
@@ -3904,6 +3909,11 @@
         },
         "foundingDate": "2005",
         "url": "https://fc-utd.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "FC United of Manchester playing kit",
+          "color": ["#D03430", "#FFFFFF", "#121212"]
+        },
 
         "identifier": {
           "@type": "url",

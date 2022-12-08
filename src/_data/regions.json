@@ -3218,52 +3218,6 @@
       },
       {
         "@type": "StadiumOrArena",
-        "name": "Bulpit Lane",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/bulpit-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Bulpit Lane",
-          "addressLocality": "Hungerford",
-          "addressRegion": "Berkshire",
-          "postalCode": "RG17 0AY",
-          "addressCountry": "GB"
-        },
-        "maximumAttendeeCapacity": 3034,
-        "latitude": 51.408934,
-        "longitude": -1.513463,
-        "subOrganization": {
-          "@context": "https://schema.org",
-          "@type": "SportsTeam",
-          "name": "Hungerford Town",
-          "slogan": "The Crusaders",
-          "foundingDate": "1886",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/hungerford-town"
-          },
-          "memberOf": {
-            "@type": "SportsOrganization",
-            "name": "National League South"
-          },
-
-          "logo": {
-            "@type": "ImageObject",
-            "contentUrl": "https://media.api-sports.io/football/teams/8661.png",
-            "caption": "Hungerford Town crest",
-            "representativeOfPage": true,
-            "encodingFormat": "image/png",
-            "width": 150,
-            "height": 150
-          }
-        }
-      },
-      {
-        "@type": "StadiumOrArena",
         "name": "Cheriton Road",
         "priceRange": "££",
         "alternateName": "The Buildkent Stadium",
@@ -4136,6 +4090,52 @@
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7231.png",
             "caption": "Hastings United crest",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png",
+            "width": 150,
+            "height": 150
+          }
+        }
+      },
+      {
+        "@type": "StadiumOrArena",
+        "name": "Town Ground",
+        "priceRange": "££",
+        "identifier": {
+          "@type": "URL",
+          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/town-ground"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Bulpit Lane",
+          "addressLocality": "Hungerford",
+          "addressRegion": "Berkshire",
+          "postalCode": "RG17 0AY",
+          "addressCountry": "GB"
+        },
+        "maximumAttendeeCapacity": 3034,
+        "latitude": 51.408934,
+        "longitude": -1.513463,
+        "subOrganization": {
+          "@context": "https://schema.org",
+          "@type": "SportsTeam",
+          "name": "Hungerford Town",
+          "slogan": "The Crusaders",
+          "foundingDate": "1886",
+
+          "identifier": {
+            "@type": "URL",
+            "@value": "https://www.nonleaguegrounds.com/national-league-south/hungerford-town"
+          },
+          "memberOf": {
+            "@type": "SportsOrganization",
+            "name": "National League South"
+          },
+
+          "logo": {
+            "@type": "ImageObject",
+            "contentUrl": "https://media.api-sports.io/football/teams/8661.png",
+            "caption": "Hungerford Town crest",
             "representativeOfPage": true,
             "encodingFormat": "image/png",
             "width": 150,
