@@ -119,31 +119,39 @@ apple %}
           <p class="block">{{ p | safe }}{% if not loop.last %}. {% endif %}</p>
           {%- endfor %}
         {%- endif %}
+        <figure class="image is-2by1">
+          {# 640, 768, 1024, 1366, 1600, 1920 #}
+          {% set url %}{% staticmap ground.latitude +"," + ground.longitude, 640, 320, 16, 2 %}{% endset %}
+          <!-- source: {{ url | safe }} -->
+          {% image url, [640, 768, 1024], ["webp", "png"], ground.name, "50vw", "maps" %}
+          <figcaption>
+            <p>Google static map view of {{ ground.name }}.</p>
+          </figcaption>
+        </figure>
       </section>
       <aside class="column is-one-quarter">
-        {% for club in ground.subOrganization %}
-        <h4 class="heading">Address</h4>
-        <p class="has-text-weight-semibold"> {{ club.alternateName }}</p>
-        {% if ground.sponsor %}
-          <p>{{ ground.sponsor.name | safe }}</p>
-        {% else %}
-          <p>{{ ground.name | safe }}</p>
-        {% endif %}
-        
-        {% if ground.address.streetAddress != ground.name %}
-          <p>{{ ground.address.streetAddress }}</p>
-        {% endif %}
-        <p>{{ ground.address.addressLocality | upper }}</p>
-        <p>{{ ground.address.postalCode | upper }}</p>
-        <div class="buttons py-3">
-          <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify}}.vcf" class="button is-link is-outlined" download>
-            <span class="icon">
-              <i class="fa-solid fa-address-book"></i>
-            </span>
-            <span>Save to contacts</span>
-          </a>
-        </div>
-      {% endfor %}
+        {%- for club in ground.subOrganization %}
+          <h4 class="heading">Address</h4>
+          <p class="has-text-weight-semibold"> {{ club.alternateName }}</p>
+          {%- if ground.sponsor %}
+            <p>{{ ground.sponsor.name | safe }}</p>
+          {%- else %}
+            <p>{{ ground.name | safe }}</p>
+          {%- endif %}       
+          {%- if ground.address.streetAddress != ground.name %}
+            <p>{{ ground.address.streetAddress }}</p>
+          {%- endif %}
+          <p>{{ ground.address.addressLocality | upper }}</p>
+          <p>{{ ground.address.postalCode | upper }}</p>
+          <div class="buttons py-3">
+            <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify}}.vcf" class="button is-link is-outlined" download>
+              <span class="icon">
+                <i class="fa-solid fa-address-book"></i>
+              </span>
+              <span>Save to contacts</span>
+            </a>
+          </div>
+        {% endfor %}
       </aside>
       <section class="column is-one-quarter">
         <h4 class="heading">Nearby clubs</h4>
@@ -178,13 +186,5 @@ apple %}
       </section>
     </div>
   </div>
-  <section class="section">
-      <figure class="image is-2by1">
-        {# 640, 768, 1024, 1366, 1600, 1920 #}
-        {% set url %}{% staticmap ground.latitude +"," + ground.longitude, 1024, 512, 16, 2 %}{% endset %}
-        <!-- source: {{ url | safe }} -->
-        {% image url, [640, 768, 1024, 1366, 1600], ["webp", "png"], ground.name, "100vw", "maps" %}
-      </figure>
-  </section>
 
 {% endblock %}
