@@ -29,7 +29,44 @@ eleventyComputed:
   <link rel="canonical" href="{{ meta.base }}/leagues/{{ league.name | slugify }}">
 {%- endblock %}
 
-{%- block css %}{%- endblock %}
+{%- block css %}
+  <style>
+    {% macro color(color) %}
+    {% endmacro %}
+    {%- for club in league.members %}
+    .card#{{ club.name | slugify }}  {
+      background: linear-gradient(
+         315deg, 
+      {% if club.owns.color.length == 1 %} 
+        {{ club.owns.color[0] }} 0rem, 
+        {{ club.owns.color[0] }} 4.25rem, 
+        #fff 4.25rem, 
+        #fff 100% 
+      {% elif club.owns.color.length == 2 %} 
+        {{ club.owns.color[0] }} 0rem, 
+        {{ club.owns.color[0] }} 2rem, 
+        {{ club.owns.color[1] }} 2rem, 
+        {{ club.owns.color[1] }} 4.00rem, 
+        {{ club.owns.color[0] }} 4.00em, 
+        {{ club.owns.color[0] }} 4.25rem, 
+        #fff 4.25rem, 
+        #fff 100% 
+
+      {% elif club.owns.color.length == 3 %} 
+        {{ club.owns.color[0] }} 0rem, 
+        {{ club.owns.color[0] }} 2rem, 
+        {{ club.owns.color[1] }} 2rem, 
+        {{ club.owns.color[1] }} 4.00rem, 
+        {{ club.owns.color[2] }} 4.00rem, 
+        {{ club.owns.color[2] }} 4.25rem, 
+        #fff 4.25rem, 
+        #fff 100% 
+      {% endif %}
+    );
+  }
+{%- endfor %}
+  </style>
+{%- endblock %}
 
 {%- block script %}
   <script type="application/ld+json">
