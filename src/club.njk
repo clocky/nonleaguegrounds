@@ -151,21 +151,45 @@ eleventyComputed:
           </p>
           {%- endfor %}
         {%- endif %}
-        {%- if club.legalName %}
-        <hr class="separator" />
-        <p class="block has-text-grey">
-          <small>
-          {%- if club.identifier.value %}
-            {% if club.identifier.value.slice(0,2) == "IP" %}
-            {{ club.legalName }} is a registered society under the Co-operative and Community Benefits Societies Act 2014 as an Industrial &amp; Provident Society
-            {% else %}
-          {{ club.alternateName }} is a trading name for {{ club.legalName }}, company number 
-            <a href="https://find-and-update.company-information.service.gov.uk/search?q={{ club.identifier.value }}" rel="noopener" target="_blank">{{ club.identifier.value }}</a>
-            {%- endif %}.
-          {%- endif %}
-          </small>
-        </p>
+
+        {%- if club.nonProfitStatus %}
+          <hr class="separator" />
+          <p class="block has-text-grey is-size-7">
+          {% if club.nonProfitStatus == "UnincorporatedAssociationCharity" %}
+            <span class="has-text-weight-semibold">{{ club.alternateName }}</span> 
+            is an <a href="https://www.gov.uk/unincorporated-associations">unincorporated association</a>.
+          {% elif club.nonProfitStatus == "LimitedByGuaranteeCharity" %}
+            <span class="has-text-weight-semibold">{{ club.legalName }}</span> 
+            trading as {{ club.alternateName }}
+            is a not-for-profit company limited by guarantee. 
+            Company number <a href="https://find-and-update.company-information.service.gov.uk/search?q={{ club.identifier.value.slice(7) }}">
+            {{ club.identifier.value.slice(7) }}
+            </a>.
+          {% endif %}
+          </p>
         {%- endif %}
+
+        {# 
+          {%- if club.legalName %}
+            <p class="block has-text-grey">
+              <small>
+                {%- if club.identifier.propertyID == "Company Number" %}
+                  {%- if club.identifier.value.slice(7,9) in ["IP", "RS"] %}
+                    <span class="has-text-weight-semibold">{{ club.legalName }}</span> 
+                    is a community benefit society, operating under the name of {{ club.alternateName }} 
+                    and are regulated by the <a href="https://mutuals.fca.org.uk" rel="nopener" target="_blank">Financial Conduct Authority</a>.
+                    The company registration number is {{ club.identifier.value.slice(9) }}
+                  {%- else %}
+                    <span class="has-text-weight-semibold">{{ club.alternateName }}</span> is a trading name for {{ club.legalName }}, company number 
+                      <a href="https://find-and-update.company-information.service.gov.uk/search?q={{ club.identifier.value.slice(7) }}" rel="noopener" target="_blank">{{ club.identifier.value.slice(7) }}</a>
+                  {%- endif %}.
+                {% else %}
+                  {{ club.alternateName }} is a trading name for {{ club.legalName }}.
+                {%- endif %}
+              </small>
+            </p>
+          {%- endif %}
+        #}
       </article>
 
       <aside class="column is-one-quarter">
