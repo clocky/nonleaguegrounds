@@ -38,7 +38,8 @@ module.exports = function (eleventyConfig) {
      "https://twitter.com/*",
      "https://soundcloud.com/*",          // Gives a 302 error
      "https://www.instagram.com/*",       // Gives a 429 error
-     "https://altrinchamfc.com/*",        // Avoid cdn.shopify.com error
+     "https://altrinchamfc.com/*",       // Avoid cdn.shopify.com error
+     "https://service.gov.uk/*",        //  Claims "INVALID URI" but works
     ],
   });
 
