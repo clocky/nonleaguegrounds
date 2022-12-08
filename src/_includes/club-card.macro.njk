@@ -2,36 +2,7 @@
   <script type="application/ld+json">
     {{ club | dump | safe }}
   </script>
-  <style>
-     .card#{{ club.name | slugify }}  {
-    background: linear-gradient(315deg, 
-      {% if club.owns.color.length == 1 %} 
-        {{ club.owns.color[0] }} 0rem, 
-        {{ club.owns.color[0] }} 4rem, 
-        #ffffff 4rem, 
-        #ffffff 100% 
-      {% elif club.owns.color.length == 2 %} 
-        {{ club.owns.color[0] }} 0rem, 
-        {{ club.owns.color[0] }} 2rem, 
-        {{ club.owns.color[1] }} 2rem, 
-        {{ club.owns.color[1] }} 3.75rem, 
-        {{ club.owns.color[0] }} 3.75rem, 
-        {{ club.owns.color[0] }} 4rem, 
-        #ffffff 4rem, 
-        #ffffff 100% 
-      {% elif club.owns.color.length == 3 %} 
-        {{ club.owns.color[0] }} 0rem, 
-        {{ club.owns.color[0] }} 2rem, 
-        {{ club.owns.color[1] }} 2rem, 
-        {{ club.owns.color[1] }} 2.5rem, 
-        {{ club.owns.color[2] }} 2.5rem, 
-        {{ club.owns.color[2] }} 4rem, 
-        #ffffff 4rem, 
-        #ffffff 100% 
-      {% endif %}
-    );
-  }
-  </style>
+
   <div class="card card shadow-md is-cursor-pointer transform is-duration-300 hover-shadow-xl hover-translate-y" id="{{ club.name | slugify }}">
     <a href="/leagues/{{ league.name | slugify }}/{{ club.name | slugify }}">
     <div class="card-content">
