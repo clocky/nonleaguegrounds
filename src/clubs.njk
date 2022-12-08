@@ -35,19 +35,21 @@ eleventyComputed:
         {% for club in clubs | sort(attribute = "name") %}
           <tr>
             <th scope="row">
-              <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
-              {%- if env.eleventy == "development" %}
-              {% if club.owns %}
-                <span class="tag is-success is-normal is-light">{{ club.owns.color.length }}-color kit</span>
-              {% else %}
-                <a class="button is-small is-rounded is-link" target="_blank" rel="noopener" href="{{ club.url }}">url</a>
+              <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">
+                {{ club.name }}
+              </a>
+              {% if club.nonProfitStatus %}
+                <span class="icon">
+                  <i class="fa-solid fa-hand-holding-heart has-text-danger ml-1"></i>
+                </span>
               {% endif %}
-              {% if club.image %}
-                <span class="tag is-success is-normal is-light">bg-image</span>
-              {% else %}
-                <a class="button is-small is-rounded is-link" target="_blank" rel="noopener" href="https://wordpress.org/openverse/search/?q={{ club.name | urlencode }}&license=by,by-sa,by-nd,by-nc,by-nc-sa,by-nc-nd">Search </a>
+              {%- if club.disambiguatingDescription %}
+                <span class="icon">
+                  {%- if club.disambiguatingDescription == "Community Interest Company (CIC)" %}
+                    <i class="fa-solid fa-seedling has-text-success ml-1"></i>
+                  {%- endif %}
+                </span>
               {% endif %}
-              {%- endif %}
             </th>
             <td>
               <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}" class="secondary">{{ club.location.name }}</a>
