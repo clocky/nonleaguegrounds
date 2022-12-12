@@ -68,7 +68,7 @@ eleventyComputed:
 {% endblock %}
 
 {% block header %}
-  <section class="hero {% if club.owns === false %}is-white{% endif %} is-small has-background">
+  <section class="hero {% if club.owns === false %}is-white{% endif %} is-halfheight-desktop is-medium-mobile has-background">
     {% if club.image %}
       {# 640, 768, 1024, 1366, 1600, 1920 #}
       {% image "./src/_assets/img/flickr/" + club.image.contentUrl, [640, 768, 1024, 1366, 1600],  ["avif", "jpeg"], club.name, "100vw", "clubs" %}
@@ -93,12 +93,11 @@ eleventyComputed:
             <span class="icon is-{{ network | lower }}">
               <i class="fab fa-{{ network | lower }}"></i>
             </span>
-            {# <span id="{{ network | lower }}-label" class="is-hidden-mobile">{{ "YouTube" if network == "youtube" else network | capitalize }}</span> #}
           </a>
         </div>
       {% endfor %}
       {% if club.url %}
-        <div class="level-item">
+        <div class="level-item is-hidden-mobile">
           <a href="{{ club.url }}/" target="_blank" class="button is-text" rel="noopener">
             <span>{{ club.url.slice(8) }}</span>
             <span class="icon is-small">
@@ -151,6 +150,28 @@ eleventyComputed:
           </p>
           {%- endfor %}
         {%- endif %}
+
+        {%- if club.owns.mainEntityOfPage %}
+          <p class="block">
+            The clubs 
+            {% if club.owns.mainEntityOfPage %}
+              <a href="{{ club.owns.mainEntityOfPage }}" target="_blank" rel="noopener" class="is-info">home kit</a>
+            {% else %}
+             home kit
+            {% endif %}
+            {% if club.owns.material %}is made of {{ club.owns.material }} and {% endif %} 
+              is manufactured by <span class="has-text-weight-semibold">{{ club.owns.brand }}</span>.
+          </p>
+        {%- endif %}
+
+        {% for url in club.sameAs %}
+          {% if "youtube" in url and "channel" not in url %}
+            {% set channel = url.split("/")[3] %}
+            <figure class="image is-16by9 ">
+              <iframe class="has-ratio" width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=user_uploads&list={{ channel }}" frameborder="0" allowfullscreen></iframe>
+            </figure>
+          {% endif %}
+        {% endfor %}
 
         {%- if club.nonProfitStatus %}
           <hr class="separator" />
@@ -210,7 +231,7 @@ eleventyComputed:
       </aside>
       <aside class="column is-one-quarter">
         {%- if club.image %}
-        <h4 class="heading">Photo Credit</h4>
+          <h4 class="heading">Photo Credit</h4>
           {{ creativeCommons(club.image)}}
         {% endif %}
       </aside>
