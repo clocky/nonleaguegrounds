@@ -660,7 +660,7 @@
           "https://twitter.com/SUFCOfficial/",
           "https://www.facebook.com/sufcofficial",
           "https://www.instagram.com/sufcofficial/",
-          "https://www.youtube.com/ScunthorpeUnitedFC"
+          "https://www.youtube.com/sufcofficial"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5112,7 +5112,12 @@
         },
         "foundingDate": "1889",
         "url": "https://www.bathcityfc.com",
-        "sameAs": ["https://twitter.com/BathCity_FC/"],
+        "sameAs": [
+          "https://twitter.com/BathCity_FC/",
+          "https://www.facebook.com/Bath-City-Football-Club",
+          "https://www.instagram.com/bathcityfc/",
+          "https://www.youtube.com/BathCityFCtv"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
@@ -6863,7 +6868,12 @@
         },
         "foundingDate": "1873",
         "url": "https://chippenhamtown.com",
-        "sameAs": ["https://twitter.com/ChipTownFC/"],
+        "sameAs": [
+          "https://twitter.com/ChipTownFC/",
+          "https://www.facebook.com/ChipTownFC",
+          "https://www.instagram.com/chiptownfc/",
+          "https://www.youtube.com/channel/UC0ZU5860mrLwzvLzvenGsRA"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
@@ -6928,7 +6938,12 @@
         },
         "foundingDate": "2005",
         "url": "https://spennymoortownfc.co.uk",
-        "sameAs": ["https://twitter.com/SpennymoorTown/"],
+        "sameAs": [
+          "https://twitter.com/SpennymoorTown/",
+          "https://www.facebook.com/SpennymoorTown",
+          "https://www.instagram.com/spennnymoor/",
+          "https://www.youtube.com/SpennymoorTownFC"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
@@ -7642,7 +7657,10 @@
         },
         "foundingDate": "1872",
         "url": "https://ketteringtownfc.com",
-        "sameAs": ["https://twitter.com/KTFCOfficial/"],
+        "sameAs": [
+          "https://twitter.com/KTFCOfficial/",
+          "https://www.facebook.com/ketteringtownfc"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",

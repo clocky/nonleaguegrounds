@@ -11,8 +11,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Aldershot Town Football Club",
     "slogan": "The Shots",
     "telephone": "+441252320211",
@@ -34,7 +32,12 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Aldershot Town playing kit",
+      "brand": "Erreà",
+      "material": "Skin fabric",
+      "image": "https://www.theshots.co.uk/wp-content/uploads/2022/06/FB_2-1-scaled.jpg",
+      "mainEntityOfPage": "https://www.theshots.co.uk/product/adult-home-2022-23-shirt/",
       "color": ["#C32D27", "#172576"]
     },
 
@@ -152,8 +155,13 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Altrincham playing kit",
-      "color": ["Red", "White"]
+      "brand": "Puma",
+      "material": "Re-tex recycled fabric",
+      "image": "https://cdn.shopify.com/s/files/1/0453/2692/5974/products/altrinchamfc_front_home_kit_1000x.jpg?v=1660735903",
+      "mainEntityOfPage": "https://altrinchamfc.com/products/22-23-alty-fc-home-adult-shirt",
+      "color": ["#C42E1E", "#ffffff", "#000000"]
     },
 
     "url": "https://altrinchamfc.com",
@@ -246,8 +254,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Barnet Football Club",
     "slogan": "The Bees",
     "logo": {
@@ -268,7 +274,12 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Barnet playing kit",
+      "brand": "Stanno",
+      "material": "100% recycled polyester",
+      "image": "https://www.venuetoolbox.com/barnetfc/Photos/%7B09E40F04-A688-4B11-ABDE-01E7122AD6C0%7D/P5430122.png",
+      "mainEntityOfPage": "https://www.venuetoolbox.com/barnetfc/Products/HOME+Adult+Replica+BFC+Shirt+2022%5F23+BFC%5FShirts%5FBFC+Home%5FAdults%5F2022%5F23",
       "color": ["#0D0807", "#FF7700"]
     },
 
@@ -341,8 +352,6 @@
     },
     "isicV4": ["93120", "85510"],
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Boreham Wood Football Club",
     "slogan": "The Wood",
     "logo": {
@@ -364,7 +373,11 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Boreham Wood playing kit",
+      "brand": "Puma",
+      "image": "https://cdn.freewebstore.com/origin/159842/clubshop_thumbnail_home_2.png",
+      "mainEntityOfPage": "https://www.bwfcclubshop.co.uk/202223_HOME_REPLICA_SHIRT/p1478107_21169170.aspx",
       "color": ["#ffffff", "#000000"]
     },
 
@@ -456,8 +469,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Bromley Football Club",
     "slogan": "The Ravens",
     "logo": {
@@ -480,8 +491,13 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Bromley playing kit",
-      "color": ["#ffffff", "#B18E5C", "#161412"]
+      "brand": "Kappa",
+      "material": "100% polyester",
+      "image": "https://cdn.shopify.com/s/files/1/0591/9339/3284/products/ReplicaHomeFront_7fa3bcc0-2428-4d77-bb83-f6a02172b5c9_960x.png?v=1664977018",
+      "mainEntityOfPage": "https://bromleyfcshop.co.uk/products/bromley-fc-replica-home-shirt",
+      "color": ["#ffffff", "#161412", "#B18E5C"]
     },
 
     "url": "https://www.bromleyfc.co.uk",
@@ -553,8 +569,6 @@
     },
     "isicV4": "93199",
 
-    "disambiguatingDescription": "Private Limited Company by guarantee without share capital use of &#39;Limited&#39; exemption",
-
     "alternateName": "Chesterfield Football Club",
     "slogan": "The Spireites",
     "telephone": "+441246269300",
@@ -578,7 +592,11 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Chesterfield playing kit",
+      "brand": "Puma",
+      "image": "https://chesterfield-fc.co.uk/wp-content/uploads/2022/10/P1026998-copy.png",
+      "mainEntityOfPage": "https://chesterfield-fc.co.uk/product/adult-puma-home-shirt",
       "color": ["#3974C0", "#ffffff"]
     },
 
@@ -668,7 +686,11 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Dagenham &amp; Redbridge playing kit",
+      "brand": "Nike",
+      "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000051/1a1974fd-91b3-432d-9873-b31e96b11280.jpg",
+      "mainEntityOfPage": "https://daggers.ktckts.com/merchandise/dag2223hsrt/202223-home-nike-shirt",
       "color": ["#D74D3E", "#141D6A", "#ffffff"]
     },
 
@@ -762,7 +784,11 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Dorking Wanderers playing kit",
+      "brand": "Macron",
+      "material": "100% softlock weave polyester",
+      "mainEntityOfPage": "https://dwfc-online-shop.myshopify.com/collections/official-replica-kit/products/new-home-shirt-2022-23",
       "color": ["#0E216E", "#ffffff", "#D12F2D"]
     },
 
@@ -857,8 +883,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Eastleigh Football Club",
     "slogan": "The Spitfires",
     "logo": {
@@ -880,7 +904,10 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Eastleigh playing kit",
+      "brand": "Kappa",
+      "mainEntityOfPage": "https://eastleighfc.store/collections/replica-kit/products/22-23-home-shirt-adult",
       "color": ["#0D228E", "#ffffff"]
     },
 
@@ -974,8 +1001,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "FC Halifax Town",
     "slogan": "The Shaymen",
     "telephone": "+441422341222",
@@ -997,7 +1022,10 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "FC Halifax Town playing kit",
+      "brand": "adidas",
+      "mainEntityOfPage": "https://www.fchtshop.com/home-shirt-2223-with-parley-2011-p.asp",
       "color": ["#3165A7"]
     },
 
@@ -1070,8 +1098,6 @@
     },
     "isicV4": "93199",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Gateshead Football Club",
     "slogan": "The Tynesiders",
     "logo": {
@@ -1093,7 +1119,10 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Gateshead playing kit",
+      "brand": "Puma",
+      "mainEntityOfPage": "https://gfcshop.co.uk/collections/replica-kit/products/adult-22-23-home-shirt",
       "color": ["#221F26", "#ffffff"]
     },
 
@@ -1161,8 +1190,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Maidenhead United Football Club",
     "slogan": "The Magpies",
     "logo": {
@@ -1185,7 +1212,11 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Maidenhead United playing kit",
+      "brand": "UHLsport",
+      "image": "https://cdn.shopify.com/s/files/1/0348/8533/7225/products/HOMEAMEND202223_1024x1024@2x.jpg?v=1655970948",
+      "mainEntityOfPage": "https://mufcdirect.co.uk/collections/mufc-1st-team-club-shop/products/mufc-home-shirt-2022-23-junior-sizes",
       "color": ["#060807", "#ffffff"]
     },
 
@@ -1257,8 +1288,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Maidstone United Football Club",
     "slogan": "The Stones",
     "logo": {
@@ -1280,7 +1309,10 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Maidstone United playing kit",
+      "brand": "Macron",
+      "mainEntityOfPage": "https://maidstoneunited.co.uk/product/home-replica-shirt/",
       "color": ["#E0A03C", "#434343"]
     },
 
@@ -1373,8 +1405,6 @@
     },
     "isicV4": ["93110", "93120"],
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Notts County Football Club",
     "slogan": "The Magpies",
     "logo": {
@@ -1398,7 +1428,10 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Notts County playing kit",
+      "brand": "Puma",
+      "mainEntityOfPage": "https://shop.nottscountyfc.co.uk/ADHMSHIRT2223",
       "color": ["#000000", "#ffffff", "#817653"]
     },
 
@@ -1471,8 +1504,6 @@
     },
     "vatID": "GB 831 8971 04",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Oldham Athletic Football Club",
     "slogan": "The Latics",
     "telephone": "+441616244972",
@@ -1496,6 +1527,7 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Oldham Athletic playing kit",
       "color": ["#2253A0", "#ffffff"]
     },
@@ -1584,8 +1616,6 @@
       "value": "GB-COH-9196428"
     },
 
-    "disambiguatingDescription": "Community Interest Company (CIC)",
-
     "alternateName": "Solihull Moors Football Club",
     "slogan": "The Moors",
     "logo": {
@@ -1608,7 +1638,11 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Solihull Moors playing kit",
+      "brand": "adidas",
+      "image": "https://shop.solihullmoorsfc.co.uk/wp-content/uploads/2022/07/6.png",
+      "mainEntityOfPage": "https://shop.solihullmoorsfc.co.uk/product/solihull-moors-home-replica-shirt-2022-23/",
       "color": ["#F9EB4E", "#FFFFFF"]
     },
 
@@ -1680,8 +1714,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Southend United Football Club",
     "slogan": "The Shrimpers",
     "telephone": "+441702304050",
@@ -1705,7 +1737,10 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Southend United playing kit",
+      "brand": "Macron",
+      "mainEntityOfPage": "https://southendunitedmacronstore.co.uk/product/sfc22-home-shirt-sr/",
       "color": ["#0C2751", "#ffffff"]
     },
 
@@ -1774,8 +1809,6 @@
     "vatID": "GB 128 5234 74",
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Scunthorpe United Football Club",
     "slogan": "The Iron",
     "logo": {
@@ -1791,14 +1824,18 @@
       "https://twitter.com/SUFCOfficial/",
       "https://www.facebook.com/sufcofficial",
       "https://www.instagram.com/sufcofficial/",
-      "https://www.youtube.com/ScunthorpeUnitedFC"
+      "https://www.youtube.com/sufcofficial"
     ],
     "foundingDate": "1899",
     "sport": "Association Football",
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Scunthorpe United playing kit",
+      "brand": "Macron",
+      "image": "https://www.sufcshop.com/siteimg/productimages/864-985.jpg",
+      "mainEntityOfPage": "https://www.sufcshop.com/replica-kit/replica-kit/home-2223/864_adult-home-shirt-22-23.html",
       "color": ["#7B2D35", "#7AB1E2"]
     },
 
@@ -1885,8 +1922,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Torquay United AFC",
     "slogan": "The Gulls",
     "logo": {
@@ -1907,7 +1942,12 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Torquay United AFC playing kit",
+      "brand": "Puma",
+      "material": "100% double knit polyester",
+      "image": "https://www.venuetoolbox.com/torquayunited/Photos/%7B9EF6ECB3-586D-43C9-B44E-AA7DEF8A1A8A%7D/Home.jpg",
+      "mainEntityOfPage": "https://www.venuetoolbox.com/torquayunited/Products/TUAFC+Puma+2022+Home+Shirt+Adults+PS+2022",
       "color": ["#F8D347", "#2852B1"]
     },
 
@@ -1975,8 +2015,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Wealdstone Football Club",
     "slogan": "The Stones",
     "logo": {
@@ -1997,7 +2035,11 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Wealdstone playing kit",
+      "brand": "Kelme",
+      "image": "https://cdn.shopify.com/s/files/1/0577/9475/6807/products/Wealdstonebluefront_960x.jpg?v=1628103441",
+      "mainEntityOfPage": "https://wealdstonefcstore.co.uk/products/adult-home-shirt-21-22-season",
       "color": ["#1B43CE", "#ffffff"]
     },
 
@@ -2091,8 +2133,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Woking Football Club",
     "slogan": "The Cardinals",
     "logo": {
@@ -2114,8 +2154,13 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Woking playing kit",
-      "color": ["#A41123", "#ffffff"]
+      "brand": "adidas",
+      "material": "100% recycled polyester Interlock",
+      "image": "https://store.wokingfc.com//images/stories/virtuemart/product/28849-C(74)-P(0)-R(ep68c).jpg",
+      "mainEntityOfPage": "https://store.wokingfc.com/kits/home-kit/woking-fc-home-jersey-22-23-p",
+      "color": ["#B03033", "#ffffff", "#D2AE71"]
     },
 
     "url": "https://wokingfc.co.uk",
@@ -2212,8 +2257,6 @@
     },
     "isicV4": "93199",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Yeovil Town Football Club",
     "slogan": "The Glovers",
     "logo": {
@@ -2231,7 +2274,11 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Yeovil Town playing kit",
+      "brand": "Hummel",
+      "image": "https://ytfc.store/wp-content/uploads/2022/06/home-shirt-website.png",
+      "mainEntityOfPage": "https://ytfc.store/product/hummel-22-23-home-shirt-adult/",
       "color": ["#4DAC26", "#FFFF54"]
     },
 
@@ -2298,8 +2345,6 @@
       "value": "GB-COH-4689338"
     },
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "York City Football Club",
     "slogan": "The Minstermen",
     "logo": {
@@ -2322,7 +2367,10 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "York City playing kit",
+      "brand": "Puma",
+      "mainEntityOfPage": "https://ycfcstore.co.uk/collections/2022-23-centenary-collection/products/2022-23-limited-edition-home-shirt",
       "color": ["#72253C", "#D8C39F"]
     },
 
@@ -2415,8 +2463,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "AFC Fylde",
     "slogan": "The Coasters",
     "telephone": "+441772682593",
@@ -2435,8 +2481,11 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "AFC Fylde playing kit",
-      "color": ["#DB4433", "#1C488B"]
+      "brand": "New Balance",
+      "mainEntityOfPage": "https://www.afcfylde.co.uk/official-online-store/shop/22-23-nb-home-shirt/",
+      "color": ["#ffffff", "#DB4433", "#1C488B"]
     },
 
     "url": "https://www.afcfylde.co.uk",
@@ -2528,8 +2577,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "AFC Telford United",
     "slogan": "The Bucks",
     "logo": {
@@ -2546,8 +2593,12 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "AFC Telford United playing kit",
-      "color": ["#182849"]
+      "brand": "Puma",
+      "image": "https://sportingtouch.e2ecdn.uk/Products/AFCTHOMEJSY.jpg?w=650&amp;h=650&amp;quality=82&amp;scale=canvas",
+      "mainEntityOfPage": "https://www.sportingtouch.com/products/club-shop-afc-telford-united-2022-23-home-replica-jersey.html#undefined1",
+      "color": ["#ffffff", "#182849"]
     },
 
     "url": "https://www.telfordunited.com",
@@ -2638,8 +2689,6 @@
       "value": "GB-COH-2011224"
     },
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Alfreton Town Football Club",
     "slogan": "The Reds",
     "logo": {
@@ -2660,8 +2709,11 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Alfreton Town playing kit",
-      "color": ["#E31B1B"]
+      "brand": "SKKits",
+      "mainEntityOfPage": "https://alfretontown.myshopify.com/products/16-through-21-years-old-alfreton-town-fc-season-seats-first-250-supporters-to-reserve-will-receive-a-free-replica-jersey",
+      "color": ["#E31B1B", "#ffffff"]
     },
 
     "url": "https://alfretontownfootballclub.com",
@@ -2731,8 +2783,6 @@
       "value": "GB-COH-RS007135"
     },
 
-    "disambiguatingDescription": "Community Benefit Society",
-
     "alternateName": "Banbury United Football Club",
     "slogan": "The Puritans",
     "logo": {
@@ -2752,7 +2802,11 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Banbury United playing kit",
+      "brand": "The Terrace",
+      "image": "https://cdn.shopify.com/s/files/1/1909/2827/products/bufchome_1024x1024.jpg?v=1660127862",
+      "mainEntityOfPage": "https://theterracestore.com/collections/banbury-united/products/banbury-united-22-23-home-replica-shirt",
       "color": ["#F6EC4E", "#E83830"]
     },
 
@@ -2844,8 +2898,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Blyth Spartans AFC",
     "slogan": "The Spartans",
     "logo": {
@@ -2865,7 +2917,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Blyth Spartans AFC playing kit",
+      "brand": "EV2",
       "color": ["#ffffff", "#326F43"]
     },
 
@@ -2959,8 +3013,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Boston United Football Club",
     "slogan": "The Pilgrims",
     "logo": {
@@ -2981,7 +3033,9 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Boston United playing kit",
+      "brand": "adidas",
       "color": ["#F4CA44", "#1C1819"]
     },
 
@@ -3049,8 +3103,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Brackley Town Football Club",
     "slogan": "The Saints",
     "logo": {
@@ -3070,7 +3122,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Brackley Town playing kit",
+      "brand": "Puma",
       "color": ["#B62619"]
     },
 
@@ -3138,8 +3192,6 @@
     },
     "isicV4": ["85510", "93120"],
 
-    "disambiguatingDescription": "Community Interest Company (CIC)",
-
     "alternateName": "Bradford (Park Avenue) AFC",
     "slogan": "The Green Army",
     "logo": {
@@ -3161,6 +3213,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Bradford (Park Avenue) AFC playing kit",
       "color": ["#439541", "#ffffff"]
     },
@@ -3234,8 +3287,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Buxton Football Club",
     "slogan": "The Bucks",
     "logo": {
@@ -3256,7 +3307,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Buxton playing kit",
+      "brand": "Canterbury",
       "color": ["#194063", "#ffffff"]
     },
 
@@ -3326,8 +3379,6 @@
       "value": "GB-COH-IP29159R"
     },
 
-    "disambiguatingDescription": "Registered society",
-
     "alternateName": "Chester Football Club",
     "slogan": "The Seals",
     "logo": {
@@ -3348,7 +3399,11 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Chester playing kit",
+      "brand": "Kappa",
+      "image": "https://cdn.shopify.com/s/files/1/1575/3869/products/newTrainingTop-22_1024x1024@2x.jpg?v=1667908356",
+      "mainEntityOfPage": "https://www.chesterfcretail.com/collections/frontpage/products/adult-chester-fc-kappa-training-t-shirt-2022",
       "color": ["#22549F", "#ffffff", "#F4CA4B"]
     },
 
@@ -3425,8 +3480,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Chorley Football Club",
     "slogan": "The Magpies",
     "logo": {
@@ -3449,8 +3502,13 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Chorley playing kit",
-      "color": ["#ffffff", "#000000", "#CB3741"]
+      "brand": "Hope + Glory Sportswear",
+      "material": "100% Polyester",
+      "image": "https://store.chorleyfc.com/wp-content/uploads/2022/05/home-2223.jpg",
+      "mainEntityOfPage": "https://store.chorleyfc.com/product/home-shirt",
+      "color": ["#ffffff", "#000000"]
     },
 
     "url": "https://www.chorleyfc.com",
@@ -3525,8 +3583,6 @@
       "value": "GB-COH-IP29461R"
     },
 
-    "disambiguatingDescription": "Registered society",
-
     "alternateName": "Curzon Ashton Football Club",
     "slogan": "The Nash",
     "logo": {
@@ -3547,7 +3603,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Curzon Ashton playing kit",
+      "brand": "adidas",
       "color": ["#152EA7", "#ffffff"]
     },
 
@@ -3635,8 +3693,6 @@
     },
     "isicV4": ["93110", "93120"],
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Darlington Football Club",
     "slogan": "The Quakers",
     "logo": {
@@ -3657,6 +3713,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Darlington playing kit",
       "color": ["#FAFAFA", "#353A3F", "#CD4B3B"]
     },
@@ -3725,8 +3782,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Farsley Celtic Football Club",
     "slogan": "The Celt Army",
     "logo": {
@@ -3748,6 +3803,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Farsley Celtic playing kit",
       "color": ["#ffffff", "#43964F"]
     },
@@ -3841,8 +3897,6 @@
     },
     "isicV4": "93199",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Gloucester City AFC",
     "slogan": "The Tigers",
     "logo": {
@@ -3865,6 +3919,7 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Gloucester City AFC playing kit",
       "color": ["#CC2D24", "#EBBC42"]
     },
@@ -3937,8 +3992,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Hereford Football Club",
     "slogan": "The Bulls",
     "logo": {
@@ -3960,6 +4013,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Hereford playing kit",
       "color": ["#333333", "#ffffff", "#C62A1C"]
     },
@@ -4032,10 +4086,9 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Kettering Town Football Club",
     "slogan": "The Poppies",
+    "telephone": "+441536217006",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/8654.png",
@@ -4045,12 +4098,17 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/KTFCOfficial/"],
+    "sameAs": [
+      "https://twitter.com/KTFCOfficial/",
+      "https://www.facebook.com/ketteringtownfc"
+    ],
     "foundingDate": "1872",
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Kettering Town playing kit",
+      "mainEntityOfPage": "https://ketteringtownfc.com/product/reserved-home-team-shirt",
       "color": ["#EA332C", "#ffffff", "#000000"]
     },
 
@@ -4145,6 +4203,7 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Kidderminster Harriers playing kit",
       "color": ["#ffffff", "#BF372F"]
     },
@@ -4233,8 +4292,6 @@
     },
     "isicV4": "64209",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Kings Lynn Town Football Club",
     "slogan": "The Linnets",
     "logo": {
@@ -4256,6 +4313,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Kings Lynn Town playing kit",
       "color": ["#284171", "#CBAB56"]
     },
@@ -4329,8 +4387,6 @@
     },
     "isicV4": ["93110", "93120", "93199"],
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Leamington Football Club",
     "slogan": "The Brakes",
     "logo": {
@@ -4352,6 +4408,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Leamington playing kit",
       "color": ["#E4BE4E", "#000000"]
     },
@@ -4424,8 +4481,6 @@
     },
     "isicV4": "93130",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Peterborough Sports Football Club",
     "slogan": "The Turbines",
     "logo": {
@@ -4445,6 +4500,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Peterborough Sports playing kit",
       "color": ["#283A90", "#F3F554"]
     },
@@ -4512,8 +4568,6 @@
       "value": "GB-COH-IP30123R"
     },
 
-    "disambiguatingDescription": "Registered society",
-
     "alternateName": "Scarborough Athletic Football Club",
     "slogan": "The Seadogs",
     "logo": {
@@ -4535,6 +4589,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Scarborough Athletic playing kit",
       "color": ["#C8353D", "#ffffff"]
     },
@@ -4607,8 +4662,6 @@
     },
     "isicV4": ["93110", "93120"],
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Southport Football Club",
     "slogan": "The Sandgrounders",
     "telephone": "+441704533422",
@@ -4631,6 +4684,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Southport playing kit",
       "color": ["#EEB551", "#191C24"]
     },
@@ -4713,12 +4767,21 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/SpennymoorTown/"],
+    "sameAs": [
+      "https://twitter.com/SpennymoorTown/",
+      "https://www.facebook.com/SpennymoorTown",
+      "https://www.instagram.com/spennnymoor/",
+      "https://www.youtube.com/SpennymoorTownFC"
+    ],
     "foundingDate": "2005",
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Spennymoor Town playing kit",
+      "brand": "Erreà",
+      "image": "https://spennymoortownfc.co.uk/wp-content/uploads/2022/07/600x338xhomekit_2223_i.jpg.pagespeed.ic.3tmEulBFT5.jpg",
+      "mainEntityOfPage": "https://spennymoortownfc.co.uk/product/2022-23-home-shirt/",
       "color": ["#ffffff", "#000000", "#B02418"]
     },
 
@@ -4786,8 +4849,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Bath City Football Club",
     "slogan": "The Romans",
     "logo": {
@@ -4799,10 +4860,24 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/BathCity_FC/"],
+    "sameAs": [
+      "https://twitter.com/BathCity_FC/",
+      "https://www.facebook.com/Bath-City-Football-Club",
+      "https://www.instagram.com/bathcityfc/",
+      "https://www.youtube.com/BathCityFCtv"
+    ],
     "foundingDate": "1889",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "itemCondition": "NewCondition",
+      "name": "Bath City playing kit",
+      "brand": "Erreà",
+      "image": "https://cdn.shopify.com/s/files/1/1624/7791/products/2022-23homeshirt_1024x1024@2x.jpg?v=1659775536",
+      "mainEntityOfPage": "https://bath-city-fc.myshopify.com/collections/top-sellers/products/bath-city-home-shirt-2022-23-adult",
+      "color": ["#ffffff", "#000000"]
+    },
 
     "url": "https://www.bathcityfc.com",
     "memberOf": {
@@ -4872,8 +4947,6 @@
       "value": "GB-COH-2050949"
     },
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Braintree Town Football Club",
     "slogan": "The Iron",
     "telephone": "+441376345617",
@@ -4897,7 +4970,11 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Braintree Town playing kit",
+      "brand": "Wise.",
+      "image": "https://cdn10.bigcommerce.com/s-y8lh43w/products/4039/images/18165/Home_Shirt_21_22__48866.1627034473.1280.1280.png?c=2",
+      "mainEntityOfPage": "https://www.andreascartersports.co.uk/products/braintree-town-fc-adult-home-shirt-2021-23.html",
       "color": ["#ED7F31", "#ffffff", "#0101E2"]
     },
 
@@ -4969,8 +5046,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Chelmsford City Football Club",
     "slogan": "The Clarets",
     "logo": {
@@ -4989,6 +5064,15 @@
     "foundingDate": "1938",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "itemCondition": "NewCondition",
+      "name": "Chelmsford City playing kit",
+      "brand": "Erreà",
+      "image": "https://chelmsfordcityfc.com/wp-content/uploads/2022/09/ccfc-home-kit-scaled.jpg",
+      "mainEntityOfPage": "https://chelmsfordcityfc.com/product/adults-home-match-shirt-2022-23/",
+      "color": ["#69132D", "#C0C0C0", "#ffffff"]
+    },
 
     "url": "https://chelmsfordcityfc.com",
     "memberOf": {
@@ -5074,8 +5158,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Cheshunt Football Club",
     "slogan": "The Ambers",
     "logo": {
@@ -5096,6 +5178,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Cheshunt playing kit",
       "color": ["#1C1C1C", "#EEB654"]
     },
@@ -5164,8 +5247,6 @@
     },
     "isicV4": "82990",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Chippenham Town Football Club",
     "slogan": "The Bluebirds",
     "logo": {
@@ -5177,9 +5258,25 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/ChipTownFC/"],
+    "sameAs": [
+      "https://twitter.com/ChipTownFC/",
+      "https://www.facebook.com/ChipTownFC",
+      "https://www.instagram.com/chiptownfc/",
+      "https://www.youtube.com/channel/UC0ZU5860mrLwzvLzvenGsRA"
+    ],
     "foundingDate": "1873",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "itemCondition": "NewCondition",
+      "name": "Chippenham Town playing kit",
+      "brand": "UHLsport",
+      "material": "100% polyester",
+      "image": "https://s3.amazonaws.com/sportinggifts/products/opt1/800/51136.jpg",
+      "sku": "https://51136",
+      "mainEntityOfPage": "https://www.sportingbilly.com/i-s-51136-jaa/chippenham-town-personalised-home-shirt.htm",
+      "color": ["#2A62A8", "#ffffff", "#1F2C5D"]
+    },
 
     "url": "https://chippenhamtown.com",
     "memberOf": {
@@ -5279,6 +5376,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Concord Rangers playing kit",
       "color": ["#F8DD4A", "#ffffff", "#204390"]
     },
@@ -5345,8 +5443,6 @@
       "value": "GB-COH-2768338"
     },
     "isicV4": "93110",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Dartford Football Club",
     "slogan": "The Darts",
@@ -5434,8 +5530,6 @@
       "value": "GB-COH-1747066"
     },
     "isicV4": "93199",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Dover Athletic Football Club",
     "slogan": "The Whites",
@@ -5542,8 +5636,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Dulwich Hamlet Football Club",
     "slogan": "The Hamlet",
     "logo": {
@@ -5647,8 +5739,6 @@
     },
     "isicV4": "93199",
 
-    "disambiguatingDescription": "Community Interest Company (CIC)",
-
     "alternateName": "Eastbourne Borough Football Club",
     "slogan": "The Sports",
     "telephone": "+441323766265",
@@ -5670,6 +5760,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Eastbourne Borough playing kit",
       "color": ["rgb(220, 38, 38)", "rgb(255, 255, 255)"]
     },
@@ -5741,8 +5832,6 @@
       "value": "GB-COH-412018"
     },
     "isicV4": "93120",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Ebbsfleet United Football Club",
     "slogan": "The Fleet",
@@ -5851,8 +5940,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Farnborough Football Club",
     "slogan": "Boro",
     "logo": {
@@ -5872,6 +5959,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Farnborough playing kit",
       "color": ["#E5D247", "#265BA7"]
     },
@@ -5944,8 +6032,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Hampton & Richmond Borough Football Club",
     "slogan": "The Beavers",
     "logo": {
@@ -5966,6 +6052,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Hampton &amp; Richmond Borough playing kit",
       "color": ["#27223C", "#A63226"]
     },
@@ -6036,8 +6123,6 @@
       "value": "GB-COH-1967707"
     },
     "isicV4": "93110",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Havant & Waterlooville Football Club",
     "slogan": "The Hawks",
@@ -6126,8 +6211,6 @@
     },
     "isicV4": "999999",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Hemel Hempstead Town Football Club",
     "slogan": "The Tudors",
     "logo": {
@@ -6142,6 +6225,23 @@
     "sameAs": ["https://twitter.com/hemelfc/"],
     "foundingDate": "1885",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "itemCondition": "NewCondition",
+      "name": "Hemel Hempstead Town playing kit",
+      "brand": "Joma",
+      "image": "https://web76.secure-secure.co.uk/prestigedesignww.co.uk/live/image/cache/catalog/hemel%20home-500x500.jpg",
+      "mainEntityOfPage": "https://web76.secure-secure.co.uk/prestigedesignww.co.uk/live/Football-Kits-Catalogues/Hemel-Hempstead-FC/HHTFC-Home-Kit/HHTFC-Adults-Home-Shirt",
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "GBP",
+          "price": 45
+        }
+      },
+      "color": ["#B9342C", "#ffffff"]
+    },
 
     "url": "https://www.hemelfc.com",
     "memberOf": {
@@ -6241,6 +6341,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Hungerford Town playing kit",
       "color": ["rgb(255, 255, 255)", "rgb(0, 0, 0)"]
     },
@@ -6308,8 +6409,6 @@
       "value": "GB-COH-10757444"
     },
     "isicV4": "93110",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Oxford City Football Club",
     "slogan": "The Hoops",
@@ -6521,8 +6620,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "St Albans City Football Club",
     "slogan": "The Saints",
     "logo": {
@@ -6689,8 +6786,6 @@
       "value": "GB-COH-IP032445"
     },
 
-    "disambiguatingDescription": "Registered society",
-
     "alternateName": "Tonbridge Angels Football Club",
     "slogan": "The Angels",
     "logo": {
@@ -6774,8 +6869,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Community Interest Company (CIC)",
-
     "alternateName": "Welling United Football Club",
     "slogan": "The Wings",
     "logo": {
@@ -6858,8 +6951,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Weymouth Football Club",
     "slogan": "The Terras",
     "logo": {
@@ -6877,8 +6968,9 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Weymouth playing kit",
-      "color": ["LightBlue", "Maroon"]
+      "color": []
     },
 
     "url": "https://uptheterras.co.uk",
@@ -6967,8 +7059,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Worthing Football Club",
     "slogan": "The Rebels",
     "logo": {
@@ -6985,8 +7075,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Worthing playing kit",
-      "color": ["Red"]
+      "color": []
     },
 
     "url": "https://worthingfc.com",
@@ -7057,8 +7148,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Wrexham AFC",
     "slogan": "The Red Dragons",
     "logo": {
@@ -7083,6 +7172,7 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Wrexham AFC playing kit",
       "color": ["#B32B25"]
     },
@@ -7178,6 +7268,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Aveley playing kit",
       "color": ["#1E169D", "#ffffff"]
     },
@@ -7251,8 +7342,6 @@
     },
     "isicV4": ["93110", "93120"],
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Billericay Town Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -7274,6 +7363,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Billericay Town playing kit",
       "color": ["#1618BF"]
     },
@@ -7347,8 +7437,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Bishop's Stortford Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -7370,6 +7458,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Bishop&#39;s Stortford playing kit",
       "color": ["#1B4491", "#FFFFFF"]
     },
@@ -7742,8 +7831,6 @@
     },
     "isicV4": "93199",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Canvey Island Football Club",
     "slogan": "The Gulls",
     "logo": {
@@ -7850,8 +7937,6 @@
       "value": "GB-COH-5316320"
     },
     "isicV4": "93199",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Carshalton Athletic Football Club",
     "slogan": "The Robins",
@@ -7980,6 +8065,7 @@
     "keywords": "amateur",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Corinthian-Casuals playing kit",
       "color": ["#692F2F", "#DA8DD9"]
     },
@@ -8051,8 +8137,6 @@
       "value": "GB-COH-5228510"
     },
     "isicV4": "82990",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Cray Wanderers Football Club",
     "slogan": "The Wands",
@@ -8141,8 +8225,6 @@
       "value": "GB-COH-IP29239R"
     },
 
-    "disambiguatingDescription": "Registered society",
-
     "alternateName": "Enfield Town Football Club",
     "slogan": "The Towners",
     "telephone": "+447787875650",
@@ -8222,8 +8304,6 @@
       "value": "GB-COH-4243803"
     },
     "isicV4": "93120",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Folkestone Invicta Football Club",
     "slogan": "The Seasiders",
@@ -8413,8 +8493,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Hastings United Football Club",
     "slogan": "The U's",
     "logo": {
@@ -8519,8 +8597,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Community Interest Company (CIC)",
-
     "alternateName": "Herne Bay Football Club",
     "slogan": "The Bay",
     "logo": {
@@ -8542,6 +8618,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Herne Bay playing kit",
       "color": ["#1A378E"]
     },
@@ -8613,8 +8690,6 @@
       "value": "GB-COH-8568897"
     },
     "isicV4": "93120",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Hornchurch Football Club",
     "slogan": "The Mighty Urchins",
@@ -8723,8 +8798,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Horsham Football Club",
     "slogan": "The Hornets",
     "logo": {
@@ -8746,6 +8819,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Horsham playing kit",
       "color": ["#357942", "#F5C242"]
     },
@@ -8818,8 +8892,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Kingstonian Football Club",
     "slogan": "The Ks",
     "logo": {
@@ -8839,6 +8911,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Kingstonian playing kit",
       "color": ["#BB271A", "#ffffff"]
     },
@@ -8905,8 +8978,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-IP030988"
     },
-
-    "disambiguatingDescription": "Registered society",
 
     "alternateName": "Lewes Football Club",
     "slogan": "The Rooks",
@@ -9011,8 +9082,6 @@
       "value": "GB-COH-1359836"
     },
     "isicV4": "93199",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Margate Football Club",
     "slogan": "The Gate",
@@ -9200,8 +9269,6 @@
     },
     "isicV4": "93199",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Wingate & Finchley Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -9305,8 +9372,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Ashton United Football Club",
     "slogan": "The Robins",
     "logo": {
@@ -9329,6 +9394,7 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Ashton United playing kit",
       "color": ["#AE3034", "#ffffff"]
     },
@@ -9396,8 +9462,6 @@
       "value": "GB-COH-7420002"
     },
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Atherton Collieries Football Club",
     "slogan": "The Colls",
     "logo": {
@@ -9417,6 +9481,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Atherton Collieries playing kit",
       "color": ["#ffffff", "#000000"]
     },
@@ -9486,8 +9551,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-IP032000"
     },
-
-    "disambiguatingDescription": "Registered society",
 
     "alternateName": "Bamber Bridge Football Club",
     "slogan": "The Brig",
@@ -9590,8 +9653,6 @@
       "value": "GB-COH-1969308"
     },
     "isicV4": "93110",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Belper Town Football Club",
     "slogan": "The Nailers",
@@ -9700,8 +9761,6 @@
       "value": "GB-COH-IP29969R"
     },
 
-    "disambiguatingDescription": "Registered society",
-
     "alternateName": "FC United of Manchester",
     "slogan": "The Reds",
     "logo": {
@@ -9722,6 +9781,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "FC United of Manchester playing kit",
       "color": ["#D03430", "#FFFFFF", "#121212"]
     },
@@ -9811,8 +9871,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Gainsborough Trinity Football Club",
     "slogan": "The Trinity",
     "logo": {
@@ -9900,8 +9958,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Guiseley AFC",
     "slogan": "The Lions",
     "logo": {
@@ -9923,6 +9979,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Guiseley AFC playing kit",
       "color": ["#153979", "#ffffff"]
     },
@@ -10011,8 +10068,6 @@
       "value": "GB-COH-RS007183"
     },
 
-    "disambiguatingDescription": "Registered society",
-
     "alternateName": "Hyde United Football Club",
     "slogan": "The Tigers",
     "logo": {
@@ -10032,6 +10087,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Hyde United playing kit",
       "color": ["#dd3333", "#ffffff"]
     },
@@ -10108,8 +10164,6 @@
     },
     "isicV4": "93120",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Lancaster City Football Club",
     "slogan": "The Dolly Blues",
     "logo": {
@@ -10129,6 +10183,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Lancaster City playing kit",
       "color": ["#004C92"]
     },
@@ -10196,8 +10251,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Liversedge Football Club",
     "slogan": "The Sedge",
     "telephone": "+441274875958",
@@ -10219,6 +10272,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Liversedge playing kit",
       "color": ["rgb(116, 207, 255)", "#ffffff"]
     },
@@ -10301,6 +10355,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Marine AFC playing kit",
       "color": ["#000000", "#CEB04E"]
     },
@@ -10467,6 +10522,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Matlock Town playing kit",
       "color": ["#152043"]
     },
@@ -10770,6 +10826,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Radcliffe playing kit",
       "color": ["#19419F", "#F8E35E"]
     },
@@ -10840,8 +10897,6 @@
     },
     "isicV4": "93110",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "South Shields Football Club",
     "slogan": "The Mariners",
     "logo": {
@@ -10863,6 +10918,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "South Shields playing kit",
       "color": ["#6F2935", "#8FCFE6"]
     },
@@ -10933,8 +10989,6 @@
       "value": "GB-COH-168812"
     },
     "isicV4": "93110",
-
-    "disambiguatingDescription": "Private limited Company",
 
     "alternateName": "Stafford Rangers Football Club",
     "slogan": "The Rangers",
@@ -11014,8 +11068,6 @@
     },
     "isicV4": "96090",
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Stalybridge Celtic Football Club",
     "slogan": "The Celts",
     "telephone": "+441613382828",
@@ -11036,6 +11088,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Stalybridge Celtic playing kit",
       "color": ["#3170EA", "#ffffff"]
     },
@@ -11124,6 +11177,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Warrington Rylands 1906 playing kit",
       "color": ["#264793"]
     },
@@ -11190,8 +11244,6 @@
       "value": "GB-COH-6412371"
     },
 
-    "disambiguatingDescription": "Private limited Company",
-
     "alternateName": "Warrington Town Football Club",
     "slogan": "The Yellows",
     "telephone": "+447854123199",
@@ -11215,6 +11267,7 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Warrington Town playing kit",
       "color": ["#FDFF54", "#1331A4"]
     },
@@ -11297,6 +11350,7 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
+      "itemCondition": "NewCondition",
       "name": "Whitby Town playing kit",
       "color": ["#0D1B89"]
     },
