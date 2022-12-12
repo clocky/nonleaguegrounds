@@ -91,8 +91,28 @@ eleventyComputed:
     <div class="columns">
       {% for club in clubs %}
         <div class="column is-one-third">
-          {{ clubCard(club, league) }}
-        </div>
+          <script type="application/ld+json">
+            {{ club | dump | safe }}
+          </script>
+
+          <div class="card card shadow-md is-cursor-pointer transform is-duration-300 hover-shadow-xl hover-translate-y" id="{{ club.name | slugify }}">
+            <a href="/leagues/{{ league.name | slugify }}/{{ club.name | slugify }}">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    {% image club.logo.contentUrl, [48,96], ["webp", "png"], club.name, "48px", "crests" %}
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-6 mt-1">{{ club.name }}</p>
+                  <p class="subtitle is-6">{{ club.slogan }}</p>
+                </div>
+              </div>
+            </div>
+            </a>
+          </div>
+          </div>
       {% endfor %}
     </div>
     {% endfor %}
