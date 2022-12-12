@@ -44,11 +44,11 @@ eleventyComputed:
                 </span>
               {% endif %}
               {%- if club.disambiguatingDescription %}
-                <span class="icon">
-                  {%- if club.disambiguatingDescription == "Community Interest Company (CIC)" %}
+                {%- if club.disambiguatingDescription == "Community Interest Company (CIC)" %}
+                  <span class="icon">
                     <i class="fa-solid fa-seedling has-text-success ml-1"></i>
-                  {%- endif %}
-                </span>
+                  </span>
+                {%- endif %}
               {% endif %}
             </th>
             <td>

@@ -23,44 +23,37 @@ eleventyComputed:
   <script type="application/ld+json">
     {{ club | dump | safe }}
   </script>
+  <script>
+    {%- for url in club.sameAs %}
+      {%- if "youtube" in url and "channel" in url %}
+        async function loadVideo(iframe) {
+            {% set cid = url.split("/")[4] %}
+            {% set channelUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=" + cid | urlencode %}
+            const url = "https://api.rss2json.com/v1/api.json?rss_url={{ channelUrl }}";
+            const response = await fetch(url)
+            const result = await response.json()
+            const link = result.items[0].link;
+            const id = link.substring(link.indexOf("=") + 1); 
+            iframe.setAttribute("src", `https://youtube.com/embed/${id}?controls=0&autoplay=1`);
+        }
+        window.onload = function() {
+          loadVideo(document.getElementById("youtube"))
+        }
+      {%- endif %}
+    {%- endfor %}
+  </script>
 {% endblock %}
 
 {% block css %}
-    {%- if club.owns %}
+  {%- if club.owns %}
     {%- if not club.image %}
-    <style>
-      section.hero {
-        background: linear-gradient(
-            135deg, 
-        {%- if club.owns.color.length == 2 %}
-            {{ club.owns.color[0] }} 0%, 
-            {{ club.owns.color[0] }} 10.5rem,
-            {{ club.owns.color[1] }} 10.51rem,
-            {{ club.owns.color[1] }} 15rem,
-            {{ club.owns.color[0] }} 15.01rem,
-            {{ club.owns.color[0] }} 15.50rem,
-            #ffffff 15.51rem,
-            #ffffff 100%
-        {%- elif club.owns.color.length == 3 %}
-            {{ club.owns.color[0] }} 0%, 
-            {{ club.owns.color[0] }} 10.5rem,
-            {{ club.owns.color[1] }} 10.51rem,
-            {{ club.owns.color[1] }} 15rem,
-            {{ club.owns.color[2] }} 15.01rem,
-            {{ club.owns.color[2] }} 15.50rem,
-            #ffffff 15.51rem,
-            #ffffff 100%
-        {%- else %}
-            {{ club.owns.color[0] }} 0%, 
-            {{ club.owns.color[0] }} 15.5rem,
-            #ffffff 15.51rem,
-            #ffffff 100%
-        {%- endif %}
-        );
-      }
-    </style>
+      <style>
+        section.hero {
+          background: linear-gradient(135deg, {%- if club.owns.color.length == 2 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[0] }} 15.01rem, {{ club.owns.color[0] }} 15.50rem, #ffffff 15.51rem, #ffffff 100% {%- elif club.owns.color.length == 3 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[2] }} 15.01rem, {{ club.owns.color[2] }} 15.50rem, #ffffff 15.51rem, #ffffff 100% {%- else %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 15.5rem, #ffffff 15.51rem, #ffffff 100% {%- endif %});
+        }
+      </style>
     {%- endif %}
-    {%- endif %}
+  {%- endif %}
 {% endblock %}
 
 {% block breadcrumb %}
@@ -68,10 +61,19 @@ eleventyComputed:
 {% endblock %}
 
 {% block header %}
-  <section class="hero {% if club.owns === false %}is-white{% endif %} is-halfheight-desktop is-medium-mobile has-background">
+  <section class="hero {% if club.owns === false %}is-white{% endif %} {% if club.image %}is-fullheight{% endif %} has-background">
     {% if club.image %}
       {# 640, 768, 1024, 1366, 1600, 1920 #}
-      {% image "./src/_assets/img/flickr/" + club.image.contentUrl, [640, 768, 1024, 1366, 1600],  ["avif", "jpeg"], club.name, "100vw", "clubs" %}
+      {% image "./src/_assets/img/flickr/" + club.image.contentUrl,
+      [
+        640, 768, 1024, 1366, 1600
+      ],
+      [
+        "avif", "jpeg"
+      ],
+      club.name,
+      "100vw",
+      "clubs" %}
     {% endif %}
     <div class="hero-body">
       <div class="container has-text-left">
@@ -82,33 +84,33 @@ eleventyComputed:
 {% endblock %}
 
 {% block actions %}
-<section class="section pt-4 pb-0">
-  <div class="level is-mobile container">
-    <div class="level-left">
-      {% for url in club.sameAs %}
-        <div class="level-item">
-          {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") or url.includes("soundcloud") else url.split("/")[2].split(".")[1] -%}
-          {%- set user = url.split("/")[3] -%}
-          <a href="{{ url }}" target="_blank" rel="noopener canonical" class="button is-white">
-            <span class="icon is-{{ network | lower }}">
-              <i class="fab fa-{{ network | lower }}"></i>
-            </span>
-          </a>
-        </div>
-      {% endfor %}
-      {% if club.url %}
-        <div class="level-item is-hidden-mobile">
-          <a href="{{ club.url }}/" target="_blank" class="button is-text" rel="noopener">
-            <span>{{ club.url.slice(8) }}</span>
-            <span class="icon is-small">
-              <i class="fas fa-arrow-up-right-from-square is-size-7"></i>
-            </span>
-          </a>
-        </div>
-      {% endif %}
+  <section class="section pt-4 pb-0">
+    <div class="level is-mobile container">
+      <div class="level-left">
+        {% for url in club.sameAs %}
+          <div class="level-item">
+            {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") or url.includes("soundcloud") else url.split("/")[2].split(".")[1] -%}
+            {%- set user = url.split("/")[3] -%}
+            <a href="{{ url }}" target="_blank" rel="noopener canonical" class="button is-white">
+              <span class="icon is-{{ network | lower }}">
+                <i class="fab fa-{{ network | lower }}"></i>
+              </span>
+            </a>
+          </div>
+        {% endfor %}
+        {% if club.url %}
+          <div class="level-item is-hidden-mobile">
+            <a href="{{ club.url }}/" target="_blank" class="button is-text" rel="noopener">
+              <span>{{ club.url.slice(8) }}</span>
+              <span class="icon is-small">
+                <i class="fas fa-arrow-up-right-from-square is-size-7"></i>
+              </span>
+            </a>
+          </div>
+        {% endif %}
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 {% endblock %}
 
 {% block main %}
@@ -145,9 +147,10 @@ eleventyComputed:
         </p>
         {%- if club.description %}
           {%- for sentence in club.description.split(". ") %}
-          <p class="block">
-            {{ sentence }}{% if not loop.last %}.{% endif %}
-          </p>
+            <p class="block">
+              {{ sentence }}
+              {% if not loop.last %}.{% endif %}
+            </p>
           {%- endfor %}
         {%- endif %}
 
@@ -165,27 +168,29 @@ eleventyComputed:
         {%- endif %}
 
         {% for url in club.sameAs %}
-          {% if "youtube" in url and "channel" not in url %}
-            {% set channel = url.split("/")[3] %}
-            <figure class="image is-16by9 ">
-              <iframe class="has-ratio" width="600" height="340" src="https://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=user_uploads&list={{ channel }}" frameborder="0" allowfullscreen></iframe>
+          {% if "youtube" in url %}
+            <figure class="image is-16by9 box">
+              {% if "channel" in url %}
+                {% set channel = url.split("/")[4] %}
+                <iframe class="has-ratio" id="youtube" width="600" height="340"></iframe>
+              {% endif %}
             </figure>
           {% endif %}
         {% endfor %}
 
         {%- if club.nonProfitStatus %}
-          <hr class="separator" />
+          <hr class="separator"/>
           <p class="block has-text-grey is-size-7">
-          {% if club.nonProfitStatus == "UnincorporatedAssociationCharity" %}
-            <span class="has-text-weight-semibold">{{ club.alternateName }}</span> 
+            {% if club.nonProfitStatus == "UnincorporatedAssociationCharity" %}
+              <span class="has-text-weight-semibold">{{ club.alternateName }}</span> 
             is an <a href="https://www.gov.uk/unincorporated-associations">unincorporated association</a>.
           {% elif club.nonProfitStatus == "LimitedByGuaranteeCharity" %}
-            <span class="has-text-weight-semibold">{{ club.legalName }}</span> 
+              <span class="has-text-weight-semibold">{{ club.legalName }}</span> 
             trading as {{ club.alternateName }}
             is a not-for-profit company limited by guarantee. 
             Company number <a href="https://find-and-update.company-information.service.gov.uk/search?q={{ club.identifier.value.slice(7) }}">
-            {{ club.identifier.value.slice(7) }}
-            </a>.
+                {{ club.identifier.value.slice(7) }}
+              </a>.
           {% endif %}
           </p>
         {%- endif %}

@@ -101,7 +101,7 @@
           "itemCondition": "NewCondition",
           "name": "Aldershot Town playing kit",
           "brand": "Erreà",
-          "material": "Skin fabric",
+          "material": "TI-energy, a high performance technical fabric",
           "image": "https://www.theshots.co.uk/wp-content/uploads/2022/06/FB_2-1-scaled.jpg",
           "mainEntityOfPage": "https://www.theshots.co.uk/product/adult-home-2022-23-shirt/",
           "color": ["#C32D27", "#172576"]
@@ -220,7 +220,7 @@
           "https://twitter.com/bromleyfc/",
           "https://www.facebook.com/bromleyfc",
           "https://www.instagram.com/bromleyfc/",
-          "https://www.youtube.com/bromleyfctv"
+          "https://www.youtube.com/channel/UCMTaa8yaeo6aD7UvCCs1tAw"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -552,7 +552,7 @@
           "@type": "Product",
           "itemCondition": "NewCondition",
           "name": "Maidenhead United playing kit",
-          "brand": "UHLsport",
+          "brand": "uhlsport",
           "image": "https://cdn.shopify.com/s/files/1/0348/8533/7225/products/HOMEAMEND202223_1024x1024@2x.jpg?v=1655970948",
           "mainEntityOfPage": "https://mufcdirect.co.uk/collections/mufc-1st-team-club-shop/products/mufc-home-shirt-2022-23-junior-sizes",
           "color": ["#060807", "#ffffff"]
@@ -2133,7 +2133,7 @@
           "@type": "Product",
           "itemCondition": "NewCondition",
           "name": "Spennymoor Town playing kit",
-          "brand": "Erreà",
+          "brand": "Erreá",
           "image": "https://spennymoortownfc.co.uk/wp-content/uploads/2022/07/600x338xhomekit_2223_i.jpg.pagespeed.ic.3tmEulBFT5.jpg",
           "mainEntityOfPage": "https://spennymoortownfc.co.uk/product/2022-23-home-shirt/",
           "color": ["#ffffff", "#000000", "#B02418"]
@@ -2189,12 +2189,7 @@
         "@type": "SportsTeam",
         "name": "Bath City",
         "slogan": "The Romans",
-        "sameAs": [
-          "https://twitter.com/BathCity_FC/",
-          "https://www.facebook.com/Bath-City-Football-Club",
-          "https://www.instagram.com/bathcityfc/",
-          "https://www.youtube.com/BathCityFCtv"
-        ],
+        "sameAs": ["https://twitter.com/BathCity_FC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8657.png",
@@ -2206,15 +2201,6 @@
         },
         "foundingDate": "1889",
         "url": "https://www.bathcityfc.com",
-        "owns": {
-          "@type": "Product",
-          "itemCondition": "NewCondition",
-          "name": "Bath City playing kit",
-          "brand": "Erreà",
-          "image": "https://cdn.shopify.com/s/files/1/1624/7791/products/2022-23homeshirt_1024x1024@2x.jpg?v=1659775536",
-          "mainEntityOfPage": "https://bath-city-fc.myshopify.com/collections/top-sellers/products/bath-city-home-shirt-2022-23-adult",
-          "color": ["#ffffff", "#000000"]
-        },
 
         "keywords": "semi-professional",
         "identifier": {
@@ -2256,9 +2242,6 @@
           "@type": "Product",
           "itemCondition": "NewCondition",
           "name": "Braintree Town playing kit",
-          "brand": "Wise.",
-          "image": "https://cdn10.bigcommerce.com/s-y8lh43w/products/4039/images/18165/Home_Shirt_21_22__48866.1627034473.1280.1280.png?c=2",
-          "mainEntityOfPage": "https://www.andreascartersports.co.uk/products/braintree-town-fc-adult-home-shirt-2021-23.html",
           "color": ["#ED7F31", "#ffffff", "#0101E2"]
         },
 
@@ -2296,15 +2279,6 @@
         },
         "foundingDate": "1938",
         "url": "https://chelmsfordcityfc.com",
-        "owns": {
-          "@type": "Product",
-          "itemCondition": "NewCondition",
-          "name": "Chelmsford City playing kit",
-          "brand": "Erreà",
-          "image": "https://chelmsfordcityfc.com/wp-content/uploads/2022/09/ccfc-home-kit-scaled.jpg",
-          "mainEntityOfPage": "https://chelmsfordcityfc.com/product/adults-home-match-shirt-2022-23/",
-          "color": ["#69132D", "#C0C0C0", "#ffffff"]
-        },
 
         "keywords": "semi-professional",
         "identifier": {
@@ -2366,12 +2340,7 @@
         "@type": "SportsTeam",
         "name": "Chippenham Town",
         "slogan": "The Bluebirds",
-        "sameAs": [
-          "https://twitter.com/ChipTownFC/",
-          "https://www.facebook.com/ChipTownFC",
-          "https://www.instagram.com/chiptownfc/",
-          "https://www.youtube.com/channel/UC0ZU5860mrLwzvLzvenGsRA"
-        ],
+        "sameAs": ["https://twitter.com/ChipTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8147.png",
@@ -2383,17 +2352,6 @@
         },
         "foundingDate": "1873",
         "url": "https://chippenhamtown.com",
-        "owns": {
-          "@type": "Product",
-          "itemCondition": "NewCondition",
-          "name": "Chippenham Town playing kit",
-          "brand": "UHLsport",
-          "material": "100% polyester",
-          "image": "https://s3.amazonaws.com/sportinggifts/products/opt1/800/51136.jpg",
-          "sku": "https://51136",
-          "mainEntityOfPage": "https://www.sportingbilly.com/i-s-51136-jaa/chippenham-town-personalised-home-shirt.htm",
-          "color": ["#2A62A8", "#ffffff", "#1F2C5D"]
-        },
 
         "identifier": {
           "@type": "url",
@@ -2760,23 +2718,6 @@
         },
         "foundingDate": "1885",
         "url": "https://www.hemelfc.com",
-        "owns": {
-          "@type": "Product",
-          "itemCondition": "NewCondition",
-          "name": "Hemel Hempstead Town playing kit",
-          "brand": "Joma",
-          "image": "https://web76.secure-secure.co.uk/prestigedesignww.co.uk/live/image/cache/catalog/hemel%20home-500x500.jpg",
-          "mainEntityOfPage": "https://web76.secure-secure.co.uk/prestigedesignww.co.uk/live/Football-Kits-Catalogues/Hemel-Hempstead-FC/HHTFC-Home-Kit/HHTFC-Adults-Home-Shirt",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45
-            }
-          },
-          "color": ["#B9342C", "#ffffff"]
-        },
 
         "identifier": {
           "@type": "url",

@@ -2648,7 +2648,7 @@
           "https://twitter.com/bromleyfc/",
           "https://www.facebook.com/bromleyfc",
           "https://www.instagram.com/bromleyfc/",
-          "https://www.youtube.com/bromleyfctv"
+          "https://www.youtube.com/channel/UCMTaa8yaeo6aD7UvCCs1tAw"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5112,12 +5112,7 @@
         },
         "foundingDate": "1889",
         "url": "https://www.bathcityfc.com",
-        "sameAs": [
-          "https://twitter.com/BathCity_FC/",
-          "https://www.facebook.com/Bath-City-Football-Club",
-          "https://www.instagram.com/bathcityfc/",
-          "https://www.youtube.com/BathCityFCtv"
-        ],
+        "sameAs": ["https://twitter.com/BathCity_FC/"],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
@@ -6868,12 +6863,7 @@
         },
         "foundingDate": "1873",
         "url": "https://chippenhamtown.com",
-        "sameAs": [
-          "https://twitter.com/ChipTownFC/",
-          "https://www.facebook.com/ChipTownFC",
-          "https://www.instagram.com/chiptownfc/",
-          "https://www.youtube.com/channel/UC0ZU5860mrLwzvLzvenGsRA"
-        ],
+        "sameAs": ["https://twitter.com/ChipTownFC/"],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
