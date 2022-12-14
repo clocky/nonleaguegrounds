@@ -1,19 +1,19 @@
-<footer class="footer has-background-light ">
+<footer class="footer has-background-dark ">
   <div class="container">
     <div class="columns is-variable is-8">
       <div class="column">
-        <p>
-          <small>{{ meta.disclaimer }}</small>
+        <p class="has-text-white">
+          {{ meta.disclaimer }}
         </p>
       </div>
       <div class="column">
         {%- for tier, league in leagues | sort(attribute = "additionalProperty.value") | groupby("additionalProperty.value") %}
-          <h5 class="title is-5 is-size-7 mb-1">{{ tier | int | ordinal }} tier</h5>
+          <h5 class="title is-5 is-size-7 mb-1 has-text-white">{{ tier | int | ordinal }} tier</h5>
           <ul class="mb-4">
             {% for item in league %}
               <li>
                 <small>
-                  <a href="/leagues/{{ item.name | slugify }}">{{ item.name }}</a>
+                  <a href="/leagues/{{ item.name | slugify }}" class="has-text-link-light">{{ item.name }}</a>
                 </small>
               </li>
             {%- endfor %}
