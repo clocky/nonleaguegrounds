@@ -10,6 +10,7 @@ const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 const Image = require("@11ty/eleventy-img");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const slugify = require("slugify");
+const fetch  = require("node-fetch");
 require('dotenv').config();
 const GOOGLE_MAPS_KEY = process.env.GOOGLE_MAPS_API_KEY;
 
@@ -76,9 +77,29 @@ module.exports = function (eleventyConfig) {
     return distance.toFixed(1);
   });
 
-  eleventyConfig.addShortcode("staticmap", function (address, width = 500, height = 500, zoom = 13, scale = 1, maptype="roadmap") {
-		return `https://maps.googleapis.com/maps/api/staticmap?center=${encodeURIComponent(address)}&zoom=${zoom}&scale=${scale}&size=${width}x${height}&maptype=${maptype}&key=${GOOGLE_MAPS_KEY}`;
-	});
+  eleventyConfig.addShortcode("staticmap", function (address, width = 500, height = 500, zoom = 13, scale = 1, maptype = "roadmap") {
+    const google = new URL("https://maps.googleapis.com/maps/api/staticmap");
+    google.searchParams.set("center", address);
+    google.searchParams.set("size", `${width}x${height}`);
+    google.searchParams.set("zoom", zoom);
+    google.searchParams.set("scale", scale);
+    google.searchParams.set("maptype", maptype);
+    google.searchParams.set("key", GOOGLE_MAPS_KEY);
+		return google;
+  });
+  
+  eleventyConfig.addNunjucksAsyncShortcode("tweet",
+    async function (url) {
+      console.log(`Retrieiving tweet from ${url.substring(0, url.length - 1)}`)
+      const twitter = new URL("https://publish.twitter.com/oembed");
+      twitter.searchParams.set("url", url.substring(0, url.length - 1));
+      twitter.searchParams.set("limit", 1);
+      twitter.searchParams.set("lang", "en");
+      twitter.searchParams.set("chrome", "noborders nofooter noheader");
+      let { html } = await fetch(twitter).then((res) => res.json());
+      return html;
+    });
+
 
   /** Add a filter to format inline dates for <time> tags */
   let yearsAgo = (year) => dayjs().diff(dayjs(year, "YYYY"), "year");
