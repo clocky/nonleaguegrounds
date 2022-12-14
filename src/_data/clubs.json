@@ -148,7 +148,7 @@
       "https://twitter.com/altrinchamfc/",
       "https://www.facebook.com/officialalty",
       "https://www.instagram.com/altrinchamfc/",
-      "https://www.youtube.com/altytv"
+      "https://www.youtube.com/channel/UC37zIaEBaIZYrJFbGNvgIdw"
     ],
     "foundingDate": "1891",
     "sport": "Association Football",
@@ -679,7 +679,7 @@
     "sameAs": [
       "https://twitter.com/Dag_RedFC/",
       "https://www.facebook.com/OfficialDaggers",
-      "https://www.youtube.com/OfficialDaggers"
+      "https://www.youtube.com/channel/UCmEQ7rugLA9aKKZ_LOAstxg"
     ],
     "foundingDate": "1992",
     "sport": "Association Football",
@@ -1303,7 +1303,7 @@
       "https://twitter.com/maidstoneunited/",
       "https://www.facebook.com/MaidstoneUnitedFC",
       "https://www.instagram.com/maidstoneunited/",
-      "https://www.youtube.com/stonestv"
+      "https://www.youtube.com/channel/UCHbtEJQBMRlH7FFMwgFb6hQ"
     ],
     "foundingDate": "1992",
     "sport": "Association Football",
@@ -1420,7 +1420,7 @@
       "https://twitter.com/Official_NCFC/",
       "https://www.facebook.com/nottscountyfootballclub",
       "https://www.instagram.com/nottscountyfc/",
-      "https://www.youtube.com/OfficialNCFC",
+      "https://www.youtube.com/channel/UCL0tl-6YAAdE6U4QKK_eb3A",
       "https://www.tiktok.com/@nottscountyofficial/"
     ],
     "foundingDate": "1862",
@@ -1824,7 +1824,7 @@
       "https://twitter.com/SUFCOfficial/",
       "https://www.facebook.com/sufcofficial",
       "https://www.instagram.com/sufcofficial/",
-      "https://www.youtube.com/sufcofficial"
+      "https://www.youtube.com/channel/UCdLl5w5Ft7-Vy7LEswrEkwA"
     ],
     "foundingDate": "1899",
     "sport": "Association Football",
@@ -2588,7 +2588,11 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/telfordutd/"],
+    "sameAs": [
+      "https://twitter.com/telfordutd/",
+      "https://www.facebook.com/telfordutd",
+      "https://www.instagram.com/telfordutd/"
+    ],
     "foundingDate": "2004",
     "sport": "Association Football",
     "owns": {
@@ -3912,7 +3916,7 @@
       "https://twitter.com/GCAFCOfficial/",
       "https://www.facebook.com/gcafcofficial",
       "https://www.instagram.com/gloucestercityafc/",
-      "https://www.youtube.com/GloucesterCityAFC1883"
+      "https://www.youtube.com/channel/UCxuYXjHa7sL-iK1-q1U3VMA"
     ],
     "foundingDate": "1883",
     "sport": "Association Football",
@@ -4007,7 +4011,7 @@
       "https://twitter.com/HerefordFC/",
       "https://www.facebook.com/officialherefordfc",
       "https://www.instagram.com/HEREFORD_FC/",
-      "https://www.youtube.com/HerefordFC_Official"
+      "https://www.youtube.com/channel/UCEiCmSxoZFgiP_XO987CWLg"
     ],
     "foundingDate": "2014",
     "sport": "Association Football",
@@ -4196,7 +4200,7 @@
       "https://twitter.com/khfcofficial/",
       "https://www.facebook.com/khfcofficial",
       "https://www.instagram.com/khfcofficial/",
-      "https://www.youtube.com/khfcofficial"
+      "https://www.youtube.com/channel/UCManiTiUzRGC1ndx3uhFimg"
     ],
     "foundingDate": "1886",
     "sport": "Association Football",
@@ -4678,7 +4682,7 @@
       "https://twitter.com/southport_fc/",
       "https://www.facebook.com/SouthportFootballClub",
       "https://www.instagram.com/southportfootballclub/",
-      "https://www.youtube.com/SouthportFCTV"
+      "https://www.youtube.com/channel/UC8R4EoEh2Ba7xJCiKEdBkMg"
     ],
     "foundingDate": "1881",
     "sport": "Association Football",
@@ -4771,7 +4775,7 @@
       "https://twitter.com/SpennymoorTown/",
       "https://www.facebook.com/SpennymoorTown",
       "https://www.instagram.com/spennnymoor/",
-      "https://www.youtube.com/SpennymoorTownFC"
+      "https://www.youtube.com/channel/UCl5OSomptojlxv5-VwaC4-w"
     ],
     "foundingDate": "2005",
     "sport": "Association Football",
@@ -5328,7 +5332,7 @@
     "sameAs": [
       "https://twitter.com/ConcordRangers/",
       "https://www.facebook.com/ConcordRangersFC",
-      "https://www.youtube.com/BeachBoysTV"
+      "https://www.youtube.com/channel/UCdTweEnEZRRs65PzOxHbhDg"
     ],
     "foundingDate": "1967",
     "sport": "Association Football",
@@ -5416,10 +5420,20 @@
     },
     "sameAs": [
       "https://twitter.com/dartfordfc/",
-      "https://www.facebook.com/DartfordFootballClub"
+      "https://www.facebook.com/DartfordFootballClub",
+      "https://www.instagram.com/dartsfc/"
     ],
     "foundingDate": "1888",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "itemCondition": "NewCondition",
+      "name": "Dartford playing kit",
+      "brand": "Puma",
+      "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000040/a55352df-da8c-4055-b2d1-a686e0293291.jpg",
+      "mainEntityOfPage": "https://dartfordfc.ktckts.com/merchandise/darmerhome/home-shirt",
+      "color": ["#191919", "#ffffff"]
+    },
 
     "url": "https://www.dartfordfc.com",
     "memberOf": {
@@ -6471,7 +6485,7 @@
       "https://twitter.com/sloughtownfc/",
       "https://www.facebook.com/sloughtownfc",
       "https://www.instagram.com/sloughtownfc/",
-      "https://www.youtube.com/sloughtownfc"
+      "https://www.youtube.com/channel/UCwilnKfuVRa4KpB5VaQOx_Q"
     ],
     "foundingDate": "1890",
     "sport": "Association Football",
@@ -8259,7 +8273,8 @@
     },
     "sameAs": [
       "https://twitter.com/FIFC/",
-      "https://www.facebook.com/folkestoneinvictafc"
+      "https://www.facebook.com/folkestoneinvictafc",
+      "https://www.youtube.com/channel/UCKJQnSZfDrn8-aUpKm7cwuQ"
     ],
     "foundingDate": "1936",
     "sport": "Association Football",
@@ -9716,7 +9731,7 @@
     "sameAs": [
       "https://twitter.com/FCUnitedMcr/",
       "https://www.facebook.com/FCUnitedMcr",
-      "https://www.youtube.com/FCUnitedMcr"
+      "https://www.youtube.com/channel/UCyN_tv-mgrO4WFInlw9Lzzg"
     ],
     "foundingDate": "2005",
     "sport": "Association Football",
@@ -9911,10 +9926,10 @@
       "height": 150
     },
     "sameAs": [
-      "https://twitter.com/GuiselyAFC/",
+      "https://twitter.com/GuiseleyAFC/",
       "https://www.facebook.com/GuiseleyAFC",
       "https://www.instagram.com/guiseleyafc1909/",
-      "https://www.youtube.com/OfficialGuiseleyAFC"
+      "https://www.youtube.com/channel/UCFJInYZYFb9mqLqO30CZUlA"
     ],
     "foundingDate": "1909",
     "sport": "Association Football",
@@ -10853,7 +10868,7 @@
       "https://twitter.com/SouthShieldsFC/",
       "https://www.facebook.com/southshieldsfc",
       "https://www.instagram.com/southshieldsfc/",
-      "https://www.youtube.com/southshieldsfc"
+      "https://www.youtube.com/channel/UCVyfR_PwZImPRAkn9SVtcbA"
     ],
     "foundingDate": "1888",
     "sport": "Association Football",

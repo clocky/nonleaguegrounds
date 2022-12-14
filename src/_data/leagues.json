@@ -38,7 +38,7 @@
           "https://twitter.com/altrinchamfc/",
           "https://www.facebook.com/officialalty",
           "https://www.instagram.com/altrinchamfc/",
-          "https://www.youtube.com/altytv"
+          "https://www.youtube.com/channel/UC37zIaEBaIZYrJFbGNvgIdw"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -312,7 +312,7 @@
         "sameAs": [
           "https://twitter.com/Dag_RedFC/",
           "https://www.facebook.com/OfficialDaggers",
-          "https://www.youtube.com/OfficialDaggers"
+          "https://www.youtube.com/channel/UCmEQ7rugLA9aKKZ_LOAstxg"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -581,7 +581,7 @@
           "https://twitter.com/maidstoneunited/",
           "https://www.facebook.com/MaidstoneUnitedFC",
           "https://www.instagram.com/maidstoneunited/",
-          "https://www.youtube.com/stonestv"
+          "https://www.youtube.com/channel/UCHbtEJQBMRlH7FFMwgFb6hQ"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -625,7 +625,7 @@
           "https://twitter.com/Official_NCFC/",
           "https://www.facebook.com/nottscountyfootballclub",
           "https://www.instagram.com/nottscountyfc/",
-          "https://www.youtube.com/OfficialNCFC",
+          "https://www.youtube.com/channel/UCL0tl-6YAAdE6U4QKK_eb3A",
           "https://www.tiktok.com/@nottscountyofficial/"
         ],
         "logo": {
@@ -805,7 +805,7 @@
           "https://twitter.com/SUFCOfficial/",
           "https://www.facebook.com/sufcofficial",
           "https://www.instagram.com/sufcofficial/",
-          "https://www.youtube.com/sufcofficial"
+          "https://www.youtube.com/channel/UCdLl5w5Ft7-Vy7LEswrEkwA"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -1185,7 +1185,11 @@
         "@type": "SportsTeam",
         "name": "AFC Telford United",
         "slogan": "The Bucks",
-        "sameAs": ["https://twitter.com/telfordutd/"],
+        "sameAs": [
+          "https://twitter.com/telfordutd/",
+          "https://www.facebook.com/telfordutd",
+          "https://www.instagram.com/telfordutd/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4688.png",
@@ -1739,7 +1743,7 @@
           "https://twitter.com/GCAFCOfficial/",
           "https://www.facebook.com/gcafcofficial",
           "https://www.instagram.com/gloucestercityafc/",
-          "https://www.youtube.com/GloucesterCityAFC1883"
+          "https://www.youtube.com/channel/UCxuYXjHa7sL-iK1-q1U3VMA"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -1782,7 +1786,7 @@
           "https://twitter.com/HerefordFC/",
           "https://www.facebook.com/officialherefordfc",
           "https://www.instagram.com/HEREFORD_FC/",
-          "https://www.youtube.com/HerefordFC_Official"
+          "https://www.youtube.com/channel/UCEiCmSxoZFgiP_XO987CWLg"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -1865,7 +1869,7 @@
           "https://twitter.com/khfcofficial/",
           "https://www.facebook.com/khfcofficial",
           "https://www.instagram.com/khfcofficial/",
-          "https://www.youtube.com/khfcofficial"
+          "https://www.youtube.com/channel/UCManiTiUzRGC1ndx3uhFimg"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -2074,7 +2078,7 @@
           "https://twitter.com/southport_fc/",
           "https://www.facebook.com/SouthportFootballClub",
           "https://www.instagram.com/southportfootballclub/",
-          "https://www.youtube.com/SouthportFCTV"
+          "https://www.youtube.com/channel/UC8R4EoEh2Ba7xJCiKEdBkMg"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -2116,7 +2120,7 @@
           "https://twitter.com/SpennymoorTown/",
           "https://www.facebook.com/SpennymoorTown",
           "https://www.instagram.com/spennnymoor/",
-          "https://www.youtube.com/SpennymoorTownFC"
+          "https://www.youtube.com/channel/UCl5OSomptojlxv5-VwaC4-w"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -2374,7 +2378,7 @@
         "sameAs": [
           "https://twitter.com/ConcordRangers/",
           "https://www.facebook.com/ConcordRangersFC",
-          "https://www.youtube.com/BeachBoysTV"
+          "https://www.youtube.com/channel/UCdTweEnEZRRs65PzOxHbhDg"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -2414,7 +2418,8 @@
         "slogan": "The Darts",
         "sameAs": [
           "https://twitter.com/dartfordfc/",
-          "https://www.facebook.com/DartfordFootballClub"
+          "https://www.facebook.com/DartfordFootballClub",
+          "https://www.instagram.com/dartsfc/"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -2427,6 +2432,15 @@
         },
         "foundingDate": "1888",
         "url": "https://www.dartfordfc.com",
+        "owns": {
+          "@type": "Product",
+          "itemCondition": "NewCondition",
+          "name": "Dartford playing kit",
+          "brand": "Puma",
+          "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000040/a55352df-da8c-4055-b2d1-a686e0293291.jpg",
+          "mainEntityOfPage": "https://dartfordfc.ktckts.com/merchandise/darmerhome/home-shirt",
+          "color": ["#191919", "#ffffff"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -2814,7 +2828,7 @@
           "https://twitter.com/sloughtownfc/",
           "https://www.facebook.com/sloughtownfc",
           "https://www.instagram.com/sloughtownfc/",
-          "https://www.youtube.com/sloughtownfc"
+          "https://www.youtube.com/channel/UCwilnKfuVRa4KpB5VaQOx_Q"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -3487,7 +3501,8 @@
         "slogan": "The Seasiders",
         "sameAs": [
           "https://twitter.com/FIFC/",
-          "https://www.facebook.com/folkestoneinvictafc"
+          "https://www.facebook.com/folkestoneinvictafc",
+          "https://www.youtube.com/channel/UCKJQnSZfDrn8-aUpKm7cwuQ"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -4061,7 +4076,7 @@
         "sameAs": [
           "https://twitter.com/FCUnitedMcr/",
           "https://www.facebook.com/FCUnitedMcr",
-          "https://www.youtube.com/FCUnitedMcr"
+          "https://www.youtube.com/channel/UCyN_tv-mgrO4WFInlw9Lzzg"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -4131,10 +4146,10 @@
         "name": "Guiseley AFC",
         "slogan": "The Lions",
         "sameAs": [
-          "https://twitter.com/GuiselyAFC/",
+          "https://twitter.com/GuiseleyAFC/",
           "https://www.facebook.com/GuiseleyAFC",
           "https://www.instagram.com/guiseleyafc1909/",
-          "https://www.youtube.com/OfficialGuiseleyAFC"
+          "https://www.youtube.com/channel/UCFJInYZYFb9mqLqO30CZUlA"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -4513,7 +4528,7 @@
           "https://twitter.com/SouthShieldsFC/",
           "https://www.facebook.com/southshieldsfc",
           "https://www.instagram.com/southshieldsfc/",
-          "https://www.youtube.com/southshieldsfc"
+          "https://www.youtube.com/channel/UCVyfR_PwZImPRAkn9SVtcbA"
         ],
         "logo": {
           "@type": "ImageObject",

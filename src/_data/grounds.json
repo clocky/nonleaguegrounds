@@ -14,16 +14,9 @@
       "postalCode": "NG2 3HJ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.nottscountyfc.co.uk/club/getting-here/"
-    },
-    "url": "https://www.nottscountyfc.co.uk/club/getting-here/",
+    "mainEntityOfPage": "https://www.nottscountyfc.co.uk/club/getting-here/",
     "description": "The route to the ground is signposted 'Football and Cricket Traffic' from all directions.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/meadow-lane"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/meadow-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -57,7 +50,7 @@
           "https://twitter.com/Official_NCFC/",
           "https://www.facebook.com/nottscountyfootballclub",
           "https://www.instagram.com/nottscountyfc/",
-          "https://www.youtube.com/OfficialNCFC",
+          "https://www.youtube.com/channel/UCL0tl-6YAAdE6U4QKK_eb3A",
           "https://www.tiktok.com/@nottscountyofficial/"
         ],
         "memberOf": {
@@ -95,15 +88,8 @@
       "postalCode": "OL1 2PA",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.oldhamathletic.co.uk/club/visitors-guide/"
-    },
-    "url": "https://www.oldhamathletic.co.uk/club/visitors-guide/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/boundary-park"
-    },
+    "mainEntityOfPage": "https://www.oldhamathletic.co.uk/club/visitors-guide/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/boundary-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -170,15 +156,8 @@
       "postalCode": "SS2 6NQ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.southendunited.co.uk/club/visiting-roots-hall/"
-    },
-    "url": "https://www.southendunited.co.uk/club/visiting-roots-hall/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/roots-hall"
-    },
+    "mainEntityOfPage": "https://www.southendunited.co.uk/club/visiting-roots-hall/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/roots-hall",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -245,15 +224,9 @@
       "postalCode": "NE10 0EF",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://gateshead-fc.com/our-club/gateshead-international-stadium/"
-    },
-    "url": "https://gateshead-fc.com/our-club/gateshead-international-stadium/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-east/gateshead-international-stadium"
-    },
+    "mainEntityOfPage": "https://gateshead-fc.com/our-club/gateshead-international-stadium/",
+    "description": "Gateshead FC have played at the International Stadium since moving from Redheugh Park during the 1971/72 season. An all-seated venue, the International Stadium boasts a capacity of 11,800.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-east/gateshead-international-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -319,15 +292,8 @@
       "postalCode": "S41 8NZ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://chesterfield-fc.co.uk/technique-stadium"
-    },
-    "url": "https://chesterfield-fc.co.uk/technique-stadium",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/technique-stadium"
-    },
+    "mainEntityOfPage": "https://chesterfield-fc.co.uk/technique-stadium",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/technique-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -394,15 +360,8 @@
       "postalCode": "LL11 2AH",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.wrexhamafc.co.uk/club/the-racecourse-ground/"
-    },
-    "url": "https://www.wrexhamafc.co.uk/club/the-racecourse-ground/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/wales/racecourse-ground"
-    },
+    "mainEntityOfPage": "https://www.wrexhamafc.co.uk/club/the-racecourse-ground/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/wales/racecourse-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -476,15 +435,8 @@
       "postalCode": "HX1 2YT",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://fchalifaxtown.com/club/guide-to-the-shay/"
-    },
-    "url": "https://fchalifaxtown.com/club/guide-to-the-shay/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-shay"
-    },
+    "mainEntityOfPage": "https://fchalifaxtown.com/club/guide-to-the-shay/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-shay",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -554,15 +506,8 @@
       "postalCode": "BA22 8YF",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.ytfc.net/club/huish-park-stadium/"
-    },
-    "url": "https://www.ytfc.net/club/huish-park-stadium/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-west/huish-park"
-    },
+    "mainEntityOfPage": "https://www.ytfc.net/club/huish-park-stadium/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-west/huish-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -623,15 +568,8 @@
       "postalCode": "DN15 8TD",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.scunthorpe-united.co.uk/club/stadium-guide/getting-to-glanford-park/"
-    },
-    "url": "https://www.scunthorpe-united.co.uk/club/stadium-guide/getting-to-glanford-park/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/glanford-park"
-    },
+    "mainEntityOfPage": "https://www.scunthorpe-united.co.uk/club/stadium-guide/getting-to-glanford-park/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/glanford-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -660,7 +598,7 @@
           "https://twitter.com/SUFCOfficial/",
           "https://www.facebook.com/sufcofficial",
           "https://www.instagram.com/sufcofficial/",
-          "https://www.youtube.com/sufcofficial"
+          "https://www.youtube.com/channel/UCdLl5w5Ft7-Vy7LEswrEkwA"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -698,15 +636,8 @@
       "postalCode": "PE30 5PB",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.kltown.co.uk/matches/matchdays/"
-    },
-    "url": "https://www.kltown.co.uk/matches/matchdays/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/the-walks-stadium"
-    },
+    "mainEntityOfPage": "https://www.kltown.co.uk/matches/matchdays/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/the-walks-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -782,16 +713,9 @@
       "postalCode": "YO32 9AF",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.yorkcityfootballclub.co.uk/club/visit-us"
-    },
-    "url": "https://www.yorkcityfootballclub.co.uk/club/visit-us",
-    "description": "This community stadium leisure complex heralded a new era for sports and community services in the city. It provided a new football and rugby stadium for professional and community sport as well as leisure facilities for York.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/york-community-stadium"
-    },
+    "mainEntityOfPage": "https://www.yorkcityfootballclub.co.uk/club/visit-us",
+    "description": "This community stadium leisure complex heralded a new era for sports and  community services in the city. It provided a new football and rugby  stadium for professional and community sport as well as leisure facilities  for York.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/york-community-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -863,15 +787,8 @@
       "postalCode": "WA15 8AP",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://altrinchamfc.com/pages/the-j-davidson-stadium"
-    },
-    "url": "https://altrinchamfc.com/pages/the-j-davidson-stadium",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/moss-lane"
-    },
+    "mainEntityOfPage": "https://altrinchamfc.com/pages/the-j-davidson-stadium",
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/moss-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -900,7 +817,7 @@
           "https://twitter.com/altrinchamfc/",
           "https://www.facebook.com/officialalty",
           "https://www.instagram.com/altrinchamfc/",
-          "https://www.youtube.com/altytv"
+          "https://www.youtube.com/channel/UC37zIaEBaIZYrJFbGNvgIdw"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -943,15 +860,8 @@
       "postalCode": "GU11 1TW",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://theshots.co.uk/club/directions/"
-    },
-    "url": "https://theshots.co.uk/club/directions/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/recreation-ground"
-    },
+    "mainEntityOfPage": "https://theshots.co.uk/club/directions/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/recreation-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1021,10 +931,7 @@
       "postalCode": "BN23 7QH",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/priory-lane"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/priory-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1095,16 +1002,9 @@
       "postalCode": "GU14 8UD",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://farnboroughfc.co.uk/club/stadium/"
-    },
-    "url": "https://farnboroughfc.co.uk/club/stadium/",
-    "description": "Over the last few years the Easy As HGV Stadium has undergone – and is undergoing – a major transformation. The tired old stands have either gone or been completely refurbished.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/cherrywood-road"
-    },
+    "mainEntityOfPage": "https://farnboroughfc.co.uk/club/stadium/",
+    "description": "Over the last few years the Easy As HGV Stadium has undergone - and is undergoing - a major transformation. The tired old stands have either gone or been completely refurbished.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/cherrywood-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1169,15 +1069,8 @@
       "postalCode": "DT4 9XJ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://uptheterras.co.uk/club-info/bob-lucas-stadium/"
-    },
-    "url": "https://uptheterras.co.uk/club-info/bob-lucas-stadium/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-west/bob-lucas-stadium"
-    },
+    "mainEntityOfPage": "https://uptheterras.co.uk/club-info/bob-lucas-stadium/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-west/bob-lucas-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1238,15 +1131,8 @@
       "postalCode": "SK15 2RT",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.stalybridgeceltic.co.uk/team.php?team=SBCEL"
-    },
-    "url": "https://www.stalybridgeceltic.co.uk/team.php?team=SBCEL",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/bower-fold"
-    },
+    "mainEntityOfPage": "https://www.stalybridgeceltic.co.uk/team.php?team=SBCEL",
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/bower-fold",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1316,16 +1202,9 @@
       "postalCode": "OX16 5AB",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.banburyunitedfc.co.uk/a/ground-directions-11814.html"
-    },
-    "url": "https://www.banburyunitedfc.co.uk/a/ground-directions-11814.html",
+    "mainEntityOfPage": "https://www.banburyunitedfc.co.uk/a/ground-directions-11814.html",
     "description": "The restricted access to the ground can lead to long delays in and around the station when leaving after matches, especially on Saturdays. Town centre car parks are up to 15 minutes walk from the ground.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/spencer-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/spencer-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1390,10 +1269,7 @@
       "postalCode": "HA8 6AG",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/the-hive-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/the-hive-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1463,16 +1339,9 @@
       "postalCode": "TF1 2NW",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.telfordunited.com/the-club/new-bucks-head-stadium/"
-    },
-    "url": "https://www.telfordunited.com/the-club/new-bucks-head-stadium/",
-    "description": "New Bucks Head stadium is considered to be amongst the best non-league grounds in the country and holds a football league 'A' grading.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/new-bucks-head"
-    },
+    "mainEntityOfPage": "https://www.telfordunited.com/the-club/new-bucks-head-stadium/",
+    "description": "New Bucks Head stadium is considered to be amongst the best non-league  grounds in the country and holds a football league 'A' grading.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/west-midlands/new-bucks-head",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1502,7 +1371,11 @@
         },
         "foundingDate": "2004",
         "url": "https://www.telfordunited.com",
-        "sameAs": ["https://twitter.com/telfordutd/"],
+        "sameAs": [
+          "https://twitter.com/telfordutd/",
+          "https://www.facebook.com/telfordutd",
+          "https://www.instagram.com/telfordutd/"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League North",
@@ -1539,15 +1412,8 @@
       "postalCode": "DY10 1NB",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://harriers.co.uk/contact/visiting-aggborough/"
-    },
-    "url": "https://harriers.co.uk/contact/visiting-aggborough/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/aggborough"
-    },
+    "mainEntityOfPage": "https://harriers.co.uk/contact/visiting-aggborough/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/west-midlands/aggborough",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1576,7 +1442,7 @@
           "https://twitter.com/khfcofficial/",
           "https://www.facebook.com/khfcofficial",
           "https://www.instagram.com/khfcofficial/",
-          "https://www.youtube.com/khfcofficial"
+          "https://www.youtube.com/channel/UCManiTiUzRGC1ndx3uhFimg"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -1614,16 +1480,9 @@
       "postalCode": "TQ1 3PS",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://torquayunited.com/fans/directions/"
-    },
-    "url": "https://torquayunited.com/fans/directions/",
+    "mainEntityOfPage": "https://torquayunited.com/fans/directions/",
     "description": "Plainmoor Stadium is situated in St Marychurch, an area of Torquay that is within walking distance of Torquay town centre.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-west/plainmoor"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-west/plainmoor",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1693,16 +1552,9 @@
       "postalCode": "RM10 7XL",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.daggers.co.uk/page/Stadium"
-    },
-    "url": "https://www.daggers.co.uk/page/Stadium",
-    "description": "Victoria Road has existed as a football ground since 1917, when the Sterling Works side, whose factory was situated alongside, used it.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/victoria-road"
-    },
+    "mainEntityOfPage": "https://www.daggers.co.uk/page/Stadium",
+    "description": "Victoria Road has existed as a football ground since 1917, when the  Sterling Works side, whose factory was situated alongside, used it.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/victoria-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1730,7 +1582,7 @@
         "sameAs": [
           "https://twitter.com/Dag_RedFC/",
           "https://www.facebook.com/OfficialDaggers",
-          "https://www.youtube.com/OfficialDaggers"
+          "https://www.youtube.com/channel/UCmEQ7rugLA9aKKZ_LOAstxg"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -1773,10 +1625,7 @@
       "postalCode": "GU22 9AA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/kingfield-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/kingfield-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1847,16 +1696,9 @@
       "postalCode": "PR8 6JZ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://southportfc.net/contact-us/"
-    },
-    "url": "https://southportfc.net/contact-us/",
+    "mainEntityOfPage": "https://southportfc.net/contact-us/",
     "description": "The nearest railway station is Meols Cop on the Manchester to Southport line which is a ten minute walk from the ground.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/haig-avenue"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/haig-avenue",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1885,7 +1727,7 @@
           "https://twitter.com/southport_fc/",
           "https://www.facebook.com/SouthportFootballClub",
           "https://www.instagram.com/southportfootballclub/",
-          "https://www.youtube.com/SouthportFCTV"
+          "https://www.youtube.com/channel/UC8R4EoEh2Ba7xJCiKEdBkMg"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -1923,16 +1765,9 @@
       "postalCode": "PR4 3JZ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.afcfylde.co.uk/mill-farm/"
-    },
-    "url": "https://www.afcfylde.co.uk/mill-farm/",
+    "mainEntityOfPage": "https://www.afcfylde.co.uk/mill-farm/",
     "description": "Mill Farm also has 3G pitches for both football and hockey.  Mill Farm is also home to Fylde Hockey Club.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/mill-farm"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/mill-farm",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -1999,15 +1834,8 @@
       "postalCode": "CT17 0QJ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.doverathletic.com/visit-crabble/"
-    },
-    "url": "https://www.doverathletic.com/visit-crabble/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/crabble-athletic-ground"
-    },
+    "mainEntityOfPage": "https://www.doverathletic.com/visit-crabble/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/crabble-athletic-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2077,16 +1905,9 @@
       "postalCode": "CH1 4LT",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.chesterfc.com/about/find-us/"
-    },
-    "url": "https://www.chesterfc.com/about/find-us/",
-    "description": "Located outside the city centre in the Sealand Road Industrial Estate, the stadium is notable for straddling the England-Wales border. The pitch itself is in Wales (Flintshire), with the front gates and main office in England.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/deva-stadium"
-    },
+    "mainEntityOfPage": "https://www.chesterfc.com/about/find-us/",
+    "description": "Located outside the city centre in the Sealand Road Industrial Estate, the  stadium is notable for straddling the England-Wales border. The pitch  itself is in Wales (Flintshire), with the front gates and main office  in England.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/deva-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2162,15 +1983,8 @@
       "postalCode": "PO9 5TH",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.havantandwaterloovillefc.co.uk/directions-and-parking/"
-    },
-    "url": "https://www.havantandwaterloovillefc.co.uk/directions-and-parking/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/westleigh-park"
-    },
+    "mainEntityOfPage": "https://www.havantandwaterloovillefc.co.uk/directions-and-parking/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/westleigh-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2240,10 +2054,7 @@
       "postalCode": "SO50 9HT",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/ten-acres"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/ten-acres",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2313,16 +2124,9 @@
       "postalCode": "AL1 4NF",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.stalbanscityfc.com/club-history/history-of-clarence-park/"
-    },
-    "url": "https://www.stalbanscityfc.com/club-history/history-of-clarence-park/",
-    "description": "Clarence Park has always enjoyed a reputation for having one of the finest playing surfaces in non-league football, even the early match reports praise the high quality of St. Albans home pitch to the detriment of other grounds and down the years a large number of clubs heading for Wembley to play in the FA Cup final have stopped off at Clarence Park the day before the final for a spot of training.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/clarence-park"
-    },
+    "mainEntityOfPage": "https://www.stalbanscityfc.com/club-history/history-of-clarence-park/",
+    "description": "Clarence Park has always enjoyed a reputation for having one of the finest playing surfaces in non-league football, even the early match reports praise the high quality of St Albans home pitch to the detriment of other grounds. Down the years a large number of clubs heading for Wembley to play in the FA Cup final have stopped off at Clarence Park the day before the final for a spot of training.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/clarence-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2384,16 +2188,9 @@
       "postalCode": "SM5 2PW",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.carshaltonathletic.co.uk/find-us"
-    },
-    "url": "https://www.carshaltonathletic.co.uk/find-us",
-    "description": "Carshalton British Rail Station is five minutes walk from the ground",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/war-memorial-sports-ground"
-    },
+    "mainEntityOfPage": "https://www.carshaltonathletic.co.uk/find-us",
+    "description": "Carshalton British Rail Station is five minutes walk from the ground.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/war-memorial-sports-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2458,10 +2255,7 @@
       "postalCode": "CM12 9SA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/new-lodge"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/new-lodge",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2533,15 +2327,9 @@
       "postalCode": "PE21 6JN",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.bostonunited.co.uk/a/matchday-car-parking-and-travel-62856.html"
-    },
-    "url": "https://www.bostonunited.co.uk/a/matchday-car-parking-and-travel-62856.html",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/jakemans-community-stadium"
-    },
+    "mainEntityOfPage": "https://www.bostonunited.co.uk/a/matchday-car-parking-and-travel-62856.html",
+    "description": "Matchday car parking at the Jakemans Community Stadium is exclusively for  car park season pass holders and club guests in season 2022-2023. Further  car parking spaces will become available following the completion of  construction works at the Community Stadium in the future.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/jakemans-community-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2606,15 +2394,8 @@
       "postalCode": "BR2 9EF",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.bromleyfc.co.uk/first-time-visitor-guide/"
-    },
-    "url": "https://www.bromleyfc.co.uk/first-time-visitor-guide/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/hayes-lane"
-    },
+    "mainEntityOfPage": "https://www.bromleyfc.co.uk/first-time-visitor-guide/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/hayes-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2727,15 +2508,8 @@
       "postalCode": "HR4 9JU",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.herefordfc.co.uk/visiting-edgar-street/"
-    },
-    "url": "https://www.herefordfc.co.uk/visiting-edgar-street/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/edgar-street"
-    },
+    "mainEntityOfPage": "https://www.herefordfc.co.uk/visiting-edgar-street/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/west-midlands/edgar-street",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2769,7 +2543,7 @@
           "https://twitter.com/HerefordFC/",
           "https://www.facebook.com/officialherefordfc",
           "https://www.instagram.com/HEREFORD_FC/",
-          "https://www.youtube.com/HerefordFC_Official"
+          "https://www.youtube.com/channel/UCEiCmSxoZFgiP_XO987CWLg"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2811,15 +2585,8 @@
       "postalCode": "DA11 9GN",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.ebbsfleetunited.co.uk/ground-directions/"
-    },
-    "url": "https://www.ebbsfleetunited.co.uk/ground-directions/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/stonebridge-road"
-    },
+    "mainEntityOfPage": "https://www.ebbsfleetunited.co.uk/ground-directions/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/stonebridge-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2883,16 +2650,9 @@
       "postalCode": "M40 0FJ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://fc-utd.co.uk/grounds/broadhurst-park"
-    },
-    "url": "https://fc-utd.co.uk/grounds/broadhurst-park",
+    "mainEntityOfPage": "https://fc-utd.co.uk/grounds/broadhurst-park",
     "description": "Broadhurst Park is the UK's first new ground to be built and funded by a supporter-owned football club.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/broadhurst-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/broadhurst-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -2920,7 +2680,7 @@
         "sameAs": [
           "https://twitter.com/FCUnitedMcr/",
           "https://www.facebook.com/FCUnitedMcr",
-          "https://www.youtube.com/FCUnitedMcr"
+          "https://www.youtube.com/channel/UCyN_tv-mgrO4WFInlw9Lzzg"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2963,16 +2723,9 @@
       "postalCode": "CM23 5RG",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.bsfc.co.uk/the-prokit-uk-stadium/"
-    },
-    "url": "https://www.bsfc.co.uk/the-prokit-uk-stadium/",
+    "mainEntityOfPage": "https://www.bsfc.co.uk/the-prokit-uk-stadium/",
     "description": "The grandstand is covered and all seated with the addition of press facilities and directors box.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/woodside-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/woodside-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3044,15 +2797,8 @@
       "postalCode": "B92 8PS",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.solihullmoorsfc.co.uk/club/match-day-information/"
-    },
-    "url": "https://www.solihullmoorsfc.co.uk/club/match-day-information/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/damson-park"
-    },
+    "mainEntityOfPage": "https://www.solihullmoorsfc.co.uk/club/match-day-information/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/west-midlands/damson-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3124,10 +2870,7 @@
       "postalCode": "WD6 5AL",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/meadow-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/meadow-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3192,16 +2935,9 @@
       "postalCode": "PO21 2TY",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.pitchero.com/clubs/bognorregistownfc/a/first-time-visitor-information-47966.html?page=2"
-    },
-    "url": "https://www.pitchero.com/clubs/bognorregistownfc/a/first-time-visitor-information-47966.html?page=2",
-    "description": "The ground is situated in Nyewood Lane, Bognor Regis – a short distance from both the seafront and the town centre and railway station.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/nyewood-lane"
-    },
+    "mainEntityOfPage": "https://www.pitchero.com/clubs/bognorregistownfc/a/first-time-visitor-information-47966.html?page=2",
+    "description": "The ground is situated in Nyewood Lane, Bognor Regis - a short distance from both the seafront and the town centre and railway station.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/nyewood-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3270,10 +3006,7 @@
       "postalCode": "DN21 2QW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/the-northolme"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/the-northolme",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3345,16 +3078,9 @@
       "postalCode": "PR7 3DU",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.chorleyfc.com/victory-park/"
-    },
-    "url": "https://www.chorleyfc.com/victory-park/",
-    "description": "Victory Park is named after the outcome of World War One, with work beginning on the ground (an old ash tip) in 1919 and the Club moving in a year later after buying the land for £868.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/victory-park"
-    },
+    "mainEntityOfPage": "https://www.chorleyfc.com/victory-park/",
+    "description": "Victory Park is named after the outcome of World War One, with work  beginning on the ground (an old ash tip) in 1919 and the Club moving in a  year later after buying the land for £868.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/victory-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3430,16 +3156,9 @@
       "postalCode": "SK14 5PL",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://hydeunited.co.uk/ewen-fields/"
-    },
-    "url": "https://hydeunited.co.uk/ewen-fields/",
-    "description": "In 2014, Benfica visited Ewen Fields for a UEFA Youth League Quarter Final fixture against Manchester City.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/ewen-fields"
-    },
+    "mainEntityOfPage": "https://hydeunited.co.uk/ewen-fields/",
+    "description": "In 2014, Benfica visited Ewen Fields for a UEFA Youth League Quarter Final  fixture against Manchester City.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/ewen-fields",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3509,10 +3228,7 @@
       "postalCode": "OL6 8DY",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/hurst-cross"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/hurst-cross",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3584,16 +3300,9 @@
       "postalCode": "CM7 3AL",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.braintreetownfc.org.uk/ground.html"
-    },
-    "url": "https://www.braintreetownfc.org.uk/ground.html",
+    "mainEntityOfPage": "https://www.braintreetownfc.org.uk/ground.html",
     "description": "The ground has a recently extended Main Seated Stand that can accommodate 553 spectators including six wheelchair spaces. The Clubhouse End of the ground has recently been upgraded with a new terrace. This end of the ground can accommodate 1,131 spectators.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/cressing-road"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/cressing-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3660,16 +3369,9 @@
       "postalCode": "ME14 1LQ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://maidstoneunited.co.uk/first-visit-to-the-gallagher-stadium/"
-    },
-    "url": "https://maidstoneunited.co.uk/first-visit-to-the-gallagher-stadium/",
-    "description": "The Gallagher Stadium is minutes away from the town centre, where you’ll find more shops than there is at Bluewater. The ground is seconds away from the River Medway and the beautiful Whatman Park.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/gallagher-stadium"
-    },
+    "mainEntityOfPage": "https://maidstoneunited.co.uk/first-visit-to-the-gallagher-stadium/",
+    "description": "The Gallagher Stadium is minutes away from the town centre, where you'll find more shops than there is at Bluewater. The ground is seconds away from the River Medway and the beautiful Whatman Park.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/gallagher-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3703,7 +3405,7 @@
           "https://twitter.com/maidstoneunited/",
           "https://www.facebook.com/MaidstoneUnitedFC",
           "https://www.instagram.com/maidstoneunited/",
-          "https://www.youtube.com/stonestv"
+          "https://www.youtube.com/channel/UCHbtEJQBMRlH7FFMwgFb6hQ"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -3741,16 +3443,9 @@
       "postalCode": "OL7 9HG",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.curzon-ashton.co.uk/a/stadium-21960.html"
-    },
-    "url": "https://www.curzon-ashton.co.uk/a/stadium-21960.html",
-    "description": "The ground has two covered stands and is fully terraced on all four sides and currently holds the FA 'B' Grading.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/tameside-stadium"
-    },
+    "mainEntityOfPage": "https://www.curzon-ashton.co.uk/a/stadium-21960.html",
+    "description": "The ground has two covered stands and is fully terraced on all four sides  and currently holds the FA 'B' Grading.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/tameside-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3816,10 +3511,7 @@
       "postalCode": "NE24 3JE",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-east/croft-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-east/croft-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3893,15 +3585,8 @@
       "postalCode": "SS8 7PX",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://https://www.canveyislandfc.com/a/directions-52458.html"
-    },
-    "url": "https://https://www.canveyislandfc.com/a/directions-52458.html",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/park-lane"
-    },
+    "mainEntityOfPage": "https://https://www.canveyislandfc.com/a/directions-52458.html",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/park-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -3973,15 +3658,8 @@
       "postalCode": "DA1 1RT",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.dartfordfc.com/directions-to-the-ground/"
-    },
-    "url": "https://www.dartfordfc.com/directions-to-the-ground/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/princes-park"
-    },
+    "mainEntityOfPage": "https://www.dartfordfc.com/directions-to-the-ground/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/princes-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4008,7 +3686,8 @@
         "url": "https://www.dartfordfc.com",
         "sameAs": [
           "https://twitter.com/dartfordfc/",
-          "https://www.facebook.com/DartfordFootballClub"
+          "https://www.facebook.com/DartfordFootballClub",
+          "https://www.instagram.com/dartsfc/"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -4045,16 +3724,9 @@
       "postalCode": "HA4 6JQ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.wealdstone-fc.com/contacts-directions"
-    },
-    "url": "https://www.wealdstone-fc.com/contacts-directions",
+    "mainEntityOfPage": "https://www.wealdstone-fc.com/contacts-directions",
     "description": "It's recommended that supporters travel to Grosvenor Vale via public transport as the club is remarkably well served by tube, train and bus routes.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/grosvenor-vale"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/grosvenor-vale",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4127,16 +3799,9 @@
       "postalCode": "M26 3TQ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.radcliffefc.com/a/match-day-information-47253.html?page=4"
-    },
-    "url": "https://www.radcliffefc.com/a/match-day-information-47253.html?page=4",
+    "mainEntityOfPage": "https://www.radcliffefc.com/a/match-day-information-47253.html?page=4",
     "description": "The stadium has been home to Radcliffe Football Club since 1970 and the ground has played host to many famous teams and footballers over the years.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/stainton-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/stainton-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4201,10 +3866,7 @@
       "postalCode": "TN34 2AX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/the-pilot-field"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/the-pilot-field",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4268,16 +3930,9 @@
       "postalCode": "LS20 8BT",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://guiseleyafc.co.uk/home-games/"
-    },
-    "url": "https://guiseleyafc.co.uk/home-games/",
-    "description": "Nethermoor is about five minutes’ flat walk from Guiseley station.  It is very well served on the Wharfedale Line by trains from Leeds, Bradford and Ilkley.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/nethermoor-park"
-    },
+    "mainEntityOfPage": "https://guiseleyafc.co.uk/home-games/",
+    "description": "Nethermoor is about five minutes' flat walk from Guiseley station.  It is very well served on the Wharfedale Line by trains from Leeds, Bradford and Ilkley.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/nethermoor-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4303,10 +3958,10 @@
         "foundingDate": "1909",
         "url": "https://guiseleyafc.co.uk",
         "sameAs": [
-          "https://twitter.com/GuiselyAFC/",
+          "https://twitter.com/GuiseleyAFC/",
           "https://www.facebook.com/GuiseleyAFC",
           "https://www.instagram.com/guiseleyafc1909/",
-          "https://www.youtube.com/OfficialGuiseleyAFC"
+          "https://www.youtube.com/channel/UCFJInYZYFb9mqLqO30CZUlA"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -4342,10 +3997,7 @@
       "postalCode": "ST16 3BX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/marston-road"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/west-midlands/marston-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4411,15 +4063,8 @@
       "postalCode": "CT19 5JU",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.folkestoneinvictafc.co.uk/the-buildkent-stadium"
-    },
-    "url": "https://www.folkestoneinvictafc.co.uk/the-buildkent-stadium",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/cheriton-road"
-    },
+    "mainEntityOfPage": "https://www.folkestoneinvictafc.co.uk/the-buildkent-stadium",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/cheriton-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4446,7 +4091,8 @@
         "url": "https://folkestoneinvictafc.co.uk",
         "sameAs": [
           "https://twitter.com/FIFC/",
-          "https://www.facebook.com/folkestoneinvictafc"
+          "https://www.facebook.com/folkestoneinvictafc",
+          "https://www.youtube.com/channel/UCKJQnSZfDrn8-aUpKm7cwuQ"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -4483,10 +4129,7 @@
       "postalCode": "DA16 1SY",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/park-view-road"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/park-view-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4556,15 +4199,8 @@
       "postalCode": "BN14 7HQ",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://worthingfc.com/club/stadium/"
-    },
-    "url": "https://worthingfc.com/club/stadium/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/woodside-road"
-    },
+    "mainEntityOfPage": "https://worthingfc.com/club/stadium/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/woodside-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4630,15 +4266,8 @@
       "postalCode": "SK17 6QH",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.buxtonfc.co.uk/silverlands"
-    },
-    "url": "https://www.buxtonfc.co.uk/silverlands",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/the-silverlands"
-    },
+    "mainEntityOfPage": "https://www.buxtonfc.co.uk/silverlands",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/the-silverlands",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4709,15 +4338,8 @@
       "postalCode": "GL2 5HS",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.gloucestercityafc.com/tigerturfstadium"
-    },
-    "url": "https://www.gloucestercityafc.com/tigerturfstadium",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-west/new-meadow-park"
-    },
+    "mainEntityOfPage": "https://www.gloucestercityafc.com/tigerturfstadium",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-west/new-meadow-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4746,7 +4368,7 @@
           "https://twitter.com/GCAFCOfficial/",
           "https://www.facebook.com/gcafcofficial",
           "https://www.instagram.com/gloucestercityafc/",
-          "https://www.youtube.com/GloucesterCityAFC1883"
+          "https://www.youtube.com/channel/UCxuYXjHa7sL-iK1-q1U3VMA"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -4783,10 +4405,9 @@
       "postalCode": "SL6 1SF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/york-road"
-    },
+    "mainEntityOfPage": "https://www.pitchero.com/clubs/maidenheadunited/a/guide-to-maidenhead-united--63765.html",
+    "description": "Maidenhead United FC play at York Road, a ground which has been their home  since 1871. The ground is situated in the centre of Maidenhead, close to  the town centre and the railway station. Unfortunately, there is no parking  available at York Road Stadium.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/york-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4858,10 +4479,7 @@
       "postalCode": "LS28 5BE",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-citadel"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-citadel",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -4937,10 +4555,7 @@
       "postalCode": "TW12 2BX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/beveree-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/beveree-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5011,10 +4626,9 @@
       "postalCode": "DE55 7FZ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/north-street"
-    },
+    "mainEntityOfPage": "https://alfretontownfootballclub.com/a/202122-admission-details-and-matchday-parking-56954.html",
+    "description": "Pay and display parking is available on Rogers Lane and also at Severn  Square, both are a 5-10 minute walk from the arena.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/north-street",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5079,10 +4693,7 @@
       "postalCode": "BA2 1DB",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-west/twerton-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-west/twerton-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5148,16 +4759,9 @@
       "postalCode": "LA1 5PE",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.pitchero.com/clubs/lancastercity/a/giant-axe-stadium-27712.html?page=3"
-    },
-    "url": "https://www.pitchero.com/clubs/lancastercity/a/giant-axe-stadium-27712.html?page=3",
+    "mainEntityOfPage": "https://www.pitchero.com/clubs/lancastercity/a/giant-axe-stadium-27712.html?page=3",
     "description": "Giant Axe stadium has been the club's home since the early days, but has been heavily renovated since the mid to late 1990s. The 513-seat Main Stand, which used be a standing terrace, was converted into a modern all-seater stand and was renamed The John Bagguley Stand in 2011 after the club's late Life President.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/giant-axe"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/giant-axe",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5226,10 +4830,7 @@
       "postalCode": "YO21 3HZ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/turnbull-ground"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/turnbull-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5299,10 +4900,7 @@
       "postalCode": "NE32 3UP",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-east/mariners-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-east/mariners-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5331,7 +4929,7 @@
           "https://twitter.com/SouthShieldsFC/",
           "https://www.facebook.com/southshieldsfc",
           "https://www.instagram.com/southshieldsfc/",
-          "https://www.youtube.com/southshieldsfc"
+          "https://www.youtube.com/channel/UCVyfR_PwZImPRAkn9SVtcbA"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5372,16 +4970,9 @@
       "postalCode": "CW5 5BS",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.nantwichtownfc.co.uk/first-time-at-the-weaver-stadium/"
-    },
-    "url": "https://www.nantwichtownfc.co.uk/first-time-at-the-weaver-stadium/",
+    "mainEntityOfPage": "https://www.nantwichtownfc.co.uk/first-time-at-the-weaver-stadium/",
     "description": "Visitors can take in the sights of Nantwich Town Centre on the way to the ground, which is an historic market town with the impressive St Mary's Church and Tudor buildings. There are plenty of places to have lunch and drinks.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/weaver-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/weaver-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5446,10 +5037,7 @@
       "postalCode": "SM4 6BF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/imperial-fields"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/imperial-fields",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5514,15 +5102,8 @@
       "postalCode": "SS13 2BE",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.bowersandpitseafootballclub.com/a/find-us-20751.html"
-    },
-    "url": "https://www.bowersandpitseafootballclub.com/a/find-us-20751.html",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/len-salmon-stadium"
-    },
+    "mainEntityOfPage": "https://www.bowersandpitseafootballclub.com/a/find-us-20751.html",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/len-salmon-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5587,10 +5168,7 @@
       "postalCode": "RM15 4PX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/parkside"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/parkside",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5661,10 +5239,9 @@
       "postalCode": "NN13 7EJ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/st-james-park"
-    },
+    "mainEntityOfPage": "https://brackleytownfc.com/a/visitor-information-63785.html?page=1",
+    "description": "The car park at St James Park is limited and spaces cost £5 per car. Please note that car park spaces cannot be reserved and are on a  first-come-first-served basis.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/st-james-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5728,10 +5305,7 @@
       "postalCode": "OX3 0NQ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/marsh-lane"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/marsh-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5793,10 +5367,7 @@
       "postalCode": "EN8 8RU",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/theobalds-lane"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/theobalds-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5862,15 +5433,8 @@
       "postalCode": "BD6 2NG",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://https://bpafc.com/club/stadium/"
-    },
-    "url": "https://https://bpafc.com/club/stadium/",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-community-stadium"
-    },
+    "mainEntityOfPage": "https://https://bpafc.com/club/stadium/",
+    "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-community-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -5941,10 +5505,7 @@
       "postalCode": "SE22 8BD",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/champion-hill"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/champion-hill",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6008,10 +5569,7 @@
       "postalCode": "SS8 0HH",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/thames-road"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/thames-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6039,7 +5597,7 @@
         "sameAs": [
           "https://twitter.com/ConcordRangers/",
           "https://www.facebook.com/ConcordRangersFC",
-          "https://www.youtube.com/BeachBoysTV"
+          "https://www.youtube.com/channel/UCdTweEnEZRRs65PzOxHbhDg"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -6077,10 +5635,7 @@
       "postalCode": "DL1 5NR",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-east/blackwell-meadows"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-east/blackwell-meadows",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6145,10 +5700,7 @@
       "postalCode": "YO11 2JW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/flamingo-land-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/flamingo-land-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6219,10 +5771,7 @@
       "postalCode": "HP2 4HW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/vauxhall-road"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/vauxhall-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6284,10 +5833,7 @@
       "postalCode": "CM1 2EH",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/melbourne-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/melbourne-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6352,10 +5898,7 @@
       "postalCode": "RG17 0AY",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/town-ground"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/town-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6420,10 +5963,7 @@
       "postalCode": "NE61 2YX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-east/craik-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-east/craik-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6484,10 +6024,7 @@
       "postalCode": "PR5 6UU",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/sir-tom-finney-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/sir-tom-finney-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6552,10 +6089,7 @@
       "postalCode": "BN7 2XA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/the-dripping-pan"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/the-dripping-pan",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6620,10 +6154,7 @@
       "postalCode": "RM14 2LX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/hornchurch-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/hornchurch-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6695,10 +6226,7 @@
       "postalCode": "CT6 5SG",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/winch-s-field"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/winch-s-field",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6770,10 +6298,7 @@
       "postalCode": "TN10 3JW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/longmead-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/longmead-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6835,10 +6360,7 @@
       "postalCode": "SN14 6LR",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-west/hardenhuish-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-west/hardenhuish-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6900,10 +6422,7 @@
       "postalCode": "DL16 6JN",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-east/brewery-field"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-east/brewery-field",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -6932,7 +6451,7 @@
           "https://twitter.com/SpennymoorTown/",
           "https://www.facebook.com/SpennymoorTown",
           "https://www.instagram.com/spennnymoor/",
-          "https://www.youtube.com/SpennymoorTownFC"
+          "https://www.youtube.com/channel/UCl5OSomptojlxv5-VwaC4-w"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -6970,10 +6489,7 @@
       "postalCode": "RH4 1DX",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/meadowbank"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/meadowbank",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7049,10 +6565,9 @@
       "postalCode": "DE56 1BA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/christchurch-meadow"
-    },
+    "mainEntityOfPage": "https://belpertownfc.co.uk/a/first-time-visitor-information-53159.html",
+    "description": "Set in the beautiful Derwent Valley in the heart of the Derbyshire countryside, the stadium is accessed from Belper Triangle, at the junction of the A6 and A517 at the northern edge of the town.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/christchurch-meadow",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7116,10 +6631,7 @@
       "postalCode": "WA4 2RS",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/cantilever-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/cantilever-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7185,10 +6697,7 @@
       "postalCode": "TS11 7BW",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-east/mount-pleasant"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-east/mount-pleasant",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7254,10 +6763,7 @@
       "postalCode": "M46 9FJ",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/alder-house"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/alder-house",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7327,10 +6833,7 @@
       "postalCode": "EN6 1QN",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/parkfield"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/parkfield",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7397,10 +6900,7 @@
       "postalCode": "N17 7JP",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/coles-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/coles-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7467,16 +6967,9 @@
       "postalCode": "EN1 3PL",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://etfc.london/visitors/stadium/"
-    },
-    "url": "https://etfc.london/visitors/stadium/",
+    "mainEntityOfPage": "https://etfc.london/visitors/stadium/",
     "description": "An integral part of the Queen Elizabeth II Stadium is the main pavilion, completed in 1953. This is a Grade II listed building built in Art Deco style, and serves as the clubhouse, main stand and changing rooms.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/queen-elizabeth-ii-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/queen-elizabeth-ii-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7543,10 +7036,7 @@
       "postalCode": "TA1 2HG",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-west/cygnet-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-west/cygnet-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7608,16 +7098,9 @@
       "postalCode": "NN15 5PS",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.ketteringtownfc.com/latimer-park"
-    },
-    "url": "https://www.ketteringtownfc.com/latimer-park",
+    "mainEntityOfPage": "https://www.ketteringtownfc.com/latimer-park",
     "description": "The club first came to this their present site in 2013 which is being shared with United Counties League Division One outfit, Burton Park Wanderers FC.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/latimer-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/latimer-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7691,10 +7174,9 @@
       "postalCode": "DE4 3AR",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-midlands/causeway-lane"
-    },
+    "mainEntityOfPage": "https://www.matlocktownfc.co.uk/beginners-guide-to-mtfc.asp",
+    "description": "The Proctor Cars Stadium is just 500 yards from the town centre. With that in mind, parking at the Ground is limited to special match days only. For evening matches parking is available on Causeway Lane right outside the ground on a first come first serve basis.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/causeway-lane",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7759,15 +7241,8 @@
       "postalCode": "PE1 3HA",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://pslfc.com/contactus.aspx"
-    },
-    "url": "https://pslfc.com/contactus.aspx",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/lincoln-road"
-    },
+    "mainEntityOfPage": "https://pslfc.com/contactus.aspx",
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/lincoln-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7837,15 +7312,8 @@
       "postalCode": "CV33 9SA",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.leamingtonfc.co.uk/index.php/club/history/new-windmill-ground"
-    },
-    "url": "https://www.leamingtonfc.co.uk/index.php/club/history/new-windmill-ground",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/west-midlands/new-windmill-ground"
-    },
+    "mainEntityOfPage": "https://www.leamingtonfc.co.uk/index.php/club/history/new-windmill-ground",
+    "identifier": "https://www.nonleaguegrounds.com/regions/west-midlands/new-windmill-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7916,10 +7384,7 @@
       "postalCode": "L23 3AS",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/rossett-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/rossett-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -7984,10 +7449,7 @@
       "postalCode": "CT9 5QY",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/hartsdown-park"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/hartsdown-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -8048,10 +7510,7 @@
       "postalCode": "WF15 8DF",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/clayborn-ground"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/clayborn-ground",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -8122,10 +7581,7 @@
       "postalCode": "KT6 7NA",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/king-george-v-arena"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/king-george-v-arena",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -8189,15 +7645,8 @@
       "postalCode": "SL2 5AY",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.sloughtownfc.net/how-to-find-us"
-    },
-    "url": "https://www.sloughtownfc.net/how-to-find-us",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/arbour-park"
-    },
+    "mainEntityOfPage": "https://www.sloughtownfc.net/how-to-find-us",
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/arbour-park",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -8226,7 +7675,7 @@
           "https://twitter.com/sloughtownfc/",
           "https://www.facebook.com/sloughtownfc",
           "https://www.instagram.com/sloughtownfc/",
-          "https://www.youtube.com/sloughtownfc"
+          "https://www.youtube.com/channel/UCwilnKfuVRa4KpB5VaQOx_Q"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -8269,16 +7718,9 @@
       "postalCode": "RH13 0AD",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.horshamfc.co.uk/hop-oast-stadium/"
-    },
-    "url": "https://www.horshamfc.co.uk/hop-oast-stadium/",
+    "mainEntityOfPage": "https://www.horshamfc.co.uk/hop-oast-stadium/",
     "description": "Opened in 2019, the stadium features two top quality 3G playing surfaces built using the latest artificial pitch technology, a covered 300-seater stand, covered standing areas behind each goal and two further covered stands down one side, including seating for 50 spectators.",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/south-east/hop-oast-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/south-east/hop-oast-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -8345,10 +7787,7 @@
       "postalCode": "N12 0PD",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/london/the-maurice-rebak-stadium"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/london/the-maurice-rebak-stadium",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -8412,15 +7851,8 @@
       "postalCode": "WA2 7SH",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": {
-      "@type": "URL",
-      "@value": "https://www.rylandsfc.co.uk/a/matchday-information-57510.html"
-    },
-    "url": "https://www.rylandsfc.co.uk/a/matchday-information-57510.html",
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/north-west/rylands-recreation-club"
-    },
+    "mainEntityOfPage": "https://www.rylandsfc.co.uk/a/matchday-information-57510.html",
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/rylands-recreation-club",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
@@ -8484,10 +7916,7 @@
       "postalCode": "CO7 0PL",
       "addressCountry": "GB"
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/regions/east-of-england/north-road"
-    },
+    "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/north-road",
     "priceRange": "££",
     "areaServed": {
       "@type": "AdministrativeArea",
