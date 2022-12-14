@@ -105,7 +105,7 @@ module.exports = function (eleventyConfig) {
     url.searchParams.set("url", tweet.substring(0, tweet.length - 1));
     url.searchParams.set("limit", 1);
     url.searchParams.set("lang", "en");
-    url.searchParams.set("chrome", "noborders nofooter noheader");
+    url.searchParams.set("chrome", "noborders nofooter noheader transparent");
     url.searchParams.set("dnt", true);
     url.searchParams.set("hide_thread", true);
 
