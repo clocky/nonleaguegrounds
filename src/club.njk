@@ -208,14 +208,7 @@ eleventyComputed:
         {% for url in club.sameAs %}
           {% if "twitter" in url %}
             <h4 class="is-size-5 has-text-weight-semibold mb-4"><span class="icon pr-2 is-twitter"><i class="fab fa-twitter"></i></span>Twitter</h4>
-              <a 
-                class="twitter-timeline" 
-                data-lang="en" 
-                data-tweet-limit="1" 
-                data-chrome="noborders nofooter noheader transparent" 
-                href="{{ url.slice(0, url.length-1) }}?ref_src=twsrc%5Etfw">Tweets by {{ url.split("/")[3] }}</a>
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            {# {% tweet url %} #}
+             {% tweet url %} 
           {% endif %}
         {% endfor %}
       </div>
