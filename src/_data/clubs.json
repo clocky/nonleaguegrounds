@@ -9768,7 +9768,7 @@
       "@context": "https://schema.org",
       "@type": "StadiumOrArena",
       "name": "Broadhurst Park",
-      "maximumAttendeeCapacity": 4700,
+      "maximumAttendeeCapacity": 4400,
       "priceRange": "££",
       "latitude": 53.516649,
       "longitude": -2.180394,
