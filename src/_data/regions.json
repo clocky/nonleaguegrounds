@@ -378,7 +378,7 @@
         "@type": "StadiumOrArena",
         "name": "The Northolme",
         "priceRange": "££",
-        "alternateName": "Gainsborough Martin & Co. Arena",
+        "alternateName": "The Dave Longstaff Martin and Co Arena",
         "identifier": {
           "@type": "URL",
           "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/the-northolme"
@@ -2446,7 +2446,7 @@
           "postalCode": "M40 0FJ",
           "addressCountry": "GB"
         },
-        "maximumAttendeeCapacity": 4700,
+        "maximumAttendeeCapacity": 4400,
         "latitude": 53.516649,
         "longitude": -2.180394,
         "subOrganization": {

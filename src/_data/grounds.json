@@ -89,6 +89,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.oldhamathletic.co.uk/club/visitors-guide/",
+    "description": "Roads in Oldham and the surrounding areas, including the local motorway network, will be busier than normal on match day. The main road that will be affected by congestion prior to kick-off will be the A571 Oldham Road between the hospital and Broadway. Fans can take the tram from Manchester Victoria or use a Park & Ride site. Train services run into Manchester Piccadilly, Oxford Road and Victoria. Walking and cycling are good options to get to and from the match.",
     "identifier": "https://www.nonleaguegrounds.com/regions/north-west/boundary-park",
     "priceRange": "££",
     "areaServed": {
@@ -157,6 +158,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.southendunited.co.uk/club/visiting-roots-hall/",
+    "description": "The MidexPRO East Stand is the main stand at Roots Hall with 2,878 seats and Executive Boxes, the Gilbert & Rose Stand can seat up to 3,337, the Solopress North Bank can hold up to 2,248 fans, the Jonathan Rhys Recruitment South Stand is a two-tier stand with 935 seats, and the Family Stand is the lower tier of the South Stand and blocks Q&R in the West Stand and can hold 2,029 fans.",
     "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/roots-hall",
     "priceRange": "££",
     "areaServed": {
@@ -361,6 +363,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.wrexhamafc.co.uk/club/the-racecourse-ground/",
+    "description": "The Racecourse Ground has four stands, all of which are all-seater and fully covered. Refreshments and a club shop are available. The nearest train station is Wrexham General, and the nearest bus station is Wrexham bus station.",
     "identifier": "https://www.nonleaguegrounds.com/regions/wales/racecourse-ground",
     "priceRange": "££",
     "areaServed": {
@@ -436,6 +439,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://fchalifaxtown.com/club/guide-to-the-shay/",
+    "description": "It consists of the South Stand (a terraced stand behind the goal for home fans), the Skircoat Stand (all seater down the Skircoat Road side of the Shay Stadium and when open is for away supporters), and the East Stand (which holds 4000 fans and provides banqueting suites, bars, food areas and hospitality boxes). The South Stand Bar is located under the stand at the Spring Hall end and is open to all fans.",
     "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-shay",
     "priceRange": "££",
     "areaServed": {
@@ -507,6 +511,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.ytfc.net/club/huish-park-stadium/",
+    "description": "The Family Stand at Huish Park (Block G) is situated at the home end of the main Tamburino Stand. Away supporters are housed in the open away end of the ground which is a standing area only. There is also the provision of a seated area (Block P & PP) in the away end of the Screwfix Stand. Snack bars, toilets, matchday programmes, and a club shop are all available at the stadium. There are several pubs around Huish Park the nearest being the Airfield Tavern and the Arrow.",
     "identifier": "https://www.nonleaguegrounds.com/regions/south-west/huish-park",
     "priceRange": "££",
     "areaServed": {
@@ -569,6 +574,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.scunthorpe-united.co.uk/club/stadium-guide/getting-to-glanford-park/",
+    "description": "Glanford Park is one of the most accessible stadiums in the EFL, located just off the M181. There is free parking for blue badge holders, as well as a 600-space car park at the ground available for £5. Bus and train services are also available, with the station situated two miles away from the stadium.",
     "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/glanford-park",
     "priceRange": "££",
     "areaServed": {
@@ -637,6 +643,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.kltown.co.uk/matches/matchdays/",
+    "description": "The stadium is located on Tennyson Road and is 5 minutes away from the train station. Limited parking is available at the stadium and matchday programmes can be purchased from the ticket office, online shop, or from sellers on matchdays.",
     "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/the-walks-stadium",
     "priceRange": "££",
     "areaServed": {
@@ -788,6 +795,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://altrinchamfc.com/pages/the-j-davidson-stadium",
+    "description": "The official ground capacity is 6,085 and consists of a Hale End terrace, Golf Road terrace, Popular Side terrace, Main Stand, and Family Stand. Food and drink are available at the Community Sports Hall bar, permanent catering facility at the Golf Road End, and the mobile canteen at the away end. The J. Davidson Stadium can be reached by car or coach, public transport, or walking from the town centre.",
     "identifier": "https://www.nonleaguegrounds.com/regions/north-west/moss-lane",
     "priceRange": "££",
     "areaServed": {
@@ -860,7 +868,8 @@
       "postalCode": "GU11 1TW",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": "https://theshots.co.uk/club/directions/",
+    "mainEntityOfPage": "https://www.theshots.co.uk/club/directions/",
+    "description": "Aldershot Town FC's EBB Stadium is located in Aldershot, Hampshire, and is easily accessed by road, train and bus. Parking is available in the town centre multi-storey car park on Wellington Avenue, and the EBB Stadium is a five-minute walk from Aldershot Train Station. There are a number of pubs and restaurants in the area, as well as cashpoints at Santander and the Esso petrol station.",
     "identifier": "https://www.nonleaguegrounds.com/regions/south-east/recreation-ground",
     "priceRange": "££",
     "areaServed": {
@@ -1132,6 +1141,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.stalybridgeceltic.co.uk/team.php?team=SBCEL",
+    "description": "Leave the M6, M1, M62 or M60 at Junction 19, 35a, 18 or 24 respectively and follow the A556, A616, A628, and M67 to Junction 4. Turn left onto the A57 then left onto B6174. Turn left onto Roe Cross Road and follow for 1 3/4 miles. Bower Fold is on the left opposite a sharp right turn next to the art gallery. Parking can be found on the streets on the right of Mottram Road.",
     "identifier": "https://www.nonleaguegrounds.com/regions/north-west/bower-fold",
     "priceRange": "££",
     "areaServed": {
@@ -1340,7 +1350,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.telfordunited.com/the-club/new-bucks-head-stadium/",
-    "description": "New Bucks Head stadium is considered to be amongst the best non-league  grounds in the country and holds a football league 'A' grading.",
+    "description": "New Bucks Head Stadium is a Football League 'A' graded stadium and is considered one of the best non-league grounds in the country. The stadium has a capacity of 5500 and was built in 2000-2003 to replace the Bucks Head ground. It has a disabled entrance and two disabled toilets. The stadium also has a Learning Centre which houses club offices, a bar, meeting and education rooms.",
     "identifier": "https://www.nonleaguegrounds.com/regions/west-midlands/new-bucks-head",
     "priceRange": "££",
     "areaServed": {
@@ -1413,6 +1423,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://harriers.co.uk/contact/visiting-aggborough/",
+    "description": "Away fans at Aggborough will typically be seated in the East Stand or South Stand terrace. Parking is very limited and is restricted to the South Stand at a cost of £5.",
     "identifier": "https://www.nonleaguegrounds.com/regions/west-midlands/aggborough",
     "priceRange": "££",
     "areaServed": {
@@ -1481,7 +1492,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://torquayunited.com/fans/directions/",
-    "description": "Plainmoor Stadium is situated in St Marychurch, an area of Torquay that is within walking distance of Torquay town centre.",
+    "description": "Plainmoor Stadium is situated in St. Marychurch, an area of Torquay within walking distance of the town centre. There is plenty to do in Torbay, with the English Riviera offering beaches, attractions, history, and places to eat and drink.",
     "identifier": "https://www.nonleaguegrounds.com/regions/south-west/plainmoor",
     "priceRange": "££",
     "areaServed": {
@@ -1553,7 +1564,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.daggers.co.uk/page/Stadium",
-    "description": "Victoria Road has existed as a football ground since 1917, when the  Sterling Works side, whose factory was situated alongside, used it.",
+    "description": "Victoria Road has been a football ground since 1917, and has seen many improvements over the years. It has hosted a number of important matches, including a Women's Full international match, UEFA Youth International matches, various County and League Cup finals, and an FAXI match. The floodlights were replaced in 2012, and the SD Samuels Stand was opened in 2009.",
     "identifier": "https://www.nonleaguegrounds.com/regions/london/victoria-road",
     "priceRange": "££",
     "areaServed": {
@@ -1625,6 +1636,8 @@
       "postalCode": "GU22 9AA",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": "https://www.wokingfc.co.uk/the-laithwaite-community-stadium/",
+    "description": "The Laithwaite Community Stadium is located on the A247 opposite the entrance to Woking Park. It can easily be reached by car, leaving the M25 at either junctions 10 or 11 and following the signs towards Woking. There is no parking around the stadium, so it is recommended to use Heathside car park. It can also be reached by train, with a journey time of 28 minutes from Waterloo. Once at Woking Station, you can either follow the signposted route down White Rose Lane or take the more direct route by turning right down the station approach road. Follow either of these routes until you reach the entrance to Woking Park, then follow the path through until you reach the main road directly opposite the ground.",
     "identifier": "https://www.nonleaguegrounds.com/regions/south-east/kingfield-stadium",
     "priceRange": "££",
     "areaServed": {
@@ -1766,7 +1779,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.afcfylde.co.uk/mill-farm/",
-    "description": "Mill Farm also has 3G pitches for both football and hockey.  Mill Farm is also home to Fylde Hockey Club.",
+    "description": "Mill Farm includes a state-of-the-art football stadium, 3G football and hockey pitches, a sports bar with 20 TVs, restaurant and café, conference & event facilities, and Aldi supermarket, Euro Garages petrol station, Spar, Greggs bakery and KFC fast food restaurant. It's easily accessible by car via the M55 and public transport via the 61 bus or Kirkham and Wesham Railway Station.",
     "identifier": "https://www.nonleaguegrounds.com/regions/north-west/mill-farm",
     "priceRange": "££",
     "areaServed": {
@@ -2395,6 +2408,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.bromleyfc.co.uk/first-time-visitor-guide/",
+    "description": "Hayes Lane is a non-segregated stadium. Directions to the stadium include taking the M25 motorway and following the A21 and A232 roads. On Saturdays, the Broomfields bar and kitchen opens at 8am and the Jim Brown Club Shop opens at 9am. Turnstiles open at 1:30 pm and team news is announced an hour before kick-off. Half-time entertainment is available and food/drink can be purchased from the concessions.",
     "identifier": "https://www.nonleaguegrounds.com/regions/london/hayes-lane",
     "priceRange": "££",
     "areaServed": {
@@ -2639,73 +2653,6 @@
   {
     "@context": "https://schema.org",
     "@type": "StadiumOrArena",
-    "name": "Broadhurst Park",
-    "maximumAttendeeCapacity": 4700,
-    "latitude": 53.516649,
-    "longitude": -2.180394,
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Lightbowne Road",
-      "addressLocality": "Moston",
-      "postalCode": "M40 0FJ",
-      "addressCountry": "GB"
-    },
-    "mainEntityOfPage": "https://fc-utd.co.uk/grounds/broadhurst-park",
-    "description": "Broadhurst Park is the UK's first new ground to be built and funded by a supporter-owned football club.",
-    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/broadhurst-park",
-    "priceRange": "££",
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "North West"
-    },
-    "subOrganization": [
-      {
-        "@context": "https://schema.org",
-        "@type": "SportsTeam",
-        "name": "FC United of Manchester",
-        "alternateName": "FC United of Manchester",
-        "slogan": "The Reds",
-        "sport": "Association Football",
-        "logo": {
-          "@type": "ImageObject",
-          "contentUrl": "https://media.api-sports.io/football/teams/7754.png",
-          "caption": "FC United of Manchester crest",
-          "representativeOfPage": true,
-          "encodingFormat": "image/png",
-          "width": 150,
-          "height": 150
-        },
-        "foundingDate": "2005",
-        "url": "https://fc-utd.co.uk",
-        "sameAs": [
-          "https://twitter.com/FCUnitedMcr/",
-          "https://www.facebook.com/FCUnitedMcr",
-          "https://www.youtube.com/channel/UCyN_tv-mgrO4WFInlw9Lzzg"
-        ],
-        "memberOf": {
-          "@type": "SportsOrganization",
-          "name": "Northern Premier League",
-          "alternateName": "Pitching In Northern Premier League",
-          "sponsor": {
-            "@type": "Organization",
-            "name": "Pitching In"
-          },
-          "logo": {
-            "@type": "ImageObject",
-            "contentUrl": "https://media.api-sports.io/football/leagues/59.png",
-            "caption": "Northern Premier League logo",
-            "representativeOfPage": true,
-            "encodingFormat": "image/png",
-            "width": 152,
-            "height": 150
-          }
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "StadiumOrArena",
     "name": "Woodside Park",
     "alternateName": "R & D Advisors UK Ltd Stadium",
     "sponsor": {
@@ -2798,6 +2745,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.solihullmoorsfc.co.uk/club/match-day-information/",
+    "description": "Solihull Railway Station is two and half miles away, Birmingham International Station is one and half miles away, there is limited car parking available at the ground for £5, or a 40% discount when parking at the NCP Car Park at Birmingham Airport Cargo Term (B26 3QT). The X12 bus runs to the ground every 15/20 minutes and food huts, fan zone, and two main downstairs bars in the clubhouse building provide refreshments.",
     "identifier": "https://www.nonleaguegrounds.com/regions/west-midlands/damson-park",
     "priceRange": "££",
     "areaServed": {
@@ -2870,6 +2818,8 @@
       "postalCode": "WD6 5AL",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": "https://www.borehamwoodfootballclub.co.uk/match-centre/",
+    "description": "All National League fixtures at Meadow Park will operate under full segregation, with visiting supporters in the South End and home supporters in the rest of the stadium. There is no supporter parking available, but there are public car parks nearby. There are disabled facilities available, and carers are admitted free of charge with proof of a valid carer's card or other proof of need.",
     "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/meadow-park",
     "priceRange": "££",
     "areaServed": {
@@ -2990,11 +2940,78 @@
   {
     "@context": "https://schema.org",
     "@type": "StadiumOrArena",
+    "name": "Broadhurst Park",
+    "maximumAttendeeCapacity": 4400,
+    "latitude": 53.516649,
+    "longitude": -2.180394,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lightbowne Road",
+      "addressLocality": "Moston",
+      "postalCode": "M40 0FJ",
+      "addressCountry": "GB"
+    },
+    "mainEntityOfPage": "https://fc-utd.co.uk/grounds/broadhurst-park",
+    "description": "FC United's Broadhurst Park is the UK's first new ground to be built and funded by a supporter-owned football club. It has 4,400 capacity and the members were involved in the design and construction process. It is also the first pollinator-friendly football stadium in the UK, and the funding came from a Community Share Scheme, other fundraising, Sport England, the Football Foundation, Manchester City Council, Social Investment Business, Manchester College and Viridor.",
+    "identifier": "https://www.nonleaguegrounds.com/regions/north-west/broadhurst-park",
+    "priceRange": "££",
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "North West"
+    },
+    "subOrganization": [
+      {
+        "@context": "https://schema.org",
+        "@type": "SportsTeam",
+        "name": "FC United of Manchester",
+        "alternateName": "FC United of Manchester",
+        "slogan": "The Reds",
+        "sport": "Association Football",
+        "logo": {
+          "@type": "ImageObject",
+          "contentUrl": "https://media.api-sports.io/football/teams/7754.png",
+          "caption": "FC United of Manchester crest",
+          "representativeOfPage": true,
+          "encodingFormat": "image/png",
+          "width": 150,
+          "height": 150
+        },
+        "foundingDate": "2005",
+        "url": "https://fc-utd.co.uk",
+        "sameAs": [
+          "https://twitter.com/FCUnitedMcr/",
+          "https://www.facebook.com/FCUnitedMcr",
+          "https://www.youtube.com/channel/UCyN_tv-mgrO4WFInlw9Lzzg"
+        ],
+        "memberOf": {
+          "@type": "SportsOrganization",
+          "name": "Northern Premier League",
+          "alternateName": "Pitching In Northern Premier League",
+          "sponsor": {
+            "@type": "Organization",
+            "name": "Pitching In"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "contentUrl": "https://media.api-sports.io/football/leagues/59.png",
+            "caption": "Northern Premier League logo",
+            "representativeOfPage": true,
+            "encodingFormat": "image/png",
+            "width": 152,
+            "height": 150
+          }
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "StadiumOrArena",
     "name": "The Northolme",
-    "alternateName": "Gainsborough Martin & Co. Arena",
+    "alternateName": "The Dave Longstaff Martin and Co Arena",
     "sponsor": {
       "@type": "Organization",
-      "name": "Gainsborough Martin &amp; Co. Arena"
+      "name": "The Dave Longstaff Martin and Co Arena"
     },
     "maximumAttendeeCapacity": 4304,
     "latitude": 53.403459,
@@ -3006,6 +3023,8 @@
       "postalCode": "DN21 2QW",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": "https://www.gainsboroughtrinity.com/news/team-news/796-the-dave-longstaff-martin-and-co-arena",
+    "description": "Gainsborough Trinity Football Club changed the name of their home stadium to The Dave Longstaff Martin and Co Arena in honour of Dave Longstaff, who recently passed away. The name change is a fitting tribute to Dave and his family, and a way to thank them and Martin and Co, Gainsborough for their generosity and loyalty to the club.",
     "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/the-northolme",
     "priceRange": "££",
     "areaServed": {
@@ -3800,7 +3819,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.radcliffefc.com/a/match-day-information-47253.html?page=4",
-    "description": "The stadium has been home to Radcliffe Football Club since 1970 and the ground has played host to many famous teams and footballers over the years.",
+    "description": "Stainton Park (Neuven Stadium) has been the home of Radcliffe Football Club since 1970. With the help of grants and personal investments, the club have been able to provide 2 Floodlit all weather 3G pitches, a changing room complex, a new sports clinic, an upgrade in the terracing, new car parking space, the purchase of the social club, a new sponsors lounge, a 350-seated stand and six conference standard floodlights. The club hosts local cup finals, charity events and provides facilities for teams such as Rochdale, Accrington Stanley, Bury and Blackburn Rovers Ladies.",
     "identifier": "https://www.nonleaguegrounds.com/regions/north-west/stainton-park",
     "priceRange": "££",
     "areaServed": {
@@ -3931,7 +3950,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://guiseleyafc.co.uk/home-games/",
-    "description": "Nethermoor is about five minutes' flat walk from Guiseley station.  It is very well served on the Wharfedale Line by trains from Leeds, Bradford and Ilkley.",
+    "description": "Nethermoor is made up of covered seated stands, covered terraced stands, and other terraced standing areas. There are turnstiles at three corners of the ground, refreshment blocks, lavatories, a Club Shop, a first aid room, and a spectator first aid room. Kick-off times are usually 3pm on Saturdays and 7.45pm on Tuesdays for midweek matches, and matchday programmes can be purchased for £3 each.",
     "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/nethermoor-park",
     "priceRange": "££",
     "areaServed": {
@@ -4267,6 +4286,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.buxtonfc.co.uk/silverlands",
+    "description": "For visitors to the Tarmac Silverlands Stadium, the club suggests parking in the Market Place Car Park, Sylvan Park, or Spring Gardens Car Park. These car parks are free after 3pm for High Peak residents and after 6pm for everyone else. Advance notice is required for car parking for visitors with access needs.",
     "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/the-silverlands",
     "priceRange": "££",
     "areaServed": {
@@ -4339,6 +4359,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.gloucestercityafc.com/tigerturfstadium",
+    "description": "Limited parking is available on matchdays for blue badge holders and guests. Alternatively, fans can park at Sainsbury's (3 hours free parking), Castlemeads Car Park, or Gloucester Quays Car Park (4 hours for £5). From the North, take the A40 westbound from M5 junction 11 and from the South, take the A38 Quedgeley by-pass from M5 junction 12.",
     "identifier": "https://www.nonleaguegrounds.com/regions/south-west/new-meadow-park",
     "priceRange": "££",
     "areaServed": {
@@ -4479,6 +4500,8 @@
       "postalCode": "LS28 5BE",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": "https://farsleyceltic.com/club/stadium/",
+    "description": "There is a large car park at The Citadel and a limited number of Blue Badge spaces. On match days, we offer a Happy Hour discount in the Nest Bar and there is a fully-stocked club shop selling official Farsley Celtic merchandise, Puma Teamwear and old programmes.",
     "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/the-citadel",
     "priceRange": "££",
     "areaServed": {
@@ -4760,7 +4783,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.pitchero.com/clubs/lancastercity/a/giant-axe-stadium-27712.html?page=3",
-    "description": "Giant Axe stadium has been the club's home since the early days, but has been heavily renovated since the mid to late 1990s. The 513-seat Main Stand, which used be a standing terrace, was converted into a modern all-seater stand and was renamed The John Bagguley Stand in 2011 after the club's late Life President.",
+    "description": "The grounds have been heavily renovated since the mid-late 1990s and now feature a 513 seat Main Stand, a Club End Terrace and a Shed End covered terrace. Behind the main stand is the main car park and offices and behind the Shed End is a small car park. The old social club, The Dolly Blue Tavern, was vacated in the summer of 2012 and replaced with a new club bar. The club office is located at the rear of the Club End terrace.",
     "identifier": "https://www.nonleaguegrounds.com/regions/north-west/giant-axe",
     "priceRange": "££",
     "areaServed": {
@@ -4830,6 +4853,8 @@
       "postalCode": "YO21 3HZ",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": "https://www.whitbytownfc.com/a/your-guide-to-match-day-at-the-towbar-express-stadium-64057.html",
+    "description": "There is limited parking available around the ground, but there is free street parking and pay and display parking at the nearby Leisure Centre. Turnstiles open 1.5 hours prior to kick-off and you can buy merchandise from the club shop. Away supporters should enter through turnstile 4 on Upgang Lane when games are segregated. There is seating available in the main stand and two catering outlets. Make sure to read the ground regulations and safeguarding policy before your visit.",
     "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/turnbull-ground",
     "priceRange": "££",
     "areaServed": {
@@ -5433,7 +5458,8 @@
       "postalCode": "BD6 2NG",
       "addressCountry": "GB"
     },
-    "mainEntityOfPage": "https://https://bpafc.com/club/stadium/",
+    "mainEntityOfPage": "https://bpafc.com/club/stadium/",
+    "description": "There are refreshment options available such as the Clubhouse bar and the Avenue Café. The Club Shop is located at the Cemetery Road end of the ground and can be used to purchase programmes. There are toilets located around the ground and the club offers accessibility options such as access to the ground via the main gate, free entry for carers/assistants, a designated viewing area for wheelchair users and 2 designated parking spaces for blue badge holders",
     "identifier": "https://www.nonleaguegrounds.com/regions/yorkshire-and-the-humber/horsfall-community-stadium",
     "priceRange": "££",
     "areaServed": {
@@ -5963,6 +5989,7 @@
       "postalCode": "NE61 2YX",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": "https://www.morpethtownfc.com/how-to-find-us/",
     "identifier": "https://www.nonleaguegrounds.com/regions/north-east/craik-park",
     "priceRange": "££",
     "areaServed": {
@@ -6566,7 +6593,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://belpertownfc.co.uk/a/first-time-visitor-information-53159.html",
-    "description": "Set in the beautiful Derwent Valley in the heart of the Derbyshire countryside, the stadium is accessed from Belper Triangle, at the junction of the A6 and A517 at the northern edge of the town.",
+    "description": "There is limited car parking at the ground, but there are various car parks located in the town. There is free movement throughout the stadium and the club shop is open 60 minutes before kick-off and again at half-time. There are food outlets at the ground and all spectators are welcome in the main function room, where there is also a range of drinks available. Toilets and disabled facilities are available, and dogs are allowed into the stadium.",
     "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/christchurch-meadow",
     "priceRange": "££",
     "areaServed": {
@@ -6631,6 +6658,7 @@
       "postalCode": "WA4 2RS",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": "https://www.warringtontownfc.co.uk/club/cantilever-park/",
     "identifier": "https://www.nonleaguegrounds.com/regions/north-west/cantilever-park",
     "priceRange": "££",
     "areaServed": {
@@ -6697,6 +6725,8 @@
       "postalCode": "TS11 7BW",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": "https://www.marskeunitedfc.org/a/location-of-mount-pleasant-stadium-57928.html",
+    "description": "Pleasant Stadium is easily accessible by train and car and offers car parking for visitors. Refreshments are available from Neil's Kabin and there is a licensed bar in the clubhouse. A token system is in place for the can bar within the ground. The club shop is open for all home games to purchase Marske United merchandise.",
     "identifier": "https://www.nonleaguegrounds.com/regions/north-east/mount-pleasant",
     "priceRange": "££",
     "areaServed": {
@@ -6833,6 +6863,8 @@
       "postalCode": "EN6 1QN",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": "https://www.pitchero.com/clubs/pottersbartownfc/a/directions-to-the-ground-54614.html",
+    "description": "Exit M25 at Junction 24, take A111 exit (Southgate Road) towards Potters Bar, turn right A1000 onto High Street, turn left into The Walk, turn right into Watkins Rise, ground is to your right. Avoid Mayfair Lodge Car Park.",
     "identifier": "https://www.nonleaguegrounds.com/regions/east-of-england/parkfield",
     "priceRange": "££",
     "areaServed": {
@@ -7099,7 +7131,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.ketteringtownfc.com/latimer-park",
-    "description": "The club first came to this their present site in 2013 which is being shared with United Counties League Division One outfit, Burton Park Wanderers FC.",
+    "description": "Kettering Town FC moved to their current Latimer Park site in 2013 and hosted their first league game that year. Since then, the ground has grown to accommodate a 500-seat main stand, covered accommodation, and a play-off final in 2014. On April 18, 2015, they won the Southern League Division One Central shield with a 2-1 win over Bedworth United in front of 1,003 spectators.",
     "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/latimer-park",
     "priceRange": "££",
     "areaServed": {
@@ -7175,7 +7207,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.matlocktownfc.co.uk/beginners-guide-to-mtfc.asp",
-    "description": "The Proctor Cars Stadium is just 500 yards from the town centre. With that in mind, parking at the Ground is limited to special match days only. For evening matches parking is available on Causeway Lane right outside the ground on a first come first serve basis.",
+    "description": "Matlock Town FC is located 500 yards from the town centre at The Proctor Cars Stadium. On match days, limited parking is available outside the ground on Causeway The ground has a Club Shop, Tea Bar, and Large Social Club with two large screens showing Sky Sports and ESPN games before and after games.",
     "identifier": "https://www.nonleaguegrounds.com/regions/east-midlands/causeway-lane",
     "priceRange": "££",
     "areaServed": {
@@ -7787,6 +7819,8 @@
       "postalCode": "N12 0PD",
       "addressCountry": "GB"
     },
+    "mainEntityOfPage": "https://www.wingatefinchley.com/club-info",
+    "description": "The Wingate and Finchley stadium offers a Fully Licensed bar and food/refreshment hatch 90 minutes prior to kickoff. Bar serves lagers & Guinness, bottled ales, lagers, ciders, spirits, soft drinks and bar snacks. Refreshment hatch serves burgers, hot dogs, chips, soups, hot drinks, soft drinks, crisps, nuts and chocolates. Dogs are welcome. No ATM on site, but there are ATMs in shops, pubs and other entertainment venues nearby. Banks with ATMs can be found on Finchley High Road, about 1 mile from the ground.",
     "identifier": "https://www.nonleaguegrounds.com/regions/london/the-maurice-rebak-stadium",
     "priceRange": "££",
     "areaServed": {
@@ -7852,6 +7886,7 @@
       "addressCountry": "GB"
     },
     "mainEntityOfPage": "https://www.rylandsfc.co.uk/a/matchday-information-57510.html",
+    "description": "Admission to games is £8 for adults, £5 for concessions, and £2 for U16s and all admission is via the turnstiles. There is a match programme for £2 and refreshments are available before, during and after the match. There is no segregation and home and away flags and banners are welcome.",
     "identifier": "https://www.nonleaguegrounds.com/regions/north-west/rylands-recreation-club",
     "priceRange": "££",
     "areaServed": {
