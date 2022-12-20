@@ -4041,7 +4041,11 @@
         },
         "foundingDate": "1876",
         "url": "https://www.staffordrangersfc.co.uk",
-        "sameAs": ["https://twitter.com/SRFCofficial/"],
+        "sameAs": [
+          "https://twitter.com/SRFCofficial/",
+          "https://www.facebook.com/StaffordRangersFootballClub",
+          "https://www.youtube.com/channel/UC9VP9vLJbXvoKPAV6phkFhQ"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",
@@ -6688,7 +6692,7 @@
           "https://twitter.com/theyellows/",
           "https://www.facebook.com/WarringtonTownFC",
           "https://www.instagram.com/warringtontownfc/",
-          "https://www.youtube.com/channel/UCuJtu1BX2ZISz1ekKEG746A/"
+          "https://www.youtube.com/channel/UCuJtu1BX2ZISz1ekKEG746A"
         ],
         "memberOf": {
           "@type": "SportsOrganization",

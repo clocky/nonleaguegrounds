@@ -48,7 +48,8 @@ package = "netlify-plugin-cache"
     ".cache",
     "dist/img/clubs",
     "dist/img/common",
-    "dist/img/grounds"
+    "dist/img/grounds",
+    "dist/img/crests"
    ]
 
 [[plugins]]

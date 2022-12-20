@@ -10957,10 +10957,24 @@
       "width": 116,
       "height": 138
     },
-    "sameAs": ["https://twitter.com/SRFCofficial/"],
+    "sameAs": [
+      "https://twitter.com/SRFCofficial/",
+      "https://www.facebook.com/StaffordRangersFootballClub",
+      "https://www.youtube.com/channel/UC9VP9vLJbXvoKPAV6phkFhQ"
+    ],
     "foundingDate": "1876",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "itemCondition": "NewCondition",
+      "name": "Stafford Rangers playing kit",
+      "brand": "Harlequin Teamwear",
+      "image": "https://www.harlequinteamwear.co.uk/wp-content/uploads/home-front.png",
+      "sku": "https://2022-Stafford-Rangers-Home-Shirt-adults",
+      "mainEntityOfPage": "https://www.harlequinteamwear.co.uk/product/2022-stafford-rangers-personalised-home-shirt-adults/",
+      "color": ["#000000", "#ffffff", "#C19B4A"]
+    },
 
     "url": "https://www.staffordrangersfc.co.uk",
     "memberOf": {
@@ -11046,7 +11060,11 @@
       "@type": "Product",
       "itemCondition": "NewCondition",
       "name": "Stalybridge Celtic playing kit",
-      "color": ["#3170EA", "#ffffff"]
+      "brand": "Hope + Glory",
+      "material": "100% polyester",
+      "image": "https://store.hopeandglorysportswear.co.uk/wp-content/uploads/2022/08/scfc-2223-home.jpg",
+      "mainEntityOfPage": "https://store.hopeandglorysportswear.co.uk/product/stalybridge-celtic-22-23-home-shirt",
+      "color": ["#3170EA", "#ffffff", "#A68760"]
     },
 
     "url": "https://stalybridgeceltic.co.uk",
@@ -11216,7 +11234,7 @@
       "https://twitter.com/theyellows/",
       "https://www.facebook.com/WarringtonTownFC",
       "https://www.instagram.com/warringtontownfc/",
-      "https://www.youtube.com/channel/UCuJtu1BX2ZISz1ekKEG746A/"
+      "https://www.youtube.com/channel/UCuJtu1BX2ZISz1ekKEG746A"
     ],
     "foundingDate": "1949",
     "sport": "Association Football",
@@ -11225,6 +11243,10 @@
       "@type": "Product",
       "itemCondition": "NewCondition",
       "name": "Warrington Town playing kit",
+      "brand": "Macron",
+      "material": "environmentally-friendly yarn, certified by Global Recycled Standard",
+      "image": "https://www.warringtontownfc.co.uk/wp-content/uploads/2022/06/202223-Home-shirt.jpeg",
+      "mainEntityOfPage": "https://www.warringtontownfc.co.uk/product/2022-23-replica-home-shirt/",
       "color": ["#FDFF54", "#1331A4"]
     },
 
