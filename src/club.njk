@@ -49,13 +49,12 @@ eleventyComputed:
 
 {% block css %}
   {%- if club.owns %}
-    {%- if not club.image %}
       <style>
-        section.hero {
-          background: linear-gradient(135deg, {%- if club.owns.color.length == 2 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[0] }} 15.01rem, {{ club.owns.color[0] }} 15.50rem, #ffffff 15.51rem, #ffffff 100% {%- elif club.owns.color.length == 3 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[2] }} 15.01rem, {{ club.owns.color[2] }} 15.50rem, #ffffff 15.51rem, #ffffff 100% {%- else %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 15.5rem, #ffffff 15.51rem, #ffffff 100% {%- endif %});
+        section .hero-body {
+          background: linear-gradient(135deg, {%- if club.owns.color.length == 2 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[0] }} 15.01rem, {{ club.owns.color[0] }} 15.50rem, rgba(0,0,0,0) 15.51rem, rgba(0,0,0,0) 100% {%- elif club.owns.color.length == 3 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[2] }} 15.01rem, {{ club.owns.color[2] }} 15.50rem, rgba(0,0,0,0) 15.51rem, rgba(0,0,0,0) 100% {%- else %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 15.5rem, rgba(0,0,0,0) 15.51rem,  rgba(0,0,0,0) 100% {%- endif %});
+          z-index: 16;
         }
       </style>
-    {%- endif %}
   {%- endif %}
 {% endblock %}
 
@@ -64,23 +63,16 @@ eleventyComputed:
 {% endblock %}
 
 {% block header %}
-  <section class="hero {% if club.owns === false %}is-white{% endif %} {% if club.image %}is-medium{% endif %} has-background">
+  {% set background = "is-white" if club.owns %}
+  <section class="hero {{ background }}  has-background">
     {% if club.image %}
       {# 640, 768, 1024, 1366, 1600, 1920 #}
-      {% image "./src/_assets/img/flickr/" + club.image.contentUrl,
-      [
-        640, 768, 1024, 1366, 1600
-      ],
-      [
-        "avif", "jpeg"
-      ],
-      club.name,
-      "100vw",
-      "clubs" %}
+      {% image "./src/_assets/img/flickr/" + club.image.contentUrl, [ 640, 768, 1024, 1366, 1600 ], [ "avif", "jpeg" ], club.name, "100vw", "clubs" %}
     {% endif %}
     <div class="hero-body">
       <div class="container has-text-left">
-        <h1 class="title has-background-white is-inline-block has-text-weight-bold {% if club.image or club.owns -%}p-4{% endif %} is-size-2 is-size-3-mobile">{{ club.name }}</h1>
+        {% set padding = "p-4" if club.image or club.owns %}
+        <h1 class="title has-background-white is-inline-block has-text-weight-bold is-size-2 is-size-3-mobile {{ padding }}">{{ club.name }}</h1>
       </div>
     </div>
   </section>
