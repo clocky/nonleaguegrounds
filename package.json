@@ -34,7 +34,7 @@
     "remove": "^0.1.5"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.18",
+    "@11ty/eleventy": "^2.0.0-canary.20",
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-img": "^2.0.1",
     "@prettier/plugin-xml": "^2.2.0",
