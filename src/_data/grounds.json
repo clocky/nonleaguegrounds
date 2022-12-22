@@ -255,7 +255,7 @@
         "url": "https://gateshead-fc.com",
         "sameAs": [
           "https://twitter.com/GatesheadFC/",
-          "https://www.facebook.com/gaetesheadfc",
+          "https://www.facebook.com/gatesheadfc",
           "https://www.instagram.com/gfc_official/"
         ],
         "memberOf": {
@@ -1875,7 +1875,9 @@
         "url": "https://www.doverathletic.com",
         "sameAs": [
           "https://twitter.com/DoverAthletic/",
-          "https://www.facebook.com/DoverAthleticFC"
+          "https://www.facebook.com/DoverAthleticFC",
+          "https://www.instagram.com/doverathleticfc/",
+          "https://www.youtube.com/channel/UCFRtqGp7p4Y2iNx"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -4248,7 +4250,12 @@
         },
         "foundingDate": "1886",
         "url": "https://worthingfc.com",
-        "sameAs": ["https://twitter.com/WorthingFC/"],
+        "sameAs": [
+          "https://twitter.com/WorthingFC/",
+          "https://www.facebook.com/WorthingFC",
+          "https://www.instagram.com/WorthingFC/",
+          "https://www.youtube.com/channel/UCup2RlzMkVZpQICHZW_0jvg"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
@@ -6416,7 +6423,12 @@
         },
         "foundingDate": "1873",
         "url": "https://chippenhamtown.com",
-        "sameAs": ["https://twitter.com/ChipTownFC/"],
+        "sameAs": [
+          "https://twitter.com/ChipTownFC/",
+          "https://www.facebook.com/ChipTownFC",
+          "https://www.instagram.com/chiptownfc/",
+          "https://www.youtube.com/channel/UC0ZU5860mrLwzvLzvenGsRA"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
@@ -6756,7 +6768,11 @@
         },
         "foundingDate": "1956",
         "url": "https://marskeunitedfc.org",
-        "sameAs": ["https://twitter.com/MarskeUnitedFC/"],
+        "sameAs": [
+          "https://twitter.com/MarskeUnitedFC/",
+          "https://www.facebook.com/marske.unitedfc",
+          "https://www.instagram.com/marskeunitedfc/"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "Northern Premier League",

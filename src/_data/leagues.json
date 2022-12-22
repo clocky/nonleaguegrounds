@@ -53,13 +53,13 @@
         "url": "https://altrinchamfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Altrincham playing kit",
           "brand": "Puma",
           "material": "Re-tex recycled fabric",
           "image": "https://cdn.shopify.com/s/files/1/0453/2692/5974/products/altrinchamfc_front_home_kit_1000x.jpg?v=1660735903",
-          "mainEntityOfPage": "https://altrinchamfc.com/products/22-23-alty-fc-home-adult-shirt",
-          "color": ["#C42E1E", "#ffffff", "#000000"]
+          "url": "https://altrinchamfc.com/products/22-23-alty-fc-home-adult-shirt",
+          "itemCondition": "NewCondition",
+          "color": ["#C42E1E", "#FFFFFF", "#000000"]
         },
 
         "keywords": "professional",
@@ -98,12 +98,12 @@
         "url": "https://www.theshots.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Aldershot Town playing kit",
           "brand": "Erreà",
           "material": "TI-energy, a high performance technical fabric",
           "image": "https://www.theshots.co.uk/wp-content/uploads/2022/06/FB_2-1-scaled.jpg",
-          "mainEntityOfPage": "https://www.theshots.co.uk/product/adult-home-2022-23-shirt/",
+          "url": "https://www.theshots.co.uk/product/adult-home-2022-23-shirt/",
+          "itemCondition": "NewCondition",
           "color": ["#C32D27", "#172576"]
         },
 
@@ -143,12 +143,12 @@
         "url": "https://www.barnetfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Barnet playing kit",
           "brand": "Stanno",
           "material": "100% recycled polyester",
           "image": "https://www.venuetoolbox.com/barnetfc/Photos/%7B09E40F04-A688-4B11-ABDE-01E7122AD6C0%7D/P5430122.png",
-          "mainEntityOfPage": "https://www.venuetoolbox.com/barnetfc/Products/HOME+Adult+Replica+BFC+Shirt+2022%5F23+BFC%5FShirts%5FBFC+Home%5FAdults%5F2022%5F23",
+          "url": "https://www.venuetoolbox.com/barnetfc/Products/HOME+Adult+Replica+BFC+Shirt+2022%5F23+BFC%5FShirts%5FBFC+Home%5FAdults%5F2022%5F23",
+          "itemCondition": "NewCondition",
           "color": ["#0D0807", "#FF7700"]
         },
 
@@ -189,12 +189,12 @@
         "url": "https://www.borehamwoodfootballclub.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Boreham Wood playing kit",
           "brand": "Puma",
           "image": "https://cdn.freewebstore.com/origin/159842/clubshop_thumbnail_home_2.png",
-          "mainEntityOfPage": "https://www.bwfcclubshop.co.uk/202223_HOME_REPLICA_SHIRT/p1478107_21169170.aspx",
-          "color": ["#ffffff", "#000000"]
+          "url": "https://www.bwfcclubshop.co.uk/202223_HOME_REPLICA_SHIRT/p1478107_21169170.aspx",
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#000000"]
         },
 
         "keywords": "semi-professional",
@@ -235,13 +235,13 @@
         "url": "https://www.bromleyfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Bromley playing kit",
           "brand": "Kappa",
           "material": "100% polyester",
           "image": "https://cdn.shopify.com/s/files/1/0591/9339/3284/products/ReplicaHomeFront_7fa3bcc0-2428-4d77-bb83-f6a02172b5c9_960x.png?v=1664977018",
-          "mainEntityOfPage": "https://bromleyfcshop.co.uk/products/bromley-fc-replica-home-shirt",
-          "color": ["#ffffff", "#161412", "#B18E5C"]
+          "url": "https://bromleyfcshop.co.uk/products/bromley-fc-replica-home-shirt",
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#161412", "#B18E5C"]
         },
 
         "keywords": "professional",
@@ -282,12 +282,12 @@
         "url": "https://chesterfield-fc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Chesterfield playing kit",
           "brand": "Puma",
           "image": "https://chesterfield-fc.co.uk/wp-content/uploads/2022/10/P1026998-copy.png",
-          "mainEntityOfPage": "https://chesterfield-fc.co.uk/product/adult-puma-home-shirt",
-          "color": ["#3974C0", "#ffffff"]
+          "url": "https://chesterfield-fc.co.uk/product/adult-puma-home-shirt",
+          "itemCondition": "NewCondition",
+          "color": ["#3974C0", "#FFFFFF"]
         },
 
         "keywords": "professional",
@@ -327,12 +327,12 @@
         "url": "https://daggers.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Dagenham &amp; Redbridge playing kit",
           "brand": "Nike",
           "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000051/1a1974fd-91b3-432d-9873-b31e96b11280.jpg",
-          "mainEntityOfPage": "https://daggers.ktckts.com/merchandise/dag2223hsrt/202223-home-nike-shirt",
-          "color": ["#D74D3E", "#141D6A", "#ffffff"]
+          "url": "https://daggers.ktckts.com/merchandise/dag2223hsrt/202223-home-nike-shirt",
+          "itemCondition": "NewCondition",
+          "color": ["#D74D3E", "#141D6A", "#FFFFFF"]
         },
 
         "keywords": "professional",
@@ -373,12 +373,12 @@
         "url": "https://www.dorkingwanderers.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Dorking Wanderers playing kit",
           "brand": "Macron",
           "material": "100% softlock weave polyester",
-          "mainEntityOfPage": "https://dwfc-online-shop.myshopify.com/collections/official-replica-kit/products/new-home-shirt-2022-23",
-          "color": ["#0E216E", "#ffffff", "#D12F2D"]
+          "url": "https://dwfc-online-shop.myshopify.com/collections/official-replica-kit/products/new-home-shirt-2022-23",
+          "itemCondition": "NewCondition",
+          "color": ["#0E216E", "#FFFFFF", "#D12F2D"]
         },
 
         "keywords": "semi-professional",
@@ -418,11 +418,11 @@
         "url": "https://www.eastleighfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Eastleigh playing kit",
           "brand": "Kappa",
-          "mainEntityOfPage": "https://eastleighfc.store/collections/replica-kit/products/22-23-home-shirt-adult",
-          "color": ["#0D228E", "#ffffff"]
+          "url": "https://eastleighfc.store/collections/replica-kit/products/22-23-home-shirt-adult",
+          "itemCondition": "NewCondition",
+          "color": ["#0D228E", "#FFFFFF"]
         },
 
         "keywords": "professional",
@@ -461,10 +461,10 @@
         "url": "https://fchalifaxtown.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "FC Halifax Town playing kit",
           "brand": "adidas",
-          "mainEntityOfPage": "https://www.fchtshop.com/home-shirt-2223-with-parley-2011-p.asp",
+          "url": "https://www.fchtshop.com/home-shirt-2223-with-parley-2011-p.asp",
+          "itemCondition": "NewCondition",
           "color": ["#3165A7"]
         },
 
@@ -489,7 +489,7 @@
         "slogan": "The Tynesiders",
         "sameAs": [
           "https://twitter.com/GatesheadFC/",
-          "https://www.facebook.com/gaetesheadfc",
+          "https://www.facebook.com/gatesheadfc",
           "https://www.instagram.com/gfc_official/"
         ],
         "logo": {
@@ -505,11 +505,11 @@
         "url": "https://gateshead-fc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Gateshead playing kit",
           "brand": "Puma",
-          "mainEntityOfPage": "https://gfcshop.co.uk/collections/replica-kit/products/adult-22-23-home-shirt",
-          "color": ["#221F26", "#ffffff"]
+          "url": "https://gfcshop.co.uk/collections/replica-kit/products/adult-22-23-home-shirt",
+          "itemCondition": "NewCondition",
+          "color": ["#221F26", "#FFFFFF"]
         },
 
         "keywords": "professional",
@@ -550,12 +550,12 @@
         "url": "https://www.pitchero.com/clubs/maidenheadunited",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Maidenhead United playing kit",
           "brand": "uhlsport",
           "image": "https://cdn.shopify.com/s/files/1/0348/8533/7225/products/HOMEAMEND202223_1024x1024@2x.jpg?v=1655970948",
-          "mainEntityOfPage": "https://mufcdirect.co.uk/collections/mufc-1st-team-club-shop/products/mufc-home-shirt-2022-23-junior-sizes",
-          "color": ["#060807", "#ffffff"]
+          "url": "https://mufcdirect.co.uk/collections/mufc-1st-team-club-shop/products/mufc-home-shirt-2022-23-junior-sizes",
+          "itemCondition": "NewCondition",
+          "color": ["#060807", "#FFFFFF"]
         },
 
         "keywords": "semi-professional",
@@ -596,10 +596,10 @@
         "url": "https://maidstoneunited.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Maidstone United playing kit",
           "brand": "Macron",
-          "mainEntityOfPage": "https://maidstoneunited.co.uk/product/home-replica-shirt/",
+          "url": "https://maidstoneunited.co.uk/product/home-replica-shirt/",
+          "itemCondition": "NewCondition",
           "color": ["#E0A03C", "#434343"]
         },
 
@@ -641,11 +641,11 @@
         "url": "https://www.nottscountyfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Notts County playing kit",
           "brand": "Puma",
-          "mainEntityOfPage": "https://shop.nottscountyfc.co.uk/ADHMSHIRT2223",
-          "color": ["#000000", "#ffffff", "#817653"]
+          "url": "https://shop.nottscountyfc.co.uk/ADHMSHIRT2223",
+          "itemCondition": "NewCondition",
+          "color": ["#000000", "#FFFFFF", "#817653"]
         },
 
         "keywords": "professional",
@@ -686,9 +686,9 @@
         "url": "https://www.oldhamathletic.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Oldham Athletic playing kit",
-          "color": ["#2253A0", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["#2253A0", "#FFFFFF"]
         },
 
         "keywords": "professional",
@@ -729,11 +729,11 @@
         "url": "https://www.solihullmoorsfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Solihull Moors playing kit",
           "brand": "adidas",
           "image": "https://shop.solihullmoorsfc.co.uk/wp-content/uploads/2022/07/6.png",
-          "mainEntityOfPage": "https://shop.solihullmoorsfc.co.uk/product/solihull-moors-home-replica-shirt-2022-23/",
+          "url": "https://shop.solihullmoorsfc.co.uk/product/solihull-moors-home-replica-shirt-2022-23/",
+          "itemCondition": "NewCondition",
           "color": ["#F9EB4E", "#FFFFFF"]
         },
 
@@ -775,11 +775,11 @@
         "url": "https://www.southendunited.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Southend United playing kit",
           "brand": "Macron",
-          "mainEntityOfPage": "https://southendunitedmacronstore.co.uk/product/sfc22-home-shirt-sr/",
-          "color": ["#0C2751", "#ffffff"]
+          "url": "https://southendunitedmacronstore.co.uk/product/sfc22-home-shirt-sr/",
+          "itemCondition": "NewCondition",
+          "color": ["#0C2751", "#FFFFFF"]
         },
 
         "keywords": "professional",
@@ -820,11 +820,11 @@
         "url": "https://www.scunthorpe-united.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Scunthorpe United playing kit",
           "brand": "Macron",
           "image": "https://www.sufcshop.com/siteimg/productimages/864-985.jpg",
-          "mainEntityOfPage": "https://www.sufcshop.com/replica-kit/replica-kit/home-2223/864_adult-home-shirt-22-23.html",
+          "url": "https://www.sufcshop.com/replica-kit/replica-kit/home-2223/864_adult-home-shirt-22-23.html",
+          "itemCondition": "NewCondition",
           "color": ["#7B2D35", "#7AB1E2"]
         },
 
@@ -864,12 +864,12 @@
         "url": "https://torquayunited.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Torquay United AFC playing kit",
           "brand": "Puma",
           "material": "100% double knit polyester",
           "image": "https://www.venuetoolbox.com/torquayunited/Photos/%7B9EF6ECB3-586D-43C9-B44E-AA7DEF8A1A8A%7D/Home.jpg",
-          "mainEntityOfPage": "https://www.venuetoolbox.com/torquayunited/Products/TUAFC+Puma+2022+Home+Shirt+Adults+PS+2022",
+          "url": "https://www.venuetoolbox.com/torquayunited/Products/TUAFC+Puma+2022+Home+Shirt+Adults+PS+2022",
+          "itemCondition": "NewCondition",
           "color": ["#F8D347", "#2852B1"]
         },
 
@@ -909,12 +909,12 @@
         "url": "https://www.wealdstone-fc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Wealdstone playing kit",
           "brand": "Kelme",
           "image": "https://cdn.shopify.com/s/files/1/0577/9475/6807/products/Wealdstonebluefront_960x.jpg?v=1628103441",
-          "mainEntityOfPage": "https://wealdstonefcstore.co.uk/products/adult-home-shirt-21-22-season",
-          "color": ["#1B43CE", "#ffffff"]
+          "url": "https://wealdstonefcstore.co.uk/products/adult-home-shirt-21-22-season",
+          "itemCondition": "NewCondition",
+          "color": ["#1B43CE", "#FFFFFF"]
         },
 
         "keywords": "semi-professional",
@@ -954,13 +954,13 @@
         "url": "https://wokingfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Woking playing kit",
           "brand": "adidas",
           "material": "100% recycled polyester Interlock",
           "image": "https://store.wokingfc.com//images/stories/virtuemart/product/28849-C(74)-P(0)-R(ep68c).jpg",
-          "mainEntityOfPage": "https://store.wokingfc.com/kits/home-kit/woking-fc-home-jersey-22-23-p",
-          "color": ["#B03033", "#ffffff", "#D2AE71"]
+          "url": "https://store.wokingfc.com/kits/home-kit/woking-fc-home-jersey-22-23-p",
+          "itemCondition": "NewCondition",
+          "color": ["#B03033", "#FFFFFF", "#D2AE71"]
         },
 
         "keywords": "professional",
@@ -1003,8 +1003,8 @@
         "url": "https://www.wrexhamafc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Wrexham AFC playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#B32B25"]
         },
 
@@ -1041,11 +1041,11 @@
         "url": "https://www.ytfc.net",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Yeovil Town playing kit",
           "brand": "Hummel",
           "image": "https://ytfc.store/wp-content/uploads/2022/06/home-shirt-website.png",
-          "mainEntityOfPage": "https://ytfc.store/product/hummel-22-23-home-shirt-adult/",
+          "url": "https://ytfc.store/product/hummel-22-23-home-shirt-adult/",
+          "itemCondition": "NewCondition",
           "color": ["#4DAC26", "#FFFF54"]
         },
 
@@ -1087,10 +1087,10 @@
         "url": "https://yorkcityfootballclub.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "York City playing kit",
           "brand": "Puma",
-          "mainEntityOfPage": "https://ycfcstore.co.uk/collections/2022-23-centenary-collection/products/2022-23-limited-edition-home-shirt",
+          "url": "https://ycfcstore.co.uk/collections/2022-23-centenary-collection/products/2022-23-limited-edition-home-shirt",
+          "itemCondition": "NewCondition",
           "color": ["#72253C", "#D8C39F"]
         },
 
@@ -1159,11 +1159,11 @@
         "url": "https://www.afcfylde.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "AFC Fylde playing kit",
           "brand": "New Balance",
-          "mainEntityOfPage": "https://www.afcfylde.co.uk/official-online-store/shop/22-23-nb-home-shirt/",
-          "color": ["#ffffff", "#DB4433", "#1C488B"]
+          "url": "https://www.afcfylde.co.uk/official-online-store/shop/22-23-nb-home-shirt/",
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#DB4433", "#1C488B"]
         },
 
         "keywords": "professional",
@@ -1203,12 +1203,12 @@
         "url": "https://www.telfordunited.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "AFC Telford United playing kit",
           "brand": "Puma",
-          "image": "https://sportingtouch.e2ecdn.uk/Products/AFCTHOMEJSY.jpg?w=650&amp;h=650&amp;quality=82&amp;scale=canvas",
-          "mainEntityOfPage": "https://www.sportingtouch.com/products/club-shop-afc-telford-united-2022-23-home-replica-jersey.html#undefined1",
-          "color": ["#ffffff", "#182849"]
+          "image": "https://sportingtouch.e2ecdn.uk/Products/AFCTHOMEJSY.jpg?w=650&amp;amp;h=650&amp;amp;quality=82&amp;amp;scale=canvas",
+          "url": "https://www.sportingtouch.com/products/club-shop-afc-telford-united-2022-23-home-replica-jersey.html#undefined1",
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#182849"]
         },
 
         "identifier": {
@@ -1246,11 +1246,11 @@
         "url": "https://alfretontownfootballclub.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Alfreton Town playing kit",
           "brand": "SKKits",
-          "mainEntityOfPage": "https://alfretontown.myshopify.com/products/16-through-21-years-old-alfreton-town-fc-season-seats-first-250-supporters-to-reserve-will-receive-a-free-replica-jersey",
-          "color": ["#E31B1B", "#ffffff"]
+          "url": "https://alfretontown.myshopify.com/products/16-through-21-years-old-alfreton-town-fc-season-seats-first-250-supporters-to-reserve-will-receive-a-free-replica-jersey",
+          "itemCondition": "NewCondition",
+          "color": ["#E31B1B", "#FFFFFF"]
         },
 
         "keywords": "semi-professional",
@@ -1289,11 +1289,11 @@
         "url": "https://www.banburyunitedfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Banbury United playing kit",
           "brand": "The Terrace",
           "image": "https://cdn.shopify.com/s/files/1/1909/2827/products/bufchome_1024x1024.jpg?v=1660127862",
-          "mainEntityOfPage": "https://theterracestore.com/collections/banbury-united/products/banbury-united-22-23-home-replica-shirt",
+          "url": "https://theterracestore.com/collections/banbury-united/products/banbury-united-22-23-home-replica-shirt",
+          "itemCondition": "NewCondition",
           "color": ["#F6EC4E", "#E83830"]
         },
 
@@ -1332,10 +1332,10 @@
         "url": "https://www.blythspartans.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Blyth Spartans AFC playing kit",
           "brand": "EV2",
-          "color": ["#ffffff", "#326F43"]
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#326F43"]
         },
 
         "identifier": {
@@ -1373,9 +1373,9 @@
         "url": "https://www.bostonunited.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Boston United playing kit",
           "brand": "adidas",
+          "itemCondition": "NewCondition",
           "color": ["#F4CA44", "#1C1819"]
         },
 
@@ -1415,9 +1415,9 @@
         "url": "https://brackleytownfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Brackley Town playing kit",
           "brand": "Puma",
+          "itemCondition": "NewCondition",
           "color": ["#B62619"]
         },
 
@@ -1458,9 +1458,9 @@
         "url": "https://bpafc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Bradford (Park Avenue) AFC playing kit",
-          "color": ["#439541", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["#439541", "#FFFFFF"]
         },
 
         "identifier": {
@@ -1499,10 +1499,10 @@
         "url": "https://www.buxtonfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Buxton playing kit",
           "brand": "Canterbury",
-          "color": ["#194063", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["#194063", "#FFFFFF"]
         },
 
         "identifier": {
@@ -1541,12 +1541,12 @@
         "url": "https://www.chesterfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Chester playing kit",
           "brand": "Kappa",
           "image": "https://cdn.shopify.com/s/files/1/1575/3869/products/newTrainingTop-22_1024x1024@2x.jpg?v=1667908356",
-          "mainEntityOfPage": "https://www.chesterfcretail.com/collections/frontpage/products/adult-chester-fc-kappa-training-t-shirt-2022",
-          "color": ["#22549F", "#ffffff", "#F4CA4B"]
+          "url": "https://www.chesterfcretail.com/collections/frontpage/products/adult-chester-fc-kappa-training-t-shirt-2022",
+          "itemCondition": "NewCondition",
+          "color": ["#22549F", "#FFFFFF", "#F4CA4B"]
         },
 
         "identifier": {
@@ -1586,13 +1586,13 @@
         "url": "https://www.chorleyfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Chorley playing kit",
           "brand": "Hope + Glory Sportswear",
           "material": "100% Polyester",
           "image": "https://store.chorleyfc.com/wp-content/uploads/2022/05/home-2223.jpg",
-          "mainEntityOfPage": "https://store.chorleyfc.com/product/home-shirt",
-          "color": ["#ffffff", "#000000"]
+          "url": "https://store.chorleyfc.com/product/home-shirt",
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#000000"]
         },
 
         "keywords": "semi-professional",
@@ -1632,10 +1632,10 @@
         "url": "https://www.curzon-ashton.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Curzon Ashton playing kit",
           "brand": "adidas",
-          "color": ["#152EA7", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["#152EA7", "#FFFFFF"]
         },
 
         "identifier": {
@@ -1674,8 +1674,8 @@
         "url": "https://darlingtonfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Darlington playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#FAFAFA", "#353A3F", "#CD4B3B"]
         },
 
@@ -1716,9 +1716,9 @@
         "url": "https://farsleyceltic.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Farsley Celtic playing kit",
-          "color": ["#ffffff", "#43964F"]
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#43964F"]
         },
 
         "identifier": {
@@ -1758,8 +1758,8 @@
         "url": "https://www.gloucestercityafc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Gloucester City AFC playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#CC2D24", "#EBBC42"]
         },
 
@@ -1801,9 +1801,9 @@
         "url": "https://www.herefordfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Hereford playing kit",
-          "color": ["#333333", "#ffffff", "#C62A1C"]
+          "itemCondition": "NewCondition",
+          "color": ["#333333", "#FFFFFF", "#C62A1C"]
         },
 
         "identifier": {
@@ -1841,10 +1841,10 @@
         "url": "https://ketteringtownfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Kettering Town playing kit",
-          "mainEntityOfPage": "https://ketteringtownfc.com/product/reserved-home-team-shirt",
-          "color": ["#EA332C", "#ffffff", "#000000"]
+          "url": "https://ketteringtownfc.com/product/reserved-home-team-shirt",
+          "itemCondition": "NewCondition",
+          "color": ["#EA332C", "#FFFFFF", "#000000"]
         },
 
         "identifier": {
@@ -1884,9 +1884,9 @@
         "url": "https://harriers.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Kidderminster Harriers playing kit",
-          "color": ["#ffffff", "#BF372F"]
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#BF372F"]
         },
 
         "keywords": "professional",
@@ -1927,8 +1927,8 @@
         "url": "https://www.kltown.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Kings Lynn Town playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#284171", "#CBAB56"]
         },
 
@@ -1969,8 +1969,8 @@
         "url": "https://leamingtonfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Leamington playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#E4BE4E", "#000000"]
         },
 
@@ -2009,8 +2009,8 @@
         "url": "https://pslfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Peterborough Sports playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#283A90", "#F3F554"]
         },
 
@@ -2051,9 +2051,9 @@
         "url": "https://www.scarboroughathletic.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Scarborough Athletic playing kit",
-          "color": ["#C8353D", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["#C8353D", "#FFFFFF"]
         },
 
         "identifier": {
@@ -2093,8 +2093,8 @@
         "url": "https://southportfc.net",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Southport playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#EEB551", "#191C24"]
         },
 
@@ -2135,12 +2135,12 @@
         "url": "https://spennymoortownfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Spennymoor Town playing kit",
           "brand": "Erreá",
           "image": "https://spennymoortownfc.co.uk/wp-content/uploads/2022/07/600x338xhomekit_2223_i.jpg.pagespeed.ic.3tmEulBFT5.jpg",
-          "mainEntityOfPage": "https://spennymoortownfc.co.uk/product/2022-23-home-shirt/",
-          "color": ["#ffffff", "#000000", "#B02418"]
+          "url": "https://spennymoortownfc.co.uk/product/2022-23-home-shirt/",
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#000000", "#B02418"]
         },
 
         "identifier": {
@@ -2205,6 +2205,15 @@
         },
         "foundingDate": "1889",
         "url": "https://www.bathcityfc.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Bath City playing kit",
+          "brand": "Erreá",
+          "image": "https://cdn.shopify.com/s/files/1/1624/7791/products/2022-23homeshirt_1024x1024@2x.jpg?v=1659775536",
+          "url": "https://bath-city-fc.myshopify.com/collections/top-sellers/products/bath-city-home-shirt-2022-23-adult",
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#000000"]
+        },
 
         "keywords": "semi-professional",
         "identifier": {
@@ -2244,9 +2253,9 @@
         "url": "https://braintreetownfc.org.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Braintree Town playing kit",
-          "color": ["#ED7F31", "#ffffff", "#0101E2"]
+          "itemCondition": "NewCondition",
+          "color": ["#ED7F31", "#FFFFFF", "#0101E2"]
         },
 
         "keywords": "semi-professional",
@@ -2321,8 +2330,8 @@
         "url": "https://cheshuntfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Cheshunt playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#1C1C1C", "#EEB654"]
         },
 
@@ -2344,7 +2353,12 @@
         "@type": "SportsTeam",
         "name": "Chippenham Town",
         "slogan": "The Bluebirds",
-        "sameAs": ["https://twitter.com/ChipTownFC/"],
+        "sameAs": [
+          "https://twitter.com/ChipTownFC/",
+          "https://www.facebook.com/ChipTownFC",
+          "https://www.instagram.com/chiptownfc/",
+          "https://www.youtube.com/channel/UC0ZU5860mrLwzvLzvenGsRA"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8147.png",
@@ -2356,6 +2370,17 @@
         },
         "foundingDate": "1873",
         "url": "https://chippenhamtown.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Chippenham Town playing kit",
+          "brand": "UHLsport",
+          "material": "100% polyester",
+          "image": "https://s3.amazonaws.com/sportinggifts/products/opt1/800/51136.jpg",
+          "sku": "51136",
+          "url": "https://www.sportingbilly.com/i-s-51136-jaa/chippenham-town-personalised-home-shirt.htm",
+          "itemCondition": "NewCondition",
+          "color": ["#294599", "#FFFFFF", "#1B2C60"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -2393,9 +2418,9 @@
         "url": "https://www.concord-rangers.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Concord Rangers playing kit",
-          "color": ["#F8DD4A", "#ffffff", "#204390"]
+          "itemCondition": "NewCondition",
+          "color": ["#F8DD4A", "#FFFFFF", "#204390"]
         },
 
         "identifier": {
@@ -2434,12 +2459,12 @@
         "url": "https://www.dartfordfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Dartford playing kit",
           "brand": "Puma",
           "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000040/a55352df-da8c-4055-b2d1-a686e0293291.jpg",
-          "mainEntityOfPage": "https://dartfordfc.ktckts.com/merchandise/darmerhome/home-shirt",
-          "color": ["#191919", "#ffffff"]
+          "url": "https://dartfordfc.ktckts.com/merchandise/darmerhome/home-shirt",
+          "itemCondition": "NewCondition",
+          "color": ["#191919", "#FFFFFF"]
         },
 
         "identifier": {
@@ -2462,7 +2487,9 @@
         "slogan": "The Whites",
         "sameAs": [
           "https://twitter.com/DoverAthletic/",
-          "https://www.facebook.com/DoverAthleticFC"
+          "https://www.facebook.com/DoverAthleticFC",
+          "https://www.instagram.com/doverathleticfc/",
+          "https://www.youtube.com/channel/UCFRtqGp7p4Y2iNx"
         ],
         "logo": {
           "@type": "ImageObject",
@@ -2475,6 +2502,15 @@
         },
         "foundingDate": "1983",
         "url": "https://www.doverathletic.com",
+        "owns": {
+          "@type": "Product",
+          "name": "Dover Athletic playing kit",
+          "brand": "Kappa",
+          "image": "https://www.dafcdirect.com/wp-content/uploads/2022/08/e816609f-27cc-4a2c-a1ec-3f7b3424e083.jpg",
+          "url": "https://www.dafcdirect.com/product/2022-2023-home-replica-shirt/",
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#FFFFFF", "#000000"]
+        },
 
         "keywords": "semi-professional",
         "identifier": {
@@ -2547,9 +2583,9 @@
         "url": "https://ebfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Eastbourne Borough playing kit",
-          "color": ["rgb(220, 38, 38)", "rgb(255, 255, 255)"]
+          "itemCondition": "NewCondition",
+          "color": ["RGB(220, 38, 38)", "RGB(255, 255, 255)"]
         },
 
         "identifier": {
@@ -2621,8 +2657,8 @@
         "url": "https://farnboroughfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Farnborough playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#E5D247", "#265BA7"]
         },
 
@@ -2662,8 +2698,8 @@
         "url": "https://hrbfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Hampton &amp; Richmond Borough playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#27223C", "#A63226"]
         },
 
@@ -2769,9 +2805,9 @@
         "url": "https://hungerfordtown.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Hungerford Town playing kit",
-          "color": ["rgb(255, 255, 255)", "rgb(0, 0, 0)"]
+          "itemCondition": "NewCondition",
+          "color": ["RGB(255, 255, 255)", "RGB(0, 0, 0)"]
         },
 
         "identifier": {
@@ -3000,12 +3036,6 @@
         },
         "foundingDate": "1890",
         "url": "https://uptheterras.co.uk",
-        "owns": {
-          "@type": "Product",
-          "itemCondition": "NewCondition",
-          "name": "Weymouth playing kit",
-          "color": []
-        },
 
         "keywords": "semi-professional",
         "identifier": {
@@ -3026,7 +3056,12 @@
         "@type": "SportsTeam",
         "name": "Worthing",
         "slogan": "The Rebels",
-        "sameAs": ["https://twitter.com/WorthingFC/"],
+        "sameAs": [
+          "https://twitter.com/WorthingFC/",
+          "https://www.facebook.com/WorthingFC",
+          "https://www.instagram.com/WorthingFC/",
+          "https://www.youtube.com/channel/UCup2RlzMkVZpQICHZW_0jvg"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7661.png",
@@ -3040,9 +3075,12 @@
         "url": "https://worthingfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Worthing playing kit",
-          "color": []
+          "brand": "Kappa",
+          "image": "https://ticketpass-images.s3.eu-west-2.amazonaws.com/store/test/products/7ce25560-0523-419a-bc5a-8f2b4d2a1fbf/original.png",
+          "url": "https://ethicalticketing.org/worthing-fc-store/store/product/7",
+          "itemCondition": "NewCondition",
+          "color": ["#E64452"]
         },
 
         "identifier": {
@@ -3113,9 +3151,9 @@
         "url": "https://www.pitchero.com/clubs/aveley",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Aveley playing kit",
-          "color": ["#1E169D", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["#1E169D", "#FFFFFF"]
         },
 
         "identifier": {
@@ -3155,8 +3193,8 @@
         "url": "https://www.billericaytownfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Billericay Town playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#1618BF"]
         },
 
@@ -3197,8 +3235,8 @@
         "url": "https://www.bsfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Bishop&#39;s Stortford playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#1B4491", "#FFFFFF"]
         },
 
@@ -3409,8 +3447,8 @@
         "url": "https://corinthian-casuals.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Corinthian-Casuals playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#692F2F", "#DA8DD9"]
         },
 
@@ -3618,8 +3656,8 @@
         "url": "https://hernebayfootballclub.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Herne Bay playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#1A378E"]
         },
 
@@ -3696,8 +3734,8 @@
         "url": "https://www.horshamfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Horsham playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#357942", "#F5C242"]
         },
 
@@ -3736,9 +3774,9 @@
         "url": "https://www.kingstonian.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Kingstonian playing kit",
-          "color": ["#BB271A", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["#BB271A", "#FFFFFF"]
         },
 
         "identifier": {
@@ -3940,9 +3978,9 @@
         "url": "https://ashtonunited.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Ashton United playing kit",
-          "color": ["#AE3034", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["#AE3034", "#FFFFFF"]
         },
 
         "keywords": "semi-professional",
@@ -3981,9 +4019,9 @@
         "url": "https://athertoncollieries.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Atherton Collieries playing kit",
-          "color": ["#ffffff", "#000000"]
+          "itemCondition": "NewCondition",
+          "color": ["#FFFFFF", "#000000"]
         },
 
         "identifier": {
@@ -4019,6 +4057,12 @@
         },
         "foundingDate": "1952",
         "url": "https://bamberbridge.org",
+        "owns": {
+          "@type": "Product",
+          "name": "Bamber Bridge playing kit",
+          "itemCondition": "NewCondition",
+          "color": ["#000000", "#FFFFFF"]
+        },
 
         "keywords": "semi-professional",
         "identifier": {
@@ -4054,6 +4098,12 @@
         },
         "foundingDate": "1883",
         "url": "https://belpertownfc.co.uk",
+        "owns": {
+          "@type": "Product",
+          "name": "Belper Town playing kit",
+          "itemCondition": "NewCondition",
+          "color": ["##FFB605"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -4091,8 +4141,8 @@
         "url": "https://fc-utd.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "FC United of Manchester playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#D03430", "#FFFFFF", "#121212"]
         },
 
@@ -4164,9 +4214,9 @@
         "url": "https://guiseleyafc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Guiseley AFC playing kit",
-          "color": ["#153979", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["#153979", "#FFFFFF"]
         },
 
         "identifier": {
@@ -4204,9 +4254,9 @@
         "url": "https://hydeunited.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Hyde United playing kit",
-          "color": ["#dd3333", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["#DD3333", "#FFFFFF"]
         },
 
         "identifier": {
@@ -4244,8 +4294,8 @@
         "url": "https://www.pitchero.com/clubs/lancastercity",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Lancaster City playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#004C92"]
         },
 
@@ -4285,9 +4335,9 @@
         "url": "https://liversedgefc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Liversedge playing kit",
-          "color": ["rgb(116, 207, 255)", "#ffffff"]
+          "itemCondition": "NewCondition",
+          "color": ["RGB(116, 207, 255)", "#FFFFFF"]
         },
 
         "identifier": {
@@ -4325,8 +4375,8 @@
         "url": "https://marinefc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Marine AFC playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#000000", "#CEB04E"]
         },
 
@@ -4348,7 +4398,11 @@
         "@type": "SportsTeam",
         "name": "Marske United",
         "slogan": "The Seasiders",
-        "sameAs": ["https://twitter.com/MarskeUnitedFC/"],
+        "sameAs": [
+          "https://twitter.com/MarskeUnitedFC/",
+          "https://www.facebook.com/marske.unitedfc",
+          "https://www.instagram.com/marskeunitedfc/"
+        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7658.png",
@@ -4360,6 +4414,14 @@
         },
         "foundingDate": "1956",
         "url": "https://marskeunitedfc.org",
+        "owns": {
+          "@type": "Product",
+          "name": "Marske United playing kit",
+          "brand": "Macron",
+          "url": "https://marskeunitedfc.org/payments/home-shirt-86382.html",
+          "itemCondition": "NewCondition",
+          "color": ["#F7D101", "#005CFF"]
+        },
 
         "identifier": {
           "@type": "url",
@@ -4396,8 +4458,8 @@
         "url": "https://www.matlocktownfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Matlock Town playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#152043"]
         },
 
@@ -4501,8 +4563,8 @@
         "url": "https://radcliffefc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Radcliffe playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#19419F", "#F8E35E"]
         },
 
@@ -4543,8 +4605,8 @@
         "url": "https://www.southshieldsfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "South Shields playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#6F2935", "#8FCFE6"]
         },
 
@@ -4584,13 +4646,13 @@
         "url": "https://www.staffordrangersfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Stafford Rangers playing kit",
           "brand": "Harlequin Teamwear",
           "image": "https://www.harlequinteamwear.co.uk/wp-content/uploads/home-front.png",
-          "sku": "https://2022-Stafford-Rangers-Home-Shirt-adults",
-          "mainEntityOfPage": "https://www.harlequinteamwear.co.uk/product/2022-stafford-rangers-personalised-home-shirt-adults/",
-          "color": ["#000000", "#ffffff", "#C19B4A"]
+          "sku": "2022-Stafford-Rangers-Home-Shirt-adults",
+          "url": "https://www.harlequinteamwear.co.uk/product/2022-stafford-rangers-personalised-home-shirt-adults/",
+          "itemCondition": "NewCondition",
+          "color": ["#000000", "#FFFFFF", "#C19B4A"]
         },
 
         "keywords": "semi-professional",
@@ -4629,13 +4691,13 @@
         "url": "https://stalybridgeceltic.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Stalybridge Celtic playing kit",
           "brand": "Hope + Glory",
           "material": "100% polyester",
           "image": "https://store.hopeandglorysportswear.co.uk/wp-content/uploads/2022/08/scfc-2223-home.jpg",
-          "mainEntityOfPage": "https://store.hopeandglorysportswear.co.uk/product/stalybridge-celtic-22-23-home-shirt",
-          "color": ["#3170EA", "#ffffff", "#A68760"]
+          "url": "https://store.hopeandglorysportswear.co.uk/product/stalybridge-celtic-22-23-home-shirt",
+          "itemCondition": "NewCondition",
+          "color": ["#3170EA", "#FFFFFF", "#A68760"]
         },
 
         "identifier": {
@@ -4673,8 +4735,8 @@
         "url": "https://rylandsfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Warrington Rylands 1906 playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#264793"]
         },
 
@@ -4715,12 +4777,12 @@
         "url": "https://warringtontownfc.co.uk",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Warrington Town playing kit",
           "brand": "Macron",
           "material": "environmentally-friendly yarn, certified by Global Recycled Standard",
           "image": "https://www.warringtontownfc.co.uk/wp-content/uploads/2022/06/202223-Home-shirt.jpeg",
-          "mainEntityOfPage": "https://www.warringtontownfc.co.uk/product/2022-23-replica-home-shirt/",
+          "url": "https://www.warringtontownfc.co.uk/product/2022-23-replica-home-shirt/",
+          "itemCondition": "NewCondition",
           "color": ["#FDFF54", "#1331A4"]
         },
 
@@ -4761,8 +4823,8 @@
         "url": "https://whitbytownfc.com",
         "owns": {
           "@type": "Product",
-          "itemCondition": "NewCondition",
           "name": "Whitby Town playing kit",
+          "itemCondition": "NewCondition",
           "color": ["#0D1B89"]
         },
 

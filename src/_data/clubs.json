@@ -10,7 +10,6 @@
       "value": "GB-COH-8362929"
     },
     "isicV4": "93120",
-
     "alternateName": "Aldershot Town Football Club",
     "slogan": "The Shots",
     "telephone": "+441252320211",
@@ -30,14 +29,15 @@
     "foundingDate": "1992",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Aldershot Town were formed in 1992 as a phoenix club from the ashes of Aldershot FC. They spent the first decade of their existence in the Isthmian League, gaining promotion to the Football Conference in 2002. In 2008, they won the Conference Premier title and returned to the Football League after a 16-year absence. However, they were relegated back to the Conference Premier in 2013, and after a period of administration and uncertainty, they were able to pay off all their debts and remain in the Conference Premier. The 2014-15 season saw them remain in the Conference Premier and the 2015-16 season saw them reach the play-offs, but they were unable to achieve promotion. In 2017-18, they again reached the play-offs, but were again unsuccessful. They were relegated from the National League at the end of the 2018-19 season and they started the 2019-20 season in the National League South.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Aldershot Town playing kit",
       "brand": "Erreà",
       "material": "TI-energy, a high performance technical fabric",
       "image": "https://www.theshots.co.uk/wp-content/uploads/2022/06/FB_2-1-scaled.jpg",
-      "mainEntityOfPage": "https://www.theshots.co.uk/product/adult-home-2022-23-shirt/",
+      "url": "https://www.theshots.co.uk/product/adult-home-2022-23-shirt/",
+      "itemCondition": "NewCondition",
       "color": ["#C32D27", "#172576"]
     },
 
@@ -130,9 +130,7 @@
       "value": "GB-COH-7990575"
     },
     "isicV4": "93110",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Altrincham Football Club",
     "slogan": "The Robins",
     "logo": {
@@ -155,13 +153,13 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Altrincham playing kit",
       "brand": "Puma",
       "material": "Re-tex recycled fabric",
       "image": "https://cdn.shopify.com/s/files/1/0453/2692/5974/products/altrinchamfc_front_home_kit_1000x.jpg?v=1660735903",
-      "mainEntityOfPage": "https://altrinchamfc.com/products/22-23-alty-fc-home-adult-shirt",
-      "color": ["#C42E1E", "#ffffff", "#000000"]
+      "url": "https://altrinchamfc.com/products/22-23-alty-fc-home-adult-shirt",
+      "itemCondition": "NewCondition",
+      "color": ["#C42E1E", "#FFFFFF", "#000000"]
     },
 
     "url": "https://altrinchamfc.com",
@@ -253,7 +251,6 @@
       "value": "GB-COH-1239681"
     },
     "isicV4": "93110",
-
     "alternateName": "Barnet Football Club",
     "slogan": "The Bees",
     "logo": {
@@ -272,14 +269,15 @@
     "foundingDate": "1888",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Barnet Football Club was founded in 1888 and has won several local and national trophies since, including two Athenian League championships in 1931 and 1932, an FA Amateur Cup in 1946, and a Football Conference title in 2015. The club has played in the Football League since 1988 and achieved promotion to the third tier in 1994, although they have experienced relegation several times. In 2009, the club launched its state of the art training facility, The Hive, and in 2013 they became the first English club to appoint a world-famous Dutch international as joint head coach. After relegation to the National League in 2018, the Bees secured a place in the play-offs in the 2019/20 season, although they were eventually defeated by Notts County.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Barnet playing kit",
       "brand": "Stanno",
       "material": "100% recycled polyester",
       "image": "https://www.venuetoolbox.com/barnetfc/Photos/%7B09E40F04-A688-4B11-ABDE-01E7122AD6C0%7D/P5430122.png",
-      "mainEntityOfPage": "https://www.venuetoolbox.com/barnetfc/Products/HOME+Adult+Replica+BFC+Shirt+2022%5F23+BFC%5FShirts%5FBFC+Home%5FAdults%5F2022%5F23",
+      "url": "https://www.venuetoolbox.com/barnetfc/Products/HOME+Adult+Replica+BFC+Shirt+2022%5F23+BFC%5FShirts%5FBFC+Home%5FAdults%5F2022%5F23",
+      "itemCondition": "NewCondition",
       "color": ["#0D0807", "#FF7700"]
     },
 
@@ -351,7 +349,6 @@
       "value": "GB-COH-2533129"
     },
     "isicV4": ["93120", "85510"],
-
     "alternateName": "Boreham Wood Football Club",
     "slogan": "The Wood",
     "logo": {
@@ -371,14 +368,15 @@
     "foundingDate": "1948",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "description": "Boreham Wood Football Club, formed in 1948, celebrated its 70th anniversary at the end of the 2017/18 season. To mark the occasion, the club had an appearance at Wembley and beat a Football League club for the first time ever in the FA Cup. Over the years, the club has moved up through various leagues and achieved promotion to the Isthmian League Premier Division multiple times. In 2014, the club opened a new 870-seater West Stand and, in 2015, achieved promotion to the top tier of Non-League football for the first time. During the 2016/17 season, the club secured its place in the National League Premier and then in 2017/18, beat a Football League club in the FA Cup and finished 4th in the National League.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Boreham Wood playing kit",
       "brand": "Puma",
       "image": "https://cdn.freewebstore.com/origin/159842/clubshop_thumbnail_home_2.png",
-      "mainEntityOfPage": "https://www.bwfcclubshop.co.uk/202223_HOME_REPLICA_SHIRT/p1478107_21169170.aspx",
-      "color": ["#ffffff", "#000000"]
+      "url": "https://www.bwfcclubshop.co.uk/202223_HOME_REPLICA_SHIRT/p1478107_21169170.aspx",
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#000000"]
     },
 
     "url": "https://www.borehamwoodfootballclub.co.uk",
@@ -468,7 +466,6 @@
       "value": "GB-COH-3060560"
     },
     "isicV4": "93110",
-
     "alternateName": "Bromley Football Club",
     "slogan": "The Ravens",
     "logo": {
@@ -489,15 +486,16 @@
     "foundingDate": "1892",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Bromley Football Club were founded in 1892 and have since won multiple honours, including two FA Amateur Cup titles and two Isthmian League titles. They play their home games at Hayes Lane, having spent many years at different grounds. They reached the FA Cup first round in 1938/39 and then again in 1939/40, where they were beaten by Lincoln City. They won the National League South in 2014/15 and managed to win the Buildbase FA Trophy in 2021.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Bromley playing kit",
       "brand": "Kappa",
       "material": "100% polyester",
       "image": "https://cdn.shopify.com/s/files/1/0591/9339/3284/products/ReplicaHomeFront_7fa3bcc0-2428-4d77-bb83-f6a02172b5c9_960x.png?v=1664977018",
-      "mainEntityOfPage": "https://bromleyfcshop.co.uk/products/bromley-fc-replica-home-shirt",
-      "color": ["#ffffff", "#161412", "#B18E5C"]
+      "url": "https://bromleyfcshop.co.uk/products/bromley-fc-replica-home-shirt",
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#161412", "#B18E5C"]
     },
 
     "url": "https://www.bromleyfc.co.uk",
@@ -568,7 +566,6 @@
       "value": "GB-COH-6903318"
     },
     "isicV4": "93199",
-
     "alternateName": "Chesterfield Football Club",
     "slogan": "The Spireites",
     "telephone": "+441246269300",
@@ -590,14 +587,15 @@
     "foundingDate": "1919",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Chesterfield Football Club dates back to at least 1864, when a club by that name was established in the town. The most widely-held view is that the club was founded in 1866, but there is no contemporary evidence to support this claim. In 1867, Chesterfield Football Club officially formed and played their first match in February 1868. After the club folded in 1881, another club was created in 1884 under the name of Chesterfield Town FC. This name was later changed to Chesterfield FC in 1915, and the current club dates from April 1919, when it was formed as the Chesterfield Municipal FC.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Chesterfield playing kit",
       "brand": "Puma",
       "image": "https://chesterfield-fc.co.uk/wp-content/uploads/2022/10/P1026998-copy.png",
-      "mainEntityOfPage": "https://chesterfield-fc.co.uk/product/adult-puma-home-shirt",
-      "color": ["#3974C0", "#ffffff"]
+      "url": "https://chesterfield-fc.co.uk/product/adult-puma-home-shirt",
+      "itemCondition": "NewCondition",
+      "color": ["#3974C0", "#FFFFFF"]
     },
 
     "url": "https://chesterfield-fc.co.uk",
@@ -663,7 +661,6 @@
       "value": "GB-COH-6134948"
     },
     "isicV4": "93199",
-
     "alternateName": "Dagenham & Redbridge Football Club",
     "slogan": "The Daggers",
     "telephone": "+442085921549",
@@ -684,14 +681,15 @@
     "foundingDate": "1992",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Dagenham & Redbridge Football Club have been in existence for 28 years and have had their fair share of highs and lows. They were formed following a merger between Leytonstone, Ilford, Walthamstow Avenue and Dagenham FC, and are currently in the National League. In 2007 they won the Conference Championship and were promoted to League One, and in 2010 they returned to the Football League. They have since been relegated twice, and in 2021 finished 12th in the National League. They have also reached the 2nd round of the FA Cup and were close to promotion in 2017.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Dagenham &amp; Redbridge playing kit",
       "brand": "Nike",
       "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000051/1a1974fd-91b3-432d-9873-b31e96b11280.jpg",
-      "mainEntityOfPage": "https://daggers.ktckts.com/merchandise/dag2223hsrt/202223-home-nike-shirt",
-      "color": ["#D74D3E", "#141D6A", "#ffffff"]
+      "url": "https://daggers.ktckts.com/merchandise/dag2223hsrt/202223-home-nike-shirt",
+      "itemCondition": "NewCondition",
+      "color": ["#D74D3E", "#141D6A", "#FFFFFF"]
     },
 
     "url": "https://daggers.co.uk",
@@ -761,7 +759,6 @@
       "value": "GB-COH-8964370"
     },
     "isicV4": "93120",
-
     "alternateName": "Dorking Wanderers Football Club",
     "slogan": "The Wanderers",
     "logo": {
@@ -782,14 +779,15 @@
     "foundingDate": "1999",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "description": "Dorking Wanderers Football Club was established in 1999 and has steadily climbed the non-league pyramid from park football to the National League Premier. After several promotions the club moved to their Westhumble home in 2007, and in 2015 they secured promotion to the Ryman Division One South. In 2017 they won promotion to the Bostik Premier League, and in 2019 they won the league and secured a place in the National League South. In 2021, they won the league again and secured promotion to the National League Premier for the first time.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Dorking Wanderers playing kit",
       "brand": "Macron",
       "material": "100% softlock weave polyester",
-      "mainEntityOfPage": "https://dwfc-online-shop.myshopify.com/collections/official-replica-kit/products/new-home-shirt-2022-23",
-      "color": ["#0E216E", "#ffffff", "#D12F2D"]
+      "url": "https://dwfc-online-shop.myshopify.com/collections/official-replica-kit/products/new-home-shirt-2022-23",
+      "itemCondition": "NewCondition",
+      "color": ["#0E216E", "#FFFFFF", "#D12F2D"]
     },
 
     "url": "https://www.dorkingwanderers.com",
@@ -882,7 +880,6 @@
       "value": "GB-COH-5488155"
     },
     "isicV4": "93120",
-
     "alternateName": "Eastleigh Football Club",
     "slogan": "The Spitfires",
     "logo": {
@@ -902,13 +899,14 @@
     "foundingDate": "1946",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Eastleigh FC was founded in 1946, and have been playing competitively ever since. After a few campaigns in the Southampton Senior League, they were promoted to the Hampshire League in 1950. The club moved to their current home at Ten Acres in 1957, and changed their name to Eastleigh in 1980. Notable successes in the following decades include winning the Hampshire League, Hampshire Intermediate Cup and Wessex League, as well as promotion to the Isthmian League. In the past decade, the club has twice flirted with promotion to the Conference Premier, and have had two impressive FA Cup runs, most recently against Championship side Brentford in the Third Round. In the 2018/19 season, Eastleigh narrowly avoided a trip to Wembley after being knocked out on penalties in the Play Off semi-finals.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Eastleigh playing kit",
       "brand": "Kappa",
-      "mainEntityOfPage": "https://eastleighfc.store/collections/replica-kit/products/22-23-home-shirt-adult",
-      "color": ["#0D228E", "#ffffff"]
+      "url": "https://eastleighfc.store/collections/replica-kit/products/22-23-home-shirt-adult",
+      "itemCondition": "NewCondition",
+      "color": ["#0D228E", "#FFFFFF"]
     },
 
     "url": "https://www.eastleighfc.com",
@@ -1000,7 +998,6 @@
       "value": "GB-COH-6557378"
     },
     "isicV4": "93120",
-
     "alternateName": "FC Halifax Town",
     "slogan": "The Shaymen",
     "telephone": "+441422341222",
@@ -1022,10 +1019,10 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "FC Halifax Town playing kit",
       "brand": "adidas",
-      "mainEntityOfPage": "https://www.fchtshop.com/home-shirt-2223-with-parley-2011-p.asp",
+      "url": "https://www.fchtshop.com/home-shirt-2223-with-parley-2011-p.asp",
+      "itemCondition": "NewCondition",
       "color": ["#3165A7"]
     },
 
@@ -1097,7 +1094,6 @@
       "value": "GB-COH-1329847"
     },
     "isicV4": "93199",
-
     "alternateName": "Gateshead Football Club",
     "slogan": "The Tynesiders",
     "logo": {
@@ -1111,19 +1107,20 @@
     },
     "sameAs": [
       "https://twitter.com/GatesheadFC/",
-      "https://www.facebook.com/gaetesheadfc",
+      "https://www.facebook.com/gatesheadfc",
       "https://www.instagram.com/gfc_official/"
     ],
     "foundingDate": "1977",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Gateshead AFC was formed in 1930 when neighbours South Shields moved to Gateshead due to financial difficulties. The newly formed 'Tynesiders' almost immediately achieved promotion to the second division, but were denied by Lincoln City's superior goal average. Despite an average placing of ninth in 21 Third Division North campaigns, Gateshead were voted out of the League in 1960 and were forced to join the Northern Counties League and then the Northern Premier League. They became founder members of the Northern Premier League, but their stay in the new competition lasted only two years. Gateshead then became a phoenix club, eventually becoming a full-time professional club in 2010 and won back-to-back promotions to reach the Conference Premier. They reached the FA Cup Third Round in 2013 and played in the Conference Premier until 2018. That year, they were taken over by a fan-led consortium and were demoted to the National League North. In 2021, the Heed defied 20/1 odds to become Vanarama National League North champions and return to the National League.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Gateshead playing kit",
       "brand": "Puma",
-      "mainEntityOfPage": "https://gfcshop.co.uk/collections/replica-kit/products/adult-22-23-home-shirt",
-      "color": ["#221F26", "#ffffff"]
+      "url": "https://gfcshop.co.uk/collections/replica-kit/products/adult-22-23-home-shirt",
+      "itemCondition": "NewCondition",
+      "color": ["#221F26", "#FFFFFF"]
     },
 
     "url": "https://gateshead-fc.com",
@@ -1189,7 +1186,6 @@
       "value": "GB-COH-5691046"
     },
     "isicV4": "93120",
-
     "alternateName": "Maidenhead United Football Club",
     "slogan": "The Magpies",
     "logo": {
@@ -1210,14 +1206,15 @@
     "foundingDate": "1870",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "description": "Maidenhead Football Club was founded in October 1870 and has gone through mergers with three other teams and a name change to Maidenhead United. They were a founding member of the Southern League, but struggled and left in 1902. They rejoined the Spartan League and in 1945 the Corinthian League where they achieved their first purple patch, winning the league three times and reaching the third round of the FA Amateur Cup in 1960. In 1963 they joined the Athenian League and then in 1973 the Isthmian League, where they were promoted to the Premier Division in 2000. They were relegated in 2003 and joined the Conference South, reaching the 1st round proper of the FA Cup in 2007 before being relegated again in 2012.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Maidenhead United playing kit",
       "brand": "uhlsport",
       "image": "https://cdn.shopify.com/s/files/1/0348/8533/7225/products/HOMEAMEND202223_1024x1024@2x.jpg?v=1655970948",
-      "mainEntityOfPage": "https://mufcdirect.co.uk/collections/mufc-1st-team-club-shop/products/mufc-home-shirt-2022-23-junior-sizes",
-      "color": ["#060807", "#ffffff"]
+      "url": "https://mufcdirect.co.uk/collections/mufc-1st-team-club-shop/products/mufc-home-shirt-2022-23-junior-sizes",
+      "itemCondition": "NewCondition",
+      "color": ["#060807", "#FFFFFF"]
     },
 
     "url": "https://www.pitchero.com/clubs/maidenheadunited",
@@ -1287,7 +1284,6 @@
       "value": "GB-COH-3720814"
     },
     "isicV4": "93120",
-
     "alternateName": "Maidstone United Football Club",
     "slogan": "The Stones",
     "logo": {
@@ -1307,12 +1303,13 @@
     ],
     "foundingDate": "1992",
     "sport": "Association Football",
+    "description": "Maidstone United was founded in 1897 and reformed in 1992. They won the Kent County League Division Four title in their first season and were promoted to the Premier Division, winning the Kent Senior Trophy in their first season. They were then crowned Kent League champions in 2002 and 2006, winning the Kent League Cup both times. They earned two successive promotions and reached the second round proper of the FA Cup in the 2015/16 season, eventually winning promotion to the National League.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Maidstone United playing kit",
       "brand": "Macron",
-      "mainEntityOfPage": "https://maidstoneunited.co.uk/product/home-replica-shirt/",
+      "url": "https://maidstoneunited.co.uk/product/home-replica-shirt/",
+      "itemCondition": "NewCondition",
       "color": ["#E0A03C", "#434343"]
     },
 
@@ -1404,7 +1401,6 @@
       "value": "GB-COH-4789632"
     },
     "isicV4": ["93110", "93120"],
-
     "alternateName": "Notts County Football Club",
     "slogan": "The Magpies",
     "logo": {
@@ -1426,13 +1422,14 @@
     "foundingDate": "1862",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Notts County Football Club, officially formed in 1864, is widely recognised as the world's oldest Football League club. The club initially played matches of its own devising at Park Hollow, before moving to various locations, including Castle Cricket Ground, Nottingham Forest's Town Ground and City Ground. The main home from 1883 onwards was Trent Bridge, until the permanent switch to Meadow Lane was completed in 1910. In 1888, Notts County became one of 12 founder members of the Football League, and Ernest Greenhalgh was the club's first international player.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Notts County playing kit",
       "brand": "Puma",
-      "mainEntityOfPage": "https://shop.nottscountyfc.co.uk/ADHMSHIRT2223",
-      "color": ["#000000", "#ffffff", "#817653"]
+      "url": "https://shop.nottscountyfc.co.uk/ADHMSHIRT2223",
+      "itemCondition": "NewCondition",
+      "color": ["#000000", "#FFFFFF", "#817653"]
     },
 
     "url": "https://www.nottscountyfc.co.uk",
@@ -1503,7 +1500,6 @@
       "value": "GB-COH-4989487"
     },
     "vatID": "GB 831 8971 04",
-
     "alternateName": "Oldham Athletic Football Club",
     "slogan": "The Latics",
     "telephone": "+441616244972",
@@ -1525,11 +1521,12 @@
     "foundingDate": "1895",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Oldham Athletic was formed in 1895 as Pine Villa, but the name was changed in 1899. The club enjoyed success in the early years, including a First Division runners-up season in 1914/15 and an FA Cup semi-final in 1913. They lost their top-flight status in 1923 and spent most of the intervening years in lower divisions, including three championship winning campaigns in 1952/53, 1973/74 and 1990/91. In 1992-93, they were founding members of the Premier League and enjoyed success in both cup competitions (FA and League Cup). Recently, the club had to go into administration in 2003, but was saved by three American-based businessmen in November of the same year.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Oldham Athletic playing kit",
-      "color": ["#2253A0", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["#2253A0", "#FFFFFF"]
     },
 
     "url": "https://www.oldhamathletic.co.uk",
@@ -1615,7 +1612,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-9196428"
     },
-
     "alternateName": "Solihull Moors Football Club",
     "slogan": "The Moors",
     "logo": {
@@ -1636,13 +1632,14 @@
     "foundingDate": "2007",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Solihull Moors Football Club was formed in 2007 as a merger between Solihull Borough and Moor Green football clubs. They began in the Blue Square Conference North and in 2016/17 they achieved their highest ever league finish, coming second in the National League. In 2020/21 they narrowly missed out on the play-offs and in 2021 they appointed Neal Ardley as their permanent manager.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Solihull Moors playing kit",
       "brand": "adidas",
       "image": "https://shop.solihullmoorsfc.co.uk/wp-content/uploads/2022/07/6.png",
-      "mainEntityOfPage": "https://shop.solihullmoorsfc.co.uk/product/solihull-moors-home-replica-shirt-2022-23/",
+      "url": "https://shop.solihullmoorsfc.co.uk/product/solihull-moors-home-replica-shirt-2022-23/",
+      "itemCondition": "NewCondition",
       "color": ["#F9EB4E", "#FFFFFF"]
     },
 
@@ -1713,7 +1710,6 @@
       "value": "GB-COH-89767"
     },
     "isicV4": "93110",
-
     "alternateName": "Southend United Football Club",
     "slogan": "The Shrimpers",
     "telephone": "+441702304050",
@@ -1735,13 +1731,14 @@
     "foundingDate": "1906",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Organised football in Southend-on-Sea began in the late 1890s, with teams such as Southend Victoria, Southend Amateurs, Southend Corinthians, Southend Ramblers and even Southend Wesleyans being established. Southend United were formed in 1906 and gained election to the professional Southern League Second Division. After World War I, the club moved to The Kursaal and were elected to the Football League in 1920. During the 1920s, Bob Jack's side won two Southern League Division Two titles and they entered the FA Cup for the first time in 1907. In 1933, Ted Birnie became manager and turned the club into one that challenged for promotion. During World War II, the team had to relocate to Chelmsford City's New Writtle Street ground. After the war, David Jack took over as manager and the team moved to the Southend Stadium in Grainger Road. They narrowly missed the dreaded re-election vote in 1948/49, but the following season saw the Shrimpers challenging for promotion.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Southend United playing kit",
       "brand": "Macron",
-      "mainEntityOfPage": "https://southendunitedmacronstore.co.uk/product/sfc22-home-shirt-sr/",
-      "color": ["#0C2751", "#ffffff"]
+      "url": "https://southendunitedmacronstore.co.uk/product/sfc22-home-shirt-sr/",
+      "itemCondition": "NewCondition",
+      "color": ["#0C2751", "#FFFFFF"]
     },
 
     "url": "https://www.southendunited.co.uk",
@@ -1808,7 +1805,6 @@
     },
     "vatID": "GB 128 5234 74",
     "isicV4": "93110",
-
     "alternateName": "Scunthorpe United Football Club",
     "slogan": "The Iron",
     "logo": {
@@ -1829,13 +1825,14 @@
     "foundingDate": "1899",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Scunthorpe United have been in the Football League since 1950, with their highest league finish being fourth in Division Two. They have only had one fixture not completed in their history, which was due to Exeter City not being able to fulfil the game in 1973-74. The 2019-20 season was curtailed early due to the COVID-19 pandemic, with Scunthorpe finishing in 20th place after points were calculated on a points per game basis.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Scunthorpe United playing kit",
       "brand": "Macron",
       "image": "https://www.sufcshop.com/siteimg/productimages/864-985.jpg",
-      "mainEntityOfPage": "https://www.sufcshop.com/replica-kit/replica-kit/home-2223/864_adult-home-shirt-22-23.html",
+      "url": "https://www.sufcshop.com/replica-kit/replica-kit/home-2223/864_adult-home-shirt-22-23.html",
+      "itemCondition": "NewCondition",
       "color": ["#7B2D35", "#7AB1E2"]
     },
 
@@ -1921,7 +1918,6 @@
       "value": "GB-COH-175954"
     },
     "isicV4": "93110",
-
     "alternateName": "Torquay United AFC",
     "slogan": "The Gulls",
     "logo": {
@@ -1940,14 +1936,15 @@
     "foundingDate": "1899",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Torquay United appointed Gary Johnson as their new manager in 2019, and his impact was immediate. After a record-breaking ten match winning streak, United secured the championship title and promotion back to the National League at the first attempt. Two years later, Johnson's men went close to a return to the Football League but narrowly missed out in the Play-Off Final. Despite this disappointment, the club is now in better shape than it has been for many years, giving Torquay United's fans a lot of optimism for the future.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Torquay United AFC playing kit",
       "brand": "Puma",
       "material": "100% double knit polyester",
       "image": "https://www.venuetoolbox.com/torquayunited/Photos/%7B9EF6ECB3-586D-43C9-B44E-AA7DEF8A1A8A%7D/Home.jpg",
-      "mainEntityOfPage": "https://www.venuetoolbox.com/torquayunited/Products/TUAFC+Puma+2022+Home+Shirt+Adults+PS+2022",
+      "url": "https://www.venuetoolbox.com/torquayunited/Products/TUAFC+Puma+2022+Home+Shirt+Adults+PS+2022",
+      "itemCondition": "NewCondition",
       "color": ["#F8D347", "#2852B1"]
     },
 
@@ -2014,7 +2011,6 @@
       "value": "GB-COH-3953962"
     },
     "isicV4": "93120",
-
     "alternateName": "Wealdstone Football Club",
     "slogan": "The Stones",
     "logo": {
@@ -2033,14 +2029,15 @@
     "foundingDate": "1899",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "description": "Wealdstone Football Club was formed at the start of the 1899/1900 season, when it competed in the Willesden & District League. It won its first Championship of the same league in 1904/05, but has since been proven to have links to a series of preceding clubs as the result of mergers and demergers. In 1929/30 the club won the Middlesex Senior Challenge Cup and Middlesex Senior Charity Cup for the first time, and they have since won each trophy eleven times. In 1946, Wealdstone took part in the first televised football match, and in 1949 they experienced their first FA Cup tie against a Football League side. In 1971, the club turned professional and joined the Southern League, eventually making their way back to the Football Conference. In 2008, they moved to their own ground at Grosvenor Vale and in 2014 they became Ryman Premier League champions, winning promotion to the Vanarama National League South. In 2019/20 they were promoted to the National League and in 2021/22 they finished in 16th place, their highest league position for 35 years.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Wealdstone playing kit",
       "brand": "Kelme",
       "image": "https://cdn.shopify.com/s/files/1/0577/9475/6807/products/Wealdstonebluefront_960x.jpg?v=1628103441",
-      "mainEntityOfPage": "https://wealdstonefcstore.co.uk/products/adult-home-shirt-21-22-season",
-      "color": ["#1B43CE", "#ffffff"]
+      "url": "https://wealdstonefcstore.co.uk/products/adult-home-shirt-21-22-season",
+      "itemCondition": "NewCondition",
+      "color": ["#1B43CE", "#FFFFFF"]
     },
 
     "url": "https://www.wealdstone-fc.com",
@@ -2132,7 +2129,6 @@
       "value": "GB-COH-3329172"
     },
     "isicV4": "93110",
-
     "alternateName": "Woking Football Club",
     "slogan": "The Cardinals",
     "logo": {
@@ -2152,15 +2148,16 @@
     "foundingDate": "1887",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Woking Football Club was formed in 1887. They joined the Isthmian League in 1911 and achieved success in the FA Amateur Cup in 1957. The club struggled in the 1980s and faced financial trouble, but was kept afloat by a friendly match against Bolton Wanderers. The 1990s saw the club achieve great success, with three FA Trophy wins and five successive top five finishes in the Conference. The club also had several successful runs in the FA Cup, reaching the Third Round in 1996/97. In 2002, the club was saved from administration when successful businessman and long-time fan Chris Ingram became Chairman. The club's fortunes declined and they were relegated to the Blue Square South in 2009. After a successful spell in the BSS, the club were promoted back to the Conference Premier in 2012. The following season saw the Cards finish in a commendable 7th spot, missing a play-off place by only three points. The 2016-17 season saw the club struggle and they were only able to avert relegation thanks to improved form in the second half of the season. Alan Dowson was appointed manager in 2018 and the club achieved promotion back to the National League via the play-offs.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Woking playing kit",
       "brand": "adidas",
       "material": "100% recycled polyester Interlock",
       "image": "https://store.wokingfc.com//images/stories/virtuemart/product/28849-C(74)-P(0)-R(ep68c).jpg",
-      "mainEntityOfPage": "https://store.wokingfc.com/kits/home-kit/woking-fc-home-jersey-22-23-p",
-      "color": ["#B03033", "#ffffff", "#D2AE71"]
+      "url": "https://store.wokingfc.com/kits/home-kit/woking-fc-home-jersey-22-23-p",
+      "itemCondition": "NewCondition",
+      "color": ["#B03033", "#FFFFFF", "#D2AE71"]
     },
 
     "url": "https://wokingfc.co.uk",
@@ -2256,7 +2253,6 @@
       "value": "GB-COH-13137403"
     },
     "isicV4": "93199",
-
     "alternateName": "Yeovil Town Football Club",
     "slogan": "The Glovers",
     "logo": {
@@ -2274,11 +2270,11 @@
     "keywords": "professional",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Yeovil Town playing kit",
       "brand": "Hummel",
       "image": "https://ytfc.store/wp-content/uploads/2022/06/home-shirt-website.png",
-      "mainEntityOfPage": "https://ytfc.store/product/hummel-22-23-home-shirt-adult/",
+      "url": "https://ytfc.store/product/hummel-22-23-home-shirt-adult/",
+      "itemCondition": "NewCondition",
       "color": ["#4DAC26", "#FFFF54"]
     },
 
@@ -2344,7 +2340,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-4689338"
     },
-
     "alternateName": "York City Football Club",
     "slogan": "The Minstermen",
     "logo": {
@@ -2365,12 +2360,13 @@
     "foundingDate": "1922",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "York City Football Club was established in 1922 and was elected to the Football League in 1929. They won promotion six times during their 45-year stay in the Northern Section, with their highest ever League placing being 15th in the Second Division in 1974/75. They won their first major honour in 1983/84 by becoming the first club in Football League history to reach three figures in the points tally, and achieved promotion back to the Football League through the playoffs in 1992/93. In 2004 the club dropped down to the Conference, but earned promotion back to the Football League in 2012. They have suffered relegation twice since then, and will compete in regional non-league football in 2017/18 for the first time since 1929. City have earned the title of 'giantkillers' over the years and have reached the quarter finals and semi-finals of the FA Cup, as well as the quarter finals of the Football League Cup. They have also won the FA Trophy twice, in 2011/12 and 2016/17.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "York City playing kit",
       "brand": "Puma",
-      "mainEntityOfPage": "https://ycfcstore.co.uk/collections/2022-23-centenary-collection/products/2022-23-limited-edition-home-shirt",
+      "url": "https://ycfcstore.co.uk/collections/2022-23-centenary-collection/products/2022-23-limited-edition-home-shirt",
+      "itemCondition": "NewCondition",
       "color": ["#72253C", "#D8C39F"]
     },
 
@@ -2462,7 +2458,6 @@
       "value": "GB-COH-5916248"
     },
     "isicV4": "93110",
-
     "alternateName": "AFC Fylde",
     "slogan": "The Coasters",
     "telephone": "+441772682593",
@@ -2479,13 +2474,14 @@
     "foundingDate": "1988",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Kirkham & Wesham FC was formed in 1988 by the amalgamation of Kirkham Town FC and Wesham FC and played in the West Lancashire League. After winning the league seven times in eight seasons, they were accepted into the North West Counties League for the 2007-08 season. In 2008, the club changed its name to AFC Fylde and went on to win the FA Vase in 2011, and gain promotion to the Conference North in 2014 and the National League in 2017. In 2019 they won the FA Trophy, becoming the first team in English football history to win both the FA Vase and the FA Trophy.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "AFC Fylde playing kit",
       "brand": "New Balance",
-      "mainEntityOfPage": "https://www.afcfylde.co.uk/official-online-store/shop/22-23-nb-home-shirt/",
-      "color": ["#ffffff", "#DB4433", "#1C488B"]
+      "url": "https://www.afcfylde.co.uk/official-online-store/shop/22-23-nb-home-shirt/",
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#DB4433", "#1C488B"]
     },
 
     "url": "https://www.afcfylde.co.uk",
@@ -2576,7 +2572,6 @@
       "value": "GB-COH-5138735"
     },
     "isicV4": "93110",
-
     "alternateName": "AFC Telford United",
     "slogan": "The Bucks",
     "logo": {
@@ -2595,14 +2590,15 @@
     ],
     "foundingDate": "2004",
     "sport": "Association Football",
+    "description": "Telford United had a fierce reputation as FA Cup giantkillers between 1982 and 1992, winning 11 ties and taking 4 to replays against Football League sides. In 1985, they reached the 5th Round, where they lost 3-0 to eventual Champions Everton. The 2003/04 season saw Telford beat Brentford 3-0 and then Crewe Alexandra 1-0 in the Third Round, statistically the club's biggest FA Cup upset. Since the reformation of AFC Telford United, they have not been able to recapture their former glories, although it took a last gasp equaliser from Southend United in 2008 to prevent another famous win.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "AFC Telford United playing kit",
       "brand": "Puma",
-      "image": "https://sportingtouch.e2ecdn.uk/Products/AFCTHOMEJSY.jpg?w=650&amp;h=650&amp;quality=82&amp;scale=canvas",
-      "mainEntityOfPage": "https://www.sportingtouch.com/products/club-shop-afc-telford-united-2022-23-home-replica-jersey.html#undefined1",
-      "color": ["#ffffff", "#182849"]
+      "image": "https://sportingtouch.e2ecdn.uk/Products/AFCTHOMEJSY.jpg?w=650&amp;amp;h=650&amp;amp;quality=82&amp;amp;scale=canvas",
+      "url": "https://www.sportingtouch.com/products/club-shop-afc-telford-united-2022-23-home-replica-jersey.html#undefined1",
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#182849"]
     },
 
     "url": "https://www.telfordunited.com",
@@ -2692,7 +2688,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-2011224"
     },
-
     "alternateName": "Alfreton Town Football Club",
     "slogan": "The Reds",
     "logo": {
@@ -2711,13 +2706,14 @@
     "foundingDate": "1959",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "description": "Alfreton Town Football Club was formed in 1959 after the merger of Alfreton Miners Welfare and Alfreton United football clubs. Since then, the club has experienced success and failure, ultimately culminating in the club being promoted to the National League North in 2011. In the 2018/19 season, Billy Heath was appointed First Team Manager and in 2019/20, the Alfreton Towns’ Academy side was accepted into the National League Under 19 Alliance League.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Alfreton Town playing kit",
       "brand": "SKKits",
-      "mainEntityOfPage": "https://alfretontown.myshopify.com/products/16-through-21-years-old-alfreton-town-fc-season-seats-first-250-supporters-to-reserve-will-receive-a-free-replica-jersey",
-      "color": ["#E31B1B", "#ffffff"]
+      "url": "https://alfretontown.myshopify.com/products/16-through-21-years-old-alfreton-town-fc-season-seats-first-250-supporters-to-reserve-will-receive-a-free-replica-jersey",
+      "itemCondition": "NewCondition",
+      "color": ["#E31B1B", "#FFFFFF"]
     },
 
     "url": "https://alfretontownfootballclub.com",
@@ -2786,7 +2782,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-RS007135"
     },
-
     "alternateName": "Banbury United Football Club",
     "slogan": "The Puritans",
     "logo": {
@@ -2804,13 +2799,14 @@
     ],
     "foundingDate": "1931",
     "sport": "Association Football",
+    "description": "Banbury United was formed in 1931 as Spencer Villa. They changed their name to Banbury Spencer in 1934 and were elected to the Birmingham Combination in 1935. They became professional in 1946 and finished runners-up in the league in 1947-48, reaching the First Round Proper of the FA Cup. In 1965 they changed their name to Banbury United and were elected to the Southern League in 1966. They struggled in the 1990s and were relegated to the Hellenic League in 1990-91. After a successful campaign in 1999-2000, they won promotion back to the Southern League and then won a play-off for a place in the Premier division in 2004. After a run of bad form and budget cuts, United were relegated in 2014-15. They then won the South & West division the following season and returned to the Premier division. They reached the First Round Proper of the FA Cup for the third time in 2020-21 and won the Central Division Championship to earn a place in the National League Regional Divisions for 2021-22.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Banbury United playing kit",
       "brand": "The Terrace",
       "image": "https://cdn.shopify.com/s/files/1/1909/2827/products/bufchome_1024x1024.jpg?v=1660127862",
-      "mainEntityOfPage": "https://theterracestore.com/collections/banbury-united/products/banbury-united-22-23-home-replica-shirt",
+      "url": "https://theterracestore.com/collections/banbury-united/products/banbury-united-22-23-home-replica-shirt",
+      "itemCondition": "NewCondition",
       "color": ["#F6EC4E", "#E83830"]
     },
 
@@ -2901,7 +2897,6 @@
       "value": "GB-COH-409564"
     },
     "isicV4": "93110",
-
     "alternateName": "Blyth Spartans AFC",
     "slogan": "The Spartans",
     "logo": {
@@ -2919,12 +2914,13 @@
     ],
     "foundingDate": "1899",
     "sport": "Association Football",
+    "description": "Blyth Spartans were founded in 1899 and have enjoyed a long and successful history. In the 1970s they reached the fifth round of the FA Cup. In 1993 they joined the Northern Premier League and won the First Division Championship and the Unifilla First Division League Cup. They were promoted to the Conference North in 2006 and narrowly missed out on a playoff position in their first season. In 2008-09 they reached the third round of the FA Cup and the following season were relegated. In the 2013-14 season they won the Northumberland Senior Cup and in the 2015-16 season they won the Evo Stik Northern Premier League title and were promoted to the National League North.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Blyth Spartans AFC playing kit",
       "brand": "EV2",
-      "color": ["#ffffff", "#326F43"]
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#326F43"]
     },
 
     "url": "https://www.blythspartans.com",
@@ -3016,7 +3012,6 @@
       "value": "GB-COH-303529"
     },
     "isicV4": "93110",
-
     "alternateName": "Boston United Football Club",
     "slogan": "The Pilgrims",
     "logo": {
@@ -3035,11 +3030,12 @@
     "foundingDate": "1933",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "description": "Boston United Football Club was established in 1933 but football had been played in the town since the late 1800s. They achieved major success under the management of Ray Middleton in the 1950s, winning the Midland League and reaching the second round of the FA Cup. They joined the Southern League in 1958 and the Northern Premier League in 1968, winning the championship four times and the League Cup twice. In 1977, the ground was deemed not suitable for the Football League and the directors vowed to make it suitable. They achieved this in 1979 and joined the Alliance Premier League (now the National League) as founder-members. They won the Conference title in 2002 and were promoted to the Football League, but were relegated back to the Conference seven years later and were demoted to the Northern Premier League. In 2010, they won promotion back to the Conference via the play-offs and reached the play-offs again in 2015-16 and 2018-19, but lost both times. They moved to their new Community Stadium at The Quadrant in 2020, but were relegated back to the National League North after losing the promotion final to York City in May 2021.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Boston United playing kit",
       "brand": "adidas",
+      "itemCondition": "NewCondition",
       "color": ["#F4CA44", "#1C1819"]
     },
 
@@ -3106,7 +3102,6 @@
       "value": "GB-COH-3693143"
     },
     "isicV4": "93120",
-
     "alternateName": "Brackley Town Football Club",
     "slogan": "The Saints",
     "logo": {
@@ -3124,11 +3119,12 @@
     ],
     "foundingDate": "1930",
     "sport": "Association Football",
+    "description": "Brackley Town Football Club was founded in 1890 and for most of its history competed in local leagues. In 1974 they moved to their current St James Park ground, and in 1996/97 won the Hellenic Premier Division title. A new all-seater stand was built in 2008, and in 2011/12 the team won the Southern League Premier Division and their second Senior Cup victory. They then moved into the Conference North and in 2017/18 won the FA Trophy and reached the play-off final. In 2020 the season was ended due to the Covid pandemic and in 2021 they were runners-up in the National League North and reached the play-off semi-finals. The decade of progress was marked by the opening of The Venue, an all-new clubhouse, and increased spectator numbers.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Brackley Town playing kit",
       "brand": "Puma",
+      "itemCondition": "NewCondition",
       "color": ["#B62619"]
     },
 
@@ -3195,7 +3191,6 @@
       "value": "GB-COH-11041112"
     },
     "isicV4": ["85510", "93120"],
-
     "alternateName": "Bradford (Park Avenue) AFC",
     "slogan": "The Green Army",
     "logo": {
@@ -3215,11 +3210,12 @@
     ],
     "foundingDate": "1907",
     "sport": "Association Football",
+    "description": "Bradford Association Football Club was formed in 1907 and used the ground Park Avenue to distinguish itself from Bradford City AFC and Bradford Northern RLFC. The ground was originally established in 1880 as the home of a Rugby Club. In 1945-46 the club reached the FA Cup Quarter-Final, but relegation followed in 1950 and they were replaced by Cambridge United in 1960. The club was reformed in 1988 and joined the West Riding County Amateur League, going on to gain promotion to the Unibond League and then the Northern Premier League. In 2000/2001 they won the Unibond League Division One and gained promotion to the Unibond Premier Division. After a few seasons at this level, the club won the Unibond Division One North title in 2008 and gained promotion to the Conference North. After relegation in 2015, the club regained promotion at the end of the 2017-18 season and reached the play-offs for the following two seasons, but failed to gain promotion. In 2019 Mark Bower and Danny Boshell returned to take the managerial roles and signed 3 year contracts in 2020.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Bradford (Park Avenue) AFC playing kit",
-      "color": ["#439541", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["#439541", "#FFFFFF"]
     },
 
     "url": "https://bpafc.com",
@@ -3290,7 +3286,6 @@
       "value": "GB-COH-2823127"
     },
     "isicV4": "93110",
-
     "alternateName": "Buxton Football Club",
     "slogan": "The Bucks",
     "logo": {
@@ -3311,10 +3306,10 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Buxton playing kit",
       "brand": "Canterbury",
-      "color": ["#194063", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["#194063", "#FFFFFF"]
     },
 
     "url": "https://www.buxtonfc.co.uk",
@@ -3382,7 +3377,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-IP29159R"
     },
-
     "alternateName": "Chester Football Club",
     "slogan": "The Seals",
     "logo": {
@@ -3401,14 +3395,15 @@
     ],
     "foundingDate": "2010",
     "sport": "Association Football",
+    "description": "Chester Football Club was founded in 1885 and initially played their home games at Faulkner Street before moving to Whipcord Lane in 1901 and then to the Stadium in Sealand Road in 1898. The club won their first senior trophy, the Cheshire Senior Cup, in 1895 and achieved League status in 1931. In 1964/65, the “Famous Five” forward line scored 116 of the club's record 119 League goals and in 1974/75 they were promoted from Division Four. Ian Rush became the club's record transfer when he moved to Liverpool for £300,000 in 1980. The club went into administration in 1998/99 and were relegated back to the Football Conference in 2009. The club was eventually wound up in the High Court on 10th March 2010 and were reborn in May 2010 as a phoenix club. Since then, Chester have won three consecutive Championships and currently compete in the National League North.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Chester playing kit",
       "brand": "Kappa",
       "image": "https://cdn.shopify.com/s/files/1/1575/3869/products/newTrainingTop-22_1024x1024@2x.jpg?v=1667908356",
-      "mainEntityOfPage": "https://www.chesterfcretail.com/collections/frontpage/products/adult-chester-fc-kappa-training-t-shirt-2022",
-      "color": ["#22549F", "#ffffff", "#F4CA4B"]
+      "url": "https://www.chesterfcretail.com/collections/frontpage/products/adult-chester-fc-kappa-training-t-shirt-2022",
+      "itemCondition": "NewCondition",
+      "color": ["#22549F", "#FFFFFF", "#F4CA4B"]
     },
 
     "url": "https://www.chesterfc.com",
@@ -3483,7 +3478,6 @@
       "value": "GB-COH-2959001"
     },
     "isicV4": "93110",
-
     "alternateName": "Chorley Football Club",
     "slogan": "The Magpies",
     "logo": {
@@ -3504,15 +3498,16 @@
     "foundingDate": "1883",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "description": "Chorley FC began life as a rugby club before switching to association football in 1883. Known as The Magpies, they have played in six different leagues during their 135-year existence. They achieved their highest finish in the English football pyramid in 1989 when they placed 17th in the Football Conference. With the appointment of Gary Flitcroft as manager in 2010, the Club began a remarkable revival, culminating in a return to the fifth tier of English football in 2019. Their record FA Cup run came in the 2020/21 season when they reached the Fourth Round. The Club's best season in the FA Trophy was 1995-96 when they reached the semi-finals.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Chorley playing kit",
       "brand": "Hope + Glory Sportswear",
       "material": "100% Polyester",
       "image": "https://store.chorleyfc.com/wp-content/uploads/2022/05/home-2223.jpg",
-      "mainEntityOfPage": "https://store.chorleyfc.com/product/home-shirt",
-      "color": ["#ffffff", "#000000"]
+      "url": "https://store.chorleyfc.com/product/home-shirt",
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#000000"]
     },
 
     "url": "https://www.chorleyfc.com",
@@ -3586,7 +3581,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-IP29461R"
     },
-
     "alternateName": "Curzon Ashton Football Club",
     "slogan": "The Nash",
     "logo": {
@@ -3605,12 +3599,13 @@
     ],
     "foundingDate": "1963",
     "sport": "Association Football",
+    "description": "Curzon Ashton FC was formed in 1963 and has since gone through several divisions, becoming a founding member of the Cheshire League Division Two in 1978/79, the North West Counties League in 1983/4, and the Northern Premier League in 1986. In 1996, the club was moved to the Northern Counties East League, and then back to the North West Counties League in 1997/98. After reaching the Semi-Finals of the FA Vase in 1980 and The FA Carlsberg Vase in 2006/07, they were promoted to the UniBond League in 2006/07. After reaching the Play-off Final in 2008/09 and 2010/11, they were promoted to the Vanarama National League North in 2014/15, where they remain.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Curzon Ashton playing kit",
       "brand": "adidas",
-      "color": ["#152EA7", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["#152EA7", "#FFFFFF"]
     },
 
     "url": "https://www.curzon-ashton.co.uk",
@@ -3696,7 +3691,6 @@
       "value": "GB-COH-7914690"
     },
     "isicV4": ["93110", "93120"],
-
     "alternateName": "Darlington Football Club",
     "slogan": "The Quakers",
     "logo": {
@@ -3715,10 +3709,11 @@
     ],
     "foundingDate": "1883",
     "sport": "Association Football",
+    "description": "Darlington were one of the original founder members of the Northern League in 1889 and went on to win the title twice in 1896 and 1900. They turned professional in 1908 and joined the North Eastern League, winning it in 1913. They reached the last sixteen of the FA Cup in 1910/11, but the First World War had a big impact on the club, resulting in money problems. The club won the Third Division North Cup in 1934 and installed floodlights in 1960. They made history in 1955 by playing the first ever FA Cup match under floodlights. They won promotion to the Second Division in 1924-25, but were relegated back to the Third Division North. Quakers reached the League Two play offs in 2008 and the FA Trophy final in 2011, winning the latter. They moved to a new stadium in 2003, but faced financial problems and were relegated out of the Football League in 2009-10. The club was taken over by a supporters group in 2004, and after two promotions in three years, they won the Evostik League title in 2015 and moved back to their home town in 2016. They reached the first round proper of the FA Cup in 2019, but lost in the replay. The fans have raised over £1 million for the club since 2012.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Darlington playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#FAFAFA", "#353A3F", "#CD4B3B"]
     },
 
@@ -3785,7 +3780,6 @@
       "value": "GB-COH-6997399"
     },
     "isicV4": "93120",
-
     "alternateName": "Farsley Celtic Football Club",
     "slogan": "The Celt Army",
     "logo": {
@@ -3805,11 +3799,12 @@
     ],
     "foundingDate": "1908",
     "sport": "Association Football",
+    "description": "Farsley Celtic FC was formed in 2010 from the ashes of Farsley Celtic AFC which had gone into administration the year before. The original club was established in 1948 and became a prominent force in the Yorkshire leagues, eventually winning the Unibond League Premier Division in 2005 only to have points deducted which resulted in a Play-off final loss to Workington. The club's first season of Conference National football resulted in relegation to the Conference North. After a successful first season, Farsley went on to reach two cup finals, the League Cup and the Doodson Sports League Cup, whilst securing a top five spot in the NCEL Premier Division. They went on to win the West Riding County FA Cup twice in 2016/17 and 2017/18, and were promoted to the EVO-STIK Premier Division in 2017/18 where they achieved a fifth place finish. This was followed by promotion to the National League North in 2018/19 and in 2021 the club survived relegation down to the Northern Premier League on the final day of the season.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Farsley Celtic playing kit",
-      "color": ["#ffffff", "#43964F"]
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#43964F"]
     },
 
     "url": "https://farsleyceltic.com",
@@ -3900,7 +3895,6 @@
       "value": "GB-COH-1479143"
     },
     "isicV4": "93199",
-
     "alternateName": "Gloucester City AFC",
     "slogan": "The Tigers",
     "logo": {
@@ -3923,8 +3917,8 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Gloucester City AFC playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#CC2D24", "#EBBC42"]
     },
 
@@ -3995,7 +3989,6 @@
       "value": "GB-COH-8970067"
     },
     "isicV4": "93120",
-
     "alternateName": "Hereford Football Club",
     "slogan": "The Bulls",
     "logo": {
@@ -4015,11 +4008,12 @@
     ],
     "foundingDate": "2014",
     "sport": "Association Football",
+    "description": "Hereford FC was born out of the ashes of Hereford United in 2015 and has since had a successful run, winning a League and Cup double in their first season, securing three successive promotions to reach The National League, and making it to the FA Trophy final at Wembley. In the 2021/22 season, the club finished mid-table and reached the first round of the FA Cup, with the live BBC TV cameras covering the Portsmouth game just days after the sad passing of Hereford United and FA Cup legend, Ronnie Radford.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Hereford playing kit",
-      "color": ["#333333", "#ffffff", "#C62A1C"]
+      "itemCondition": "NewCondition",
+      "color": ["#333333", "#FFFFFF", "#C62A1C"]
     },
 
     "url": "https://www.herefordfc.co.uk",
@@ -4089,7 +4083,6 @@
       "value": "GB-COH-2267071"
     },
     "isicV4": "93110",
-
     "alternateName": "Kettering Town Football Club",
     "slogan": "The Poppies",
     "telephone": "+441536217006",
@@ -4108,12 +4101,13 @@
     ],
     "foundingDate": "1872",
     "sport": "Association Football",
+    "description": "Kettering Town were formed in 1872 and turned professional in 1891. They progressed through twelve different leagues until they became founding members of the Alliance Premier League in 1979. The club won the Midland Football League title in 1896 and 1900, the Southern League Championship three times in 1928, 1957 and 1973 and were runners-up in the Football Conference in 1981, 1989, 1994 and 1998. They were the first British club to play with a sponsor's name printed on their shirts, in 1976, and the first to have their initials on their ground's floodlights. They reached the fourth round of the FA Cup in 1989, and the third round in 1992, but were relegated from the top flight of non-league football in 2001. After a period of turmoil, they became Conference North Champions in 2008 and won the Evo-Stik Southern League Division One Central Championship in 2015. The club achieved a creditable 8th-place finish in the Vanarama National League North in 2021-22.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Kettering Town playing kit",
-      "mainEntityOfPage": "https://ketteringtownfc.com/product/reserved-home-team-shirt",
-      "color": ["#EA332C", "#ffffff", "#000000"]
+      "url": "https://ketteringtownfc.com/product/reserved-home-team-shirt",
+      "itemCondition": "NewCondition",
+      "color": ["#EA332C", "#FFFFFF", "#000000"]
     },
 
     "url": "https://ketteringtownfc.com",
@@ -4184,7 +4178,6 @@
       "value": "GB-COH-484523"
     },
     "isicV4": ["93110", "93120"],
-
     "alternateName": "Kidderminster Harriers Football Club",
     "slogan": "The Kiddy",
     "logo": {
@@ -4205,11 +4198,12 @@
     "foundingDate": "1886",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Kidderminster Harriers is a non-league football club with a proud history, having won four League Championships in the past. In 2016, the team moved up to the second tier of the pyramid for the first time since the 1970s. They also have a proud record in the FA Cup, being the first to use floodlights and famously beating Birmingham City in 1994. In 2000, the team gained promotion to the Football League and enjoyed five seasons there, playing against the likes of Swansea City and Hull City. After a series of managerial changes and off-field instability, the team was relegated in 2016, but under the new management of John Eustace and Russ Penn, they have been performing well, finishing in the playoffs in two consecutive seasons and making a memorable FA Cup run in 2021.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Kidderminster Harriers playing kit",
-      "color": ["#ffffff", "#BF372F"]
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#BF372F"]
     },
 
     "url": "https://harriers.co.uk",
@@ -4295,7 +4289,6 @@
       "value": "GB-COH-10163614"
     },
     "isicV4": "64209",
-
     "alternateName": "Kings Lynn Town Football Club",
     "slogan": "The Linnets",
     "logo": {
@@ -4315,10 +4308,11 @@
     ],
     "foundingDate": "2010",
     "sport": "Association Football",
+    "description": "King's Lynn is a town in England with a long history of football. It is not known exactly when the first football club was formed in King's Lynn, but it is known that Lynn Town was reformed in 1879. The team has gone by many names, such as Lynn United and Lynn Alexander, and has competed in various leagues. The Walks Stadium, the home of King's Lynn, has been used for football since the club was founded, and the supporters' club has worked to improve the ground over the years. King's Lynn has had some success in the FA Cup, reaching the Third Round Proper once and the Second Round Proper several times. They have also reached the Semi-Final stage of the FA Vase, and have regularly won the Norfolk Senior Cup. In recent years, King's Lynn Town have been promoted to the Conference North, but were demoted due to ground grading issues.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Kings Lynn Town playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#284171", "#CBAB56"]
     },
 
@@ -4390,7 +4384,6 @@
       "value": "GB-COH-1756713"
     },
     "isicV4": ["93110", "93120", "93199"],
-
     "alternateName": "Leamington Football Club",
     "slogan": "The Brakes",
     "logo": {
@@ -4412,8 +4405,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Leamington playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#E4BE4E", "#000000"]
     },
 
@@ -4484,7 +4477,6 @@
       "value": "GB-COH-8544721"
     },
     "isicV4": "93130",
-
     "alternateName": "Peterborough Sports Football Club",
     "slogan": "The Turbines",
     "logo": {
@@ -4502,10 +4494,11 @@
     ],
     "foundingDate": "1908",
     "sport": "Association Football",
+    "description": "Peterborough Sports FC was founded in 1908 as Brotherhoods Engineering Works and is known as 'The Turbines' due to the turbine engine featured in the club badge. The club's most famous player is Victor Watson who played for West Ham United and England. The club has had many successes, including winning the Northants League in 1919/20, the Peterborough Division 3 title in 1976 and 1981, the Peterborough Premier Division in 2006/07, the Northants Lower Junior Cup in 1994 & 1995, the Peterborough Football Association Minor Cup in 1940 and the UCL Premier Division in 2015/16 and 2017/18. They were promoted to the Northern Premier League for the 2017/18 season and then moved to the Southern League Division 1 Central for the 2018/19 season, winning the title and gaining promotion to Step 3. In 2020/21 they reached Step 2 of the Non-League pyramid by finishing second in the league and winning the play-offs.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Peterborough Sports playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#283A90", "#F3F554"]
     },
 
@@ -4571,7 +4564,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-IP30123R"
     },
-
     "alternateName": "Scarborough Athletic Football Club",
     "slogan": "The Seadogs",
     "logo": {
@@ -4591,11 +4583,12 @@
     ],
     "foundingDate": "2007",
     "sport": "Association Football",
+    "description": "Following the liquidation of Scarborough FC, Scarborough Athletic was founded as a rebirth of the previous club by a supporters' trust named The Seadog Trust. They took on the same red kit, nickname, motto and official club logo from the original club. The club entered the Northern Counties East League Division One (NCEL1) and eventually gained promotion to the Northern Counties East League Premier Division (NCELP). After two seasons in the NCELP, the club was crowned Champions of The Northern Counties East League Premier Division and was promoted to the Northern Premier League Division One South. The club competed in the Northern Premier League with the club entered to play in the Northern Premier League Division One North for the 2014-15 season. In the 2015-16 season, the club reached the final of the Northern Premier League Challenge Cup but finished the season in 20th place. The 2016-17 season saw the club finish 3rd in the table and for the first time qualification for the play-offs, where they lost 3-1 to Ossett Town in the semi-final.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Scarborough Athletic playing kit",
-      "color": ["#C8353D", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["#C8353D", "#FFFFFF"]
     },
 
     "url": "https://www.scarboroughathletic.com",
@@ -4665,7 +4658,6 @@
       "value": "GB-COH-1486711"
     },
     "isicV4": ["93110", "93120"],
-
     "alternateName": "Southport Football Club",
     "slogan": "The Sandgrounders",
     "telephone": "+441704533422",
@@ -4686,10 +4678,11 @@
     ],
     "foundingDate": "1881",
     "sport": "Association Football",
+    "description": "The original Southport Football Club began as a rugby team in the 1870's. Reforming in 1881, the club switched to association football and merged with Southport Wanderers in 1886, forming Southport Central. Southport Central became a founder member of the Central League in 1911, and joined the Football League in 1921. The club achieved two promotions, in 1966/67 and 1972/73, but was relegated in 1978. The club survived various financial crises in the 1980's before stabilizing, and won the Northern Premier League in 1992/93. The club reached the FA Trophy Final in 1997/98, and the FA Cup fifth round in 1965. Southport were promoted to the Conference in 2005/06, but were relegated in 2016/17. The club won the Liverpool Senior Cup and Lancashire Junior Cup double in 2018/19, but the 2020/21 season was declared null and void due to the Coronavirus pandemic.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Southport playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#EEB551", "#191C24"]
     },
 
@@ -4757,9 +4750,7 @@
     },
     "vatID": "GB 118 5469 96",
     "isicV4": "93199",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Spennymoor Town Football Club",
     "slogan": "The Moors",
     "logo": {
@@ -4779,14 +4770,15 @@
     ],
     "foundingDate": "2005",
     "sport": "Association Football",
+    "description": "Spennymoor Town FC was formed in 2005 following the demise of both UniBond Premier Division club Spennymoor United AFC and Northern League Second Division club Evenwood Town FC. The original club was founded in 1904 and achieved success in the Northern League, North Eastern League, FA Cup, FA Trophy, and various other competitions. In 2005, the club could not fulfil its fixtures and was removed from the UniBond League. An independent group of supporters formed a trust and allowed the Evenwood proposal to proceed, resulting in the creation of Spennymoor Town FC Ltd. The club plays in the colours of its predecessor, Black & White stripes, in the ANL Division 2.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Spennymoor Town playing kit",
       "brand": "Erreá",
       "image": "https://spennymoortownfc.co.uk/wp-content/uploads/2022/07/600x338xhomekit_2223_i.jpg.pagespeed.ic.3tmEulBFT5.jpg",
-      "mainEntityOfPage": "https://spennymoortownfc.co.uk/product/2022-23-home-shirt/",
-      "color": ["#ffffff", "#000000", "#B02418"]
+      "url": "https://spennymoortownfc.co.uk/product/2022-23-home-shirt/",
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#000000", "#B02418"]
     },
 
     "url": "https://spennymoortownfc.co.uk",
@@ -4852,7 +4844,6 @@
       "value": "GB-COH-176565"
     },
     "isicV4": "93120",
-
     "alternateName": "Bath City Football Club",
     "slogan": "The Romans",
     "logo": {
@@ -4868,6 +4859,15 @@
     "foundingDate": "1889",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Bath City playing kit",
+      "brand": "Erreá",
+      "image": "https://cdn.shopify.com/s/files/1/1624/7791/products/2022-23homeshirt_1024x1024@2x.jpg?v=1659775536",
+      "url": "https://bath-city-fc.myshopify.com/collections/top-sellers/products/bath-city-home-shirt-2022-23-adult",
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#000000"]
+    },
 
     "url": "https://www.bathcityfc.com",
     "memberOf": {
@@ -4936,7 +4936,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-2050949"
     },
-
     "alternateName": "Braintree Town Football Club",
     "slogan": "The Iron",
     "telephone": "+441376345617",
@@ -4960,9 +4959,9 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Braintree Town playing kit",
-      "color": ["#ED7F31", "#ffffff", "#0101E2"]
+      "itemCondition": "NewCondition",
+      "color": ["#ED7F31", "#FFFFFF", "#0101E2"]
     },
 
     "url": "https://braintreetownfc.org.uk",
@@ -5032,7 +5031,6 @@
       "value": "GB-COH-10818922"
     },
     "isicV4": "93120",
-
     "alternateName": "Chelmsford City Football Club",
     "slogan": "The Clarets",
     "logo": {
@@ -5134,8 +5132,8 @@
       "propertyID": "Company Number",
       "value": "GB-COH-7532736"
     },
+    "vatID": "GB 117 5328 23",
     "isicV4": "93120",
-
     "alternateName": "Cheshunt Football Club",
     "slogan": "The Ambers",
     "logo": {
@@ -5156,8 +5154,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Cheshunt playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#1C1C1C", "#EEB654"]
     },
 
@@ -5224,7 +5222,6 @@
       "value": "GB-COH-4599480"
     },
     "isicV4": "82990",
-
     "alternateName": "Chippenham Town Football Club",
     "slogan": "The Bluebirds",
     "logo": {
@@ -5236,9 +5233,25 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/ChipTownFC/"],
+    "sameAs": [
+      "https://twitter.com/ChipTownFC/",
+      "https://www.facebook.com/ChipTownFC",
+      "https://www.instagram.com/chiptownfc/",
+      "https://www.youtube.com/channel/UC0ZU5860mrLwzvLzvenGsRA"
+    ],
     "foundingDate": "1873",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Chippenham Town playing kit",
+      "brand": "UHLsport",
+      "material": "100% polyester",
+      "image": "https://s3.amazonaws.com/sportinggifts/products/opt1/800/51136.jpg",
+      "sku": "51136",
+      "url": "https://www.sportingbilly.com/i-s-51136-jaa/chippenham-town-personalised-home-shirt.htm",
+      "itemCondition": "NewCondition",
+      "color": ["#294599", "#FFFFFF", "#1B2C60"]
+    },
 
     "url": "https://chippenhamtown.com",
     "memberOf": {
@@ -5338,9 +5351,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Concord Rangers playing kit",
-      "color": ["#F8DD4A", "#ffffff", "#204390"]
+      "itemCondition": "NewCondition",
+      "color": ["#F8DD4A", "#FFFFFF", "#204390"]
     },
 
     "url": "https://www.concord-rangers.co.uk",
@@ -5405,7 +5418,6 @@
       "value": "GB-COH-2768338"
     },
     "isicV4": "93110",
-
     "alternateName": "Dartford Football Club",
     "slogan": "The Darts",
     "telephone": "+441322299991",
@@ -5427,12 +5439,12 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Dartford playing kit",
       "brand": "Puma",
       "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000040/a55352df-da8c-4055-b2d1-a686e0293291.jpg",
-      "mainEntityOfPage": "https://dartfordfc.ktckts.com/merchandise/darmerhome/home-shirt",
-      "color": ["#191919", "#ffffff"]
+      "url": "https://dartfordfc.ktckts.com/merchandise/darmerhome/home-shirt",
+      "itemCondition": "NewCondition",
+      "color": ["#191919", "#FFFFFF"]
     },
 
     "url": "https://www.dartfordfc.com",
@@ -5502,9 +5514,9 @@
       "value": "GB-COH-1747066"
     },
     "isicV4": "93199",
-
     "alternateName": "Dover Athletic Football Club",
     "slogan": "The Whites",
+    "telephone": "+441304822373",
     "logo": {
       "@type": "ImageObject",
       "contentUrl": "https://media.api-sports.io/football/teams/1829.png",
@@ -5516,11 +5528,23 @@
     },
     "sameAs": [
       "https://twitter.com/DoverAthletic/",
-      "https://www.facebook.com/DoverAthleticFC"
+      "https://www.facebook.com/DoverAthleticFC",
+      "https://www.instagram.com/doverathleticfc/",
+      "https://www.youtube.com/channel/UCFRtqGp7p4Y2iNx"
     ],
     "foundingDate": "1983",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "description": "Dover FC was an amateur side until 1946-47 when it turned professional in order to compete in the Kent League Division One. The club played in the Kent League until 1959, when it was admitted to the Southern League, eventually winning promotion in 1967. However, it was relegated in 1978, and despite winning the First Division (South) title the following season, it was not promoted. The last season of Dover FC was 1982-83. During its history, the club had some successes in various cup competitions, reaching the Second Round of the F.A. Cup once and winning the Kent Senior Cup seven times.",
+    "owns": {
+      "@type": "Product",
+      "name": "Dover Athletic playing kit",
+      "brand": "Kappa",
+      "image": "https://www.dafcdirect.com/wp-content/uploads/2022/08/e816609f-27cc-4a2c-a1ec-3f7b3424e083.jpg",
+      "url": "https://www.dafcdirect.com/product/2022-2023-home-replica-shirt/",
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#FFFFFF", "#000000"]
+    },
 
     "url": "https://www.doverathletic.com",
     "memberOf": {
@@ -5607,7 +5631,6 @@
       "value": "GB-COH-2840930"
     },
     "isicV4": "93110",
-
     "alternateName": "Dulwich Hamlet Football Club",
     "slogan": "The Hamlet",
     "logo": {
@@ -5710,7 +5733,6 @@
       "value": "GB-COH-6658232"
     },
     "isicV4": "93199",
-
     "alternateName": "Eastbourne Borough Football Club",
     "slogan": "The Sports",
     "telephone": "+441323766265",
@@ -5732,9 +5754,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Eastbourne Borough playing kit",
-      "color": ["rgb(220, 38, 38)", "rgb(255, 255, 255)"]
+      "itemCondition": "NewCondition",
+      "color": ["RGB(220, 38, 38)", "RGB(255, 255, 255)"]
     },
 
     "url": "https://ebfc.co.uk",
@@ -5804,7 +5826,6 @@
       "value": "GB-COH-412018"
     },
     "isicV4": "93120",
-
     "alternateName": "Ebbsfleet United Football Club",
     "slogan": "The Fleet",
     "logo": {
@@ -5911,7 +5932,6 @@
       "value": "GB-COH-8644606"
     },
     "isicV4": "93120",
-
     "alternateName": "Farnborough Football Club",
     "slogan": "Boro",
     "logo": {
@@ -5931,8 +5951,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Farnborough playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#E5D247", "#265BA7"]
     },
 
@@ -6003,7 +6023,6 @@
       "value": "GB-COH-3399857"
     },
     "isicV4": "93120",
-
     "alternateName": "Hampton & Richmond Borough Football Club",
     "slogan": "The Beavers",
     "logo": {
@@ -6024,8 +6043,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Hampton &amp; Richmond Borough playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#27223C", "#A63226"]
     },
 
@@ -6095,7 +6114,6 @@
       "value": "GB-COH-1967707"
     },
     "isicV4": "93110",
-
     "alternateName": "Havant & Waterlooville Football Club",
     "slogan": "The Hawks",
     "logo": {
@@ -6182,7 +6200,6 @@
       "value": "GB-COH-3271293"
     },
     "isicV4": "999999",
-
     "alternateName": "Hemel Hempstead Town Football Club",
     "slogan": "The Tudors",
     "logo": {
@@ -6296,9 +6313,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Hungerford Town playing kit",
-      "color": ["rgb(255, 255, 255)", "rgb(0, 0, 0)"]
+      "itemCondition": "NewCondition",
+      "color": ["RGB(255, 255, 255)", "RGB(0, 0, 0)"]
     },
 
     "url": "https://hungerfordtown.com",
@@ -6364,7 +6381,6 @@
       "value": "GB-COH-10757444"
     },
     "isicV4": "93110",
-
     "alternateName": "Oxford City Football Club",
     "slogan": "The Hoops",
     "logo": {
@@ -6466,9 +6482,7 @@
     },
     "vatID": "GB 334 0810 35",
     "isicV4": "93110",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Slough Town Football Club",
     "slogan": "The Rebels",
     "telephone": "+447792126124",
@@ -6574,7 +6588,6 @@
       "value": "GB-COH-1922742"
     },
     "isicV4": "93120",
-
     "alternateName": "St Albans City Football Club",
     "slogan": "The Saints",
     "logo": {
@@ -6656,9 +6669,7 @@
       "value": "GB-COH-1582031"
     },
     "isicV4": "93120",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Taunton Town Football Club",
     "slogan": "The Peacocks",
     "logo": {
@@ -6740,7 +6751,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-IP032445"
     },
-
     "alternateName": "Tonbridge Angels Football Club",
     "slogan": "The Angels",
     "logo": {
@@ -6823,7 +6833,6 @@
       "value": "GB-COH-8055420"
     },
     "isicV4": "93120",
-
     "alternateName": "Welling United Football Club",
     "slogan": "The Wings",
     "logo": {
@@ -6905,7 +6914,6 @@
       "value": "GB-COH-199734"
     },
     "isicV4": "93110",
-
     "alternateName": "Weymouth Football Club",
     "slogan": "The Terras",
     "logo": {
@@ -6921,12 +6929,6 @@
     "foundingDate": "1890",
     "sport": "Association Football",
     "keywords": "semi-professional",
-    "owns": {
-      "@type": "Product",
-      "itemCondition": "NewCondition",
-      "name": "Weymouth playing kit",
-      "color": []
-    },
 
     "url": "https://uptheterras.co.uk",
     "memberOf": {
@@ -7013,7 +7015,6 @@
       "value": "GB-COH-2729719"
     },
     "isicV4": "93120",
-
     "alternateName": "Worthing Football Club",
     "slogan": "The Rebels",
     "logo": {
@@ -7025,14 +7026,22 @@
       "width": 150,
       "height": 150
     },
-    "sameAs": ["https://twitter.com/WorthingFC/"],
+    "sameAs": [
+      "https://twitter.com/WorthingFC/",
+      "https://www.facebook.com/WorthingFC",
+      "https://www.instagram.com/WorthingFC/",
+      "https://www.youtube.com/channel/UCup2RlzMkVZpQICHZW_0jvg"
+    ],
     "foundingDate": "1886",
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Worthing playing kit",
-      "color": []
+      "brand": "Kappa",
+      "image": "https://ticketpass-images.s3.eu-west-2.amazonaws.com/store/test/products/7ce25560-0523-419a-bc5a-8f2b4d2a1fbf/original.png",
+      "url": "https://ethicalticketing.org/worthing-fc-store/store/product/7",
+      "itemCondition": "NewCondition",
+      "color": ["#E64452"]
     },
 
     "url": "https://worthingfc.com",
@@ -7102,7 +7111,6 @@
       "value": "GB-COH-7698872"
     },
     "isicV4": "93120",
-
     "alternateName": "Wrexham AFC",
     "slogan": "The Red Dragons",
     "logo": {
@@ -7125,10 +7133,11 @@
     "foundingDate": "1864",
     "sport": "Association Football",
     "keywords": "professional",
+    "description": "Wrexham AFC, the oldest football club in Wales and the third oldest professional club in the world, celebrated the anniversary of their first match on October 22, 2022 - 158 years on from that first game in 1864. Since then, the club has made its mark in Welsh football, notably by winning the inaugural Welsh Cup, becoming the oldest international football stadium in the world, and producing a number of giant-killing feats in the FA Cup and European competitions. Wrexham has also gone through many changes since then, developing a strong industrial and retail sector, and being spared relegation thanks to the restructuring of the Football League in 1991. The club was famously saved from the brink of extinction by its loyal supporters and has gone on to record some of its greatest successes, including an FA Trophy win in 2013. As Wrexham AFC celebrates its 158th anniversary, the club and the town remain as intrinsically linked as ever, driven by a shared history, passion and innovation.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Wrexham AFC playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#B32B25"]
     },
 
@@ -7200,9 +7209,7 @@
       "value": "GB-COH-8943550"
     },
     "isicV4": "93110",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Aveley Football Club",
     "slogan": "The Millers",
     "logo": {
@@ -7223,9 +7230,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Aveley playing kit",
-      "color": ["#1E169D", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["#1E169D", "#FFFFFF"]
     },
 
     "url": "https://www.pitchero.com/clubs/aveley",
@@ -7296,7 +7303,6 @@
       "value": "GB-COH-4172587"
     },
     "isicV4": ["93110", "93120"],
-
     "alternateName": "Billericay Town Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -7318,8 +7324,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Billericay Town playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#1618BF"]
     },
 
@@ -7391,7 +7397,6 @@
       "value": "GB-COH-2489097"
     },
     "isicV4": "93120",
-
     "alternateName": "Bishop's Stortford Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -7413,8 +7418,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Bishop&#39;s Stortford playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#1B4491", "#FFFFFF"]
     },
 
@@ -7478,9 +7483,7 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Bognor Regis Town",
-
     "nonProfitStatus": "UnincorporatedAssociationCharity",
-
     "alternateName": "Bognor Regis Town Football Club",
     "slogan": "The Rocks",
     "telephone": "+441243822325",
@@ -7584,9 +7587,7 @@
       "value": "GB-COH-11538016"
     },
     "isicV4": "93199",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Bowers & Pitsea Football Club",
     "slogan": "The Bowers",
     "logo": {
@@ -7785,7 +7786,6 @@
       "value": "GB-COH-4522700"
     },
     "isicV4": "93199",
-
     "alternateName": "Canvey Island Football Club",
     "slogan": "The Gulls",
     "logo": {
@@ -7892,7 +7892,6 @@
       "value": "GB-COH-5316320"
     },
     "isicV4": "93199",
-
     "alternateName": "Carshalton Athletic Football Club",
     "slogan": "The Robins",
     "telephone": "+442086422551",
@@ -7997,9 +7996,7 @@
       "value": "GB-COH-11976450"
     },
     "isicV4": "93120",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Corinthian-Casuals Football Club",
     "slogan": "The Casuals",
     "logo": {
@@ -8020,8 +8017,8 @@
     "keywords": "amateur",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Corinthian-Casuals playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#692F2F", "#DA8DD9"]
     },
 
@@ -8092,7 +8089,6 @@
       "value": "GB-COH-5228510"
     },
     "isicV4": "82990",
-
     "alternateName": "Cray Wanderers Football Club",
     "slogan": "The Wands",
     "logo": {
@@ -8179,7 +8175,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-IP29239R"
     },
-
     "alternateName": "Enfield Town Football Club",
     "slogan": "The Towners",
     "telephone": "+447787875650",
@@ -8259,7 +8254,6 @@
       "value": "GB-COH-4243803"
     },
     "isicV4": "93120",
-
     "alternateName": "Folkestone Invicta Football Club",
     "slogan": "The Seasiders",
     "logo": {
@@ -8448,7 +8442,6 @@
       "value": "GB-COH-3441850"
     },
     "isicV4": "93110",
-
     "alternateName": "Hastings United Football Club",
     "slogan": "The U's",
     "logo": {
@@ -8552,7 +8545,6 @@
       "value": "GB-COH-7963961"
     },
     "isicV4": "93120",
-
     "alternateName": "Herne Bay Football Club",
     "slogan": "The Bay",
     "logo": {
@@ -8574,8 +8566,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Herne Bay playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#1A378E"]
     },
 
@@ -8646,7 +8638,6 @@
       "value": "GB-COH-8568897"
     },
     "isicV4": "93120",
-
     "alternateName": "Hornchurch Football Club",
     "slogan": "The Mighty Urchins",
     "telephone": "+441708220080",
@@ -8753,7 +8744,6 @@
       "value": "GB-COH-1494925"
     },
     "isicV4": "93120",
-
     "alternateName": "Horsham Football Club",
     "slogan": "The Hornets",
     "logo": {
@@ -8775,8 +8765,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Horsham playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#357942", "#F5C242"]
     },
 
@@ -8847,7 +8837,6 @@
       "value": "GB-COH-4480694"
     },
     "isicV4": "93120",
-
     "alternateName": "Kingstonian Football Club",
     "slogan": "The Ks",
     "logo": {
@@ -8867,9 +8856,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Kingstonian playing kit",
-      "color": ["#BB271A", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["#BB271A", "#FFFFFF"]
     },
 
     "url": "https://www.kingstonian.com",
@@ -8934,7 +8923,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-IP030988"
     },
-
     "alternateName": "Lewes Football Club",
     "slogan": "The Rooks",
     "logo": {
@@ -9038,7 +9026,6 @@
       "value": "GB-COH-1359836"
     },
     "isicV4": "93199",
-
     "alternateName": "Margate Football Club",
     "slogan": "The Gate",
     "logo": {
@@ -9117,9 +9104,7 @@
       "value": "GB-COH-13131851"
     },
     "isicV4": "93110",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Potters Bar Town Football Club",
     "slogan": "The Scholars",
     "logo": {
@@ -9224,7 +9209,6 @@
       "value": "GB-COH-6014465"
     },
     "isicV4": "93199",
-
     "alternateName": "Wingate & Finchley Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -9327,7 +9311,6 @@
       "value": "GB-COH-2471345"
     },
     "isicV4": "93120",
-
     "alternateName": "Ashton United Football Club",
     "slogan": "The Robins",
     "logo": {
@@ -9350,9 +9333,9 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Ashton United playing kit",
-      "color": ["#AE3034", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["#AE3034", "#FFFFFF"]
     },
 
     "url": "https://ashtonunited.co.uk",
@@ -9417,7 +9400,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-7420002"
     },
-
     "alternateName": "Atherton Collieries Football Club",
     "slogan": "The Colls",
     "logo": {
@@ -9437,9 +9419,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Atherton Collieries playing kit",
-      "color": ["#ffffff", "#000000"]
+      "itemCondition": "NewCondition",
+      "color": ["#FFFFFF", "#000000"]
     },
 
     "url": "https://athertoncollieries.co.uk",
@@ -9507,7 +9489,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-IP032000"
     },
-
     "alternateName": "Bamber Bridge Football Club",
     "slogan": "The Brig",
     "logo": {
@@ -9526,6 +9507,12 @@
     "foundingDate": "1952",
     "sport": "Association Football",
     "keywords": "semi-professional",
+    "owns": {
+      "@type": "Product",
+      "name": "Bamber Bridge playing kit",
+      "itemCondition": "NewCondition",
+      "color": ["#000000", "#FFFFFF"]
+    },
 
     "url": "https://bamberbridge.org",
     "memberOf": {
@@ -9609,7 +9596,6 @@
       "value": "GB-COH-1969308"
     },
     "isicV4": "93110",
-
     "alternateName": "Belper Town Football Club",
     "slogan": "The Nailers",
     "telephone": "+441773825549",
@@ -9628,6 +9614,12 @@
     ],
     "foundingDate": "1883",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Belper Town playing kit",
+      "itemCondition": "NewCondition",
+      "color": ["##FFB605"]
+    },
 
     "url": "https://belpertownfc.co.uk",
     "memberOf": {
@@ -9716,7 +9708,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-IP29969R"
     },
-
     "alternateName": "FC United of Manchester",
     "slogan": "The Reds",
     "logo": {
@@ -9737,8 +9728,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "FC United of Manchester playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#D03430", "#FFFFFF", "#121212"]
     },
 
@@ -9826,7 +9817,6 @@
       "value": "GB-COH-1004070"
     },
     "isicV4": "93110",
-
     "alternateName": "Gainsborough Trinity Football Club",
     "slogan": "The Trinity",
     "logo": {
@@ -9913,7 +9903,6 @@
       "value": "GB-COH-2629783"
     },
     "isicV4": "93120",
-
     "alternateName": "Guiseley AFC",
     "slogan": "The Lions",
     "logo": {
@@ -9935,9 +9924,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Guiseley AFC playing kit",
-      "color": ["#153979", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["#153979", "#FFFFFF"]
     },
 
     "url": "https://guiseleyafc.co.uk",
@@ -10023,7 +10012,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-RS007183"
     },
-
     "alternateName": "Hyde United Football Club",
     "slogan": "The Tigers",
     "logo": {
@@ -10043,9 +10031,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Hyde United playing kit",
-      "color": ["#dd3333", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["#DD3333", "#FFFFFF"]
     },
 
     "url": "https://hydeunited.co.uk",
@@ -10119,7 +10107,6 @@
       "value": "GB-COH-6010739"
     },
     "isicV4": "93120",
-
     "alternateName": "Lancaster City Football Club",
     "slogan": "The Dolly Blues",
     "logo": {
@@ -10139,8 +10126,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Lancaster City playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#004C92"]
     },
 
@@ -10206,7 +10193,6 @@
       "value": "GB-COH-3865776"
     },
     "isicV4": "93110",
-
     "alternateName": "Liversedge Football Club",
     "slogan": "The Sedge",
     "telephone": "+441274875958",
@@ -10228,9 +10214,9 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Liversedge playing kit",
-      "color": ["rgb(116, 207, 255)", "#ffffff"]
+      "itemCondition": "NewCondition",
+      "color": ["RGB(116, 207, 255)", "#FFFFFF"]
     },
 
     "url": "https://liversedgefc.co.uk",
@@ -10289,9 +10275,7 @@
     "@type": "SportsTeam",
     "name": "Marine AFC",
     "legalName": "Marine Association Football Club",
-
     "nonProfitStatus": "UnincorporatedAssociationCharity",
-
     "alternateName": "Marine AFC",
     "slogan": "The Mariners",
     "logo": {
@@ -10309,10 +10293,11 @@
     ],
     "foundingDate": "1894",
     "sport": "Association Football",
+    "description": "Marine FC was formed in 1894 by a group of local businessmen and former college students. They moved to their present ground, the Marine Travel Arena, in 1903 and enjoyed success in the I Zingari League and Liverpool Combination, eventually becoming professional in 1974. They won three Cheshire League Championships before moving to the Northern Premier League in 1979/80, where they became Champions twice and won the League Cup on four occasions. In recent years, the club have made improvements to their Marine Travel Arena base, as well as reaching the 3rd Round of the FA Cup and semi-finals of the FA Trophy. In 2021/22 they returned to the Northern Premier League Premier Division after a successful play-off campaign.",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Marine AFC playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#000000", "#CEB04E"]
     },
 
@@ -10375,9 +10360,7 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Marske United",
-
     "nonProfitStatus": "UnincorporatedAssociationCharity",
-
     "alternateName": "Marske United Football Club",
     "slogan": "The Seasiders",
     "logo": {
@@ -10389,9 +10372,21 @@
       "width": 100,
       "height": 115
     },
-    "sameAs": ["https://twitter.com/MarskeUnitedFC/"],
+    "sameAs": [
+      "https://twitter.com/MarskeUnitedFC/",
+      "https://www.facebook.com/marske.unitedfc",
+      "https://www.instagram.com/marskeunitedfc/"
+    ],
     "foundingDate": "1956",
     "sport": "Association Football",
+    "owns": {
+      "@type": "Product",
+      "name": "Marske United playing kit",
+      "brand": "Macron",
+      "url": "https://marskeunitedfc.org/payments/home-shirt-86382.html",
+      "itemCondition": "NewCondition",
+      "color": ["#F7D101", "#005CFF"]
+    },
 
     "url": "https://marskeunitedfc.org",
     "memberOf": {
@@ -10455,9 +10450,7 @@
       "value": "GB-COH-11843644"
     },
     "isicV4": ["85510", "93110", "93119"],
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Matlock Town Football Club",
     "slogan": "The Gladiators",
     "telephone": "+441629583866",
@@ -10478,8 +10471,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Matlock Town playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#152043"]
     },
 
@@ -10549,9 +10542,7 @@
       "value": "GB-COH-2860410"
     },
     "isicV4": "93120",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Morpeth Town AFC",
     "slogan": "The Highwaymen",
     "logo": {
@@ -10651,9 +10642,7 @@
       "value": "GB-COH-7328670"
     },
     "isicV4": "93110",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Nantwich Town Football Club",
     "slogan": "The Dabbers",
     "logo": {
@@ -10759,9 +10748,7 @@
       "value": "GB-COH-6609995"
     },
     "isicV4": "93120",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Radcliffe Football Club",
     "slogan": "The Boro",
     "telephone": "+441617248346",
@@ -10782,8 +10769,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Radcliffe playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#19419F", "#F8E35E"]
     },
 
@@ -10852,7 +10839,6 @@
       "value": "GB-COH-9651123"
     },
     "isicV4": "93110",
-
     "alternateName": "South Shields Football Club",
     "slogan": "The Mariners",
     "logo": {
@@ -10874,8 +10860,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "South Shields playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#6F2935", "#8FCFE6"]
     },
 
@@ -10945,7 +10931,6 @@
       "value": "GB-COH-168812"
     },
     "isicV4": "93110",
-
     "alternateName": "Stafford Rangers Football Club",
     "slogan": "The Rangers",
     "logo": {
@@ -10967,13 +10952,13 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Stafford Rangers playing kit",
       "brand": "Harlequin Teamwear",
       "image": "https://www.harlequinteamwear.co.uk/wp-content/uploads/home-front.png",
-      "sku": "https://2022-Stafford-Rangers-Home-Shirt-adults",
-      "mainEntityOfPage": "https://www.harlequinteamwear.co.uk/product/2022-stafford-rangers-personalised-home-shirt-adults/",
-      "color": ["#000000", "#ffffff", "#C19B4A"]
+      "sku": "2022-Stafford-Rangers-Home-Shirt-adults",
+      "url": "https://www.harlequinteamwear.co.uk/product/2022-stafford-rangers-personalised-home-shirt-adults/",
+      "itemCondition": "NewCondition",
+      "color": ["#000000", "#FFFFFF", "#C19B4A"]
     },
 
     "url": "https://www.staffordrangersfc.co.uk",
@@ -11037,7 +11022,6 @@
       "value": "GB-COH-292254"
     },
     "isicV4": "96090",
-
     "alternateName": "Stalybridge Celtic Football Club",
     "slogan": "The Celts",
     "telephone": "+441613382828",
@@ -11058,13 +11042,13 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Stalybridge Celtic playing kit",
       "brand": "Hope + Glory",
       "material": "100% polyester",
       "image": "https://store.hopeandglorysportswear.co.uk/wp-content/uploads/2022/08/scfc-2223-home.jpg",
-      "mainEntityOfPage": "https://store.hopeandglorysportswear.co.uk/product/stalybridge-celtic-22-23-home-shirt",
-      "color": ["#3170EA", "#ffffff", "#A68760"]
+      "url": "https://store.hopeandglorysportswear.co.uk/product/stalybridge-celtic-22-23-home-shirt",
+      "itemCondition": "NewCondition",
+      "color": ["#3170EA", "#FFFFFF", "#A68760"]
     },
 
     "url": "https://stalybridgeceltic.co.uk",
@@ -11129,9 +11113,7 @@
       "value": "GB-COH-10294021"
     },
     "isicV4": "85110",
-
     "nonProfitStatus": "LimitedByGuaranteeCharity",
-
     "alternateName": "Warrington Rylands 1906 Football Club",
     "slogan": "The Blues",
     "logo": {
@@ -11151,8 +11133,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Warrington Rylands 1906 playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#264793"]
     },
 
@@ -11217,7 +11199,6 @@
       "propertyID": "Company Number",
       "value": "GB-COH-6412371"
     },
-
     "alternateName": "Warrington Town Football Club",
     "slogan": "The Yellows",
     "telephone": "+447854123199",
@@ -11241,12 +11222,12 @@
     "keywords": "semi-professional",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Warrington Town playing kit",
       "brand": "Macron",
       "material": "environmentally-friendly yarn, certified by Global Recycled Standard",
       "image": "https://www.warringtontownfc.co.uk/wp-content/uploads/2022/06/202223-Home-shirt.jpeg",
-      "mainEntityOfPage": "https://www.warringtontownfc.co.uk/product/2022-23-replica-home-shirt/",
+      "url": "https://www.warringtontownfc.co.uk/product/2022-23-replica-home-shirt/",
+      "itemCondition": "NewCondition",
       "color": ["#FDFF54", "#1331A4"]
     },
 
@@ -11305,9 +11286,7 @@
     "@context": "https://schema.org",
     "@type": "SportsTeam",
     "name": "Whitby Town",
-
     "nonProfitStatus": "UnincorporatedAssociationCharity",
-
     "alternateName": "Whitby Town Football Club",
     "slogan": "The Seasiders",
     "logo": {
@@ -11328,8 +11307,8 @@
     "sport": "Association Football",
     "owns": {
       "@type": "Product",
-      "itemCondition": "NewCondition",
       "name": "Whitby Town playing kit",
+      "itemCondition": "NewCondition",
       "color": ["#0D1B89"]
     },
 
