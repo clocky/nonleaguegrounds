@@ -24,6 +24,7 @@ eleventyComputed:
   <script type="application/ld+json">
     {{ club | dump | safe }}
   </script>
+  {#
   <script>
     {%- for url in club.sameAs %}
       {%- if "youtube" in url and "channel" in url %}
@@ -43,6 +44,7 @@ eleventyComputed:
       {%- endif %}
     {%- endfor %}
   </script>
+  #}
 {% endblock %}
 
 {% block css %}
@@ -122,16 +124,10 @@ eleventyComputed:
 {% block main %}
   <main class="container">
     <div class="columns is-variable is-8">
-      <article class="column is-three-fifths">
+      <article class="column is-half">
         <p class="block is-size-5">
-          <strong>
-            {{- club.alternateName -}}
-          </strong>
-          {%- if club.keywords %}
-          is a {{ club.keywords }}
-          {% else %}
-           is an 
-          {%- endif %}
+          <strong>{{- club.alternateName -}}</strong>
+          {% if club.keywords %} is a {{ club.keywords }}{%- else -%} is an {%- endif %}
           {{ club.sport | lower }} club based in {{ club.location.address.addressLocality }}
           {%- if club.location.address.addressRegion -%}
             , {{ club.location.address.addressRegion }}
@@ -139,8 +135,7 @@ eleventyComputed:
         </p>
         <p class="block">
           The club was founded in {{ club.foundingDate }}, and currently plays in the
-          <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
-            {{ club.memberOf.name }}</a>, 
+          <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }} {{ club.memberOf.name }}</a>, 
             {%- if club.memberOf.additionalProperty %}
             the {{ club.memberOf.additionalProperty.value | ordinal }} tier of 
             the English football league system
@@ -152,33 +147,29 @@ eleventyComputed:
           a stadium which has a capacity of {{ club.location.maximumAttendeeCapacity | commaNumber }} spectators.
         </p>
         
-        {%- if club.description %}
-          {%- for sentence in club.description.split(". ") %}
-            <p class="block">
-              {{ sentence }}
-              {% if not loop.last %}.{% endif %}
-            </p>
-          {%- endfor %}
-        {%- endif %}
-
         {%- if club.owns.mainEntityOfPage %}
           <p class="block">
-            The clubs 
-            {% if club.owns.mainEntityOfPage %}
-              <a href="{{ club.owns.mainEntityOfPage }}" target="_blank" rel="noopener" class="is-info">home kit</a>
-            {% else %}
-             home kit
-            {% endif %}
-            {% if club.owns.material %}is made of {{ club.owns.material }} and {% endif %} 
+            The clubs {% if club.owns.mainEntityOfPage %}<a href="{{ club.owns.mainEntityOfPage }}" target="_blank" rel="noopener" class="is-info">home kit</a>{%  else %} home kit {% endif %}
+            {%- if club.owns.material %} is made of {{ club.owns.material }} and {% endif %} 
               is manufactured by <span class="has-text-weight-semibold">{{ club.owns.brand }}</span>.
           </p>
+        {%- endif %}
+
+        {%- if club.description %}
+          <h4 class="is-size-5 has-text-weight-semibold mb-4">Club history</h4>
+          {%- for sentence in club.description.split(". ") %}
+            <p class="block">
+              {{- sentence -}}
+              {%- if not loop.last %}.{%- endif -%}
+            </p>
+          {%- endfor %}
         {%- endif %}
 
         {{ legal(club) }}
 
       </article>
 
-      <aside class="column is-one-fifth">
+      <aside class="column is-one-quarter">
         <div>
           <h4 class="heading">Nickname</h4>
           <p class="block">{{ club.slogan }}</p>
@@ -194,7 +185,7 @@ eleventyComputed:
           </p>
         </div>
       </aside>
-      <aside class="column is-one-fifth">
+      <aside class="column is-one-quarter">
       </aside>
     </div>
   </main>
@@ -202,6 +193,7 @@ eleventyComputed:
 {% endblock %}
 
 {% block social %}
+{#
 <div class="container">
   <div class="columns is-variable is-8">
     <div class="column is-two-fifths">
@@ -224,5 +216,6 @@ eleventyComputed:
         {% endfor %}
       </div>
   </div>
-  </div>
+</div>
+  #}
 {% endblock %}
