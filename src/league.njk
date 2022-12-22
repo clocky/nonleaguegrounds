@@ -31,8 +31,6 @@ eleventyComputed:
 
 {%- block css %}
   <style>
-    {% macro color(color) %}
-    {% endmacro %}
     {%- for club in league.members %}
     .card#{{ club.name | slugify }}  {
       background: linear-gradient(
