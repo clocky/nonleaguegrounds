@@ -1,41 +1,44 @@
 {% macro legal(club) %}
+  {% set govuk = "https://find-and-update.company-information.service.gov.uk/search?q=" %}
   {%- if club.nonProfitStatus %}
-
-    <p class="block has-text-grey is-size-7">
-      {% if club.nonProfitStatus == "UnincorporatedAssociationCharity" %}
-        <span class="has-text-weight-semibold">{{ club.alternateName }}</span> 
-        is an <a href="https://www.gov.uk/unincorporated-associations">unincorporated association</a>.
-      {% elif club.nonProfitStatus == "LimitedByGuaranteeCharity" %}
-        <span class="has-text-weight-semibold">{{ club.legalName }}</span> 
-        trading as {{ club.alternateName }} is a not-for-profit company limited by guarantee. 
-        Company number 
-        <a href="https://find-and-update.company-information.service.gov.uk/search?q={{ club.identifier.value.slice(7) }}">
-          {{ club.identifier.value.slice(7) }}
-        </a>.
-      {% endif %}
-    </p>
-
+    <article class="message is-info">
+      <div class="message-body">
+        {% if club.nonProfitStatus == "UnincorporatedAssociationCharity" %}
+          <span class="has-text-weight-semibold">{{ club.alternateName }}</span> 
+          is an <a href="https://www.gov.uk/unincorporated-associations">unincorporated association</a>.
+        {% elif club.nonProfitStatus == "LimitedByGuaranteeCharity" %}
+          <span class="has-text-weight-semibold">{{ club.legalName }}</span> 
+          trading as {{ club.alternateName }} is a not-for-profit company limited by guarantee. 
+          Company number 
+          <a href="{{ govuk }}{{ club.identifier.value.slice(7) }}">
+            {{ club.identifier.value.slice(7) -}}
+          </a>.
+        {% endif %}
+      </div>
+    </article>
   {% else %}
     {% if club.identifier.value %}
-
-      <p class="block has-text-grey is-size-6">
-        {# Registered Society #}
-        {% if club.identifier.value.slice(7,9) == "RS" %}
-          {# 7,000 means community benefit society #}
-          {% if club.identifier.value.charAt(11) == "7" %}
-            {{ club.legalName }} is a Community Benefit Society registered under the Co-operative and Community Benefit Societies Act 2014
+      <article class="message">
+        <div class="message-body">
+          {# Registered Society #}
+          {% if club.identifier.value.slice(7,9) == "RS" %}
+            {# 7,000 means community benefit society #}
+            {% if club.identifier.value.charAt(11) == "7" %}
+              <strong>{{ club.legalName }}</strong> is a Community Benefit Society registered under the Co-operative and Community Benefit Societies Act 2014
+            {% endif %}
+          {% elif club.identifier.value.slice(7,9) == "IP" %}
+            {# Industrial and Provident Societies Act 1965 #}
+            <strong>{{ club.legalName }}</strong> is a registered society under the Co-operative and Community Benefit Societies Act 2014.   
+          {% elif club.legalName.slice(-3) == "CIC" or club.legalName.slice(-5) == "C.I.C" or club.legalName.slice(-6) == "C.I.C." or club.legalName.slice(-26) == "Community Interest Company" %}
+            {# Community Interest Company #}
+            <strong>{{ club.legalName }}</strong> is a Community Interest Company incorporated in the United Kingdom and registered in England & Wales as a private company limited by guarantee.
+          {% else %}
+            {# Private limited company #}
+            <strong>{{ club.legalName }}</strong> trading as {{ club.alternateName }} is registered as a company in England and Wales,
+            company number <a href="{{ govuk }}{{ club.identifier.value.slice(7) }}">{{ club.identifier.value.slice(7) -}}</a>.
           {% endif %}
-        {% elif club.identifier.value.slice(7,9) == "IP" %}
-          {# Industrial and Provident Societies Act 1965 #}
-          {{ club.legalName }} is a registered society under the Co-operative and Community Benefit Societies Act 2014.   
-        {% else %}
-          {# Community Interest Company #}
-          {% if club.legalName.slice(-3) == "CIC" or club.legalName.slice(-5) == "C.I.C" or club.legalName.slice(-6) == "C.I.C." or club.legalName.slice(-26) == "Community Interest Company" %}
-            {{ club.legalName }} is a Community Interest Company incorporated in the United Kingdom and registered in England & Wales as a private company limited by guarantee.
-          {% endif %}
-        {% endif %}
-      </p>
-
+        </div>
+      </article>
     {% endif %}
   {%- endif %}
 {% endmacro %}
