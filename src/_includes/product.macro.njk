@@ -1,0 +1,26 @@
+{% macro product(product) %}
+  {% if product %}
+    <div class="card is-shadowless">
+      {% if product.image %}
+        <div class="card-image">
+          <figure class="image is-1by1">
+            <img src="{{ product.image }}" alt="{{ product.name }}">
+          </figure>
+        </div>
+      {% endif %}
+      <div class="card-content">
+        <p class="heading">Home Kit</p>
+        <p class="block">
+          {{ product.brand }}
+          {% if product.offers %} • £{{ product.offers.priceSpecification.price }}
+          {% endif %}
+        </p>
+        {% if product.url %}
+          <p class="block">
+            <a class="button is-fullwidth is-link is-outlined" href="{{ product.url }}" target="_blank">Buy online</a>
+          </p>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+{% endmacro %}
