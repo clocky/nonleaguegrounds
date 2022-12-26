@@ -15,6 +15,7 @@ eleventyComputed:
 {% from "creative-commons.macro.njk" import creativeCommons %}
 {% from "legal.macro.njk" import legal %}
 {% from "macros.njk" import staticmap %}
+{% from "product.macro.njk" import product %}
 
 {% block link %}
   <link rel="canonical" href="{{ meta.base }}/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">
@@ -64,7 +65,7 @@ eleventyComputed:
 
 {% block header %}
   {% set background = "is-white" if club.owns %}
-  <section class="hero {{ background }}  has-background">
+  <section class="hero {{ background }} has-background is-medium">
     {% if club.image %}
       {# 640, 768, 1024, 1366, 1600, 1920 #}
       {% image "./src/_assets/img/flickr/" + club.image.contentUrl, [ 640, 768, 1024, 1366, 1600 ], [ "avif", "jpeg" ], club.name, "100vw", "clubs" %}
@@ -72,7 +73,7 @@ eleventyComputed:
     <div class="hero-body">
       <div class="container has-text-left">
         {% set padding = "p-4" if club.image or club.owns %}
-        <h1 class="title has-background-white is-inline-block has-text-weight-bold is-size-2 is-size-3-mobile {{ padding }}">{{ club.name }}</h1>
+        <h1 class="title has-background-white is-inline-block has-text-weight-bold is-size-2 is-size-3-mobile {{ padding }}">{{ club.alternateName }}</h1>
       </div>
     </div>
   </section>
@@ -114,7 +115,7 @@ eleventyComputed:
 {% endblock %}
 
 {% block main %}
-  <main class="container">
+  <div class="container">
     <div class="columns is-variable is-8">
       <article class="column is-half">
         <p class="block is-size-5">
@@ -178,9 +179,12 @@ eleventyComputed:
         </div>
       </aside>
       <aside class="column is-one-quarter">
+          {% if club.owns %}
+            {{ product(club.owns)}}
+          {% endif %}
       </aside>
     </div>
-  </main>
+  </div>
 
 {% endblock %}
 
