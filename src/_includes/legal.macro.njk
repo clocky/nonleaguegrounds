@@ -1,8 +1,8 @@
 {% macro legal(club) %}
   {% set govuk = "https://find-and-update.company-information.service.gov.uk/search?q=" %}
+  <h4 class="is-size-5 has-text-weight-semibold mb-4">Ownership</h4>
   {%- if club.nonProfitStatus %}
-    <article class="message is-info">
-      <div class="message-body">
+    <p>
         {% if club.nonProfitStatus == "UnincorporatedAssociationCharity" %}
           <span class="has-text-weight-semibold">{{ club.alternateName }}</span> 
           is an <a href="https://www.gov.uk/unincorporated-associations">unincorporated association</a>.
@@ -14,12 +14,10 @@
             {{ club.identifier.value.slice(7) -}}
           </a>.
         {% endif %}
-      </div>
-    </article>
+      </p>
   {% else %}
     {% if club.identifier.value %}
-      <article class="message">
-        <div class="message-body">
+      <p>
           {# Registered Society #}
           {% if club.identifier.value.slice(7,9) == "RS" %}
             {# 7,000 means community benefit society #}
@@ -37,8 +35,7 @@
             <strong>{{ club.legalName }}</strong> trading as {{ club.alternateName }} is registered as a company in England and Wales,
             company number <a href="{{ govuk }}{{ club.identifier.value.slice(7) }}">{{ club.identifier.value.slice(7) -}}</a>.
           {% endif %}
-        </div>
-      </article>
+      </p>
     {% endif %}
   {%- endif %}
 {% endmacro %}
