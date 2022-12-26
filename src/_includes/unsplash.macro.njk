@@ -1,10 +1,6 @@
 {% macro unsplash(metadata) %}
-  <section class="section">
-    <div class="container">
-      <small>
-        Photo by <a href="https://unsplash.com/@{{ metadata.id }}" class="has-text-info">{{ metadata.author }}</a> 
-        on <a href="https://unsplash.com/" class="has-text-info">Unsplash ↗</a>
-      </small>
-    </div>
-  </section>
+    <small>
+      Photo by <a href="https://unsplash.com/@{{ metadata.id }}" class="has-text-info">{{ metadata.author }}</a> 
+      on <a href="https://unsplash.com/" class="has-text-info">Unsplash ↗</a>
+    </small>
 {% endmacro %}
