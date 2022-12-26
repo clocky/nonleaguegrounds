@@ -1,16 +1,24 @@
 const dayjs = require("dayjs");
 const path = require("path");
+
+/* Base Eleventy supported plugins */
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
+const EleventyFetch = require("@11ty/eleventy-fetch");
+const Image = require("@11ty/eleventy-img");
+
+/* 3rd party Eleventy plugins */
+const purgeCssPlugin = require("eleventy-plugin-purgecss");
+const brokenLinksPlugin = require("eleventy-plugin-broken-links");
+
+/* Helpers for text, formatting, data etc */
+const commaNumber = require("comma-number");
+const slugify = require("slugify");
 const prettier = require("prettier");
 const yaml = require("js-yaml");
 const ordinal = require("ordinal");
-const commaNumber = require("comma-number");
 const distFrom = require("distance-from");
-const purgeCssPlugin = require("eleventy-plugin-purgecss");
-const brokenLinksPlugin = require("eleventy-plugin-broken-links");
-const Image = require("@11ty/eleventy-img");
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const slugify = require("slugify");
-const EleventyFetch = require("@11ty/eleventy-fetch");
+
 require("dotenv").config();
 const GOOGLE_MAPS_KEY = process.env.GOOGLE_MAPS_API_KEY;
 
@@ -21,9 +29,9 @@ module.exports = function (eleventyConfig) {
       quiet: false,
     });
   }
-
+  
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-
+  
   eleventyConfig.addPlugin(brokenLinksPlugin, {
     broken: "warn",
     redirect: "warn",
@@ -110,9 +118,9 @@ module.exports = function (eleventyConfig) {
     url.searchParams.set("hide_thread", true);
 
     const response = await EleventyFetch(url.href, {
-      duration: "1d", 
+      duration: "1d",
       type: "json",
-    })
+    });
 
     return response.html;
   });
