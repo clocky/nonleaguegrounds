@@ -2166,7 +2166,12 @@
         },
         "foundingDate": "1908",
         "url": "https://www.stalbanscityfc.com",
-        "sameAs": ["https://twitter.com/stalbanscityfc/"],
+        "sameAs": [
+          "https://twitter.com/stalbanscityfc/",
+          "https://www.facebook.com/stalbanscityfc",
+          "https://www.instagram.com/stalbanscity_fc/",
+          "https://www.youtube.com/channel/UCOR7rQnjMbFiNzklN-92KKg"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
@@ -6361,7 +6366,12 @@
         },
         "foundingDate": "1947",
         "url": "https://www.tonbridgeangels.co.uk",
-        "sameAs": ["https://twitter.com/tonbridgeangels/"],
+        "sameAs": [
+          "https://twitter.com/tonbridgeangels/",
+          "https://www.facebook.com/Tonbridge-Angels-FC-240741216808",
+          "https://www.instagram.com/tonbridgeangelsfc/",
+          "https://www.youtube.com/channel/UC6ElINCIEkvMHRBy4ut49TA"
+        ],
         "memberOf": {
           "@type": "SportsOrganization",
           "name": "National League South",
