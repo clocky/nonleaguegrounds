@@ -4,7 +4,11 @@ twitter: "@clocky"
 base: https://www.nonleaguegrounds.com
 description: "Non-League football is the lifeblood of the game. It's where the
     game is played, where the fans are, where the stories are."
-disclaimer: "Whilst we endeavour to ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we commit to ensuring that the website remains available or that the material on the website is kept up-to-date."
+disclaimer: >
+    "Whilst we endeavour to ensure that the information on this website is
+    correct, we do not warrant its completeness or accuracy; nor do we commit to
+    ensuring that the website remains available or that the material on the
+    website is kept up-to-date."
 hero:
     home:
         src: samuel-regan-asante-YOtjUyEfClo-unsplash
@@ -26,6 +30,37 @@ hero:
         src: fancy-crave-qowyMze7jqg-unsplash
         author: Fancy Crave
         id: fancycrave
+    region:
+        east-midlands:
+            src: tom-podmore-hWMwHgkjcKU-unsplash
+            author: Tom Podmore
+            id: tompodmore86
+        east-of-england:
+            src: eve-woodhouse-Vgc5IQoWn7c-unsplash
+            author: Eve Woodhouse
+            id: efencreative
+        london:
+            src: benjamin-davies-Oja2ty_9ZLM-unsplash
+            author: Benjamin Davies
+            id: bendavisual
+        north-east:
+            src: william-hook-0er8ezF3Xhg-unsplash
+        north-west:
+            src: william-hook-0er8ezF3Xhg-unsplash
+        south-east:
+            src: william-hook-0er8ezF3Xhg-unsplash
+        south-west:
+            src: william-hook-0er8ezF3Xhg-unsplash
+        wales:
+            src: william-hook-0er8ezF3Xhg-unsplash
+        west-midlands:
+            src: tom-podmore-9iT6ufVQRCY-unsplash
+            author: Tom Podmore
+            id: tompodmore86
+        yorkshire-and-the-humber:
+            src: gary-butterfield-Z-ydZU1FwuM-unsplash
+            author: Gary Butterfield
+            id: garybpt
 
 class:
     table: table is-fullwidth is-striped
@@ -43,5 +78,3 @@ nav:
     - label: Regions
       icon: map-location
       color: success-dark
-
- 
