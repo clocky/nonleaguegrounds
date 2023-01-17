@@ -30,11 +30,19 @@ eleventyComputed:
   {% set title = region.name %}
   {%- set subtitle %}
   {{- region.alternateName | first | upper }}{{ region.alternateName.slice(1) }}
+  {% set background = region.name | slugify %}
   {% if region
     .alternateName
     .slice(-1) == "s" %} are {% else %} is {% endif %} at the heart of the non-league pyramid, with a total of {{ region.geoContains.length }} clubs.
   {%- endset %}
-  {{ hero(title, subtitle, meta.hero['regions'].src) }}
+  <section class="hero {{ background }} has-background is-medium">
+    {% image "./src/_assets/img/unsplash/" + meta.hero.region[background].src + ".jpg", [ 640, 768, 1024, 1366, 1600 ], [ "avif", "jpeg" ], title, "100vw", "hero" %}
+    <div class="hero-body">
+      <div class="container has-text-left">
+        <h1 class="title has-background-white is-inline-block has-text-weight-bold is-size-2 is-size-3-mobile p-4">{{ title }}</h1>
+      </div>
+    </div>
+  </section>
 {% endblock %}
 
 {% block breadcrumb %}
@@ -42,9 +50,9 @@ eleventyComputed:
 {% endblock %}
 
 {% block main %}
-  <section class="section">
+  <main class="container is-max-desktop">
     <div class="columns">
-      <div class="column">
+      <div class="column is-two-thirds">
         <table class="{{ meta.class.table }}">
           <thead>
             <tr>
@@ -70,8 +78,8 @@ eleventyComputed:
           </tbody>
         </table>
       </div>
-      <div class="column">
-        <figure class="image is-1x1">
+      <div class="column is-one-third">
+        <figure class="image is-3by5">
           {%- set markers -%}
           {%- for ground in region.geoContains -%}
           &markers=size:mid|label:{{ ground.name.slice(0,1) | upper }}|{{ ground.latitude }},{{ ground.longitude }}
@@ -80,7 +88,7 @@ eleventyComputed:
           {%- set key = env.google_maps_api_key -%}
           {% set caption = "Map of clubs in " + region.alternateName %}
           <img 
-        src="https://maps.googleapis.com/maps/api/staticmap?size=640x640&scale=2&markers={{ markers }}&key={{key}}" 
+        src="https://maps.googleapis.com/maps/api/staticmap?size=240x400&scale=2&markers={{ markers }}&key={{key}}" 
         alt="{{ caption }}"
       >
           <figcaption>
@@ -91,6 +99,6 @@ eleventyComputed:
         </figure>
       </div>
     </div>
-  </section>
+  </main>
   {{ unsplash(meta.hero["regions"])}}
 {% endblock %}
