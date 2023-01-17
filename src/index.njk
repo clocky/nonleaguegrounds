@@ -11,12 +11,12 @@ date: git Last Modified
 {%- block css %}{%- endblock %}
 
 {% block header %}
-  <section class="hero has-background is-halfheight">
+  <section class="hero has-background is-fullheight">
     {% image "./src/_assets/img/unsplash/" + meta.hero['home'].src + ".jpg", [ 640, 768, 1024, 1366, 1600 ], [ "avif", "jpeg" ], "Home", "100vw", "unsplash" %}
     <div class="hero-body">
       <div class="container has-text-left">
-       <h1 class="title has-background-white is-inline-block has-text-weight-bold is-size-2 is-size-3-mobile {{ padding }} p-4">Non-League Grounds</h1>
-        <h2 class="subtitle has-background-white  is-inline-block is-size-4 has-text-weight-semibold">A directory of {{ grounds.length }} football grounds in England and Wales.</h2> 
+       <h1 class="title has-background-white is-inline-block has-text-weight-bold is-size-2 is-size-3-mobile {{ padding }} p-4">Non-League Grounds</h1><br />
+      <h2 class="subtitle has-background-white is-inline-block px-3 py-2 is-size-4 has-text-weight-semibold">A directory of {{ grounds.length }} football grounds in England and Wales.</h2> 
      </div>
     </div>
   </section>
