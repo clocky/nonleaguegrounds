@@ -33,7 +33,7 @@
           {% else %}
             {# Private limited company #}
             <strong>{{ club.legalName }}</strong> trading as {{ club.alternateName }} is registered as a company in England and Wales,
-            company number <a href="{{ govuk }}{{ club.identifier.value.slice(7) }}">{{ club.identifier.value.slice(7) -}}</a>.
+            company number <a href="{{ govuk }}{{ club.identifier.value.slice(7) }}">{{ club.identifier.value.slice(7).padStart(8, '0') -}}</a>.
           {% endif %}
       </p>
     {% endif %}
