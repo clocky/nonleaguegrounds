@@ -19,27 +19,16 @@
       "width": 150,
       "height": 150
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/national-league"
-    },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "propertyID": "tier",
-      "value": 5
+      "name": "5",
+      "value": "tier"
     },
     "members": [
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Altrincham",
         "slogan": "The Robins",
-        "sameAs": [
-          "https://twitter.com/altrinchamfc/",
-          "https://www.facebook.com/officialalty",
-          "https://www.instagram.com/altrinchamfc/",
-          "https://www.youtube.com/channel/UC37zIaEBaIZYrJFbGNvgIdw"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4700.png",
@@ -49,42 +38,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1891",
-        "url": "https://altrinchamfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Altrincham playing kit",
-          "brand": "Puma",
-          "material": "Re-tex recycled fabric",
-          "image": "https://cdn.shopify.com/s/files/1/0453/2692/5974/products/altrinchamfc_front_home_kit_1000x.jpg?v=1660735903",
-          "url": "https://altrinchamfc.com/products/22-23-alty-fc-home-adult-shirt",
-          "itemCondition": "NewCondition",
-          "color": ["#C42E1E", "#FFFFFF", "#000000"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/altrincham"
-        },
         "location": {
           "latitude": 53.383434,
           "longitude": -2.335159
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Aldershot Town",
         "slogan": "The Shots",
-        "sameAs": [
-          "https://twitter.com/OfficialShots/",
-          "https://www.facebook.com/AldershotTownFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1818.png",
@@ -94,50 +56,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1992",
-        "url": "https://www.theshots.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Aldershot Town playing kit",
-          "brand": "Erreà",
-          "material": "TI-energy, a high performance technical fabric",
-          "image": "https://www.theshots.co.uk/wp-content/uploads/2022/06/FB_2-1-scaled.jpg",
-          "url": "https://www.theshots.co.uk/product/adult-home-2022-23-shirt/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 50.0
-            }
-          },
-          "color": ["#C32D27", "#172576"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/aldershot-town"
-        },
         "location": {
           "latitude": 51.248415,
           "longitude": -0.754682
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Barnet",
         "slogan": "The Bees",
-        "sameAs": [
-          "https://twitter.com/BarnetFC/",
-          "https://www.facebook.com/BarnetFootballClub"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1369.png",
@@ -147,51 +74,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1888",
-        "url": "https://www.barnetfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Barnet playing kit",
-          "brand": "Stanno",
-          "material": "100% recycled polyester",
-          "sku": "BFC/Shirts/BFC Home/Adults/2022/23",
-          "url": "https://www.venuetoolbox.com/barnetfc/Photos/{AD1924C0-3BB3-4E99-B9AC-B926CBFB1948}/HomeKit_2021.png",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 49.0
-            }
-          },
-          "color": ["#0D0807", "#FF7700"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/barnet"
-        },
         "location": {
           "latitude": 51.602623,
           "longitude": -0.291743
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Boreham Wood",
         "slogan": "The Wood",
-        "sameAs": [
-          "https://twitter.com/BOREHAM_WOODFC/",
-          "https://www.facebook.com/BorehamWoodFC",
-          "https://www.instagram.com/boreham_woodfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1830.png",
@@ -201,51 +92,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1948",
-        "url": "https://www.borehamwoodfootballclub.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Boreham Wood playing kit",
-          "brand": "Puma",
-          "image": "https://cdn.freewebstore.com/origin/159842/clubshop_thumbnail_home_2.png",
-          "url": "https://www.bwfcclubshop.co.uk/202223_HOME_REPLICA_SHIRT/p1478107_21169170.aspx",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 49.0
-            }
-          },
-          "color": ["#FFFFFF", "#000000"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/boreham-wood"
-        },
         "location": {
           "latitude": 51.661937,
           "longitude": -0.272375
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bromley",
         "slogan": "The Ravens",
-        "sameAs": [
-          "https://twitter.com/bromleyfc/",
-          "https://www.facebook.com/bromleyfc",
-          "https://www.instagram.com/bromleyfc/",
-          "https://www.youtube.com/channel/UCMTaa8yaeo6aD7UvCCs1tAw"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1832.png",
@@ -255,52 +110,15 @@
           "width": 130,
           "height": 130
         },
-        "foundingDate": "1892",
-        "url": "https://www.bromleyfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Bromley playing kit",
-          "brand": "Kappa",
-          "material": "100% polyester",
-          "image": "https://cdn.shopify.com/s/files/1/0591/9339/3284/products/ReplicaHomeFront_7fa3bcc0-2428-4d77-bb83-f6a02172b5c9_960x.png?v=1664977018",
-          "url": "https://bromleyfcshop.co.uk/products/bromley-fc-replica-home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#FFFFFF", "#161412", "#B18E5C"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/bromley"
-        },
         "location": {
           "latitude": 51.390084,
           "longitude": 0.021091
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Chesterfield",
         "slogan": "The Spireites",
-        "sameAs": [
-          "https://twitter.com/ChesterfieldFC/",
-          "https://www.facebook.com/ChesterfieldFC",
-          "https://www.instagram.com/ChesterfieldFC/",
-          "https://www.youtube.com/channel/UC6hnRkCdElagLJlOqlgukPA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1345.png",
@@ -310,50 +128,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1919",
-        "url": "https://chesterfield-fc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Chesterfield playing kit",
-          "brand": "Puma",
-          "image": "https://chesterfield-fc.co.uk/wp-content/uploads/2022/10/P1026998-copy.png",
-          "url": "https://chesterfield-fc.co.uk/product/adult-puma-home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#3974C0", "#FFFFFF"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/chesterfield"
-        },
         "location": {
           "latitude": 53.253583,
           "longitude": -1.425761
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Dagenham & Redbridge",
         "slogan": "The Daggers",
-        "sameAs": [
-          "https://twitter.com/Dag_RedFC/",
-          "https://www.facebook.com/OfficialDaggers",
-          "https://www.youtube.com/channel/UCmEQ7rugLA9aKKZ_LOAstxg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1821.png",
@@ -363,51 +146,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1992",
-        "url": "https://daggers.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Dagenham &amp; Redbridge playing kit",
-          "brand": "Nike",
-          "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000051/1a1974fd-91b3-432d-9873-b31e96b11280.jpg",
-          "url": "https://daggers.ktckts.com/merchandise/dag2223hsrt/202223-home-nike-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 48.0
-            }
-          },
-          "color": ["#D74D3E", "#141D6A", "#FFFFFF"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/dagenham-and-redbridge"
-        },
         "location": {
           "latitude": 51.547807,
           "longitude": 0.159913
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Dorking Wanderers",
         "slogan": "The Wanderers",
-        "sameAs": [
-          "https://twitter.com/DorkingWDRS/",
-          "https://www.facebook.com/DorkingWanderersFC",
-          "https://www.instagram.com/dwfcofficial/",
-          "https://www.youtube.com/channel/UC_i2iAybzL7Q_KeNPu6P3pA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8659.png",
@@ -417,51 +164,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1999",
-        "url": "https://www.dorkingwanderers.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Dorking Wanderers playing kit",
-          "brand": "Macron",
-          "material": "100% softlock weave polyester",
-          "image": "https://cdn.shopify.com/s/files/1/0275/4314/2511/products/HomeShirt_1024x1024@2x.png?v=1658932463",
-          "url": "https://dwfc-online-shop.myshopify.com/collections/official-replica-kit/products/new-home-shirt-2022-23",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 42.0
-            }
-          },
-          "color": ["#0E216E", "#FFFFFF", "#D12F2D"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/dorking-wanderers"
-        },
         "location": {
           "latitude": 51.234444,
           "longitude": -0.333543
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Eastleigh",
         "slogan": "The Spitfires",
-        "sameAs": [
-          "https://twitter.com/eastleighfc/",
-          "https://www.facebook.com/eastleighfc",
-          "https://www.youtube.com/channel/UCqLcYxPm8O12KguuUIN6hPw"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1822.png",
@@ -471,49 +182,15 @@
           "width": 130,
           "height": 130
         },
-        "foundingDate": "1946",
-        "url": "https://www.eastleighfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Eastleigh playing kit",
-          "brand": "Kappa",
-          "image": "https://cdn.shopify.com/s/files/1/0411/3848/7459/products/Home-Kit-Wide-1184x789_1024x1024@2x.png?v=1666339377",
-          "url": "https://eastleighfc.store/collections/replica-kit/products/22-23-home-shirt-adult",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 48.0
-            }
-          },
-          "color": ["#0D228E", "#FFFFFF"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/eastleigh"
-        },
         "location": {
           "latitude": 50.95229,
           "longitude": -1.372023
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "FC Halifax Town",
         "slogan": "The Shaymen",
-        "sameAs": [
-          "https://twitter.com/FCHTOnline/",
-          "https://www.facebook.com/FCHTOnline"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1841.png",
@@ -523,50 +200,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2008",
-        "url": "https://fchalifaxtown.com",
-        "owns": {
-          "@type": "Product",
-          "name": "FC Halifax Town playing kit",
-          "brand": "adidas",
-          "image": "https://files.ekmcdn.com/fchalifaxtown/images/home-shirt-22-23-with-parley-2011-p.jpg?w=500&amp;h=500&amp;v=34ADB465-9449-45D1-BE55-24601FD52402",
-          "url": "https://www.fchtshop.com/home-shirt-2223-with-parley-2011-p.asp",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 46.0
-            }
-          },
-          "color": ["#3165A7"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/fc-halifax-town"
-        },
         "location": {
           "latitude": 53.716191,
           "longitude": -1.859217
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Gateshead",
         "slogan": "The Tynesiders",
-        "sameAs": [
-          "https://twitter.com/GatesheadFC/",
-          "https://www.facebook.com/gatesheadfc",
-          "https://www.instagram.com/gfc_official/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1823.png",
@@ -576,51 +218,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1977",
-        "url": "https://gateshead-fc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Gateshead playing kit",
-          "brand": "Puma",
-          "image": "https://cdn.shopify.com/s/files/1/0643/1647/3583/products/3O5A3970_1800x1800.jpg?v=1658217466",
-          "url": "https://gfcshop.co.uk/collections/replica-kit/products/adult-22-23-home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#221F26", "#FFFFFF"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/gateshead"
-        },
         "location": {
           "latitude": 54.96102,
           "longitude": -1.57967
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Maidenhead United",
         "slogan": "The Magpies",
-        "sameAs": [
-          "https://twitter.com/MUFCYorkRoad/",
-          "https://www.facebook.com/MUFCYorkRoad",
-          "https://www.instagram.com/MUFCYorkRoad/",
-          "https://www.youtube.com/channel/UCTaaLTWyqUPNH2CuCwMswKw"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1838.png",
@@ -630,51 +236,15 @@
           "width": 150,
           "height": 120
         },
-        "foundingDate": "1870",
-        "url": "https://www.pitchero.com/clubs/maidenheadunited",
-        "owns": {
-          "@type": "Product",
-          "name": "Maidenhead United playing kit",
-          "brand": "UHLsport",
-          "image": "https://cdn.shopify.com/s/files/1/0348/8533/7225/products/HOMEAMEND202223_1024x1024@2x.jpg?v=1655970948",
-          "url": "https://mufcdirect.co.uk/collections/mufc-1st-team-club-shop/products/mufc-home-shirt-2022-23-junior-sizes",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#060807", "#FFFFFF"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/maidenhead-united"
-        },
         "location": {
           "latitude": 51.519889,
           "longitude": -0.717968
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Maidstone United",
         "slogan": "The Stones",
-        "sameAs": [
-          "https://twitter.com/maidstoneunited/",
-          "https://www.facebook.com/MaidstoneUnitedFC",
-          "https://www.instagram.com/maidstoneunited/",
-          "https://www.youtube.com/channel/UCHbtEJQBMRlH7FFMwgFb6hQ"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1825.png",
@@ -684,51 +254,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1992",
-        "url": "https://maidstoneunited.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Maidstone United playing kit",
-          "brand": "Macron",
-          "image": "https://maidstoneunited.co.uk/wp-content/uploads/2021/10/Home-Replica.jpg",
-          "url": "https://maidstoneunited.co.uk/product/home-replica-shirt/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 42.0
-            }
-          },
-          "color": ["#E0A03C", "#434343"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/maidstone-united"
-        },
         "location": {
           "latitude": 51.28002,
           "longitude": 0.516091
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Notts County",
         "slogan": "The Magpies",
-        "sameAs": [
-          "https://twitter.com/Official_NCFC/",
-          "https://www.facebook.com/nottscountyfootballclub",
-          "https://www.instagram.com/nottscountyfc/",
-          "https://www.youtube.com/channel/UCL0tl-6YAAdE6U4QKK_eb3A",
-          "https://www.tiktok.com/@nottscountyofficial/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1376.png",
@@ -738,52 +272,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1862",
-        "url": "https://www.nottscountyfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Notts County playing kit",
-          "brand": "Puma",
-          "image": "https://shop.nottscountyfc.co.uk/images/shop_nottscounty/products/large/super/ADHMSHIRT2223_0.png",
-          "sku": "ADHMSHIRT2223",
-          "url": "https://shop.nottscountyfc.co.uk/ADHMSHIRT2223",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 42.99
-            }
-          },
-          "color": ["#000000", "#FFFFFF", "#817653"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/notts-county"
-        },
         "location": {
           "latitude": 52.942672,
           "longitude": -1.137151
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Oldham Athletic",
         "slogan": "The Latics",
-        "sameAs": [
-          "https://twitter.com/OfficialOAFC/",
-          "https://www.facebook.com/OfficialOAFC",
-          "https://www.instagram.com/officialoafc/",
-          "https://www.youtube.com/channel/UCOvOgSUASukdu4DsGyA9WYg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1349.png",
@@ -793,53 +290,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1895",
-        "url": "https://www.oldhamathletic.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Oldham Athletic playing kit",
-          "brand": "Hummel",
-          "material": "100% Eco8 polyester",
-          "image": "https://www.oafcstore.com/siteimg/prodhires/1133-710.jpg",
-          "sku": "2200052",
-          "url": "https://www.oafcstore.com/replica-kits/home-kit/all-2223-replica-ki/1133_oldham-adult-2223-home-shirt.html",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#2253A0", "#FFFFFF"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/oldham-athletic"
-        },
         "location": {
           "latitude": 53.555148,
           "longitude": -2.128451
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Solihull Moors",
         "slogan": "The Moors",
-        "sameAs": [
-          "https://twitter.com/SolihullMoors/",
-          "https://www.facebook.com/SolihullMoorsFootballClub",
-          "https://www.instagram.com/SolihullMoorsFootballClub/",
-          "https://www.youtube.com/channel/UCgRZcsv149ICk40Gw0yMKCA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1834.png",
@@ -849,51 +308,15 @@
           "width": 150,
           "height": 144
         },
-        "foundingDate": "2007",
-        "url": "https://www.solihullmoorsfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Solihull Moors playing kit",
-          "brand": "adidas",
-          "image": "https://shop.solihullmoorsfc.co.uk/wp-content/uploads/2022/07/6.png",
-          "url": "https://shop.solihullmoorsfc.co.uk/product/solihull-moors-home-replica-shirt-2022-23/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#F9EB4E", "#FFFFFF"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/solihull-moors"
-        },
         "location": {
           "latitude": 52.43892,
           "longitude": -1.75719
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Southend United",
         "slogan": "The Shrimpers",
-        "sameAs": [
-          "https://twitter.com/SUFCRootsHall/",
-          "https://www.facebook.com/SouthendUnitedFC",
-          "https://www.instagram.com/SUFCRootsHall/",
-          "https://www.youtube.com/channel/UCtUEQDOQpXmZuAH9beGN4Aw"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1341.png",
@@ -903,42 +326,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1906",
-        "url": "https://www.southendunited.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Southend United playing kit",
-          "brand": "Macron",
-          "url": "https://southendunitedmacronstore.co.uk/product/sfc22-home-shirt-sr/",
-          "itemCondition": "NewCondition",
-          "color": ["#0C2751", "#FFFFFF"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/southend-united"
-        },
         "location": {
           "latitude": 51.549008,
           "longitude": 0.701608
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Scunthorpe United",
         "slogan": "The Iron",
-        "sameAs": [
-          "https://twitter.com/SUFCOfficial/",
-          "https://www.facebook.com/sufcofficial",
-          "https://www.instagram.com/sufcofficial/",
-          "https://www.youtube.com/channel/UCdLl5w5Ft7-Vy7LEswrEkwA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1340.png",
@@ -948,50 +344,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1899",
-        "url": "https://www.scunthorpe-united.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Scunthorpe United playing kit",
-          "brand": "Macron",
-          "image": "https://www.sufcshop.com/siteimg/productimages/864-985.jpg",
-          "sku": "2200022",
-          "url": "https://www.sufcshop.com/replica-kit/replica-kit/home-2223/864_adult-home-shirt-22-23.html",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 42.0
-            }
-          },
-          "color": ["#7B2D35", "#7AB1E2"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/scunthorpe-united"
-        },
         "location": {
           "latitude": 53.5866564,
           "longitude": -0.6953374
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Torquay United AFC",
         "slogan": "The Gulls",
-        "sameAs": [
-          "https://twitter.com/TUFC1899/",
-          "https://www.facebook.com/officialtufc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1827.png",
@@ -1001,50 +362,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1899",
-        "url": "https://torquayunited.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Torquay United AFC playing kit",
-          "brand": "Puma",
-          "material": "100% double knit polyester",
-          "image": "https://www.venuetoolbox.com/torquayunited/Photos/%7B9EF6ECB3-586D-43C9-B44E-AA7DEF8A1A8A%7D/Home.jpg",
-          "url": "https://www.venuetoolbox.com/torquayunited/Products/TUAFC+Puma+2022+Home+Shirt+Adults+PS+2022",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#F8D347", "#2852B1"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/torquay-united-afc"
-        },
         "location": {
           "latitude": 50.476389,
           "longitude": -3.523874
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Wealdstone",
         "slogan": "The Stones",
-        "sameAs": [
-          "https://twitter.com/WealdstoneFC/",
-          "https://www.facebook.com/wealdstonefootballclub"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8663.png",
@@ -1054,50 +380,15 @@
           "width": 140,
           "height": 144
         },
-        "foundingDate": "1899",
-        "url": "https://www.wealdstone-fc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Wealdstone playing kit",
-          "brand": "Kelme",
-          "image": "https://cdn.shopify.com/s/files/1/0577/9475/6807/products/Wealdstonebluefront_960x.jpg?v=1628103441",
-          "url": "https://wealdstonefcstore.co.uk/products/adult-home-shirt-21-22-season",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 44.99
-            }
-          },
-          "color": ["#1B43CE", "#FFFFFF"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/wealdstone"
-        },
         "location": {
           "latitude": 51.569398,
           "longitude": -0.416594
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Woking",
         "slogan": "The Cardinals",
-        "sameAs": [
-          "https://twitter.com/wokingfc/",
-          "https://www.facebook.com/wokingfc",
-          "https://www.instagram.com/wokingfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1836.png",
@@ -1107,54 +398,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1887",
-        "url": "https://wokingfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Woking playing kit",
-          "brand": "adidas",
-          "material": "100% recycled polyester Interlock",
-          "image": "https://store.wokingfc.com/images/stories/virtuemart/product/28849-C(74)-P(0)-R(ep68c).jpg",
-          "url": "https://store.wokingfc.com/kits/home-kit/woking-fc-home-jersey-22-23-p",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 53.0
-            }
-          },
-          "color": ["#B03033", "#FFFFFF", "#D2AE71"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/woking"
-        },
         "location": {
           "latitude": 51.306298,
           "longitude": -0.558875
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Wrexham AFC",
         "slogan": "The Red Dragons",
-        "sameAs": [
-          "https://twitter.com/Wrexham_AFC/",
-          "https://www.facebook.com/wrexhamfootballclub",
-          "https://www.instagram.com/wrexham_afc/",
-          "https://www.youtube.com/channel/UCS7BAYpqOSaYy-pZp6oO4PA",
-          "https://www.tiktok.com/@wrexham_afc/",
-          "https://soundcloud.com/griff92"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1837.png",
@@ -1164,47 +416,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1864",
-        "url": "https://www.wrexhamafc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Wrexham AFC playing kit",
-          "brand": "Macron",
-          "material": "eco-fabric",
-          "image": "https://shop.wrexhamafc.co.uk/wp-content/uploads/2022/07/wrexham-home-front.jpg",
-          "url": "https://shop.wrexhamafc.co.uk/product/2022-23-home-shirt/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 44.95
-            }
-          },
-          "color": ["#B32B25"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/wrexham-afc"
-        },
         "location": {
           "latitude": 53.051961,
           "longitude": -3.003804
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Wales"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Yeovil Town",
         "slogan": "The Glovers",
-        "sameAs": ["https://twitter.com/YTFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1377.png",
@@ -1214,43 +434,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1895",
-        "url": "https://www.ytfc.net",
-        "owns": {
-          "@type": "Product",
-          "name": "Yeovil Town playing kit",
-          "brand": "Hummel",
-          "image": "https://ytfc.store/wp-content/uploads/2022/06/home-shirt-website.png",
-          "url": "https://ytfc.store/product/hummel-22-23-home-shirt-adult/",
-          "itemCondition": "NewCondition",
-          "color": ["#4DAC26", "#FFFF54"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/yeovil-town"
-        },
         "location": {
           "latitude": 50.950234,
           "longitude": -2.673974
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "York City",
         "slogan": "The Minstermen",
-        "sameAs": [
-          "https://twitter.com/YorkCityFC/",
-          "https://www.facebook.com/yorkcityfc",
-          "https://www.instagram.com/yorkcityfc/",
-          "https://www.youtube.com/channel/UCpkc1g75A0UXDIBpqunFIpA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1828.png",
@@ -1260,38 +452,9 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1922",
-        "url": "https://yorkcityfootballclub.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "York City playing kit",
-          "brand": "Puma",
-          "image": "https://cdn.shopify.com/s/files/1/0039/3792/7203/products/IMG_7642_1296x.jpg?v=1651842341",
-          "url": "https://ycfcstore.co.uk/collections/2022-23-centenary-collection/products/2022-23-limited-edition-home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 44.0
-            }
-          },
-          "color": ["#72253C", "#D8C39F"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league/york-city"
-        },
         "location": {
           "latitude": 53.98434,
           "longitude": -1.052927
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       }
     ]
@@ -1316,22 +479,16 @@
       "width": 533,
       "height": 150
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/national-league-north"
-    },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "propertyID": "tier",
-      "value": 6
+      "name": "6",
+      "value": "tier"
     },
     "members": [
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "AFC Fylde",
         "slogan": "The Coasters",
-        "sameAs": ["https://twitter.com/AFCFylde/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1839.png",
@@ -1341,50 +498,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1988",
-        "url": "https://www.afcfylde.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "AFC Fylde playing kit",
-          "brand": "New Balance",
-          "image": "https://www.afcfylde.co.uk/wp-content/uploads/2019/07/CG6W0896-2.jpg",
-          "url": "https://www.afcfylde.co.uk/official-online-store/shop/22-23-nb-home-shirt/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 49.99
-            }
-          },
-          "color": ["#FFFFFF", "#DB4433", "#1C488B"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/afc-fylde"
-        },
         "location": {
           "latitude": 53.797367,
           "longitude": -2.889497
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "AFC Telford United",
         "slogan": "The Bucks",
-        "sameAs": [
-          "https://twitter.com/telfordutd/",
-          "https://www.facebook.com/telfordutd",
-          "https://www.instagram.com/telfordutd/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4688.png",
@@ -1394,48 +516,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2004",
-        "url": "https://www.telfordunited.com",
-        "owns": {
-          "@type": "Product",
-          "name": "AFC Telford United playing kit",
-          "brand": "Puma",
-          "image": "https://sportingtouch.e2ecdn.uk/Products/AFCTHOMEJSY.jpg?w=650&amp;amp;h=650&amp;amp;quality=82&amp;amp;scale=canvas",
-          "url": "https://www.sportingtouch.com/products/club-shop-afc-telford-united-2022-23-home-replica-jersey.html#undefined1",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#FFFFFF", "#182849"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/afc-telford-united"
-        },
         "location": {
           "latitude": 52.697376,
           "longitude": -2.501418
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Alfreton Town",
         "slogan": "The Reds",
-        "sameAs": [
-          "https://twitter.com/AlfretonTownFC/",
-          "https://www.facebook.com/AlfretonTownFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4677.png",
@@ -1445,49 +534,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1959",
-        "url": "https://alfretontownfootballclub.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Alfreton Town playing kit",
-          "brand": "SKKits",
-          "image": "https://cdn.shopify.com/s/files/1/0884/7398/products/HOMESHIRT_f1fac9f1-21ad-4502-a999-ac822be0f4df_1024x1024.jpg?v=1603112353",
-          "url": "https://alfretontown.myshopify.com/products/16-through-21-years-old-alfreton-town-fc-season-seats-first-250-supporters-to-reserve-will-receive-a-free-replica-jersey",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 39.95
-            }
-          },
-          "color": ["#E31B1B", "#FFFFFF"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/alfreton-town"
-        },
         "location": {
           "latitude": 53.094516,
           "longitude": -1.381251
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Banbury United",
         "slogan": "The Puritans",
-        "sameAs": [
-          "https://twitter.com/BanburyUnitedFC/",
-          "https://www.facebook.com/BanburyUnitedFCOfficial"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7696.png",
@@ -1497,48 +552,15 @@
           "width": 100,
           "height": 93
         },
-        "foundingDate": "1931",
-        "url": "https://www.banburyunitedfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Banbury United playing kit",
-          "brand": "The Terrace",
-          "image": "https://cdn.shopify.com/s/files/1/1909/2827/products/bufchome_1024x1024.jpg?v=1660127862",
-          "url": "https://theterracestore.com/collections/banbury-united/products/banbury-united-22-23-home-replica-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 29.99
-            }
-          },
-          "color": ["#F6EC4E", "#E83830"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/banbury-united"
-        },
         "location": {
           "latitude": 52.056796,
           "longitude": -1.325791
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Blyth Spartans AFC",
         "slogan": "The Spartans",
-        "sameAs": [
-          "https://twitter.com/Blyth_Spartans/",
-          "https://www.youtube.com/channel/UCHttu5gBShjrfml2oG3WQlg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8650.png",
@@ -1548,48 +570,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1899",
-        "url": "https://www.blythspartans.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Blyth Spartans AFC playing kit",
-          "brand": "Erreà",
-          "image": "https://cdn.shopify.com/s/files/1/0434/0341/1619/products/home_front_1024x1024@2x.png",
-          "url": "https://bsosc.myshopify.com/collections/replica-kit/products/2022-23-home-shirt-adult-sizes",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#FFFFFF", "#326F43"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/blyth-spartans-afc"
-        },
         "location": {
           "latitude": 55.120879,
           "longitude": -1.511217
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Boston United",
         "slogan": "The Pilgrims",
-        "sameAs": [
-          "https://twitter.com/bostonunited/",
-          "https://www.facebook.com/officialbostonunited"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8146.png",
@@ -1599,49 +588,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1933",
-        "url": "https://www.bostonunited.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Boston United playing kit",
-          "brand": "adidas",
-          "material": "100% polyester",
-          "sku": "BUFCCF0426",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 36.0
-            }
-          },
-          "color": ["#F4CA44", "#1C1819"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/boston-united"
-        },
         "location": {
           "latitude": 52.956335,
           "longitude": -0.028533
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Brackley Town",
         "slogan": "The Saints",
-        "sameAs": [
-          "https://twitter.com/BrackleyTownFC/",
-          "https://www.instagram.com/brackleytownfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4701.png",
@@ -1651,40 +606,15 @@
           "width": 100,
           "height": 100
         },
-        "foundingDate": "1930",
-        "url": "https://brackleytownfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Brackley Town playing kit",
-          "brand": "Puma",
-          "itemCondition": "NewCondition",
-          "color": ["#A92419"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/brackley-town"
-        },
         "location": {
           "latitude": 52.024613,
           "longitude": -1.144039
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bradford (Park Avenue) AFC",
         "slogan": "The Green Army",
-        "sameAs": [
-          "https://twitter.com/BPAFCOfficial/",
-          "https://www.facebook.com/BPAFCOfficial",
-          "https://www.instagram.com/bpafcofficial/",
-          "https://www.youtube.com/channel/UCvuh3yG8G8ATMmRAw1a7RtQ"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8651.png",
@@ -1694,49 +624,15 @@
           "width": 105,
           "height": 95
         },
-        "foundingDate": "1907",
-        "url": "https://bpafc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Bradford (Park Avenue) AFC playing kit",
-          "brand": "Macron",
-          "image": "https://i0.wp.com/bpafc.com/wp-content/uploads/2022/06/HOME-KIT.png?fit=600%2C590&amp;ssl=1",
-          "url": "https://bpafc.com/product/2022-23-home-shirt/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 50.0
-            }
-          },
-          "color": ["#439541", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/bradford-park-avenue-afc"
-        },
         "location": {
           "latitude": 53.758876,
           "longitude": -1.776174
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Buxton",
         "slogan": "The Bucks",
-        "sameAs": [
-          "https://twitter.com/Buxton_FC/",
-          "https://www.facebook.com/462263437187284",
-          "https://www.instagram.com/buxton_fc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7706.png",
@@ -1746,39 +642,15 @@
           "width": 100,
           "height": 100
         },
-        "foundingDate": "1877",
-        "url": "https://www.buxtonfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Buxton playing kit",
-          "brand": "Canterbury",
-          "itemCondition": "NewCondition",
-          "color": ["#194063", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/buxton"
-        },
         "location": {
           "latitude": 53.256603,
           "longitude": -1.906581
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Chester",
         "slogan": "The Seals",
-        "sameAs": [
-          "https://twitter.com/ChesterFC/",
-          "https://www.facebook.com/ChesterFC",
-          "https://www.youtube.com/channel/UCMOQ-2zdo-MZEqGn8f1U6zA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1820.png",
@@ -1788,50 +660,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2010",
-        "url": "https://www.chesterfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Chester playing kit",
-          "brand": "Kappa",
-          "image": "https://cdn.shopify.com/s/files/1/1575/3869/products/image_5bac4e39-e81f-43ff-bd30-668f39508d09_1024x1024@2x.jpg?v=1654958212",
-          "url": "https://www.chesterfcretail.com/collections/match-kit/products/adult-chester-fc-home-shirt-2022-23",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#22549F", "#FFFFFF", "#F4CA4B"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/chester"
-        },
         "location": {
           "latitude": 53.189215,
           "longitude": -2.923496
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Chorley",
         "slogan": "The Magpies",
-        "sameAs": [
-          "https://twitter.com/chorleyfc/",
-          "https://www.facebook.com/ChorleyFC",
-          "https://www.instagram.com/chorley_fc/",
-          "https://www.youtube.com/channel/UCQlY_0NJyTiNd3MuYdhz-cA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4679.png",
@@ -1841,51 +678,15 @@
           "width": 100,
           "height": 127
         },
-        "foundingDate": "1883",
-        "url": "https://www.chorleyfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Chorley playing kit",
-          "brand": "Hope + Glory",
-          "material": "100% polyester",
-          "image": "https://store.chorleyfc.com/wp-content/uploads/2022/05/home-2223.jpg",
-          "url": "https://store.chorleyfc.com/product/home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 44.95
-            }
-          },
-          "color": ["#FFFFFF", "#000000"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/chorley"
-        },
         "location": {
           "latitude": 53.645567,
           "longitude": -2.629188
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Curzon Ashton",
         "slogan": "The Nash",
-        "sameAs": [
-          "https://twitter.com/CurzonAshton/",
-          "https://www.facebook.com/CurzonAshtonFootballClub",
-          "https://www.instagram.com/curzonashton/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4703.png",
@@ -1895,39 +696,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1963",
-        "url": "https://www.curzon-ashton.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Curzon Ashton playing kit",
-          "brand": "adidas",
-          "itemCondition": "NewCondition",
-          "color": ["#152EA7", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/curzon-ashton"
-        },
         "location": {
           "latitude": 53.494258,
           "longitude": -2.116084
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Darlington",
         "slogan": "The Quakers",
-        "sameAs": [
-          "https://twitter.com/Official_Darlo/",
-          "https://www.facebook.com/darlingtonfc",
-          "https://www.youtube.com/channel/UCkvYibKVfoeG67iNuRwxCkg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8148.png",
@@ -1937,51 +714,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1883",
-        "url": "https://darlingtonfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Darlington playing kit",
-          "brand": "Joma",
-          "material": "100% polyester interlock",
-          "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/13970110/3097443593.jpg",
-          "url": "https://shop.darlingtonfc.co.uk/Joma-Home-Shirt-22-23-Adult-p466824920",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 39.99
-            }
-          },
-          "color": ["#FAFAFA", "#353A3F", "#CD4B3B"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/darlington"
-        },
         "location": {
           "latitude": 54.509449,
           "longitude": -1.564142
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Farsley Celtic",
         "slogan": "The Celt Army",
-        "sameAs": [
-          "https://twitter.com/FarsleyCelticFC/",
-          "https://www.facebook.com/farsleycelticfc",
-          "https://www.instagram.com/farsleycelticfc/",
-          "https://www.tiktok.com/@farsleycelticfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8652.png",
@@ -1991,39 +732,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1908",
-        "url": "https://farsleyceltic.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Farsley Celtic playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#FFFFFF", "#43964F"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/farsley-celtic"
-        },
         "location": {
           "latitude": 53.80972,
           "longitude": -1.664219
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Gloucester City AFC",
         "slogan": "The Tigers",
-        "sameAs": [
-          "https://twitter.com/GCAFCOfficial/",
-          "https://www.facebook.com/gcafcofficial",
-          "https://www.instagram.com/gloucestercityafc/",
-          "https://www.youtube.com/channel/UCxuYXjHa7sL-iK1-q1U3VMA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8653.png",
@@ -2033,40 +750,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1883",
-        "url": "https://www.gloucestercityafc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Gloucester City AFC playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#CC2D24", "#EBBC42"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/gloucester-city-afc"
-        },
         "location": {
           "latitude": 51.860324,
           "longitude": -2.262623
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hereford",
         "slogan": "The Bulls",
-        "sameAs": [
-          "https://twitter.com/HerefordFC/",
-          "https://www.facebook.com/officialherefordfc",
-          "https://www.instagram.com/HEREFORD_FC/",
-          "https://www.youtube.com/channel/UCEiCmSxoZFgiP_XO987CWLg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4692.png",
@@ -2076,48 +768,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2014",
-        "url": "https://www.herefordfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Hereford playing kit",
-          "brand": "Kappa",
-          "image": "https://cdn.shopify.com/s/files/1/0538/7845/6517/products/HomeShirt_1_960x.png?v=1662565603",
-          "url": "https://hereford-fc.myshopify.com/products/home-shirt-2022-23-adult",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 44.0
-            }
-          },
-          "color": ["#333333", "#FFFFFF", "#C62A1C"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/hereford"
-        },
         "location": {
           "latitude": 52.06073,
           "longitude": -2.71774
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Kettering Town",
         "slogan": "The Poppies",
-        "sameAs": [
-          "https://twitter.com/KTFCOfficial/",
-          "https://www.facebook.com/ketteringtownfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8654.png",
@@ -2127,40 +786,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1872",
-        "url": "https://ketteringtownfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Kettering Town playing kit",
-          "url": "https://ketteringtownfc.com/product/reserved-home-team-shirt",
-          "itemCondition": "NewCondition",
-          "color": ["#EA332C", "#FFFFFF", "#000000"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/kettering-town"
-        },
         "location": {
           "latitude": 52.366808,
           "longitude": -0.689305
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Kidderminster Harriers",
         "slogan": "The Kiddy",
-        "sameAs": [
-          "https://twitter.com/khfcofficial/",
-          "https://www.facebook.com/khfcofficial",
-          "https://www.instagram.com/khfcofficial/",
-          "https://www.youtube.com/channel/UCManiTiUzRGC1ndx3uhFimg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4695.png",
@@ -2170,51 +804,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1886",
-        "url": "https://harriers.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Kidderminster Harriers playing kit",
-          "brand": "Kappa",
-          "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000048/ee48ff52-b94e-4a8a-8842-c5188e0fb1f9.jpg",
-          "url": "https://harriers.ktckts.com/merchandise/kid2223merhs/22-23-home-playing-shirt-",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#FFFFFF", "#A80004"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/kidderminster-harriers"
-        },
         "location": {
           "latitude": 52.380496,
           "longitude": -2.242639
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Kings Lynn Town",
         "slogan": "The Linnets",
-        "sameAs": [
-          "https://twitter.com/officialKLtown/",
-          "https://www.facebook.com/www.kltown.co.uk",
-          "https://www.instagram.com/officialkltownfc/",
-          "https://www.youtube.com/channel/UC8fjhxpARGa_ywt3UKPgSUQ"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8655.png",
@@ -2224,50 +822,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2010",
-        "url": "https://www.kltown.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Kings Lynn Town playing kit",
-          "brand": "Kappa",
-          "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000017/6fdef248-6f6f-418a-8583-125f067188b2.jpg",
-          "url": "https://kingslynntownfc.ktckts.com/merchandise/klt2223hshirt/home-shirt-202223",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 50.0
-            }
-          },
-          "color": ["#284171", "#CBAB56"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/kings-lynn-town"
-        },
         "location": {
           "latitude": 52.750067,
           "longitude": 0.407411
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Leamington",
         "slogan": "The Brakes",
-        "sameAs": [
-          "https://twitter.com/LeamingtonFC/",
-          "https://www.facebook.com/leamingtonfc",
-          "https://www.instagram.com/brakesofficial/",
-          "https://www.tiktok.com/@leamingtonfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8656.png",
@@ -2277,47 +840,15 @@
           "width": 218,
           "height": 217
         },
-        "foundingDate": "1933",
-        "url": "https://leamingtonfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Leamington playing kit",
-          "image": "https://www.leamingtonfc.co.uk/images/com_hikashop/upload/thumbnails/300x300f/homeshirt2.jpg",
-          "url": "https://www.leamingtonfc.co.uk/images/Commercial/Leamington-fc---Home-Design.jpg",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 35.0
-            }
-          },
-          "color": ["#E4BE4E", "#000000"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/leamington"
-        },
         "location": {
           "latitude": 52.244306,
           "longitude": -1.502849
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Peterborough Sports",
         "slogan": "The Turbines",
-        "sameAs": [
-          "https://twitter.com/PSLFC/",
-          "https://www.facebook.com/peterboroughsports"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7737.png",
@@ -2327,48 +858,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1908",
-        "url": "https://pslfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Peterborough Sports playing kit",
-          "brand": "New Balance",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#283A90", "#F3F554"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/peterborough-sports"
-        },
         "location": {
           "latitude": 52.593814,
           "longitude": -0.254312
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Scarborough Athletic",
         "slogan": "The Seadogs",
-        "sameAs": [
-          "https://twitter.com/safc/",
-          "https://www.facebook.com/scarboroughathletic",
-          "https://www.instagram.com/scarboroughathletic/",
-          "https://www.youtube.com/channel/UCqpZ6rmMH_keHkS83sAx6ew"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7745.png",
@@ -2378,51 +876,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2007",
-        "url": "https://www.scarboroughathletic.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Scarborough Athletic playing kit",
-          "brand": "Macron",
-          "material": "100% PET recycled polyester",
-          "image": "https://i0.wp.com/shop.scarboroughathletic.com/wp-content/uploads/2019/06/IMG_5651-scaled.jpg?fit=1707%2C2560&amp;ssl=1",
-          "url": "https://shop.scarboroughathletic.com/product/home-shirt-xl/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 30.99
-            }
-          },
-          "color": ["#C8353D", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/scarborough-athletic"
-        },
         "location": {
           "latitude": 54.268845,
           "longitude": -0.413472
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Southport",
         "slogan": "The Sandgrounders",
-        "sameAs": [
-          "https://twitter.com/southport_fc/",
-          "https://www.facebook.com/SouthportFootballClub",
-          "https://www.instagram.com/southportfootballclub/",
-          "https://www.youtube.com/channel/UC8R4EoEh2Ba7xJCiKEdBkMg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1826.png",
@@ -2432,50 +894,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1881",
-        "url": "https://southportfc.net",
-        "owns": {
-          "@type": "Product",
-          "name": "Southport playing kit",
-          "brand": "Kappa",
-          "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000028/a3db1ac3-10f9-4a9f-838b-f6d5a9e84d31.jpg",
-          "url": "https://southportfc.ktckts.com/merchandise/sfc2223hshirt/2223-adult-replica-home-shirt-",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 39.5
-            }
-          },
-          "color": ["#EEB551", "#191C24"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/southport"
-        },
         "location": {
           "latitude": 53.638109,
           "longitude": -2.978859
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Spennymoor Town",
         "slogan": "The Moors",
-        "sameAs": [
-          "https://twitter.com/SpennymoorTown/",
-          "https://www.facebook.com/SpennymoorTown",
-          "https://www.instagram.com/spennnymoor/",
-          "https://www.youtube.com/channel/UCl5OSomptojlxv5-VwaC4-w"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/3707.png",
@@ -2485,37 +912,9 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2005",
-        "url": "https://spennymoortownfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Spennymoor Town playing kit",
-          "brand": "Erreà",
-          "image": "https://spennymoortownfc.co.uk/wp-content/uploads/2022/07/600x338xhomekit_2223_i.jpg.pagespeed.ic.3tmEulBFT5.jpg",
-          "url": "https://spennymoortownfc.co.uk/product/2022-23-home-shirt/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#FFFFFF", "#000000", "#B02418"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-north/spennymoor-town"
-        },
         "location": {
           "latitude": 54.70451,
           "longitude": -1.599134
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       }
     ]
@@ -2540,22 +939,16 @@
       "width": 532,
       "height": 150
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/national-league-south"
-    },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "propertyID": "tier",
-      "value": 6
+      "name": "6",
+      "value": "tier"
     },
     "members": [
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bath City",
         "slogan": "The Romans",
-        "sameAs": ["https://twitter.com/BathCity_FC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8657.png",
@@ -2565,51 +958,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1889",
-        "url": "https://www.bathcityfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Bath City playing kit",
-          "brand": "Erreà",
-          "image": "https://cdn.shopify.com/s/files/1/1624/7791/products/2022-23homeshirt_1024x1024@2x.jpg?v=1659775536",
-          "url": "https://bath-city-fc.myshopify.com/collections/top-sellers/products/bath-city-home-shirt-2022-23-adult",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#FFFFFF", "#000000"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/bath-city"
-        },
         "location": {
           "latitude": 51.378847,
           "longitude": -2.395037
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Braintree Town",
         "slogan": "The Iron",
-        "sameAs": [
-          "https://twitter.com/braintreetownfc/",
-          "https://www.facebook.com/Braintreetownfcofficial",
-          "https://www.instagram.com/Braintreetownfcofficial/",
-          "https://www.youtube.com/channel/UCy7H5rNSd2Sko9J_LdGbxZA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1831.png",
@@ -2619,51 +976,15 @@
           "width": 137,
           "height": 138
         },
-        "foundingDate": "1898",
-        "url": "https://braintreetownfc.org.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Braintree Town playing kit",
-          "brand": "wise.",
-          "material": "100% sublimated polyester",
-          "image": "https://cdn10.bigcommerce.com/s-y8lh43w/products/4039/images/18165/Home_Shirt_21_22__48866.1627034473.1280.1280.png?c=2",
-          "sku": "WISE-BTFC-HM21-23",
-          "url": "https://www.andreascartersports.co.uk/products/braintree-town-fc-adult-home-shirt-2021-23.html",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#ED7F31", "#FFFFFF", "#0101E2"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/braintree-town"
-        },
         "location": {
           "latitude": 51.875305,
           "longitude": 0.572989
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Chelmsford City",
         "slogan": "The Clarets",
-        "sameAs": [
-          "https://twitter.com/OfficialClarets/",
-          "https://www.facebook.com/officialchelmsfordcityfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4689.png",
@@ -2673,51 +994,15 @@
           "width": 130,
           "height": 130
         },
-        "foundingDate": "1938",
-        "url": "https://chelmsfordcityfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Chelmsford City playing kit",
-          "brand": "Erreà",
-          "image": "https://chelmsfordcityfc.com/wp-content/uploads/2022/09/ccfc-home-kit-scaled.jpg",
-          "sku": "1564823",
-          "url": "https://chelmsfordcityfc.com/product/adults-home-match-shirt-2022-23/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 42.0
-            }
-          },
-          "color": ["#73022C", "#ffffff"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/chelmsford-city"
-        },
         "location": {
           "latitude": 51.753231,
           "longitude": 0.451471
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Cheshunt",
         "slogan": "The Ambers",
-        "sameAs": [
-          "https://twitter.com/cheshuntfcscore/",
-          "https://www.facebook.com/cheshuntfc",
-          "https://www.instagram.com/cheshuntfcofficial/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7708.png",
@@ -2727,51 +1012,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1946",
-        "url": "https://cheshuntfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Cheshunt playing kit",
-          "brand": "O&#39;Neills",
-          "image": "https://www.oneills.com/media/catalog/product/cache/7c0093f75f453d86e7d165133c528de2/c/h/cheshuntfc-3d-jersey-amber-front_1.jpg",
-          "sku": "CLUB-J01-0-CHNT-AMBKX2-ADULTS",
-          "url": "https://www.oneills.com/uk_en/cheshunt-fc-soccer-jersey-v2-amber-black.html",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 37.0
-            }
-          },
-          "color": ["#1C1C1C", "#EEB654"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/cheshunt"
-        },
         "location": {
           "latitude": 51.694445,
           "longitude": -0.041577
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Chippenham Town",
         "slogan": "The Bluebirds",
-        "sameAs": [
-          "https://twitter.com/ChipTownFC/",
-          "https://www.facebook.com/ChipTownFC",
-          "https://www.instagram.com/chiptownfc/",
-          "https://www.youtube.com/channel/UC0ZU5860mrLwzvLzvenGsRA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8147.png",
@@ -2781,51 +1030,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1873",
-        "url": "https://chippenhamtown.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Chippenham Town playing kit",
-          "brand": "UHLsport",
-          "material": "100% polyester",
-          "image": "https://s3.amazonaws.com/sportinggifts/products/opt1/800/51136.jpg",
-          "sku": "51136",
-          "url": "https://www.sportingbilly.com/i-s-51136-jaa/chippenham-town-personalised-home-shirt.htm",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 43.0
-            }
-          },
-          "color": ["#294599", "#FFFFFF", "#1B2C60"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/chippenham-town"
-        },
         "location": {
           "latitude": 51.465604,
           "longitude": -2.128737
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Concord Rangers",
         "slogan": "The Beach Boys",
-        "sameAs": [
-          "https://twitter.com/ConcordRangers/",
-          "https://www.facebook.com/ConcordRangersFC",
-          "https://www.youtube.com/channel/UCdTweEnEZRRs65PzOxHbhDg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8658.png",
@@ -2835,38 +1048,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1967",
-        "url": "https://www.concord-rangers.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Concord Rangers playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#F8DD4A", "#FFFFFF", "#204390"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/concord-rangers"
-        },
         "location": {
           "latitude": 51.512539,
           "longitude": 0.575477
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Dartford",
         "slogan": "The Darts",
-        "sameAs": [
-          "https://twitter.com/dartfordfc/",
-          "https://www.facebook.com/DartfordFootballClub",
-          "https://www.instagram.com/dartsfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4690.png",
@@ -2876,50 +1066,15 @@
           "width": 120,
           "height": 129
         },
-        "foundingDate": "1888",
-        "url": "https://www.dartfordfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Dartford playing kit",
-          "brand": "Puma",
-          "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000040/a55352df-da8c-4055-b2d1-a686e0293291.jpg",
-          "url": "https://dartfordfc.ktckts.com/merchandise/darmerhome/home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 42.0
-            }
-          },
-          "color": ["#191919", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/dartford"
-        },
         "location": {
           "latitude": 51.437182,
           "longitude": 0.230837
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Dover Athletic",
         "slogan": "The Whites",
-        "sameAs": [
-          "https://twitter.com/DoverAthletic/",
-          "https://www.facebook.com/DoverAthleticFC",
-          "https://www.instagram.com/doverathleticfc/",
-          "https://www.youtube.com/channel/UCFRtqGp7p4Y2iNx"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1829.png",
@@ -2929,49 +1084,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1983",
-        "url": "https://www.doverathletic.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Dover Athletic playing kit",
-          "brand": "Kappa",
-          "image": "https://www.dafcdirect.com/wp-content/uploads/2022/08/e816609f-27cc-4a2c-a1ec-3f7b3424e083.jpg",
-          "url": "https://www.dafcdirect.com/product/2022-2023-home-replica-shirt/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 44.0
-            }
-          },
-          "color": ["#FFFFFF", "#FFFFFF", "#000000"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/dover-athletic"
-        },
         "location": {
           "latitude": 51.137804,
           "longitude": 1.284943
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Dulwich Hamlet",
         "slogan": "The Hamlet",
-        "sameAs": [
-          "https://twitter.com/DulwichHamletFC/",
-          "https://www.facebook.com/DulwichHamletFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8149.png",
@@ -2981,51 +1102,15 @@
           "width": 120,
           "height": 160
         },
-        "foundingDate": "1893",
-        "url": "https://www.pitchero.com/clubs/dulwichhamlet",
-        "owns": {
-          "@type": "Product",
-          "name": "Dulwich Hamlet playing kit",
-          "brand": "Hope + Glory",
-          "material": "rPET fabric",
-          "image": "https://cdn11.bigcommerce.com/s-ddwpnnrnb5/images/stencil/1280x1280/products/599/832/ABD9E7F6-3665-43B1-BE5E-5E13FF5F6214__65582.1663673245.jpg?c=1",
-          "sku": "REP019A",
-          "url": "https://dhst.org.uk/replica-home-shirt-2022-23/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 37.5
-            }
-          },
-          "color": ["#DD6AD3", "#1F336D"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/dulwich-hamlet"
-        },
         "location": {
           "latitude": 51.461239,
           "longitude": -0.084018
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Eastbourne Borough",
         "slogan": "The Sports",
-        "sameAs": [
-          "https://twitter.com/EBFCTheSports/",
-          "https://www.facebook.com/ebfcthesports",
-          "https://www.instagram.com/ebfc_official/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4704.png",
@@ -3035,49 +1120,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1954",
-        "url": "https://ebfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Eastbourne Borough playing kit",
-          "brand": "Macron",
-          "material": "dri-fit polyester",
-          "image": "https://macronstorehastings.com/wp-content/uploads/2022/11/EBFC-HOME-FRONT.jpg",
-          "url": "https://macronstorehastings.com/shop/club-shop-2/eastbourne-borough-fc/eastbourne-borough-fc-supporters/snr-ebfc-home-replica-shirt/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 39.95
-            }
-          },
-          "color": ["RGB(220, 38, 38)", "RGB(255, 255, 255)"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/eastbourne-borough"
-        },
         "location": {
           "latitude": 50.80417,
           "longitude": 0.32078
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Ebbsfleet United",
         "slogan": "The Fleet",
-        "sameAs": [
-          "https://twitter.com/EUFCofficial/",
-          "https://www.facebook.com/EbbsfleetUnited"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1840.png",
@@ -3087,48 +1138,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1946",
-        "url": "https://www.ebbsfleetunited.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Ebbsfleet United playing kit",
-          "brand": "New Balance",
-          "image": "https://shop.ebbsfleetunited.co.uk/wp-content/uploads/2022/07/front1-1024x1024.jpg",
-          "url": "https://shop.ebbsfleetunited.co.uk/product/adult-home-shirt-2022-23/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 43.0
-            }
-          },
-          "color": ["#BB2729", "#ffffff"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/ebbsfleet-united"
-        },
         "location": {
           "latitude": 51.449556,
           "longitude": 0.32237
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Farnborough",
         "slogan": "Boro",
-        "sameAs": [
-          "https://twitter.com/FarnboroughFC/",
-          "https://www.facebook.com/FarnboroughFC2007"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7715.png",
@@ -3138,49 +1156,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1967",
-        "url": "https://farnboroughfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Farnborough playing kit",
-          "brand": "O&#39;Neills",
-          "image": "https://www.oneills.com/media/catalog/product/cache/7c0093f75f453d86e7d165133c528de2/f/a/farnborough_football_club_yellow_jersey_front_1.jpg",
-          "url": "https://www.oneills.com/uk_en/farnborough-football-club-soccer-jersey-v2-yellow.html",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 37.0
-            }
-          },
-          "color": ["#E5D247", "#265BA7"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/farnborough"
-        },
         "location": {
           "latitude": 51.310449,
           "longitude": -0.762256
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hampton & Richmond Borough",
         "slogan": "The Beavers",
-        "sameAs": [
-          "https://twitter.com/HRBFC/",
-          "https://www.facebook.com/HRBFCofficial",
-          "https://www.instagram.com/hrbfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4680.png",
@@ -3190,37 +1174,15 @@
           "width": 124,
           "height": 138
         },
-        "foundingDate": "1921",
-        "url": "https://hrbfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Hampton &amp; Richmond Borough playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#27223C", "#A63226"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/hampton-and-richmond-borough"
-        },
         "location": {
           "latitude": 51.415191,
           "longitude": -0.363244
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Havant & Waterlooville",
         "slogan": "The Hawks",
-        "sameAs": [
-          "https://twitter.com/HWFCOfficial/",
-          "https://www.facebook.com/HWFCOfficial"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1843.png",
@@ -3230,46 +1192,15 @@
           "width": 135,
           "height": 138
         },
-        "foundingDate": "1998",
-        "url": "https://www.havantandwaterloovillefc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Havant &amp; Waterlooville playing kit",
-          "brand": "UHLsport",
-          "image": "https://cdn.shopify.com/s/files/1/0429/5383/4645/products/HavantHomeFront2021_960x.png?v=1628665881",
-          "url": "https://nkteamwear.com/products/havant-waterlooville-fc-home-replica-shirt-2021-22",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 44.99
-            }
-          },
-          "color": ["#FFFFFF", "#EDCD53", "#1E4C81"]
-        },
-
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/havant-and-waterlooville"
-        },
         "location": {
           "latitude": 50.867087,
           "longitude": -0.974097
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hemel Hempstead Town",
         "slogan": "The Tudors",
-        "sameAs": ["https://twitter.com/hemelfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8660.png",
@@ -3279,38 +1210,15 @@
           "width": 120,
           "height": 119
         },
-        "foundingDate": "1885",
-        "url": "https://www.hemelfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Hemel Hempstead Town playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#DC3021", "#e5e5e5", "#000000"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/hemel-hempstead-town"
-        },
         "location": {
           "latitude": 51.753881,
           "longitude": -0.444358
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hungerford Town",
         "slogan": "The Crusaders",
-        "sameAs": [
-          "https://twitter.com/HungerfordTown/",
-          "https://www.facebook.com/Crusaders1886",
-          "https://www.instagram.com/hungerfordtown/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8661.png",
@@ -3320,44 +1228,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1886",
-        "url": "https://hungerfordtown.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Hungerford Town playing kit",
-          "brand": "O&#39;Neills",
-          "url": "https://www.horshamfcshop.co.uk/collections/replica-shirts/products/new-horsham-football-club-replica",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 38.5
-            }
-          },
-          "color": ["RGB(255, 255, 255)", "RGB(0, 0, 0)"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/hungerford-town"
-        },
         "location": {
           "latitude": 51.408934,
           "longitude": -1.513463
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Oxford City",
         "slogan": "The Hoops",
-        "sameAs": ["https://twitter.com/OxCityFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1338.png",
@@ -3367,51 +1246,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1882",
-        "url": "https://www.oxfordcityfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Oxford City playing kit",
-          "brand": "Macron",
-          "image": "https://macronstorecardiff.co.uk/image/cache/catalog/clubshops/oxfordcity/2022/oxford-home-2022-sponsors-2000x2000.jpg",
-          "url": "https://macronstorecardiff.co.uk/index.php?route=product/product&amp;product_id=35470&amp;search=Oxford+City+&amp;description=true",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#374E95", "#ffffff"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/oxford-city"
-        },
         "location": {
           "latitude": 51.773923,
           "longitude": -1.227743
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Slough Town",
         "slogan": "The Rebels",
-        "sameAs": [
-          "https://twitter.com/sloughtownfc/",
-          "https://www.facebook.com/sloughtownfc",
-          "https://www.instagram.com/sloughtownfc/",
-          "https://www.youtube.com/channel/UCwilnKfuVRa4KpB5VaQOx_Q"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4685.png",
@@ -3421,50 +1264,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1890",
-        "url": "https://sloughtownfc.net",
-        "owns": {
-          "@type": "Product",
-          "name": "Slough Town playing kit",
-          "brand": "Macron",
-          "image": "https://cdn11.bigcommerce.com/s-njcrizj76o/images/stencil/1280x1280/products/209/1796/EK3DcHZOEei6xduaHP7JGQ-nMcctVEgEe2Hoc0BbCqSSg__35232.1666343623.png?c=1",
-          "url": "https://sloughtownfc.mybigcommerce.com/slough-town-adult-home-shirt-202223--202324",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#E5B240", "#242847"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/slough-town"
-        },
         "location": {
           "latitude": 51.5198622,
           "longitude": -0.5884198
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "St Albans City",
         "slogan": "The Saints",
-        "sameAs": [
-          "https://twitter.com/stalbanscityfc/",
-          "https://www.facebook.com/stalbanscityfc",
-          "https://www.instagram.com/stalbanscity_fc/",
-          "https://www.youtube.com/channel/UCOR7rQnjMbFiNzklN-92KKg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4708.png",
@@ -3474,47 +1282,15 @@
           "width": 180,
           "height": 180
         },
-        "foundingDate": "1908",
-        "url": "https://www.stalbanscityfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "St Albans City playing kit",
-          "brand": "Hummel",
-          "material": "100% polyester",
-          "image": "https://fanzone.stalbanscityfc.com/wp-content/uploads/2013/06/SACFC_Replica_HOME-01-600x600-1.jpg",
-          "sku": "HOME-SHIRT-2022",
-          "url": "https://fanzone.stalbanscityfc.com/product/home-shirt-2021-2022/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#EDCA44", "#24396B"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/st-albans-city"
-        },
         "location": {
           "latitude": 51.754276,
           "longitude": -0.325157
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Taunton Town",
         "slogan": "The Peacocks",
-        "sameAs": ["https://twitter.com/TauntonTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4711.png",
@@ -3524,47 +1300,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1947",
-        "url": "https://tauntontown.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Taunton Town playing kit",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#58202E", "#A1C7F6"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/taunton-town"
-        },
         "location": {
           "latitude": 51.016716,
           "longitude": -3.085107
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Tonbridge Angels",
         "slogan": "The Angels",
-        "sameAs": [
-          "https://twitter.com/tonbridgeangels/",
-          "https://www.facebook.com/Tonbridge-Angels-FC-240741216808",
-          "https://www.instagram.com/tonbridgeangelsfc/",
-          "https://www.youtube.com/channel/UC6ElINCIEkvMHRBy4ut49TA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8662.png",
@@ -3574,38 +1318,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1947",
-        "url": "https://www.tonbridgeangels.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Tonbridge Angels playing kit",
-          "brand": "Joma",
-          "itemCondition": "NewCondition",
-          "color": ["#3274C4", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/tonbridge-angels"
-        },
         "location": {
           "latitude": 51.211531,
           "longitude": 0.269116
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Welling United",
         "slogan": "The Wings",
-        "sameAs": [
-          "https://twitter.com/wellingunited/",
-          "https://www.facebook.com/wellingunited"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8664.png",
@@ -3615,46 +1336,15 @@
           "width": 141,
           "height": 139
         },
-        "foundingDate": "1963",
-        "url": "https://www.wellingunited.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Welling United playing kit",
-          "brand": "adidas",
-          "image": "https://www.wellingunited.com/wp-content/uploads/2022/09/Welling-United-2022-23-Home-Shirt-300x300.jpg",
-          "url": "https://www.wellingunited.com/shop-2/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 50.0
-            }
-          },
-          "color": ["#D33734", "#FFFFFF"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/welling-united"
-        },
         "location": {
           "latitude": 51.460326,
           "longitude": 0.116558
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Weymouth",
         "slogan": "The Terras",
-        "sameAs": ["https://twitter.com/theterras/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8665.png",
@@ -3664,50 +1354,15 @@
           "width": 109,
           "height": 155
         },
-        "foundingDate": "1890",
-        "url": "https://uptheterras.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Weymouth playing kit",
-          "brand": "O&#39;Neills",
-          "url": "https://www.wfcsa.co.uk/shop/index.php?id_product=65&amp;id_product_attribute=768&amp;rewrite=2020-2021-home-shirt&amp;controller=product#/112-size-youth_5_6yrs",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 28.0
-            }
-          },
-          "color": ["#76353C", "#A4CCFB"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/weymouth"
-        },
         "location": {
           "latitude": 50.619895,
           "longitude": -2.485182
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Worthing",
         "slogan": "The Rebels",
-        "sameAs": [
-          "https://twitter.com/WorthingFC/",
-          "https://www.facebook.com/WorthingFC",
-          "https://www.instagram.com/WorthingFC/",
-          "https://www.youtube.com/channel/UCup2RlzMkVZpQICHZW_0jvg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7661.png",
@@ -3717,37 +1372,9 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1886",
-        "url": "https://worthingfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Worthing playing kit",
-          "brand": "Kappa",
-          "image": "https://ticketpass-images.s3.eu-west-2.amazonaws.com/store/test/products/7ce25560-0523-419a-bc5a-8f2b4d2a1fbf/original.png",
-          "url": "https://ethicalticketing.org/worthing-fc-store/store/product/7",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#E64452"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/national-league-south/worthing"
-        },
         "location": {
           "latitude": 50.82034,
           "longitude": -0.38482
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       }
     ]
@@ -3772,26 +1399,16 @@
       "width": 155,
       "height": 150
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division"
-    },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "propertyID": "tier",
-      "value": 7
+      "name": "7",
+      "value": "tier"
     },
     "members": [
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Aveley",
         "slogan": "The Millers",
-        "sameAs": [
-          "https://twitter.com/AveleyFC/",
-          "https://www.facebook.com/AveleyFC",
-          "https://www.instagram.com/aveleyfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7207.png",
@@ -3801,39 +1418,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1927",
-        "url": "https://www.pitchero.com/clubs/aveley",
-        "owns": {
-          "@type": "Product",
-          "name": "Aveley playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#1E169D", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/aveley"
-        },
         "location": {
           "latitude": 51.503481,
           "longitude": 0.261341
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Billericay Town",
         "slogan": "The Blues",
-        "sameAs": [
-          "https://twitter.com/BTFC/",
-          "https://www.facebook.com/BillericayTownFootballClub",
-          "https://www.instagram.com/billericaytown/",
-          "https://www.youtube.com/channel/UC4TJmqo4c_XBw_Yw6nNjUuw"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4678.png",
@@ -3843,51 +1436,15 @@
           "width": 100,
           "height": 100
         },
-        "foundingDate": "1880",
-        "url": "https://www.billericaytownfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Billericay Town playing kit",
-          "brand": "Puma",
-          "material": "100% polyester-double knit",
-          "image": "https://www.totalfootballdirect.com/images/com_hikashop/upload/blt_mens_replica_home_shirt.jpeg",
-          "url": "https://www.totalfootballdirect.com/club-shops/football-teams/billericay-town-fc/billericay-town-fc-supporters/product/94112-billericay-town-fc-replica-home-shirt-mens",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 30.0
-            }
-          },
-          "color": ["#476ca4"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/billericay-town"
-        },
         "location": {
           "latitude": 51.621776,
           "longitude": 0.403297
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bishop's Stortford",
         "slogan": "The Blues",
-        "sameAs": [
-          "https://twitter.com/BSFCTheBlues/",
-          "https://www.facebook.com/BSFCTheBlues",
-          "https://www.instagram.com/bishops_stortfordfc/",
-          "https://www.youtube.com/channel/UCY0J8ch0Jx9lirFFwXTTHbw"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7701.png",
@@ -3897,48 +1454,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1874",
-        "url": "https://www.bsfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Bishop&#39;s Stortford playing kit",
-          "brand": "Macron",
-          "image": "https://www.prokituk.com/media/catalog/product/cache/9d44fa6b34aa55943a44a9c7fcf36187/h/o/home_shirt_8.webp",
-          "url": "https://www.prokituk.com/club-shop/bishops-stortford-fc/bsfc-home-shirt-2022-2023-season.html",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#1069AF", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/bishop-s-stortford"
-        },
         "location": {
           "latitude": 51.872673,
           "longitude": 0.191994
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bognor Regis Town",
         "slogan": "The Rocks",
-        "sameAs": [
-          "https://twitter.com/rocks1883/",
-          "https://www.facebook.com/rocks1883"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7703.png",
@@ -3948,45 +1472,15 @@
           "width": 126,
           "height": 138
         },
-        "foundingDate": "1883",
-        "url": "https://www.pitchero.com/clubs/bognorregistownfc",
-        "owns": {
-          "@type": "Product",
-          "name": "Bognor Regis Town playing kit",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#FFFFFF", "#559730"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/bognor-regis-town"
-        },
         "location": {
           "latitude": 50.786982,
           "longitude": -0.690213
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bowers & Pitsea",
         "slogan": "The Bowers",
-        "sameAs": [
-          "https://twitter.com/Bowerspitseafc/",
-          "https://www.facebook.com/bowers.pitsea.3"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7764.png",
@@ -3996,39 +1490,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1946",
-        "url": "https://bowersandpitseafootballclub.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Bowers &amp; Pitsea playing kit",
-          "brand": "Puma",
-          "image": "https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F268738%2F1600680978_0.jpg&amp;h=1100&amp;w=1960&amp;t=fit&amp;o=jpg",
-          "itemCondition": "NewCondition",
-          "color": ["#E9342F", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/bowers-and-pitsea"
-        },
         "location": {
           "latitude": 51.57405,
           "longitude": 0.518133
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Brightlingsea Regent",
         "slogan": "The Rs",
-        "sameAs": [
-          "https://twitter.com/Brightlingseafc/",
-          "https://www.facebook.com/Brightlingsea.Football"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7704.png",
@@ -4038,33 +1508,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2005",
-        "url": "https://brightlingsearegentfc.com",
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/brightlingsea-regent"
-        },
         "location": {
           "latitude": 51.815817,
           "longitude": 1.026387
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Canvey Island",
         "slogan": "The Gulls",
-        "sameAs": [
-          "https://twitter.com/CIFC/",
-          "https://www.facebook.com/canveyislandfc",
-          "https://www.instagram.com/canveyislandfc/",
-          "https://www.youtube.com/channel/UCgT1wSEbC1ZVClt5jnFfmlg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7623.png",
@@ -4074,31 +1526,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1926",
-        "url": "https://canveyislandfc.com",
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/canvey-island"
-        },
         "location": {
           "latitude": 51.516461,
           "longitude": 0.615713
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Carshalton Athletic",
         "slogan": "The Robins",
-        "sameAs": [
-          "https://twitter.com/CarshaltonA_FC/",
-          "https://www.facebook.com/CarshaltonAthleticFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7707.png",
@@ -4108,48 +1544,15 @@
           "width": 100,
           "height": 100
         },
-        "foundingDate": "1905",
-        "url": "https://www.carshaltonathletic.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Carshalton Athletic playing kit",
-          "brand": "Joma",
-          "image": "https://static.wixstatic.com/media/d92f4f_c708b5c7ce59461bacbea1f2fcfb3f44~mv2.png/v1/fill/w_566,h_628,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/club%20shop%20home.png",
-          "url": "https://www.carshaltonathletic.co.uk/shop",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 39.0
-            }
-          },
-          "color": ["#EA3323", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/carshalton-athletic"
-        },
         "location": {
           "latitude": 51.369704,
           "longitude": -0.17179
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Corinthian-Casuals",
         "slogan": "The Casuals",
-        "sameAs": [
-          "https://twitter.com/CorinthianCas/",
-          "https://www.facebook.com/officialcorinthiancasualsfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7710.png",
@@ -4159,39 +1562,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1939",
-        "url": "https://corinthian-casuals.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Corinthian-Casuals playing kit",
-          "brand": "SKkits",
-          "itemCondition": "NewCondition",
-          "color": ["#692F2F", "#DA8DD9"]
-        },
-
-        "keywords": "amateur",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/corinthian-casuals"
-        },
         "location": {
           "latitude": 51.372154,
           "longitude": -0.287229
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Cray Wanderers",
         "slogan": "The Wands",
-        "sameAs": [
-          "https://twitter.com/OfficialWands/",
-          "https://www.facebook.com/CrayWanderersFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7711.png",
@@ -4201,47 +1580,15 @@
           "width": 100,
           "height": 100
         },
-        "foundingDate": "1860",
-        "url": "https://www.cray-wanderers.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Cray Wanderers playing kit",
-          "brand": "Winston Sports",
-          "material": "100% polyester",
-          "image": "https://www.cray-wanderers.com/wp-content/uploads/2022/03/CF-Jersey-HOME-Front.jpg",
-          "url": "https://www.cray-wanderers.com/product/cray-home-jersey/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 25.0
-            }
-          },
-          "color": ["#f7d046", "#000000"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/cray-wanderers"
-        },
         "location": {
           "latitude": 51.390084,
           "longitude": 0.021091
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Enfield Town",
         "slogan": "The Towners",
-        "sameAs": ["https://twitter.com/ETFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7714.png",
@@ -4251,49 +1598,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2001",
-        "url": "https://etfc.london",
-        "owns": {
-          "@type": "Product",
-          "name": "Enfield Town playing kit",
-          "brand": "Macron",
-          "image": "https://shop.etfc.london/wp-content/uploads/2022/08/Home-Shirt-Sports-Direct.jpg",
-          "url": "https://shop.etfc.london/product/2022-23-home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#ffffff", "#2F488D"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/enfield-town"
-        },
         "location": {
           "latitude": 51.659332,
           "longitude": -0.063843
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Folkestone Invicta",
         "slogan": "The Seasiders",
-        "sameAs": [
-          "https://twitter.com/FIFC/",
-          "https://www.facebook.com/folkestoneinvictafc",
-          "https://www.youtube.com/channel/UCKJQnSZfDrn8-aUpKm7cwuQ"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7716.png",
@@ -4303,46 +1616,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1936",
-        "url": "https://folkestoneinvictafc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Folkestone Invicta playing kit",
-          "brand": "Macron",
-          "image": "https://cdn.freewebstore.com/resize/468112/kitpicforshop.png/400/400/0/?bg=FFFFFF",
-          "sku": "30",
-          "url": "https://www.folkestoneinvictafcshop.co.uk/product/home-team-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 46.0
-            }
-          },
-          "color": ["#CB7512", "#000000"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/folkestone-invicta"
-        },
         "location": {
           "latitude": 51.086574,
           "longitude": 1.159508
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Haringey Borough",
         "slogan": "The Borough",
-        "sameAs": ["https://twitter.com/HaringeyBoroFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4681.png",
@@ -4352,31 +1634,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1973",
-        "url": "https://www.haringeyboroughfc.net",
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/haringey-borough"
-        },
         "location": {
           "latitude": 51.605623,
           "longitude": -0.09266
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hastings United",
         "slogan": "The U's",
-        "sameAs": [
-          "https://twitter.com/hastingsufc/",
-          "https://www.facebook.com/HastingsUtd"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7231.png",
@@ -4386,33 +1652,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1893",
-        "url": "https://www.hastingsunited.com",
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/hastings-united"
-        },
         "location": {
           "latitude": 50.874501,
           "longitude": 0.587099
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Herne Bay",
         "slogan": "The Bay",
-        "sameAs": [
-          "https://twitter.com/HerneBayFC/",
-          "https://www.facebook.com/hernebayfootballclub",
-          "https://www.instagram.com/hbfc_official/",
-          "https://www.youtube.com/channel/UCw8GwQcXNvL71vAqMmAuPDA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7232.png",
@@ -4422,49 +1670,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1886",
-        "url": "https://hernebayfootballclub.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Herne Bay playing kit",
-          "brand": "Nike",
-          "url": "https://hernebayfc.ktckts.com/merchandise/herrkh/herne-bay-fc-home-replica-jersey-2223",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 35.0
-            }
-          },
-          "color": ["#1A378E"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/herne-bay"
-        },
         "location": {
           "latitude": 51.364685,
           "longitude": 1.129948
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hornchurch",
         "slogan": "The Mighty Urchins",
-        "sameAs": [
-          "https://twitter.com/HornchurchFC/",
-          "https://www.facebook.com/HornchurchFCofficial",
-          "https://www.instagram.com/hornchurchfcofficial/",
-          "https://www.youtube.com/channel/UCpmfj7xGqG8dT-dY-paaaVg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7690.png",
@@ -4474,51 +1688,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1923",
-        "url": "https://www.hornchurchfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Hornchurch playing kit",
-          "brand": "Macron",
-          "image": "https://www.hornchurchfc.com/wp-content/uploads/2021/07/Replica-Kit-Home-2021-22-Front.jpg",
-          "sku": "RPKT_HOMESHIRT2122",
-          "url": "https://www.prokituk.com/club-shop/hornchurch-fc/hornchurch-fc-replica-home-shirt.html?",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["##DF2835", "#ffffff"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/hornchurch"
-        },
         "location": {
           "latitude": 51.556557,
           "longitude": 0.23837
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Horsham",
         "slogan": "The Hornets",
-        "sameAs": [
-          "https://twitter.com/HorshamFC/",
-          "https://www.facebook.com/HorshamFC",
-          "https://www.instagram.com/horsham_fc/",
-          "https://www.youtube.com/channel/UChmmGkCpFY4s5bneAJZ7Oqw"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7723.png",
@@ -4528,37 +1706,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1871",
-        "url": "https://www.horshamfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Horsham playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#357942", "#F5C242"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/horsham"
-        },
         "location": {
           "latitude": 51.046893,
           "longitude": -0.340681
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Kingstonian",
         "slogan": "The Ks",
-        "sameAs": [
-          "https://twitter.com/KingstonianFC/",
-          "https://www.facebook.com/kingstonianfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7725.png",
@@ -4568,48 +1724,15 @@
           "width": 93,
           "height": 102
         },
-        "foundingDate": "1885",
-        "url": "https://www.kingstonian.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Kingstonian playing kit",
-          "brand": "APX Performance",
-          "image": "https://kingstonianshop.weebly.com/uploads/3/1/7/3/3173646/2022-3-home-shirt-worn_orig.jpg",
-          "url": "https://kingstonianshop.weebly.com/replica-shirts.html",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#BB271A", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/kingstonian"
-        },
         "location": {
           "latitude": 51.393231,
           "longitude": -0.172327
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Lewes",
         "slogan": "The Rooks",
-        "sameAs": [
-          "https://twitter.com/LewesFCMen/",
-          "https://www.facebook.com/LewesFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7728.png",
@@ -4619,28 +1742,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1885",
-        "url": "https://lewesfc.com",
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/lewes"
-        },
         "location": {
           "latitude": 50.869019,
           "longitude": 0.012321
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Margate",
         "slogan": "The Gate",
-        "sameAs": ["https://twitter.com/margate_fc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7730.png",
@@ -4650,28 +1760,15 @@
           "width": 175,
           "height": 207
         },
-        "foundingDate": "1896",
-        "url": "https://margate-fc.co.uk",
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/margate"
-        },
         "location": {
           "latitude": 51.380459,
           "longitude": 1.373928
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Potters Bar Town",
         "slogan": "The Scholars",
-        "sameAs": ["https://twitter.com/pbtfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7739.png",
@@ -4681,37 +1778,15 @@
           "width": 149,
           "height": 141
         },
-        "foundingDate": "1960",
-        "url": "https://www.pitchero.com/clubs/pottersbartownfc",
-        "owns": {
-          "@type": "Product",
-          "name": "Potters Bar Town playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#762F44"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/potters-bar-town"
-        },
         "location": {
           "latitude": 51.696188,
           "longitude": -0.177662
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Wingate & Finchley",
         "slogan": "The Blues",
-        "sameAs": [
-          "https://twitter.com/WinFinchleyFC/",
-          "https://www.facebook.com/WingateFinchley"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7759.png",
@@ -4721,20 +1796,9 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1991",
-        "url": "https://www.wingatefinchley.com",
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/wingate-and-finchley"
-        },
         "location": {
           "latitude": 51.606848,
           "longitude": -0.171497
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       }
     ]
@@ -4759,27 +1823,16 @@
       "width": 152,
       "height": 150
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://www.nonleaguegrounds.com/northern-premier-league"
-    },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "propertyID": "tier",
-      "value": 7
+      "name": "7",
+      "value": "tier"
     },
     "members": [
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Ashton United",
         "slogan": "The Robins",
-        "sameAs": [
-          "https://twitter.com/AshtonUnitedFC/",
-          "https://www.facebook.com/AsthtonUnitedFC",
-          "https://www.instagram.com/ashtonunitedfc/",
-          "https://www.youtube.com/channel/UCg42S3qN-tEcJzAXq_-w3mg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7693.png",
@@ -4789,49 +1842,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1878",
-        "url": "https://ashtonunited.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Ashton United playing kit",
-          "brand": "adidas",
-          "image": "https://ktckts-cdn.com/00000000-0000-0000-0001-000000000038/c3a70b8b-1e66-4c19-b908-e331d4b57987.jpg",
-          "url": "https://ashtonunitedfc.ktckts.com/merchandise/ashmerhs20/home-shirt-202223",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 39.0
-            }
-          },
-          "color": ["#AE3034", "#FFFFFF"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/ashton-united"
-        },
         "location": {
           "latitude": 53.501301,
           "longitude": -2.079707
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Atherton Collieries",
         "slogan": "The Colls",
-        "sameAs": [
-          "https://twitter.com/ACFC1916/",
-          "https://www.facebook.com/AthertonCollieries"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7694.png",
@@ -4841,37 +1860,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1916",
-        "url": "https://athertoncollieries.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Atherton Collieries playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#FFFFFF", "#000000"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/atherton-collieries"
-        },
         "location": {
           "latitude": 53.523522,
           "longitude": -2.484992
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bamber Bridge",
         "slogan": "The Brig",
-        "sameAs": [
-          "https://twitter.com/BamberBridgeFC/",
-          "https://www.facebook.com/BamberBridgeF"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7695.png",
@@ -4881,50 +1878,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1952",
-        "url": "https://bamberbridge.org",
-        "owns": {
-          "@type": "Product",
-          "name": "Bamber Bridge playing kit",
-          "brand": "Macron",
-          "material": "100% PET recycled polyester",
-          "image": "https://static.wixstatic.com/media/bdb191_a5ab9252b5eb47b9989e369cd8981e07~mv2.jpeg/v1/fill/w_600,h_600,al_c,lg_1,q_85/bdb191_a5ab9252b5eb47b9989e369cd8981e07~mv2.jpeg",
-          "url": "https://www.macronsports.co.uk/product-page/bamber-bridge-replica-home-shirt-adult",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 34.95
-            }
-          },
-          "color": ["#000000", "#FFFFFF"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/bamber-bridge"
-        },
         "location": {
           "latitude": 53.727892,
           "longitude": -2.671923
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Belper Town",
         "slogan": "The Nailers",
-        "sameAs": [
-          "https://twitter.com/BelperTownFC/",
-          "https://www.facebook.com/belpertownfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7617.png",
@@ -4934,39 +1896,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1883",
-        "url": "https://belpertownfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Belper Town playing kit",
-          "brand": "Joma",
-          "itemCondition": "NewCondition",
-          "color": ["##FFB605"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/belper-town"
-        },
         "location": {
           "latitude": 53.027196,
           "longitude": -1.487347
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "FC United of Manchester",
         "slogan": "The Reds",
-        "sameAs": [
-          "https://twitter.com/FCUnitedMcr/",
-          "https://www.facebook.com/FCUnitedMcr",
-          "https://www.youtube.com/channel/UCyN_tv-mgrO4WFInlw9Lzzg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7754.png",
@@ -4976,45 +1914,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2005",
-        "url": "https://fc-utd.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "FC United of Manchester playing kit",
-          "brand": "New Balance",
-          "image": "https://cdn.shopify.com/s/files/1/0569/6575/9183/products/P3011140_50.jpg?v=1625302339&amp;width=1100",
-          "url": "https://fcumshop.co.uk/products/new-home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 42.0
-            }
-          },
-          "color": ["#E31923", "#FFFFFF", "#121212"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/fc-united-of-manchester"
-        },
         "location": {
           "latitude": 53.516649,
           "longitude": -2.180394
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Gainsborough Trinity",
         "slogan": "The Trinity",
-        "sameAs": ["https://twitter.com/GainsTrinityFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4691.png",
@@ -5024,33 +1932,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1873",
-        "url": "https://www.gainsboroughtrinity.com",
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/gainsborough-trinity"
-        },
         "location": {
           "latitude": 53.403459,
           "longitude": -0.774463
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Guiseley AFC",
         "slogan": "The Lions",
-        "sameAs": [
-          "https://twitter.com/GuiseleyAFC/",
-          "https://www.facebook.com/GuiseleyAFC",
-          "https://www.instagram.com/guiseleyafc1909/",
-          "https://www.youtube.com/channel/UCFJInYZYFb9mqLqO30CZUlA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1824.png",
@@ -5060,48 +1950,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1909",
-        "url": "https://guiseleyafc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Guiseley AFC playing kit",
-          "brand": "Macron",
-          "image": "https://macronstorecardiff.co.uk/image/cache/catalog/clubshops/guiseley_afc/2022/GUISELEY-AFC-HOME-2022-1000x1000.jpg",
-          "url": "https://macronstorecardiff.co.uk/guiseley-afc-home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 35.0
-            }
-          },
-          "color": ["#FFFFFF", "#153979"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/guiseley-afc"
-        },
         "location": {
           "latitude": 53.877202,
           "longitude": -1.719401
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hyde United",
         "slogan": "The Tigers",
-        "sameAs": [
-          "https://twitter.com/hydeunited/",
-          "https://www.facebook.com/hydeunited"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4694.png",
@@ -5111,37 +1968,15 @@
           "width": 174,
           "height": 172
         },
-        "foundingDate": "1919",
-        "url": "https://hydeunited.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Hyde United playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#DD3333", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/hyde-united"
-        },
         "location": {
           "latitude": 53.450616,
           "longitude": -2.068183
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Lancaster City",
         "slogan": "The Dolly Blues",
-        "sameAs": [
-          "https://twitter.com/LancasterCityFC/",
-          "https://www.facebook.com/lancastercityfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7726.png",
@@ -5151,50 +1986,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1911",
-        "url": "https://www.pitchero.com/clubs/lancastercity",
-        "owns": {
-          "@type": "Product",
-          "name": "Lancaster City playing kit",
-          "brand": "Puma",
-          "image": "https://cdn.shopify.com/s/files/1/0365/6178/0781/products/lancasterhome2022_2000x.png?v=1653141651",
-          "sku": "705017-02",
-          "url": "https://www.17sport.co.uk/collections/lancaster-city-fc-official-replica-kit/products/lancaster-city-fc-2020-21home-replica-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 32.5
-            }
-          },
-          "color": ["#004C92"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/lancaster-city"
-        },
         "location": {
           "latitude": 54.051038,
           "longitude": -2.810882
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Liversedge",
         "slogan": "The Sedge",
-        "sameAs": [
-          "https://twitter.com/Liversedge_FC/",
-          "https://www.facebook.com/LiversedgeFootballClub",
-          "https://www.instagram.com/official_liversedge_fc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8853.png",
@@ -5204,49 +2004,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1910",
-        "url": "https://liversedgefc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Liversedge playing kit",
-          "brand": "adidas",
-          "material": "60% cotton, 40% polyester",
-          "image": "https://liversedgefc.co.uk/wp-content/uploads/2020/11/Liversedge-Adidas-Blue-scaled.jpg",
-          "url": "https://liversedgefc.co.uk/product/goalie-top-including-club-badge/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["RGB(116, 207, 255)", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/liversedge"
-        },
         "location": {
           "latitude": 53.717658,
           "longitude": -1.711748
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Marine AFC",
         "slogan": "The Mariners",
-        "sameAs": [
-          "https://twitter.com/MarineAFC/",
-          "https://www.facebook.com/marinefootballclub"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7656.png",
@@ -5256,39 +2022,15 @@
           "width": 170,
           "height": 170
         },
-        "foundingDate": "1894",
-        "url": "https://marinefc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Marine AFC playing kit",
-          "brand": "Macron",
-          "itemCondition": "NewCondition",
-          "color": ["#000000", "#CEB04E"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/marine-afc"
-        },
         "location": {
           "latitude": 53.485173,
           "longitude": -3.033623
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Marske United",
         "slogan": "The Seasiders",
-        "sameAs": [
-          "https://twitter.com/MarskeUnitedFC/",
-          "https://www.facebook.com/marske.unitedfc",
-          "https://www.instagram.com/marskeunitedfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7658.png",
@@ -5298,48 +2040,15 @@
           "width": 100,
           "height": 115
         },
-        "foundingDate": "1956",
-        "url": "https://marskeunitedfc.org",
-        "owns": {
-          "@type": "Product",
-          "name": "Marske United playing kit",
-          "brand": "Macron",
-          "image": "https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F3406245%2Fproduct_image_6368d3fd5f493.jpeg&amp;w=600",
-          "url": "https://marskeunitedfc.org/payments/home-shirt-86382.html",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#F7D101", "#005CFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/marske-united"
-        },
         "location": {
           "latitude": 54.589177,
           "longitude": -1.016661
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Matlock Town",
         "slogan": "The Gladiators",
-        "sameAs": [
-          "https://twitter.com/matlock_townfc/",
-          "https://www.facebook.com/matlock.townfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7731.png",
@@ -5349,44 +2058,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1878",
-        "url": "https://www.matlocktownfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Matlock Town playing kit",
-          "brand": "TAG Sportswear",
-          "url": "https://www.matlocktownfc.co.uk/matlock-town-fc-home-shirt-2021-22-home-shirt-2022-23.asp",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 39.99
-            }
-          },
-          "color": ["#1C4EB4"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/matlock-town"
-        },
         "location": {
           "latitude": 53.137031,
           "longitude": -1.551677
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Morpeth Town AFC",
         "slogan": "The Highwaymen",
-        "sameAs": ["https://twitter.com/MorpethTownAFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7734.png",
@@ -5396,50 +2076,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1909",
-        "url": "https://www.morpethtownfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Morpeth Town AFC playing kit",
-          "brand": "Erreà",
-          "material": "100% polyester",
-          "image": "https://www.morpethtownfc.com/wp-content/uploads/2019/11/mtafc_jersey_2020_21.png",
-          "sku": "RJ001",
-          "url": "https://www.morpethtownfc.com/product/replica-jersey/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 44.0
-            }
-          },
-          "color": ["#000000", "#E9A825"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/morpeth-town-afc"
-        },
         "location": {
           "latitude": 55.155982,
           "longitude": -1.708834
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Nantwich Town",
         "slogan": "The Dabbers",
-        "sameAs": [
-          "https://twitter.com/TheDabbers/",
-          "https://www.facebook.com/nantwichtownfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4697.png",
@@ -5449,49 +2094,15 @@
           "width": 188,
           "height": 180
         },
-        "foundingDate": "1884",
-        "url": "https://www.nantwichtownfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Nantwich Town playing kit",
-          "brand": "FBT Sports",
-          "image": "https://fbteurope.com/wp-content/uploads/2020/08/home-shirt-22-23.png",
-          "sku": "NTF22011209",
-          "url": "https://fbteurope.com/product/ntfc-home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 34.0
-            }
-          },
-          "color": ["#92B66C", "#0D7238"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/nantwich-town"
-        },
         "location": {
           "latitude": 53.072687,
           "longitude": -2.52846
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Radcliffe",
         "slogan": "The Boro",
-        "sameAs": [
-          "https://twitter.com/radcliffeboro/",
-          "https://www.facebook.com/radcliffeboro"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7740.png",
@@ -5501,51 +2112,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1949",
-        "url": "https://radcliffefc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Radcliffe playing kit",
-          "brand": "Hope + Glory",
-          "material": "100% polyester",
-          "image": "https://store.hopeandglorysportswear.co.uk/wp-content/uploads/2022/06/home-store.jpg",
-          "url": "https://store.hopeandglorysportswear.co.uk/product/radcliffe-fc-home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 39.99
-            }
-          },
-          "color": ["#19419F", "#F8E35E"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/radcliffe"
-        },
         "location": {
           "latitude": 53.567592,
           "longitude": -2.340701
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "South Shields",
         "slogan": "The Mariners",
-        "sameAs": [
-          "https://twitter.com/SouthShieldsFC/",
-          "https://www.facebook.com/southshieldsfc",
-          "https://www.instagram.com/southshieldsfc/",
-          "https://www.youtube.com/channel/UCVyfR_PwZImPRAkn9SVtcbA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7746.png",
@@ -5555,50 +2130,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1888",
-        "url": "https://www.southshieldsfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "South Shields playing kit",
-          "brand": "Nike",
-          "material": "100% polyester",
-          "image": "https://store.southshieldsfc.co.uk/images/stories/virtuemart/product/28271-C(81)-P(0)-R(5ayaj).jpg",
-          "url": "https://store.southshieldsfc.co.uk/kits/home-kit/nike-south-shields-fc-home-jersey-22-23-go0sp-p",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#6F2935", "#8FCFE6"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/south-shields"
-        },
         "location": {
           "latitude": 54.974526,
           "longitude": -1.470094
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Stafford Rangers",
         "slogan": "The Rangers",
-        "sameAs": [
-          "https://twitter.com/SRFCofficial/",
-          "https://www.facebook.com/StaffordRangersFootballClub",
-          "https://www.youtube.com/channel/UC9VP9vLJbXvoKPAV6phkFhQ"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7748.png",
@@ -5608,50 +2148,15 @@
           "width": 116,
           "height": 138
         },
-        "foundingDate": "1876",
-        "url": "https://www.staffordrangersfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Stafford Rangers playing kit",
-          "brand": "Harlequin Teamwear",
-          "image": "https://www.harlequinteamwear.co.uk/wp-content/uploads/home-front.png",
-          "sku": "2022-Stafford-Rangers-Home-Shirt-adults",
-          "url": "https://www.harlequinteamwear.co.uk/product/2022-stafford-rangers-personalised-home-shirt-adults/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 45.0
-            }
-          },
-          "color": ["#000000", "#FFFFFF", "#C19B4A"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/stafford-rangers"
-        },
         "location": {
           "latitude": 52.818555,
           "longitude": -2.116846
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Stalybridge Celtic",
         "slogan": "The Celts",
-        "sameAs": [
-          "https://twitter.com/StalyCelticFC/",
-          "https://www.facebook.com/stalycelticfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7749.png",
@@ -5661,49 +2166,15 @@
           "width": 118,
           "height": 138
         },
-        "foundingDate": "1909",
-        "url": "https://stalybridgeceltic.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Stalybridge Celtic playing kit",
-          "brand": "Hope + Glory",
-          "material": "100% polyester",
-          "image": "https://store.hopeandglorysportswear.co.uk/wp-content/uploads/2022/08/scfc-2223-home.jpg",
-          "url": "https://store.hopeandglorysportswear.co.uk/product/stalybridge-celtic-22-23-home-shirt",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 35.0
-            }
-          },
-          "color": ["#3170EA", "#FFFFFF", "#A68760"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/stalybridge-celtic"
-        },
         "location": {
           "latitude": 53.475337,
           "longitude": -2.043855
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Warrington Rylands 1906",
         "slogan": "The Blues",
-        "sameAs": [
-          "https://twitter.com/RylandsFC/",
-          "https://www.facebook.com/WarringtonRylandsFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8918.png",
@@ -5713,39 +2184,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1906",
-        "url": "https://rylandsfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Warrington Rylands 1906 playing kit",
-          "itemCondition": "NewCondition",
-          "color": ["#264793"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/warrington-rylands-1906"
-        },
         "location": {
           "latitude": 53.4004,
           "longitude": -2.575604
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Warrington Town",
         "slogan": "The Yellows",
-        "sameAs": [
-          "https://twitter.com/theyellows/",
-          "https://www.facebook.com/WarringtonTownFC",
-          "https://www.instagram.com/warringtontownfc/",
-          "https://www.youtube.com/channel/UCuJtu1BX2ZISz1ekKEG746A"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7756.png",
@@ -5755,51 +2202,15 @@
           "width": 145,
           "height": 180
         },
-        "foundingDate": "1949",
-        "url": "https://warringtontownfc.co.uk",
-        "owns": {
-          "@type": "Product",
-          "name": "Warrington Town playing kit",
-          "brand": "Macron",
-          "material": "environmentally-friendly yarn, certified by Global Recycled Standard",
-          "image": "https://www.warringtontownfc.co.uk/wp-content/uploads/2022/06/202223-Home-shirt.jpeg",
-          "url": "https://www.warringtontownfc.co.uk/product/2022-23-replica-home-shirt/",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 40.0
-            }
-          },
-          "color": ["#FDFF54", "#1331A4"]
-        },
-
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/warrington-town"
-        },
         "location": {
           "latitude": 53.377071,
           "longitude": -2.569861
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Whitby Town",
         "slogan": "The Seasiders",
-        "sameAs": [
-          "https://twitter.com/WhitbyTownFC/",
-          "https://www.facebook.com/whitbytownfc",
-          "https://www.instagram.com/whitbytownfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7757.png",
@@ -5809,37 +2220,9 @@
           "width": 120,
           "height": 145
         },
-        "foundingDate": "1880",
-        "url": "https://whitbytownfc.com",
-        "owns": {
-          "@type": "Product",
-          "name": "Whitby Town playing kit",
-          "brand": "Erreà",
-          "image": "https://img-res.pitchero.com/?url=images.pitchero.com%2Fui%2F4076138%2Fproduct_image_62cc9eccb7c37.png&amp;w=600",
-          "url": "https://www.whitbytownfc.com/payments/202223-shirts-80298.html",
-          "itemCondition": "NewCondition",
-          "offers": {
-            "@type": "Offer",
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "priceCurrency": "GBP",
-              "price": 44.5
-            }
-          },
-          "color": ["#0D1B89", "#FFFFFF"]
-        },
-
-        "identifier": {
-          "@type": "url",
-          "@value": "https://www.nonleaguegrounds.com/northern-premier-league/whitby-town"
-        },
         "location": {
           "latitude": 54.489984,
           "longitude": -0.627549
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       }
     ]

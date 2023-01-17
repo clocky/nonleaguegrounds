@@ -8,38 +8,18 @@
       {
         "@type": "StadiumOrArena",
         "name": "Causeway Lane",
-        "priceRange": "££",
         "alternateName": "Proctor Cars Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/causeway-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Causeway Lane",
-          "addressLocality": "Matlock",
-          "postalCode": "DE4 3AR",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2300,
         "latitude": 53.137031,
         "longitude": -1.551677,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Matlock Town",
           "slogan": "The Gladiators",
-          "foundingDate": "1878",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/matlock-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7731.png",
@@ -51,41 +31,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Christchurch Meadow",
-        "priceRange": "££",
         "alternateName": "The Raygar Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/christchurch-meadow"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Bridge Street",
-          "addressLocality": "Belper",
-          "postalCode": "DE56 1BA",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2650,
         "latitude": 53.027196,
         "longitude": -1.487347,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Belper Town",
           "slogan": "The Nailers",
-          "foundingDate": "1883",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/belper-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7617.png",
@@ -97,41 +58,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Jakemans Community Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/jakemans-community-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Pilgrim Way",
-          "addressLocality": "Boston",
-          "addressRegion": "Lincolnshire",
-          "postalCode": "PE21 6JN",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 5000,
         "latitude": 52.956335,
         "longitude": -0.028533,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Boston United",
           "slogan": "The Pilgrims",
-          "foundingDate": "1933",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/boston-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8146.png",
@@ -143,41 +84,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Latimer Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/latimer-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Polwell Lane",
-          "addressLocality": "Kettering",
-          "addressRegion": "Northamptonshire",
-          "postalCode": "NN15 5PS",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2400,
         "latitude": 52.366808,
         "longitude": -0.689305,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Kettering Town",
           "slogan": "The Poppies",
-          "foundingDate": "1872",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/kettering-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8654.png",
@@ -189,41 +110,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Meadow Lane",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/meadow-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Meadow Lane",
-          "addressLocality": "Nottingham",
-          "addressRegion": "Nottinghamshire",
-          "postalCode": "NG2 3HJ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 19841,
         "latitude": 52.942672,
         "longitude": -1.137151,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Notts County",
           "slogan": "The Magpies",
-          "foundingDate": "1862",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/notts-county"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1376.png",
@@ -235,42 +136,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "North Street",
-        "priceRange": "££",
         "alternateName": "Impact Arena Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/north-street"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "North Street",
-          "addressLocality": "Alfreton",
-          "addressRegion": "Derbyshire",
-          "postalCode": "DE55 7FZ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3600,
         "latitude": 53.094516,
         "longitude": -1.381251,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Alfreton Town",
           "slogan": "The Reds",
-          "foundingDate": "1959",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/alfreton-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4677.png",
@@ -282,41 +163,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "St James Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/st-james-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Churchill Way",
-          "addressLocality": "Brackley",
-          "addressRegion": "Northamptonshire",
-          "postalCode": "NN13 7EJ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3500,
         "latitude": 52.024613,
         "longitude": -1.144039,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Brackley Town",
           "slogan": "The Saints",
-          "foundingDate": "1930",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/brackley-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4701.png",
@@ -328,41 +189,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Technique Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/technique-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "1866 Sheffield Road",
-          "addressLocality": "Chesterfield",
-          "addressRegion": "Derbyshire",
-          "postalCode": "S41 8NZ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 10600,
         "latitude": 53.253583,
         "longitude": -1.425761,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Chesterfield",
           "slogan": "The Spireites",
-          "foundingDate": "1919",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/chesterfield"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1345.png",
@@ -374,41 +215,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "The Northolme",
-        "priceRange": "££",
         "alternateName": "The Dave Longstaff Martin and Co Arena",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/the-northolme"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Northolme",
-          "addressLocality": "Gainsborough",
-          "postalCode": "DN21 2QW",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4304,
         "latitude": 53.403459,
         "longitude": -0.774463,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Gainsborough Trinity",
           "slogan": "The Trinity",
-          "foundingDate": "1873",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/gainsborough-trinity"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4691.png",
@@ -420,41 +242,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "The Silverlands",
-        "priceRange": "££",
         "alternateName": "The Tarmac Silverlands Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-midlands/the-silverlands"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Buxton",
-          "addressRegion": "Derbyshire",
-          "postalCode": "SK17 6QH",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4000,
         "latitude": 53.256603,
         "longitude": -1.906581,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Buxton",
           "slogan": "The Bucks",
-          "foundingDate": "1877",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/buxton"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7706.png",
@@ -468,7 +271,6 @@
       }
     ]
   },
-
   {
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
@@ -478,38 +280,18 @@
       {
         "@type": "StadiumOrArena",
         "name": "Clarence Park",
-        "priceRange": "££",
         "alternateName": "Mozzarella Fellas Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/clarence-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "St Albans",
-          "addressRegion": "Hertfordshire",
-          "postalCode": "AL1 4NF",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 5007,
         "latitude": 51.754276,
         "longitude": -0.325157,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "St Albans City",
           "slogan": "The Saints",
-          "foundingDate": "1908",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/st-albans-city"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4708.png",
@@ -521,42 +303,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Cressing Road",
-        "priceRange": "££",
         "alternateName": "Dunmow Group Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/cressing-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Clockhouse Way",
-          "addressLocality": "Braintree",
-          "addressRegion": "Essex",
-          "postalCode": "CM7 3AL",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4222,
         "latitude": 51.875305,
         "longitude": 0.572989,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Braintree Town",
           "slogan": "The Iron",
-          "foundingDate": "1898",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/braintree-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1831.png",
@@ -568,41 +330,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Len Salmon Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/len-salmon-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Crown Ave",
-          "addressLocality": "Basildon",
-          "addressRegion": "Essex",
-          "postalCode": "SS13 2BE",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3500,
         "latitude": 51.57405,
         "longitude": 0.518133,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Bowers & Pitsea",
           "slogan": "The Bowers",
-          "foundingDate": "1946",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/bowers-and-pitsea"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7764.png",
@@ -614,41 +356,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Lincoln Road",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/lincoln-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "651 Lincoln Road",
-          "addressLocality": "Peterborough",
-          "addressRegion": "Northamptonshire",
-          "postalCode": "PE1 3HA",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2300,
         "latitude": 52.593814,
         "longitude": -0.254312,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Peterborough Sports",
           "slogan": "The Turbines",
-          "foundingDate": "1908",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/peterborough-sports"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7737.png",
@@ -660,42 +382,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Meadow Park",
-        "priceRange": "££",
         "alternateName": "LV Bet Stadium Meadow Park",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/meadow-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Broughinge Road",
-          "addressLocality": "Borehamwood",
-          "addressRegion": "Hertfordshire",
-          "postalCode": "WD6 5AL",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4502,
         "latitude": 51.661937,
         "longitude": -0.272375,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Boreham Wood",
           "slogan": "The Wood",
-          "foundingDate": "1948",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/boreham-wood"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1830.png",
@@ -707,41 +409,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Melbourne Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/melbourne-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Salerno Way",
-          "addressLocality": "Chelmsford",
-          "addressRegion": "Essex",
-          "postalCode": "CM1 2EH",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3065,
         "latitude": 51.753231,
         "longitude": 0.451471,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Chelmsford City",
           "slogan": "The Clarets",
-          "foundingDate": "1938",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/chelmsford-city"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4689.png",
@@ -753,41 +435,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "New Lodge",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/new-lodge"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Blunts Wall Road",
-          "addressLocality": "Billericay",
-          "addressRegion": "Essex",
-          "postalCode": "CM12 9SA",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 5000,
         "latitude": 51.621776,
         "longitude": 0.403297,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Billericay Town",
           "slogan": "The Blues",
-          "foundingDate": "1880",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/billericay-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4678.png",
@@ -799,40 +461,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "North Road",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/north-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Colchester",
-          "addressRegion": "Essex",
-          "postalCode": "CO7 0PL",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 1000,
         "latitude": 51.815817,
         "longitude": 1.026387,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Brightlingsea Regent",
           "slogan": "The Rs",
-          "foundingDate": "2005",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/brightlingsea-regent"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7704.png",
@@ -844,41 +487,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Park Lane",
-        "priceRange": "££",
         "alternateName": "The Movie Starr Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/park-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Canvey Island",
-          "addressRegion": "Essex",
-          "postalCode": "SS8 7PX",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4100,
         "latitude": 51.516461,
         "longitude": 0.615713,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Canvey Island",
           "slogan": "The Gulls",
-          "foundingDate": "1926",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/canvey-island"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7623.png",
@@ -890,42 +514,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Parkfield",
-        "priceRange": "££",
         "alternateName": "The Lantern Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/parkfield"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "The Walk",
-          "addressLocality": "Potters Bar",
-          "addressRegion": "Hertfordshire",
-          "postalCode": "EN6 1QN",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2500,
         "latitude": 51.696188,
         "longitude": -0.177662,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Potters Bar Town",
           "slogan": "The Scholars",
-          "foundingDate": "1960",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/potters-bar-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7739.png",
@@ -937,41 +541,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Parkside",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/parkside"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Park Lane",
-          "addressLocality": "South Ockendon",
-          "addressRegion": "Essex",
-          "postalCode": "RM15 4PX",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3500,
         "latitude": 51.503481,
         "longitude": 0.261341,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Aveley",
           "slogan": "The Millers",
-          "foundingDate": "1927",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/aveley"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7207.png",
@@ -983,41 +567,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Roots Hall",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/roots-hall"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Victoria Avenue",
-          "addressLocality": "Southend-on-Sea",
-          "addressRegion": "Essex",
-          "postalCode": "SS2 6NQ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 12392,
         "latitude": 51.549008,
         "longitude": 0.701608,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Southend United",
           "slogan": "The Shrimpers",
-          "foundingDate": "1906",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/southend-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1341.png",
@@ -1029,40 +593,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Thames Road",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/thames-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Canvey Island",
-          "addressRegion": "Essex",
-          "postalCode": "SS8 0HH",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3300,
         "latitude": 51.512539,
         "longitude": 0.575477,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Concord Rangers",
           "slogan": "The Beach Boys",
-          "foundingDate": "1967",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/concord-rangers"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8658.png",
@@ -1074,41 +619,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "The Walks Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/the-walks-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Tennyson Road",
-          "addressLocality": "Kings Lynn",
-          "addressRegion": "Norfolk",
-          "postalCode": "PE30 5PB",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 8200,
         "latitude": 52.750067,
         "longitude": 0.407411,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Kings Lynn Town",
           "slogan": "The Linnets",
-          "foundingDate": "2010",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/kings-lynn-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8655.png",
@@ -1120,41 +645,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Theobalds Lane",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/theobalds-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Theobalds Lane",
-          "addressLocality": "Waltham Cross",
-          "addressRegion": "Hertfordshire",
-          "postalCode": "EN8 8RU",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3500,
         "latitude": 51.694445,
         "longitude": -0.041577,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Cheshunt",
           "slogan": "The Ambers",
-          "foundingDate": "1946",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/cheshunt"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7708.png",
@@ -1166,40 +671,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Vauxhall Road",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/vauxhall-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Hemel Hempstead",
-          "addressRegion": "Hertfordshire",
-          "postalCode": "HP2 4HW",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3152,
         "latitude": 51.753881,
         "longitude": -0.444358,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Hemel Hempstead Town",
           "slogan": "The Tudors",
-          "foundingDate": "1885",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/hemel-hempstead-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8660.png",
@@ -1211,42 +697,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Woodside Park",
-        "priceRange": "££",
         "alternateName": "R & D Advisors UK Ltd Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/east-of-england/woodside-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Dunmow Road",
-          "addressLocality": "Bishops Stortford",
-          "addressRegion": "Essex",
-          "postalCode": "CM23 5RG",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4525,
         "latitude": 51.872673,
         "longitude": 0.191994,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Bishop's Stortford",
           "slogan": "The Blues",
-          "foundingDate": "1874",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/bishop-s-stortford"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7701.png",
@@ -1260,7 +726,6 @@
       }
     ]
   },
-
   {
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
@@ -1270,38 +735,18 @@
       {
         "@type": "StadiumOrArena",
         "name": "Beveree Stadium",
-        "priceRange": "££",
         "alternateName": "The Rocket Hospitality Beveree Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/beveree-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Hampton",
-          "addressRegion": "Middlesex",
-          "postalCode": "TW12 2BX",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3800,
         "latitude": 51.415191,
         "longitude": -0.363244,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Hampton & Richmond Borough",
           "slogan": "The Beavers",
-          "foundingDate": "1921",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/hampton-and-richmond-borough"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4680.png",
@@ -1313,40 +758,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Champion Hill",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/champion-hill"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "East Dulwich",
-          "addressRegion": "Surrey",
-          "postalCode": "SE22 8BD",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3334,
         "latitude": 51.461239,
         "longitude": -0.084018,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Dulwich Hamlet",
           "slogan": "The Hamlet",
-          "foundingDate": "1893",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/dulwich-hamlet"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8149.png",
@@ -1358,42 +784,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Coles Park",
-        "priceRange": "££",
         "alternateName": "CVS Van Hire Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/coles-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "White Hart Lane",
-          "addressLocality": "London",
-          "addressRegion": "Middlesex",
-          "postalCode": "N17 7JP",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2500,
         "latitude": 51.605623,
         "longitude": -0.09266,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Haringey Borough",
           "slogan": "The Borough",
-          "foundingDate": "1973",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/haringey-borough"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4681.png",
@@ -1405,40 +811,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Grosvenor Vale",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/grosvenor-vale"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Ruislip",
-          "addressRegion": "Middlesex",
-          "postalCode": "HA4 6JQ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4085,
         "latitude": 51.569398,
         "longitude": -0.416594,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Wealdstone",
           "slogan": "The Stones",
-          "foundingDate": "1899",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/wealdstone"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8663.png",
@@ -1450,41 +837,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Hayes Lane",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/hayes-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Hayes Lane",
-          "addressLocality": "Bromley",
-          "addressRegion": "Kent",
-          "postalCode": "BR2 9EF",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 5000,
         "latitude": 51.390084,
         "longitude": 0.021091,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Bromley",
           "slogan": "The Ravens",
-          "foundingDate": "1892",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/bromley"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1832.png",
@@ -1496,41 +863,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Hayes Lane",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/hayes-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Hayes Lane",
-          "addressLocality": "Bromley",
-          "addressRegion": "Kent",
-          "postalCode": "BR2 9EF",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 5000,
         "latitude": 51.390084,
         "longitude": 0.021091,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Cray Wanderers",
           "slogan": "The Wands",
-          "foundingDate": "1860",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/cray-wanderers"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7711.png",
@@ -1542,41 +889,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Hornchurch Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/hornchurch-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Bridge Avenue",
-          "addressLocality": "Upminster",
-          "addressRegion": "Essex",
-          "postalCode": "RM14 2LX",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3000,
         "latitude": 51.556557,
         "longitude": 0.23837,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Hornchurch",
           "slogan": "The Mighty Urchins",
-          "foundingDate": "1923",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/hornchurch"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7690.png",
@@ -1588,41 +915,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Imperial Fields",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/imperial-fields"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Bishopsford Road",
-          "addressLocality": "Morden",
-          "addressRegion": "Surrey",
-          "postalCode": "SM4 6BF",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3500,
         "latitude": 51.393231,
         "longitude": -0.172327,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Kingstonian",
           "slogan": "The Ks",
-          "foundingDate": "1885",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/kingstonian"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7725.png",
@@ -1634,42 +941,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "King George V Arena",
-        "priceRange": "££",
         "alternateName": "The United Business Group Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/king-george-v-arena"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Queen Mary Close",
-          "addressLocality": "Tolworth",
-          "addressRegion": "Surrey",
-          "postalCode": "KT6 7NA",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2000,
         "latitude": 51.372154,
         "longitude": -0.287229,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Corinthian-Casuals",
           "slogan": "The Casuals",
-          "foundingDate": "1939",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/corinthian-casuals"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7710.png",
@@ -1681,40 +968,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Park View Road",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/park-view-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Welling",
-          "addressRegion": "Kent",
-          "postalCode": "DA16 1SY",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4000,
         "latitude": 51.460326,
         "longitude": 0.116558,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Welling United",
           "slogan": "The Wings",
-          "foundingDate": "1963",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/welling-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8664.png",
@@ -1726,41 +994,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Queen Elizabeth II Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/queen-elizabeth-ii-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Donkey Lane",
-          "addressLocality": "Enfield",
-          "addressRegion": "Middlesex",
-          "postalCode": "EN1 3PL",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2500,
         "latitude": 51.659332,
         "longitude": -0.063843,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Enfield Town",
           "slogan": "The Towners",
-          "foundingDate": "2001",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/enfield-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7714.png",
@@ -1772,41 +1020,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "The Hive Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/the-hive-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Camrose Avenue",
-          "addressLocality": "Edgware",
-          "addressRegion": "Middlesex",
-          "postalCode": "HA8 6AG",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6418,
         "latitude": 51.602623,
         "longitude": -0.291743,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Barnet",
           "slogan": "The Bees",
-          "foundingDate": "1888",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/barnet"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1369.png",
@@ -1818,41 +1046,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "The Maurice Rebak Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/the-maurice-rebak-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Summers Lane",
-          "addressLocality": "Finchley",
-          "addressRegion": "Middlesex",
-          "postalCode": "N12 0PD",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 1500,
         "latitude": 51.606848,
         "longitude": -0.171497,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Wingate & Finchley",
           "slogan": "The Blues",
-          "foundingDate": "1991",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/wingate-and-finchley"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7759.png",
@@ -1864,42 +1072,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Victoria Road",
-        "priceRange": "££",
         "alternateName": "Chigwell Construction Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/victoria-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Victoria Road",
-          "addressLocality": "Dagenham",
-          "addressRegion": "Essex",
-          "postalCode": "RM10 7XL",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6078,
         "latitude": 51.547807,
         "longitude": 0.159913,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Dagenham & Redbridge",
           "slogan": "The Daggers",
-          "foundingDate": "1992",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/dagenham-and-redbridge"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1821.png",
@@ -1911,41 +1099,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "War Memorial Sports Ground",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/london/war-memorial-sports-ground"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Colston Avenue",
-          "addressLocality": "Sutton",
-          "addressRegion": "Surrey",
-          "postalCode": "SM5 2PW",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 5000,
         "latitude": 51.369704,
         "longitude": -0.17179,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Carshalton Athletic",
           "slogan": "The Robins",
-          "foundingDate": "1905",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/carshalton-athletic"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7707.png",
@@ -1959,7 +1127,6 @@
       }
     ]
   },
-
   {
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
@@ -1969,38 +1136,17 @@
       {
         "@type": "StadiumOrArena",
         "name": "Blackwell Meadows",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-east/blackwell-meadows"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Grange Road",
-          "addressLocality": "Darlington",
-          "addressRegion": "Durham",
-          "postalCode": "DL1 5NR",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3281,
         "latitude": 54.509449,
         "longitude": -1.564142,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Darlington",
           "slogan": "The Quakers",
-          "foundingDate": "1883",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/darlington"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8148.png",
@@ -2012,41 +1158,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Brewery Field",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-east/brewery-field"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Durham Road",
-          "addressLocality": "Spennymoor",
-          "addressRegion": "Durham",
-          "postalCode": "DL16 6JN",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3000,
         "latitude": 54.70451,
         "longitude": -1.599134,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Spennymoor Town",
           "slogan": "The Moors",
-          "foundingDate": "2005",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/spennymoor-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/3707.png",
@@ -2058,40 +1184,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Craik Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-east/craik-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Pegswood",
-          "addressLocality": "Morpeth",
-          "postalCode": "NE61 2YX",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3000,
         "latitude": 55.155982,
         "longitude": -1.708834,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Morpeth Town AFC",
           "slogan": "The Highwaymen",
-          "foundingDate": "1909",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/morpeth-town-afc"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7734.png",
@@ -2103,41 +1210,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Croft Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-east/croft-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Plessey Road",
-          "addressLocality": "Blyth",
-          "addressRegion": "Northumberland",
-          "postalCode": "NE24 3JE",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4130,
         "latitude": 55.120879,
         "longitude": -1.511217,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Blyth Spartans AFC",
           "slogan": "The Spartans",
-          "foundingDate": "1899",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/blyth-spartans-afc"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8650.png",
@@ -2149,41 +1236,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Gateshead International Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-east/gateshead-international-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Neilson Road",
-          "addressLocality": "Gateshead",
-          "addressRegion": "Durham",
-          "postalCode": "NE10 0EF",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 11800,
         "latitude": 54.96102,
         "longitude": -1.57967,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Gateshead",
           "slogan": "The Tynesiders",
-          "foundingDate": "1977",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/gateshead"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1823.png",
@@ -2195,41 +1262,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Mariners Park",
-        "priceRange": "££",
         "alternateName": "1st Cloud Arena",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-east/mariners-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Shaftesbury Avenue",
-          "addressLocality": "Jarrow",
-          "postalCode": "NE32 3UP",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3500,
         "latitude": 54.974526,
         "longitude": -1.470094,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "South Shields",
           "slogan": "The Mariners",
-          "foundingDate": "1888",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/south-shields"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7746.png",
@@ -2241,40 +1289,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Mount Pleasant",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-east/mount-pleasant"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Mount Pleasant Avenue",
-          "addressLocality": "Redcar",
-          "postalCode": "TS11 7BW",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2500,
         "latitude": 54.589177,
         "longitude": -1.016661,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Marske United",
           "slogan": "The Seasiders",
-          "foundingDate": "1956",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/marske-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7658.png",
@@ -2288,7 +1317,6 @@
       }
     ]
   },
-
   {
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
@@ -2298,38 +1326,18 @@
       {
         "@type": "StadiumOrArena",
         "name": "Alder House",
-        "priceRange": "££",
         "alternateName": "Skuna Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/alder-house"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Alder Street",
-          "addressLocality": "Manchester",
-          "postalCode": "M46 9FJ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2500,
         "latitude": 53.523522,
         "longitude": -2.484992,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Atherton Collieries",
           "slogan": "The Colls",
-          "foundingDate": "1916",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/atherton-collieries"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7694.png",
@@ -2341,40 +1349,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Boundary Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/boundary-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oldham",
-          "addressRegion": "Lancashire",
-          "postalCode": "OL1 2PA",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 13513,
         "latitude": 53.555148,
         "longitude": -2.128451,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Oldham Athletic",
           "slogan": "The Latics",
-          "foundingDate": "1895",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/oldham-athletic"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1349.png",
@@ -2386,40 +1375,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Bower Fold",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/bower-fold"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Mottram Road",
-          "addressLocality": "Stalybridge",
-          "postalCode": "SK15 2RT",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6500,
         "latitude": 53.475337,
         "longitude": -2.043855,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Stalybridge Celtic",
           "slogan": "The Celts",
-          "foundingDate": "1909",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/stalybridge-celtic"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7749.png",
@@ -2431,40 +1401,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Broadhurst Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/broadhurst-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Lightbowne Road",
-          "addressLocality": "Moston",
-          "postalCode": "M40 0FJ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4400,
         "latitude": 53.516649,
         "longitude": -2.180394,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "FC United of Manchester",
           "slogan": "The Reds",
-          "foundingDate": "2005",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/fc-united-of-manchester"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7754.png",
@@ -2476,35 +1427,17 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Cantilever Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/cantilever-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Common Lane",
-          "addressLocality": "Warrington",
-          "postalCode": "WA4 2RS",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2550,
         "latitude": 53.377071,
         "longitude": -2.569861,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Warrington Town",
           "slogan": "The Yellows",
-          "foundingDate": "1949",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/warrington-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
@@ -2520,42 +1453,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Deva Stadium",
-        "priceRange": "££",
         "alternateName": "Swansway Chester Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/deva-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Bumpers Lane",
-          "addressLocality": "Chester",
-          "addressRegion": "Cheshire",
-          "postalCode": "CH1 4LT",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 5400,
         "latitude": 53.189215,
         "longitude": -2.923496,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Chester",
           "slogan": "The Seals",
-          "foundingDate": "2010",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/chester"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1820.png",
@@ -2567,41 +1480,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Ewen Fields",
-        "priceRange": "££",
         "alternateName": "Project Solar Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/ewen-fields"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Walker Lane",
-          "addressLocality": "Hyde",
-          "postalCode": "SK14 5PL",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4250,
         "latitude": 53.450616,
         "longitude": -2.068183,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Hyde United",
           "slogan": "The Tigers",
-          "foundingDate": "1919",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/hyde-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4694.png",
@@ -2613,40 +1507,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Giant Axe",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/giant-axe"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "West Road",
-          "addressLocality": "Lancaster",
-          "postalCode": "LA1 5PE",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3513,
         "latitude": 54.051038,
         "longitude": -2.810882,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Lancaster City",
           "slogan": "The Dolly Blues",
-          "foundingDate": "1911",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/lancaster-city"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7726.png",
@@ -2658,41 +1533,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Haig Avenue",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/haig-avenue"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Haig Avenue",
-          "addressLocality": "Southport",
-          "addressRegion": "Lancashire",
-          "postalCode": "PR8 6JZ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6008,
         "latitude": 53.638109,
         "longitude": -2.978859,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Southport",
           "slogan": "The Sandgrounders",
-          "foundingDate": "1881",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/southport"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1826.png",
@@ -2704,41 +1559,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Hurst Cross",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/hurst-cross"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Surrey Street",
-          "addressLocality": "Ashton-under-Lyne",
-          "addressRegion": "Greater Manchester",
-          "postalCode": "OL6 8DY",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4250,
         "latitude": 53.501301,
         "longitude": -2.079707,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Ashton United",
           "slogan": "The Robins",
-          "foundingDate": "1878",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/ashton-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7693.png",
@@ -2750,41 +1585,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Mill Farm",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/mill-farm"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Coronation Way",
-          "addressLocality": "Wesham",
-          "addressRegion": "Lancashire",
-          "postalCode": "PR4 3JZ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6000,
         "latitude": 53.797367,
         "longitude": -2.889497,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "AFC Fylde",
           "slogan": "The Coasters",
-          "foundingDate": "1988",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/afc-fylde"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1839.png",
@@ -2796,42 +1611,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Moss Lane",
-        "priceRange": "££",
         "alternateName": "J. Davidson Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/moss-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Moss Lane",
-          "addressLocality": "Altrincham",
-          "addressRegion": "Cheshire",
-          "postalCode": "WA15 8AP",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 7873,
         "latitude": 53.383434,
         "longitude": -2.335159,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Altrincham",
           "slogan": "The Robins",
-          "foundingDate": "1891",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/altrincham"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4700.png",
@@ -2843,41 +1638,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Rossett Park",
-        "priceRange": "££",
         "alternateName": "The Marine Travel Arena",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/rossett-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "College Road",
-          "addressLocality": "Liverpool",
-          "postalCode": "L23 3AS",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2150,
         "latitude": 53.485173,
         "longitude": -3.033623,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Marine AFC",
           "slogan": "The Mariners",
-          "foundingDate": "1894",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/marine-afc"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7656.png",
@@ -2889,40 +1665,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Rylands Recreation Club",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/rylands-recreation-club"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Gorsey Lane",
-          "addressLocality": "Warrington",
-          "postalCode": "WA2 7SH",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 1345,
         "latitude": 53.4004,
         "longitude": -2.575604,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Warrington Rylands 1906",
           "slogan": "The Blues",
-          "foundingDate": "1906",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/warrington-rylands-1906"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8918.png",
@@ -2934,40 +1691,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Sir Tom Finney Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/sir-tom-finney-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Brownedge Road",
-          "addressLocality": "Preston",
-          "postalCode": "PR5 6UU",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3000,
         "latitude": 53.727892,
         "longitude": -2.671923,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Bamber Bridge",
           "slogan": "The Brig",
-          "foundingDate": "1952",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/bamber-bridge"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7695.png",
@@ -2979,40 +1717,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Stainton Park",
-        "priceRange": "££",
         "alternateName": "Neuven Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/stainton-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Radcliffe",
-          "postalCode": "M26 3TQ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4080,
         "latitude": 53.567592,
         "longitude": -2.340701,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Radcliffe",
           "slogan": "The Boro",
-          "foundingDate": "1949",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/radcliffe"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7740.png",
@@ -3024,41 +1744,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Tameside Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/tameside-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Richmond Street",
-          "addressLocality": "Ashton-under-Lyne",
-          "addressRegion": "Lancashire",
-          "postalCode": "OL7 9HG",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4200,
         "latitude": 53.494258,
         "longitude": -2.116084,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Curzon Ashton",
           "slogan": "The Nash",
-          "foundingDate": "1963",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/curzon-ashton"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4703.png",
@@ -3070,42 +1770,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Victory Park",
-        "priceRange": "££",
         "alternateName": "The Chorley Group Victory Park Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/victory-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Duke Street",
-          "addressLocality": "Chorley",
-          "addressRegion": "Lancashire",
-          "postalCode": "PR7 3DU",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4300,
         "latitude": 53.645567,
         "longitude": -2.629188,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Chorley",
           "slogan": "The Magpies",
-          "foundingDate": "1883",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/chorley"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4679.png",
@@ -3117,40 +1797,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Weaver Stadium",
-        "priceRange": "££",
         "alternateName": "Optimum Pay Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/north-west/weaver-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Nantwich",
-          "postalCode": "CW5 5BS",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3500,
         "latitude": 53.072687,
         "longitude": -2.52846,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Nantwich Town",
           "slogan": "The Dabbers",
-          "foundingDate": "1884",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/nantwich-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4697.png",
@@ -3164,7 +1826,6 @@
       }
     ]
   },
-
   {
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
@@ -3174,37 +1835,17 @@
       {
         "@type": "StadiumOrArena",
         "name": "Arbour Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/arbour-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Slough",
-          "addressRegion": "Buckinghamshire",
-          "postalCode": "SL2 5AY",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2000,
         "latitude": 51.5198622,
         "longitude": -0.5884198,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Slough Town",
           "slogan": "The Rebels",
-          "foundingDate": "1890",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/slough-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4685.png",
@@ -3216,41 +1857,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Cheriton Road",
-        "priceRange": "££",
         "alternateName": "The Buildkent Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/cheriton-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Folkestone",
-          "addressRegion": "Kent",
-          "postalCode": "CT19 5JU",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4000,
         "latitude": 51.086574,
         "longitude": 1.159508,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Folkestone Invicta",
           "slogan": "The Seasiders",
-          "foundingDate": "1936",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/folkestone-invicta"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7716.png",
@@ -3262,42 +1884,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Cherrywood Road",
-        "priceRange": "££",
         "alternateName": "Easy As HGV Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/cherrywood-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Cherrywood Road",
-          "addressLocality": "Farnborough",
-          "addressRegion": "Hampshire",
-          "postalCode": "GU14 8UD",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 7000,
         "latitude": 51.310449,
         "longitude": -0.762256,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Farnborough",
           "slogan": "Boro",
-          "foundingDate": "1967",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/farnborough"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7715.png",
@@ -3309,41 +1911,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Crabble Athletic Ground",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/crabble-athletic-ground"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Lewisham Road",
-          "addressLocality": "Dover",
-          "addressRegion": "Kent",
-          "postalCode": "CT17 0QJ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 5745,
         "latitude": 51.137804,
         "longitude": 1.284943,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Dover Athletic",
           "slogan": "The Whites",
-          "foundingDate": "1983",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/dover-athletic"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1829.png",
@@ -3355,41 +1937,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Gallagher Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/gallagher-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "James Whatman Way",
-          "addressLocality": "Maidstone",
-          "addressRegion": "Kent",
-          "postalCode": "ME14 1LQ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4200,
         "latitude": 51.28002,
         "longitude": 0.516091,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Maidstone United",
           "slogan": "The Stones",
-          "foundingDate": "1992",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/maidstone-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1825.png",
@@ -3401,41 +1963,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Hartsdown Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/hartsdown-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Tivoli Park Avenue",
-          "addressLocality": "Margate",
-          "addressRegion": "Kent",
-          "postalCode": "CT9 5QY",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2100,
         "latitude": 51.380459,
         "longitude": 1.373928,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Margate",
           "slogan": "The Gate",
-          "foundingDate": "1896",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/margate"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7730.png",
@@ -3447,42 +1989,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Hop Oast Stadium",
-        "priceRange": "££",
         "alternateName": "The Camping World Community Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/hop-oast-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Worthing Road",
-          "addressLocality": "Horsham",
-          "addressRegion": "Sussex",
-          "postalCode": "RH13 0AD",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 1980,
         "latitude": 51.046893,
         "longitude": -0.340681,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Horsham",
           "slogan": "The Hornets",
-          "foundingDate": "1871",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/horsham"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7723.png",
@@ -3494,42 +2016,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Kingfield Stadium",
-        "priceRange": "££",
         "alternateName": "The Laithwaite Community Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/kingfield-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Kingfield Road",
-          "addressLocality": "Woking",
-          "addressRegion": "Surrey",
-          "postalCode": "GU22 9AA",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6036,
         "latitude": 51.306298,
         "longitude": -0.558875,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Woking",
           "slogan": "The Cardinals",
-          "foundingDate": "1887",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/woking"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1836.png",
@@ -3541,42 +2043,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Longmead Stadium",
-        "priceRange": "££",
         "alternateName": "Halcyon Wealth Longmead Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/longmead-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Darenth Avenue",
-          "addressLocality": "Tonbridge",
-          "addressRegion": "Kent",
-          "postalCode": "TN10 3JW",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3000,
         "latitude": 51.211531,
         "longitude": 0.269116,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Tonbridge Angels",
           "slogan": "The Angels",
-          "foundingDate": "1947",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/tonbridge-angels"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8662.png",
@@ -3588,40 +2070,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Marsh Lane",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/marsh-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oxford",
-          "addressRegion": "Oxfordshire",
-          "postalCode": "OX3 0NQ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3500,
         "latitude": 51.773923,
         "longitude": -1.227743,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Oxford City",
           "slogan": "The Hoops",
-          "foundingDate": "1882",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/oxford-city"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1338.png",
@@ -3633,41 +2096,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Meadowbank",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/meadowbank"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Mill Lane",
-          "addressLocality": "Dorking",
-          "addressRegion": "Surrey",
-          "postalCode": "RH4 1DX",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3000,
         "latitude": 51.234444,
         "longitude": -0.333543,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Dorking Wanderers",
           "slogan": "The Wanderers",
-          "foundingDate": "1999",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/dorking-wanderers"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8659.png",
@@ -3679,40 +2122,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Nyewood Lane",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/nyewood-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Bognor Regis",
-          "addressRegion": "Sussex",
-          "postalCode": "PO21 2TY",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4500,
         "latitude": 50.786982,
         "longitude": -0.690213,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Bognor Regis Town",
           "slogan": "The Rocks",
-          "foundingDate": "1883",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/bognor-regis-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7703.png",
@@ -3724,42 +2148,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Princes Park",
-        "priceRange": "££",
         "alternateName": "Bericote Powerhouse Princes Park",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/princes-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Darenth Road",
-          "addressLocality": "Dartford",
-          "addressRegion": "Kent",
-          "postalCode": "DA1 1RT",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4100,
         "latitude": 51.437182,
         "longitude": 0.230837,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Dartford",
           "slogan": "The Darts",
-          "foundingDate": "1888",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/dartford"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4690.png",
@@ -3771,42 +2175,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Priory Lane",
-        "priceRange": "££",
         "alternateName": "SO Legal Community Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/priory-lane"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Priory Lane",
-          "addressLocality": "Eastbourne",
-          "addressRegion": "East Sussex",
-          "postalCode": "BN23 7QH",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 7000,
         "latitude": 50.80417,
         "longitude": 0.32078,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Eastbourne Borough",
           "slogan": "The Sports",
-          "foundingDate": "1954",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/eastbourne-borough"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4704.png",
@@ -3818,42 +2202,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Recreation Ground",
-        "priceRange": "££",
         "alternateName": "The EBB Stadium at the Recreation Ground",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/recreation-ground"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "High Street",
-          "addressLocality": "Aldershot",
-          "addressRegion": "Hampshire",
-          "postalCode": "GU11 1TW",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 7100,
         "latitude": 51.248415,
         "longitude": -0.754682,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Aldershot Town",
           "slogan": "The Shots",
-          "foundingDate": "1992",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/aldershot-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1818.png",
@@ -3865,42 +2229,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Spencer Stadium",
-        "priceRange": "££",
         "alternateName": "The Banbury Plant Hire Community Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/spencer-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Station Approach",
-          "addressLocality": "Banbury",
-          "addressRegion": "Northamptonshire",
-          "postalCode": "OX16 5AB",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6500,
         "latitude": 52.056796,
         "longitude": -1.325791,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Banbury United",
           "slogan": "The Puritans",
-          "foundingDate": "1931",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/banbury-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7696.png",
@@ -3912,41 +2256,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Stonebridge Road",
-        "priceRange": "££",
         "alternateName": "Kuflink Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/stonebridge-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Northfleet",
-          "addressRegion": "Kent",
-          "postalCode": "DA11 9GN",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4769,
         "latitude": 51.449556,
         "longitude": 0.32237,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Ebbsfleet United",
           "slogan": "The Fleet",
-          "foundingDate": "1946",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/ebbsfleet-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1840.png",
@@ -3958,42 +2283,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Ten Acres",
-        "priceRange": "££",
         "alternateName": "Silverlake Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/ten-acres"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Stoneham Lane",
-          "addressLocality": "Eastleigh",
-          "addressRegion": "Hampshire",
-          "postalCode": "SO50 9HT",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 5192,
         "latitude": 50.95229,
         "longitude": -1.372023,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Eastleigh",
           "slogan": "The Spitfires",
-          "foundingDate": "1946",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/eastleigh"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1822.png",
@@ -4005,41 +2310,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "The Dripping Pan",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/the-dripping-pan"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Mountfield Road",
-          "addressLocality": "Lewes",
-          "addressRegion": "Sussex",
-          "postalCode": "BN7 2XA",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3000,
         "latitude": 50.869019,
         "longitude": 0.012321,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Lewes",
           "slogan": "The Rooks",
-          "foundingDate": "1885",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/lewes"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7728.png",
@@ -4051,41 +2336,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "The Pilot Field",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/the-pilot-field"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Elphinstone Road",
-          "addressLocality": "Hastings",
-          "addressRegion": "Sussex",
-          "postalCode": "TN34 2AX",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4050,
         "latitude": 50.874501,
         "longitude": 0.587099,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Hastings United",
           "slogan": "The U's",
-          "foundingDate": "1893",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/hastings-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7231.png",
@@ -4097,41 +2362,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Town Ground",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/town-ground"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Bulpit Lane",
-          "addressLocality": "Hungerford",
-          "addressRegion": "Berkshire",
-          "postalCode": "RG17 0AY",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3034,
         "latitude": 51.408934,
         "longitude": -1.513463,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Hungerford Town",
           "slogan": "The Crusaders",
-          "foundingDate": "1886",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/hungerford-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8661.png",
@@ -4143,42 +2388,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Westleigh Park",
-        "priceRange": "££",
         "alternateName": "Draper Tools Community Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/westleigh-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Martin Road",
-          "addressLocality": "Havant",
-          "addressRegion": "Hampshire",
-          "postalCode": "PO9 5TH",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 5300,
         "latitude": 50.867087,
         "longitude": -0.974097,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Havant & Waterlooville",
           "slogan": "The Hawks",
-          "foundingDate": "1998",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/havant-and-waterlooville"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1843.png",
@@ -4190,42 +2415,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Winch's Field",
-        "priceRange": "££",
         "alternateName": "The MBS Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/winch-s-field"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Stanley Gardens",
-          "addressLocality": "Herne Bay",
-          "addressRegion": "Kent",
-          "postalCode": "CT6 5SG",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3000,
         "latitude": 51.364685,
         "longitude": 1.129948,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Herne Bay",
           "slogan": "The Bay",
-          "foundingDate": "1886",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/isthmian-league-premier-division/herne-bay"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Isthmian League Premier Division"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7232.png",
@@ -4237,42 +2442,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Woodside Road",
-        "priceRange": "££",
         "alternateName": "The Crucial Environmental Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/woodside-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Woodside Road",
-          "addressLocality": "Worthing",
-          "addressRegion": "West Sussex",
-          "postalCode": "BN14 7HQ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4000,
         "latitude": 50.82034,
         "longitude": -0.38482,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Worthing",
           "slogan": "The Rebels",
-          "foundingDate": "1886",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/worthing"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7661.png",
@@ -4284,40 +2469,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "York Road",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-east/york-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Maidenhead",
-          "addressRegion": "Berkshire",
-          "postalCode": "SL6 1SF",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4000,
         "latitude": 51.519889,
         "longitude": -0.717968,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Maidenhead United",
           "slogan": "The Magpies",
-          "foundingDate": "1870",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/maidenhead-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1838.png",
@@ -4331,7 +2497,6 @@
       }
     ]
   },
-
   {
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
@@ -4341,38 +2506,17 @@
       {
         "@type": "StadiumOrArena",
         "name": "Bob Lucas Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-west/bob-lucas-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Radipole Lane",
-          "addressLocality": "Worthing",
-          "addressRegion": "Dorset",
-          "postalCode": "DT4 9XJ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6600,
         "latitude": 50.619895,
         "longitude": -2.485182,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Weymouth",
           "slogan": "The Terras",
-          "foundingDate": "1890",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/weymouth"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8665.png",
@@ -4384,42 +2528,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Cygnet Stadium",
-        "priceRange": "££",
         "alternateName": "The Cygnet Health Care Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-west/cygnet-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Wordsworth Drive",
-          "addressLocality": "Taunton",
-          "addressRegion": "Somerset",
-          "postalCode": "TA1 2HG",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2500,
         "latitude": 51.016716,
         "longitude": -3.085107,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Taunton Town",
           "slogan": "The Peacocks",
-          "foundingDate": "1947",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/taunton-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4711.png",
@@ -4431,41 +2555,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Hardenhuish Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-west/hardenhuish-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Bristol Road",
-          "addressLocality": "Chippenham",
-          "addressRegion": "Wiltshire",
-          "postalCode": "SN14 6LR",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3000,
         "latitude": 51.465604,
         "longitude": -2.128737,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Chippenham Town",
           "slogan": "The Bluebirds",
-          "foundingDate": "1873",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/chippenham-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8147.png",
@@ -4477,41 +2581,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Huish Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-west/huish-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Lufton Way",
-          "addressLocality": "Yeovil",
-          "addressRegion": "Somerset",
-          "postalCode": "BA22 8YF",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 9565,
         "latitude": 50.950234,
         "longitude": -2.673974,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Yeovil Town",
           "slogan": "The Glovers",
-          "foundingDate": "1895",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/yeovil-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1377.png",
@@ -4523,42 +2607,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "New Meadow Park",
-        "priceRange": "££",
         "alternateName": "TigerTurf Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-west/new-meadow-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Sudmeadow Road",
-          "addressLocality": "Hempsted",
-          "addressRegion": "Gloucestershire",
-          "postalCode": "GL2 5HS",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4000,
         "latitude": 51.860324,
         "longitude": -2.262623,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Gloucester City AFC",
           "slogan": "The Tigers",
-          "foundingDate": "1883",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/gloucester-city-afc"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8653.png",
@@ -4570,41 +2634,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Plainmoor",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-west/plainmoor"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Marnham Road",
-          "addressLocality": "Torquay",
-          "addressRegion": "Devon",
-          "postalCode": "TQ1 3PS",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6104,
         "latitude": 50.476389,
         "longitude": -3.523874,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Torquay United AFC",
           "slogan": "The Gulls",
-          "foundingDate": "1899",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/torquay-united-afc"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1827.png",
@@ -4616,41 +2660,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Twerton Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/south-west/twerton-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Dominion Road",
-          "addressLocality": "Bath",
-          "addressRegion": "Somerset",
-          "postalCode": "BA2 1DB",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3528,
         "latitude": 51.378847,
         "longitude": -2.395037,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Bath City",
           "slogan": "The Romans",
-          "foundingDate": "1889",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-south/bath-city"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League South"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8657.png",
@@ -4664,7 +2688,6 @@
       }
     ]
   },
-
   {
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
@@ -4674,38 +2697,17 @@
       {
         "@type": "StadiumOrArena",
         "name": "Racecourse Ground",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/wales/racecourse-ground"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Mold Road",
-          "addressLocality": "Wrexham",
-          "addressRegion": "Denbighshire",
-          "postalCode": "LL11 2AH",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 10500,
         "latitude": 53.051961,
         "longitude": -3.003804,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Wrexham AFC",
           "slogan": "The Red Dragons",
-          "foundingDate": "1864",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/wrexham-afc"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1837.png",
@@ -4719,7 +2721,6 @@
       }
     ]
   },
-
   {
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
@@ -4729,38 +2730,17 @@
       {
         "@type": "StadiumOrArena",
         "name": "Aggborough",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/west-midlands/aggborough"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Hoo Road",
-          "addressLocality": "Kidderminster",
-          "addressRegion": "Worcestershire",
-          "postalCode": "DY10 1NB",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6238,
         "latitude": 52.380496,
         "longitude": -2.242639,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Kidderminster Harriers",
           "slogan": "The Kiddy",
-          "foundingDate": "1886",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/kidderminster-harriers"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4695.png",
@@ -4772,42 +2752,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Damson Park",
-        "priceRange": "££",
         "alternateName": "ARMCO Arena",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/west-midlands/damson-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Damson Parkway",
-          "addressLocality": "Solihull",
-          "addressRegion": "Warwickshire",
-          "postalCode": "B92 8PS",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4510,
         "latitude": 52.43892,
         "longitude": -1.75719,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Solihull Moors",
           "slogan": "The Moors",
-          "foundingDate": "2007",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/solihull-moors"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1834.png",
@@ -4819,40 +2779,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Edgar Street",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/west-midlands/edgar-street"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Hereford",
-          "addressRegion": "Herefordshire",
-          "postalCode": "HR4 9JU",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4913,
         "latitude": 52.06073,
         "longitude": -2.71774,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Hereford",
           "slogan": "The Bulls",
-          "foundingDate": "2014",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/hereford"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4692.png",
@@ -4864,39 +2805,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Marston Road",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/west-midlands/marston-road"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Stafford",
-          "postalCode": "ST16 3BX",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4000,
         "latitude": 52.818555,
         "longitude": -2.116846,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Stafford Rangers",
           "slogan": "The Rangers",
-          "foundingDate": "1876",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/stafford-rangers"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7748.png",
@@ -4908,41 +2831,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "New Bucks Head",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/west-midlands/new-bucks-head"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Haybridge Road",
-          "addressLocality": "Wellington",
-          "addressRegion": "Shropshire",
-          "postalCode": "TF1 2NW",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 6400,
         "latitude": 52.697376,
         "longitude": -2.501418,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "AFC Telford United",
           "slogan": "The Bucks",
-          "foundingDate": "2004",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/afc-telford-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/4688.png",
@@ -4954,42 +2857,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "New Windmill Ground",
-        "priceRange": "££",
         "alternateName": "Your Co-Op Community Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/west-midlands/new-windmill-ground"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Harbury Lane",
-          "addressLocality": "Leamington Spa",
-          "addressRegion": "Warwickshire",
-          "postalCode": "CV33 9SA",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2300,
         "latitude": 52.244306,
         "longitude": -1.502849,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Leamington",
           "slogan": "The Brakes",
-          "foundingDate": "1933",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/leamington"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8656.png",
@@ -5003,7 +2886,6 @@
       }
     ]
   },
-
   {
     "@context": "http://schema.org",
     "@type": "AdministrativeArea",
@@ -5013,37 +2895,17 @@
       {
         "@type": "StadiumOrArena",
         "name": "Clayborn Ground",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/clayborn-ground"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Quaker Lane",
-          "addressLocality": "Liversedge",
-          "postalCode": "WF15 8DF",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 2000,
         "latitude": 53.717658,
         "longitude": -1.711748,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Liversedge",
           "slogan": "The Sedge",
-          "foundingDate": "1910",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/liversedge"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8853.png",
@@ -5055,40 +2917,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Flamingo Land Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/flamingo-land-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Scarborough",
-          "addressRegion": "West Yorkshire",
-          "postalCode": "YO11 2JW",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3252,
         "latitude": 54.268845,
         "longitude": -0.413472,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Scarborough Athletic",
           "slogan": "The Seadogs",
-          "foundingDate": "2007",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/scarborough-athletic"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/7745.png",
@@ -5100,40 +2943,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Glanford Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/glanford-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Jack Brownsword Way",
-          "addressLocality": "Scunthorpe",
-          "postalCode": "DN15 8TD",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 9088,
         "latitude": 53.5866564,
         "longitude": -0.6953374,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Scunthorpe United",
           "slogan": "The Iron",
-          "foundingDate": "1899",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/scunthorpe-united"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1340.png",
@@ -5145,41 +2969,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Horsfall Community Stadium",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/horsfall-community-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Cemetery Road",
-          "addressLocality": "Bradford",
-          "addressRegion": "West Yorkshire",
-          "postalCode": "BD6 2NG",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3500,
         "latitude": 53.758876,
         "longitude": -1.776174,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Bradford (Park Avenue) AFC",
           "slogan": "The Green Army",
-          "foundingDate": "1907",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/bradford-park-avenue-afc"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8651.png",
@@ -5191,40 +2995,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Nethermoor Park",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/nethermoor-park"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Otley Road",
-          "addressLocality": "Guiseley",
-          "postalCode": "LS20 8BT",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 4021,
         "latitude": 53.877202,
         "longitude": -1.719401,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Guiseley AFC",
           "slogan": "The Lions",
-          "foundingDate": "1909",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/guiseley-afc"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1824.png",
@@ -5236,41 +3021,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "The Citadel",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/the-citadel"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Newlands",
-          "addressLocality": "Farsley",
-          "addressRegion": "West Yorkshire",
-          "postalCode": "LS28 5BE",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3900,
         "latitude": 53.80972,
         "longitude": -1.664219,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Farsley Celtic",
           "slogan": "The Celt Army",
-          "foundingDate": "1908",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league-north/farsley-celtic"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League North"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/8652.png",
@@ -5282,41 +3047,21 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "The Shay",
-        "priceRange": "££",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/the-shay"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Shaw Hill",
-          "addressLocality": "Halifax",
-          "addressRegion": "West Yorkshire",
-          "postalCode": "HX1 2YT",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 10401,
         "latitude": 53.716191,
         "longitude": -1.859217,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "FC Halifax Town",
           "slogan": "The Shaymen",
-          "foundingDate": "2008",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/fc-halifax-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1841.png",
@@ -5328,36 +3073,18 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "Turnbull Ground",
-        "priceRange": "££",
         "alternateName": "Towbar Express Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/turnbull-ground"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Upgang Lane",
-          "addressLocality": "Whitby",
-          "postalCode": "YO21 3HZ",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 3500,
         "latitude": 54.489984,
         "longitude": -0.627549,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "Whitby Town",
           "slogan": "The Seasiders",
-          "foundingDate": "1880",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/northern-premier-league/whitby-town"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "Northern Premier League"
@@ -5373,41 +3100,22 @@
           }
         }
       },
+
       {
         "@type": "StadiumOrArena",
         "name": "York Community Stadium",
-        "priceRange": "££",
         "alternateName": "LNER Community Stadium",
-        "identifier": {
-          "@type": "URL",
-          "@value": "https://www.nonleaguegrounds.com/grounds/yorkshire-and-the-humber/york-community-stadium"
-        },
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Kathyrn Avenue",
-          "addressLocality": "York",
-          "postalCode": "YO32 9AF",
-          "addressCountry": "GB"
-        },
         "maximumAttendeeCapacity": 8005,
         "latitude": 53.98434,
         "longitude": -1.052927,
         "subOrganization": {
-          "@context": "https://schema.org",
           "@type": "SportsTeam",
           "name": "York City",
           "slogan": "The Minstermen",
-          "foundingDate": "1922",
-
-          "identifier": {
-            "@type": "URL",
-            "@value": "https://www.nonleaguegrounds.com/national-league/york-city"
-          },
           "memberOf": {
             "@type": "SportsOrganization",
             "name": "National League"
           },
-
           "logo": {
             "@type": "ImageObject",
             "contentUrl": "https://media.api-sports.io/football/teams/1828.png",
