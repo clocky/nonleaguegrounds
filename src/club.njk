@@ -53,7 +53,7 @@ eleventyComputed:
       <style>
         section .hero-body {
           background: linear-gradient(135deg, {%- if club.owns.color.length == 2 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[0] }} 15.01rem, {{ club.owns.color[0] }} 15.50rem, rgba(0,0,0,0) 15.51rem, rgba(0,0,0,0) 100% {%- elif club.owns.color.length == 3 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[2] }} 15.01rem, {{ club.owns.color[2] }} 15.50rem, rgba(0,0,0,0) 15.51rem, rgba(0,0,0,0) 100% {%- else %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 15.5rem, rgba(0,0,0,0) 15.51rem,  rgba(0,0,0,0) 100% {%- endif %});
-          z-index: 16;
+          z-index: 1;
         }
       </style>
   {%- endif %}
@@ -68,12 +68,15 @@ eleventyComputed:
   <section class="hero {{ background }} has-background is-medium">
     {% if club.image %}
       {# 640, 768, 1024, 1366, 1600, 1920 #}
-      {% image "./src/_assets/img/flickr/" + club.image.contentUrl, [ 640, 768, 1024, 1366, 1600 ], [ "avif", "jpeg" ], club.name, "100vw", "clubs" %}
+      {% image "./src/_assets/img/flickr/" + club.image.contentUrl, [ 640, 768, 1024, 1366, 1600 ], [ "avif", "jpeg" ], club.name, "100vw", "clubs", "hero-background is-transparent" %}
     {% endif %}
     <div class="hero-body">
       <div class="container has-text-left">
         {% set padding = "p-4" if club.image or club.owns %}
-        <h1 class="title has-background-white is-inline-block has-text-weight-bold is-size-2 is-size-3-mobile {{ padding }}">{{ club.alternateName }}</h1>
+
+        <h1 class="title has-background-white is-inline-block has-text-weight-bold is-size-2 is-size-3-mobile {{ padding }}">
+          {{ club.alternateName }}
+        </h1>
       </div>
     </div>
   </section>
@@ -91,6 +94,7 @@ eleventyComputed:
               <span class="icon is-{{ network | lower }}">
                 <i class="fab fa-{{ network | lower }}"></i>
               </span>
+              <span>{{ user }}</span>
             </a>
           </div>
         {% endfor %}
@@ -115,9 +119,11 @@ eleventyComputed:
 {% endblock %}
 
 {% block main %}
-  <div class="container">
+  <div class="container is-max-desktop">
     <div class="columns is-variable is-8">
-      <article class="column is-half">
+      <article class="column is-two-thirds"> 
+        {% image club.logo.contentUrl, [48,96], ["webp", "png"], club.name, "48px", "crests" %}
+
         <p class="block is-size-5">
           <strong>{{- club.alternateName -}}</strong>
           {% if club.keywords %} is a {{ club.keywords }}{%- else -%} is an {%- endif %}
@@ -162,26 +168,24 @@ eleventyComputed:
 
       </article>
 
-      <aside class="column is-one-quarter">
+      <aside class="column is-one-third">
         <div>
+          <h4 class="heading mt-1">Ground</h4>
+          <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}/">
+            <figure class="image is-4by3 mb-3">
+              <img src="{% staticmap club.location.latitude + "," + club.location.longitude, 320, 240, 17, 1, "satellite" %}">
+            </figure>
+            <p class="block mb-3 has-text-weight-medium">
+              {{ club.location.name }} →
+            </p>
+          </a>
           <h4 class="heading">Nickname</h4>
           <p class="block">{{ club.slogan }}</p>
           <h4 class="heading">Founded</h4>
           <p class="block">
             <time datetime="YYYY">{{ club.foundingDate }}</time>
           </p>
-          <h4 class="heading">Ground</h4>
-          <p class="block">
-            <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}/">
-              {{ club.location.name }}
-            </a>
-          </p>
         </div>
-      </aside>
-      <aside class="column is-one-quarter">
-          {% if club.owns %}
-            {{ product(club.owns)}}
-          {% endif %}
       </aside>
     </div>
   </div>
