@@ -45,6 +45,7 @@ module.exports = function (eleventyConfig) {
       "https://www.facebook.com/*", // Gives a 302 error with Location:
       "https://www.youtube.com/channel/*",
       "https://twitter.com/*",
+      "https://www.venuetoolbox.com/*", // 404's even though it's valid
       "https://soundcloud.com/*", // Gives a 302 error
       "https://www.instagram.com/*", // Gives a 429 error
       "https://altrinchamfc.com/*", // Avoid cdn.shopify.com error
@@ -165,13 +166,14 @@ module.exports = function (eleventyConfig) {
   };
 };
 
-async function imageShortcode(src, widths, formats, alt, sizes, urlPath) {
+async function imageShortcode(src, widths, formats, alt, sizes, urlPath, css) {
   const slug = slugify(alt, { lower: true, strict: true });
   let metadata = await Image(src, {
     widths: widths,
     urlPath: `/img/${urlPath}`,
     outputDir: `dist/img/${urlPath}`,
     formats: formats,
+    css: css,
     cacheDuration: "1y",
     filenameFormat: function (id, src, width, format, options, alt) {
       return `${slug}-${width}w.${format}`;
@@ -181,7 +183,7 @@ async function imageShortcode(src, widths, formats, alt, sizes, urlPath) {
   let imageAttributes = {
     alt,
     sizes,
-    class: "hero-background is-transparent",
+    class: css,
     loading: "lazy",
     decoding: "async",
   };
