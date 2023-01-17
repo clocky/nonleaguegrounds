@@ -21,8 +21,8 @@
     },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "name": "5",
-      "value": "tier"
+      "name": "tier",
+      "value": "5"
     },
     "members": [
       {
@@ -481,8 +481,8 @@
     },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "name": "6",
-      "value": "tier"
+      "name": "tier",
+      "value": "6"
     },
     "members": [
       {
@@ -941,8 +941,8 @@
     },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "name": "6",
-      "value": "tier"
+      "name": "tier",
+      "value": "6"
     },
     "members": [
       {
@@ -1401,8 +1401,8 @@
     },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "name": "7",
-      "value": "tier"
+      "name": "tier",
+      "value": "7"
     },
     "members": [
       {
@@ -1825,8 +1825,8 @@
     },
     "additionalProperty": {
       "@type": "PropertyValue",
-      "name": "7",
-      "value": "tier"
+      "name": "tier",
+      "value": "7"
     },
     "members": [
       {
