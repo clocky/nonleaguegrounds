@@ -38,7 +38,7 @@ apple %}
     <div class="level">
       <div class="level-left">
         <div class="level-item">
-          <a href="{{ google(ground) }}" rel="noopener" target="_blank" class="button is-light" aria-label="Open in Google Maps">
+          <a href="{{ google(ground) }}" rel="noopener" target="_blank" class="button is-white" aria-label="Open in Google Maps">
             <span class="icon is-google">
               <i class="fab fa-google"></i>
             </span>
@@ -46,7 +46,7 @@ apple %}
           </a>
         </div>
         <div class="level-item">
-          <a href="{{ apple(ground) }}" rel="noopener" target="_blank" class="button is-light" aria-label="Open in Apple Maps">
+          <a href="{{ apple(ground) }}" rel="noopener" target="_blank" class="button is-white" aria-label="Open in Apple Maps">
             <span class="icon is-apple">
               <i class="fab fa-apple"></i>
             </span>
@@ -54,7 +54,7 @@ apple %}
           </a>
         </div>
         <div class="level-item">
-          <a href="{{ bing(ground) }}" rel="noopener" target="_blank" class="button is-light" aria-label="Open in Bing Maps">
+          <a href="{{ bing(ground) }}" rel="noopener" target="_blank" class="button is-white" aria-label="Open in Bing Maps">
             <span class="icon is-microsoft">
               <i class="fab fa-microsoft"></i>
             </span>
@@ -62,7 +62,7 @@ apple %}
           </a>
         </div>
         <div class="level-item">
-          <a href="{{ osm(ground) }}" rel="noopener" target="_blank" class="button is-light" aria-label="Open in Open Street Maps">
+          <a href="{{ osm(ground) }}" rel="noopener" target="_blank" class="button is-white" aria-label="Open in Open Street Maps">
             <span class="icon is-openstreetmap">
               <i class="fa-solid fa-map"></i>
             </span>
@@ -81,7 +81,7 @@ apple %}
     {% image url, [640, 768, 1024, 1366, 1600], ["avif", "jpeg"], ground.name, "100vw", "grounds" %}
     <div class="hero-body">
       <div class="container has-text-left">
-        <h1 class="title has-background-white is-inline-block has-text-weight-bold p-4 is-size-2">{{ ground.name | replace(" ", "\n") | nl2br | safe }}</h1>
+        <h1 class="title has-background-white is-inline-block has-text-weight-bold p-4 is-size-2">{{ ground.name | safe }}</h1>
       </div>
     </div>
   </section>
@@ -92,9 +92,9 @@ apple %}
 {% endblock %}
 
 {% block main %}
-  <div class="container">
+  <div class="container is-max-desktop">
     <div class="columns is-variable is-8">
-      <section class="column is-half">
+      <section class="column is-two-thirds">
         <p class="block is-size-5">
           <strong>{{ ground.name }}</strong>
           {%- if ground.sponsor %}, officially known as <strong>{{ ground.sponsor.name | safe }}</strong> for sponsorship reasons, {% endif %}
@@ -120,7 +120,7 @@ apple %}
             {# 640, 768, 1024, 1366, 1600, 1920 #}
             {% set url %}{% staticmap ground.latitude +"," + ground.longitude, 640, 360, 16, 2 %}{% endset %}
             <!-- source: {{ url | safe }} -->
-            {% image url, [640, 768, 1024], ["webp", "png"], ground.name, "50vw", "maps" %}
+            {% image url, [640, 768, 1024], ["webp", "png"], ground.name, "50vw", "maps", "hero-background is-transparent" %}
           </figure>
           <figcaption>
             <p class="heading">Google map view of {{ ground.alternateName if ground.alternateName else ground.name }}</p>
@@ -145,7 +145,7 @@ apple %}
         {% endif %}
         {%- endif %}
       </section>
-      <aside class="column is-one-quarter">
+      <aside class="column is-one-third">
         {%- for club in ground.subOrganization %}
           <h4 class="heading">Address</h4>
           <p class="has-text-weight-semibold"> {{ club.alternateName }}</p>
@@ -169,37 +169,6 @@ apple %}
           </div>
         {% endfor %}
       </aside>
-      <section class="column is-one-quarter">
-        <h4 class="heading">Nearby clubs</h4>
-        <ul>
-          {% set count = 0%}
-          {% for away in grounds %}
-            {% set distance %}
-            {% distance ground.latitude,
-            ground.longitude,
-            away.latitude,
-            away.longitude %}
-            {% endset %}
-            {% if distance < 15 and away.name != ground.name %}
-              <li>
-                {% for club in clubs %}
-                  {% if club.location.name == away.name %}
-                    <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
-                    {% set count = count + 1 %}
-                  {% endif %}
-                {% endfor %}
-                {# <a href="/regions/{{ away.areaServed.name | slugify }}/{{ away.name|slugify }}">{{ away.name }}</a> #}
-                <span class="tag">{{ distance | round(1) }} mi</span>
-              </li>
-            {% endif %}
-          {% endfor %}
-          {% if count == 0 %}
-            <li>
-              No grounds found within a 10 mile radius.
-          </li>
-          {% endif %}
-        </ul>
-      </section>
     </div>
   </div>
 
