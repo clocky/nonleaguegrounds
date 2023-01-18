@@ -79,7 +79,7 @@ eleventyComputed:
           <h4>History</h4>
           {% for sentence in club.description.split(". ") %}
           <p>
-            {{ sentence }}{% if not loop.last %}.{% endif %}
+            {{ sentence | safe }}{% if not loop.last %}.{% endif %}
           </p>
           {% endfor %}
         {% endif %}
