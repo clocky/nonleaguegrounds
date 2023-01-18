@@ -59,8 +59,8 @@ eleventyComputed:
             <td class="is-hidden-mobile">
               {% for ground in region
                 .geoContains
-                .slice(0, 4) | sort(attribute = "address.addressLocality") %}
-                {{- ground.address.addressLocality }}
+                .slice(0, 4) | sort(attribute = "subOrganization.name") %}
+                {{- ground.subOrganization.name }}
                 {%- if not loop.last %}, {% endif %}
               {% endfor %}
               {% if region.geoContains.length > 4 %}
