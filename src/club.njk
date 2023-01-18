@@ -61,8 +61,6 @@ eleventyComputed:
           {%- if club.location.address.addressRegion -%}
             , {{ club.location.address.addressRegion }}
           {%- endif -%}.
-        </p>
-        <p>
           Founded {{ club.foundingDate | ago }} years ago in {{ club.foundingDate }}, the team currently compete in the
           <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
             {{ club.memberOf.name }}</a>, 
@@ -75,6 +73,15 @@ eleventyComputed:
           <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
           and are nicknamed <strong>"{{ club.slogan }}"</strong>.
         </p>
+
+        {%- if club.owns and club.owns.brand %}
+          <p>
+          The team's playing kit is manufactured by <strong>{{ club.owns.brand }}</strong>
+          {%- if club.owns.material %} and is made of {{ club.owns.material -}} 
+          {%- endif -%}
+          .</p>
+        {%- endif %}
+
         {% if club.description %}
           <h4>History</h4>
           {% for sentence in club.description.split(". ") %}
