@@ -19,26 +19,16 @@
       "width": 150,
       "height": 150
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://nonleaguegrounds.com/national-league"
-    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "name": "tier",
-      "@value": 5
+      "value": "5"
     },
     "members": [
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Altrincham",
         "slogan": "The Robins",
-        "sameAs": [
-          "https://twitter.com/altrinchamfc/",
-          "https://www.facebook.com/officialalty",
-          "https://www.instagram.com/altrinchamfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4700.png",
@@ -48,31 +38,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1891",
-        "url": "https://altrinchamfc.com",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/altrincham"
-        },
         "location": {
           "latitude": 53.383434,
           "longitude": -2.335159
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Aldershot Town",
         "slogan": "The Shots",
-        "sameAs": [
-          "https://twitter.com/OfficialShots/",
-          "https://www.facebook.com/AldershotTownFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1818.png",
@@ -82,31 +56,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1992",
-        "url": "https://www.theshots.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/aldershot-town"
-        },
         "location": {
           "latitude": 51.248415,
           "longitude": -0.754682
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Barnet",
         "slogan": "The Bees",
-        "sameAs": [
-          "https://twitter.com/BarnetFC/",
-          "https://www.facebook.com/BarnetFootballClub"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1369.png",
@@ -116,31 +74,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1888",
-        "url": "https://www.barnetfc.com",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/barnet"
-        },
         "location": {
           "latitude": 51.602623,
           "longitude": -0.291743
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Boreham Wood",
         "slogan": "The Wood",
-        "sameAs": [
-          "https://twitter.com/BOREHAM_WOODFC/",
-          "https://www.facebook.com/BorehamWoodFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1830.png",
@@ -150,32 +92,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1948",
-        "url": "https://www.borehamwoodfootballclub.co.uk",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/boreham-wood"
-        },
         "location": {
           "latitude": 51.661937,
           "longitude": -0.272375
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bromley",
         "slogan": "The Ravens",
-        "sameAs": [
-          "https://twitter.com/bromleyfc/",
-          "https://www.facebook.com/bromleyfc",
-          "https://www.instagram.com/bromleyfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1832.png",
@@ -185,33 +110,15 @@
           "width": 130,
           "height": 130
         },
-        "foundingDate": "1892",
-        "url": "https://www.bromleyfc.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/bromley"
-        },
         "location": {
           "latitude": 51.390084,
           "longitude": 0.021091
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Chesterfield",
         "slogan": "The Spireites",
-        "sameAs": [
-          "https://twitter.com/ChesterfieldFC/",
-          "https://www.facebook.com/ChesterfieldFC",
-          "https://www.instagram.com/ChesterfieldFC/",
-          "https://www.youtube.com/channel/UC6hnRkCdElagLJlOqlgukPA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1345.png",
@@ -221,31 +128,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1919",
-        "url": "https://chesterfield-fc.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/chesterfield"
-        },
         "location": {
           "latitude": 53.253583,
           "longitude": -1.425761
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Dagenham & Redbridge",
         "slogan": "The Daggers",
-        "sameAs": [
-          "https://twitter.com/Dag_RedFC/",
-          "https://www.facebook.com/OfficialDaggers"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1821.png",
@@ -255,33 +146,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1992",
-        "url": "https://daggers.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/dagenham-and-redbridge"
-        },
         "location": {
           "latitude": 51.547807,
           "longitude": 0.159913
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Dorking Wanderers",
         "slogan": "The Wanderers",
-        "sameAs": [
-          "https://twitter.com/DorkingWDRS/",
-          "https://www.facebook.com/DorkingWanderersFC",
-          "https://www.instagram.com/dwfcofficial/",
-          "https://www.youtube.com/channel/UC_i2iAybzL7Q_KeNPu6P3pA"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8659.png",
@@ -291,31 +164,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1999",
-        "url": "https://www.dorkingwanderers.com",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/dorking-wanderers"
-        },
         "location": {
           "latitude": 51.234444,
           "longitude": -0.333543
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Eastleigh",
         "slogan": "The Spitfires",
-        "sameAs": [
-          "https://twitter.com/eastleighfc/",
-          "https://www.facebook.com/eastleighfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1822.png",
@@ -325,31 +182,15 @@
           "width": 130,
           "height": 130
         },
-        "foundingDate": "1946",
-        "url": "https://www.eastleighfc.com",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/eastleigh"
-        },
         "location": {
           "latitude": 50.95229,
           "longitude": -1.372023
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "FC Halifax Town",
         "slogan": "The Shaymen",
-        "sameAs": [
-          "https://twitter.com/FCHTOnline/",
-          "https://www.facebook.com/FCHTOnline"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1841.png",
@@ -359,28 +200,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2008",
-        "url": "https://fchalifaxtown.com",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/fc-halifax-town"
-        },
         "location": {
           "latitude": 53.716191,
           "longitude": -1.859217
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Gateshead",
         "slogan": "The Tynesiders",
-        "sameAs": ["https://twitter.com/GatesheadFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1823.png",
@@ -390,31 +218,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1977",
-        "url": "https://gateshead-fc.com",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/gateshead"
-        },
         "location": {
           "latitude": 54.96102,
           "longitude": -1.57967
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Maidenhead United",
         "slogan": "The Magpies",
-        "sameAs": [
-          "https://twitter.com/MUFCYorkRoad/",
-          "https://www.facebook.com/MUFCYorkRoad"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1838.png",
@@ -424,28 +236,15 @@
           "width": 150,
           "height": 120
         },
-        "foundingDate": "1870",
-        "url": "https://maidenheadunitedfc.ktckts.com",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/maidenhead-united"
-        },
         "location": {
           "latitude": 51.519889,
           "longitude": -0.717968
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Maidstone United",
         "slogan": "The Stones",
-        "sameAs": ["https://twitter.com/maidstoneunited/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1825.png",
@@ -455,27 +254,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1992",
-        "url": "https://maidstoneunited.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/maidstone-united"
-        },
         "location": {
           "latitude": 51.28002,
           "longitude": 0.516091
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Notts County",
         "slogan": "The Magpies",
-        "sameAs": ["https://twitter.com/Official_NCFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1376.png",
@@ -485,31 +272,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1862",
-        "url": "https://www.nottscountyfc.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/notts-county"
-        },
         "location": {
           "latitude": 52.942672,
           "longitude": -1.137151
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Oldham Athletic",
         "slogan": "The Latics",
-        "sameAs": [
-          "https://twitter.com/OfficialOAFC/",
-          "https://www.facebook.com/OfficialOAFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1349.png",
@@ -519,28 +290,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1895",
-        "url": "https://www.oldhamathletic.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/oldham-athletic"
-        },
         "location": {
           "latitude": 53.555148,
           "longitude": -2.128451
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Solihull Moors",
         "slogan": "The Moors",
-        "sameAs": ["https://twitter.com/SolihullMoors/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1834.png",
@@ -550,28 +308,15 @@
           "width": 150,
           "height": 144
         },
-        "foundingDate": "2007",
-        "url": "https://www.solihullmoorsfc.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/solihull-moors"
-        },
         "location": {
           "latitude": 52.43892,
           "longitude": -1.75719
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Southend United",
         "slogan": "The Shrimpers",
-        "sameAs": ["https://twitter.com/SUFCRootsHall/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1341.png",
@@ -581,28 +326,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1906",
-        "url": "https://www.southendunited.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/southend-united"
-        },
         "location": {
           "latitude": 51.549008,
           "longitude": 0.701608
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Scunthorpe United",
         "slogan": "The Iron",
-        "sameAs": ["https://twitter.com/SUFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1340.png",
@@ -612,28 +344,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1899",
-        "url": "https://www.scunthorpe-united.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/scunthorpe-united"
-        },
         "location": {
           "latitude": 53.5866564,
           "longitude": -0.6953374
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Torquay United AFC",
         "slogan": "The Gulls",
-        "sameAs": ["https://twitter.com/TUFC1899/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1827.png",
@@ -643,31 +362,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1899",
-        "url": "https://torquayunited.com",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/torquay-united-afc"
-        },
         "location": {
           "latitude": 50.476389,
           "longitude": -3.523874
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Wealdstone",
         "slogan": "The Stones",
-        "sameAs": [
-          "https://twitter.com/WealdstoneFC/",
-          "https://www.facebook.com/wealdstonefootballclub"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8663.png",
@@ -677,28 +380,15 @@
           "width": 140,
           "height": 144
         },
-        "foundingDate": "1899",
-        "url": "https://www.wealdstone-fc.com",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/wealdstone"
-        },
         "location": {
           "latitude": 51.569398,
           "longitude": -0.416594
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Woking",
         "slogan": "The Cardinals",
-        "sameAs": ["https://twitter.com/wokingfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1836.png",
@@ -708,28 +398,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1887",
-        "url": "https://wokingfc.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/woking"
-        },
         "location": {
           "latitude": 51.306298,
           "longitude": -0.558875
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Wrexham AFC",
         "slogan": "The Red Dragons",
-        "sameAs": ["https://twitter.com/Wrexham_AFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1837.png",
@@ -739,28 +416,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1864",
-        "url": "https://www.wrexhamafc.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/wrexham-afc"
-        },
         "location": {
           "latitude": 53.051961,
           "longitude": -3.003804
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Wales"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Yeovil Town",
         "slogan": "The Glovers",
-        "sameAs": ["https://twitter.com/YTFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1377.png",
@@ -770,28 +434,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1895",
-        "url": "https://www.ytfc.net",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/yeovil-town"
-        },
         "location": {
           "latitude": 50.950234,
           "longitude": -2.673974
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "York City",
         "slogan": "The Minstermen",
-        "sameAs": ["https://twitter.com/YorkCityFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1828.png",
@@ -801,20 +452,9 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1922",
-        "url": "https://yorkcityfootballclub.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league/york-city"
-        },
         "location": {
           "latitude": 53.98434,
           "longitude": -1.052927
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       }
     ]
@@ -839,22 +479,16 @@
       "width": 533,
       "height": 150
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://nonleaguegrounds.com/national-league-north"
-    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "name": "tier",
-      "@value": 6
+      "value": "6"
     },
     "members": [
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "AFC Fylde",
         "slogan": "The Coasters",
-        "sameAs": ["https://twitter.com/AFCFylde/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1839.png",
@@ -864,28 +498,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1988",
-        "url": "https://www.afcfylde.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/afc-fylde"
-        },
         "location": {
           "latitude": 53.797367,
           "longitude": -2.889497
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "AFC Telford United",
         "slogan": "The Bucks",
-        "sameAs": ["https://twitter.com/telfordutd/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4688.png",
@@ -895,27 +516,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2004",
-        "url": "https://www.telfordunited.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/afc-telford-united"
-        },
         "location": {
           "latitude": 52.697376,
           "longitude": -2.501418
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Alfreton Town",
         "slogan": "The Reds",
-        "sameAs": ["https://twitter.com/AlfretonTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4677.png",
@@ -925,30 +534,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1959",
-        "url": "https://alfretontownfootballclub.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/alfreton-town"
-        },
         "location": {
           "latitude": 53.094516,
           "longitude": -1.381251
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Banbury United",
         "slogan": "The Puritans",
-        "sameAs": [
-          "https://twitter.com/BanburyUnitedFC/",
-          "https://www.facebook.com/BanburyUnitedFCOfficial"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7696.png",
@@ -958,27 +552,15 @@
           "width": 100,
           "height": 93
         },
-        "foundingDate": "1931",
-        "url": "https://www.banburyunitedfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/banbury-united"
-        },
         "location": {
           "latitude": 52.056796,
           "longitude": -1.325791
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Blyth Spartans AFC",
         "slogan": "The Spartans",
-        "sameAs": ["https://twitter.com/Blyth_Spartans/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8650.png",
@@ -988,27 +570,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1899",
-        "url": "https://www.blythspartans.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/blyth-spartans-afc"
-        },
         "location": {
           "latitude": 55.120879,
           "longitude": -1.511217
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Boston United",
         "slogan": "The Pilgrims",
-        "sameAs": ["https://twitter.com/bostonunited/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8146.png",
@@ -1018,28 +588,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1933",
-        "url": "https://www.bostonunited.co.uk",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/boston-united"
-        },
         "location": {
           "latitude": 52.956335,
           "longitude": -0.028533
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Brackley Town",
         "slogan": "The Saints",
-        "sameAs": ["https://twitter.com/BrackleyTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4701.png",
@@ -1049,27 +606,15 @@
           "width": 100,
           "height": 100
         },
-        "foundingDate": "1930",
-        "url": "https://brackleytownfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/brackley-town"
-        },
         "location": {
           "latitude": 52.024613,
           "longitude": -1.144039
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bradford (Park Avenue) AFC",
         "slogan": "The Green Army",
-        "sameAs": ["https://twitter.com/BPAFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8651.png",
@@ -1079,27 +624,15 @@
           "width": 105,
           "height": 95
         },
-        "foundingDate": "1907",
-        "url": "https://bpafc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/bradford-park-avenue-afc"
-        },
         "location": {
           "latitude": 53.758876,
           "longitude": -1.776174
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Buxton",
         "slogan": "The Bucks",
-        "sameAs": ["https://twitter.com/Buxton_FC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7706.png",
@@ -1109,27 +642,15 @@
           "width": 100,
           "height": 100
         },
-        "foundingDate": "1877",
-        "url": "https://www.buxtonfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/buxton"
-        },
         "location": {
           "latitude": 53.256603,
           "longitude": -1.906581
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Chester",
         "slogan": "The Seals",
-        "sameAs": ["https://twitter.com/ChesterFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1820.png",
@@ -1139,27 +660,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2010",
-        "url": "https://www.chesterfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/chester"
-        },
         "location": {
           "latitude": 53.189215,
           "longitude": -2.923496
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Chorley",
         "slogan": "The Magpies",
-        "sameAs": ["https://twitter.com/chorleyfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4679.png",
@@ -1169,28 +678,15 @@
           "width": 100,
           "height": 127
         },
-        "foundingDate": "1883",
-        "url": "https://www.chorleyfc.com",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/chorley"
-        },
         "location": {
           "latitude": 53.645567,
           "longitude": -2.629188
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Curzon Ashton",
         "slogan": "The Nash",
-        "sameAs": ["https://twitter.com/CurzonAshton/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4703.png",
@@ -1200,27 +696,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1963",
-        "url": "https://www.curzon-ashton.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/curzon-ashton"
-        },
         "location": {
           "latitude": 53.494258,
           "longitude": -2.116084
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Darlington",
         "slogan": "The Quakers",
-        "sameAs": ["https://twitter.com/Official_Darlo/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8148.png",
@@ -1230,27 +714,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1883",
-        "url": "https://darlingtonfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/darlington"
-        },
         "location": {
           "latitude": 54.509449,
           "longitude": -1.564142
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Farsley Celtic",
         "slogan": "The Celt Army",
-        "sameAs": ["https://twitter.com/FarsleyCelticFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8652.png",
@@ -1260,27 +732,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1908",
-        "url": "https://farsleyceltic.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/farsley-celtic"
-        },
         "location": {
           "latitude": 53.80972,
           "longitude": -1.664219
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Gloucester City AFC",
         "slogan": "The Tigers",
-        "sameAs": ["https://twitter.com/GCAFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8653.png",
@@ -1290,28 +750,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1883",
-        "url": "https://www.gloucestercityafc.com",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/gloucester-city-afc"
-        },
         "location": {
           "latitude": 51.860324,
           "longitude": -2.262623
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hereford",
         "slogan": "The Bulls",
-        "sameAs": ["https://twitter.com/HerefordFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4692.png",
@@ -1321,27 +768,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2014",
-        "url": "https://www.herefordfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/hereford"
-        },
         "location": {
           "latitude": 52.06073,
           "longitude": -2.71774
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Kettering Town",
         "slogan": "The Poppies",
-        "sameAs": ["https://twitter.com/KTFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8654.png",
@@ -1351,27 +786,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1872",
-        "url": "https://ketteringtownfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/kettering-town"
-        },
         "location": {
           "latitude": 52.366808,
           "longitude": -0.689305
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Kidderminster Harriers",
         "slogan": "The Kiddy",
-        "sameAs": ["https://twitter.com/khfcofficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4695.png",
@@ -1381,28 +804,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1886",
-        "url": "https://harriers.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/kidderminster-harriers"
-        },
         "location": {
           "latitude": 52.380496,
           "longitude": -2.242639
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Kings Lynn Town",
         "slogan": "The Linnets",
-        "sameAs": ["https://twitter.com/officialKLtown/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8655.png",
@@ -1412,27 +822,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2010",
-        "url": "https://www.kltown.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/kings-lynn-town"
-        },
         "location": {
           "latitude": 52.750067,
           "longitude": 0.407411
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Leamington",
         "slogan": "The Brakes",
-        "sameAs": ["https://twitter.com/LeamingtonFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8656.png",
@@ -1442,27 +840,15 @@
           "width": 218,
           "height": 217
         },
-        "foundingDate": "1933",
-        "url": "https://leamingtonfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/leamington"
-        },
         "location": {
           "latitude": 52.244306,
           "longitude": -1.502849
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Peterborough Sports",
         "slogan": "The Turbines",
-        "sameAs": ["https://twitter.com/PSLFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7737.png",
@@ -1472,27 +858,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1908",
-        "url": "https://pslfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/peterborough-sports"
-        },
         "location": {
           "latitude": 52.593814,
           "longitude": -0.254312
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Scarborough Athletic",
         "slogan": "The Seadogs",
-        "sameAs": ["https://twitter.com/safc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7745.png",
@@ -1502,30 +876,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2007",
-        "url": "https://www.scarboroughathletic.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/scarborough-athletic"
-        },
         "location": {
           "latitude": 54.268845,
           "longitude": -0.413472
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Southport",
         "slogan": "The Sandgrounders",
-        "sameAs": [
-          "https://twitter.com/southport_fc/",
-          "https://www.facebook.com/SouthportFootballClub"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1826.png",
@@ -1535,27 +894,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1881",
-        "url": "https://southportfc.net",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/southport"
-        },
         "location": {
           "latitude": 53.638109,
           "longitude": -2.978859
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Spennymoor Town",
         "slogan": "The Moors",
-        "sameAs": ["https://twitter.com/SpennymoorTown/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/3707.png",
@@ -1565,19 +912,9 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2005",
-        "url": "https://spennymoortownfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-north/spennymoor-town"
-        },
         "location": {
           "latitude": 54.70451,
           "longitude": -1.599134
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       }
     ]
@@ -1602,22 +939,16 @@
       "width": 532,
       "height": 150
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://nonleaguegrounds.com/national-league-south"
-    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "name": "tier",
-      "@value": 6
+      "value": "6"
     },
     "members": [
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bath City",
         "slogan": "The Romans",
-        "sameAs": ["https://twitter.com/BathCity_FC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8657.png",
@@ -1627,31 +958,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1889",
-        "url": "https://www.bathcityfc.com",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/bath-city"
-        },
         "location": {
           "latitude": 51.378847,
           "longitude": -2.395037
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Braintree Town",
         "slogan": "The Iron",
-        "sameAs": [
-          "https://twitter.com/braintreetownfc/",
-          "https://www.facebook.com/Braintreetownfcofficial"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1831.png",
@@ -1661,31 +976,15 @@
           "width": 137,
           "height": 138
         },
-        "foundingDate": "1898",
-        "url": "https://braintreetownfc.org.uk",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/braintree-town"
-        },
         "location": {
           "latitude": 51.875305,
           "longitude": 0.572989
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Chelmsford City",
         "slogan": "The Clarets",
-        "sameAs": [
-          "https://twitter.com/OfficialClarets/",
-          "https://www.facebook.com/officialchelmsfordcityfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4689.png",
@@ -1695,28 +994,15 @@
           "width": 130,
           "height": 130
         },
-        "foundingDate": "1938",
-        "url": "https://chelmsfordcityfc.com",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/chelmsford-city"
-        },
         "location": {
           "latitude": 51.753231,
           "longitude": 0.451471
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Cheshunt",
         "slogan": "The Ambers",
-        "sameAs": ["https://twitter.com/cheshuntfcscore/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7708.png",
@@ -1726,27 +1012,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1946",
-        "url": "https://cheshuntfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/cheshunt"
-        },
         "location": {
           "latitude": 51.694445,
           "longitude": -0.041577
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Chippenham Town",
         "slogan": "The Bluebirds",
-        "sameAs": ["https://twitter.com/ChipTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8147.png",
@@ -1756,27 +1030,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1873",
-        "url": "https://chippenhamtown.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/chippenham-town"
-        },
         "location": {
           "latitude": 51.465604,
           "longitude": -2.128737
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Concord Rangers",
         "slogan": "The Beach Boys",
-        "sameAs": ["https://twitter.com/ConcordRangers/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8658.png",
@@ -1786,30 +1048,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1967",
-        "url": "https://www.concord-rangers.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/concord-rangers"
-        },
         "location": {
           "latitude": 51.512539,
           "longitude": 0.575477
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Dartford",
         "slogan": "The Darts",
-        "sameAs": [
-          "https://twitter.com/dartfordfc/",
-          "https://www.facebook.com/DartfordFootballClub"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4690.png",
@@ -1819,30 +1066,15 @@
           "width": 120,
           "height": 129
         },
-        "foundingDate": "1888",
-        "url": "https://www.dartfordfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/dartford"
-        },
         "location": {
           "latitude": 51.437182,
           "longitude": 0.230837
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Dover Athletic",
         "slogan": "The Whites",
-        "sameAs": [
-          "https://twitter.com/DoverAthletic/",
-          "https://www.facebook.com/DoverAthleticFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1829.png",
@@ -1852,31 +1084,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1983",
-        "url": "https://www.doverathletic.com",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/dover-athletic"
-        },
         "location": {
           "latitude": 51.137804,
           "longitude": 1.284943
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Dulwich Hamlet",
         "slogan": "The Hamlet",
-        "sameAs": [
-          "https://twitter.com/DulwichHamletFC/",
-          "https://www.facebook.com/DulwichHamletFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8149.png",
@@ -1886,27 +1102,15 @@
           "width": 120,
           "height": 160
         },
-        "foundingDate": "1893",
-        "url": "https://www.pitchero.com/clubs/dulwichhamlet",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/dulwich-hamlet"
-        },
         "location": {
           "latitude": 51.461239,
           "longitude": -0.084018
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Eastbourne Borough",
         "slogan": "The Sports",
-        "sameAs": ["https://twitter.com/EBFCTheSports/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4704.png",
@@ -1916,29 +1120,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1954",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/eastbourne-borough"
-        },
         "location": {
           "latitude": 50.80417,
           "longitude": 0.32078
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Ebbsfleet United",
         "slogan": "The Fleet",
-        "sameAs": [
-          "https://twitter.com/EUFCofficial/",
-          "https://www.facebook.com/EbbsfleetUnited"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1840.png",
@@ -1948,30 +1138,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1946",
-        "url": "https://www.ebbsfleetunited.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/ebbsfleet-united"
-        },
         "location": {
           "latitude": 51.449556,
           "longitude": 0.32237
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Farnborough",
         "slogan": "Boro",
-        "sameAs": [
-          "https://twitter.com/FarnboroughFC/",
-          "https://www.facebook.com/FarnboroughFC2007"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7715.png",
@@ -1981,31 +1156,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1967",
-        "url": "https://farnboroughfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/farnborough"
-        },
         "location": {
           "latitude": 51.310449,
           "longitude": -0.762256
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hampton & Richmond Borough",
         "slogan": "The Beavers",
-        "sameAs": [
-          "https://twitter.com/HRBFC/",
-          "https://www.facebook.com/HRBFCofficial",
-          "https://www.instagram.com/hrbfc/"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4680.png",
@@ -2015,30 +1174,15 @@
           "width": 124,
           "height": 138
         },
-        "foundingDate": "1921",
-        "url": "https://hrbfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/hampton-and-richmond-borough"
-        },
         "location": {
           "latitude": 51.415191,
           "longitude": -0.363244
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Havant & Waterlooville",
         "slogan": "The Hawks",
-        "sameAs": [
-          "https://twitter.com/HWFCOfficial/",
-          "https://www.facebook.com/HWFCOfficial"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1843.png",
@@ -2048,28 +1192,15 @@
           "width": 135,
           "height": 138
         },
-        "foundingDate": "1998",
-        "url": "https://www.havantandwaterloovillefc.co.uk",
-        "keywords": "professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/havant-and-waterlooville"
-        },
         "location": {
           "latitude": 50.867087,
           "longitude": -0.974097
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hemel Hempstead Town",
         "slogan": "The Tudors",
-        "sameAs": ["https://twitter.com/hemelfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8660.png",
@@ -2079,30 +1210,15 @@
           "width": 120,
           "height": 119
         },
-        "foundingDate": "1885",
-        "url": "https://www.hemelfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/hemel-hempstead-town"
-        },
         "location": {
           "latitude": 51.753881,
           "longitude": -0.444358
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hungerford Town",
         "slogan": "The Crusaders",
-        "sameAs": [
-          "https://twitter.com/HungerfordTown/",
-          "https://www.facebook.com/Crusaders1886"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8661.png",
@@ -2112,27 +1228,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1886",
-        "url": "https://hungerfordtown.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/hungerford-town"
-        },
         "location": {
           "latitude": 51.408934,
           "longitude": -1.513463
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Oxford City",
         "slogan": "The Hoops",
-        "sameAs": ["https://twitter.com/OxCityFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1338.png",
@@ -2142,28 +1246,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1882",
-        "url": "https://www.oxfordcityfc.co.uk",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/oxford-city"
-        },
         "location": {
           "latitude": 51.773923,
           "longitude": -1.227743
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Slough Town",
         "slogan": "The Rebels",
-        "sameAs": ["https://twitter.com/sloughtownfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4685.png",
@@ -2173,27 +1264,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1890",
-        "url": "https://sloughtownfc.net",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/slough-town"
-        },
         "location": {
           "latitude": 51.5198622,
           "longitude": -0.5884198
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "St Albans City",
         "slogan": "The Saints",
-        "sameAs": ["https://twitter.com/stalbanscityfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4708.png",
@@ -2203,27 +1282,15 @@
           "width": 180,
           "height": 180
         },
-        "foundingDate": "1908",
-        "url": "https://www.stalbanscityfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/st-albans-city"
-        },
         "location": {
           "latitude": 51.754276,
           "longitude": -0.325157
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Taunton Town",
         "slogan": "The Peacocks",
-        "sameAs": ["https://twitter.com/TauntonTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4711.png",
@@ -2233,27 +1300,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1947",
-        "url": "https://tauntontown.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/taunton-town"
-        },
         "location": {
           "latitude": 51.016716,
           "longitude": -3.085107
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Tonbridge Angels",
         "slogan": "The Angels",
-        "sameAs": ["https://twitter.com/tonbridgeangels/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8662.png",
@@ -2263,30 +1318,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1947",
-        "url": "https://www.tonbridgeangels.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/tonbridge-angels"
-        },
         "location": {
           "latitude": 51.211531,
           "longitude": 0.269116
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Welling United",
         "slogan": "The Wings",
-        "sameAs": [
-          "https://twitter.com/wellingunited/",
-          "https://www.facebook.com/wellingunited"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8664.png",
@@ -2296,28 +1336,15 @@
           "width": 141,
           "height": 139
         },
-        "foundingDate": "1963",
-        "url": "https://www.wellingunited.com",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/welling-united"
-        },
         "location": {
           "latitude": 51.460326,
           "longitude": 0.116558
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Weymouth",
         "slogan": "The Terras",
-        "sameAs": ["https://twitter.com/theterras/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8665.png",
@@ -2327,28 +1354,15 @@
           "width": 109,
           "height": 155
         },
-        "foundingDate": "1890",
-        "url": "https://uptheterras.co.uk",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/weymouth"
-        },
         "location": {
           "latitude": 50.619895,
           "longitude": -2.485182
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Worthing",
         "slogan": "The Rebels",
-        "sameAs": ["https://twitter.com/WorthingFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7661.png",
@@ -2358,19 +1372,9 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1886",
-        "url": "https://worthingfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/national-league-south/worthing"
-        },
         "location": {
           "latitude": 50.82034,
           "longitude": -0.38482
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       }
     ]
@@ -2395,25 +1399,16 @@
       "width": 155,
       "height": 150
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division"
-    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "name": "tier",
-      "@value": 7
+      "value": "7"
     },
     "members": [
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Aveley",
         "slogan": "The Millers",
-        "sameAs": [
-          "https://twitter.com/AveleyFC/",
-          "https://www.facebook.com/AveleyFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7207.png",
@@ -2423,30 +1418,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1927",
-        "url": "https://www.pitchero.com/clubs/aveley",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/aveley"
-        },
         "location": {
           "latitude": 51.503481,
           "longitude": 0.261341
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Billericay Town",
         "slogan": "The Blues",
-        "sameAs": [
-          "https://twitter.com/BTFC/",
-          "https://www.facebook.com/BillericayTownFootballClub"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4678.png",
@@ -2456,30 +1436,15 @@
           "width": 100,
           "height": 100
         },
-        "foundingDate": "1880",
-        "url": "https://www.billericaytownfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/billericay-town"
-        },
         "location": {
           "latitude": 51.621776,
           "longitude": 0.403297
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bishop's Stortford",
         "slogan": "The Blues",
-        "sameAs": [
-          "https://twitter.com/BSFCTheBlues/",
-          "https://www.facebook.com/BSFCTheBlues"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7701.png",
@@ -2489,30 +1454,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1874",
-        "url": "https://www.bsfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/bishop-s-stortford"
-        },
         "location": {
           "latitude": 51.872673,
           "longitude": 0.191994
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bognor Regis Town",
         "slogan": "The Rocks",
-        "sameAs": [
-          "https://twitter.com/rocks1883/",
-          "https://www.facebook.com/rocks1883"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7703.png",
@@ -2522,30 +1472,15 @@
           "width": 126,
           "height": 138
         },
-        "foundingDate": "1883",
-        "url": "https://www.pitchero.com/clubs/bognorregistownfc",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/bognor-regis-town"
-        },
         "location": {
           "latitude": 50.786982,
           "longitude": -0.690213
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bowers & Pitsea",
         "slogan": "The Bowers",
-        "sameAs": [
-          "https://twitter.com/Bowerspitseafc/",
-          "https://www.facebook.com/bowers.pitsea.3"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7764.png",
@@ -2555,30 +1490,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1946",
-        "url": "https://bowersandpitseafootballclub.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/bowers-and-pitsea"
-        },
         "location": {
           "latitude": 51.57405,
           "longitude": 0.518133
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Brightlingsea Regent",
         "slogan": "The Rs",
-        "sameAs": [
-          "https://twitter.com/Brightlingseafc/",
-          "https://www.facebook.com/Brightlingsea.Football"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7704.png",
@@ -2588,30 +1508,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2005",
-        "url": "https://brightlingsearegentfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/brightlingsea-regent"
-        },
         "location": {
           "latitude": 51.815817,
           "longitude": 1.026387
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Canvey Island",
         "slogan": "The Gulls",
-        "sameAs": [
-          "https://twitter.com/CIFC/",
-          "https://www.facebook.com/canveyislandfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7623.png",
@@ -2621,30 +1526,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1926",
-        "url": "https://canveyislandfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/canvey-island"
-        },
         "location": {
           "latitude": 51.516461,
           "longitude": 0.615713
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Carshalton Athletic",
         "slogan": "The Robins",
-        "sameAs": [
-          "https://twitter.com/CarshaltonA_FC/",
-          "https://www.facebook.com/CarshaltonAthleticFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7707.png",
@@ -2654,30 +1544,15 @@
           "width": 100,
           "height": 100
         },
-        "foundingDate": "1905",
-        "url": "https://www.carshaltonathletic.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/carshalton-athletic"
-        },
         "location": {
           "latitude": 51.369704,
           "longitude": -0.17179
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Corinthian-Casuals",
         "slogan": "The Casuals",
-        "sameAs": [
-          "https://twitter.com/CorinthianCas/",
-          "https://www.facebook.com/officialcorinthiancasualsfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7710.png",
@@ -2687,31 +1562,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1939",
-        "url": "https://corinthian-casuals.com",
-        "keywords": "amateur",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/corinthian-casuals"
-        },
         "location": {
           "latitude": 51.372154,
           "longitude": -0.287229
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Cray Wanderers",
         "slogan": "The Wands",
-        "sameAs": [
-          "https://twitter.com/OfficialWands/",
-          "https://www.facebook.com/CrayWanderersFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7711.png",
@@ -2721,28 +1580,15 @@
           "width": 100,
           "height": 100
         },
-        "foundingDate": "1860",
-        "url": "https://www.cray-wanderers.com",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/cray-wanderers"
-        },
         "location": {
           "latitude": 51.390084,
           "longitude": 0.021091
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Enfield Town",
         "slogan": "The Towners",
-        "sameAs": ["https://twitter.com/ETFCOfficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7714.png",
@@ -2752,30 +1598,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2001",
-        "url": "https://etfc.london",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/enfield-town"
-        },
         "location": {
           "latitude": 51.659332,
           "longitude": -0.063843
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Folkestone Invicta",
         "slogan": "The Seasiders",
-        "sameAs": [
-          "https://twitter.com/FIFC/",
-          "https://www.facebook.com/folkestoneinvictafc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7716.png",
@@ -2785,27 +1616,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1936",
-        "url": "https://folkestoneinvictafc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/folkestone-invicta"
-        },
         "location": {
           "latitude": 51.086574,
           "longitude": 1.159508
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Haringey Borough",
         "slogan": "The Borough",
-        "sameAs": ["https://twitter.com/HaringeyBoroFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4681.png",
@@ -2815,30 +1634,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1973",
-        "url": "https://haringeyboroughfc.net",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/haringey-borough"
-        },
         "location": {
           "latitude": 51.605623,
           "longitude": -0.09266
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hastings United",
         "slogan": "The U's",
-        "sameAs": [
-          "https://twitter.com/hastingsufc/",
-          "https://www.facebook.com/HastingsUtd"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7231.png",
@@ -2848,30 +1652,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1893",
-        "url": "https://www.hastingsunited.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/hastings-united"
-        },
         "location": {
           "latitude": 50.874501,
           "longitude": 0.587099
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Herne Bay",
         "slogan": "The Bay",
-        "sameAs": [
-          "https://twitter.com/HerneBayFC/",
-          "https://www.facebook.com/hernebayfootballclub"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7232.png",
@@ -2881,32 +1670,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1886",
-        "url": "https://hernebayfootballclub.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/herne-bay"
-        },
         "location": {
           "latitude": 51.364685,
           "longitude": 1.129948
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hornchurch",
         "slogan": "The Mighty Urchins",
-        "sameAs": [
-          "https://twitter.com/HornchurchFC/",
-          "https://www.facebook.com/HornchurchFCofficial",
-          "https://www.instagram.com/hornchurchfcofficial/",
-          "https://www.youtube.com/channel/UCpmfj7xGqG8dT-dY-paaaVg"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7690.png",
@@ -2916,30 +1688,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1923",
-        "url": "https://www.hornchurchfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/hornchurch"
-        },
         "location": {
           "latitude": 51.556557,
           "longitude": 0.23837
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Horsham",
         "slogan": "The Hornets",
-        "sameAs": [
-          "https://twitter.com/HorshamFC/",
-          "https://www.facebook.com/HorshamFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7723.png",
@@ -2949,30 +1706,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1871",
-        "url": "https://www.horshamfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/horsham"
-        },
         "location": {
           "latitude": 51.046893,
           "longitude": -0.340681
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Kingstonian",
         "slogan": "The Ks",
-        "sameAs": [
-          "https://twitter.com/KingstonianFC/",
-          "https://www.facebook.com/kingstonianfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7725.png",
@@ -2982,30 +1724,15 @@
           "width": 93,
           "height": 102
         },
-        "foundingDate": "1885",
-        "url": "https://www.kingstonian.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/kingstonian"
-        },
         "location": {
           "latitude": 51.393231,
           "longitude": -0.172327
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Lewes",
         "slogan": "The Rooks",
-        "sameAs": [
-          "https://twitter.com/LewesFCMen/",
-          "https://www.facebook.com/LewesFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7728.png",
@@ -3015,27 +1742,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1885",
-        "url": "https://lewesfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/lewes"
-        },
         "location": {
           "latitude": 50.869019,
           "longitude": 0.012321
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Margate",
         "slogan": "The Gate",
-        "sameAs": ["https://twitter.com/margate_fc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7730.png",
@@ -3045,27 +1760,15 @@
           "width": 175,
           "height": 207
         },
-        "foundingDate": "1896",
-        "url": "https://margate-fc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/margate"
-        },
         "location": {
           "latitude": 51.380459,
           "longitude": 1.373928
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "South East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Potters Bar Town",
         "slogan": "The Scholars",
-        "sameAs": ["https://twitter.com/pbtfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7739.png",
@@ -3075,30 +1778,15 @@
           "width": 149,
           "height": 141
         },
-        "foundingDate": "1960",
-        "url": "https://www.pitchero.com/clubs/pottersbartownfc",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/potters-bar-town"
-        },
         "location": {
           "latitude": 51.696188,
           "longitude": -0.177662
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East of England"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Wingate & Finchley",
         "slogan": "The Blues",
-        "sameAs": [
-          "https://twitter.com/WinFinchleyFC/",
-          "https://www.facebook.com/WingateFinchley"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7759.png",
@@ -3108,19 +1796,9 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1991",
-        "url": "https://www.wingatefinchley.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/isthmian-league-premier-division/wingate-and-finchley"
-        },
         "location": {
           "latitude": 51.606848,
           "longitude": -0.171497
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "London"
         }
       }
     ]
@@ -3145,22 +1823,16 @@
       "width": 152,
       "height": 150
     },
-    "identifier": {
-      "@type": "url",
-      "@value": "https://nonleaguegrounds.com/northern-premier-league"
-    },
     "additionalProperty": {
       "@type": "PropertyValue",
       "name": "tier",
-      "@value": 7
+      "value": "7"
     },
     "members": [
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Ashton United",
         "slogan": "The Robins",
-        "sameAs": ["https://twitter.com/AshtonUnitedFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7693.png",
@@ -3170,27 +1842,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1878",
-        "url": "https://ashtonunited.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/ashton-united"
-        },
         "location": {
           "latitude": 53.501301,
           "longitude": -2.079707
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Atherton Collieries",
         "slogan": "The Colls",
-        "sameAs": ["https://twitter.com/ACFC1916/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7694.png",
@@ -3200,30 +1860,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1916",
-        "url": "https://athertoncollieries.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/atherton-collieries"
-        },
         "location": {
           "latitude": 53.523522,
           "longitude": -2.484992
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Bamber Bridge",
         "slogan": "The Brig",
-        "sameAs": [
-          "https://twitter.com/BamberBridgeFC/",
-          "https://www.facebook.com/BamberBridgeF"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7695.png",
@@ -3233,27 +1878,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1952",
-        "url": "https://bamberbridge.org",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/bamber-bridge"
-        },
         "location": {
           "latitude": 53.727892,
           "longitude": -2.671923
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Belper Town",
         "slogan": "The Nailers",
-        "sameAs": ["https://twitter.com/BelperTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7617.png",
@@ -3263,30 +1896,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1883",
-        "url": "https://belpertownfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/belper-town"
-        },
         "location": {
           "latitude": 53.027196,
           "longitude": -1.487347
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "FC United of Manchester",
         "slogan": "The Reds",
-        "sameAs": [
-          "https://twitter.com/FCUnitedMcr/",
-          "https://www.facebook.com/FCUnitedMcr"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7754.png",
@@ -3296,27 +1914,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "2005",
-        "url": "https://fc-utd.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/fc-united-of-manchester"
-        },
         "location": {
           "latitude": 53.516649,
           "longitude": -2.180394
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Gainsborough Trinity",
         "slogan": "The Trinity",
-        "sameAs": ["https://twitter.com/GainsTrinityFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4691.png",
@@ -3326,27 +1932,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1873",
-        "url": "https://www.gainsboroughtrinity.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/gainsborough-trinity"
-        },
         "location": {
           "latitude": 53.403459,
           "longitude": -0.774463
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Guiseley AFC",
         "slogan": "The Lions",
-        "sameAs": ["https://twitter.com/GuiselyAFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/1824.png",
@@ -3356,30 +1950,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1909",
-        "url": "https://guiseleyafc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/guiseley-afc"
-        },
         "location": {
           "latitude": 53.877202,
           "longitude": -1.719401
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Hyde United",
         "slogan": "The Tigers",
-        "sameAs": [
-          "https://twitter.com/hydeunited/",
-          "https://www.facebook.com/hydeunited"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4694.png",
@@ -3389,30 +1968,15 @@
           "width": 174,
           "height": 172
         },
-        "foundingDate": "1919",
-        "url": "https://hydeunited.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/hyde-united"
-        },
         "location": {
           "latitude": 53.450616,
           "longitude": -2.068183
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Lancaster City",
         "slogan": "The Dolly Blues",
-        "sameAs": [
-          "https://twitter.com/LancasterCityFC/",
-          "https://www.facebook.com/lancastercityfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7726.png",
@@ -3422,27 +1986,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1911",
-        "url": "https://www.pitchero.com/clubs/lancastercity",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/lancaster-city"
-        },
         "location": {
           "latitude": 54.051038,
           "longitude": -2.810882
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Liversedge",
         "slogan": "The Sedge",
-        "sameAs": ["https://twitter.com/Liversedge_FC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8853.png",
@@ -3452,30 +2004,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1910",
-        "url": "https://liversedgefc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/liversedge"
-        },
         "location": {
           "latitude": 53.717658,
           "longitude": -1.711748
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Marine AFC",
         "slogan": "The Mariners",
-        "sameAs": [
-          "https://twitter.com/MarineAFC/",
-          "https://www.facebook.com/marinefootballclub"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7656.png",
@@ -3485,27 +2022,15 @@
           "width": 170,
           "height": 170
         },
-        "foundingDate": "1894",
-        "url": "https://marinefc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/marine-afc"
-        },
         "location": {
           "latitude": 53.485173,
           "longitude": -3.033623
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Marske United",
         "slogan": "The Seasiders",
-        "sameAs": ["https://twitter.com/MarskeUnitedFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7658.png",
@@ -3515,27 +2040,15 @@
           "width": 100,
           "height": 115
         },
-        "foundingDate": "1956",
-        "url": "https://marskeunitedfc.org",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/marske-united"
-        },
         "location": {
           "latitude": 54.589177,
           "longitude": -1.016661
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Matlock Town",
         "slogan": "The Gladiators",
-        "sameAs": ["https://twitter.com/matlock_townfc/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7731.png",
@@ -3545,27 +2058,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1878",
-        "url": "https://www.matlocktownfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/matlock-town"
-        },
         "location": {
           "latitude": 53.137031,
           "longitude": -1.551677
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "East Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Morpeth Town AFC",
         "slogan": "The Highwaymen",
-        "sameAs": ["https://twitter.com/MorpethTownAFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7734.png",
@@ -3575,30 +2076,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1909",
-        "url": "https://www.morpethtownfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/morpeth-town-afc"
-        },
         "location": {
           "latitude": 55.155982,
           "longitude": -1.708834
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Nantwich Town",
         "slogan": "The Dabbers",
-        "sameAs": [
-          "https://twitter.com/TheDabbers/",
-          "https://www.facebook.com/nantwichtownfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/4697.png",
@@ -3608,30 +2094,15 @@
           "width": 188,
           "height": 180
         },
-        "foundingDate": "1884",
-        "url": "https://www.nantwichtownfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/nantwich-town"
-        },
         "location": {
           "latitude": 53.072687,
           "longitude": -2.52846
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Radcliffe",
         "slogan": "The Boro",
-        "sameAs": [
-          "https://twitter.com/radcliffeboro/",
-          "https://www.facebook.com/radcliffeboro"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7740.png",
@@ -3641,27 +2112,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1949",
-        "url": "https://radcliffefc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/radcliffe"
-        },
         "location": {
           "latitude": 53.567592,
           "longitude": -2.340701
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "South Shields",
         "slogan": "The Mariners",
-        "sameAs": ["https://twitter.com/SouthShieldsFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7746.png",
@@ -3671,27 +2130,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1888",
-        "url": "https://www.southshieldsfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/south-shields"
-        },
         "location": {
           "latitude": 54.974526,
           "longitude": -1.470094
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North East"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Stafford Rangers",
         "slogan": "The Rangers",
-        "sameAs": ["https://twitter.com/SRFCofficial/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7748.png",
@@ -3701,31 +2148,15 @@
           "width": 116,
           "height": 138
         },
-        "foundingDate": "1876",
-        "url": "https://staffordrangersfc.co.uk",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/stafford-rangers"
-        },
         "location": {
           "latitude": 52.818555,
           "longitude": -2.116846
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "West Midlands"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Stalybridge Celtic",
         "slogan": "The Celts",
-        "sameAs": [
-          "https://twitter.com/StalyCelticFC/",
-          "https://www.facebook.com/stalycelticfc"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7749.png",
@@ -3735,30 +2166,15 @@
           "width": 118,
           "height": 138
         },
-        "foundingDate": "1909",
-        "url": "https://stalybridgeceltic.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/stalybridge-celtic"
-        },
         "location": {
           "latitude": 53.475337,
           "longitude": -2.043855
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Warrington Rylands 1906",
         "slogan": "The Blues",
-        "sameAs": [
-          "https://twitter.com/RylandsFC/",
-          "https://www.facebook.com/WarringtonRylandsFC"
-        ],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/8918.png",
@@ -3768,30 +2184,15 @@
           "width": 150,
           "height": 150
         },
-        "foundingDate": "1906",
-        "url": "https://rylandsfc.co.uk",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/warrington-rylands-1906"
-        },
         "location": {
           "latitude": 53.4004,
           "longitude": -2.575604
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Warrington Town",
-        "slogan": "The Wire",
-        "sameAs": [
-          "https://twitter.com/theyellows/",
-          "https://www.facebook.com/WarringtonTownFC"
-        ],
+        "slogan": "The Yellows",
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7756.png",
@@ -3801,28 +2202,15 @@
           "width": 145,
           "height": 180
         },
-        "foundingDate": "1949",
-        "url": "https://warringtontownfc.co.uk",
-        "keywords": "semi-professional",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/warrington-town"
-        },
         "location": {
           "latitude": 53.377071,
           "longitude": -2.569861
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "North West"
         }
       },
       {
-        "@context": "https://schema.org",
         "@type": "SportsTeam",
         "name": "Whitby Town",
         "slogan": "The Seasiders",
-        "sameAs": ["https://twitter.com/WhitbyTownFC/"],
         "logo": {
           "@type": "ImageObject",
           "contentUrl": "https://media.api-sports.io/football/teams/7757.png",
@@ -3832,19 +2220,9 @@
           "width": 120,
           "height": 145
         },
-        "foundingDate": "1880",
-        "url": "https://whitbytownfc.com",
-        "identifier": {
-          "@type": "url",
-          "@value": "https://nonleaguegrounds.com/northern-premier-league/whitby-town"
-        },
         "location": {
           "latitude": 54.489984,
           "longitude": -0.627549
-        },
-        "areaServed": {
-          "@type": "AdministrativeArea",
-          "name": "Yorkshire and The Humber"
         }
       }
     ]
