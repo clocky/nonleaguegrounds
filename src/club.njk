@@ -29,7 +29,7 @@ eleventyComputed:
 {% block css %}
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text={{ club.name | replace(' ', '') | upper | urlencode }}");
-    {{ aerial(club.location, env.google_maps_api_key) }}
+    {{aerial(club.location, env.google_maps_api_key)}}
   </style>
 {% endblock %}
 
@@ -75,6 +75,15 @@ eleventyComputed:
           <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
           and are nicknamed <strong>"{{ club.slogan }}"</strong>.
         </p>
+        {% if club.description %}
+          <h4>History</h4>
+          {% for sentence in club.description.split(". ") %}
+          <p>
+            {{ sentence }}{% if not loop.last %}.{% endif %}
+          </p>
+          {% endfor %}
+        {% endif %}
+        {#
         {% for url in club.sameAs %}
           {% if url.includes("twitter") %}
             {% set user = url.split("/")[3] %}
@@ -82,6 +91,7 @@ eleventyComputed:
             <script async src="https://platform.twitter.com/widgets.js"></script>
           {% endif %}
         {% endfor %}
+        #}
       </section>
       <aside>
         <figure>
