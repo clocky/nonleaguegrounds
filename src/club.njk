@@ -134,7 +134,11 @@ eleventyComputed:
                 </a>
               </td>
             </tr>
-            {% if club.url %}
+          </table>
+          <h4>Socials</h4>
+          <table role="grid">
+            <tbody>
+             {% if club.url %}
               <tr>
                 <th scope="row">Web</th>
                 <td>
@@ -152,7 +156,9 @@ eleventyComputed:
               {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") or url.includes("soundcloud") else url.split("/")[2].split(".")[1] -%}
               {%- set user = url.split("/")[3] -%}
               <tr>
-                <th scope="row">{{ network | capitalize }}</th>
+                <th scope="row">
+                  {{ network | capitalize }}
+                </th>
                 <td>
                   <a 
                     href="{{ url }}"
