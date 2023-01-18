@@ -1,6 +1,6 @@
 {% macro creativeCommons(image) %}
   {% if image.license %}
-    <div class="level-item">
+    <div class="level-item has-background-grey-bis">
       {% set type = image.license.split("/")[4] | upper %}
       {% set version = image.license.split("/")[5] | upper %}
       {% set cc = type.split("-") %}
