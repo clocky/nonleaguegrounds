@@ -97,6 +97,15 @@ apple %}
             <small>Bing Maps view of {{ ground.name }}, {{ ground.address.addressLocality }}</small>
           </figcaption>
         </figure>
+
+        {% if ground.description %}
+          <h4>Details</h4>
+          {% for sentence in ground.description.split(". ") %}
+          <p>
+            {{ sentence | safe }}{% if not loop.last %}.{% endif %}
+          {% endfor %}
+        {% endif %}
+
         <h4>Nearby grounds</h4>
         <ul>
           {% set count = 0%}
