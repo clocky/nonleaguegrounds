@@ -6,7 +6,7 @@ pagination:
 permalink: "/leagues/{{ league.name | slugify }}/index.html"
 eleventyComputed:
     title: "Clubs in the {{ league.alternateName | safe }}"
-    description: "The {{ league.name }} is at the {{ league.additionalProperty.value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs"
+    description: "The {{ league.name }} is at the {{ league.additionalProperty.value | int | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs"
 ---
 {% extends "./_layouts/base.njk" %}
 
@@ -30,7 +30,7 @@ eleventyComputed:
 {%- endblock %}
 
 {%- block css %}
-  <style>
+  {# <style>
     {%- for club in league.members %}
     .card#{{ club.name | slugify }}  {
       background: linear-gradient(
@@ -61,9 +61,10 @@ eleventyComputed:
         #fff 100% 
       {% endif %}
     );
-  }
+  } 
 {%- endfor %}
   </style>
+  #}
 {%- endblock %}
 
 {%- block script %}
@@ -74,7 +75,7 @@ eleventyComputed:
 
 {% block header %}
   {%- set subtitle %}
-    The {{ league.name }} is at the {{ league.additionalProperty.value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs
+    The {{ league.name }} is at the {{ league.additionalProperty.value | int | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs
   {%- endset %}
   {{- hero(league.alternateName, description, meta.hero['leagues'].src) }}
 {% endblock %}
@@ -84,7 +85,7 @@ eleventyComputed:
 {% endblock %}
 
 {% block main %}
-  <div class="container">
+  <div class="container is-max-desktop">
     {% for clubs in league.members | sort(attribute = "name") | batch(3) %}
     <div class="columns">
       {% for club in clubs %}
