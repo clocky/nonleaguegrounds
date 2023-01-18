@@ -5,7 +5,7 @@
     "name": "Meadow Lane",
     "maximumAttendeeCapacity": 19841,
     "latitude": 52.942672,
-    "longitude": 52.942672,
+    "longitude": -1.137151,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Meadow Lane",
@@ -72,7 +72,7 @@
     "name": "Boundary Park",
     "maximumAttendeeCapacity": 13513,
     "latitude": 53.555148,
-    "longitude": 53.555148,
+    "longitude": -2.128451,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Oldham",
@@ -132,7 +132,7 @@
     "name": "Roots Hall",
     "maximumAttendeeCapacity": 12392,
     "latitude": 51.549008,
-    "longitude": 51.549008,
+    "longitude": 0.701608,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Victoria Avenue",
@@ -193,7 +193,7 @@
     "name": "Gateshead International Stadium",
     "maximumAttendeeCapacity": 11800,
     "latitude": 54.96102,
-    "longitude": 54.96102,
+    "longitude": -1.57967,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Neilson Road",
@@ -253,7 +253,7 @@
     "name": "Technique Stadium",
     "maximumAttendeeCapacity": 10600,
     "latitude": 53.253583,
-    "longitude": 53.253583,
+    "longitude": -1.425761,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "1866 Sheffield Road",
@@ -313,7 +313,7 @@
     "name": "Racecourse Ground",
     "maximumAttendeeCapacity": 10500,
     "latitude": 53.051961,
-    "longitude": 53.051961,
+    "longitude": -3.003804,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Mold Road",
@@ -381,7 +381,7 @@
     "name": "The Shay",
     "maximumAttendeeCapacity": 10401,
     "latitude": 53.716191,
-    "longitude": 53.716191,
+    "longitude": -1.859217,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Shaw Hill",
@@ -445,7 +445,7 @@
     "name": "Huish Park",
     "maximumAttendeeCapacity": 9565,
     "latitude": 50.950234,
-    "longitude": 50.950234,
+    "longitude": -2.673974,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Lufton Way",
@@ -501,7 +501,7 @@
     "name": "Glanford Park",
     "maximumAttendeeCapacity": 9088,
     "latitude": 53.5866564,
-    "longitude": 53.5866564,
+    "longitude": -0.6953374,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Jack Brownsword Way",
@@ -561,7 +561,7 @@
     "name": "The Walks Stadium",
     "maximumAttendeeCapacity": 8200,
     "latitude": 52.750067,
-    "longitude": 52.750067,
+    "longitude": 0.407411,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Tennyson Road",
@@ -632,7 +632,7 @@
     },
     "maximumAttendeeCapacity": 8005,
     "latitude": 53.98434,
-    "longitude": 53.98434,
+    "longitude": -1.052927,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Kathyrn Avenue",
@@ -697,7 +697,7 @@
     },
     "maximumAttendeeCapacity": 7873,
     "latitude": 53.383434,
-    "longitude": 53.383434,
+    "longitude": -2.335159,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Moss Lane",
@@ -763,7 +763,7 @@
     },
     "maximumAttendeeCapacity": 7100,
     "latitude": 51.248415,
-    "longitude": 51.248415,
+    "longitude": -0.754682,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "High Street",
@@ -827,7 +827,7 @@
     },
     "maximumAttendeeCapacity": 7000,
     "latitude": 50.80417,
-    "longitude": 50.80417,
+    "longitude": 0.32078,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Priory Lane",
@@ -890,7 +890,7 @@
     },
     "maximumAttendeeCapacity": 7000,
     "latitude": 51.310449,
-    "longitude": 51.310449,
+    "longitude": -0.762256,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Cherrywood Road",
@@ -949,7 +949,7 @@
     "name": "Bob Lucas Stadium",
     "maximumAttendeeCapacity": 6600,
     "latitude": 50.619895,
-    "longitude": 50.619895,
+    "longitude": -2.485182,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Radipole Lane",
@@ -1004,7 +1004,7 @@
     "name": "Bower Fold",
     "maximumAttendeeCapacity": 6500,
     "latitude": 53.475337,
-    "longitude": 53.475337,
+    "longitude": -2.043855,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Mottram Road",
@@ -1067,7 +1067,7 @@
     },
     "maximumAttendeeCapacity": 6500,
     "latitude": 52.056796,
-    "longitude": 52.056796,
+    "longitude": -1.325791,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Station Approach",
@@ -1126,7 +1126,7 @@
     "name": "The Hive Stadium",
     "maximumAttendeeCapacity": 6418,
     "latitude": 51.602623,
-    "longitude": 51.602623,
+    "longitude": -0.291743,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Camrose Avenue",
@@ -1188,7 +1188,7 @@
     "name": "New Bucks Head",
     "maximumAttendeeCapacity": 6400,
     "latitude": 52.697376,
-    "longitude": 52.697376,
+    "longitude": -2.501418,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Haybridge Road",
@@ -1253,7 +1253,7 @@
     "name": "Aggborough",
     "maximumAttendeeCapacity": 6238,
     "latitude": 52.380496,
-    "longitude": 52.380496,
+    "longitude": -2.242639,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Hoo Road",
@@ -1314,7 +1314,7 @@
     "name": "Plainmoor",
     "maximumAttendeeCapacity": 6104,
     "latitude": 50.476389,
-    "longitude": 50.476389,
+    "longitude": -3.523874,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Marnham Road",
@@ -1378,7 +1378,7 @@
     },
     "maximumAttendeeCapacity": 6078,
     "latitude": 51.547807,
-    "longitude": 51.547807,
+    "longitude": 0.159913,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Victoria Road",
@@ -1443,7 +1443,7 @@
     },
     "maximumAttendeeCapacity": 6036,
     "latitude": 51.306298,
-    "longitude": 51.306298,
+    "longitude": -0.558875,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Kingfield Road",
@@ -1508,7 +1508,7 @@
     "name": "Haig Avenue",
     "maximumAttendeeCapacity": 6008,
     "latitude": 53.638109,
-    "longitude": 53.638109,
+    "longitude": -2.978859,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Haig Avenue",
@@ -1569,7 +1569,7 @@
     "name": "Mill Farm",
     "maximumAttendeeCapacity": 6000,
     "latitude": 53.797367,
-    "longitude": 53.797367,
+    "longitude": -2.889497,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Coronation Way",
@@ -1630,7 +1630,7 @@
     "name": "Crabble Athletic Ground",
     "maximumAttendeeCapacity": 5745,
     "latitude": 51.137804,
-    "longitude": 51.137804,
+    "longitude": 1.284943,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Lewisham Road",
@@ -1695,7 +1695,7 @@
     },
     "maximumAttendeeCapacity": 5400,
     "latitude": 53.189215,
-    "longitude": 53.189215,
+    "longitude": -2.923496,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Bumpers Lane",
@@ -1765,7 +1765,7 @@
     },
     "maximumAttendeeCapacity": 5300,
     "latitude": 50.867087,
-    "longitude": 50.867087,
+    "longitude": -0.974097,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Martin Road",
@@ -1828,7 +1828,7 @@
     },
     "maximumAttendeeCapacity": 5192,
     "latitude": 50.95229,
-    "longitude": 50.95229,
+    "longitude": -1.372023,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Stoneham Lane",
@@ -1891,7 +1891,7 @@
     },
     "maximumAttendeeCapacity": 5007,
     "latitude": 51.754276,
-    "longitude": 51.754276,
+    "longitude": -0.325157,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "St Albans",
@@ -1951,7 +1951,7 @@
     "name": "War Memorial Sports Ground",
     "maximumAttendeeCapacity": 5000,
     "latitude": 51.369704,
-    "longitude": 51.369704,
+    "longitude": -0.17179,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Colston Avenue",
@@ -2010,7 +2010,7 @@
     "name": "New Lodge",
     "maximumAttendeeCapacity": 5000,
     "latitude": 51.621776,
-    "longitude": 51.621776,
+    "longitude": 0.403297,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Blunts Wall Road",
@@ -2074,7 +2074,7 @@
     "name": "Jakemans Community Stadium",
     "maximumAttendeeCapacity": 5000,
     "latitude": 52.956335,
-    "longitude": 52.956335,
+    "longitude": -0.028533,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Pilgrim Way",
@@ -2133,7 +2133,7 @@
     "name": "Hayes Lane",
     "maximumAttendeeCapacity": 5000,
     "latitude": 51.390084,
-    "longitude": 51.390084,
+    "longitude": 0.021091,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Hayes Lane",
@@ -2233,7 +2233,7 @@
     "name": "Edgar Street",
     "maximumAttendeeCapacity": 4913,
     "latitude": 52.06073,
-    "longitude": 52.06073,
+    "longitude": -2.71774,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Hereford",
@@ -2302,7 +2302,7 @@
     },
     "maximumAttendeeCapacity": 4769,
     "latitude": 51.449556,
-    "longitude": 51.449556,
+    "longitude": 0.32237,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Northfleet",
@@ -2364,7 +2364,7 @@
     },
     "maximumAttendeeCapacity": 4525,
     "latitude": 51.872673,
-    "longitude": 51.872673,
+    "longitude": 0.191994,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Dunmow Road",
@@ -2430,7 +2430,7 @@
     },
     "maximumAttendeeCapacity": 4510,
     "latitude": 52.43892,
-    "longitude": 52.43892,
+    "longitude": -1.75719,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Damson Parkway",
@@ -2496,7 +2496,7 @@
     },
     "maximumAttendeeCapacity": 4502,
     "latitude": 51.661937,
-    "longitude": 51.661937,
+    "longitude": -0.272375,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Broughinge Road",
@@ -2556,7 +2556,7 @@
     "name": "Nyewood Lane",
     "maximumAttendeeCapacity": 4500,
     "latitude": 50.786982,
-    "longitude": 50.786982,
+    "longitude": -0.690213,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Bognor Regis",
@@ -2614,7 +2614,7 @@
     "name": "Broadhurst Park",
     "maximumAttendeeCapacity": 4400,
     "latitude": 53.516649,
-    "longitude": 53.516649,
+    "longitude": -2.180394,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Lightbowne Road",
@@ -2678,7 +2678,7 @@
     },
     "maximumAttendeeCapacity": 4304,
     "latitude": 53.403459,
-    "longitude": 53.403459,
+    "longitude": -0.774463,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Northolme",
@@ -2748,7 +2748,7 @@
     },
     "maximumAttendeeCapacity": 4300,
     "latitude": 53.645567,
-    "longitude": 53.645567,
+    "longitude": -2.629188,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Duke Street",
@@ -2819,7 +2819,7 @@
     },
     "maximumAttendeeCapacity": 4250,
     "latitude": 53.450616,
-    "longitude": 53.450616,
+    "longitude": -2.068183,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Walker Lane",
@@ -2882,7 +2882,7 @@
     "name": "Hurst Cross",
     "maximumAttendeeCapacity": 4250,
     "latitude": 53.501301,
-    "longitude": 53.501301,
+    "longitude": -2.079707,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Surrey Street",
@@ -2946,7 +2946,7 @@
     },
     "maximumAttendeeCapacity": 4222,
     "latitude": 51.875305,
-    "longitude": 51.875305,
+    "longitude": 0.572989,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Clockhouse Way",
@@ -3007,7 +3007,7 @@
     "name": "Gallagher Stadium",
     "maximumAttendeeCapacity": 4200,
     "latitude": 51.28002,
-    "longitude": 51.28002,
+    "longitude": 0.516091,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "James Whatman Way",
@@ -3073,7 +3073,7 @@
     "name": "Tameside Stadium",
     "maximumAttendeeCapacity": 4200,
     "latitude": 53.494258,
-    "longitude": 53.494258,
+    "longitude": -2.116084,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Richmond Street",
@@ -3133,7 +3133,7 @@
     "name": "Croft Park",
     "maximumAttendeeCapacity": 4130,
     "latitude": 55.120879,
-    "longitude": 55.120879,
+    "longitude": -1.511217,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Plessey Road",
@@ -3200,7 +3200,7 @@
     },
     "maximumAttendeeCapacity": 4100,
     "latitude": 51.516461,
-    "longitude": 51.516461,
+    "longitude": 0.615713,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Canvey Island",
@@ -3264,7 +3264,7 @@
     },
     "maximumAttendeeCapacity": 4100,
     "latitude": 51.437182,
-    "longitude": 51.437182,
+    "longitude": 0.230837,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Darenth Road",
@@ -3323,7 +3323,7 @@
     "name": "Grosvenor Vale",
     "maximumAttendeeCapacity": 4085,
     "latitude": 51.569398,
-    "longitude": 51.569398,
+    "longitude": -0.416594,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Ruislip",
@@ -3391,7 +3391,7 @@
     },
     "maximumAttendeeCapacity": 4080,
     "latitude": 53.567592,
-    "longitude": 53.567592,
+    "longitude": -2.340701,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Radcliffe",
@@ -3448,7 +3448,7 @@
     "name": "The Pilot Field",
     "maximumAttendeeCapacity": 4050,
     "latitude": 50.874501,
-    "longitude": 50.874501,
+    "longitude": 0.587099,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Elphinstone Road",
@@ -3505,7 +3505,7 @@
     "name": "Nethermoor Park",
     "maximumAttendeeCapacity": 4021,
     "latitude": 53.877202,
-    "longitude": 53.877202,
+    "longitude": -1.719401,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Otley Road",
@@ -3565,7 +3565,7 @@
     "name": "Marston Road",
     "maximumAttendeeCapacity": 4000,
     "latitude": 52.818555,
-    "longitude": 52.818555,
+    "longitude": -2.116846,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Stafford",
@@ -3626,7 +3626,7 @@
     },
     "maximumAttendeeCapacity": 4000,
     "latitude": 51.086574,
-    "longitude": 51.086574,
+    "longitude": 1.159508,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Folkestone",
@@ -3684,7 +3684,7 @@
     "name": "Park View Road",
     "maximumAttendeeCapacity": 4000,
     "latitude": 51.460326,
-    "longitude": 51.460326,
+    "longitude": 0.116558,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Welling",
@@ -3745,7 +3745,7 @@
     },
     "maximumAttendeeCapacity": 4000,
     "latitude": 50.82034,
-    "longitude": 50.82034,
+    "longitude": -0.38482,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Woodside Road",
@@ -3810,7 +3810,7 @@
     },
     "maximumAttendeeCapacity": 4000,
     "latitude": 53.256603,
-    "longitude": 53.256603,
+    "longitude": -1.906581,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Buxton",
@@ -3874,7 +3874,7 @@
     },
     "maximumAttendeeCapacity": 4000,
     "latitude": 51.860324,
-    "longitude": 51.860324,
+    "longitude": -2.262623,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Sudmeadow Road",
@@ -3935,7 +3935,7 @@
     "name": "York Road",
     "maximumAttendeeCapacity": 4000,
     "latitude": 51.519889,
-    "longitude": 51.519889,
+    "longitude": -0.717968,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Maidenhead",
@@ -4000,7 +4000,7 @@
     "name": "The Citadel",
     "maximumAttendeeCapacity": 3900,
     "latitude": 53.80972,
-    "longitude": 53.80972,
+    "longitude": -1.664219,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Newlands",
@@ -4071,7 +4071,7 @@
     },
     "maximumAttendeeCapacity": 3800,
     "latitude": 51.415191,
-    "longitude": 51.415191,
+    "longitude": -0.363244,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Hampton",
@@ -4133,7 +4133,7 @@
     },
     "maximumAttendeeCapacity": 3600,
     "latitude": 53.094516,
-    "longitude": 53.094516,
+    "longitude": -1.381251,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "North Street",
@@ -4192,7 +4192,7 @@
     "name": "Twerton Park",
     "maximumAttendeeCapacity": 3528,
     "latitude": 51.378847,
-    "longitude": 51.378847,
+    "longitude": -2.395037,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Dominion Road",
@@ -4251,7 +4251,7 @@
     "name": "Giant Axe",
     "maximumAttendeeCapacity": 3513,
     "latitude": 54.051038,
-    "longitude": 54.051038,
+    "longitude": -2.810882,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "West Road",
@@ -4314,7 +4314,7 @@
     },
     "maximumAttendeeCapacity": 3500,
     "latitude": 54.489984,
-    "longitude": 54.489984,
+    "longitude": -0.627549,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Upgang Lane",
@@ -4378,7 +4378,7 @@
     },
     "maximumAttendeeCapacity": 3500,
     "latitude": 54.974526,
-    "longitude": 54.974526,
+    "longitude": -1.470094,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Shaftesbury Avenue",
@@ -4441,7 +4441,7 @@
     },
     "maximumAttendeeCapacity": 3500,
     "latitude": 53.072687,
-    "longitude": 53.072687,
+    "longitude": -2.52846,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Nantwich",
@@ -4498,7 +4498,7 @@
     "name": "Imperial Fields",
     "maximumAttendeeCapacity": 3500,
     "latitude": 51.393231,
-    "longitude": 51.393231,
+    "longitude": -0.172327,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Bishopsford Road",
@@ -4555,7 +4555,7 @@
     "name": "Len Salmon Stadium",
     "maximumAttendeeCapacity": 3500,
     "latitude": 51.57405,
-    "longitude": 51.57405,
+    "longitude": 0.518133,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Crown Ave",
@@ -4613,7 +4613,7 @@
     "name": "Parkside",
     "maximumAttendeeCapacity": 3500,
     "latitude": 51.503481,
-    "longitude": 51.503481,
+    "longitude": 0.261341,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Park Lane",
@@ -4676,7 +4676,7 @@
     "name": "St James Park",
     "maximumAttendeeCapacity": 3500,
     "latitude": 52.024613,
-    "longitude": 52.024613,
+    "longitude": -1.144039,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Churchill Way",
@@ -4736,7 +4736,7 @@
     "name": "Marsh Lane",
     "maximumAttendeeCapacity": 3500,
     "latitude": 51.773923,
-    "longitude": 51.773923,
+    "longitude": -1.227743,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Oxford",
@@ -4789,7 +4789,7 @@
     "name": "Theobalds Lane",
     "maximumAttendeeCapacity": 3500,
     "latitude": 51.694445,
-    "longitude": 51.694445,
+    "longitude": -0.041577,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Theobalds Lane",
@@ -4847,7 +4847,7 @@
     "name": "Horsfall Community Stadium",
     "maximumAttendeeCapacity": 3500,
     "latitude": 53.758876,
-    "longitude": 53.758876,
+    "longitude": -1.776174,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Cemetery Road",
@@ -4913,7 +4913,7 @@
     "name": "Champion Hill",
     "maximumAttendeeCapacity": 3334,
     "latitude": 51.461239,
-    "longitude": 51.461239,
+    "longitude": -0.084018,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "East Dulwich",
@@ -4969,7 +4969,7 @@
     "name": "Thames Road",
     "maximumAttendeeCapacity": 3300,
     "latitude": 51.512539,
-    "longitude": 51.512539,
+    "longitude": 0.575477,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Canvey Island",
@@ -5026,7 +5026,7 @@
     "name": "Blackwell Meadows",
     "maximumAttendeeCapacity": 3281,
     "latitude": 54.509449,
-    "longitude": 54.509449,
+    "longitude": -1.564142,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Grange Road",
@@ -5084,7 +5084,7 @@
     "name": "Flamingo Land Stadium",
     "maximumAttendeeCapacity": 3252,
     "latitude": 54.268845,
-    "longitude": 54.268845,
+    "longitude": -0.413472,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Scarborough",
@@ -5147,7 +5147,7 @@
     "name": "Vauxhall Road",
     "maximumAttendeeCapacity": 3152,
     "latitude": 51.753881,
-    "longitude": 51.753881,
+    "longitude": -0.444358,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Hemel Hempstead",
@@ -5200,7 +5200,7 @@
     "name": "Melbourne Stadium",
     "maximumAttendeeCapacity": 3065,
     "latitude": 51.753231,
-    "longitude": 51.753231,
+    "longitude": 0.451471,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Salerno Way",
@@ -5257,7 +5257,7 @@
     "name": "Town Ground",
     "maximumAttendeeCapacity": 3034,
     "latitude": 51.408934,
-    "longitude": 51.408934,
+    "longitude": -1.513463,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Bulpit Lane",
@@ -5315,7 +5315,7 @@
     "name": "Craik Park",
     "maximumAttendeeCapacity": 3000,
     "latitude": 55.155982,
-    "longitude": 55.155982,
+    "longitude": -1.708834,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Pegswood",
@@ -5374,7 +5374,7 @@
     "name": "Sir Tom Finney Stadium",
     "maximumAttendeeCapacity": 3000,
     "latitude": 53.727892,
-    "longitude": 53.727892,
+    "longitude": -2.671923,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Brownedge Road",
@@ -5430,7 +5430,7 @@
     "name": "The Dripping Pan",
     "maximumAttendeeCapacity": 3000,
     "latitude": 50.869019,
-    "longitude": 50.869019,
+    "longitude": 0.012321,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Mountfield Road",
@@ -5487,7 +5487,7 @@
     "name": "Hornchurch Stadium",
     "maximumAttendeeCapacity": 3000,
     "latitude": 51.556557,
-    "longitude": 51.556557,
+    "longitude": 0.23837,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Bridge Avenue",
@@ -5551,7 +5551,7 @@
     },
     "maximumAttendeeCapacity": 3000,
     "latitude": 51.364685,
-    "longitude": 51.364685,
+    "longitude": 1.129948,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Stanley Gardens",
@@ -5615,7 +5615,7 @@
     },
     "maximumAttendeeCapacity": 3000,
     "latitude": 51.211531,
-    "longitude": 51.211531,
+    "longitude": 0.269116,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Darenth Avenue",
@@ -5674,7 +5674,7 @@
     "name": "Hardenhuish Park",
     "maximumAttendeeCapacity": 3000,
     "latitude": 51.465604,
-    "longitude": 51.465604,
+    "longitude": -2.128737,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Bristol Road",
@@ -5733,7 +5733,7 @@
     "name": "Brewery Field",
     "maximumAttendeeCapacity": 3000,
     "latitude": 54.70451,
-    "longitude": 54.70451,
+    "longitude": -1.599134,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Durham Road",
@@ -5792,7 +5792,7 @@
     "name": "Meadowbank",
     "maximumAttendeeCapacity": 3000,
     "latitude": 51.234444,
-    "longitude": 51.234444,
+    "longitude": -0.333543,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Mill Lane",
@@ -5861,7 +5861,7 @@
     },
     "maximumAttendeeCapacity": 2650,
     "latitude": 53.027196,
-    "longitude": 53.027196,
+    "longitude": -1.487347,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Bridge Street",
@@ -5919,7 +5919,7 @@
     "name": "Cantilever Park",
     "maximumAttendeeCapacity": 2550,
     "latitude": 53.377071,
-    "longitude": 53.377071,
+    "longitude": -2.569861,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Common Lane",
@@ -5978,7 +5978,7 @@
     "name": "Mount Pleasant",
     "maximumAttendeeCapacity": 2500,
     "latitude": 54.589177,
-    "longitude": 54.589177,
+    "longitude": -1.016661,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Mount Pleasant Avenue",
@@ -6042,7 +6042,7 @@
     },
     "maximumAttendeeCapacity": 2500,
     "latitude": 53.523522,
-    "longitude": 53.523522,
+    "longitude": -2.484992,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Alder Street",
@@ -6103,7 +6103,7 @@
     },
     "maximumAttendeeCapacity": 2500,
     "latitude": 51.696188,
-    "longitude": 51.696188,
+    "longitude": -0.177662,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "The Walk",
@@ -6164,7 +6164,7 @@
     },
     "maximumAttendeeCapacity": 2500,
     "latitude": 51.605623,
-    "longitude": 51.605623,
+    "longitude": -0.09266,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "White Hart Lane",
@@ -6223,7 +6223,7 @@
     "name": "Queen Elizabeth II Stadium",
     "maximumAttendeeCapacity": 2500,
     "latitude": 51.659332,
-    "longitude": 51.659332,
+    "longitude": -0.063843,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Donkey Lane",
@@ -6284,7 +6284,7 @@
     },
     "maximumAttendeeCapacity": 2500,
     "latitude": 51.016716,
-    "longitude": 51.016716,
+    "longitude": -3.085107,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Wordsworth Drive",
@@ -6338,7 +6338,7 @@
     "name": "Latimer Park",
     "maximumAttendeeCapacity": 2400,
     "latitude": 52.366808,
-    "longitude": 52.366808,
+    "longitude": -0.689305,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Polwell Lane",
@@ -6407,7 +6407,7 @@
     },
     "maximumAttendeeCapacity": 2300,
     "latitude": 53.137031,
-    "longitude": 53.137031,
+    "longitude": -1.551677,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Causeway Lane",
@@ -6465,7 +6465,7 @@
     "name": "Lincoln Road",
     "maximumAttendeeCapacity": 2300,
     "latitude": 52.593814,
-    "longitude": 52.593814,
+    "longitude": -0.254312,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "651 Lincoln Road",
@@ -6528,7 +6528,7 @@
     },
     "maximumAttendeeCapacity": 2300,
     "latitude": 52.244306,
-    "longitude": 52.244306,
+    "longitude": -1.502849,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Harbury Lane",
@@ -6593,7 +6593,7 @@
     },
     "maximumAttendeeCapacity": 2150,
     "latitude": 53.485173,
-    "longitude": 53.485173,
+    "longitude": -3.033623,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "College Road",
@@ -6649,7 +6649,7 @@
     "name": "Hartsdown Park",
     "maximumAttendeeCapacity": 2100,
     "latitude": 51.380459,
-    "longitude": 51.380459,
+    "longitude": 1.373928,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Tivoli Park Avenue",
@@ -6703,7 +6703,7 @@
     "name": "Clayborn Ground",
     "maximumAttendeeCapacity": 2000,
     "latitude": 53.717658,
-    "longitude": 53.717658,
+    "longitude": -1.711748,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Quaker Lane",
@@ -6765,7 +6765,7 @@
     },
     "maximumAttendeeCapacity": 2000,
     "latitude": 51.372154,
-    "longitude": 51.372154,
+    "longitude": -0.287229,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Queen Mary Close",
@@ -6822,7 +6822,7 @@
     "name": "Arbour Park",
     "maximumAttendeeCapacity": 2000,
     "latitude": 51.5198622,
-    "longitude": 51.5198622,
+    "longitude": -0.5884198,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Slough",
@@ -6886,7 +6886,7 @@
     },
     "maximumAttendeeCapacity": 1980,
     "latitude": 51.046893,
-    "longitude": 51.046893,
+    "longitude": -0.340681,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Worthing Road",
@@ -6947,7 +6947,7 @@
     "name": "The Maurice Rebak Stadium",
     "maximumAttendeeCapacity": 1500,
     "latitude": 51.606848,
-    "longitude": 51.606848,
+    "longitude": -0.171497,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Summers Lane",
@@ -7006,7 +7006,7 @@
     "name": "Rylands Recreation Club",
     "maximumAttendeeCapacity": 1345,
     "latitude": 53.4004,
-    "longitude": 53.4004,
+    "longitude": -2.575604,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Gorsey Lane",
@@ -7064,7 +7064,7 @@
     "name": "North Road",
     "maximumAttendeeCapacity": 1000,
     "latitude": 51.815817,
-    "longitude": 51.815817,
+    "longitude": 1.026387,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Colchester",
