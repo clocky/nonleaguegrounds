@@ -67,7 +67,7 @@ eleventyComputed:
           <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
             {{ club.memberOf.name }}</a>, 
             {%- if club.memberOf.additionalProperty %}
-            the {{ club.memberOf.additionalProperty.@value | ordinal }} tier of English football
+            the {{ club.memberOf.additionalProperty.value | int | ordinal }} tier of English football
             {%- endif %}.
         </p>
         <p>

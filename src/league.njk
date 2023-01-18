@@ -6,7 +6,7 @@ pagination:
 permalink: "/leagues/{{ league.name | slugify }}/index.html"
 eleventyComputed:
     title: "Clubs in the {{ league.alternateName | safe }}"
-    description: The {{ league.alternateName }} is the {{ league.additionalProperty.@value | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs"
+    description: The {{ league.alternateName }} is the {{ league.additionalProperty.value | int | ordinal }} tier of the English football pyramid, with a total of {{ league.members.length }} clubs"
 ---
 {% extends "base.njk" %}
 {% from "macros.njk" import emoji %}
@@ -47,7 +47,7 @@ eleventyComputed:
     <hgroup>
     <h1>{{ league.alternateName }}</h1>
         <h2>
-          The {{ league.name }} is at the {{ league.additionalProperty.@value | ordinal }} tier of the
+          The {{ league.name }} is at the {{ league.additionalProperty.value | int | ordinal }} tier of the
           English football pyramid, with a total of
           {{ league.members.length }} clubs
         </h2>
