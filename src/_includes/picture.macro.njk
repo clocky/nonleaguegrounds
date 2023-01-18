@@ -1,0 +1,17 @@
+{% macro picture(club, folder) %}
+  {% set stem = club | slugify %}
+  {% set srcset = [640, 768, 1024, 1366, 1600, 1920] %}
+  <picture>
+    <source 
+      type="image/avif" 
+      sizes="100vw"
+      srcset="{% for size in srcset %}/img/{{ folder }}/{{ stem }}-{{ size }}w.avif {{ size }}w{% if not loop.last %},{% endif %}{% endfor %}" 
+    />
+    <source 
+      type="image/jpeg" 
+      sizes="100vw"
+      srcset="{% for size in srcset %}/img/{{ folder }}/{{ stem }}-{{ size }}w.jpeg {{ size }}w{% if not loop.last %},{% endif %}{% endfor %}" 
+    />
+    <img alt="{{ club }}" class="hero-background is-transparent" loading="lazy" decoding="async" src="/img/{{ folder }}/{{ stem }}-1600w.jpeg" width="1600" height="1200" />
+  </picture>
+{% endmacro %}

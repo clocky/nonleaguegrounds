@@ -14,6 +14,7 @@ eleventyComputed:
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 {% from "creative-commons.macro.njk" import creativeCommons %}
 {% from "legal.macro.njk" import legal %}
+{% from "picture.macro.njk" import picture %}
 {% from "macros.njk" import staticmap %}
 {% from "product.macro.njk" import product %}
 
@@ -50,12 +51,12 @@ eleventyComputed:
 
 {% block css %}
   {%- if club.owns %}
-      <style>
-        section .hero-body {
-          background: linear-gradient(135deg, {%- if club.owns.color.length == 2 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[0] }} 15.01rem, {{ club.owns.color[0] }} 15.50rem, rgba(0,0,0,0) 15.51rem, rgba(0,0,0,0) 100% {%- elif club.owns.color.length == 3 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[2] }} 15.01rem, {{ club.owns.color[2] }} 15.50rem, rgba(0,0,0,0) 15.51rem, rgba(0,0,0,0) 100% {%- else %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 15.5rem, rgba(0,0,0,0) 15.51rem,  rgba(0,0,0,0) 100% {%- endif %});
-          z-index: 1;
-        }
-      </style>
+    <style>
+      section .hero-body {
+        background: linear-gradient(135deg, {%- if club.owns.color.length == 2 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[0] }} 15.01rem, {{ club.owns.color[0] }} 15.50rem, rgba(0,0,0,0) 15.51rem, rgba(0,0,0,0) 100% {%- elif club.owns.color.length == 3 %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 10.5rem, {{ club.owns.color[1] }} 10.51rem, {{ club.owns.color[1] }} 15rem, {{ club.owns.color[2] }} 15.01rem, {{ club.owns.color[2] }} 15.50rem, rgba(0,0,0,0) 15.51rem, rgba(0,0,0,0) 100% {%- else %} {{ club.owns.color[0] }} 0%, {{ club.owns.color[0] }} 15.5rem, rgba(0,0,0,0) 15.51rem, rgba(0,0,0,0) 100% {%- endif %});
+        z-index: 1;
+      }
+    </style>
   {%- endif %}
 {% endblock %}
 
@@ -67,13 +68,11 @@ eleventyComputed:
   {% set background = "is-white" if club.owns %}
   <section class="hero {{ background }} has-background is-medium">
     {% if club.image %}
-      {# 640, 768, 1024, 1366, 1600, 1920 #}
-      {% image "./src/_assets/img/flickr/" + club.image.contentUrl, [ 640, 768, 1024, 1366, 1600 ], [ "avif", "jpeg" ], club.name, "100vw", "clubs", "hero-background is-transparent" %}
+      {{ picture(club.name, "clubs") }}
     {% endif %}
     <div class="hero-body">
       <div class="container has-text-left">
         {% set padding = "p-4" if club.image or club.owns %}
-
         <h1 class="title has-background-white is-inline-block has-text-weight-bold is-size-2 is-size-3-mobile {{ padding }}">
           {{ club.alternateName }}
         </h1>
@@ -110,9 +109,9 @@ eleventyComputed:
         {% endif %}
       </div>
       {% if club.image %}
-      <div class="level-right">
-        {{ creativeCommons(club.image)}}
-      </div>
+        <div class="level-right">
+          {{ creativeCommons(club.image)}}
+        </div>
       {% endif %}
     </div>
   </section>
@@ -121,12 +120,11 @@ eleventyComputed:
 {% block main %}
   <div class="container is-max-desktop">
     <div class="columns is-variable is-8">
-      <article class="column is-two-thirds"> 
-        {% image club.logo.contentUrl, [48,96], ["webp", "png"], club.name, "48px", "crests" %}
-
+      <article class="column is-two-thirds">
         <p class="block is-size-5">
           <strong>{{- club.alternateName -}}</strong>
-          {% if club.keywords %} is a {{ club.keywords }}{%- else -%} is an {%- endif %}
+          {% if club.keywords %} is a {{ club.keywords }}
+          {%- else -%} is an {%- endif %}
           {{ club.sport | lower }} club based in {{ club.location.address.addressLocality }}
           {%- if club.location.address.addressRegion -%}
             , {{ club.location.address.addressRegion }}
@@ -134,9 +132,10 @@ eleventyComputed:
         </p>
         <p class="block">
           The club was founded in {{ club.foundingDate }}, and currently plays in the
-          <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }} {{ club.memberOf.name }}</a>, 
+          <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
+            {{ club.memberOf.name }}</a>, 
             {%- if club.memberOf.additionalProperty %}
-            the {{ club.memberOf.additionalProperty.value | ordinal }} tier of 
+            the {{ club.memberOf.additionalProperty.value | int | ordinal }} tier of 
             the English football league system
             {%- endif %}.
         </p>
@@ -145,10 +144,12 @@ eleventyComputed:
           <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
           a stadium which has a capacity of {{ club.location.maximumAttendeeCapacity | commaNumber }} spectators.
         </p>
-        
+
         {%- if club.owns.mainEntityOfPage %}
           <p class="block">
-            The clubs {% if club.owns.mainEntityOfPage %}<a href="{{ club.owns.mainEntityOfPage }}" target="_blank" rel="noopener" class="is-info">home kit</a>{%  else %} home kit {% endif %}
+            The clubs {% if club.owns.mainEntityOfPage %}
+              <a href="{{ club.owns.mainEntityOfPage }}" target="_blank" rel="noopener" class="is-info">home kit</a>
+            {%  else %} home kit {% endif %}
             {%- if club.owns.material %} is made of {{ club.owns.material }} and {% endif %} 
               is manufactured by <span class="has-text-weight-semibold">{{ club.owns.brand }}</span>.
           </p>
@@ -193,7 +194,7 @@ eleventyComputed:
 {% endblock %}
 
 {% block social %}
-{#
+  {#
 <div class="container">
   <div class="columns is-variable is-8">
     <div class="column is-two-fifths">
