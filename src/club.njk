@@ -151,7 +151,7 @@ eleventyComputed:
               </tr>
             {% endif %}
             {% for url in club.sameAs %}
-              {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") else url.split("/")[2].split(".")[1] -%}
+              {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") or url.includes("soundcloud") else url.split("/")[2].split(".")[1] -%}
               {%- set user = url.split("/")[3] -%}
               <tr>
                 <th scope="row">{{ network | capitalize }}</th>
