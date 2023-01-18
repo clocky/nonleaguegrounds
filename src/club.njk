@@ -154,10 +154,18 @@ eleventyComputed:
             {% endif %}
             {% for url in club.sameAs %}
               {%- set network = url.split("/")[2].split(".")[0] if url.includes("twitter") or url.includes("soundcloud") else url.split("/")[2].split(".")[1] -%}
-              {%- set user = url.split("/")[3] -%}
+              {%- set user = url.split("/")[3].substring(1) if url.includes("youtube") or url.includes("tiktok") else url.split("/")[3] -%}
               <tr>
                 <th scope="row">
-                  {{ network | capitalize }}
+                  {% if network == "tiktok" %}
+                    TikTok
+                  {% elif network == "youtube" %}
+                    YouTube
+                  {% elif network == "soundcloud" %}
+                    SoundCloud
+                  {% else %}
+                    {{ network | capitalize }}
+                  {% endif %}                  
                 </th>
                 <td>
                   <a 
