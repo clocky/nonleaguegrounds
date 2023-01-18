@@ -49,7 +49,7 @@
           "https://twitter.com/Official_NCFC/",
           "https://www.facebook.com/nottscountyfootballclub",
           "https://www.instagram.com/nottscountyfc/",
-          "https://www.youtube.com/OfficialNCFC",
+          "https://www.youtube.com/@OfficialNCFC",
           "https://www.tiktok.com/@nottscountyofficial/"
         ],
         "memberOf": {
@@ -110,7 +110,7 @@
           "https://twitter.com/OfficialOAFC/",
           "https://www.facebook.com/OfficialOAFC",
           "https://www.instagram.com/officialoafc/",
-          "https://www.youtube.com/OfficialOAFC"
+          "https://www.youtube.com/@OfficialOAFC"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -171,7 +171,7 @@
           "https://twitter.com/SUFCRootsHall/",
           "https://www.facebook.com/SouthendUnitedFC",
           "https://www.instagram.com/SUFCRootsHall/",
-          "https://www.youtube.com/SUFCRootsHall"
+          "https://www.youtube.com/@SUFCRootsHall"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -291,7 +291,7 @@
           "https://twitter.com/ChesterfieldFC/",
           "https://www.facebook.com/ChesterfieldFC",
           "https://www.instagram.com/ChesterfieldFC/",
-          "https://www.youtube.com/ChesterfieldFCOfficial"
+          "https://www.youtube.com/@ChesterfieldFCOfficial"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -357,7 +357,7 @@
           "https://twitter.com/Wrexham_AFC/",
           "https://www.facebook.com/wrexhamfootballclub",
           "https://www.instagram.com/wrexham_afc/",
-          "https://www.youtube.com/WxmAFCofficial",
+          "https://www.youtube.com/@WxmAFCofficial",
           "https://www.tiktok.com/@wrexham_afc/",
           "https://soundcloud.com/griff92"
         ],
@@ -539,7 +539,7 @@
           "https://twitter.com/SUFCOfficial/",
           "https://www.facebook.com/sufcofficial",
           "https://www.instagram.com/sufcofficial/",
-          "https://www.youtube.com/sufcofficial"
+          "https://www.youtube.com/@sufcofficial"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -605,7 +605,7 @@
           "https://twitter.com/officialKLtown/",
           "https://www.facebook.com/kltown",
           "https://www.instagram.com/officialkltownfc/",
-          "https://www.youtube.com/kingslynntownfctv-official1403"
+          "https://www.youtube.com/@kingslynntownfctv-official1403"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -670,7 +670,7 @@
           "https://twitter.com/YorkCityFC/",
           "https://www.facebook.com/yorkcityfc",
           "https://www.instagram.com/yorkcityfc/",
-          "https://www.youtube.com/yorkcityfcofficial"
+          "https://www.youtube.com/@yorkcityfcofficial"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -736,7 +736,7 @@
           "https://twitter.com/altrinchamfc/",
           "https://www.facebook.com/officialalty",
           "https://www.instagram.com/altrinchamfc/",
-          "https://www.youtube.com/altytv"
+          "https://www.youtube.com/@altytv"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -1292,7 +1292,7 @@
           "https://twitter.com/khfcofficial/",
           "https://www.facebook.com/khfcofficial",
           "https://www.instagram.com/khfcofficial/",
-          "https://www.youtube.com/khfcofficial"
+          "https://www.youtube.com/@khfcofficial"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -1416,7 +1416,7 @@
         "sameAs": [
           "https://twitter.com/Dag_RedFC/",
           "https://www.facebook.com/OfficialDaggers",
-          "https://www.youtube.com/DaggersCoUk"
+          "https://www.youtube.com/@DaggersCoUk"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -1547,7 +1547,7 @@
           "https://twitter.com/southport_fc/",
           "https://www.facebook.com/SouthportFootballClub",
           "https://www.instagram.com/southportfootballclub/",
-          "https://www.youtube.com/SouthportFCTV"
+          "https://www.youtube.com/@SouthportFCTV"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -1668,7 +1668,7 @@
           "https://twitter.com/DoverAthletic/",
           "https://www.facebook.com/DoverAthleticFC",
           "https://www.instagram.com/doverathleticfc/",
-          "https://www.youtube.com/DoverAthleticFC"
+          "https://www.youtube.com/@DoverAthleticFC"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -1738,7 +1738,7 @@
         "sameAs": [
           "https://twitter.com/ChesterFC/",
           "https://www.facebook.com/ChesterFC",
-          "https://www.youtube.com/ChesterFCTV"
+          "https://www.youtube.com/@ChesterFCTV"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -1864,7 +1864,7 @@
         "sameAs": [
           "https://twitter.com/eastleighfc/",
           "https://www.facebook.com/eastleighfc",
-          "https://www.youtube.com/EastleighFCOfficial"
+          "https://www.youtube.com/@EastleighFCOfficial"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -1929,7 +1929,7 @@
           "https://twitter.com/stalbanscityfc/",
           "https://www.facebook.com/stalbanscityfc",
           "https://www.instagram.com/stalbanscity_fc/",
-          "https://www.youtube.com/StAlbansCity"
+          "https://www.youtube.com/@StAlbansCity"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2052,7 +2052,7 @@
           "https://twitter.com/BTFC/",
           "https://www.facebook.com/BillericayTownFootballClub",
           "https://www.instagram.com/billericaytown/",
-          "https://www.youtube.com/billericaytowntv7987"
+          "https://www.youtube.com/@billericaytowntv7987"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2177,7 +2177,7 @@
           "https://twitter.com/bromleyfc/",
           "https://www.facebook.com/bromleyfc",
           "https://www.instagram.com/bromleyfc/",
-          "https://www.youtube.com/bromleyfctv"
+          "https://www.youtube.com/@bromleyfctv"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2275,7 +2275,7 @@
           "https://twitter.com/HerefordFC/",
           "https://www.facebook.com/officialherefordfc",
           "https://www.instagram.com/HEREFORD_FC/",
-          "https://www.youtube.com/HerefordFC_Official"
+          "https://www.youtube.com/@HerefordFC_Official"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2403,7 +2403,7 @@
           "https://twitter.com/BSFCTheBlues/",
           "https://www.facebook.com/BSFCTheBlues",
           "https://www.instagram.com/bishops_stortfordfc/",
-          "https://www.youtube.com/BishopsStortfordFC1874"
+          "https://www.youtube.com/@BishopsStortfordFC1874"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2469,7 +2469,7 @@
           "https://twitter.com/SolihullMoors/",
           "https://www.facebook.com/SolihullMoorsFootballClub",
           "https://www.instagram.com/SolihullMoorsFootballClub/",
-          "https://www.youtube.com/solihullmoorsfootballclub3528"
+          "https://www.youtube.com/@solihullmoorsfootballclub3528"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2651,7 +2651,7 @@
         "sameAs": [
           "https://twitter.com/FCUnitedMcr/",
           "https://www.facebook.com/FCUnitedMcr",
-          "https://www.youtube.com/FCUnitedMcr"
+          "https://www.youtube.com/@FCUnitedMcr"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2721,7 +2721,7 @@
           "https://twitter.com/GainsTrinityFC/",
           "https://www.facebook.com/GainsTrinityFC",
           "https://www.instagram.com/gainstrinityfc/",
-          "https://www.youtube.com/GainsboroughTrinityFCTV"
+          "https://www.youtube.com/@GainsboroughTrinityFCTV"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2792,7 +2792,7 @@
           "https://twitter.com/chorleyfc/",
           "https://www.facebook.com/ChorleyFC",
           "https://www.instagram.com/chorley_fc/",
-          "https://www.youtube.com/chorleyfctv"
+          "https://www.youtube.com/@chorleyfctv"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2919,7 +2919,7 @@
           "https://twitter.com/AshtonUnitedFC/",
           "https://www.facebook.com/AshtonUnitedFC",
           "https://www.instagram.com/ashtonunitedfc/",
-          "https://www.youtube.com/ashtonunitedtv1184"
+          "https://www.youtube.com/@ashtonunitedtv1184"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -2985,7 +2985,7 @@
           "https://twitter.com/braintreetownfc/",
           "https://www.facebook.com/Braintreetownfcofficial",
           "https://www.instagram.com/Braintreetownfcofficial/",
-          "https://www.youtube.com/BraintreeTownFCOfficial"
+          "https://www.youtube.com/@BraintreeTownFCOfficial"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -3051,7 +3051,7 @@
           "https://twitter.com/maidstoneunited/",
           "https://www.facebook.com/MaidstoneUnitedFC",
           "https://www.instagram.com/maidstoneunited/",
-          "https://www.youtube.com/StonesTV"
+          "https://www.youtube.com/@StonesTV"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -3173,7 +3173,7 @@
         "url": "https://www.blythspartans.com",
         "sameAs": [
           "https://twitter.com/Blyth_Spartans/",
-          "https://www.youtube.com/BSAFCTV"
+          "https://www.youtube.com/@BSAFCTV"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -3237,7 +3237,7 @@
           "https://twitter.com/CIFC/",
           "https://www.facebook.com/canveyislandfc",
           "https://www.instagram.com/canveyislandfc/",
-          "https://www.youtube.com/CanveyIslandFootballClub1926"
+          "https://www.youtube.com/@CanveyIslandFootballClub1926"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -3543,7 +3543,7 @@
           "https://twitter.com/GuiseleyAFC/",
           "https://www.facebook.com/GuiseleyAFC",
           "https://www.instagram.com/guiseleyafc1909/",
-          "https://www.youtube.com/OfficialGuiseleyAFC"
+          "https://www.youtube.com/@OfficialGuiseleyAFC"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -3599,7 +3599,7 @@
         "sameAs": [
           "https://twitter.com/SRFCofficial/",
           "https://www.facebook.com/StaffordRangersFootballClub",
-          "https://www.youtube.com/staffordrangersofficial6822"
+          "https://www.youtube.com/@staffordrangersofficial6822"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -3662,7 +3662,7 @@
         "sameAs": [
           "https://twitter.com/FIFC/",
           "https://www.facebook.com/folkestoneinvictafc",
-          "https://www.youtube.com/folkestoneinvictafc"
+          "https://www.youtube.com/@folkestoneinvictafc"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -3783,7 +3783,7 @@
           "https://twitter.com/WorthingFC/",
           "https://www.facebook.com/WorthingFC",
           "https://www.instagram.com/WorthingFC/",
-          "https://www.youtube.com/worthingfc"
+          "https://www.youtube.com/@worthingfc"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -3913,7 +3913,7 @@
           "https://twitter.com/GCAFCOfficial/",
           "https://www.facebook.com/gcafcofficial",
           "https://www.instagram.com/gloucestercityafc/",
-          "https://www.youtube.com/GloucesterCityAFC1883"
+          "https://www.youtube.com/@GloucesterCityAFC1883"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -3978,7 +3978,7 @@
           "https://twitter.com/MUFCYorkRoad/",
           "https://www.facebook.com/MUFCYorkRoad",
           "https://www.instagram.com/MUFCYorkRoad/",
-          "https://www.youtube.com/MaidenheadUtd"
+          "https://www.youtube.com/@MaidenheadUtd"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -4414,7 +4414,7 @@
           "https://twitter.com/SouthShieldsFC/",
           "https://www.facebook.com/southshieldsfc",
           "https://www.instagram.com/southshieldsfc/",
-          "https://www.youtube.com/southshieldsfc"
+          "https://www.youtube.com/@southshieldsfc"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -4891,7 +4891,7 @@
           "https://twitter.com/BPAFCOfficial/",
           "https://www.facebook.com/BPAFCOfficial",
           "https://www.instagram.com/bpafcofficial/",
-          "https://www.youtube.com/BradfordParkAvenueAFC"
+          "https://www.youtube.com/@BradfordParkAvenueAFC"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5004,7 +5004,7 @@
         "sameAs": [
           "https://twitter.com/ConcordRangers/",
           "https://www.facebook.com/ConcordRangersFC",
-          "https://www.youtube.com/BeachBoysTV"
+          "https://www.youtube.com/@BeachBoysTV"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5062,7 +5062,7 @@
         "sameAs": [
           "https://twitter.com/Official_Darlo/",
           "https://www.facebook.com/darlingtonfc",
-          "https://www.youtube.com/DarlingtonFootballClub"
+          "https://www.youtube.com/@DarlingtonFootballClub"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5125,7 +5125,7 @@
           "https://twitter.com/safc/",
           "https://www.facebook.com/scarboroughathletic",
           "https://www.instagram.com/scarboroughathletic/",
-          "https://www.youtube.com/scarboroughathletictv5367"
+          "https://www.youtube.com/@scarboroughathletictv5367"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5352,7 +5352,7 @@
           "https://twitter.com/MorpethTownAFC/",
           "https://www.facebook.com/MorpethTownAFC",
           "https://www.instagram.com/morpethtownafc/",
-          "https://www.youtube.com/HighwaymenTV1"
+          "https://www.youtube.com/@HighwaymenTV1"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5524,7 +5524,7 @@
           "https://twitter.com/HornchurchFC/",
           "https://www.facebook.com/HornchurchFCofficial",
           "https://www.instagram.com/hornchurchfcofficial/",
-          "https://www.youtube.com/Hornchurch_FC"
+          "https://www.youtube.com/@Hornchurch_FC"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5588,7 +5588,7 @@
           "https://twitter.com/HerneBayFC/",
           "https://www.facebook.com/hernebayfootballclub",
           "https://www.instagram.com/hbfc_official/",
-          "https://www.youtube.com/hbfctv6569"
+          "https://www.youtube.com/@hbfctv6569"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5652,7 +5652,7 @@
           "https://twitter.com/tonbridgeangels/",
           "https://www.facebook.com/Tonbridge-Angels-FC-240741216808",
           "https://www.instagram.com/tonbridgeangelsfc/",
-          "https://www.youtube.com/tonbridgeangels1"
+          "https://www.youtube.com/@tonbridgeangels1"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5711,7 +5711,7 @@
           "https://twitter.com/ChipTownFC/",
           "https://www.facebook.com/ChipTownFC",
           "https://www.instagram.com/chiptownfc/",
-          "https://www.youtube.com/ChipTownFC"
+          "https://www.youtube.com/@ChipTownFC"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5770,7 +5770,7 @@
           "https://twitter.com/SpennymoorTown/",
           "https://www.facebook.com/SpennymoorTown",
           "https://www.instagram.com/spennnymoor/",
-          "https://www.youtube.com/SpennymoorTownFC"
+          "https://www.youtube.com/@SpennymoorTownFC"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5834,7 +5834,7 @@
           "https://twitter.com/DorkingWDRS/",
           "https://www.facebook.com/DorkingWanderersFC",
           "https://www.instagram.com/dwfcofficial/",
-          "https://www.youtube.com/DWTV1999"
+          "https://www.youtube.com/@DWTV1999"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -5956,7 +5956,7 @@
           "https://twitter.com/theyellows/",
           "https://www.facebook.com/WarringtonTownFC",
           "https://www.instagram.com/warringtontownfc/",
-          "https://www.youtube.com/WarringtonTownFC"
+          "https://www.youtube.com/@WarringtonTownFC"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -6859,7 +6859,7 @@
           "https://twitter.com/sloughtownfc/",
           "https://www.facebook.com/sloughtownfc",
           "https://www.instagram.com/sloughtownfc/",
-          "https://www.youtube.com/sloughtownfc"
+          "https://www.youtube.com/@sloughtownfc"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
@@ -6925,7 +6925,7 @@
           "https://twitter.com/HorshamFC/",
           "https://www.facebook.com/HorshamFC",
           "https://www.instagram.com/horsham_fc/",
-          "https://www.youtube.com/HornetsTV"
+          "https://www.youtube.com/@HornetsTV"
         ],
         "memberOf": {
           "@type": "SportsOrganization",
