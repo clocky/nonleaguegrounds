@@ -6,7 +6,7 @@
   "scripts": {
     "webhint": "npx hint -c .hintrc https://www.nonleaguegrounds.com",
     "watch:eleventy": "ELEVENTY_ENV=development eleventy --serve",
-    "build:eleventy": "DEBUG=Eleventy* ELEVENTY_ENV=production eleventy --quiet",
+    "build:eleventy": "ELEVENTY_ENV=production eleventy --quiet",
     "postbuild": "npm-run-all postbuild:css postbuild:sharp",
     "start": "npm-run-all --parallel watch:*",
     "prebuild": "rimraf dist",
