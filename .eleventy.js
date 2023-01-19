@@ -4,10 +4,8 @@ const prettier = require("prettier");
 const yaml = require("js-yaml");
 const ordinal = require("ordinal");
 const commaNumber = require("comma-number");
-const EleventyFetch = require("@11ty/eleventy-fetch");
 const distFrom = require("distance-from");
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
-const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 const pluginRev = require("eleventy-plugin-rev");
 const eleventySass = require("eleventy-sass");
 
@@ -29,32 +27,6 @@ module.exports = function (eleventyConfig) {
       style: "compressed",
     },
     rev: true
-  });
-
-  /** Check for broken external links */
-  /** Apple URL's always seem to 302, so we ignore them */
-  eleventyConfig.addPlugin(brokenLinksPlugin, {
-    broken: "error",
-    redirect: "warn",
-    loggingLevel: 3,
-    cacheDuration: "1w",
-    /* 
-       All of these 'fail' due to 429 rate limit or 302 moved errors
-       but still have valid content.
-
-       The maps URL are skipped as they will fail nicely if they receive
-       invalid map coordinates.
-    */
-    excludeUrls: [
-      "https://maps.apple.com/*",
-      "https://www.facebook.com/*",
-      "https://www.youtube.com/channel/*",
-      "https://www.instagram.com/*",
-      "https://www.openstreetmap.org/*",
-      "https://www.google.com/maps/*",
-      "https://www.bing.com/maps/*",
-      
-    ],
   });
 
   /** Add loader for YAML files */
