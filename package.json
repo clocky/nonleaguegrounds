@@ -32,7 +32,6 @@
     "@11ty/eleventy-fetch": "^3.0.0",
     "@picocss/pico": "^1.5.6",
     "comma-number": "^2.1.0",
-    "dayjs": "^1.11.6",
     "distance-from": "^1.1.2",
     "dotenv": "^16.0.3",
     "js-yaml": "^4.1.0",
@@ -42,6 +41,7 @@
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^2.2.0",
+    "dayjs": "^1.11.7",
     "eleventy-plugin-broken-links": "^2.0.3",
     "eleventy-plugin-purgecss": "^0.3.0",
     "eleventy-plugin-rev": "^1.0.2",
