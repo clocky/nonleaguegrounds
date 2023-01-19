@@ -1,9 +1,0 @@
----
-permalink: /emoji.txt
----
-{%- from "macros.njk" import emoji -%}
-{%- for club in clubs -%}
-    {% if club.slogan %}
-        {{- emoji(club.slogan)}}
-    {% endif %}
-{%- endfor -%}
