@@ -6,32 +6,31 @@ const ordinal = require("ordinal");
 const commaNumber = require("comma-number");
 const distFrom = require("distance-from");
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
-const pluginRev = require("eleventy-plugin-rev");
+const rev = require("eleventy-plugin-rev");
 const eleventySass = require("eleventy-sass");
-const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setQuietMode(true);
+  eleventyConfig.addPlugin(rev);
+
   if (process.env.ELEVENTY_ENV === "production") {
     eleventyConfig.addPlugin(purgeCssPlugin, {
       config: "./purgecss.config.js",
       quiet: false,
     });
-
-  eleventyConfig.setQuietMode(true);
-  eleventyConfig.addPlugin(directoryOutputPlugin);
-  eleventyConfig.addPlugin(pluginRev);
-  
   }
+
   eleventyConfig.addPlugin(eleventySass, {
     compileOptions: {
-      permalink: function(contents, inputPath) {
-        return (data) => data.page.filePathStem.replace(/^\/sass\//, "/css/") + ".css";
-      }
+      permalink: function (contents, inputPath) {
+        return (data) =>
+          data.page.filePathStem.replace(/^\/sass\//, "/css/") + ".css";
+      },
     },
     sass: {
       style: "compressed",
     },
-    rev: true
+    rev: true,
   });
 
   /** Add loader for YAML files */
@@ -45,7 +44,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "./src/img/favicon": "/" });
 
   /** Add a filter to format inline dates for <time> tags */
-  eleventyConfig.addFilter("date", (date, format) => dayjs(date).format(format));
+  eleventyConfig.addFilter("date", (date, format) =>
+    dayjs(date).format(format)
+  );
   eleventyConfig.addFilter("ordinal", (num) => ordinal(num));
   eleventyConfig.addFilter("commaNumber", (num) => commaNumber(num));
 
@@ -55,8 +56,9 @@ module.exports = function (eleventyConfig) {
   });
 
   /** Add a filter to format inline dates for <time> tags */
-  let yearsAgo = (year) => dayjs().diff(dayjs(year, "YYYY"), "year");
-  eleventyConfig.addFilter("ago", yearsAgo);
+  eleventyConfig.addFilter("ago", (year) =>
+    dayjs().diff(dayjs(year, "YYYY"), "year")
+  );
 
   eleventyConfig.addTransform("prettier", function (content, outputPath) {
     const extname = path.extname(outputPath);
