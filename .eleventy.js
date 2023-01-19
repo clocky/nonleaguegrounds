@@ -8,6 +8,7 @@ const distFrom = require("distance-from");
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
 const pluginRev = require("eleventy-plugin-rev");
 const eleventySass = require("eleventy-sass");
+const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === "production") {
@@ -15,8 +16,12 @@ module.exports = function (eleventyConfig) {
       config: "./purgecss.config.js",
       quiet: false,
     });
-  }
+
+  eleventyConfig.setQuietMode(true);
+  eleventyConfig.addPlugin(directoryOutputPlugin);
   eleventyConfig.addPlugin(pluginRev);
+  
+  }
   eleventyConfig.addPlugin(eleventySass, {
     compileOptions: {
       permalink: function(contents, inputPath) {
