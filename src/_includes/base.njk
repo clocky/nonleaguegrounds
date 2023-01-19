@@ -4,13 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    {%- block link %}{%- endblock %}
-      <link rel="icon" href="/favicon.ico" sizes="any">
-      <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-      <link rel="manifest" href="/site.webmanifest">
+    
+    {%- block link %}
+    {%- endblock %}
+    
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="{{ '/css/style.css' | rev }}">
-    {%- block css -%}{%- endblock %}
-    {%- block script %}{%- endblock %}
+    
+    {%- block css -%}
+    {%- endblock %}
+
+    {%- block script %}
+    {%- endblock %}
+    
     <meta name="description" content="{% if description %}{{ description }}{% else %}{{ meta.description }}{% endif %}">
     <title>
       {% if title %}{{ title }}{%else%}{{ meta.title }}{%endif%}
