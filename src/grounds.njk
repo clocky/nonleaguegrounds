@@ -8,6 +8,9 @@ eleventyComputed:
 {% extends "base.njk" %}
 {% from "unsplash.macro.njk" import unsplash %}
 
+{% set ground_name = ground.name | slugify %}
+{% set ground_areaServed = ground.areaServed | slugify %}
+
 {%- block link %}
   <link rel="preload" as="image" href="/img/{{ meta.hero['grounds'].src }}.jpg"/>
   <link rel="canonical" href="{{ meta.base }}/grounds">
@@ -46,12 +49,12 @@ eleventyComputed:
       </thead>
       <tbody>
         {% for ground in grounds | sort(attribute = "maximumAttendeeCapacity") | reverse %}
-          <tr id="{{ ground.name | slugify }}">
+          <tr id="{{ ground_name }}">
             <td class="is-hidden-mobile">
               {{ loop.index | ordinal }}
             </td>
             <th scope="row">
-              <a href="/regions/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}">
+              <a href="/regions/{{ ground_areaServed }}/{{ ground_name }}">
                 {{ ground.name }}
               </a>
             </th>

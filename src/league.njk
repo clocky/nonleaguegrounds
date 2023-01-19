@@ -12,6 +12,7 @@ eleventyComputed:
 {% from "macros.njk" import emoji %}
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 {% from "unsplash.macro.njk" import unsplash %}
+{% set league_name = league.name | slugify %}
 
 {%- set markers -%}
 {%- for club in league.members -%}
@@ -23,7 +24,7 @@ eleventyComputed:
 {%- block link %}
   <link rel="preconnect" href="https://maps.googleapis.com" />
   <link rel="preload" as="image" href="/img/{{ meta.hero['leagues'].src }}.jpg"/>
-  <link rel="canonical" href="{{ meta.base }}/leagues/{{ league.name | slugify }}">
+  <link rel="canonical" href="{{ meta.base }}/leagues/{{ league_name }}">
 {%- endblock %}
 
 {%- block css %}
@@ -75,7 +76,7 @@ eleventyComputed:
         {%- for club in league.members %}
           <tr>
             <th scope="row">
-              <a href="/leagues/{{ league.name | slugify }}/{{ club.name | slugify }}">
+              <a href="/leagues/{{ league_name }}/{{ club.name | slugify }}">
                 {{- club.name -}}
               </a>
             </th>

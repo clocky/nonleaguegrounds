@@ -15,9 +15,14 @@ eleventyComputed:
 {% from "breadcrumb.macro.njk" import breadcrumb %}
 {% from "macros.njk" import staticmap %}
 
+{% set club_name = club.name | slugify %}
+{% set club_memberOf = club.memberOf.name | slugify %}
+{% set club_location = club.location.name | slugify %}
+{% set club_areaServed = club.areaServed.name | slugify %}
+
 {% block link %}
   <link rel="preload" as="image" href="{{ staticmap(club.location.latitude + "," + club.location.longitude, 'satellite', 17, 640, 240, 'jpg', 2, env.google_maps_api_key)}}"/>
-  <link rel="canonical" href="{{ meta.base }}/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">
+  <link rel="canonical" href="{{ meta.base }}/leagues/{{ club_memberOf }}/{{ club_name }}">
 {% endblock %}
 
 {% block script %}
@@ -34,10 +39,10 @@ eleventyComputed:
 {% endblock %}
 
 {% block header %}
-  <header class="container-fluid hero" id="{{ club.location.name | slugify }}" data-theme="dark">
+  <header class="container-fluid hero" id="{{ club_location }}" data-theme="dark">
     <div class="container">
       <hgroup>
-        <h1 id="{{ club.name | slugify }}">{{ club.name | replace(" ", "\n") | nl2br | safe }}</h1>
+        <h1 id="{{ club_name }}">{{ club.name | replace(" ", "\n") | nl2br | safe }}</h1>
         <h2>{{ club.memberOf.name }} • {{ club.areaServed.name }}</h2>
       </hgroup>
     </div>
@@ -62,7 +67,7 @@ eleventyComputed:
             , {{ club.location.address.addressRegion }}
           {%- endif -%}.
           Founded {{ club.foundingDate | ago }} years ago in {{ club.foundingDate }}, the team currently compete in the
-          <a href="/leagues/{{ club.memberOf.name | slugify }}">{{ club.memberOf.sponsor.name }}
+          <a href="/leagues/{{ club_memberOf }}">{{ club.memberOf.sponsor.name }}
             {{ club.memberOf.name }}</a>, 
             {%- if club.memberOf.additionalProperty %}
             the {{ club.memberOf.additionalProperty.value | int | ordinal }} tier of English football
@@ -70,7 +75,7 @@ eleventyComputed:
         </p>
         <p>
           They play their home matches at 
-          <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}">{{ club.location.name }}</a>,
+          <a href="/regions/{{ club_areaServed }}/{{ club_location }}">{{ club.location.name }}</a>,
           and are nicknamed <strong>"{{ club.slogan }}"</strong>.
         </p>
 
@@ -117,7 +122,7 @@ eleventyComputed:
             <tr>
               <th scope="row">Ground</th>
               <td>
-                <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}/">
+                <a href="/regions/{{ club_areaServed }}/{{ club_location }}/">
                   {{ club.location.name }}
                 </a>
               </td>
@@ -129,7 +134,7 @@ eleventyComputed:
             <tr>
               <th scope="row">League</th>
               <td>
-                <a href="/leagues/{{ club.memberOf.name | slugify }}">
+                <a href="/leagues/{{ club_memberOf }}">
                   {{ club.memberOf.name }}
                 </a>
               </td>
