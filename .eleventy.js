@@ -10,15 +10,15 @@ const rev = require("eleventy-plugin-rev");
 const eleventySass = require("eleventy-sass");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setQuietMode(true);
-  eleventyConfig.addPlugin(rev);
-
   if (process.env.ELEVENTY_ENV === "production") {
     eleventyConfig.addPlugin(purgeCssPlugin, {
       config: "./purgecss.config.js",
       quiet: false,
     });
-  }
+  };
+
+  eleventyConfig.setQuietMode(true);
+  eleventyConfig.addPlugin(rev);
 
   eleventyConfig.addPlugin(eleventySass, {
     compileOptions: {
