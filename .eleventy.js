@@ -6,8 +6,6 @@ const ordinal = require("ordinal");
 const commaNumber = require("comma-number");
 const distFrom = require("distance-from");
 const purgeCssPlugin = require("eleventy-plugin-purgecss");
-const rev = require("eleventy-plugin-rev");
-const eleventySass = require("eleventy-sass");
 
 module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_ENV === "production") {
@@ -18,20 +16,6 @@ module.exports = function (eleventyConfig) {
   };
 
   eleventyConfig.setQuietMode(true);
-  eleventyConfig.addPlugin(rev);
-
-  eleventyConfig.addPlugin(eleventySass, {
-    compileOptions: {
-      permalink: function (contents, inputPath) {
-        return (data) =>
-          data.page.filePathStem.replace(/^\/sass\//, "/css/") + ".css";
-      },
-    },
-    sass: {
-      style: "compressed",
-    },
-    rev: true,
-  });
 
   /** Add loader for YAML files */
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
