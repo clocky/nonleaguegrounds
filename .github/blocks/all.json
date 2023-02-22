@@ -1,0 +1,5 @@
+{
+  ".eleventy.js": {
+    "default": "githubnext__blocks-examples__explain"
+  }
+}
