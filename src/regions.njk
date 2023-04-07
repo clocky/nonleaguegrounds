@@ -1,6 +1,6 @@
 ---
 permalink: /regions/index.html
-preload: "william-hook-0er8ezF3Xhg-unsplash.jpg"
+preload: "william-hook.jpg"
 date: git Last Modified
 eleventyComputed:
     title: "Football Conference Regions"
@@ -52,7 +52,7 @@ eleventyComputed:
         {%- for region in regions %}
           <tr>
             <th scope="row" id="region--{{ region.name | slugify }}">
-              <a href="/regions/{{ region.name | slugify }}">
+              <a href="/regions/{{ region.name | slugify }}/">
                 {{- region.name -}}
               </a>
             </th>

@@ -21,7 +21,7 @@ eleventyComputed:
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap&text={{ region.name | replace(' ', '') | upper }}");
     header {
-      background-image: url("/img/{{ meta.hero['regions'].src }}.jpg");
+      background-image: url("/img/{{ meta.hero['regions'].src }}.jpg?url");
     };
   </style>
 {%- endblock %}
@@ -66,12 +66,12 @@ eleventyComputed:
           {%- for ground in region.geoContains %}
             <tr>
               <th scope="row">
-                <a href="/regions/{{ region.name | slugify }}/{{ ground.name | slugify }}">
+                <a href="/regions/{{ region.name | slugify }}/{{ ground.name | slugify }}/">
                   {{- ground.name -}}
                 </a>
               </th>
               <td>
-                <a href="/leagues/{{ ground.subOrganization.memberOf.name | slugify }}/{{ ground.subOrganization.name | slugify }}" class="secondary">
+                <a href="/leagues/{{ ground.subOrganization.memberOf.name | slugify }}/{{ ground.subOrganization.name | slugify }}/" class="secondary">
                   {{- ground.subOrganization.name -}}
                 </a>
               </td>
