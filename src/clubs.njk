@@ -1,7 +1,7 @@
 ---
 permalink: /clubs/index.html
 title: Clubs
-preload: "nicholas-green-nPz8akkUmDI-unsplash.jpg"
+preload: "nicholas-green.jpg"
 date: git Last Modified
 eleventyComputed:
     description: "A directory of {{ clubs.length }} non-league clubs, sorted alphabetically"
@@ -48,10 +48,10 @@ eleventyComputed:
         {% for club in clubs | sort(attribute = "name") %}
           <tr>
             <th scope="row">
-              <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
+              <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}/">{{ club.name }}</a>
             </th>
             <td>
-              <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}" class="secondary">{{ club.location.name }}</a>
+              <a href="/regions/{{ club.areaServed.name | slugify }}/{{ club.location.name | slugify }}/" class="secondary">{{ club.location.name }}</a>
             </td>
             <td class="is-hidden-mobile">
               {{ club.memberOf.name }}

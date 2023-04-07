@@ -18,7 +18,7 @@
           {%- if branch %}
             <li>
               {% if leaf %}
-                <a href="/{{ tree | slugify }}/{{ branch | slugify }}">{{- branch -}}</a>
+                <a href="/{{ tree | slugify }}/{{ branch | slugify }}/">{{- branch -}}</a>
               {% else %}
                 {{- branch -}}
               {% endif %}
