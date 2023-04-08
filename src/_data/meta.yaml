@@ -5,18 +5,18 @@ description: "Non-League football is the lifeblood of the game. It's where the
 disclaimer: "Whilst we endeavour to ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we commit to ensuring that the website remains available or that the material on the website is kept up-to-date."
 hero:
     clubs:
-        src: samuel-regan-asante-YOtjUyEfClo-unsplash
+        src: samuel-regan
         author: Samuel Regan-Asante
         id: fkaregan
     leagues:
-        src: ezequiel-garrido-s6XWkKDKynY-unsplash
+        src: ezequiel-garrido
         author: Ezequiel Garrido
         id: zegarr
     regions:
-        src: william-hook-0er8ezF3Xhg-unsplash
+        src: william-hook
         author: William Hook
         id: williamtm
     grounds:
-        src: fancy-crave-qowyMze7jqg-unsplash
+        src: fancy-crave
         author: Fancy Crave
         id: fancycrave
