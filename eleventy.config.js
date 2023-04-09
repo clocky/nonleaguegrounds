@@ -3,14 +3,15 @@ const yaml = require("js-yaml");
 const ordinal = require("ordinal");
 const commaNumber = require("comma-number");
 const distFrom = require("distance-from");
-const vite = require("@11ty/eleventy-plugin-vite");
+const eleventyVitePlugin = require("@11ty/eleventy-plugin-vite");
+
 const { ViteImageOptimizer } = require("vite-plugin-image-optimizer");
 
 module.exports = function (eleventyConfig) {
   /** Load Vite plugin */
-  eleventyConfig.addPlugin(vite, {
+  eleventyConfig.addPlugin(eleventyVitePlugin, {
     viteOptions: {
-      assetsInclude: ["**/*.vcf", "**/*.manifest"],
+      assetsInclude: ["**/*.manifest"],
       publicDir: "src/public",
       build: {
         mode: "production",
@@ -18,9 +19,10 @@ module.exports = function (eleventyConfig) {
         manifest: true,
         rollupOptions: {
           output: {
-            assetFileNames: "assets/[ext]/main.[hash].[ext]",
-            chunkFileNames: "assets/js/[name].[hash].js",
-            entryFileNames: "assets/js/[name].[hash].js",
+            dir: "dist",
+            assetFileNames: "assets/[ext]/[name].[hash][extname]",
+            chunkFileNames: "assets/js/[name]-[hash].js",
+            entryFileNames: "assets/js/[name]-[hash].js",
           },
         },
       },
