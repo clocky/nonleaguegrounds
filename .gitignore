@@ -1,5 +1,6 @@
 node_modules
 .env
+.11ty-vite
 dist
 .cache
 .DS_Store
