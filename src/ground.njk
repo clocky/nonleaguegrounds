@@ -100,117 +100,122 @@ apple %}
 
         {% if ground.description %}
           <h4>Details</h4>
-          {% for sentence in ground.description.split(". ") %}
-          <p>
-            {{ sentence | safe }}{% if not loop.last %}.{% endif %}
-          {% endfor %}
-        {% endif %}
+          {% for sentence in ground
+            .description
+            .split(". ") %}
+            <p>
+              {{ sentence | safe }}
+              {% if not loop.last %}.{% endif %}
+            {% endfor %}
+          {% endif %}
 
-        <h4>Nearby grounds</h4>
-        <ul>
-          {% set count = 0%}
-          {% for away in grounds %}
-            {% set distance %}
-            {% distance ground.latitude,
-            ground.longitude,
-            away.latitude,
-            away.longitude %}
-            {% endset %}
-            {% if distance < 15 and away.name != ground.name %}
-              <li>
-                {% for club in clubs %}
-                  {% if club.location.name == away.name %}
-                    <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
-                    {% set count = count + 1 %}
-                  {% endif %}
-                {% endfor %} at 
+          <h4>Nearby grounds</h4>
+          <ul>
+            {% set count = 0%}
+            {% for away in grounds %}
+              {% set distance %}
+              {% distance ground.latitude,
+              ground.longitude,
+              away.latitude,
+              away.longitude %}
+              {% endset %}
+              {% if distance < 15 and away.name != ground.name %}
+                <li>
+                  {% for club in clubs %}
+                    {% if club.location.name == away.name %}
+                      <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}">{{ club.name }}</a>
+                      {% set count = count + 1 %}
+                    {% endif %}
+                  {% endfor %} at 
                 <a href="/regions/{{ away.areaServed.name | slugify }}/{{ away.name|slugify }}">{{ away.name }}</a>
                 ({{ distance | round(1) }} mi)
               </li>
-            {% endif %}
-          {% endfor %}
-          {% if count == 0 %}
-            <li>
+              {% endif %}
+            {% endfor %}
+            {% if count == 0 %}
+              <li>
               No grounds found within a 10 mile radius.
           </li>
-          {% endif %}
-        </ul>
-        <h4>Maps</h4>
-        <ul>
-          <li>
-            <a 
+            {% endif %}
+          </ul>
+          <h4>Maps</h4>
+          <ul>
+            <li>
+              <a 
             href="{{ google(ground) }}" 
             rel="noopener"
             target="_blank" 
             aria-label="Open in Google Maps">Google Maps</a>
-          </li>
-          <li>
-            <a 
+            </li>
+            <li>
+              <a 
             href="{{ apple(ground) }}"
             rel="noopener"
             target="_blank" 
             aria-label="Open in Apple Maps">Apple Maps</a>
-          </li>
-          <li>
-            <a 
+            </li>
+            <li>
+              <a 
             href="{{ bing(ground) }}"
             rel="noopener"
             target="_blank" 
             aria-label="Open in Bing Maps">Bing Maps</a>
-          </li>
-          <li>
-            <a 
+            </li>
+            <li>
+              <a 
             href="{{ osm(ground) }}"
             rel="noopener"
             target="_blank" 
             aria-label="Open in Open Street Maps">OpenStreetMap</a>
-          </li>
-        </ul>
-      </section>
-      <aside>
-        <h4>Information</h4>
-        <table role="grid">
-          <tbody>
-            <tr>
-              <th scope="row">Name</th>
-              <td>
-                {{ ground.name | safe }}
-              </td>
-            </tr>
-            {% if ground.sponsor %}
+            </li>
+          </ul>
+        </section>
+        <aside>
+          <h4>Information</h4>
+          <table role="grid">
+            <tbody>
               <tr>
-                <th scope="row">Sponsor</th>
+                <th scope="row">Name</th>
                 <td>
-                  {{ ground.sponsor.name | safe }}
+                  {{ ground.name | safe }}
                 </td>
               </tr>
-            {% endif %}
-            {% if ground.address.streetAddress != ground.name %}
+              {% if ground.sponsor %}
+                <tr>
+                  <th scope="row">Sponsor</th>
+                  <td>
+                    {{ ground.sponsor.name | safe }}
+                  </td>
+                </tr>
+              {% endif %}
+              {% if ground.address.streetAddress != ground.name %}
+                <tr>
+                  <th scope="row">Street</th>
+                  <td>
+                    {{ ground.address.streetAddress }}
+                  </td>
+                </tr>
+              {% endif %}
               <tr>
-                <th scope="row">Street</th>
+                <th scope="row">Town</th>
                 <td>
-                  {{ ground.address.streetAddress }}
+                  {{ ground.address.addressLocality | upper }}
                 </td>
               </tr>
-            {% endif %}
-            <tr>
-              <th scope="row">Town</th>
-              <td>
-                {{ ground.address.addressLocality | upper }}
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">Postcode</th>
-              <td>
-                {{ ground.address.postalCode | upper }}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        {% for club in ground.subOrganization %}
-          <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify}}.vcf" role="button" download class="outline">Save to address book</a>
-        {% endfor %}
-      </aside>
-    </div>
-  </main>
-{% endblock %}
+              <tr>
+                <th scope="row">Postcode</th>
+                <td>
+                  {{ ground.address.postalCode | upper }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          {#}
+          {% for club in ground.subOrganization %}
+            <a href="/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify}}.vcf" role="button" download class="outline">Save to address book</a>
+          {% endfor %}
+          #}
+        </aside>
+      </div>
+    </main>
+  {% endblock %}
