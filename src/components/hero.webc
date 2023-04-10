@@ -1,0 +1,14 @@
+<template webc:nokeep>
+  <header class="container-fluid hero" data-theme="dark" :id="id">
+    <div class="container">
+      <hgroup>
+        <h1 @text="title"></h1>
+        <h2 @text="description"></h2>
+      </hgroup>
+    </div>
+  </header>
+
+  <style type="text/css">
+    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap");
+  </style>
+</template>

@@ -1,0 +1,39 @@
+---
+layout: base.webc
+---
+
+<hero :@title="meta.title" :@description="meta.description" id="clubs"></hero>
+<main class="container">
+  <section class="grid" id="home">
+    <panel @title="Leagues">
+      <p slot="description">
+        From the
+        <strong webc:keep @text="leagues[0].name"></strong> to the
+        <strong webc:keep @text="leagues[leagues.length - 1].name"></strong> a
+        directory of <span @text="leagues.length"></span> English football
+        conference leagues.
+      </p>
+    </panel>
+    <panel @title="Grounds">
+      <p slot="description">
+        Leading with the
+        <span @text="commaNumber(grounds[0].maximumAttendeeCapacity)"></span
+        >-capacity home of
+        <strong @text="grounds[0].subOrganization[0].name" webc:keep></strong>,
+        a list of <span @text="grounds.length"></span> English and Welsh
+        non-league grounds.
+      </p>
+    </panel>
+    <panel @title="Regions">
+      <p slot="description">
+        From <strong @text="regions[0].alternateName" webc:keep></strong> to
+        <strong
+          @text="regions[regions.length - 1].alternateName"
+          webc:keep
+        ></strong>
+        a directory of clubs in <span @text="regions.length"></span> regions of
+        England and Wales
+      </p>
+    </panel>
+  </section>
+</main>
