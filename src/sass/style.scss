@@ -19,6 +19,14 @@
   color: #000;
 }
 
+code.webc {
+  background-color: #eec61f;
+  display: block;
+  color: #212121;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+}
 /* Hide unnecessary elements on mobile */
 
 @media (max-width: 576px) {
@@ -95,7 +103,7 @@
 }
 
 @media only screen and (prefers-color-scheme: dark) {
-    :root {
+  :root {
     --primary: #8cbd18;
     --primary-hover: #0b6a0b;
     --primary-focus: #107c10;
