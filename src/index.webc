@@ -2,7 +2,13 @@
 layout: base.webc
 ---
 
-<hero :@title="meta.title" :@description="meta.description" id="clubs"></hero>
+<navbar></navbar>
+
+<hero id="clubs">
+  <span slot="title" @text="meta.title"></span>
+  <span slot="description" @text="meta.description"></span>
+</hero>
+
 <main class="container">
   <section class="grid" id="home">
     <panel @title="Leagues">

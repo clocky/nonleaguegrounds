@@ -13,6 +13,16 @@
     <meta webc:else="description" :content="meta.description" />
     <title webc:if="title" @text="title"></title>
     <title webc:else="title" @text="meta.title"></title>
+    <script
+      webc:keep
+      webc:if="env.eleventy == 'production'"
+      defer
+      data-domain="nonleaguegrounds.com"
+      src="https://plausible.io/js/script.outbound-links.js"
+    ></script>
   </head>
-  <body @html="content"></body>
+  <body>
+    <code class="webc">Rendering with WebC 0.11.0</code>
+    <div @html="content" webc:nokeep></div>
+  </body>
 </html>

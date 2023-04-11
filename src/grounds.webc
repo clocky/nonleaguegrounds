@@ -1,0 +1,43 @@
+---
+layout: base.webc
+permalink: /grounds/index.html
+
+---
+
+<navbar></navbar>
+<hero id="grounds">
+  <span slot="title">Grounds</span>
+  <span slot="description"
+    >A directory of <span @text="grounds.length"></span> English and Welsh
+    non-league grounds sorted by capacity.</span
+  >
+</hero>
+
+<main class="container">
+  <table role="grid">
+    <thead>
+      <tr>
+        <th scope="col" class="is-hidden-mobile">Pos</th>
+        <th scope="col">Name</th>
+        <th scope="col" class="is-hidden-mobile">Club</th>
+        <th scope="col">Capacity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr webc:for="(ground, index) of grounds" :id="slugify(ground.name)">
+        <td class="is-hidden-mobile" @text="ordinal(index + 1)"></td>
+        <th scope="row">
+          <a
+            :href="`/regions/${slugify(ground.areaServed.name)}/${slugify(ground.name)}/`"
+            @text="ground.name"
+          ></a>
+        </th>
+        <td class="is-hidden-mobile">
+          <a webc:for="club of ground.subOrganization" class="secondary" :href="`/leagues/${slugify(club.memberOf.name)}/${slugify(club.name)}/`">
+            <span @text="club.name"></span>
+        </td>
+        <td @text="commaNumber(ground.maximumAttendeeCapacity)"></td>
+      </tr>
+    </tbody>
+  </table>
+</main>
