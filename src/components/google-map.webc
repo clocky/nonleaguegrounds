@@ -1,0 +1,14 @@
+<script webc:type="js">
+  let url = new URL("https://maps.googleapis.com");
+  url.pathname = "/maps/api/staticmap";
+  url.searchParams.set("center", address);
+  url.searchParams.set("maptype", maptype ? maptype : "satellite");
+  url.searchParams.set("zoom", zoom ? zoom : 17);
+  url.searchParams.set("scale", scale ? scale : 2);
+  url.searchParams.set("width", width ? width : 640);
+  url.searchParams.set("height", height ? height : 240);
+  url.searchParams.set("format", format ? format : "png");
+  url.searchParams.set("key", env.google_maps_api_key);
+
+  `<img src="${url}" alt="Map of ${address}">`;
+</script>
