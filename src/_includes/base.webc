@@ -13,6 +13,7 @@
     <meta webc:else="description" :content="meta.description" />
     <title webc:if="title" @text="title"></title>
     <title webc:else="title" @text="meta.title"></title>
+    <script :src="getBundleFileUrl('js')" webc:keep></script>
     <script
       webc:keep
       webc:if="env.eleventy == 'production'"
