@@ -1,0 +1,26 @@
+---
+pagination:
+  data: grounds
+  size: 1
+  alias: ground
+---
+
+<main class="container">
+  <div class="grid">
+    <section>
+      <h3>Overview</h3>
+      <p>
+        <strong @text="ground.name"></strong>
+        <span webc:if="ground.sponsor"
+          >, officially known as
+          <strong @text="ground.sponsor.name"></strong> for sponsorship
+          reasons,</span
+        >
+        is an
+        <span webc:nokeep @text="ground.subOrganization[0].sport"></span> ground
+        in <span webc:nokeep @text="ground.address.addressLocality"></span>,
+        <span webc:nokeep @text="ground.address.addressRegion"></span>
+      </p>
+    </section>
+  </div>
+</main>
