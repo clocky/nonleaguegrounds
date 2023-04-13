@@ -3,7 +3,7 @@ pagination:
     data: grounds
     size: 1
     alias: ground
-permalink: "/regions/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}/index.html"
+permalink: "/regions-njk/{{ ground.areaServed.name | slugify }}/{{ ground.name | slugify }}/index.html"
 eleventyComputed:
     title: "{{ ground.name | safe }} | {{ meta.title }}"
     description: "Information about the non-league football ground, {{ ground.name }}, with maps, address and contact information."
