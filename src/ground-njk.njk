@@ -76,7 +76,7 @@ apple %}
         <p>
           <strong>{{ ground.name }}</strong>
           {%- if ground.sponsor %}, officially known as <strong>{{ ground.sponsor.name | safe }}</strong> for sponsorship reasons, {% endif %}
-        is an {{ ground.subOrganization[0].sport | lower }} ground in {{ ground.address.addressLocality }}
+          is an {{ ground.subOrganization[0].sport | lower }} ground in {{ ground.address.addressLocality }}
           {%- if ground.address.addressRegion -%}
         , {{ ground.address.addressRegion }}
           {%- endif %} that holds {{ ground.maximumAttendeeCapacity | commaNumber }} people.
