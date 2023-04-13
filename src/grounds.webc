@@ -3,17 +3,22 @@ layout: base.webc
 permalink: /grounds/index.html
 ---
 
+<script webc:setup>
+  /* Sort clubs by name, alphabetically before rendering */
+  const grounds = $data.grounds.sort((a, b) => b.maximumAttendeeCapacity - a.maximumAttendeeCapacity);
+</script>
+
 <navbar></navbar>
 <hero id="grounds">
-  <span slot="title">Grounds</span>
-  <span slot="description"
-    >A directory of <span @text="grounds.length"></span> English and Welsh
-    non-league grounds sorted by capacity.</span
-  >
+  <span slot="title" webc:nokeep>Grounds</span>
+  <span slot="description" webc:nokeep>A directory of <span webc:nokeep @text="grounds.length"></span> English and Welsh non-league grounds sorted by capacity.</span>
 </hero>
 
 <main class="container">
-  <table role="grid">
+  <table 
+  role="grid"
+  :aria-rowcount="grounds.length"
+  >
     <thead>
       <tr>
         <th scope="col" class="is-hidden-mobile">Pos</th>
