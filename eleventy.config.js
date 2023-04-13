@@ -22,6 +22,7 @@ module.exports = function (eleventyConfig) {
         mode: "production",
         sourcemap: false,
         manifest: true,
+        target: "node18.15.0",
         rollupOptions: {
           output: {
             dir: "dist",
