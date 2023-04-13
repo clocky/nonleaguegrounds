@@ -1,15 +1,10 @@
-<script webc:setup>
-  function fontLetters() {
-    return webc.renderAttributes(webc.attributes);
-  }
-</script>
+
 <template webc:nokeep>
-  <code @text="fontLetters()"></code>
   <header class="container-fluid hero" data-theme="dark" :id="id">
     <div class="container">
       <hgroup>
-        <h1><slot name="title"></slot></h1>
-        <h2><slot name="description"></slot></h2>
+        <h1><slot webc:nokeep name="title"></slot></h1>
+        <h2><slot webc:nokeep name="description"></slot></h2>
       </hgroup>
     </div>
   </header>
