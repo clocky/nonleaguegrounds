@@ -9,11 +9,10 @@
     <link rel="manifest" href="/site.webmanifest" webc:keep />
     <link rel="stylesheet" href="/css/style.scss" webc:raw webc:keep />
     <link rel="stylesheet" :href="getBundleFileUrl('css')" webc:raw />
-    <meta webc:if="description" :content="description" />
-    <meta webc:else="description" :content="meta.description" />
+    <meta webc:if="description" name="description" :content="description" />
+    <meta webc:else="description" name="description" :content="meta.description" />
     <title webc:if="title" @text="title"></title>
     <title webc:else="title" @text="meta.title"></title>
-    <script :src="getBundleFileUrl('js')" webc:keep></script>
     <script
       webc:keep
       webc:if="env.eleventy == 'production'"
@@ -23,7 +22,8 @@
     ></script>
   </head>
   <body>
-    <code class="webc">Rendering with WebC 0.11.0</code>
+   
+    <code class="webc">Rendering with WebC <span @text="pkg.devDependencies['@11ty/eleventy-plugin-webc']"></span></code>
     <div @html="content" webc:nokeep></div>
   </body>
 </html>
