@@ -1,0 +1,41 @@
+---
+layout: base.webc
+permalink: /regions/index.html
+---
+
+<script webc:setup>
+  /* Sort clubs by name, alphabetically before rendering */
+  const regions = $data.regions.sort((a, b) => a.name.localeCompare(b.name));
+</script>
+
+<navbar></navbar>
+<section class="section is-small">
+  <h1 class="title">Regions</h1>
+</section>
+
+<section class="section">
+  <table 
+  class="table is-striped is-fullwidth is-hoverable"
+  role="grid"
+  :aria-rowcount="regions.length"
+  >
+  <thead>
+    <tr>
+      <th scope="col">Region</th>
+      <th scope="col" class="is-hidden-mobile">Clubs</th>
+    </tr>
+  </thead>
+    <tbody>
+      <tr webc:for="(region, index) of regions" :id="slugify(region.name)">
+        <th scope="row">
+          <a
+            :href="`/regions/${slugify(region.name)}/`"
+            @text="region.name"
+          ></a>
+        </th>
+        <td @text="region.geoContains.length"></td>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
