@@ -15,12 +15,15 @@ devDependencies:
   '@11ty/eleventy-plugin-webc':
     specifier: ^0.11.0
     version: 0.11.0
-  '@picocss/pico':
-    specifier: ^1.5.6
-    version: 1.5.6
   '@prettier/plugin-xml':
     specifier: ^2.2.0
     version: 2.2.0
+  '@vizuaalog/bulmajs':
+    specifier: ^0.12.2
+    version: 0.12.2
+  bulma:
+    specifier: ^0.9.4
+    version: 0.9.4
   comma-number:
     specifier: ^2.1.0
     version: 2.1.0
@@ -443,10 +446,6 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@picocss/pico@1.5.6:
-    resolution: {integrity: sha512-9R+OdtMuHijKa7AQKBrng/1Q/Cd3BnEigYJXmOxI10Eka2qGGDa4b0hua8UeYu01BTtAiO70K7CQuHffU4YXGA==}
-    dev: true
-
   /@prettier/plugin-xml@2.2.0:
     resolution: {integrity: sha512-UWRmygBsyj4bVXvDiqSccwT1kmsorcwQwaIy30yVh8T+Gspx4OlC0shX1y+ZuwXZvgnafmpRYKks0bAu9urJew==}
     dependencies:
@@ -477,6 +476,10 @@ packages:
 
   /@types/minimatch@3.0.5:
     resolution: {integrity: sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==}
+    dev: true
+
+  /@vizuaalog/bulmajs@0.12.2:
+    resolution: {integrity: sha512-I8YIQnMB9R0D0yHet4f60RSN55Y2jkqwsbtNnDOntNdiSB4JcUAtXlcG0U9DzxJ9ugliE2q3/8oJiFkSvSBt7w==}
     dev: true
 
   /@xml-tools/parser@1.0.11:
@@ -671,6 +674,10 @@ packages:
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
+    dev: true
+
+  /bulma@0.9.4:
+    resolution: {integrity: sha512-86FlT5+1GrsgKbPLRRY7cGDg8fsJiP/jzTqXXVqiUZZ2aZT8uemEOHlU1CDU+TxklPEZ11HZNNWclRBBecP4CQ==}
     dev: true
 
   /call-bind@1.0.2:

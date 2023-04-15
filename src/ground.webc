@@ -6,37 +6,32 @@ pagination:
 ---
 
 <navbar></navbar>
-<hero :id="slugify(ground.name)">
-  <span slot="title" @text="ground.name" webc:nokeep></span>
-  <span slot="description" webc:nokeep>
-    <span webc:nokeep webc:for="(club, index) of ground.subOrganization">
-    <span webc:nokeep webc:if="index == 0" @text="`Home of ${club.alternateName}`"></span>
-    <span webc:nokeep webc:else @text="`(shared with ${club.name})`"></span>
-  </span>
-</hero>
 
-<main class="container">
-  <div class="grid">
-    <section>
-      <h3>Overview</h3>
-      <p>
-        <strong @text="ground.name"></strong><span webc:if="ground.sponsor">, officially known as <strong @text="ground.sponsor.name"></strong> for sponsorship reasons,</span>
-        is an <span webc:nokeep @text="ground.subOrganization[0].sport"></span> ground in <span webc:nokeep @text="ground.address.addressLocality"></span>,
-        <span webc:nokeep @text="ground.address.addressRegion"></span> that holds
-        <span webc:nokeep @text="commaNumber(ground.maximumAttendeeCapacity)"></span> supporters.
-      </p>
+<section class="section is-small">
+  <breadcrumb tree="Regions" :branch="ground.areaServed.name" :leaf="ground.address.addressRegion"></breadcrumb> 
+  <h1 @text="ground.name" class="title"></h1>
+</section>
 
-      <p webc:for="(club, index) of ground.subOrganization">
-        <span webc:nokeep webc:if="index == 0">
-          The ground is the home of
-        </span>
-        <span webc:nokeep webc:else>
-          In addition, the ground is also shared with
-        </span>
-        <a @text="club.alternateName" :href="`/leagues/${slugify(club.memberOf.name)}/${slugify(club.name)}/`"></a>
-        who currently compete in the
-        <a @text="club.memberOf.name" :href="`/leagues/${slugify(club.memberOf.name)}/`"></a>.
-      </p>
-    </section>
-  </div>
-</main>
+<section class="section">
+  <p class="block">
+    <strong itemprop="name" @text="ground.name"></strong><span webc:if="ground.sponsor">, officially known as <strong @text="ground.sponsor.name" itemprop="alternateName"></strong> for sponsorship reasons,</span>
+    is an <span webc:nokeep @text="ground.subOrganization[0].sport"></span> ground in <span webc:nokeep @text="ground.address.addressLocality"></span>,
+    <span webc:nokeep @text="ground.address.addressRegion"></span> that holds
+    <span webc:nokeep @text="commaNumber(ground.maximumAttendeeCapacity)"></span> supporters.
+  </p>
+
+  <p webc:for="(club, index) of ground.subOrganization" itemscope itemtype="https://schema.org/SportsTeam">
+    <span webc:nokeep webc:if="index == 0">
+      The ground is the home of
+    </span>
+    <span webc:nokeep webc:else>
+      In addition, the ground is also shared with
+    </span>
+    <a 
+      @text="club.alternateName" 
+      :href="`/leagues/${slugify(club.memberOf.name)}/${slugify(club.name)}/`"
+      itemprop="name" ></a>
+    who currently compete in the
+    <a @text="club.memberOf.name" :href="`/leagues/${slugify(club.memberOf.name)}/`"></a>.
+  </p>
+</section>

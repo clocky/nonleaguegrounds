@@ -1,0 +1,19 @@
+  <article class="media" :id="id">
+    <figure class="media-left">
+      <p class="image is-48x48">
+        <slot name="media"></slot>
+      </p>
+    </figure>
+    <div class="media-content">
+      <a :href="href">
+        <div class="content">
+        <h3 class="title is-5">
+          <slot name="title"></slot>
+        </h3>
+        <p webc:if="item.slogan" @text="item.slogan" class="subtitle is-6">
+          <slot name="subtitle"></slot>
+        </p>
+      </a>
+      </div>
+    </div>
+</article> 

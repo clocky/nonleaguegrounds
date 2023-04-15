@@ -7,8 +7,8 @@ permalink: /clubs/index.html
   const clubs = $data.clubs.sort((a, b) => a.name.localeCompare(b.name));
 </script>
 
-<navbar></navbar>
-<hero id="clubs">
+<navbar id="paddy-mcguinness"></navbar>
+<hero id="clubs" class="is-medium">
   <span slot="title">Clubs</span>
   <span slot="description" id="description"
     >A directory of <span @text="clubs.length" webc:nokeep></span> English and Welsh
@@ -16,8 +16,9 @@ permalink: /clubs/index.html
   >
 </hero>
 
-<main class="container">
+<main class="container is-max-desktop">
   <table 
+    class="table is-striped is-fullwidth is-hoverable"
     role="grid" 
     :aria-rowcount="clubs.length"
   >

@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" webc:keep />
+    <link rel="preconnect" href="https://rsms.me/"  webc:keep>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" webc:keep>
     <link rel="icon" href="/favicon.ico" webc:keep />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" webc:keep />
     <link rel="manifest" href="/site.webmanifest" webc:keep />
@@ -13,6 +15,7 @@
     <meta webc:else="description" name="description" :content="meta.description" />
     <title webc:if="title" @text="title"></title>
     <title webc:else="title" @text="meta.title"></title>
+    <script :src="getBundleFileUrl('js')" webc:keep type="module"></script>
     <script
       webc:keep
       webc:if="env.eleventy == 'production'"
@@ -22,8 +25,6 @@
     ></script>
   </head>
   <body>
-   
-    <code class="webc">Rendering with WebC <span @text="pkg.devDependencies['@11ty/eleventy-plugin-webc']"></span></code>
     <div @html="content" webc:nokeep></div>
   </body>
 </html>

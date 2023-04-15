@@ -1,0 +1,47 @@
+---
+layout: base.webc
+permalink: /leagues/index.html
+---
+
+<script webc:setup>
+  /* Sort clubs by name, alphabetically before rendering */
+  const leagues = $data.leagues.sort((a, b) => b.additionalProperty['@value'] - a.additionalProperty['value']);
+</script>
+
+<navbar></navbar>
+
+<hero id="leagues">
+  <span slot="title" webc:nokeep>Leagues</span>
+  <span slot="description" webc:nokeep>A directory of <span webc:nokeep @text="leagues.length"></span> English and Welsh non-league leagues sorted by capacity.</span>
+</hero>
+
+<breadcrumb tree="Leagues"></breadcrumb>
+
+<main class="container is-max-desktop">
+  <table 
+  class="table is-striped is-fullwidth is-hoverable"
+  role="grid"
+  :aria-rowcount="leagues.length"
+  >
+  <thead>
+    <tr>
+      <th scope="col">Tier</th>
+      <th scope="col">Name</th>
+      <th scope="col" class="is-hidden-mobile">Clubs</th>
+    </tr>
+  </thead>
+    <tbody>
+      <tr webc:for="(league, index) of leagues" :id="slugify(league.name)">
+        <td class="is-hidden-mobile" @text="ordinal(parseInt(league.additionalProperty.value))"></td>
+        <th scope="row">
+          <a
+            :href="`/leagues/${slugify(league.name)}/`"
+            @text="league.alternateName"
+          ></a>
+        </th>
+        <td @text="league.members.length"></td>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</main>

@@ -4,21 +4,24 @@ permalink: /grounds/index.html
 ---
 
 <script webc:setup>
-  /* Sort clubs by name, alphabetically before rendering */
+  /* Sort grounds by name, by capacity before rendering */
   const grounds = $data.grounds.sort((a, b) => b.maximumAttendeeCapacity - a.maximumAttendeeCapacity);
 </script>
 
 <navbar></navbar>
-<hero id="grounds">
+
+<hero id="grounds" class="is-medium">
   <span slot="title" webc:nokeep>Grounds</span>
   <span slot="description" webc:nokeep>A directory of <span webc:nokeep @text="grounds.length"></span> English and Welsh non-league grounds sorted by capacity.</span>
 </hero>
 
-<main class="container">
+<breadcrumb tree="Grounds"></breadcrumb>
+
+<main class="container is-max-desktop">
   <table 
-  role="grid"
-  :aria-rowcount="grounds.length"
-  >
+  class="table is-striped is-fullwidth is-hoverable"
+  role="grid" 
+  :aria-rowcount="grounds.length">
     <thead>
       <tr>
         <th scope="col" class="is-hidden-mobile">Pos</th>

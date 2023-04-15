@@ -1,15 +1,12 @@
-
 <template webc:nokeep>
-  <header class="container-fluid hero" data-theme="dark" :id="id">
-    <div class="container">
-      <hgroup>
-        <h1><slot webc:nokeep name="title"></slot></h1>
-        <h2><slot webc:nokeep name="description"></slot></h2>
-      </hgroup>
+  <section class="hero is-small is-link" :id="id">
+    <div class="hero-body">
+      <h1 class="title">
+        <slot webc:nokeep name="title"></slot>
+      </h1>
+      <h2 class="subtitle">
+        <slot webc:nokeep name="description"></slot>
+      </h2>
     </div>
-  </header>
-
-  <style type="text/css">
-    @import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One:wght@400&display=swap");
-  </style>
+  </section>
 </template>

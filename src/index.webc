@@ -4,13 +4,12 @@ layout: base.webc
 
 <navbar></navbar>
 
-<hero id="clubs">
+<hero id="clubs" class="is-medium">
   <span slot="title" @text="meta.title"></span>
   <span slot="description" @text="meta.description"></span>
 </hero>
 
 <main class="container">
-  <section class="grid" id="home">
     <panel @title="Leagues">
       <p slot="description">
         From the
@@ -41,5 +40,4 @@ layout: base.webc
         England and Wales
       </p>
     </panel>
-  </section>
 </main>

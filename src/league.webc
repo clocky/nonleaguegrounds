@@ -1,0 +1,44 @@
+---
+pagination:
+  data: leagues
+  size: 1
+  alias: league
+---
+
+<script webc:setup>
+  /* Sort clubs by name, alphabetically before rendering */
+  const clubs = league.members.sort((a, b) => a.name.localeCompare(b.name));
+</script>
+
+<navbar></navbar>
+
+<!-- 
+  <hero :id="slugify(league.name)"  class="is-small">
+  <span slot="title" @text="league.name" webc:nokeep></span>
+  <span slot="description" webc:nokeep>
+    The <span @text="league.name"></span> is at the 
+    <span @text="ordinal(parseInt(league.additionalProperty.value))"></span> tier of the
+    English football pyramid, with a total of
+    <span @text="league.members.length"></span> clubs
+  </span>
+</hero> 
+-->
+
+<section class="section is-small">
+  <breadcrumb tree="Leagues" ></breadcrumb>
+  <h1 @text="league.alternateName" class="title"></h1>
+</section>
+
+<section class="section">
+  <media 
+    webc:for="item of league.members" 
+    :href="`/leagues/${slugify(league.name)}/${slugify(item.name)}/`"
+    :id="slugify(item.name)"
+  >
+    <span slot="media">
+      <img :src="item.logo.contentUrl" loading="lazy">
+    </span>
+    <span slot="title" @text="item.name"></span>
+    <span slot="subtitle" @text="item.slogan"></span>
+  </media>
+</section>

@@ -1,9 +1,11 @@
-<div id="leagues-panel" class="panel">
-  <h3 @text="title"></h3>
-  <slot name="description"></slot>
-  <a
-    :href="`/${title.toLowerCase()}/`"
-    role="button"
-    @text="`View all ${title.toLowerCase()}`"
-  ></a>
+<div :id="`${title.toLowerCase()}-panel`" class="card">
+    <div class="card-content">
+      <h3 @text="title" class="is-size-4 has-text-weight-semibold"></h3>
+      <slot name="description"></slot>
+      <a
+        :href="`/${title.toLowerCase()}/`"
+        class="button"
+        @text="`View all ${title.toLowerCase()}`"
+      ></a>
+  </div>
 </div>

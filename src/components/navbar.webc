@@ -1,37 +1,17 @@
-<div class="container">
-  <nav>
-    <ul>
-      <li>
-        <strong>
-          <a href="/">Non-League Grounds<wbr /></a>
-        </strong>
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <a href="/grounds/">
-          <span class="emoji" role="img" aria-label="arena">🏟️</span>
-          <span class="label"> Grounds</span>
-        </a>
-      </li>
-      <li>
-        <a href="/clubs/">
-          <span class="emoji" role="img" aria-label="football">⚽</span>
-          <span class="label"> Clubs</span></a
-        >
-      </li>
-      <li>
-        <a href="/leagues/">
-          <span class="emoji" role="img" aria-label="trophy">🏆</span>
-          <span class="label"> Leagues</span></a
-        >
-      </li>
-      <li>
-        <a href="/regions/">
-          <span class="emoji" role="img" aria-label="world map">🗺️</span>
-          <span class="label"> Regions</span></a
-        >
-      </li>
-    </ul>
+<script>
+  import Navbar from '@vizuaalog/bulmajs/src/plugins/navbar';
+
+</script>
+<div class="container-fluid">
+  <nav class="navbar is-spaced has-shadow" role="navigation" aria-label="main navigation">
+    <navbar-brand :target="id"></navbar-brand>
+    <div :id="id" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="/grounds/">Grounds</a>
+        <a class="navbar-item" href="/clubs/">Clubs</a>
+        <a class="navbar-item" href="/leagues/">Leagues</a>
+        <a class="navbar-item" href="/regions/">Regions</a>
+      </div>
+    </div>
   </nav>
 </div>
