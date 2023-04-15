@@ -1,0 +1,21 @@
+
+    <nav class="breadcrumb mb-3 is-small" aria-label="breadcrumbs">
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+
+        <li webc:if="tree">
+          <a :href="`/${tree.toLowerCase()}/`" @text="tree"></a>
+        </li>
+
+        <li webc:if="branch">
+          <a :href="`/${ tree.toLowerCase() }/${ slugify(branch) }/`" @text="branch"></a>
+        </li>
+
+        <li webc:if="leaf" class="is-active">
+          <a href="#" @text="leaf"></a>
+        </li>
+
+      </ul>
+    </nav>
