@@ -5,6 +5,6 @@ module.exports = {
   tags: ["club"],
   eleventyComputed: {
     permalink: ({ club }) =>
-      `leagues/${slugify(club.memberOf.name.toLowerCase())}/${slugify(club.name.toLowerCase())}/index.html`,
+      `leagues/${club.memberOf.slug.current}/${club.slug.current}/index.html`,
   },
 };
