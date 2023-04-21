@@ -12,19 +12,17 @@ pagination:
     tree="Regions"
     :branch="ground.areaServed"
     :leaf="ground.addressRegion"
-  >
-  </breadcrumb>
-
+  ></breadcrumb>
   <h1 @text="ground.name" class="title"></h1>
 </section>
 
-<!-- <google-map 
-  :center="`${ground.latitude},${ground.longitude}`"
-  size="960x400"
-  scale="2"
+<google-map
+  :center="`${ground.location.lat},${ground.location.lng}`"
+  size="960x200"
+  scale="1"
   zoom="18"
 >
-</google-map> -->
+</google-map>
 
 <section class="section">
   <p class="block">
@@ -55,15 +53,16 @@ pagination:
       In addition, the ground is also shared with
     </span>
     <a
-      @text="club.alternateName"
-      :href="`/leagues/${slugify(club.memberOf)}/${slugify(club.name)}/`"
+      @text="club.name"
+      :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"
       itemprop="name"
     ></a>
     who currently compete in the
     <a
       webc:if="club.memberOf"
       @text="club.memberOf.name"
-      :href="`/leagues/${slugify(club.memberOf.name)}/`"
+      :href="`/leagues/${club.memberOf.slug.current}/`"
+      itemprop="memberOf"
     ></a
     >.
   </p>
