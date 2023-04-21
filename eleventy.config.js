@@ -5,14 +5,44 @@ const commaNumber = require("comma-number");
 const distFrom = require("distance-from");
 const eleventyVitePlugin = require("@11ty/eleventy-plugin-vite");
 const eleventyWebcPlugin = require("@11ty/eleventy-plugin-webc");
+const { eleventyImagePlugin } = require("@11ty/eleventy-img");
+const htmlmin = require("html-minifier");
 
-/* Additional Vite plugin for image optimization */
-const { ViteImageOptimizer } = require("vite-plugin-image-optimizer");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyWebcPlugin, {
-    components: "src/components/**/*.webc",
+    components: [
+      "src/components/**/*.webc",
+      "npm:@11ty/eleventy-img/*.webc",
+    ]
   });
+
+  eleventyConfig.addPlugin(eleventyImagePlugin, {
+    formats: ["webp", "jpeg"],
+    urlPath: "/img/",
+    defaultAttributes: {
+			loading: "lazy",
+			decoding: "async"
+		}
+  });
+
+  eleventyConfig.addTransform("htmlmin", function(content) {
+    // Prior to Eleventy 2.0: use this.outputPath instead
+    if( this.page.outputPath && this.page.outputPath.endsWith(".html") ) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+        preserveLineBreaks: true,
+        collapseBooleanAttributes: true,
+        useShortDoctype: true
+      });
+      return minified;
+    }
+
+    return content;
+  });
+  
   /** Load Vite plugin */
   eleventyConfig.addPlugin(eleventyVitePlugin, {
     viteOptions: {
@@ -33,11 +63,6 @@ module.exports = function (eleventyConfig) {
         },
       },
       plugins: [
-        ViteImageOptimizer({
-          jpg: {
-            quality: 50,
-          },
-        }),
       ],
     },
   });
