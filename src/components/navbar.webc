@@ -3,7 +3,7 @@
     <nav class="navbar is-spaced has-shadow" aria-label="main navigation">
       <navbar-brand :target="id"></navbar-brand>
       <div :id="id" class="navbar-menu">
-        <div class="navbar-end">
+        <div class="navbar-start">
           <a class="navbar-item" href="/grounds/">Grounds</a>
           <a class="navbar-item" href="/clubs/">Clubs</a>
           <a class="navbar-item" href="/leagues/">Leagues</a>
@@ -15,5 +15,5 @@
 </template>
 
 <script webc:type="setup">
-  import Navbar from '@vizuaalog/bulmajs/src/plugins/navbar';
+  import Navbar from "@vizuaalog/bulmajs/src/plugins/navbar";
 </script>
