@@ -5,7 +5,7 @@ permalink: /leagues/index.html
 
 <script webc:setup>
   /* Sort clubs by name, alphabetically before rendering */
-  const leagues = $data.leagues.sort((a, b) => b.additionalProperty['@value'] - a.additionalProperty['value']);
+  const leagues = $data.leagues.sort((a, b) => b.tier - a.tier);
 </script>
 
 <navbar webc:nokeep></navbar>
@@ -15,7 +15,7 @@ permalink: /leagues/index.html
   <h1 class="title">Leagues</h1>
 </section>
 
-<main class="container is-max-desktop">
+<main class="container">
   <table 
   class="table is-striped is-fullwidth is-hoverable"
   role="grid"
@@ -29,11 +29,11 @@ permalink: /leagues/index.html
     </tr>
   </thead>
     <tbody>
-      <tr webc:for="(league, index) of leagues" :id="slugify(league.name)">
-        <td class="is-hidden-mobile" @text="ordinal(parseInt(league.additionalProperty.value))"></td>
+      <tr webc:for="(league, index) of leagues" :id="league.slug.current">
+        <td class="is-hidden-mobile" @text="ordinal(parseInt(league.tier))"></td>
         <th scope="row">
           <a
-            :href="`/leagues/${slugify(league.name)}/`"
+            :href="`/leagues/${league.slug.current}/`"
             @text="league.alternateName"
           ></a>
         </th>
