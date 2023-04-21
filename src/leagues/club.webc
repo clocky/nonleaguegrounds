@@ -1,9 +1,10 @@
 ---
-pagination: 
+pagination:
   data: clubs
   size: 1
   alias: club
 ---
+
 <navbar webc:nokeep></navbar>
 
 <section class="section is-small borders">
@@ -15,22 +16,29 @@ pagination:
   <div class="columns">
     <div class="column is-2">
       <figure class="image is-128x128">
-        <eleventy-image :src="club.logo.contentUrl" :alt="`${club.name} crest`"></eleventy-image>
+        <eleventy-image
+          :src="club.logo"
+          :alt="`${club.name} crest`"
+        ></eleventy-image>
       </figure>
     </div>
 
     <div class="column is-6">
-
-      <section webc:if="club.description">
-        <h3 class="subtitle has-text-weight-bold">History</h3>
-        <p 
-          webc:for="sentence of club.description.replace(/\.$/, '').split('. ')" 
-          @text="sentence + '.'" 
-          class="block">
+      <section>
+        <h3 class="subtitle has-text-weight-bold">Overview</h3>
+        <p class="block">
+          <strong @text="club.alternateName"></strong>
+          is a football club based in <span @text="club.addressLocality"></span>
         </p>
       </section>
-
+      <section webc:if="club.description">
+        <h3 class="subtitle has-text-weight-bold">History</h3>
+        <p
+          webc:for="sentence of club.description.replace(/\.$/, '').split('. ')"
+          @text="sentence + '.'"
+          class="block"
+        ></p>
+      </section>
     </div>
   </div>
 </section>
-
