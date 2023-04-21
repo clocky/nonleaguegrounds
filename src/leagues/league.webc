@@ -8,24 +8,27 @@ pagination:
 <navbar webc:nokeep></navbar>
 
 <section class="section is-small">
-  <breadcrumb tree="Leagues" ></breadcrumb>
+  <breadcrumb tree="Leagues"></breadcrumb>
   <h1 @text="league.alternateName" class="title"></h1>
 </section>
 
 <section class="section">
   <div class="columns">
     <div class="column is-half">
-      <media 
-        webc:for="item of league.members" 
-        :href="`/leagues/${slugify(league.name)}/${slugify(item.name)}/`"
-        :id="slugify(item.name)"
+      <media
+        webc:for="club of league.members"
+        :href="`/leagues/$(league.slug.current)/${club.slug.current}/`"
+        :id="club.slug.current"
       >
-      <span slot="media">
-        <eleventy-image :src="item.logo.contentUrl" :alt="`${item.name} crest`"></eleventy-image>
-      </span>
-      <span slot="title" @text="item.name"></span>
-      <span slot="subtitle" @text="item.slogan"></span>
-    </media>
+        <span slot="media">
+          <eleventy-image
+            :src="club.logo"
+            :alt="`${club.name} crest`"
+          ></eleventy-image>
+        </span>
+        <span slot="title" @text="club.name"></span>
+        <span slot="subtitle" @text="club.slogan"></span>
+      </media>
+    </div>
   </div>
-</div>
 </section>

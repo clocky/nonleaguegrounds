@@ -3,10 +3,6 @@ layout: base.webc
 permalink: /leagues/index.html
 ---
 
-<script webc:setup>
-  /* Sort clubs by name, alphabetically before rendering */
-  const leagues = $data.leagues.sort((a, b) => b.tier - a.tier);
-</script>
 
 <navbar webc:nokeep></navbar>
 
