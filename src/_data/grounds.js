@@ -7,18 +7,18 @@ const client = createClient({
   projectId,
   dataset: "production",
   apiVersion: "2022-01-12",
-  useCdn: true,
+  useCdn: false,
 });
 
 module.exports = async function () {
   const query = `
     *[ _type == "StadiumOrArena" ] {
       name, 
+      slug,
       maximumAttendeeCapacity, 
       addressRegion, 
       addressLocality,
-      latitude,
-      longitude,
+      location,
       areaServed, 
       description,
       priceRange,
