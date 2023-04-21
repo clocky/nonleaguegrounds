@@ -1,8 +1,12 @@
 @charset "utf-8";
-@import "bulma";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+@import "variables";
 @import "../../node_modules/bulma/bulma.sass";
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+}
 
 .title {
   letter-spacing: -1.125px;
