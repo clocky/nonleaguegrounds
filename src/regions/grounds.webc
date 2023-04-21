@@ -12,17 +12,12 @@ permalink: /grounds/index.html
 
 <navbar webc:nokeep></navbar>
 
-<hero id="grounds" class="is-medium">
-  <span slot="title" webc:nokeep>Grounds</span>
-  <span slot="description" webc:nokeep
-    >A directory of <span webc:nokeep @text="grounds.length"></span> English and
-    Welsh non-league grounds sorted by capacity.</span
-  >
-</hero>
+<section class="section is-small">
+  <breadcrumb tree="Regions"></breadcrumb>
+  <h1 class="title">Grounds</h1>
+</section>
 
-<breadcrumb tree="Grounds"></breadcrumb>
-
-<main class="container is-max-desktop">
+<main class="container">
   <table
     class="table is-striped is-fullwidth is-hoverable"
     role="grid"
@@ -41,17 +36,17 @@ permalink: /grounds/index.html
         <td class="is-hidden-mobile" @text="ordinal(index + 1)"></td>
         <th scope="row">
           <a
-            :href="`/regions/${slugify(ground.areaServed)}/${slugify(ground.name)}/`"
+            :href="`/regions/${slugify(ground.areaServed)}/${ground.slug.current}/`"
             @text="ground.name"
           ></a>
         </th>
         <td class="is-hidden-mobile">
-          <!-- <a
+          <a
             webc:for="(club, index) of ground.subOrganization"
             class="secondary"
-            :href="`/leagues/${club.memberOf.name}/${club.slug.current}/`"
+            :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"
           ><span webc:nokeep @text="club.name"></span></a>
-          </a> -->
+          </a>
         </td>
         <td @text="commaNumber(ground.maximumAttendeeCapacity)"></td>
       </tr>
