@@ -5,7 +5,7 @@ module.exports = {
   tags: ["ground"],
   eleventyComputed: {
     permalink: ({ ground }) =>
-      `regions/${slugify(ground.areaServed.name.toLowerCase())}/${slugify(
+      `regions/${slugify(ground.areaServed.toLowerCase())}/${slugify(
         ground.name.toLowerCase()
       )}/index.html`,
   },

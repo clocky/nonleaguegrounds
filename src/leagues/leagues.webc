@@ -8,14 +8,12 @@ permalink: /leagues/index.html
   const leagues = $data.leagues.sort((a, b) => b.additionalProperty['@value'] - a.additionalProperty['value']);
 </script>
 
-<navbar></navbar>
+<navbar webc:nokeep></navbar>
 
-<hero id="leagues">
-  <span slot="title" webc:nokeep>Leagues</span>
-  <span slot="description" webc:nokeep>A directory of <span webc:nokeep @text="leagues.length"></span> English and Welsh non-league leagues sorted by capacity.</span>
-</hero>
-
-<breadcrumb tree="Leagues"></breadcrumb>
+<section class="section is-small">
+  <breadcrumb tree="Leagues" ></breadcrumb>
+  <h1 class="title">Leagues</h1>
+</section>
 
 <main class="container is-max-desktop">
   <table 

@@ -1,0 +1,36 @@
+---
+pagination: 
+  data: clubs
+  size: 1
+  alias: club
+---
+<navbar webc:nokeep></navbar>
+
+<section class="section is-small borders">
+  <breadcrumb tree="Leagues" :branch="club.memberOf.name"></breadcrumb>
+  <h1 @text="club.name" class="title is-size-1"></h1>
+</section>
+
+<section class="section">
+  <div class="columns">
+    <div class="column is-2">
+      <figure class="image is-128x128">
+        <eleventy-image :src="club.logo.contentUrl" :alt="`${club.name} crest`"></eleventy-image>
+      </figure>
+    </div>
+
+    <div class="column is-6">
+
+      <section webc:if="club.description">
+        <h3 class="subtitle has-text-weight-bold">History</h3>
+        <p 
+          webc:for="sentence of club.description.replace(/\.$/, '').split('. ')" 
+          @text="sentence + '.'" 
+          class="block">
+        </p>
+      </section>
+
+    </div>
+  </div>
+</section>
+

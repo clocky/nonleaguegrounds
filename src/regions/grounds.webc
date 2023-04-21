@@ -5,23 +5,29 @@ permalink: /grounds/index.html
 
 <script webc:setup>
   /* Sort grounds by name, by capacity before rendering */
-  const grounds = $data.grounds.sort((a, b) => b.maximumAttendeeCapacity - a.maximumAttendeeCapacity);
+  const grounds = $data.grounds.sort(
+    (a, b) => b.maximumAttendeeCapacity - a.maximumAttendeeCapacity
+  );
 </script>
 
-<navbar></navbar>
+<navbar webc:nokeep></navbar>
 
 <hero id="grounds" class="is-medium">
   <span slot="title" webc:nokeep>Grounds</span>
-  <span slot="description" webc:nokeep>A directory of <span webc:nokeep @text="grounds.length"></span> English and Welsh non-league grounds sorted by capacity.</span>
+  <span slot="description" webc:nokeep
+    >A directory of <span webc:nokeep @text="grounds.length"></span> English and
+    Welsh non-league grounds sorted by capacity.</span
+  >
 </hero>
 
 <breadcrumb tree="Grounds"></breadcrumb>
 
 <main class="container is-max-desktop">
-  <table 
-  class="table is-striped is-fullwidth is-hoverable"
-  role="grid" 
-  :aria-rowcount="grounds.length">
+  <table
+    class="table is-striped is-fullwidth is-hoverable"
+    role="grid"
+    :aria-rowcount="grounds.length"
+  >
     <thead>
       <tr>
         <th scope="col" class="is-hidden-mobile">Pos</th>
@@ -35,17 +41,17 @@ permalink: /grounds/index.html
         <td class="is-hidden-mobile" @text="ordinal(index + 1)"></td>
         <th scope="row">
           <a
-            :href="`/regions/${slugify(ground.areaServed.name)}/${slugify(ground.name)}/`"
+            :href="`/regions/${slugify(ground.areaServed)}/${slugify(ground.name)}/`"
             @text="ground.name"
           ></a>
         </th>
         <td class="is-hidden-mobile">
-          <a
+          <!-- <a
             webc:for="(club, index) of ground.subOrganization"
             class="secondary"
-            :href="`/leagues/${slugify(club.memberOf.name)}/${slugify(club.name)}/`"
+            :href="`/leagues/${club.memberOf.name}/${club.slug.current}/`"
           ><span webc:nokeep @text="club.name"></span></a>
-          </a>
+          </a> -->
         </td>
         <td @text="commaNumber(ground.maximumAttendeeCapacity)"></td>
       </tr>

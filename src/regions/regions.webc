@@ -8,7 +8,7 @@ permalink: /regions/index.html
   const regions = $data.regions.sort((a, b) => a.name.localeCompare(b.name));
 </script>
 
-<navbar></navbar>
+<navbar webc:nokeep></navbar>
 <section class="section is-small">
   <h1 class="title">Regions</h1>
 </section>

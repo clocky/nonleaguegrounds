@@ -7,7 +7,7 @@ permalink: /clubs/index.html
   const clubs = $data.clubs.sort((a, b) => a.name.localeCompare(b.name));
 </script>
 
-<navbar id="paddy-mcguinness"></navbar>
+<navbar id="club-menu" webc:nokeep></navbar>
 <hero id="clubs" class="is-medium">
   <span slot="title">Clubs</span>
   <span slot="description" id="description"

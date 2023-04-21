@@ -2,7 +2,8 @@
 layout: base.webc
 ---
 
-<navbar></navbar>
+
+<navbar webc:nokeep></navbar>
 
 <hero id="clubs" class="is-medium">
   <span slot="title" @text="meta.title"></span>

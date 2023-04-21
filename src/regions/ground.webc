@@ -1,0 +1,70 @@
+---
+pagination:
+  data: grounds
+  size: 1
+  alias: ground
+---
+
+<navbar webc:nokeep></navbar>
+
+<section class="section is-small">
+  <breadcrumb
+    tree="Regions"
+    :branch="ground.areaServed"
+    :leaf="ground.addressRegion"
+  >
+  </breadcrumb>
+
+  <h1 @text="ground.name" class="title"></h1>
+</section>
+
+<!-- <google-map 
+  :center="`${ground.latitude},${ground.longitude}`"
+  size="960x400"
+  scale="2"
+  zoom="18"
+>
+</google-map> -->
+
+<section class="section">
+  <p class="block">
+    <strong itemprop="name" @text="ground.name"></strong>
+    <span webc:if="ground.sponsor"
+      >, officially known as
+      <strong @text="ground.sponsor.name" itemprop="alternateName"></strong> for
+      sponsorship reasons,</span
+    >
+    is an
+    <span webc:nokeep @text="ground.subOrganization[0].sport"></span> ground
+    <span webc:nokeep @text="ground.addressLocality"></span>,
+    <span webc:nokeep @text="ground.addressRegion"></span> that holds
+    <span
+      webc:nokeep
+      @text="commaNumber(ground.maximumAttendeeCapacity)"
+    ></span>
+    supporters.
+  </p>
+
+  <p
+    webc:for="(club, index) of ground.subOrganization"
+    itemscope
+    itemtype="https://schema.org/SportsTeam"
+  >
+    <span webc:nokeep webc:if="index == 0"> The ground is the home of </span>
+    <span webc:nokeep webc:else>
+      In addition, the ground is also shared with
+    </span>
+    <a
+      @text="club.alternateName"
+      :href="`/leagues/${slugify(club.memberOf)}/${slugify(club.name)}/`"
+      itemprop="name"
+    ></a>
+    who currently compete in the
+    <a
+      webc:if="club.memberOf"
+      @text="club.memberOf.name"
+      :href="`/leagues/${slugify(club.memberOf.name)}/`"
+    ></a
+    >.
+  </p>
+</section>
