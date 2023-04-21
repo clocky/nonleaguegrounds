@@ -7,13 +7,13 @@
     <div class="media-content">
       <a :href="href">
         <div class="content">
-        <h3 class="title is-5">
-          <slot name="title"></slot>
-        </h3>
-        <p webc:if="item.slogan" @text="item.slogan" class="subtitle is-6">
-          <slot name="subtitle"></slot>
-        </p>
+          <h3 class="title is-5">
+            <slot name="title"></slot>
+          </h3>
+          <p webc:if="item.slogan" @text="item.slogan" class="subtitle is-6">
+            <slot name="subtitle"></slot>
+          </p>
+        </div>
       </a>
-      </div>
     </div>
 </article> 

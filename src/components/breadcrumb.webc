@@ -1,5 +1,5 @@
 
-    <nav class="breadcrumb mb-3 is-small" aria-label="breadcrumbs">
+    <nav class="breadcrumb mb-3" aria-label="breadcrumbs">
       <ul>
         <li>
           <a href="/">Home</a>

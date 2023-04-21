@@ -1,14 +1,14 @@
 <script webc:type="js">
-  let url = new URL("https://maps.googleapis.com");
-  url.pathname = "/maps/api/staticmap";
-  url.searchParams.set("center", address);
-  url.searchParams.set("maptype", maptype ? maptype : "satellite");
-  url.searchParams.set("zoom", zoom ? zoom : 17);
-  url.searchParams.set("scale", scale ? scale : 2);
-  url.searchParams.set("width", width ? width : 640);
-  url.searchParams.set("height", height ? height : 240);
-  url.searchParams.set("format", format ? format : "png");
-  url.searchParams.set("key", env.google_maps_api_key);
+  let map = new URL("https://maps.googleapis.com");
+  map.pathname = "/maps/api/staticmap";
+  // Set center of map to be Wembley Stadium if we don't get a lat/lon
+  map.searchParams.append("center", center ? center : "51.5560367,-0.2799198");
+  map.searchParams.append("maptype", maptype ? maptype : "satellite");
+  map.searchParams.append("zoom", zoom ? zoom : 17);
+  map.searchParams.append("scale", scale ? scale : 1);
+  map.searchParams.append("size", size ? size : "640x360")
+  map.searchParams.append("format", format ? format : "jpg");
+  map.searchParams.append("key", $data.env.google_maps_api_key);
 
-  `<img src="${url}" alt="Map of ${address}">`;
+`<img src="${map}" alt="Map of ${center}" lazyload="true" />`;
 </script>
