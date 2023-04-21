@@ -16,7 +16,7 @@ permalink: /sitemap-w.xml
   </url>
   <url webc:for="club of clubs">
     <loc
-      @text="`${meta.base}/leagues/${slugify(club.memberOf.name)}/${slugify(club.name)}/index.html`"
+      @text="`${meta.base}/leagues/${club.memberOf.slug.current}/${club.slug.current}/index.html`"
     ></loc>
     <lastmod @text="date(page.date, 'YYYY-MM-DD')"></lastmod>
     <changefreq>monthly</changefreq>
@@ -24,7 +24,7 @@ permalink: /sitemap-w.xml
   </url>
   <url webc:for="ground of grounds">
     <loc
-      @text="`${meta.base}/regions/${slugify(ground.areaServed.name)}/${slugify(ground.name)}/index.html`"
+      @text="`${meta.base}/regions/${slugify(ground.areaServed.name)}/${ground.slug.current}/index.html`"
     ></loc>
     <lastmod @text="date(page.date, 'YYYY-MM-DD')"></lastmod>
     <changefreq>monthly</changefreq>
@@ -32,7 +32,7 @@ permalink: /sitemap-w.xml
   </url>
   <url webc:for="league of leagues">
     <loc
-      @text="`${meta.base}/leagues/${slugify(league.name)}/index.html`"
+      @text="`${meta.base}/leagues/${league.slug.current}/index.html`"
     ></loc>
     <lastmod @text="date(page.date, 'YYYY-MM-DD')"></lastmod>
     <changefreq>monthly</changefreq>
