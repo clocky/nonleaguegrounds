@@ -2,43 +2,64 @@
 layout: base.webc
 ---
 
-
-<navbar webc:nokeep></navbar>
-
 <hero id="clubs" class="is-medium">
-  <span slot="title" @text="meta.title"></span>
+  <span slot="title" @text="meta.intro"></span>
   <span slot="description" @text="meta.description"></span>
 </hero>
 
 <main class="container">
-    <panel @title="Leagues">
-      <p slot="description">
-        From the
-        <strong webc:keep @text="leagues[0].name"></strong> to the
-        <strong webc:keep @text="leagues[leagues.length - 1].name"></strong> a
-        directory of <span @text="leagues.length"></span> English football
-        conference leagues.
-      </p>
-    </panel>
-    <panel @title="Grounds">
-      <p slot="description">
-        Leading with the
-        <span @text="commaNumber(grounds[0].maximumAttendeeCapacity)"></span
-        >-capacity home of
-        <strong @text="grounds[0].subOrganization[0].name" webc:keep></strong>,
-        a list of <span @text="grounds.length"></span> English and Welsh
-        non-league grounds.
-      </p>
-    </panel>
-    <panel @title="Regions">
-      <p slot="description">
-        From <strong @text="regions[0].alternateName" webc:keep></strong> to
-        <strong
-          @text="regions[regions.length - 1].alternateName"
-          webc:keep
-        ></strong>
-        a directory of clubs in <span @text="regions.length"></span> regions of
-        England and Wales
-      </p>
-    </panel>
+  <section class="section">
+    <div class="columns is-desktop">
+      <div class="column is-one-third-desktop">
+        <panel @title="Leagues">
+          <p slot="description">
+            We've got everything covered, from the top-tier
+            <strong webc:keep @text="leagues[0].name"></strong> to the
+            <span @text="ordinal(leagues[leagues.length - 1].tier)"></span> tier
+            <strong webc:keep @text="leagues[leagues.length - 1].name"></strong>
+            and everything in between.
+            <br /><br /><small
+              >Our directory lists five English football conference leagues,
+              providing you with a comprehensive guide to the exciting world of
+              non-league football.</small
+            >
+          </p>
+        </panel>
+      </div>
+      <div class="column is-one-third-desktop">
+        <panel @title="Grounds">
+          <p slot="description">
+            Starting with the
+            <span @text="commaNumber(grounds[0].maximumAttendeeCapacity)"></span
+            >-capacity home of
+            <strong
+              @text="grounds[0].subOrganization[0].name"
+              webc:keep
+            ></strong
+            >, we've compiled a comprehensive list of addresses, directions, and
+            details for each ground.<br /><br /><small
+              >Whether you're seeking a day trip or a weekend away, you'll find
+              everything you need to make your experience unforgettable.
+            </small>
+          </p>
+        </panel>
+      </div>
+      <div class="column is-one-third-desktop">
+        <panel @title="Regions">
+          <p slot="description">
+            With 10 regions to explore, from
+            <strong @text="regions[0].alternateName" webc:keep></strong> to
+            <strong
+              @text="regions[regions.length - 1].alternateName"
+              webc:keep
+            ></strong>
+            our directory covers the length and breadth of the country.<br /><br /><small>
+              If you're looking for a local game or a new adventure, we've got
+              you covered with detailed listings for each club in every region.
+            </small>
+          </p>
+        </panel>
+      </div>
+    </div>
+  </section>
 </main>
