@@ -8,41 +8,36 @@ const eleventyWebcPlugin = require("@11ty/eleventy-plugin-webc");
 const { eleventyImagePlugin } = require("@11ty/eleventy-img");
 const htmlmin = require("html-minifier");
 
-
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyWebcPlugin, {
-    components: [
-      "src/components/**/*.webc",
-      "npm:@11ty/eleventy-img/*.webc",
-    ]
+    components: ["src/components/**/*.webc", "npm:@11ty/eleventy-img/*.webc"],
   });
 
   eleventyConfig.addPlugin(eleventyImagePlugin, {
     formats: ["webp", "jpeg"],
     urlPath: "/img/",
     defaultAttributes: {
-			loading: "lazy",
-			decoding: "async"
-		}
+      loading: "lazy",
+      decoding: "async",
+    },
   });
 
-  eleventyConfig.addTransform("htmlmin", function(content) {
+  eleventyConfig.addTransform("htmlmin", function (content) {
     // Prior to Eleventy 2.0: use this.outputPath instead
-    if( this.page.outputPath && this.page.outputPath.endsWith(".html") ) {
+    if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
-        collapseWhitespace: true,
+        collapseWhitespace: false,
         preserveLineBreaks: true,
         collapseBooleanAttributes: true,
-        useShortDoctype: true
       });
       return minified;
     }
 
     return content;
   });
-  
+
   /** Load Vite plugin */
   eleventyConfig.addPlugin(eleventyVitePlugin, {
     viteOptions: {
@@ -56,14 +51,13 @@ module.exports = function (eleventyConfig) {
         rollupOptions: {
           output: {
             dir: "dist",
-            assetFileNames: "assets/[ext]/[name].[hash][extname]",
+            assetFileNames: "assets/[name].[hash][extname]",
             chunkFileNames: "assets/js/[name]-[hash].js",
             entryFileNames: "assets/js/[name]-[hash].js",
           },
         },
       },
-      plugins: [
-      ],
+      plugins: [],
     },
   });
 
