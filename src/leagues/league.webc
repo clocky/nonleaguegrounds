@@ -5,25 +5,26 @@ pagination:
   alias: league
 ---
 
-<navbar webc:nokeep></navbar>
-
-<section class="section is-small">
+<section class="section is-small pt-5 pb-0">
   <breadcrumb tree="Leagues"></breadcrumb>
-  <h1 @text="league.alternateName" class="title"></h1>
+  <h1 @text="league.alternateName" class="title is-size-1"></h1>
 </section>
 
 <section class="section">
   <div class="columns">
     <div class="column is-half">
       <media
-        webc:for="club of league.members"
-        :href="`/leagues/$(league.slug.current)/${club.slug.current}/`"
+        webc:for="(club, index) of league.members"
+        :href="`/leagues/${league.slug.current}/${club.slug.current}/`"
         :id="club.slug.current"
       >
         <span slot="media">
           <eleventy-image
             :src="club.logo"
             :alt="`${club.name} crest`"
+            formats="png, webp"
+            sizes="(min-width: 4rem) 48px, 96px"
+            width="48,96,192"
           ></eleventy-image>
         </span>
         <span slot="title" @text="club.name"></span>
