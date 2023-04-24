@@ -38,16 +38,21 @@ module.exports = async function () {
         alternateName, 
         tier 
       },
+      parentOrganization -> {
+        legalName, foundingDate, identifier,
+        address {
+          streetAddress,
+          addressLocality,
+          addressRegion,
+          postalCode
+        }
+      },
       owns[]-> { 
-        name, 
-        offers,
-        color[],
+        name, offers, color[],
         "image": image.asset->url, 
         manufacturer-> { 
-          name, 
-          url,
-          "logo": logo.asset->url 
-        } 
+          name, url, "logo": logo.asset->url 
+        }
       }
     } | order(name asc)
   `;
