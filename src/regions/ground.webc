@@ -5,7 +5,10 @@ pagination:
   alias: ground
 ---
 
-<navbar webc:nokeep></navbar>
+<script webc:setup>
+  const directions =
+    "https://www.google.com/maps/dir/?api=1&destination=Bellevue%20Square%20Mall,%201018%20Bellevue%20Square+98004,Bellevue,United%20States";
+</script>
 
 <section class="section is-small">
   <breadcrumb
@@ -15,14 +18,6 @@ pagination:
   ></breadcrumb>
   <h1 @text="ground.name" class="title"></h1>
 </section>
-
-<google-map
-  :center="`${ground.location.lat},${ground.location.lng}`"
-  size="960x200"
-  scale="1"
-  zoom="18"
->
-</google-map>
 
 <section class="section">
   <p class="block">
@@ -66,4 +61,31 @@ pagination:
     ></a
     >.
   </p>
+</section>
+
+<section class="section">
+  <div class="columns">
+    <div class="column is-one-third">
+      <h2 class="title is-size-4">Location</h2>
+      <h3 @text="ground.name"></h3>
+      <p @text="`${ground.streetAddress},${ground.addressLocality}`"></p>
+      <a
+        :href="`https://www.google.com/maps/dir/?api=1&destination=${ground.name},${ground.streetAddress},${ground.postalCode},${ground.addressLocality},United%20Kingdom`"
+        class="button"
+        >Directions &rarr;</a
+      >
+    </div>
+    <div class="column is-two-thirds">
+      <figure class="image is-4by3">
+        <google-map
+          :center="`${ground.location.lat},${ground.location.lng}`"
+          size="960x480"
+          scale="2"
+          zoom="16"
+          maptype="roadmap"
+        >
+        </google-map>
+      </figure>
+    </div>
+  </div>
 </section>
