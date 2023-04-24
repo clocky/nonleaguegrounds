@@ -28,8 +28,11 @@ module.exports = function (eleventyConfig) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
-        collapseWhitespace: false,
+        collapseWhitespace: true,
         preserveLineBreaks: true,
+        removeRedundantAttributes: true,
+        removeEmptyAttributes: true,
+        removeEmptyElements: true,
         collapseBooleanAttributes: true,
       });
       return minified;
@@ -51,9 +54,14 @@ module.exports = function (eleventyConfig) {
         rollupOptions: {
           output: {
             dir: "dist",
-            assetFileNames: "assets/[name].[hash][extname]",
+            assetFileNames: (asset) => {
+              if (/\.css$/.test(asset.name)) {
+                return "assets/css/[name]-[hash][extname]";
+              }
+              return "assets/images/[name]-[hash][extname]";
+            },
             chunkFileNames: "assets/js/[name]-[hash].js",
-            entryFileNames: "assets/js/[name]-[hash].js",
+            entryFileNames: "assets/js/main.js",
           },
         },
       },
