@@ -5,40 +5,80 @@ pagination:
   alias: club
 ---
 
-<navbar webc:nokeep></navbar>
-
 <section class="section is-small borders">
   <breadcrumb tree="Leagues" :branch="club.memberOf.name"></breadcrumb>
   <h1 @text="club.name" class="title is-size-1"></h1>
 </section>
 
-<section class="section">
-  <div class="columns">
-    <div class="column is-2">
-      <figure class="image is-128x128">
-        <eleventy-image
-          :src="club.logo"
-          :alt="`${club.name} crest`"
-        ></eleventy-image>
-      </figure>
-    </div>
+<div class="container">
+  <section class="section">
+    <div class="columns">
+      <div class="column is-2">
+        <figure class="image is-128x128">
+          <eleventy-image
+            :src="club.logo"
+            :alt="`${club.name} crest`"
+            sizes="(min-width: 8rem) 128px, 256px"
+          ></eleventy-image>
+        </figure>
+      </div>
 
-    <div class="column is-6">
-      <section>
-        <h3 class="subtitle has-text-weight-bold">Overview</h3>
-        <p class="block">
-          <strong @text="club.alternateName"></strong>
-          is a football club based in <span @text="club.addressLocality"></span>
-        </p>
-      </section>
-      <section webc:if="club.description">
-        <h3 class="subtitle has-text-weight-bold">History</h3>
-        <p
-          webc:for="sentence of club.description.replace(/\.$/, '').split('. ')"
-          @text="sentence + '.'"
-          class="block"
-        ></p>
-      </section>
+      <div class="column is-6">
+        <section>
+          <p class="block">
+            <strong @text="club.alternateName"></strong>
+            is a football club based in
+            <span @text="club.location.address.addressLocality"></span>
+            <span
+              webc:if="club.location.address.addressRegion"
+              @text="`, ${club.location.address.addressRegion} `"
+            ></span
+            >.
+          </p>
+          <p class="block" webc:if="club.foundingDate < 1948">
+            With a history dating back to
+            <time @text="club.foundingDate"></time>, the club has a rich
+            heritage and is currently competing in the
+            <a
+              :href="`/leagues/${club.memberOf.slug.current}/`"
+              @text="club.memberOf.alternateName"
+            ></a
+            >, the
+            <span webc:nokeep @text="ordinal(club.memberOf.tier)"></span> tier
+            of English football.
+          </p>
+
+          <!--- Kit --->
+          <div webc:if="club.owns" webc:nokeep>
+            <p class="block" webc:if="club.owns[0].manufacturer">
+              Known by fans as &ldquo;<span @text="club.slogan" webc:nokeep
+                >"The Dons"</span
+              >&rdquo;,
+              <span @text="club.name" webc:nokeep>AFC Wimbledon</span>
+              is a proud partner of
+              <a
+                :href="club.owns[0].manufacturer.url"
+                @text="club.owns[0].manufacturer.name"
+                target="_blank"
+                :aria-label="`Open ${new URL(club.owns[0].manufacturer.url).hostname} in a new tab`"
+              ></a
+              >, who designs their distinctive playing kits.
+            </p>
+          </div>
+        </section>
+
+        <section class="mt-5" webc:if="club.description">
+          <h3 class="subtitle has-text-weight-bold">History</h3>
+          <p @text="club.description"></p>
+        </section>
+
+        <section class="mt-5" webc:if="club.parentOrganization">
+          <club-ownership
+            :organization="club.parentOrganization"
+            webc:nokeep
+          ></club-ownership>
+        </section>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
