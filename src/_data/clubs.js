@@ -16,15 +16,39 @@ module.exports = async function () {
       name, 
       alternateName, 
       slogan, 
-        slug,
+      slug,
       telephone,
-      location -> { streetAddress, addressLocality, addressRegion, postalCode },
+      email,
+      location -> { 
+        address{
+          streetAddress, 
+          addressLocality, 
+          addressRegion, 
+          postalCode
+        } 
+      },
       url,
       "logo": logo.asset->url,
       foundingDate,
       description,
       priceRange,
-      memberOf -> { name, slug }
+      memberOf -> { 
+        name, 
+        slug, 
+        alternateName, 
+        tier 
+      },
+      owns[]-> { 
+        name, 
+        offers,
+        color[],
+        "image": image.asset->url, 
+        manufacturer-> { 
+          name, 
+          url,
+          "logo": logo.asset->url 
+        } 
+      }
     } | order(name asc)
   `;
   const params = {};
