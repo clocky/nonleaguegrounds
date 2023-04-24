@@ -1,12 +1,14 @@
 <template webc:nokeep>
-  <section class="hero is-small is-link" :id="id">
+  <section class="hero" :class="this.class" :id="id" webc:root="override">
     <div class="hero-body">
-      <h1 class="title">
-        <slot webc:nokeep name="title"></slot>
-      </h1>
-      <h2 class="subtitle">
-        <slot webc:nokeep name="description"></slot>
-      </h2>
+      <div class="container is-max-desktop has-text-centered px-5">
+        <h1 class="title is-size-1">
+          <slot webc:nokeep name="title"></slot>
+        </h1>
+        <h2 class="subtitle mt-5">
+          <slot webc:nokeep name="description"></slot>
+        </h2>
+      </div>
     </div>
   </section>
 </template>
