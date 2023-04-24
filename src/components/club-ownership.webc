@@ -1,0 +1,21 @@
+<template webc:nokeep>
+  <p
+    webc:if="organization.legalName"
+    class="block is-size-7"
+    webc:root="override"
+    itemscope
+    itemtype="https://schema.org/Organization"
+  >
+    <span @text="organization.legalName" itemprop="legalName"
+      >ABC Enterprises Limited</span
+    >
+    is a company registered in England and Wales with company number
+    <span @text="organization.identifier" itemprop="identifier">12345678</span>.
+  </p>
+</template>
+
+<style webc:scoped>
+  span {
+    font-weight: bold;
+  }
+</style>
