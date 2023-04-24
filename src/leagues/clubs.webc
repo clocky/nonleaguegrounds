@@ -2,24 +2,16 @@
 layout: base.webc
 permalink: /clubs/index.html
 ---
-<script webc:setup>
-  /* Sort clubs by name, alphabetically before rendering */
-  const clubs = $data.clubs.sort((a, b) => a.name.localeCompare(b.name));
-</script>
 
-<navbar id="club-menu" webc:nokeep></navbar>
-<hero id="clubs" class="is-medium">
-  <span slot="title">Clubs</span>
-  <span slot="description" id="description"
-    >A directory of <span @text="clubs.length" webc:nokeep></span> English and Welsh
-    non-league clubs sorted alphabetically.</span
-  >
-</hero>
+<section class="section is-small borders">
+  <breadcrumb tree="Clubs"></breadcrumb>
+  <h1 class="title is-size-1">Clubs</h1>
+</section>
 
-<main class="container is-max-desktop">
-  <table 
+<main class="container">
+  <table
     class="table is-striped is-fullwidth is-hoverable"
-    role="grid" 
+    role="grid"
     :aria-rowcount="clubs.length"
   >
     <thead>
@@ -31,14 +23,18 @@ permalink: /clubs/index.html
     </thead>
     <tbody>
       <tr webc:for="(club, index) of clubs" :id="slugify(club.name)">
-        <td class="is-hidden-mobile" @text="ordinal(index + 1)"></td>
         <th scope="row">
           <a
-           :href="`/leagues/${slugify(club.memberOf.name)}/${slugify(club.name)}/`"
-            @text="club.name"></a>
+            :href="`/leagues/${slugify(club.memberOf.name)}/${slugify(club.name)}/`"
+            @text="club.name"
+          ></a>
         </th>
         <td>
-          <a :href="`/leagues/${slugify(club.memberOf.name)}/`" class="secondary" @text="club.memberOf.name"></a>
+          <a
+            :href="`/leagues/${club.memberOf.slug.current}/`"
+            class="secondary"
+            @text="club.memberOf.name"
+          ></a>
         </td>
       </tr>
     </tbody>
