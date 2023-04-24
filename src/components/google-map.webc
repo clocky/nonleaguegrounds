@@ -6,9 +6,9 @@
   map.searchParams.append("maptype", maptype ? maptype : "satellite");
   map.searchParams.append("zoom", zoom ? zoom : 17);
   map.searchParams.append("scale", scale ? scale : 1);
-  map.searchParams.append("size", size ? size : "640x360")
+  map.searchParams.append("size", size ? size : "640x360");
   map.searchParams.append("format", format ? format : "jpg");
   map.searchParams.append("key", $data.env.google_maps_api_key);
 
-`<img src="${map}" alt="Map of ${center}" lazyload="true" />`;
+  `<img src="${map}" alt="Map of ${center}" lazyload="true" webc:is="eleventy-image" />`;
 </script>
