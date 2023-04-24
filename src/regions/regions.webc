@@ -3,17 +3,12 @@ layout: base.webc
 permalink: /regions/index.html
 ---
 
-<script webc:setup>
-  /* Sort clubs by name, alphabetically before rendering */
-  const regions = $data.regions.sort((a, b) => a.name.localeCompare(b.name));
-</script>
-
-<navbar webc:nokeep></navbar>
 <section class="section is-small">
-  <h1 class="title">Regions</h1>
+  <breadcrumb></breadcrumb>
+  <h1 class="title is-size-1">Regions</h1>
 </section>
 
-<section class="section">
+<div class="container">
   <table 
   class="table is-striped is-fullwidth is-hoverable"
   role="grid"
@@ -38,4 +33,4 @@ permalink: /regions/index.html
       </tr>
     </tbody>
   </table>
-</section>
+</div>
