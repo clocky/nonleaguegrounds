@@ -3,12 +3,9 @@ layout: base.webc
 permalink: /leagues/index.html
 ---
 
-
-<navbar webc:nokeep></navbar>
-
 <section class="section is-small">
-  <breadcrumb tree="Leagues" ></breadcrumb>
-  <h1 class="title">Leagues</h1>
+  <breadcrumb></breadcrumb>
+  <h1 class="title is-size-1">Leagues</h1>
 </section>
 
 <main class="container">
