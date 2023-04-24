@@ -3,22 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" webc:keep />
-    <link rel="preconnect" href="https://rsms.me/"  webc:keep>
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" webc:keep>
-    <link rel="icon" href="/favicon.ico" webc:keep />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" webc:keep />
-    <link rel="manifest" href="/site.webmanifest" webc:keep />
-    <link rel="stylesheet" href="/css/style.scss" webc:raw webc:keep />
-    <link rel="stylesheet" :href="getBundleFileUrl('css')"/>
 
+    <!-- lin: preconnects -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" webc:raw />
+    <link rel="preconnect" href="https://rsms.me/" webc:raw />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" webc:raw />
+
+    <!-- link: favicons-->
+    <link rel="icon" href="/favicon.ico" webc:raw />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" webc:raw />
+    <link rel="manifest" href="/site.webmanifest" webc:raw />
+
+    <!-- style: default and bundler -->
+    <link rel="stylesheet" href="/css/style.scss" webc:raw />
+    <link rel="stylesheet" :href="getBundleFileUrl('css')" webc:keep />
+
+    <!-- meta: description-->
     <meta webc:if="description" name="description" :content="description" />
-    <meta webc:else="description" name="description" :content="meta.description" />
+    <meta
+      webc:else="description"
+      name="description"
+      :content="meta.description"
+    />
 
+    <!-- meta: title -->
     <title webc:if="title" @text="title"></title>
     <title webc:else="title" @text="meta.title"></title>
 
+    <!-- script: bundle -->
     <script :src="getBundleFileUrl('js')" webc:keep type="module"></script>
+
+    <!-- script: plausible -->
     <script
       webc:keep
       webc:if="env.eleventy == 'production'"
@@ -28,6 +43,8 @@
     ></script>
   </head>
   <body>
+    <navbar webc:nokeep></navbar>
     <div @html="content" webc:nokeep></div>
+    <site-footer webc:nokeep></site-footer>
   </body>
 </html>
