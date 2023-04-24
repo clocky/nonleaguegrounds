@@ -3,18 +3,9 @@ layout: base.webc
 permalink: /grounds/index.html
 ---
 
-<script webc:setup>
-  /* Sort grounds by name, by capacity before rendering */
-  const grounds = $data.grounds.sort(
-    (a, b) => b.maximumAttendeeCapacity - a.maximumAttendeeCapacity
-  );
-</script>
-
-<navbar webc:nokeep></navbar>
-
 <section class="section is-small">
   <breadcrumb tree="Regions"></breadcrumb>
-  <h1 class="title">Grounds</h1>
+  <h1 class="title is-size-1">Grounds</h1>
 </section>
 
 <main class="container">
