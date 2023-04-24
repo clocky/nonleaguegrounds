@@ -1,6 +1,9 @@
 <template webc:nokeep>
   <div class="container-fluid" webc:root>
-    <nav class="navbar is-spaced has-shadow" aria-label="main navigation">
+    <nav
+      class="navbar has-shadow is-spaced is-fixed"
+      aria-label="main navigation"
+    >
       <navbar-brand :target="id"></navbar-brand>
       <div :id="id" class="navbar-menu">
         <div class="navbar-start">
