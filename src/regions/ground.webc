@@ -76,7 +76,8 @@ pagination:
       >
     </div>
     <div class="column is-two-thirds">
-      <figure class="image is-4by3">
+      <!--- Don't try to render a map if there's no location field --->
+      <figure class="image is-4by3" webc:if="ground.location">
         <google-map
           :center="`${ground.location.lat},${ground.location.lng}`"
           size="960x480"
