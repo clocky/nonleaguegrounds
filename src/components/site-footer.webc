@@ -6,7 +6,7 @@
       </div>
       <div class="column">
         <ul>
-          <li webc:for="(league, index) of $data.leagues">
+          <li webc:for="(league, index) of $data.leagues" class="is-size-7">
             <a
               :href="`/leagues/${league.slug.current}/`"
               class="has-text-link"

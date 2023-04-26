@@ -22,12 +22,12 @@ permalink: /leagues/index.html
     </tr>
   </thead>
     <tbody>
-      <tr webc:for="(league, index) of leagues" :id="league.slug.current">
-        <td class="is-hidden-mobile" @text="ordinal(parseInt(league.tier))"></td>
+      <tr webc:for="league of leagues" :id="league.slug.current">
+        <td class="is-hidden-mobile" @text="ordinal(parseInt(league.additionalProperty))"></td>
         <th scope="row">
           <a
             :href="`/leagues/${league.slug.current}/`"
-            @text="league.alternateName"
+            @text="league.name"
           ></a>
         </th>
         <td @text="league.members.length"></td>
