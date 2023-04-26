@@ -14,9 +14,9 @@ pagination:
   <section class="section">
     <div class="columns">
       <div class="column is-2">
-        <figure class="image is-128x128">
+        <figure class="image is-128x128" webc:if="club.logo.contentUrl">
           <eleventy-image
-            :src="club.logo"
+            :src="club.logo.contentUrl"
             :alt="`${club.name} crest`"
             sizes="(min-width: 8rem) 128px, 256px"
           ></eleventy-image>
@@ -27,13 +27,19 @@ pagination:
         <section>
           <p class="block">
             <strong @text="club.alternateName"></strong>
-            is a football club based in
-            <span @text="club.location.address.addressLocality"></span>
+            is a football club
+            <div webc:if="club.location && club.location.address" webc:nokeep> based in
+            <span 
+              @text="club.location.address.addressLocality" 
+              webc:nokeep>
+            </span>
             <span
               webc:if="club.location.address.addressRegion"
+              webc:nokeep
               @text="`, ${club.location.address.addressRegion} `"
             ></span
-            >.
+            >
+            </div>.
           </p>
           <p class="block" webc:if="club.foundingDate < 1948">
             With a history dating back to
@@ -42,10 +48,12 @@ pagination:
             <a
               :href="`/leagues/${club.memberOf.slug.current}/`"
               @text="club.memberOf.alternateName"
-            ></a
-            >, the
-            <span webc:nokeep @text="ordinal(club.memberOf.tier)"></span> tier
-            of English football.
+            ></a>
+            <span webc:nokeep webc:if="club.memberOf.tier"
+              >, the
+              <span webc:nokeep @text="ordinal(club.memberOf.tier)"></span> tier
+              of English football </span
+            >.
           </p>
 
           <!--- Kit --->
