@@ -13,10 +13,14 @@ const client = createClient({
 module.exports = async function () {
   const query = `
 *[ _type == "SportsTeam" ] {
+      "@context": "https://schema.org",
+      "@type": _type,
       name, 
-      alternateName, 
-      slogan, 
       slug,
+      alternateName, 
+      slogan,
+      legalName,
+      identifier,
       telephone,
       email,
       location -> { 
@@ -28,7 +32,9 @@ module.exports = async function () {
         } 
       },
       url,
-      "logo": logo.asset->url,
+      "logo": {
+        "contentUrl": logo.asset->url,
+      },
       foundingDate,
       description,
       priceRange,
@@ -38,15 +44,7 @@ module.exports = async function () {
         alternateName, 
         tier 
       },
-      parentOrganization -> {
-        legalName, foundingDate, identifier,
-        address {
-          streetAddress,
-          addressLocality,
-          addressRegion,
-          postalCode
-        }
-      },
+
       owns[]-> { 
         name, offers, color[],
         "image": image.asset->url, 
