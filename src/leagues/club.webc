@@ -6,7 +6,7 @@ pagination:
 ---
 
 <section class="section is-small borders">
-  <breadcrumb tree="Leagues" :branch="club.memberOf.name"></breadcrumb>
+  <breadcrumb tree="Leagues" :branch="club.memberOf"></breadcrumb>
   <h1 @text="club.name" class="title is-size-1"></h1>
 </section>
 
