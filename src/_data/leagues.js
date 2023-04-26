@@ -1,14 +1,14 @@
-require("dotenv").config();
-const { createClient } = require("@sanity/client");
+require("dotenv").config()
+const { createClient } = require("@sanity/client")
 
-const projectId = process.env.SANITY_PROJECT;
+const projectId = process.env.SANITY_PROJECT
 
 const client = createClient({
   projectId,
   dataset: "production",
   apiVersion: "2022-01-12",
   useCdn: false,
-});
+})
 
 module.exports = async function () {
   /**
@@ -35,9 +35,9 @@ module.exports = async function () {
           "contentUrl": logo.asset->url
         }
     } | order(name asc)
-} | order(additionalProperty asc)
-  `;
-  const params = {};
+} | order(additionalProperty asc, name asc)
+  `
+  const params = {}
 
-  return await client.fetch(query, params);
-};
+  return await client.fetch(query, params)
+}
