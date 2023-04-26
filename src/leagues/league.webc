@@ -18,9 +18,9 @@ pagination:
         :href="`/leagues/${league.slug.current}/${club.slug.current}/`"
         :id="club.slug.current"
       >
-        <span slot="media">
+        <span slot="media" webc:if="club.logo.contentUrl">
           <eleventy-image
-            :src="club.logo"
+            :src="club.logo.contentUrl"
             :alt="`${club.name} crest`"
             formats="png, webp"
             sizes="(min-width: 4rem) 48px, 96px"
