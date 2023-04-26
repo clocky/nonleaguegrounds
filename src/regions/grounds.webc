@@ -23,7 +23,7 @@ permalink: /grounds/index.html
       </tr>
     </thead>
     <tbody>
-      <tr webc:for="(ground, index) of grounds" :id="slugify(ground.name)">
+      <tr webc:for="(ground, index) of grounds" :id="ground.slug.current">
         <td class="is-hidden-mobile" @text="ordinal(index + 1)"></td>
         <th scope="row">
           <a
