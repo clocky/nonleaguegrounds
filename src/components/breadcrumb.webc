@@ -6,11 +6,14 @@
         </li>
 
         <li webc:if="tree">
-          <a :href="`/${tree.toLowerCase()}/`" @text="tree"></a>
+          <a :href="`/${ tree.toLowerCase() }/`" @text="tree"></a>
         </li>
 
         <li webc:if="branch">
-          <a :href="`/${ tree.toLowerCase() }/${ slugify(branch) }/`" @text="branch"></a>
+          <a webc:if="branch.slug"
+            :href="`/${ tree.toLowerCase() }/${ branch.slug.current }/`" 
+            @text="branch.name">
+          </a>
         </li>
 
         <li webc:if="leaf" class="is-active">
