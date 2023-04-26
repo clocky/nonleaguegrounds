@@ -15,7 +15,7 @@ layout: base.webc
           <p slot="description">
             We've got everything covered, from the top-tier
             <strong webc:keep @text="leagues[0].name"></strong> to the
-            <span @text="ordinal(leagues[leagues.length - 1].tier)"></span> tier
+            <span @text="ordinal(leagues[leagues.length - 1].additionalProperty)"></span> tier
             <strong webc:keep @text="leagues[leagues.length - 1].name"></strong>
             and everything in between.
             <br /><br /><small
