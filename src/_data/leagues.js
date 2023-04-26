@@ -11,15 +11,31 @@ const client = createClient({
 });
 
 module.exports = async function () {
+  /**
+   * Fetches all leagues, and teams.
+   * Ignores SportsOrganizations that do have a tier attribute (i.e. UEFA, FIFA, etc.)
+   * Dynamically creates members array of teams that reference the league
+   * Ignores drafts
+   * Orders by tier, then by name
+   **/
   const query = `
-*[ _type == "SportsOrganization" ] {
-      name,
-      alternateName,
-      "logo": logo.asset->url,
-      slug,
-      tier,
-      members[] -> { name, slug, slogan, "logo": logo.asset->url }
-    } | order(tier asc)
+*[_type == "SportsOrganization" && additionalProperty != null ] {
+  _id,
+  name, alternateName,
+  "logo": {
+    "contentUrl": logo.asset->url,
+  },
+  slug,
+  additionalProperty,
+  "members": 
+    *[_type == "SportsTeam" && references(^._id) && !(_id in path('drafts.**'))] { 
+        name, alternateName, slogan, 
+        slug,
+        "logo": {
+          "contentUrl": logo.asset->url
+        }
+    } | order(name asc)
+} | order(additionalProperty asc)
   `;
   const params = {};
 
