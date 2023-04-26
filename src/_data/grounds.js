@@ -19,10 +19,16 @@ module.exports = async function () {
       addressRegion, 
       addressLocality,
       location,
-      areaServed, 
+      areaServed,
       description,
       priceRange,
-      subOrganization[] -> { name, slug, memberOf -> { name, slug } }
+      "subOrganization":
+        *[_type == "SportsTeam" && references(^._id)] {
+          name, slug,
+          memberOf -> {
+            name, slug
+          }
+        }
     } | order(maximumAttendeeCapacity desc)
   `;
   const params = {};
