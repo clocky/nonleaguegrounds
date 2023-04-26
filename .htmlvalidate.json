@@ -4,8 +4,7 @@
   ],
 
   "rules": {
-    "doctype-style": "off",
     "prefer-native-element": "off",
-    "close-order": "error"
+    "void-style": "off"
   }
 }
