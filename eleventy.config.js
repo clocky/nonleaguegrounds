@@ -1,17 +1,17 @@
-const dayjs = require("dayjs");
-const yaml = require("js-yaml");
-const ordinal = require("ordinal");
-const commaNumber = require("comma-number");
-const distFrom = require("distance-from");
-const eleventyVitePlugin = require("@11ty/eleventy-plugin-vite");
-const eleventyWebcPlugin = require("@11ty/eleventy-plugin-webc");
-const { eleventyImagePlugin } = require("@11ty/eleventy-img");
-const htmlmin = require("html-minifier");
+const dayjs = require("dayjs")
+const yaml = require("js-yaml")
+const ordinal = require("ordinal")
+const commaNumber = require("comma-number")
+const distFrom = require("distance-from")
+const eleventyVitePlugin = require("@11ty/eleventy-plugin-vite")
+const eleventyWebcPlugin = require("@11ty/eleventy-plugin-webc")
+const { eleventyImagePlugin } = require("@11ty/eleventy-img")
+const htmlmin = require("html-minifier")
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyWebcPlugin, {
     components: ["src/components/**/*.webc", "npm:@11ty/eleventy-img/*.webc"],
-  });
+  })
 
   eleventyConfig.addPlugin(eleventyImagePlugin, {
     formats: ["webp", "jpeg"],
@@ -20,7 +20,7 @@ module.exports = function (eleventyConfig) {
       loading: "lazy",
       decoding: "async",
     },
-  });
+  })
 
   eleventyConfig.addTransform("htmlmin", function (content) {
     // Prior to Eleventy 2.0: use this.outputPath instead
@@ -32,14 +32,14 @@ module.exports = function (eleventyConfig) {
         preserveLineBreaks: true,
         removeRedundantAttributes: true,
         removeEmptyAttributes: true,
-        removeEmptyElements: true,
+        removeEmptyElements: false,
         collapseBooleanAttributes: true,
-      });
-      return minified;
+      })
+      return minified
     }
 
-    return content;
-  });
+    return content
+  })
 
   /** Load Vite plugin */
   eleventyConfig.addPlugin(eleventyVitePlugin, {
@@ -56,9 +56,9 @@ module.exports = function (eleventyConfig) {
             dir: "dist",
             assetFileNames: (asset) => {
               if (/\.css$/.test(asset.name)) {
-                return "assets/css/[name]-[hash][extname]";
+                return "assets/css/[name]-[hash][extname]"
               }
-              return "assets/images/[name]-[hash][extname]";
+              return "assets/images/[name]-[hash][extname]"
             },
             chunkFileNames: "assets/js/[name]-[hash].js",
             entryFileNames: "assets/js/main.js",
@@ -67,43 +67,41 @@ module.exports = function (eleventyConfig) {
       },
       plugins: [],
     },
-  });
+  })
 
   /** Add loader for YAML files */
-  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents))
 
   /** Add passthrough copy for static assets */
-  eleventyConfig.addPassthroughCopy({ "src/assets/images": "/img" });
-  eleventyConfig.addPassthroughCopy({ "src/assets/images/*.png": "/" });
-  eleventyConfig.addPassthroughCopy({ "src/assets/images/*.ico": "/" });
-  eleventyConfig.addPassthroughCopy({ "src/sass/": "/css" });
+  eleventyConfig.addPassthroughCopy({ "src/assets/images": "/img" })
+  eleventyConfig.addPassthroughCopy({ "src/assets/images/*.png": "/" })
+  eleventyConfig.addPassthroughCopy({ "src/assets/images/*.ico": "/" })
+  eleventyConfig.addPassthroughCopy({ "src/sass/": "/css" })
 
   /** Add a filter to format inline dates for <time> tags */
-  eleventyConfig.addFilter("date", (date, format) =>
-    dayjs(date).format(format)
-  );
+  eleventyConfig.addFilter("date", (date, format) => dayjs(date).format(format))
 
   /* Filter to convert integer to ordinal, ie. 2 = 2nd */
-  eleventyConfig.addFilter("ordinal", (num) => ordinal(num));
+  eleventyConfig.addFilter("ordinal", (num) => ordinal(num))
 
   /* Filter to convert integer to comma number, ie. 1000 = 1,000 */
-  eleventyConfig.addFilter("commaNumber", (num) => commaNumber(num));
+  eleventyConfig.addFilter("commaNumber", (num) => commaNumber(num))
 
   /* Filter to calculate distance between two points */
   eleventyConfig.addShortcode("distance", (a, b, x, y) => {
-    let distance = new distFrom([a, b]).to([x, y]).in("mi");
-    return distance.toFixed(1);
-  });
+    let distance = new distFrom([a, b]).to([x, y]).in("mi")
+    return distance.toFixed(1)
+  })
 
   /** Add a filter to format inline dates for <time> tags */
   eleventyConfig.addFilter("ago", (year) =>
     dayjs().diff(dayjs(year, "YYYY"), "year")
-  );
+  )
 
   return {
     dir: {
       input: "src",
       output: "dist",
     },
-  };
-};
+  }
+}
