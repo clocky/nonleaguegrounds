@@ -18,6 +18,9 @@ devDependencies:
   '@11ty/eleventy-plugin-webc':
     specifier: ^0.11.0
     version: 0.11.0
+  '@creativebulma/bulma-tooltip':
+    specifier: ^1.2.0
+    version: 1.2.0
   '@prettier/plugin-xml':
     specifier: ^2.2.0
     version: 2.2.0
@@ -283,6 +286,10 @@ packages:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+    dev: true
+
+  /@creativebulma/bulma-tooltip@1.2.0:
+    resolution: {integrity: sha512-ooImbeXEBxf77cttbzA7X5rC5aAWm9UsXIGViFOnsqB+6M944GkB28S5R4UWRqjFd2iW4zGEkEifAU+q43pt2w==}
     dev: true
 
   /@esbuild/android-arm64@0.17.15:
