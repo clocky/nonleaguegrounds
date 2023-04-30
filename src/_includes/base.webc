@@ -22,8 +22,7 @@
     <meta
       webc:else="description"
       name="description"
-      :content="meta.description"
-    />
+      :content="meta.description.trim()" />
 
     <!-- meta: title -->
     <title webc:if="title" @text="title"></title>
@@ -31,6 +30,10 @@
 
     <!-- script: bundle -->
     <script :src="getBundleFileUrl('js')" webc:keep type="module"></script>
+    <script
+      src="https://kit.fontawesome.com/1d8fcc910f.js"
+      crossorigin="anonymous"
+      webc:keep></script>
 
     <!-- script: plausible -->
     <script
@@ -38,8 +41,7 @@
       webc:if="env.eleventy == 'production'"
       defer
       data-domain="nonleaguegrounds.com"
-      src="https://plausible.io/js/script.outbound-links.js"
-    ></script>
+      src="https://plausible.io/js/script.outbound-links.js"></script>
   </head>
   <body>
     <navbar webc:nokeep></navbar>
