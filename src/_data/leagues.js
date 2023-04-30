@@ -33,6 +33,9 @@ module.exports = async function () {
         slug,
         "logo": {
           "contentUrl": logo.asset->url
+        },
+        memberOf[]->{
+          name, alternateName, slug
         }
     } | order(name asc)
 } | order(additionalProperty asc, name asc)
