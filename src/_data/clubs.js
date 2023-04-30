@@ -1,30 +1,32 @@
-require("dotenv").config();
-const { createClient } = require("@sanity/client");
+require("dotenv").config()
+const { createClient } = require("@sanity/client")
 
-const projectId = process.env.SANITY_PROJECT;
+const projectId = process.env.SANITY_PROJECT
 
 const client = createClient({
   projectId,
   dataset: "production",
   apiVersion: "2022-01-12",
   useCdn: false,
-});
+})
 
 module.exports = async function () {
   const query = `
 *[ _type == "SportsTeam" ] {
-      "@context": "https://schema.org",
-      "@type": _type,
+      _id,
       name, 
-      slug,
-      alternateName, 
-      slogan,
+      alternateName,
       legalName,
       identifier,
+      slogan, 
+      slug,
       telephone,
       email,
-      location -> { 
-        address{
+      location -> {
+        name,
+        slug,
+        areaServed,
+        address {
           streetAddress, 
           addressLocality, 
           addressRegion, 
@@ -38,23 +40,50 @@ module.exports = async function () {
       foundingDate,
       description,
       priceRange,
+      coach[] -> {
+        name,
+        jobTitle,
+        "image": {
+          "contentUrl": image.asset->url,
+          "hotspot": image.hotspot
+        },
+      },
       memberOf -> { 
         name, 
         slug, 
         alternateName, 
-        tier 
+        additionalProperty 
       },
-
       owns[]-> { 
-        name, offers, color[],
+        name, 
+        offers,
+        color[],
         "image": image.asset->url, 
         manufacturer-> { 
-          name, url, "logo": logo.asset->url 
-        }
-      }
-    } | order(name asc)
-  `;
-  const params = {};
+          name, 
+          url,
+          "logo": logo.asset->url 
+        } 
+      },
+      "alumni": 
+        *[_type == "Person" && references(^._id)] {
+          _id,
+          name, 
+          jobTitle,
+          "image": {
+            "contentUrl": image.asset->url,
+            "hotspot": image.hotspot
+          },
+          "worksFor": 
+            *[_type == "SportsTeam" && references(^._id)][0] {
+              name,
+              alternateName,
+              slug,
+            },
+          },
+       } | order(name asc)
+  `
+  const params = {}
 
-  return await client.fetch(query, params);
-};
+  return await client.fetch(query, params)
+}
