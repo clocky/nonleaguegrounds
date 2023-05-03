@@ -73,6 +73,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents))
 
   /** Add passthrough copy for static assets */
+  eleventyConfig.addPassthroughCopy({ "src/assets/js": "/js" })
   eleventyConfig.addPassthroughCopy({ "src/assets/images": "/img" })
   eleventyConfig.addPassthroughCopy({ "src/assets/images/*.png": "/" })
   eleventyConfig.addPassthroughCopy({ "src/assets/images/*.ico": "/" })
