@@ -1,12 +1,11 @@
-const slugify = require("slugify");
+const slugify = require("slugify")
 
 module.exports = {
   layout: "base.webc",
   tags: ["ground"],
   eleventyComputed: {
+    title: ({ ground }) => ground.name,
     permalink: ({ ground }) =>
-      `regions/${slugify(ground.areaServed.toLowerCase())}/${slugify(
-        ground.name.toLowerCase()
-      )}/index.html`,
+      `regions/${ground.areaServed.slug.current}/${ground.slug.current}/index.html`,
   },
-};
+}
