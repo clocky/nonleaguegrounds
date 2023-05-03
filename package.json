@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "start": "ELEVENTY_ENV=development eleventy --serve --incremental --quiet",
-    "build": "ELEVENTY_ENV=production DEBUG=Eleventy* eleventy",
+    "build": "ELEVENTY_ENV=production eleventy",
+    "debug": "ELEVENTY_ENV=production DEBUG=Eleventy* eleventy",
     "postbuild": "npm-run-all -s postbuild:*",
     "postbuild:prettier": "prettier --write 'dist/**/*.html'",
     "postbuild:validate": "html-validate --config .htmlvalidate.json dist"
