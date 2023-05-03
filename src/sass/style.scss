@@ -3,6 +3,7 @@
 
 @import "variables";
 @import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/@creativebulma/bulma-tooltip";
 
 h1 {
   font-family: "Space Grotesk", sans-serif;
@@ -13,4 +14,8 @@ h1 {
   &.is-5 {
     letter-spacing: -0.5px;
   }
+}
+
+a[href^="http"]:where(:not([href*="localhost:8080/"]))::after {
+    content: "↗"
 }
