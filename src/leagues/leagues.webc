@@ -3,51 +3,52 @@ layout: base.webc
 permalink: /leagues/index.html
 ---
 
-<section class="section is-small">
-  <breadcrumb></breadcrumb>
-  <h1 class="title is-size-1">Leagues</h1>
-</section>
-
 <main class="container">
-  <table 
-  class="table is-striped is-fullwidth is-hoverable"
-  role="grid"
-  :aria-rowcount="leagues.length"
-  >
-  <thead>
-    <tr>
-      <th scope="col">Tier</th>
-      <th scope="col">Name</th>
-      <th scope="col" class="is-hidden-mobile">Clubs</th>
-    </tr>
-  </thead>
-    <tbody>
-      <!---
-        We slugify the slug, so that forward slashes get removed from id 
-        attributes and pass the html-validator step.
+  <section class="section is-small">
+    <breadcrumb></breadcrumb>
+    <h1 class="title is-size-1">Leagues</h1>
+  </section>
 
-        Only show leagues that have > 5 members, to ensure we only have
-        leagues with real content.
-      --->
-      <tr 
-        webc:for="league of leagues" 
-        webc:if="league.members.length > 5" 
-        :id="slugify(league.slug.current)"
-      >
-        <td class="is-hidden-mobile" @text="ordinal(parseInt(league.additionalProperty))"></td>
-        <th scope="row">
-          <!--- 
-            The pre-computed slug has forward slashes in it, which makes the
-            folder structure much nicer, but it's invalid for ID's (above).
-          --->
-          <a
-            :href="`/leagues/${league.slug.current}/`"
-            @text="league.name"
-          ></a>
-        </th>
-        <td @text="league.members.length"></td>
-        </td>
+  <section class="section">
+    <table 
+    class="table is-striped is-fullwidth is-hoverable"
+    role="grid"
+    :aria-rowcount="leagues.length"
+    >
+    <thead>
+      <tr>
+        <th scope="col">Tier</th>
+        <th scope="col">Name</th>
+        <th scope="col" class="is-hidden-mobile">Clubs</th>
       </tr>
-    </tbody>
-  </table>
+    </thead>
+      <tbody>
+        <!---
+          We slugify the slug, so that forward slashes get removed from id 
+          attributes and pass the html-validator step.
+
+          Only show leagues that have >= 10 members, to ensure we only have
+          leagues with real content.
+        --->
+        <tr 
+          webc:for="league of leagues" 
+          webc:if="league.members.length >= 10" 
+          :id="slugify(league.slug.current)">
+          <td class="is-hidden-mobile" @text="ordinal(parseInt(league.additionalProperty))"></td>
+          <th scope="row">
+            <!--- 
+              The pre-computed slug has forward slashes in it, which makes the
+              folder structure much nicer, but it's invalid for ID's (above).
+            --->
+            <a
+              :href="`/leagues/${league.slug.current}/`"
+              @text="league.name"
+            ></a>
+          </th>
+          <td @text="league.members.length"></td>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 </main>

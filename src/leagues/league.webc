@@ -5,31 +5,48 @@ pagination:
   alias: league
 ---
 
-<section class="section is-small pt-5 pb-0">
-  <breadcrumb tree="Leagues"></breadcrumb>
-  <h1 @text="league.alternateName" class="title is-size-1"></h1>
-</section>
+<main class="container">
+  <section class="section is-small">
+    <breadcrumb tree="Leagues"></breadcrumb>
+    <h1 @text="league.name" class="title is-size-1"></h1>
+  </section>
 
-<section class="section">
-  <div class="columns">
-    <div class="column is-half">
-      <media
-        webc:for="(club, index) of league.members"
-        :href="`/leagues/${league.slug.current}/${club.slug.current}/`"
-        :id="club.slug.current"
-      >
-        <span slot="media" webc:if="club.logo.contentUrl">
-          <eleventy-image
-            :src="club.logo.contentUrl"
-            :alt="`${club.name} crest`"
-            formats="png, webp"
-            sizes="(min-width: 4rem) 48px, 96px"
-            width="48,96,192"
-          ></eleventy-image>
-        </span>
-        <span slot="title" @text="club.name"></span>
-        <span slot="subtitle" @text="club.slogan"></span>
-      </media>
+  <section class="section">
+    <div class="columns">
+      <div class="column is-half">
+        <media
+          webc:for="(club, index) of league.members.slice(0, league.members.length / 2)"
+          :href="`/leagues/${league.slug.current}/${club.slug.current}/`"
+          :id="club.slug.current">
+          <span slot="media" webc:if="club.logo.contentUrl">
+            <eleventy-image
+              :src="club.logo.contentUrl"
+              :alt="`${club.name} crest`"
+              formats="png, webp"
+              sizes="(min-width: 4rem) 48px, 96px"
+              width="48,96,192"></eleventy-image>
+          </span>
+          <span slot="title" @text="club.name"></span>
+          <span slot="subtitle" @text="club.slogan"></span>
+        </media>
+      </div>
+      <div class="column is-half">
+        <media
+          webc:for="(club, index) of league.members.slice(league.members.length / 2, league.members.length)"
+          :href="`/leagues/${league.slug.current}/${club.slug.current}/`"
+          :id="club.slug.current">
+          <span slot="media" webc:if="club.logo.contentUrl">
+            <eleventy-image
+              :src="club.logo.contentUrl"
+              :alt="`${club.name} crest`"
+              formats="png, webp"
+              sizes="(min-width: 4rem) 48px, 96px"
+              width="48,96,192"></eleventy-image>
+          </span>
+          <span slot="title" @text="club.name"></span>
+          <span slot="subtitle" @text="club.slogan"></span>
+        </media>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</main>

@@ -7,12 +7,12 @@ const client = createClient({
   projectId,
   dataset: "production",
   apiVersion: "2022-01-12",
-  useCdn: false,
+  useCdn: true,
 })
 
 module.exports = async function () {
   const query = `
-    *[ _type == "StadiumOrArena" ] {
+    *[ _type == "StadiumOrArena" && maximumAttendeeCapacity > 0] {
       name, 
       alternateName,
       slug,
@@ -24,8 +24,14 @@ module.exports = async function () {
         postalCode,
         addressCountry
       },
-      location,
-      areaServed,
+      location {
+        lat,
+        lng
+      },
+      areaServed -> {
+        name,
+        slug,
+      },
       description,
       priceRange,
       "subOrganization":

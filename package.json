@@ -19,6 +19,7 @@
   "author": "Mark McLaughlin",
   "license": "MIT",
   "dependencies": {
+    "mapbox-gl": "^2.14.1",
     "netlify-plugin-cache": "^1.0.3"
   },
   "packageManager": "pnpm@8.1.0",

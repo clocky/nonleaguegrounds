@@ -1,4 +1,4 @@
-const slugify = require("slugify");
+const slugify = require("slugify")
 
 module.exports = {
   layout: "base.webc",
@@ -8,4 +8,4 @@ module.exports = {
     permalink: ({ club }) =>
       `leagues/${club.memberOf.slug.current}/${club.slug.current}/index.html`,
   },
-};
+}

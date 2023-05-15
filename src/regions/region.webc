@@ -1,0 +1,72 @@
+---
+pagination:
+  data: regions
+  size: 1
+  alias: region
+---
+
+<div class="container-fluid">
+  <div class="columns">
+    <div class="column is-half">
+      <section class="section is-small pt-5 pb-5">
+        <breadcrumb tree="Regions"></breadcrumb>
+        <h1 @text="region.name" class="title is-size-1"></h1>
+      </section>
+    </div>
+    <div class="column is-half">
+      <mapbox :lng="-74.5" :lat="40"></mapbox>
+    </div>
+  </div>
+</div>
+
+<main class="container">
+  <section class="section is-small pt-5 pb-5">
+    <breadcrumb tree="Regions"></breadcrumb>
+    <h1 @text="region.name" class="title is-size-1"></h1>
+  </section>
+
+  <section class="section">
+    <div class="columns">
+      <div
+        class="column is-one-quarter"
+        webc:for="(index, ground) in region.geoContains.slice(0,4)">
+        <schema-stadium :ground="ground"></schema-stadium>
+      </div>
+    </div>
+    <div class="columns" webc:if="region.geoContains.length >= 4">
+      <div
+        class="column is-one-quarter"
+        webc:for="(index, ground) in region.geoContains.slice(4,8)">
+        <schema-stadium :ground="ground"></schema-stadium>
+      </div>
+    </div>
+    <div class="columns" webc:if="region.geoContains.length >= 8">
+      <div
+        class="column is-one-quarter"
+        webc:for="(index, ground) in region.geoContains.slice(8,12)">
+        <schema-stadium :ground="ground"></schema-stadium>
+      </div>
+    </div>
+    <div class="columns" webc:if="region.geoContains.length >= 12">
+      <div
+        class="column is-one-quarter"
+        webc:for="(index, ground) in region.geoContains.slice(12,16)">
+        <schema-stadium :ground="ground"></schema-stadium>
+      </div>
+    </div>
+    <div class="columns" webc:if="region.geoContains.length >= 16">
+      <div
+        class="column is-one-quarter"
+        webc:for="(index, ground) in region.geoContains.slice(16,20)">
+        <schema-stadium :ground="ground"></schema-stadium>
+      </div>
+    </div>
+    <div class="columns" webc:if="region.geoContains.length >= 20">
+      <div
+        class="column is-one-quarter"
+        webc:for="(index, ground) in region.geoContains.slice(20,24)">
+        <schema-stadium :ground="ground"></schema-stadium>
+      </div>
+    </div>
+  </section>
+</main>

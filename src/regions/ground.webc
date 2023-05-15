@@ -5,88 +5,81 @@ pagination:
   alias: ground
 ---
 
-<script webc:setup>
-  const directions =
-    "https://www.google.com/maps/dir/?api=1&destination=Bellevue%20Square%20Mall,%201018%20Bellevue%20Square+98004,Bellevue,United%20States";
-</script>
+<main class="container">
+  <section class="section is-small">
+    <breadcrumb tree="Regions" :branch="ground.areaServed"></breadcrumb>
+    <h1 @text="ground.name" class="title is-size-1"></h1>
+  </section>
 
-<section class="section is-small">
-  <breadcrumb
-    tree="Regions"
-    :branch="ground.areaServed"
-    :leaf="ground.addressRegion"
-  ></breadcrumb>
-  <h1 @text="ground.name" class="title"></h1>
-</section>
-
-<section class="section">
-  <p class="block">
-    <strong itemprop="name" @text="ground.name"></strong>
-    <span webc:if="ground.sponsor"
-      >, officially known as
-      <strong @text="ground.sponsor.name" itemprop="alternateName"></strong> for
-      sponsorship reasons,</span
-    >
-    is an
-    <span webc:nokeep @text="ground.subOrganization[0].sport"></span> ground
-    <span webc:nokeep @text="ground.addressLocality"></span>,
-    <span webc:nokeep @text="ground.addressRegion"></span> that holds
-    <span
-      webc:nokeep
-      @text="commaNumber(ground.maximumAttendeeCapacity)"
-    ></span>
-    supporters.
-  </p>
-
-  <p
-    webc:for="(club, index) of ground.subOrganization"
-    itemscope
-    itemtype="https://schema.org/SportsTeam"
-  >
-    <span webc:nokeep webc:if="index == 0"> The ground is the home of </span>
-    <span webc:nokeep webc:else>
-      In addition, the ground is also shared with
-    </span>
-    <a
-      @text="club.name"
-      :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"
-      itemprop="name"
-    ></a>
-    who currently compete in the
-    <a
-      webc:if="club.memberOf"
-      @text="club.memberOf.name"
-      :href="`/leagues/${club.memberOf.slug.current}/`"
-      itemprop="memberOf"
-    ></a
-    >.
-  </p>
-</section>
-
-<section class="section">
-  <div class="columns">
-    <div class="column is-one-third">
-      <h2 class="title is-size-4">Location</h2>
-      <h3 @text="ground.name"></h3>
-      <p @text="`${ground.streetAddress},${ground.addressLocality}`"></p>
-      <a
-        :href="`https://www.google.com/maps/dir/?api=1&destination=${ground.name},${ground.streetAddress},${ground.postalCode},${ground.addressLocality},United%20Kingdom`"
-        class="button"
-        >Directions &rarr;</a
+  <section class="section">
+    <p class="block is-size-5">
+      <strong itemprop="name" @text="ground.name"></strong
+      ><span webc:if="ground.alternateName"
+        >, officially known as
+        <strong @text="ground.alternateName" itemprop="alternateName"></strong>
+        for sponsorship reasons,</span
       >
-    </div>
-    <div class="column is-two-thirds">
-      <!--- Don't try to render a map if there's no location field --->
-      <figure class="image is-4by3" webc:if="ground.location">
-        <google-map
-          :center="`${ground.location.lat},${ground.location.lng}`"
-          size="960x480"
-          scale="2"
-          zoom="16"
-          maptype="roadmap"
+      is an association football ground
+      <span webc:nokeep webc:if="ground.address">
+        in
+        <span
+          webc:nokeep
+          webc:if="ground.address.addressLocality"
+          @text="ground.address.addressLocality"></span
+        >,
+        <span
+          webc:nokeep
+          webc:if="ground.address.addressRegion"
+          @text="ground.address.addressRegion"></span> </span
+      ><span webc:if="ground.maximumAttendeeCapacity">
+        that holds
+        <span
+          webc:nokeep
+          @text="commaNumber(ground.maximumAttendeeCapacity)"></span>
+        supporters</span
+      >.
+    </p>
+
+    <p
+      webc:for="(club, index) of ground.subOrganization"
+      itemscope
+      itemtype="https://schema.org/SportsTeam">
+      <span webc:nokeep webc:if="index == 0"> The ground is the home of </span>
+      <span webc:nokeep webc:else>
+        In addition, the ground is also shared with
+      </span>
+      <a
+        @text="club.name"
+        :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"
+        itemprop="name"></a>
+      who currently compete in the
+      <a
+        webc:if="club.memberOf"
+        @text="club.memberOf.name"
+        :href="`/leagues/${club.memberOf.slug.current}/`"
+        itemprop="memberOf"></a
+      >.
+    </p>
+  </section>
+
+  <section class="section" webc:if="ground.address">
+    <div class="columns">
+      <div class="column is-one-third">
+        <h2 class="title is-size-4">Location</h2>
+        <schema-place :ground="ground"></schema-place>
+        <a
+          :href="`https://www.google.com/maps/dir/?api=1&destination=${ground.name},${ground.address.streetAddress},${ground.address.postalCode},${ground.address.addressLocality},United%20Kingdom`"
+          class="button mt-3"
+          >Directions</a
         >
-        </google-map>
-      </figure>
+      </div>
+      <div class="column is-two-thirds">
+        <!--- Don't try to render a map if there's no location field --->
+        <mapbox-static
+          webc:if="ground.location"
+          :location="ground.location"
+          :name="ground.name"></mapbox-static>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</main>

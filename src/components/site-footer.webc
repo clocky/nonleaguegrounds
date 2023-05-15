@@ -1,17 +1,17 @@
 <footer class="footer mt-5">
-  <div class="container">
+  <div class="container px-5">
     <div class="columns">
       <div class="column">
-        <p class="has-text-white-ter" @text="$data.meta.disclaimer"></p>
+        <p class="has-text-dark-grey" @text="$data.meta.disclaimer"></p>
       </div>
       <div class="column">
         <ul>
           <li webc:for="(league, index) of $data.leagues" class="is-size-7">
             <a
+              webc:if="league.additionalProperty >= 5 && league.members.length >= 10"
               :href="`/leagues/${league.slug.current}/`"
               class="has-text-link"
-              @text="league.name"
-            ></a>
+              @text="league.name"></a>
           </li>
         </ul>
       </div>

@@ -1,0 +1,38 @@
+<template webc:type="11ty" webc:if="ground">
+  <a :href="`${ground.slug.current}/`">
+    <div
+      class="card shadow-lg is-cursor-pointer"
+      itemscope
+      itemtype="https://schema.org/StadiumOrArena">
+      <div
+        class="cover-image is-overflow-hidden card-image"
+        webc:if="ground.image">
+        <figure class="image is-16by9" webc:if="ground.image.contentUrl">
+          <img
+            webc:if="ground.image.hotspot"
+            :src="`${ground.image.contentUrl}?w=800&h=450&fit=crop&crop=focalpoint&fp-x=${ground.image.hotspot.x}&fp-y=${ground.image.hotspot.y}`"
+            :alt="ground.name"
+            itemprop="image" />
+          <b-message webc:else class="is-warning">
+            <span slot="header">Missing hotspot</span>
+          </b-message>
+        </figure>
+      </div>
+      <div class="card-content">
+        <h4
+          @class="has-text-weight-semibold"
+          @text="ground.name"
+          itemprop="name"></h4>
+        <!-- If the ground has subOrganizations (i.e. tenants)-->
+        <div
+          webc:if="ground.subOrganization"
+          webc:for="(index, club) in ground.subOrganization"
+          itemprop="subOrganization"
+          itemscope
+          itemtype="https://schema.org/SportsTeam">
+          <p @text="club.name" itemprop="name" class="has-text-grey"></p>
+        </div>
+      </div>
+    </div>
+  </a>
+</template>

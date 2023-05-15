@@ -1,11 +1,18 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
+@import "../../node_modules/mapbox-gl/dist/mapbox-gl.css";
 
 @import "variables";
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../node_modules/@creativebulma/bulma-tooltip";
+@import "cards";
 
-h1 {
+#map {
+  width: 100%;
+  height: 90vh;
+}
+h1,
+.navbar-brand {
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -17,5 +24,5 @@ h1 {
 }
 
 a[href^="http"]:where(:not([href*="localhost:8080/"]))::after {
-    content: "↗"
+  content: "↗";
 }

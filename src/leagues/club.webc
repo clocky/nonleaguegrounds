@@ -5,88 +5,110 @@ pagination:
   alias: club
 ---
 
-<section class="section is-small borders">
-  <breadcrumb tree="Leagues" :branch="club.memberOf"></breadcrumb>
-  <h1 @text="club.name" class="title is-size-1"></h1>
-</section>
-
-<div class="container">
-  <section class="section">
-    <div class="columns">
-      <div class="column is-2">
-        <figure class="image is-128x128" webc:if="club.logo.contentUrl">
+<main class="container">
+  <section class="section is-small">
+    <breadcrumb tree="Leagues" :branch="club.memberOf"></breadcrumb>
+    <div class="columns mt-2">
+      <div class="column is-narrow">
+        <figure class="image is-96x96" webc:if="club.logo.contentUrl">
           <eleventy-image
             :src="club.logo.contentUrl"
             :alt="`${club.name} crest`"
-            sizes="(min-width: 8rem) 128px, 256px"
-          ></eleventy-image>
+            sizes="(min-width: 8rem) 128px, 256px"></eleventy-image>
         </figure>
       </div>
-
-      <div class="column is-6">
-        <section>
-          <p class="block">
-            <strong @text="club.alternateName"></strong>
-            is a football club
-            <div webc:if="club.location && club.location.address" webc:nokeep> based in
-            <span 
-              @text="club.location.address.addressLocality" 
-              webc:nokeep>
-            </span>
-            <span
-              webc:if="club.location.address.addressRegion"
-              webc:nokeep
-              @text="`, ${club.location.address.addressRegion} `"
-            ></span
-            >
-            </div>.
-          </p>
-          <p class="block" webc:if="club.foundingDate < 1948">
-            With a history dating back to
-            <time @text="club.foundingDate"></time>, the club has a rich
-            heritage and is currently competing in the
-            <a
-              :href="`/leagues/${club.memberOf.slug.current}/`"
-              @text="club.memberOf.alternateName"
-            ></a>
-            <span webc:nokeep webc:if="club.memberOf.tier"
-              >, the
-              <span webc:nokeep @text="ordinal(club.memberOf.tier)"></span> tier
-              of English football </span
-            >.
-          </p>
-
-          <!--- Kit --->
-          <div webc:if="club.owns" webc:nokeep>
-            <p class="block" webc:if="club.owns[0].manufacturer">
-              Known by fans as &ldquo;<span @text="club.slogan" webc:nokeep
-                >"The Dons"</span
-              >&rdquo;,
-              <span @text="club.name" webc:nokeep>AFC Wimbledon</span>
-              is a proud partner of
-              <a
-                :href="club.owns[0].manufacturer.url"
-                @text="club.owns[0].manufacturer.name"
-                target="_blank"
-                :aria-label="`Open ${new URL(club.owns[0].manufacturer.url).hostname} in a new tab`"
-              ></a
-              >, who designs their distinctive playing kits.
-            </p>
-          </div>
-        </section>
-
-        <section class="mt-5" webc:if="club.description">
-          <h3 class="subtitle has-text-weight-bold">History</h3>
-          <p @text="club.description"></p>
-        </section>
-
-        <section class="mt-5" webc:if="club.parentOrganization">
-          <club-ownership
-            :organization="club.parentOrganization"
-            webc:nokeep
-          ></club-ownership>
-        </section>
+      <div class="column">
+        <h1 @text="club.name" class="title is-size-1 mt-4"></h1>
       </div>
     </div>
   </section>
-</div>
+
+
+  <section class="section">
+    <p class="block is-size-5">
+      <strong @text="club.alternateName"></strong>
+      is an association football club
+      <span webc:if="club.location">
+        <span webc:if="club.location.address">
+          based in
+          <span
+            webc:if="club.location.address.addressLocality"
+            @text="club.location.address.addressLocality"
+            webc:nokeep></span
+          ><span
+            webc:if="club.location.address.addressRegion"
+            @text="`, ${club.location.address.addressRegion}`"
+            webc:nokeep></span></span></span
+      >.
+    </p>
+    <p class="block is-size-5" webc:if="club.foundingDate < 1948">
+      With a history dating back to
+      <time @text="club.foundingDate"></time>, the club has a rich
+      heritage and is currently competing in the
+      <a
+        :href="`/leagues/${club.memberOf.slug.current}/`"
+        @text="club.memberOf.name"></a><span webc:nokeep webc:if="club.memberOf.additionalProperty"
+        >, the <span webc:nokeep @text="ordinal(club.memberOf.additionalProperty)"></span>
+        tier of English football</span>.
+    </p>
+
+    <!--- Kit --->
+    <div webc:if="club.owns" webc:nokeep>
+      <p class="block is-size-5" webc:if="club.owns[0].manufacturer">
+        Known by fans as &ldquo;<span @text="club.slogan" webc:nokeep></span>&rdquo;,
+        <span @text="club.name" webc:nokeep>AFC Wimbledon</span>
+          is a proud partner of
+          <a
+            webc:if="club.owns[0].manufacturer.url"
+            :href="club.owns[0].manufacturer.url"
+            @text="club.owns[0].manufacturer.name"
+            target="_blank"
+            rel="external"
+            :aria-label="`Open ${new URL(club.owns[0].manufacturer.url).hostname} in a new tab`"></a><strong webc:else  @text="club.owns[0].manufacturer.name"></strong>, who designs their distinctive playing kits</span
+        >.
+      </p>
+    </div>
+
+    <div webc:if="club.location" webc:nokeep>
+      <schema-stadium :club="club"></schema-stadium>
+    </div>
+  </section>
+
+  <!-- History -->
+
+  <section webc:if="club.description" class="section is-small" >
+    <h3 class="subtitle has-text-weight-bold">History</h3>
+    <p 
+      class="block" 
+      webc:for="sentence of club.description.split(/(?<=[.?!])\s/g);" 
+      @text="sentence"
+    ></p>
+  </section>
+
+  <!-- Coaching Staff -->
+
+  <section webc:if="club.coach" class="section is-small" >
+    <h3 class="subtitle has-text-weight-bold">Staff</h3>
+    <div class="columns">
+      <div class="column is-one-third" webc:for="staff of club.coach" >
+      <schema-person :person="staff"> </schema-person>
+      </div>
+  </section>
+
+  <!-- Alumni -->
+
+  <section webc:if="club.alumni.length >= 1" class="section is-small">
+    <h3 class="subtitle has-text-weight-bold">Alumni</h3>
+    <div class="columns">
+      <div class="column is-one-third" webc:for="alumni of club.alumni">
+        <schema-person :person="alumni"></schema-person>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ownership -->
+  <section class="section is-small" webc:if="club.legalName">
+    <legal-name :organization="club" webc:nokeep></legal-name>
+  </section>
+
+</main>

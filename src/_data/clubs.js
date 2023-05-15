@@ -7,7 +7,7 @@ const client = createClient({
   projectId,
   dataset: "production",
   apiVersion: "2022-01-12",
-  useCdn: false,
+  useCdn: true,
 })
 
 module.exports = async function () {
@@ -25,7 +25,10 @@ module.exports = async function () {
       location -> {
         name,
         slug,
-        areaServed,
+        areaServed -> {
+          name,
+          slug
+        },
         address {
           streetAddress, 
           addressLocality, 
@@ -79,6 +82,9 @@ module.exports = async function () {
               name,
               alternateName,
               slug,
+              memberOf -> {
+                slug
+              }
             },
           },
        } | order(name asc)
