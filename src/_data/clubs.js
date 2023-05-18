@@ -7,17 +7,18 @@ const client = createClient({
   projectId,
   dataset: "production",
   apiVersion: "2022-01-12",
-  useCdn: true,
+  useCdn: false,
 })
 
 module.exports = async function () {
   const query = `
-*[ _type == "SportsTeam" ] {
+*[ _type == "SportsTeam"] {
       _id,
       name, 
       alternateName,
       legalName,
       identifier,
+      nonProfitStatus,
       slogan, 
       slug,
       telephone,
@@ -46,6 +47,13 @@ module.exports = async function () {
       coach[] -> {
         name,
         jobTitle,
+        "hasCredential": {
+          "name": hasCredential->name,
+          "recognizedBy": hasCredential->recognizedBy-> {
+            "@type": _type,
+            "name": name
+          }
+        },
         "image": {
           "contentUrl": image.asset->url,
           "hotspot": image.hotspot
@@ -73,6 +81,13 @@ module.exports = async function () {
           _id,
           name, 
           jobTitle,
+          "hasCredential": {
+            "name": hasCredential->name,
+            "recognizedBy": hasCredential->recognizedBy-> {
+              "@type": _type,
+              "name": name
+            }
+          },
           "image": {
             "contentUrl": image.asset->url,
             "hotspot": image.hotspot
