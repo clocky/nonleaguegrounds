@@ -1,0 +1,36 @@
+<script webc:type="js">
+  let geoJSON = {
+    type: "FeatureCollection",
+    features: [],
+  }
+  for (point of region.geoContains) {
+    if (point.location != null && point.subOrganization.length > 0) {
+      geoJSON.features.push({
+        type: "Feature",
+        geometry: {
+          type: "Point",
+          coordinates: [point.location.lng, point.location.lat],
+        },
+        properties: {
+          name: point.name,
+          description: point.subOrganization[0].alternateName,
+          "marker-symbol": "soccer",
+          url: `/regions/${region.slug.current}/${point.slug.current}/index.html`,
+          id: point.slug.current,
+          address: `${point.address.streetAddress
+            }, ${point.address.addressLocality.toUpperCase()}, ${point.address.postalCode
+            }`,
+        },
+      })
+      if (point.subOrganization[0].alternateName == null) {
+        console.error(
+          "ERROR: Missing alternateName for " + point.subOrganization[0].name
+        )
+      }
+      if (point.address.addressLocality == null) {
+        console.error("ERROR: Missing locality for " + point.name)
+      }
+    }
+  }
+  JSON.stringify(geoJSON)
+</script>
