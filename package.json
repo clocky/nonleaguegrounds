@@ -4,12 +4,15 @@
   "description": "Database of British non-league grounds",
   "main": "index.html",
   "scripts": {
-    "start": "ELEVENTY_ENV=development eleventy --serve --incremental --quiet",
-    "build": "ELEVENTY_ENV=production eleventy",
-    "debug": "ELEVENTY_ENV=production DEBUG=Eleventy* eleventy",
-    "postbuild": "npm-run-all -s postbuild:*",
-    "postbuild:prettier": "prettier --write 'dist/**/*.html'",
-    "postbuild:validate": "html-validate --config .htmlvalidate.json dist"
+    "start": "run-p *:dev",
+    "build": "run-s eleventy:build vite:build",
+    "eleventy:build": "ELEVENTY_ENV=production eleventy",
+    "eleventy:dev": "eleventy --watch --incremental",
+    "vite:build": "vite build",
+    "vite:dev": "vite",
+    "postbuild": "npm-run-all -s prettier validate",
+    "prettier": "prettier --write 'dist/**/*.html'",
+    "validate": "html-validate --config .htmlvalidate.json dist"
   },
   "keywords": [
     "football",
@@ -19,33 +22,26 @@
   "author": "Mark McLaughlin",
   "license": "MIT",
   "dependencies": {
-    "mapbox-gl": "^2.14.1",
-    "netlify-plugin-cache": "^1.0.3"
+    "autoprefixer": "^10.4.14",
+    "netlify-plugin-cache": "^1.0.3",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.7"
   },
   "packageManager": "pnpm@8.1.0",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.0",
-    "@11ty/eleventy-plugin-vite": "^4.0.0",
-    "@11ty/eleventy-plugin-webc": "^0.11.0",
-    "@creativebulma/bulma-tooltip": "^1.2.0",
-    "@prettier/plugin-xml": "^2.2.0",
-    "@sanity/client": "^5.4.2",
-    "@vizuaalog/bulmajs": "^0.12.2",
-    "bulma": "^0.9.4",
+    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "@sanity/client": "^6.1.1",
     "comma-number": "^2.1.0",
     "dayjs": "^1.11.7",
-    "distance-from": "^1.1.2",
     "dotenv": "^16.0.3",
     "html-minifier": "^4.0.0",
-    "html-validate": "^7.15.1",
+    "html-validate": "^7.17.0",
     "js-yaml": "^4.1.0",
     "npm-run-all": "^4.1.5",
+    "number-to-words": "^1.2.4",
     "ordinal": "^1.0.3",
-    "prettier-cli": "^0.1.0",
-    "sass": "^1.61.0",
-    "sharp": "^0.32.0",
-    "start-server-and-test": "^2.0.0",
-    "svgo": "^3.0.2"
+    "prettier-cli": "^0.1.0"
   }
 }
