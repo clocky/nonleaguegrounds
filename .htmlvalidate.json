@@ -2,9 +2,8 @@
   "extends": [
     "html-validate:recommended"
   ],
-
   "rules": {
-    "prefer-native-element": "off",
-    "void-style": "off"
+    "void-style": "off",
+    "no-deprecated-attr": "off"
   }
 }
