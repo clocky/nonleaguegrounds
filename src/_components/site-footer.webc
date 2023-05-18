@@ -1,0 +1,13 @@
+<footer class="bg-slate-100 py-8 mt-16">
+  <hr class="hidden">
+  <div class="container mx-auto px-4 grid lg:grid-cols-6 gap-x-8">
+    <p class="col-span-3">
+      <small @text="$data.meta.disclaimer" class="text-base text-slate-600"></small>
+    </p>
+    <ul class="col-span-3 grid grid-cols-2">
+      <li webc:for="(league, index) of $data.footer" class="text-sm">
+        <a :href="`/leagues/${league.slug.current}/`" @text="league.name"></a>
+      </li>
+    </ul>
+  </div>
+</footer>

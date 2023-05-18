@@ -1,0 +1,8 @@
+<section>
+  <h1 class="font-6xl">
+    <slot webc:nokeep name="title"></slot>
+  </h1>
+  <h2>
+    <slot webc:nokeep name="description"></slot>
+  </h2>
+</section>

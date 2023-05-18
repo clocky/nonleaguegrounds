@@ -1,0 +1,7 @@
+<header class="container mx-auto">
+  <div class="pl-4 pr-8 py-16">
+    <h1 @text=" title" itemprop="name" class="text-slate-800 text-5xl lg:text-6xl font-display tracking-tight mt-8">
+    </h1>
+    <p webc:if="description" itemprop="description" @text="description" class="py-8 text-lg text-slate-700"></p>
+  </div>
+</header>

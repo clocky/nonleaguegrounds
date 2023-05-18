@@ -1,4 +1,0 @@
-<div class="navbar-brand">
-  <a class="navbar-item has-text-weight-bold is-size-5" href="/">Non-League Grounds<wbr /></a>
-  <navbar-burger :target="target"></navbar-burger>
-</div>

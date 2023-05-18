@@ -1,0 +1,10 @@
+<div :id="`${title.toLowerCase()}-panel`">
+  <h3 @text="title"></h3>
+  <p>
+    <slot name="description"></slot>
+  </p>
+  <p>
+    <action-button :href="`/${title.toLowerCase()}/`" :label="`View all ${title.toLowerCase()} &rarr;`" :arrow="true">
+    </action-button>
+  </p>
+</div>

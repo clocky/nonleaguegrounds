@@ -1,0 +1,45 @@
+<template webc:type="11ty">
+
+  <figure>
+    <!-- If there's an Image attribute-->
+    <p :>
+      <!-- If it's not null, and there's an asset URL and hotspot -->
+      <img webc:if="person.image.contentUrl && person.image.hotspot"
+        :src="`${person.image.contentUrl}?w=${w*2}&h=${h*2}&fit=crop&crop=focalpoint&fp-x=${person.image.hotspot.x}&fp-y=${person.image.hotspot.y}`"
+        :alt="`Photograph of ${person.name}`"></img>
+      <span webc:if="!person.image.contentUrl">
+        <span>
+          <i></i>
+        </span>
+      </span>
+    </p>
+  </figure>
+
+  <div>
+    <div>
+      <!-- Show an icon if the person has a credential such as UEFA Pro -->
+      <h3 webc:if="person.hasCredential">
+        <span webc:nokeep @text="person.name" itemprop="name"></span>
+        <span webc:keep :data-tooltip="person.hasCredential.name">
+          <i></i>
+        </span>
+      </h3>
+      <!-- Just render their name if not-->
+      <h3 webc:else @text="person.name" itemprop="name">[person.name]</h3>
+      <p webc:if="person.worksFor">
+        <span @text="person.jobTitle">[person.jobTitle]</span>
+        at
+        <a :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/`"
+          @text="person.worksFor.name">[person.worksFor.name]</a>
+      </p>
+      <p webc:else itemprop="jobTitle" @text="person.jobTitle">
+        </span>
+      </p>
+    </div>
+  </div>
+</template>
+
+<script webc:setup>
+  const w = 240;
+  const h = 320;
+</script>

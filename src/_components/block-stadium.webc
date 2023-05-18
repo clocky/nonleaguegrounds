@@ -1,0 +1,18 @@
+<template webc:type="11ty" webc:if="ground">
+
+  <article itemscope itemtype="https://schema.org/StadiumOrArena" :id="ground.slug.current">
+    <figure webc:if="ground.image" webc:if="ground.image.contentUrl">
+      <img webc:if="ground.image.hotspot"
+        :src="`${ground.image.contentUrl}?w=420&h=180&fit=crop&crop=focalpoint&fp-x=${ground.image.hotspot.x}&fp-y=${ground.image.hotspot.y}`"
+        :alt="ground.name" itemprop="image" />
+    </figure>
+    <h4 itemprop="name">
+      <a :href="`${ground.slug.current}/`" @text="ground.name"> </a>
+    </h4>
+    <!-- If the ground has subOrganizations (i.e. tenants)-->
+    <div webc:if="ground.subOrganization" webc:for="(index, club) in ground.subOrganization" itemprop="subOrganization"
+      itemscope itemtype="https://schema.org/SportsTeam">
+      <p @text="club.name" itemprop="name"></p>
+    </div>
+  </article>
+</template>

@@ -1,0 +1,9 @@
+<!--
+  Render an image from the Sanity CDN and render it as a WebP image.
+-->
+<picture webc:if="src">
+  <source type="image/webp"
+    :srcset="`${src}fm=webp&h=${height}&w=${width} 1x, ${src}fm=webp&h=${height * 2}&w=${width * 2} 2x`" />
+  <img :src="`${src}fm=png&h=${height}&w=${width}`" :alt="alt" :itemprop="itemprop" decoding="async" :width="width"
+    :height="height" :class="this.class" />
+</picture>

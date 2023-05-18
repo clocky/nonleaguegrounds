@@ -1,0 +1,25 @@
+<template webc:type="11ty">
+  <nav>
+    <div>
+      <div>
+        <!-- Home Button -->
+        <div>
+          <a href="/" @text="$data.meta.title"></a>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div>
+          <a href="/grounds/">Grounds</a>
+          <a href="/regions/">Regions</a>
+          <a href="/leagues/">Leagues</a>
+          <a href="/clubs/">Clubs</a>
+        </div>
+
+        <!-- Search Bar -->
+        <div>
+          <input type="text" placeholder="Search" />
+        </div>
+      </div>
+    </div>
+  </nav>
+</template>

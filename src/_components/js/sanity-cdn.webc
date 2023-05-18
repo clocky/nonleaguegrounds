@@ -1,0 +1,4 @@
+<script webc:type="js">
+  let cdn = new URL("https://cdn.sanity.io")
+  cdn.searchParams.append("fm", format ? format : "png")
+</script>

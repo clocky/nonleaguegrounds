@@ -8,12 +8,10 @@
 
 <template webc:type="11ty">
   <figure class="image is-16x9">
-    <eleventy-image
-      :width="width"
-      :height="height"
+    <img :width="width" :height="height"
       :src="`https://api.mapbox.com/styles/v1/mapbox/${style}/static/${location.lng},${location.lat},${zoom},0/${width}x${height}@2x?access_token=${process.env.VITE_MAPBOX_TOKEN}`"
       :alt="`Aerial view of ${name}`">
-    </eleventy-image>
+
     <!-- 
     https://api.mapbox.com/styles/v1/mapbox/light-v10/static/-1.2126,54.6891,16,0/720x405@2x?access_token=
     -->
