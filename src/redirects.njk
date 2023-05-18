@@ -1,7 +1,0 @@
----
-permalink: /_redirects
----
-# Clubs
-{% for club in clubs | sort(attribute="memberOf.name" | sort(attribute = "name"))  -%}
-https://www.nonleaguegrounds.com/club/{{ club.name | slugify }}{% for i in range(0, 46 - club.name.length) %} {% endfor %}{{ meta.base }}/leagues/{{ club.memberOf.name | slugify }}/{{ club.name | slugify }}
-{% endfor %}
