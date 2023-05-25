@@ -2,7 +2,7 @@
   <page-header :title="region.name" :description="region.description">
   </page-header>
 
-  <div itemprop="geoContains">
+  <div itemprop="geoContains" class="grid grid-cols-3 gap-4">
     <div webc:for="(index, ground) in region.geoContains" webc:nokeep>
       <block-stadium :ground="ground"></block-stadium>
     </div>
