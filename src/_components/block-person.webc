@@ -15,7 +15,7 @@
 
   <div>
     <h4 itemprop="name"
-      class="font-semibold flex items-center gap-x-0.5 mb-0.5 leading-tight group-hover:text-indigo-700">
+      class="font-semibold flex items-center gap-x-0.5 mb-0.5 leading-tight text-indigo-700 group-hover:underline">
       <span @text="person.name"></span>
       <span webc:if="person.hasCredential.name" class="text-sky-700">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
