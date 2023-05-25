@@ -1,52 +1,9 @@
----
-pagination:
-  data: leagues
-  size: 1
-  alias: league
----
-
-<main class="container">
-  <section class="section is-small">
-    <breadcrumb tree="Leagues"></breadcrumb>
-    <h1 @text="league.name" class="title is-size-1"></h1>
-  </section>
-
-  <section class="section">
-    <div class="columns">
-      <div class="column is-half">
-        <media
-          webc:for="(club, index) of league.members.slice(0, league.members.length / 2)"
-          :href="`/leagues/${league.slug.current}/${club.slug.current}/`"
-          :id="club.slug.current">
-          <span slot="media" webc:if="club.logo.contentUrl">
-            <eleventy-image
-              :src="club.logo.contentUrl"
-              :alt="`${club.name} crest`"
-              formats="png, webp"
-              sizes="(min-width: 4rem) 48px, 96px"
-              width="48,96,192"></eleventy-image>
-          </span>
-          <span slot="title" @text="club.name"></span>
-          <span slot="subtitle" @text="club.slogan"></span>
-        </media>
-      </div>
-      <div class="column is-half">
-        <media
-          webc:for="(club, index) of league.members.slice(league.members.length / 2, league.members.length)"
-          :href="`/leagues/${league.slug.current}/${club.slug.current}/`"
-          :id="club.slug.current">
-          <span slot="media" webc:if="club.logo.contentUrl">
-            <eleventy-image
-              :src="club.logo.contentUrl"
-              :alt="`${club.name} crest`"
-              formats="png, webp"
-              sizes="(min-width: 4rem) 48px, 96px"
-              width="48,96,192"></eleventy-image>
-          </span>
-          <span slot="title" @text="club.name"></span>
-          <span slot="subtitle" @text="club.slogan"></span>
-        </media>
-      </div>
-    </div>
+<main itemscope itemtype="https://schema.org/SportsOrganization" class="container mx-auto">
+  <page-header :title="league.name" :description="league.description"></page-header>
+  <section
+    class="grid grid-cols-2 place-items-stretch md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-4 gap-4 mt-16 mb-32">
+    <block-sportsteam webc:for="(club, index) of league.members" :club="club"
+      :url="`/leagues/${league.slug.current}/${club.slug.current}/`">
+    </block-sportsteam>
   </section>
 </main>

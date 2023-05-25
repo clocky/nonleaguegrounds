@@ -7,21 +7,29 @@ const client = createClient({
   projectId,
   dataset: "production",
   apiVersion: "2022-01-12",
-  useCdn: true,
+  useCdn: false,
 })
 
 module.exports = async function () {
   const query = `
-  *[_type == "AdministrativeArea"] {
+  *[_type == "AdministrativeArea" && count(*[_type == "StadiumOrArena" && areaServed._ref == ^._id]) >= 3] {
     name,
+    alternateName,
     slug,
+    description,
     identifier,
+    image {
+      "contentUrl": image.asset -> url
+    },
     "geoContains": 
       *[_type == "StadiumOrArena" && references(^._id)] {
         _id,
         name, 
         slug,
         address,
+        location {
+          lat, lng
+        },
         image {
           "contentUrl": image.asset->url,
           "crop": image.crop,
@@ -33,6 +41,7 @@ module.exports = async function () {
         "subOrganization":
           *[_type == "SportsTeam" && references(^._id)] {
             name,
+            alternateName,
             slug,
             memberOf-> {
               slug

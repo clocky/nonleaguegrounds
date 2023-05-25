@@ -2,53 +2,41 @@
 layout: base.webc
 ---
 
-<hero id="clubs" class="is-medium">
-  <span slot="title" @text="meta.intro"></span>
-  <span slot="description" @text="meta.description"></span>
-</hero>
+<site-hero>
+  <span slot="title" @text="meta.intro" webc:nokeep></span>
+  <span slot="description" @text="meta.description" webc:nokeep></span>
+</site-hero>
 
-<main class="container">
-  <section class="section">
-    <div class="columns is-desktop">
-      <div class="column is-one-third-desktop">
-        <panel @title="Leagues">
-          <p slot="description">
-            We've got everything covered, from the top-tier
-            <strong>National League</strong> to the
-            <span
-              @text="ordinal(leagues[leagues.length - 1].additionalProperty)"></span>-tier
-            <strong webc:keep @text="leagues[leagues.length - 1].name"></strong>
-            and a whole lot in between.
-          </p>
-        </panel>
-      </div>
-      <div class="column is-one-third-desktop">
-        <panel @title="Grounds">
-          <p slot="description">
-            Starting with the
-            <span @text="commaNumber(grounds[0].maximumAttendeeCapacity)"></span
-            >-capacity home of
-            <strong
-              @text="grounds[0].subOrganization[0].name"
-              webc:keep></strong
-            >, we've compiled a comprehensive list of addresses, directions, and
-            details for each ground.
-          </p>
-        </panel>
-      </div>
-      <div class="column is-one-third-desktop">
-        <panel @title="Regions">
-          <p slot="description">
-            With 10 regions to explore, from
-            <strong @text="regions[0].alternateName" webc:keep></strong> to
-            <strong
-              @text="regions[regions.length - 1].alternateName"
-              webc:keep></strong>
-            our directory covers the length and breadth of the country from the
-            <strong>North East</strong> to the <strong>South West</strong>.
-          </p>
-        </panel>
-      </div>
-    </div>
-  </section>
+<main>
+  <div>
+    <home-panel @title="Leagues">
+      <icon-flag-trophy></icon-flag-trophy>
+
+      <p slot="description">
+        We've got everything covered, from the top-tier
+        <strong>National League</strong> to the
+        <span @text="ordinal(leagues[leagues.length - 1].additionalProperty)"></span>-tier
+        <strong webc:keep @text="leagues[leagues.length - 1].name"></strong>
+        and a whole lot in between.
+      </p>
+    </home-panel>
+    <home-panel @title="Grounds">
+      <p slot="description">
+        Starting with the
+        <span @text="commaNumber(grounds[0].maximumAttendeeCapacity)"></span>-capacity home of
+        <strong @text="grounds[0].subOrganization[0].name" webc:keep></strong>,
+        we've compiled a comprehensive list of addresses, directions, and
+        details for each ground.
+      </p>
+    </home-panel>
+    <home-panel @title="Regions">
+      <p slot="description">
+        With 10 regions to explore, from
+        <strong @text="regions[0].alternateName" webc:keep></strong> to
+        <strong @text="regions[regions.length - 1].alternateName" webc:keep></strong>
+        our directory covers the length and breadth of the country from the
+        <strong>North East</strong> to the <strong>South West</strong>.
+      </p>
+    </home-panel>
+  </div>
 </main>

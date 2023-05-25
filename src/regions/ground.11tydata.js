@@ -3,6 +3,11 @@ const slugify = require("slugify")
 module.exports = {
   layout: "base.webc",
   tags: ["ground"],
+  pagination: {
+    data: "grounds",
+    size: 1,
+    alias: "ground",
+  },
   eleventyComputed: {
     title: ({ ground }) => ground.name,
     permalink: ({ ground }) =>

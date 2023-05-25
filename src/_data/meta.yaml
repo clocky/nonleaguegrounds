@@ -3,26 +3,9 @@ base: https://www.nonleaguegrounds.com
 intro: |
     Kick off your non-league adventure
 description: |
-    Discover the beauty of grassroots football with our comprehensive directory of non-league English and Welsh football grounds.
+    Discover the beauty of grassroots football with a comprehensive directory of non-league English football grounds.
 disclaimer: |
     Whilst we endeavour to ensure that the information on this website is 
     correct, we do not warrant its completeness or accuracy; nor do we commit 
     to ensuring that the website remains available or that the material on the
     website is kept up-to-date.
-hero:
-    clubs:
-        src: samuel-regan
-        author: Samuel Regan-Asante
-        id: fkaregan
-    leagues:
-        src: ezequiel-garrido
-        author: Ezequiel Garrido
-        id: zegarr
-    regions:
-        src: william-hook
-        author: William Hook
-        id: williamtm
-    grounds:
-        src: fancy-crave
-        author: Fancy Crave
-        id: fancycrave

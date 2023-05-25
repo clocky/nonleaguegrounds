@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- link: favicons-->
+  <link rel="icon" href="/favicon.ico" webc:raw />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" webc:raw />
+
+  <!-- style: default -->
+  <link rel="stylesheet" href="/css/style.css" webc:raw />
+
+  <!-- meta: description-->
+  <meta webc:if="description" name="description" :content="description" />
+  <meta webc:else="description" name="description" :content="meta.description.trim()" />
+
+  <!-- meta: title -->
+  <title webc:if="title" @text="title"></title>
+  <title webc:else="title" @text="meta.title"></title>
+
+  <!-- script: bundle -->
+  <script src="/js/bundle.js" webc:keep type="module"></script>
+
+  <!-- script: plausible -->
+  <script webc:keep webc:if="env.eleventy == 'production'" defer data-domain="nonleaguegrounds.com"
+    src="https://plausible.io/js/script.outbound-links.js">
+    </script>
+</head>
+
+<body>
+  <site-navbar webc:nokeep></site-navbar>
+  <div @html="content" webc:nokeep></div>
+  <site-footer webc:nokeep></site-footer>
+</body>
+
+</html>

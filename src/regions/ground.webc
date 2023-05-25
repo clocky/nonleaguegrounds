@@ -1,85 +1,42 @@
----
-pagination:
-  data: grounds
-  size: 1
-  alias: ground
----
+<page-header :title="ground.name" :subtitle="ground.alternateName"></page-header>
 
-<main class="container">
-  <section class="section is-small">
-    <breadcrumb tree="Regions" :branch="ground.areaServed"></breadcrumb>
-    <h1 @text="ground.name" class="title is-size-1"></h1>
-  </section>
-
-  <section class="section">
-    <p class="block is-size-5">
-      <strong itemprop="name" @text="ground.name"></strong
-      ><span webc:if="ground.alternateName"
-        >, officially known as
+<main itemscope itemtype="https://schema.org/StadiumOrArena">
+  <section class="px-4 py-8">
+    <p class="text-xl mb-4">
+      <strong itemprop="name" @text="ground.name"></strong><span webc:if="ground.alternateName">, officially known as
         <strong @text="ground.alternateName" itemprop="alternateName"></strong>
-        for sponsorship reasons,</span
-      >
+        for sponsorship reasons,
+      </span>
       is an association football ground
-      <span webc:nokeep webc:if="ground.address">
+      <span webc:if="ground.address" web:nokeep>
         in
-        <span
-          webc:nokeep
-          webc:if="ground.address.addressLocality"
-          @text="ground.address.addressLocality"></span
-        >,
-        <span
-          webc:nokeep
-          webc:if="ground.address.addressRegion"
-          @text="ground.address.addressRegion"></span> </span
-      ><span webc:if="ground.maximumAttendeeCapacity">
+        <span webc:if="ground.address.addressLocality" web:nokeep @text="ground.address.addressLocality"></span>,
+        <span webc:if="ground.address.addressRegion" webc:nokeep @text="ground.address.addressRegion"></span>
+      </span></span>
+      <span webc:if="ground.maximumAttendeeCapacity">
         that holds
-        <span
-          webc:nokeep
-          @text="commaNumber(ground.maximumAttendeeCapacity)"></span>
-        supporters</span
-      >.
+        <span @text="commaNumber(ground.maximumAttendeeCapacity)" itemprop="maximumAttendeeCapacity"></span>
+        supporters.
     </p>
 
-    <p
-      webc:for="(club, index) of ground.subOrganization"
-      itemscope
-      itemtype="https://schema.org/SportsTeam">
+    <p webc:for="(club, index) of ground.subOrganization" itemprop="subOrganization" itemscope
+      itemtype="https://schema.org/SportsTeam" class="text-lg">
       <span webc:nokeep webc:if="index == 0"> The ground is the home of </span>
       <span webc:nokeep webc:else>
         In addition, the ground is also shared with
       </span>
-      <a
-        @text="club.name"
-        :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"
-        itemprop="name"></a>
+      <a :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"><span @text="club.name"
+          itemprop="name"></span></a>
       who currently compete in the
-      <a
-        webc:if="club.memberOf"
-        @text="club.memberOf.name"
-        :href="`/leagues/${club.memberOf.slug.current}/`"
-        itemprop="memberOf"></a
-      >.
+      <a webc:if="club.memberOf" :href="`/leagues/${club.memberOf.slug.current}/`"><span @text="club.memberOf.name"
+          itemprop="memberOf" itemscope itemtype="https://schema.org/SportsOrganization"></span></a>.
     </p>
   </section>
 
-  <section class="section" webc:if="ground.address">
-    <div class="columns">
-      <div class="column is-one-third">
-        <h2 class="title is-size-4">Location</h2>
-        <schema-place :ground="ground"></schema-place>
-        <a
-          :href="`https://www.google.com/maps/dir/?api=1&destination=${ground.name},${ground.address.streetAddress},${ground.address.postalCode},${ground.address.addressLocality},United%20Kingdom`"
-          class="button mt-3"
-          >Directions</a
-        >
-      </div>
-      <div class="column is-two-thirds">
-        <!--- Don't try to render a map if there's no location field --->
-        <mapbox-static
-          webc:if="ground.location"
-          :location="ground.location"
-          :name="ground.name"></mapbox-static>
-      </div>
-    </div>
+  <section webc:if="ground.address">
+    <h2>Location</h2>
+    <block-place :ground="ground"></block-place>
+    <a
+      :href="`https://www.google.com/maps/dir/?api=1&destination=${ground.name},${ground.address.streetAddress},${ground.address.postalCode},${ground.address.addressLocality},United%20Kingdom`">Directions</a>
   </section>
 </main>

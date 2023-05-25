@@ -3,47 +3,36 @@ layout: base.webc
 permalink: /leagues/index.html
 ---
 
-<main class="container">
-  <section class="section is-small">
-    <breadcrumb></breadcrumb>
-    <h1 class="title is-size-1">Leagues</h1>
-  </section>
+<page-header title="Leagues"
+  description="Dive into the exciting world of grassroots football with our comprehensive list of leagues, showcasing a wide range of non-league divisions across the country. Explore the tiers, teams, and thrilling action of English non-league football right here."></page-header>
 
-  <section class="section">
-    <table 
-    class="table is-striped is-fullwidth is-hoverable"
-    role="grid"
-    :aria-rowcount="leagues.length"
-    >
-    <thead>
-      <tr>
-        <th scope="col">Tier</th>
-        <th scope="col">Name</th>
-        <th scope="col" class="is-hidden-mobile">Clubs</th>
-      </tr>
-    </thead>
+<main class="container mx-auto px-4">
+
+  <section>
+    <table role="grid" class="table-fixed" :aria-rowcount="leagues.length">
+      <thead>
+        <tr>
+          <th scope="col" align="left">Tier</th>
+          <th scope="col" align="left">Name</th>
+          <th scope="col" align="left">Clubs</th>
+        </tr>
+      </thead>
       <tbody>
         <!---
-          We slugify the slug, so that forward slashes get removed from id 
+          We slugify the slug, so that forward slashes get removed from id
           attributes and pass the html-validator step.
 
-          Only show leagues that have >= 10 members, to ensure we only have
-          leagues with real content.
+          We also only show leagues that have >= 10 members, to ensure we only
+          have leagues with useful content.
         --->
-        <tr 
-          webc:for="league of leagues" 
-          webc:if="league.members.length >= 10" 
-          :id="slugify(league.slug.current)">
-          <td class="is-hidden-mobile" @text="ordinal(parseInt(league.additionalProperty))"></td>
-          <th scope="row">
+        <tr webc:for="league of leagues" :id="slugify(league.slug.current)">
+          <td @text="ordinal(parseInt(league.additionalProperty))"></td>
+          <th scope="row" align="left">
             <!--- 
               The pre-computed slug has forward slashes in it, which makes the
               folder structure much nicer, but it's invalid for ID's (above).
             --->
-            <a
-              :href="`/leagues/${league.slug.current}/`"
-              @text="league.name"
-            ></a>
+            <a :href="`/leagues/${league.slug.current}/`" @text="league.name"></a>
           </th>
           <td @text="league.members.length"></td>
           </td>

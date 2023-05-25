@@ -1,114 +1,93 @@
----
-pagination:
-  data: clubs
-  size: 1
-  alias: club
----
+<page-header :title="club.name">
+</page-header>
 
-<main class="container">
-  <section class="section is-small">
-    <breadcrumb tree="Leagues" :branch="club.memberOf"></breadcrumb>
-    <div class="columns mt-2">
-      <div class="column is-narrow">
-        <figure class="image is-96x96" webc:if="club.logo.contentUrl">
-          <eleventy-image
-            :src="club.logo.contentUrl"
-            :alt="`${club.name} crest`"
-            sizes="(min-width: 8rem) 128px, 256px"></eleventy-image>
-        </figure>
-      </div>
-      <div class="column">
-        <h1 @text="club.name" class="title is-size-1 mt-4"></h1>
-      </div>
-    </div>
-  </section>
+<main class="container mx-auto">
+  <div class="flex px-4">
+    <action-button webc:if="club.url" :href="club.url" :label="new URL(club.url).hostname"></action-button>
+    <action-button webc:if="club.facebook" :href="club.facebook" label="F"></action-button>
+    <action-button webc:if="club.twitter" :href="club.twitter" label="T"></action-button>
+  </div>
 
-
-  <section class="section">
-    <p class="block is-size-5">
-      <strong @text="club.alternateName"></strong>
+  <section class="px-4 py-8">
+    <p class="text-xl mb-4 text-slate-800">
+      <strong @text=" club.alternateName"></strong>
       is an association football club
-      <span webc:if="club.location">
-        <span webc:if="club.location.address">
+      <!-- Note: Awkward spacing of </span></span> is to preserve whitespace -->
+      <span webc:if="club.location" webc:nokeep>
+        <span webc:if="club.location.address" webc:nokeep>
           based in
-          <span
-            webc:if="club.location.address.addressLocality"
-            @text="club.location.address.addressLocality"
-            webc:nokeep></span
-          ><span
-            webc:if="club.location.address.addressRegion"
-            @text="`, ${club.location.address.addressRegion}`"
-            webc:nokeep></span></span></span
-      >.
+          <span webc:if="club.location.address.addressLocality" @text="club.location.address.addressLocality"
+            webc:nokeep></span><span webc:if="club.location.address.addressRegion"
+            @text="`, ${club.location.address.addressRegion}`" webc:nokeep></span></span></span>.
     </p>
-    <p class="block is-size-5" webc:if="club.foundingDate < 1948">
+
+    <!-- Describe the league and tier the team competes in -->
+
+    <p class="text-lg mb-4 text-slate-800">The club currently competes in the
+      <a :href="`/leagues/${club.memberOf.slug.current}/`" @text="club.memberOf.name"></a><span webc:nokeep
+        webc:if="club.memberOf.additionalProperty">,
+        the <span webc:nokeep @text="words(club.memberOf.additionalProperty)"></span>
+        tier of the English football league system.</span>
+    </p>
+
+    <!-- Clubs founded more than 25 years ago -->
+
+    <p class="text-lg mb-4 text-slate-800" webc:if="club.foundingDate < 1998">
       With a history dating back to
       <time @text="club.foundingDate"></time>, the club has a rich
       heritage and is currently competing in the
-      <a
-        :href="`/leagues/${club.memberOf.slug.current}/`"
-        @text="club.memberOf.name"></a><span webc:nokeep webc:if="club.memberOf.additionalProperty"
-        >, the <span webc:nokeep @text="ordinal(club.memberOf.additionalProperty)"></span>
+      <!-- need to put a <span> inside the <a> for Microdata reasons -->
+      <a :href="`/leagues/${club.memberOf.slug.current}/`" @text="club.memberOf.name"></a><span webc:nokeep
+        webc:if="club.memberOf.additionalProperty">,
+        the <span webc:nokeep @text="ordinal(club.memberOf.additionalProperty)"></span>
         tier of English football</span>.
     </p>
 
-    <!--- Kit --->
+    <!--- Talk about the kit  --->
     <div webc:if="club.owns" webc:nokeep>
-      <p class="block is-size-5" webc:if="club.owns[0].manufacturer">
+      <p webc:if="club.owns[0].manufacturer" class="text-lg mb-4">
         Known by fans as &ldquo;<span @text="club.slogan" webc:nokeep></span>&rdquo;,
         <span @text="club.name" webc:nokeep>AFC Wimbledon</span>
-          is a proud partner of
-          <a
-            webc:if="club.owns[0].manufacturer.url"
-            :href="club.owns[0].manufacturer.url"
-            @text="club.owns[0].manufacturer.name"
-            target="_blank"
-            rel="external"
-            :aria-label="`Open ${new URL(club.owns[0].manufacturer.url).hostname} in a new tab`"></a><strong webc:else  @text="club.owns[0].manufacturer.name"></strong>, who designs their distinctive playing kits</span
-        >.
+        is a proud partner of
+        <a webc:if="club.owns[0].manufacturer.url" :href="club.owns[0].manufacturer.url"
+          @text="club.owns[0].manufacturer.name" target="_blank" rel="external"
+          :aria-label="`Open ${new URL(club.owns[0].manufacturer.url).hostname} in a new tab`"></a><strong webc:else
+          @text="club.owns[0].manufacturer.name"></strong>, who designs their distinctive playing kits</span>.
       </p>
-    </div>
-
-    <div webc:if="club.location" webc:nokeep>
-      <schema-stadium :club="club"></schema-stadium>
     </div>
   </section>
 
   <!-- History -->
 
-  <section webc:if="club.description" class="section is-small" >
-    <h3 class="subtitle has-text-weight-bold">History</h3>
-    <p 
-      class="block" 
-      webc:for="sentence of club.description.split(/(?<=[.?!])\s/g);" 
-      @text="sentence"
-    ></p>
+  <section webc:if="club.description" id="history" class="bg-slate-50 px-4 py-8">
+    <h2 class="text-xl font-semibold mb-4 text-slate-600">History</h2>
+    <!-- RegEx splits at each '.' for sentences, but keeps the period symbol -->
+    <p webc:for="sentence of club.description.split(/(?<=[.?!])\s/g);" @text="sentence"
+      class="mb-3 leading-relaxed text-base text-slate-800"></p>
   </section>
 
-  <!-- Coaching Staff -->
+  <!-- List the current coaching staff -->
 
-  <section webc:if="club.coach" class="section is-small" >
-    <h3 class="subtitle has-text-weight-bold">Staff</h3>
-    <div class="columns">
-      <div class="column is-one-third" webc:for="staff of club.coach" >
-      <schema-person :person="staff"> </schema-person>
-      </div>
+  <section webc:if="club.coach" id="staff" class="px-4 py-8" itemprop="coach">
+    <h2 class="text-xl font-semibold mb-4 text-slate-600">Staff</h2>
+    <div webc:for="staff of club.coach" class="my-3">
+      <block-person :person="staff"> </block-person>
+    </div>
   </section>
 
-  <!-- Alumni -->
+  <!-- List Alumni of the club -->
 
-  <section webc:if="club.alumni.length >= 1" class="section is-small">
-    <h3 class="subtitle has-text-weight-bold">Alumni</h3>
-    <div class="columns">
-      <div class="column is-one-third" webc:for="alumni of club.alumni">
-        <schema-person :person="alumni"></schema-person>
-      </div>
+  <section webc:if="club.alumni.length >= 1" itemprop="alumni" class="px-4 py-8" id="alumni">
+    <h3 class="text-lg font-semibold mb-4 text-slate-600">Alumni</h3>
+    <div webc:for="alumni of club.alumni" class="my-3">
+      <block-person :person="alumni"></block-person>
     </div>
   </section>
 
   <!-- Ownership -->
-  <section class="section is-small" webc:if="club.legalName">
-    <legal-name :organization="club" webc:nokeep></legal-name>
+  <section webc:if="club.legalName" class="px-4 py-8" id="ownership">
+    <h2 class="text-xl font-semibold mb-4 text-slate-600">Ownership</h2>
+    <block-ownership :organization="club"></block-ownership>
   </section>
 
 </main>
