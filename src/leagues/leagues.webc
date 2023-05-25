@@ -32,7 +32,10 @@ permalink: /leagues/index.html
               The pre-computed slug has forward slashes in it, which makes the
               folder structure much nicer, but it's invalid for ID's (above).
             --->
-            <a :href="`/leagues/${league.slug.current}/`" @text="league.name" class="no-underline"></a>
+            <a :href="`/leagues/${league.slug.current}/`" @text="league.name"
+              class="font-medium text-indigo-700 hover:underline"></a><br />
+            <span webc:if="league.alternateName" @text="league.alternateName"
+              class="font-normal text-sm text-slate-600"></span>
           </th>
           <td @text="league.members.length" class="px-4 py-2 text-right"></td>
           </td>
