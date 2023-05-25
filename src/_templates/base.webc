@@ -11,6 +11,8 @@
 
   <!-- style: default -->
   <link rel="stylesheet" href="/css/style.css" webc:raw />
+  <link rel="preload" href="/webfonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin webc:raw />
+
 
   <!-- meta: description-->
   <meta webc:if="description" name="description" :content="description" />

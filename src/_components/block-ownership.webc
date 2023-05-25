@@ -1,6 +1,6 @@
 <template webc:type="11ty" webc:if="organization">
-  <article class="">
-    <p class="text-sm text-slate-500">
+  <article class="px-0">
+    <p class="text-base text-slate-600">
       &ldquo;<span webc:if="organization.alternateName" @text="organization.alternateName"></span>&rdquo; is a
       trading name of &ldquo;<span class="capitalize" webc:if="organization.legalName"
         @text="organization.legalName.trim().toLowerCase()"></span>&rdquo;,<span
@@ -8,7 +8,7 @@
         a private limited company incorporated and registered in England and
         Wales with Companies House under the company number <a
           :href="`https://find-and-update.company-information.service.gov.uk/search?q=${organization.identifier}`"><span
-            @text="organization.identifier" class="text-slate-600"></a></span>.
+            @text="organization.identifier" class="text-blue-600 after:content-['_↗']"></a></span>.
       </span>
       <span webc:if="organization.nonProfitStatus" webc:nokeep>
         <!-- Registered Society -->

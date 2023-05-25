@@ -6,8 +6,8 @@ const projectId = process.env.SANITY_PROJECT
 const client = createClient({
   projectId,
   dataset: "production",
-  apiVersion: "2022-01-12",
-  useCdn: true,
+  apiVersion: "2023-05-20",
+  useCdn: false,
 })
 
 module.exports = async function () {
@@ -16,14 +16,19 @@ module.exports = async function () {
    * Ignores SportsOrganizations that do have a tier attribute (i.e. UEFA, FIFA, etc.)
    * Dynamically creates members array of teams that reference the league
    * Ignores drafts
+   * Only shows leagues with a tier between 5 and 7
    * Orders by tier, then by name
    **/
   const query = `
-*[_type == "SportsOrganization" && additionalProperty != null ] {
+*[_type == "SportsOrganization" && additionalProperty >= 5 && additionalProperty <= 7] {
   _id,
-  name, alternateName,
-  "logo": {
-    "contentUrl": logo.asset->url,
+  name, 
+  alternateName,
+  logo {
+    _type,
+    hotspot,
+    crop,
+    asset->
   },
   slug,
   additionalProperty,
@@ -31,8 +36,11 @@ module.exports = async function () {
     *[_type == "SportsTeam" && references(^._id) && !(_id in path('drafts.**'))] { 
         name, alternateName, slogan, 
         slug,
-        "logo": {
-          "contentUrl": logo.asset->url
+        logo {
+          _type,
+          hotspot,
+          crop,
+          asset->
         },
         memberOf[]->{
           name, alternateName, slug

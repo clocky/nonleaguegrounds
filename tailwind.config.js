@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     fontFamily: {
       display: ["Space Grotesk", "sans-serif"],
+      mono: ["Cascadia Code", "monospace"],
+      sans: ["Mona Sans", "sans-serif"],
     },
     container: {
       center: true,
-      padding: "1rem",
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-3d")],
 }

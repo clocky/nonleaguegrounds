@@ -1,14 +1,15 @@
 <template webc:if="club" webc:nokeep>
   <article webc:if="club" itemprop="member" itemscope itemtype="https://schema.org/SportsTeam"
-    class="rounded-xl shadow-sm hover:shadow-xl p-4 hover:scale-105 hover:-translate-y-1 transition ease-in-out">
+    class="group rounded-md shadow-sm p-4 border border-slate-100 transition ease-in-out">
     <a :href="url" class="no-underline">
       <div class="grid grid-rows-1 justify-items-center gap-y-4">
-        <cdn-image :src="`${club.logo.contentUrl}?`" :height="128" :width="128"
-          :alt="`Club crest for ${club.alternateName}`" itemprop="logo" class="rounded h-32 w-auto"></cdn-image>
+        <cdn :@image="club.logo" height="128" width="128" :alt="`Club crest for ${club.alternateName}`" itemprop="logo"
+          class="rounded h-32 w-auto"></cdn>
         <div>
-          <h4 @text="club.name" itemprop="name" class="text-slate-800 text-xl lg:text-lg font-semibold text-center">
+          <h4 @text="club.name" itemprop="name"
+            class="group-hover:text-indigo-700 text-slate-800 text-lg lg:text-base font-semibold text-center">
           </h4>
-          <p @text="club.slogan" itemprop="slogan" class="text-slate-600 text-center"></p>
+          <p @text="club.slogan" itemprop="slogan" class="text-slate-600 lg:text-sm text-center"></p>
         </div>
       </div>
     </a>

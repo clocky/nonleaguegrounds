@@ -5,7 +5,6 @@
   }
   for (point of league.members) {
     if (point.location != null) {
-      console.log(point)
       geoJSON.features.push({
         type: "Feature",
         geometry: {
@@ -18,11 +17,9 @@
           "marker-symbol": "soccer",
           url: `/leagues/${league.slug.current}/${point.slug.current}/index.html`,
           id: point.slug.current,
-          address: `${
-            point.address.streetAddress
-          }, ${point.address.addressLocality.toUpperCase()}, ${
-            point.address.postalCode
-          }`,
+          address: `${point.address.streetAddress
+            }, ${point.address.addressLocality.toUpperCase()}, ${point.address.postalCode
+            }`,
         },
       })
       if (point.subOrganization[0].alternateName == null) {

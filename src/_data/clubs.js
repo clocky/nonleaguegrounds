@@ -6,7 +6,7 @@ const projectId = process.env.SANITY_PROJECT
 const client = createClient({
   projectId,
   dataset: "production",
-  apiVersion: "2022-01-12",
+  apiVersion: "2023-05-20",
   useCdn: false,
 })
 
@@ -38,6 +38,10 @@ module.exports = async function () {
         } 
       },
       url,
+      facebook,
+      twitter,
+      youtube,
+      instagram,
       "logo": {
         "contentUrl": logo.asset->url,
       },
@@ -46,6 +50,7 @@ module.exports = async function () {
       priceRange,
       coach[] -> {
         name,
+        slug,
         jobTitle,
         "hasCredential": {
           "name": hasCredential->name,
@@ -54,10 +59,12 @@ module.exports = async function () {
             "name": name
           }
         },
-        "image": {
-          "contentUrl": image.asset->url,
-          "hotspot": image.hotspot
-        },
+       image {
+          _type,
+         hotspot,
+         crop,
+         asset->
+       },
       },
       memberOf -> { 
         name, 
@@ -77,9 +84,10 @@ module.exports = async function () {
         } 
       },
       "alumni": 
-        *[_type == "Person" && references(^._id)] {
+        *[_type == "Person" && references(^._id)]|order(string::split(name, " ")[-1], asc) {
           _id,
           name, 
+          slug,
           jobTitle,
           "hasCredential": {
             "name": hasCredential->name,
@@ -88,13 +96,16 @@ module.exports = async function () {
               "name": name
             }
           },
-          "image": {
-            "contentUrl": image.asset->url,
-            "hotspot": image.hotspot
+          image {
+              _type,
+            hotspot,
+            crop,
+            asset->
           },
           "worksFor": 
             *[_type == "SportsTeam" && references(^._id)][0] {
               name,
+              slug,
               alternateName,
               slug,
               memberOf -> {

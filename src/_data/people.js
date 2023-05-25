@@ -16,17 +16,28 @@ module.exports = async function () {
   "@type": _type,
   name,
   jobTitle,
-  sameAs,
-  mainEntityOfPage,
-  "image": {
-    "contentUrl": image.asset->url,
-    "hotspot": image.hotspot,
-    "crop": image.crop
+  sameAs[],
+  slug,
+  description,
+  url,
+  mainEntityOfPage[],
+  image {
+      _type,
+    hotspot,
+    crop,
+    asset->
   },
   "worksFor":
     *[_type == "SportsTeam" && references(^._id)][0] {
       "@type": _type,
-      name
+      name,
+      alternateName,
+      slug,
+      memberOf -> {
+        "@type": _type,
+        name,
+        slug,
+      },
     },
   "givenName": string::split(name, " ")[0],
   "familyName": string::split(name, " ")[1],
@@ -39,8 +50,18 @@ module.exports = async function () {
   },
   alumniOf[]->{
     "@type": _type,
-    "name": name
-  }
+    name,
+    alternateName,
+    slug,
+    logo {
+      _type,
+      hotspot,
+      crop,
+      asset->
+    },
+    slogan,
+    memberOf->
+  } | order(name asc)
 } | order(familyName asc)
 `
   const params = {}

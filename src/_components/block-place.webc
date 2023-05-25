@@ -1,8 +1,8 @@
 <template webc:type="11ty" webc:if="ground">
   <div webc:if="ground.address">
     <!-- Show the full sponsor name if it exists, otherwise the regular name -->
-    <h2 webc:if="ground.alternateName" @text="ground.alternateName"></h2>
-    <h2 webc:else @text="ground.name"></h2>
+    <h3 webc:if="ground.alternateName" @text="ground.alternateName"></h3>
+    <h3 webc:else @text="ground.name"></h3>
 
     <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
       <!-- Is there a street address? -->

@@ -1,25 +1,22 @@
 <template webc:type="11ty">
-  <nav>
+  <nav class="flex flex-wrap items-center justify-between w-full py-4 px-4 text-lg bg-slate-100 text-slate-700">
+    <!-- Home Button -->
     <div>
-      <div>
-        <!-- Home Button -->
-        <div>
-          <a href="/" @text="$data.meta.title"></a>
-        </div>
+      <a href="/" @text="$data.meta.title" class="font-display font-bold no-underline text-xl"></a>
+    </div>
 
-        <!-- Navigation Buttons -->
-        <div>
-          <a href="/grounds/">Grounds</a>
-          <a href="/regions/">Regions</a>
-          <a href="/leagues/">Leagues</a>
-          <a href="/clubs/">Clubs</a>
-        </div>
+    <!-- Navigation Buttons -->
+    <div>
+      <a href="/grounds/" class="mx-4 px-2 no-underline hover:bg-slate-200">Grounds</a>
+      <a href="/regions/" class="mx-4 px-2 no-underline">Regions</a>
+      <a href="/leagues/" class="mx-4 px-2 no-underline">Leagues</a>
+      <a href="/clubs/" class="mx-4 px-2 no-underline">Clubs</a>
+      <a href="/people/" class="mx-4 px-2 no-underline">People</a>
+    </div>
 
-        <!-- Search Bar -->
-        <div>
-          <input type="text" placeholder="Search" />
-        </div>
-      </div>
+    <!-- Search Bar -->
+    <div>
+      <input type="text" placeholder="Search" class="rounded-full border border-slate-300 px-2" />
     </div>
   </nav>
 </template>

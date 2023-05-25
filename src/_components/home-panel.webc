@@ -1,6 +1,9 @@
-<div :id="`${title.toLowerCase()}-panel`">
-  <h3 @text="title"></h3>
-  <p>
+<div :id="`${title.toLowerCase()}-panel`" class="py-12 px-8 shadow-lg rounded-xl">
+  <div class="w-6 h-6 mb-4">
+    <slot name="icon"></slot>
+  </div>
+  <h3 @text="title" class="text-xl font-medium mb-2"></h3>
+  <p class="font-base mb-8 text-slate-500 text-base">
     <slot name="description"></slot>
   </p>
   <p>

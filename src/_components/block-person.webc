@@ -1,10 +1,10 @@
-<article itemscope itemtype="https://schema.org/Person" webc:if="person.name" class="flex items-center gap-4">
+<article itemscope itemtype="https://schema.org/Person" webc:if="person.name"
+  class="group flex items-center gap-x-4 hover:bg-slate-50 rounded-lg px-4 py-2">
   <!-- If it's not null, and there's an asset URL and hotspot -->
-  <span webc:nokeep webc:if="person.image">
-    <cdn-image webc:if="person.image.hotspot"
-      :src="`${person.image.contentUrl}?fit=crop&crop=focalpoint&fp-x=${person.image.hotspot.x}&fp-y=${person.image.hotspot.y}`"
-      width="64" height="64" :alt="`Photo of ${person.name}`" :itemprop="image" class="rounded-full h-16 w-16">
-    </cdn-image>
+  <span>
+    <cdn webc:if="person.image" :@image="person.image" width="64" height="64" :alt="`Photo of ${person.name}`"
+      itemprop="image" class="rounded-full h-16 w-16">
+    </cdn>
     <!-- Initials avatar -->
     <div webc:else>
       <p class="bg-green-300 w-16 h-16 font-semibold text-xl rounded-full flex items-center justify-center">
@@ -14,7 +14,8 @@
   </span>
 
   <div>
-    <h4 itemprop="name" class="font-semibold flex items-center gap-x-0.5 mb-0 leading-tight">
+    <h4 itemprop="name"
+      class="font-semibold flex items-center gap-x-0.5 mb-0.5 leading-tight group-hover:text-indigo-700">
       <span @text="person.name"></span>
       <span webc:if="person.hasCredential.name" class="text-sky-700">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
@@ -27,13 +28,12 @@
 
 
     <!-- Show a secondary line if the person has a current job title -->
-    <p webc:if="person.jobTitle" class="text-sm mb-0.5 leading-tight">
+    <p webc:if="person.jobTitle" class="text-sm mb-1 leading-tight">
       <!-- If they currently coach another team, then write that -->
       <span webc:if="person.worksFor" webc:nokeep>
         <span webc:if="person.jobTitle" @text="person.jobTitle" webc:nokeep></span>
         at
-        <a :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/`"
-          @text="person.worksFor.name"></a>
+        <span webc:if="person.worksFor" @text="person.worksFor.name"></span>
       </span>
       <!-- If they don't have a known current team, just write their title -->
       <span webc:else itemprop="jobTitle" @text="person.jobTitle"></span>

@@ -7,14 +7,13 @@ permalink: /leagues/index.html
   description="Dive into the exciting world of grassroots football with our comprehensive list of leagues, showcasing a wide range of non-league divisions across the country. Explore the tiers, teams, and thrilling action of English non-league football right here."></page-header>
 
 <main class="container mx-auto px-4">
-
   <section>
-    <table role="grid" class="table-fixed" :aria-rowcount="leagues.length">
+    <table role="grid" class="table-auto mx-auto w-full" :aria-rowcount="leagues.length">
       <thead>
-        <tr>
-          <th scope="col" align="left">Tier</th>
-          <th scope="col" align="left">Name</th>
-          <th scope="col" align="left">Clubs</th>
+        <tr class="bg-slate-100 text-slate-700 font-semibold text-sm">
+          <th scope="col" class="text-left px-4 py-3 rounded-tl-lg" align="left">Tier</th>
+          <th scope="col" class="text-left px-4 py-3" align="left">Name</th>
+          <th scope="col" class="text-left px-4 py-3 rounded-tr-lg" align="right">Clubs</th>
         </tr>
       </thead>
       <tbody>
@@ -25,16 +24,17 @@ permalink: /leagues/index.html
           We also only show leagues that have >= 10 members, to ensure we only
           have leagues with useful content.
         --->
-        <tr webc:for="league of leagues" :id="slugify(league.slug.current)">
-          <td @text="ordinal(parseInt(league.additionalProperty))"></td>
-          <th scope="row" align="left">
+        <tr webc:for="league of leagues" :id="slugify(league.slug.current)"
+          class="border-b border-slate-200 hover:bg-slate-50">
+          <td @text="ordinal(parseInt(league.additionalProperty))" class="px-4 py-2"></td>
+          <th scope="row" align="left" class="text-left px-4 py-1 ">
             <!--- 
               The pre-computed slug has forward slashes in it, which makes the
               folder structure much nicer, but it's invalid for ID's (above).
             --->
-            <a :href="`/leagues/${league.slug.current}/`" @text="league.name"></a>
+            <a :href="`/leagues/${league.slug.current}/`" @text="league.name" class="no-underline"></a>
           </th>
-          <td @text="league.members.length"></td>
+          <td @text="league.members.length" class="px-4 py-2 text-right"></td>
           </td>
         </tr>
       </tbody>

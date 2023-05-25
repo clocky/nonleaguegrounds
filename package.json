@@ -25,7 +25,7 @@
     "autoprefixer": "^10.4.14",
     "netlify-plugin-cache": "^1.0.3",
     "tailwindcss": "^3.3.2",
-    "vite": "^4.3.7"
+    "vite": "^4.3.8"
   },
   "packageManager": "pnpm@8.1.0",
   "devDependencies": {
@@ -42,6 +42,7 @@
     "npm-run-all": "^4.1.5",
     "number-to-words": "^1.2.4",
     "ordinal": "^1.0.3",
-    "prettier-cli": "^0.1.0"
+    "prettier-cli": "^0.1.0",
+    "tailwindcss-3d": "^0.2.3"
   }
 }

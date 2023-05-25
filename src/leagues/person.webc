@@ -1,0 +1,56 @@
+<main webc:if="person" itemscope itemtype="https://schema.org/Person" class="container mx-auto">
+  <page-header web:if="person.name" :title="person.name"></page-header>
+  <!-- Generic -->
+  <section id="introduction" class="p-4 mb-0 lg:w-2/3 xl:w-1/2">
+    <p class="text-lg text-slate-700">
+      <strong @text="person.name"></strong> is the current <span @text="person.jobTitle" class="lowercase"></span>
+      at <a :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/`"
+        @text="person.worksFor.alternateName" class="text-indigo-700 hover:underline"></span></a>.
+    </p>
+  </section>
+
+  <!-- Biography -->
+  <section webc:if="person.description" id="description" class="px-4 mb-8 lg:w-2/3 xl:w-1/2" itemprop="about">
+    <p webc:for="sentence of person.description.split(/(?<=[.?!])\s/g);" @text="sentence" class="mb-2 text-slate-700">
+    </p>
+  </section>
+
+  <section webc:if="person.url" id="description" class="px-4 mb-8 lg:w-2/3 xl:w-1/2">
+    <p class="text-sm ">
+      <strong>Source:</strong>
+      <a :href="person.url" rel="external" target="_blank" class="text-indigo-700 hover:underline after:content-['_↗']"
+        @text="new URL(person.url).hostname"></a>
+    </p>
+  </section>
+
+  <!-- Former clubs -->
+  <section id="main-entity-of-page" class="p-4 mb-8" webc:if="person.alumniOf">
+    <h3 class="text-xl font-semibold mb-2 text-slate-800">Former clubs</h3>
+    <ul>
+      <li webc:for="club of person.alumniOf">
+        <a :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`" @text="club.name"
+          class="text-indigo-700 hover:underline"></a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Online links to personal presence, etc. -->
+  <section id="same-as" itemprop="sameAs" class="p-4 mb-8" webc:if="person.sameAs">
+    <h3 class="text-xl font-semibold mb-2 text-slate-800">Online</h3>
+    <div webc:for="url of person.sameAs">
+      <a :href="url" @text="url" itemprop="sameAs"></a>
+      <external-link :href="url"></external-link>
+    </div>
+  </section>
+
+  <!-- Main entity of page -->
+  <section id="main-entity-of-page" class="p-4 mb-8" webc:if="person.mainEntityOfPage">
+    <h3 class="text-base font-semibold mb-2 text-slate-800">References</h3>
+    <ul class="list-decimal">
+      <li webc:for="url of person.mainEntityOfPage" class="text-sm ml-6">
+        <a :href="url" @text="url" rel="external" target="_blank"
+          class="text-indigo-700 hover:underline after:content-['_↗']" itemprop="mainEntityOfPage"></a>
+      </li>
+    </ul>
+  </section>
+</main>

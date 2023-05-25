@@ -1,7 +1,7 @@
 <main itemscope itemtype="https://schema.org/SportsOrganization" class="container mx-auto">
   <page-header :title="league.name" :description="league.description"></page-header>
   <section
-    class="grid grid-cols-2 place-items-stretch md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-4 gap-4 mt-16 mb-32">
+    class="grid grid-cols-1 md:grid-cols-2 place-items-stretch lg:grid-cols-4 xl:grid-cols-6 px-4 gap-4 mt-16 mb-32">
     <block-sportsteam webc:for="(club, index) of league.members" :club="club"
       :url="`/leagues/${league.slug.current}/${club.slug.current}/`">
     </block-sportsteam>
