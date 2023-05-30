@@ -9,7 +9,7 @@ permalink: /clubs/index.html
   <section>
     <table role="grid" class="table-auto mx-auto w-full" :aria-rowcount="clubs.length">
       <thead>
-        <tr class="bg-slate-100 text-slate-700 font-semibold text-sm">
+        <tr class="bg-slate-100 text-slate-700 font-semibold text-base">
           <th scope="col" class="text-left px-4 py-3 rounded-tl-lg">Club</th>
           <th scope="col" class="text-left px-4 py-3">Ground</th>
           <th scope="col" class="text-left px-4 py-3 ">League</th>
@@ -24,12 +24,12 @@ permalink: /clubs/index.html
             <a :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`" @text="club.name"
               class="text-indigo-700 font-semibold hover:underline"></a>
           </th>
-          <td class="px-4 py-2 text-sm">
+          <td class="px-4 py-2 text-base">
             <a webc:if="club.location"
               :href="`/regions/${club.location.areaServed.slug.current}/${club.location.slug.current}/`"
               @text="club.location.name" class="text-slate-600 hover:underline"></a>
           </td>
-          <td class="px-4 py-2 text-sm">
+          <td class="px-4 py-2 text-base">
             <a webc:if="club.memberOf" :href="`/leagues/${club.memberOf.slug.current}/`" @text="club.memberOf.name"
               class="text-slate-600 hover:underline"></a>
           </td>

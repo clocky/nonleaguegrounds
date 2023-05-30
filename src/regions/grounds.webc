@@ -19,18 +19,19 @@ permalink: /grounds/index.html
       <tbody>
         <tr webc:for="(ground, index) of grounds" :id="ground.slug.current"
           class="border-b border-slate-200 hover:bg-slate-50">
-          <td class="px-4 py-2 text-sm" @text="ordinal(index + 1)"></td>
+          <td class="px-4 py-2 text-base" @text="ordinal(index + 1)"></td>
           <th class="text-left px-4 py-2" scope="row">
             <a :href="`/regions/${ground.areaServed.slug.current}/${ground.slug.current}/`" @text="ground.name"
-              class="text-indigo-700 font-semibold hover:underline"></a>
+              class="text-indigo-700 font-medium hover:underline"></a>
           </th>
-          <td class="px-4 py-2 text-sm">
+          <td class="px-4 py-2 text-base">
             <a webc:for="(club, index) of ground.subOrganization"
               :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"
               class="text-slate-600 hover:underline"><span webc:nokeep @text="club.name"></span></a>
             </a>
           </td>
-          <td @text="commaNumber(ground.maximumAttendeeCapacity)" class="text-slate-600 text-right px-4 py-2 text-sm">
+          <td @text="commaNumber(ground.maximumAttendeeCapacity)"
+            class="font-mono text-slate-500 text-right px-4 py-2 text-sm">
           </td>
         </tr>
       </tbody>

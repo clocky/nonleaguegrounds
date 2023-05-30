@@ -38,8 +38,8 @@
   <section id="same-as" itemprop="sameAs" class="p-4 mb-8" webc:if="person.sameAs">
     <h3 class="text-xl font-semibold mb-2 text-slate-800">Online</h3>
     <div webc:for="url of person.sameAs">
-      <a :href="url" @text="url" itemprop="sameAs"></a>
       <external-link :href="url"></external-link>
+      <a :href="url" @text="url" itemprop="sameAs"></a>
     </div>
   </section>
 

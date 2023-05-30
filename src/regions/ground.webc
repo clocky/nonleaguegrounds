@@ -1,8 +1,12 @@
 <page-header :title="ground.name" :subtitle="ground.alternateName"></page-header>
 
-<main itemscope itemtype="https://schema.org/StadiumOrArena">
-  <section class="px-4 py-8">
-    <p class="text-xl mb-4">
+<main itemscope itemtype="https://schema.org/StadiumOrArena" class="container mx-auto grid grid-cols-3">
+  <section class="px-4 py-8 col-span-2">
+    <div webc:if="ground.image && ground.image._type == 'ImageObject'">
+      <cdn :image="ground.image.source"></cdn>
+      GROUND HAS IMAGE
+    </div>
+    <p class="text-lg mb-4 text-slate-700">
       <strong itemprop="name" @text="ground.name"></strong><span webc:if="ground.alternateName">, officially known as
         <strong @text="ground.alternateName" itemprop="alternateName"></strong>
         for sponsorship reasons,
@@ -20,7 +24,7 @@
     </p>
 
     <p webc:for="(club, index) of ground.subOrganization" itemprop="subOrganization" itemscope
-      itemtype="https://schema.org/SportsTeam" class="text-lg">
+      itemtype="https://schema.org/SportsTeam" class="text-base text-slate-800">
       <span webc:nokeep webc:if="index == 0"> The ground is the home of </span>
       <span webc:nokeep webc:else>
         In addition, the ground is also shared with
@@ -28,15 +32,19 @@
       <a :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"><span @text="club.name"
           itemprop="name"></span></a>
       who currently compete in the
-      <a webc:if="club.memberOf" :href="`/leagues/${club.memberOf.slug.current}/`"><span @text="club.memberOf.name"
-          itemprop="memberOf" itemscope itemtype="https://schema.org/SportsOrganization"></span></a>.
+      <a webc:if="club.memberOf" :href="`/leagues/${club.memberOf.slug.current}/`"
+        class="text-indigo-700 hover:underline"><span @text="club.memberOf.name" itemprop="memberOf" itemscope
+          itemtype="https://schema.org/SportsOrganization"></span></a>.
     </p>
   </section>
 
-  <section webc:if="ground.address">
-    <h2>Location</h2>
-    <block-place :ground="ground"></block-place>
-    <a
-      :href="`https://www.google.com/maps/dir/?api=1&destination=${ground.name},${ground.address.streetAddress},${ground.address.postalCode},${ground.address.addressLocality},United%20Kingdom`">Directions</a>
-  </section>
+  <aside class="col-span-1">
+    <div webc:if="ground.address" webc:nokeep>
+      <h2 class="text-lg font-semibold mb-4">Location</h2>
+      <block-place :ground="ground"></block-place>
+      <icon-button
+        :url="`https://www.google.com/maps/dir/?api=1&destination=${ground.name},${ground.address.streetAddress},${ground.address.postalCode},${ground.address.addressLocality},United%20Kingdom`"
+        @glyph="map"></icon-button>
+    </div>
+  </aside>
 </main>

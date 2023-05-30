@@ -4,7 +4,7 @@ permalink: /people/index.html
 ---
 
 <page-header title="People"
-  description="Dive into the exciting world of grassroots football with our comprehensive list of leagues, showcasing a wide range of non-league divisions across the country. Explore the tiers, teams, and thrilling action of English non-league football right here."></page-header>
+  description="Discover the unsung heroes of football in our comprehensive directory, featuring profiles of non-league football managers and coaches. Unearth the strategic minds shaping the grassroots game, and dive into their unique journey and expertise, boosting your understanding of local football like never before."></page-header>
 
 <main class="container mx-auto px-4">
   <section>
@@ -18,8 +18,8 @@ permalink: /people/index.html
       </thead>
       <tbody>
         <tr webc:for="person of people" class=" border-b border-slate-200 hover:bg-slate-50">
-          <th scope="row" align="left" class="text-left px-4 py-2 ">
-            <a @text="person.name" class="text-indigo-700 hover:underline"
+          <th scope="row" class="text-left px-4 py-2 ">
+            <a @text="person.name" class="text-indigo-700 hover:underline font-medium"
               :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/${person.slug.current}/index.html`">
           </th>
           <td @text="person.jobTitle" class="text-left px-4 py-2">
