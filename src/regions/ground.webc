@@ -24,12 +24,12 @@
     </p>
 
     <p webc:for="(club, index) of ground.subOrganization" itemprop="subOrganization" itemscope
-      itemtype="https://schema.org/SportsTeam" class="text-base text-slate-800">
+      itemtype="https://schema.org/SportsTeam" class="text-base text-slate-800 mb-4">
       <span webc:nokeep webc:if="index == 0"> The ground is the home of </span>
       <span webc:nokeep webc:else>
-        In addition, the ground is also shared with
+        Additionally, the ground is also shared with
       </span>
-      <a :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"><span @text="club.name"
+      <a :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`" class="text-indigo-700 hover:underline"><span @text="club.name"
           itemprop="name"></span></a>
       who currently compete in the
       <a webc:if="club.memberOf" :href="`/leagues/${club.memberOf.slug.current}/`"
