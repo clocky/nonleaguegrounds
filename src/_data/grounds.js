@@ -44,9 +44,9 @@ module.exports = async function () {
         *[_type == "SportsTeam" && references(^._id)] {
           name, slug,
           memberOf -> {
-            name, slug
+            name, slug, additionalProperty
           }
-        }
+        } | order(memberOf.additionalProperty asc),
     } | order(maximumAttendeeCapacity desc)
   `
   const params = {}
