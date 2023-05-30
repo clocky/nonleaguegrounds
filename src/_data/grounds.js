@@ -12,11 +12,17 @@ const client = createClient({
 
 module.exports = async function () {
   const query = `
-    *[ _type == "StadiumOrArena" && maximumAttendeeCapacity > 0] {
+    *[ _type == "StadiumOrArena"] {
       name, 
       alternateName,
       slug,
       maximumAttendeeCapacity, 
+      photo {
+        _type,
+        image {
+          asset->
+        }
+      },
       address {
         streetAddress,
         addressLocality,
