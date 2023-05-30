@@ -25,7 +25,9 @@ module.exports = async function () {
       email,
       location -> {
         name,
+        alternateName,
         slug,
+        maximumAttendeeCapacity,
         areaServed -> {
           name,
           slug
