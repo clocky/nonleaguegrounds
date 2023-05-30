@@ -5,3 +5,4 @@ dist
 .cache
 .DS_Store
 hint-report/
+public/
