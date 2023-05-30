@@ -1,10 +1,10 @@
 <template webc:type="11ty" webc:if="ground">
-  <div webc:if="ground.address">
+  <div webc:if="ground.address" webc:nokeep>
     <!-- Show the full sponsor name if it exists, otherwise the regular name -->
     <h3 webc:if="ground.alternateName" @text="ground.alternateName"></h3>
     <h3 webc:else @text="ground.name"></h3>
 
-    <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="not-italic">
       <!-- Is there a street address? -->
       <!-- Don't render this <span> as it's just for logic -->
       <span webc:if="ground.address.streetAddress" webc:nokeep>
@@ -12,11 +12,11 @@
         <p webc:if="ground.address.streetAddress != ground.name" itemprop="streetAddress"
           @text="ground.address.streetAddress"></p>
       </span>
-      <p itemprop="addressLocality" @text="ground.address.addressLocality"></p>
-      <p itemprop="addressRegion" @text="ground.address.addressRegion"></p>
-      <p itemprop="postalCode" @text="ground.address.postalCode"></p>
+      <p itemprop="addressLocality" @text="ground.address.addressLocality" class="uppercase not-italic"></p>
+      <p itemprop="addressRegion" @text="ground.address.addressRegion" class="not-italic"></p>
+      <p itemprop="postalCode" @text="ground.address.postalCode" class="not-italic"></p>
       <!-- Render the address as a hidden field, so that the Microdata is complete -->
-      <p itemprop="addressCountry" @text="ground.address.addressCountry"></p>
+      <p itemprop="addressCountry" @text="ground.address.addressCountry" class="invisible"></p>
     </address>
   </div>
 </template>

@@ -1,0 +1,5 @@
+<a :href="url"
+  class="flex items-center justify-center text-indigo-700 bg-green-50 hover:bg-green-200 rounded-full m-2 p-4"
+  target="_blank" rel="external">
+  <img :src="`/img/icons/${glyph}.svg`" :alt="glyph" width="16" height="16" class="h-4 w-4 flex-shrink-0">
+</a>

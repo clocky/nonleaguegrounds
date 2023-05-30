@@ -1,6 +1,6 @@
 <template webc:type="11ty" webc:if="organization">
   <article class="px-0">
-    <p class="text-base text-slate-600">
+    <p class="text-sm text-slate-600">
       &ldquo;<span webc:if="organization.alternateName" @text="organization.alternateName"></span>&rdquo; is a
       trading name of &ldquo;<span class="capitalize" webc:if="organization.legalName"
         @text="organization.legalName.trim().toLowerCase()"></span>&rdquo;,<span

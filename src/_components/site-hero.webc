@@ -1,5 +1,5 @@
 <section class="py-8 px-4">
-  <h1 class="text-5xl text-center font-display tracking-tighter mb-4 text-slate-800">
+  <h1 class="text-5xl text-center font-display tracking-tighter mb-4 my-8 text-slate-800">
     <slot webc:nokeep name="title"></slot>
   </h1>
   <h2 class="text-lg text-center text-slate-500">

@@ -1,7 +1,7 @@
 <article itemscope itemtype="https://schema.org/Person" webc:if="person.name"
   class="group flex items-center gap-x-4 hover:bg-slate-50 rounded-lg px-4 py-2">
   <!-- If it's not null, and there's an asset URL and hotspot -->
-  <span>
+  <span class="flex-shrink-0">
     <cdn webc:if="person.image" :@image="person.image" width="64" height="64" :alt="`Photo of ${person.name}`"
       itemprop="image" class="rounded-full h-16 w-16">
     </cdn>
