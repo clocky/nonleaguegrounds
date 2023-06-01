@@ -20,7 +20,8 @@ module.exports = async function () {
       photo {
         _type,
         image {
-          asset->
+          hotspot,
+          asset -> 
         }
       },
       address {
