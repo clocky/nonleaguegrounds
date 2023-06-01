@@ -2,7 +2,7 @@
   <page-header web:if="person.name" :title="person.name"></page-header>
   <!-- Generic -->
   <section id="introduction" class="p-4 mb-0 lg:w-2/3 xl:w-1/2">
-    <p class="text-lg text-slate-700">
+    <p class="text-lg text-slate-700" webc:if="person.worksFor">
       <strong @text="person.name"></strong> is the current <span @text="person.jobTitle" class="lowercase"></span>
       at <a :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/`"
         @text="person.worksFor.alternateName" class="text-indigo-700 hover:underline"></span></a>.
