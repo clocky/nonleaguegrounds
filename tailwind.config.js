@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme")
+
 module.exports = {
   content: ["src/**/*.webc"],
   theme: {
@@ -10,7 +12,7 @@ module.exports = {
     fontFamily: {
       display: ["Space Grotesk", "sans-serif"],
       mono: ["Cascadia Code", "monospace"],
-      sans: ["Mona Sans", "sans-serif"],
+      sans: ["Inter var", ...defaultTheme.fontFamily.sans],
     },
     container: {
       center: true,
