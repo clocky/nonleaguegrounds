@@ -1,11 +1,33 @@
 <page-header :title="ground.name" :subtitle="ground.alternateName"></page-header>
 
-<main itemscope itemtype="https://schema.org/StadiumOrArena" class="container mx-auto grid grid-cols-3">
-  <section class="px-4 py-8 col-span-2">
-    <div webc:if="ground.image && ground.image._type == 'ImageObject'">
-      <cdn :image="ground.image.source"></cdn>
-      GROUND HAS IMAGE
-    </div>
+<main itemscope itemtype="https://schema.org/StadiumOrArena" class="container mx-auto grid grid-cols-3 gap-4">
+  <div webc:if="ground.photo" class="col-span-3">
+    <script webc:type="js">
+      var image = ground.photo.image;
+      const width = 960;
+      const height = 320;
+      if (image) {
+        var srcset = new Array();
+        for (var i = 0; i < 3; i++) {
+          srcset[i] = new URL(`https://cdn.sanity.io/${image.asset.path}`);
+          srcset[i].searchParams.set("w", width * (i + 1));
+          srcset[i].searchParams.set("h", height * (i + 1));
+          srcset[i].searchParams.set("fit", "crop");
+          srcset[i].searchParams.set("crop", "focalpoint");
+          srcset[i].searchParams.set("fp-x", image.hotspot.x);
+          srcset[i].searchParams.set("fp-y", image.hotspot.y);
+          srcset[i].searchParams.set("dpr", i + 1);
+          srcset[i].searchParams.set("fm", i === 0 ? "jpeg" : "webp");
+        }
+
+        `<picture>
+                <source srcset="${srcset[0].href} 1x, ${srcset[1].href} 2x, ${srcset[2].href} 3x">
+                <img src="${srcset[0].href}" class="w-full h-auto rounded-lg mb-4">
+              </picture>`
+      }
+    </script>
+  </div>
+  <section class="px-4 col-span-2">
     <p class="text-lg mb-4 text-slate-700">
       <strong itemprop="name" @text="ground.name"></strong><span webc:if="ground.alternateName">, officially known as
         <strong @text="ground.alternateName" itemprop="alternateName"></strong>
@@ -29,8 +51,8 @@
       <span webc:nokeep webc:else>
         Additionally, the ground is also shared with
       </span>
-      <a :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`" class="text-indigo-700 hover:underline"><span @text="club.name"
-          itemprop="name"></span></a>
+      <a :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"
+        class="text-indigo-700 hover:underline"><span @text="club.name" itemprop="name"></span></a>
       who currently compete in the
       <a webc:if="club.memberOf" :href="`/leagues/${club.memberOf.slug.current}/`"
         class="text-indigo-700 hover:underline"><span @text="club.memberOf.name" itemprop="memberOf" itemscope
