@@ -18,7 +18,7 @@ permalink: /people/index.html
       </thead>
       <tbody>
         <tr webc:for="person of people" class=" border-b border-slate-200 hover:bg-slate-50">
-          <th scope="row" class="text-left px-4 py-2 ">
+          <th scope="row" class="text-left px-4 py-2">
             <a @text="person.name" class="text-indigo-700 hover:underline font-medium"
               :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/${person.slug.current}/index.html`">
           </th>
