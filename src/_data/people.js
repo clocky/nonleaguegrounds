@@ -12,7 +12,7 @@ const client = createClient({
 
 module.exports = async function () {
   const query = `
-*[ _type == "Person"] {
+*[ _type == "Person" && !(_id in path("drafts.**")) && count(*[_type == "SportsTeam" && references(^._id)]) > 0] {
   "@type": _type,
   name,
   jobTitle,
