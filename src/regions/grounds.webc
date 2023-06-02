@@ -30,8 +30,7 @@ permalink: /grounds/index.html
               class="text-slate-600 hover:underline"><span webc:nokeep @text="club.name"></span></a>
             </a>
           </td>
-          <td @text="commaNumber(ground.maximumAttendeeCapacity)"
-            class="font-mono text-slate-500 text-right px-4 py-2 text-sm">
+          <td @text="commaNumber(ground.maximumAttendeeCapacity)" class="text-slate-500 text-right px-4 py-2 text-sm">
           </td>
         </tr>
       </tbody>
