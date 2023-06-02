@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@sanity/image-url':
+    specifier: ^1.0.2
+    version: 1.0.2
   autoprefixer:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.24)
@@ -556,6 +559,11 @@ packages:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
     dev: true
+
+  /@sanity/image-url@1.0.2:
+    resolution: {integrity: sha512-C4+jb2ny3ZbMgEkLd7Z3C75DsxcTEoE+axXQJsQ75ou0AKWGdVsP351hqK6mJUUxn5HCSlu3vznoh7Yljye4cQ==}
+    engines: {node: '>=10.0.0'}
+    dev: false
 
   /@sidvind/better-ajv-errors@2.1.0(ajv@8.12.0):
     resolution: {integrity: sha512-JuIb009FhHuL9priFBho2kv7QmZOydj0LgYvj+h1t0mMCmhM/YmQNRlJR5wVtBZya6wrVFK5Hi5TIbv5BKEx7w==}
