@@ -78,14 +78,17 @@
     </div>
 
     <section class="border-t border-b py-4 my-8 border-slate-200">
-      <a webc:if="club.url" :href="club.url" class="text-indigo-700 hover:underline" itemprop="url"
-        @text="new URL(club.url).hostname"></a>
 
       <nav class="flex items-center">
         <icon-button webc:if="club.twitter" :url="club.twitter" glyph="twitter"></icon-button>
         <icon-button webc:if="club.facebook" :url="club.facebook" glyph="facebook"></icon-button>
         <icon-button webc:if="club.instagram" :url="club.instagram" glyph="instagram"></icon-button>
         <icon-button webc:if="club.youtube" :url="club.youtube" glyph="youtube"></icon-button>
+        <span class="flex items-center group">
+          <a webc:if="club.url" :href="club.url" itemprop="url">
+            <icon-button webc:if="club.url" :url="club.url" glyph="globe"></icon-button>
+            <span itemprop="url" @text="new URL(club.url).hostname" class="text-indigo-700 group-hover:cursor-pointer group-hover:underline"></span></a>
+        </span>
       </nav>
     </section>
 
