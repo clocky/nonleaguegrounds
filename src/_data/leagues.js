@@ -16,11 +16,11 @@ module.exports = async function () {
    * Ignores SportsOrganizations that do have a tier attribute (i.e. UEFA, FIFA, etc.)
    * Dynamically creates members array of teams that reference the league
    * Ignores drafts
-   * Only shows leagues with a tier between 5 and 7
+   * Only shows leagues with a tier between 5 and 8
    * Orders by tier, then by name
    **/
   const query = `
-*[_type == "SportsOrganization" && additionalProperty >= 5 && additionalProperty <= 7] {
+*[_type == "SportsOrganization" && additionalProperty >= 5 && additionalProperty <= 8] {
   _id,
   name, 
   alternateName,
