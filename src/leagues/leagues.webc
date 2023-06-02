@@ -27,7 +27,7 @@ permalink: /leagues/index.html
         <tr webc:for="league of leagues" :id="slugify(league.slug.current)"
           class="border-b border-slate-200 hover:bg-slate-50">
           <td @text="ordinal(parseInt(league.additionalProperty))" class="px-4 py-2"></td>
-          <th scope="row" align="left" class="text-left px-4 py-1 ">
+          <th scope="row" class="text-left px-4 py-1 ">
             <!--- 
               The pre-computed slug has forward slashes in it, which makes the
               folder structure much nicer, but it's invalid for ID's (above).
