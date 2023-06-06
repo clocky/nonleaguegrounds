@@ -1,22 +1,20 @@
 <template webc:type="11ty">
-  <nav class="flex flex-wrap items-center justify-between w-full py-4 px-4 text-lg bg-slate-100 text-slate-700">
-    <!-- Home Button -->
-    <div>
-      <a href="/" @text="$data.meta.title" class="font-display font-bold no-underline text-xl"></a>
-    </div>
+  <nav class="w-full py-4 text-lg bg-slate-100 text-slate-700">
+    <div class="container mx-auto flex flex-wrap items-center justify-start">
+      <!-- Home Button -->
+      <div class="mr-4">
+        <a href="/" @text="$data.meta.title" class="font-display font-bold no-underline text-xl"></a>
+      </div>
 
-    <!-- Navigation Buttons -->
-    <div>
-      <a href="/grounds/" class="mx-4 px-2 no-underline hover:bg-slate-200">Grounds</a>
-      <a href="/regions/" class="mx-4 px-2 no-underline">Regions</a>
-      <a href="/leagues/" class="mx-4 px-2 no-underline">Leagues</a>
-      <a href="/clubs/" class="mx-4 px-2 no-underline">Clubs</a>
-      <a href="/people/" class="mx-4 px-2 no-underline">People</a>
-    </div>
+      <!-- Navigation Buttons -->
+      <div class="text-base">
+        <a href="/grounds/" class="px-2 py-2 rounded hover:bg-slate-200">Grounds</a>
+        <a href="/regions/" class="px-2 py-2 rounded hover:bg-slate-200">Regions</a>
+        <a href="/leagues/" class="px-2 py-2 rounded hover:bg-slate-200">Leagues</a>
+        <a href="/clubs/" class="px-2 py-2 rounded hover:bg-slate-200">Clubs</a>
+        <a href="/people/" class="px-2 py-2 rounded hover:bg-slate-200">People</a>
+      </div>
 
-    <!-- Search Bar -->
-    <div>
-      <input type="text" placeholder="Search" class="rounded-full border border-slate-300 px-2" />
     </div>
   </nav>
 </template>
