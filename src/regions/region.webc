@@ -1,8 +1,9 @@
-<main itemscope itemtype="https://schema.org/AdministrativeArea" class="container mx-auto">
+<main itemscope itemtype="https://schema.org/AdministrativeArea"
+  class="container mx-auto grid-cols-12 gap-x-12 gap-y-8 my-8">
   <page-header :title="region.name" :description="region.description">
   </page-header>
 
-  <div itemprop="geoContains" class="grid grid-cols-3 gap-4">
+  <div itemprop="geoContains" class="col-span-12 grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-4">
     <div webc:for="(index, ground) in region.geoContains" webc:nokeep>
       <block-stadium :ground="ground"></block-stadium>
     </div>
