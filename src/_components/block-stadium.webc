@@ -1,14 +1,12 @@
 <template webc:type="11ty" webc:if="ground">
 
   <article itemscope itemtype="https://schema.org/StadiumOrArena" :id="ground.slug.current"
-    class="group border shadow rounded">
+    class="group border shadow rounded-xl">
     <figure webc:if="ground.photo">
-      <code>GROUNDPHOTO</code>
-      <img webc:if="ground.photo.hotspot" class="w-45 h-auto" width="840" height="360"
-        :src="`${ground.image.contentUrl}?w=840&h=360&fit=crop&crop=focalpoint&fp-x=${ground.image.hotspot.x}&fp-y=${ground.image.hotspot.y}`"
-        :alt="ground.name" itemprop="image" />
+      <sanity-cdn :@image="ground.photo.image" :alt="ground.name" width="360" height="200" alt=""
+        class="rounded-t-xl" />
     </figure>
-    <div class="p-4">
+    <div class=" p-4">
       <h4 itemprop="name" class="mb-0">
         <a :href="`${ground.slug.current}/`" @text="ground.name"
           class="font-medium group-hover:underline text-indigo-700"> </a>
