@@ -11,9 +11,9 @@ permalink: /leagues/index.html
     <table role="grid" class="table-auto mx-auto w-full" :aria-rowcount="leagues.length">
       <thead>
         <tr class="bg-slate-100 text-slate-700 font-semibold text-sm">
-          <th scope="col" class="text-left px-4 py-3 rounded-tl-lg" align="left">Tier</th>
-          <th scope="col" class="text-left px-4 py-3" align="left">Name</th>
-          <th scope="col" class="text-left px-4 py-3 rounded-tr-lg" align="right">Clubs</th>
+          <th scope="col" class="text-left px-4 py-3 rounded-tl-lg">Tier</th>
+          <th scope="col" class="text-left px-4 py-3">Name</th>
+          <th scope="col" class="text-left px-4 py-3 rounded-tr-lg">Clubs</th>
         </tr>
       </thead>
       <tbody>
@@ -24,7 +24,7 @@ permalink: /leagues/index.html
           We also only show leagues that have >= 10 members, to ensure we only
           have leagues with useful content.
         --->
-        <tr webc:for="league of leagues" :id="slugify(league.slug.current)"
+        <tr webc:for=" league of leagues" :id="slugify(league.slug.current)"
           class="border-b border-slate-200 hover:bg-slate-50">
           <td @text="ordinal(parseInt(league.additionalProperty))" class="px-4 py-2"></td>
           <th scope="row" class="text-left px-4 py-1 ">

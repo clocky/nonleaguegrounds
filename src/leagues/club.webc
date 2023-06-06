@@ -74,7 +74,8 @@
 
       <!-- logo -->
       <span webc:if="club.logo" class="flex-shrink-0">
-        <sanity-cdn :@image="club.logo" class="w-32 h-32 m-0 p-0" width="128" height="128"></sanity-cdn>
+        <sanity-cdn :@image="club.logo" class="w-32 h-32 m-0 p-0" width="128" height="128"
+          :alt="`Club crest of ${club.alternateName}`"></sanity-cdn>
       </span>
 
       <!-- contact metadata -->
@@ -90,7 +91,7 @@
 
         <!-- phone-->
         <key-value webc:if="club.telephone" itemprop="tel" @glyph="phone"
-          :@value="club.telephone.replace(/^(\+\d{2})(\d{4})(\d{6})$/, '$1 $2 $3');"
+          :@value="club.telephone.replace(/^(\+\d{2})(\d{4})(\d{6})$/, '$1&nbsp;$2&nbsp;$3');"
           :@href="`tel:${club.telephone}`"></key-value>
 
         <!-- social -->
@@ -141,7 +142,7 @@
       <h3 class="text-lg font-semibold mb-2 text-slate-800">Club Alumni</h3>
       <div webc:for="person of club.alumni" class="my-4 -ml-4">
         <!-- Only render a link if the person has a current role elsewhere -->
-        <span webc:if="person.worksFor">
+        <span webc:if="person.worksFor" webc:nokeep>
           <a webc:if="person.slug"
             :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/${person.slug.current}/`">
             <block-person :person="person"></block-person>

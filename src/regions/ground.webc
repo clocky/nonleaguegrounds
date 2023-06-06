@@ -18,7 +18,7 @@
         <span webc:if="ground.address.addressLocality" web:nokeep @text="ground.address.addressLocality"></span>,
         <span webc:if="ground.address.addressRegion" webc:nokeep @text="ground.address.addressRegion"></span>
       </span></span>
-      <span webc:if="ground.maximumAttendeeCapacity">
+      <span webc:if="ground.maximumAttendeeCapacity" webc:nokeep>
         that holds
         <span @text="commaNumber(ground.maximumAttendeeCapacity)" itemprop="maximumAttendeeCapacity"></span>
         supporters.
