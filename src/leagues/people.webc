@@ -3,28 +3,27 @@ layout: base.webc
 permalink: /people/index.html
 ---
 
-<page-header title="People"
-  description="Discover the unsung heroes of football in our comprehensive directory, featuring profiles of non-league football managers and coaches. Unearth the strategic minds shaping the grassroots game, and dive into their unique journey and expertise, boosting your understanding of local football like never before."></page-header>
-
-<main class="container mx-auto px-4">
-  <section>
+<main class="container mx-auto grid grid-cols-12 gap-x-12 gap-y-8 my-12">
+  <page-header title="People"
+    description="Discover the unsung heroes of football in our comprehensive directory, featuring profiles of non-league football managers and coaches. Unearth the strategic minds shaping the grassroots game, and dive into their unique journey and expertise, boosting your understanding of local football like never before."></page-header>
+  <section class="col-span-12">
     <table role="grid" class="table-auto mx-auto w-full" :aria-rowcount="leagues.length">
       <thead>
         <tr class="bg-slate-100 text-slate-700 font-semibold text-sm">
-          <th scope="col" class="text-left px-4 py-3 rounded-tl-lg" align="left">Name</th>
-          <th scope="col" class="text-left px-4 py-3" align="left">Role</th>
-          <th scope="col" class="text-left px-4 py-3 rounded-tr-lg" align="right">Club</th>
+          <th scope="col" class="text-left px-4 py-3 rounded-tl-lg">Name</th>
+          <th scope="col" class="text-left px-4 py-3">Role</th>
+          <th scope="col" class="text-left px-4 py-3 rounded-tr-lg">Club</th>
         </tr>
       </thead>
       <tbody>
         <tr webc:for="person of people" class=" border-b border-slate-200 hover:bg-slate-50">
-          <th scope="row" class="text-left px-4 py-2">
+          <th scope="row" class="text-left px-4 py-2 text-slate-800 ">
             <a @text="person.name" class="text-indigo-700 hover:underline font-medium"
               :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/${person.slug.current}/index.html`">
           </th>
           <td @text="person.jobTitle" class="text-left px-4 py-2">
           </td>
-          <td webc:if="person.worksFor" @text="person.worksFor.name" class="text-left px-4 py-2">
+          <td webc:if="person.worksFor" @text="person.worksFor.name" class="text-left text-slate-800 px-4 py-2">
           </td>
         </tr>
       </tbody>

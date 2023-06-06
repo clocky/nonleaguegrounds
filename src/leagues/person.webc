@@ -1,7 +1,8 @@
-<page-header web:if="person.name" :title="person.name" class="col-span-3"></page-header>
-<main webc:if="person" itemscope itemtype="https://schema.org/Person" class="container mx-auto grid grid-cols-3 gap-8">
+<main webc:if="person" itemscope itemtype="https://schema.org/Person"
+  class="container mx-auto grid grid-cols-12 gap-x-12 gap-y-12 my-12">
+  <page-header web:if="person.name" :title="person.name" class="col-span-3"></page-header>
   <!-- Generic -->
-  <section class="px-4 col-span-2">
+  <section class="px-4 col-span-8">
     <p class="text-lg text-slate-700 mb-4" webc:if="person.worksFor">
       <strong @text="person.name"></strong> is the current <span @text="person.jobTitle" class="lowercase"></span>
       at <a :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/`"
@@ -12,17 +13,17 @@
     <div webc:if="person.description" itemprop="about" class="mb-12">
       <p webc:for="sentence of person.description.split(/(?<=[.?!])\s/g);" @text="sentence" class="mb-4 text-slate-700">
       </p>
-      <p class="text-sm mb-8 mt-4" webc:if="person.url">
-        <strong>Source:</strong>
-        <a :href="person.url" rel="external" target="_blank"
-          class="text-indigo-700 hover:underline after:content-['_↗']" @text="new URL(person.url).hostname"></a>
-      </p>
     </div>
+    <p class="text-sm mb-8 mt-4" webc:if="person.url">
+      <strong>Source:</strong>
+      <a :href="person.url" rel="external" target="_blank" class="text-indigo-700 hover:underline after:content-['_↗']"
+        @text="new URL(person.url).hostname"></a>
+    </p>
 
     <!-- alumniOf: Former clubs -->
 
     <div webc:if="person.alumniOf" class="mb-8">
-      <h3 class="text-xl font-semibold text-slate-800">Former clubs</h3>
+      <h3 class="text-base font-semibold mb-2 text-slate-800">Former clubs</h3>
       <ul>
         <li webc:for="club of person.alumniOf">
           <a :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`" @text="club.name"
@@ -31,10 +32,9 @@
       </ul>
     </div>
 
-
     <!-- mainEntityOfPage: References -->
     <div webc:if="person.mainEntityOfPage">
-      <h3 class="text-base font-semibold mb-2 text-slate-800">References</h3>
+      <h3 class="text-base font-semibold mb-2 text-slate-800">External references</h3>
       <ul class="list-decimal leading-relaxed">
         <li webc:for="url of person.mainEntityOfPage" class="text-sm ml-6">
           <a :href="url" @text="new URL(url).hostname" rel="external" target="_blank"
@@ -43,29 +43,11 @@
       </ul>
     </div>
   </section>
-  <aside class="col-span-1">
+  <aside class="col-span-4">
     <!-- social media -->
-    <script webc:type="js" webc:if="person.image">
-      const width = 320;
-      const height = 320;
-      const imageUrlBuilder = require('@sanity/image-url');
-      const builder = imageUrlBuilder({ baseUrl: 'https://cdn.sanity.io', projectId: 'rit1vitj', dataset: 'production' })
-      const urlFor = (source) => builder.image(source);
-      var srcset = new Array();
-      for (var i = 0; i < 3; i++) {
-        srcset[i] = urlFor(person.image).auto("format").dpr(i + 1).width(width * (i + 1)).height(height * (i + 1)).url();
-      };
-      `<img 
-        src="${srcset[0]}" 
-        srcset="${srcset[0]} 1x, ${srcset[1]} 2x, ${srcset[2]} 3x" 
-        class="w-full h-auto rounded-xl mb-4 border border-slate-100" 
-        loading="lazy" 
-        height="256" 
-        width="256" 
-        alt="Photo of ${person.name}"
-      >`
-    </script>
-
+    <figure webc:if="person.image">
+      <sanity-cdn :@image="person.image" width="320" height="320" class="rounded-xl mb-4" />
+    </figure>
     <nav class="flex flex-row items-center justify-start" webc:if="person.sameAs">
       <span webc:for="url of person.sameAs">
         <icon-button webc:if="new URL(url).hostname == 'twitter.com'" :url="url" glyph="twitter"></icon-button>
