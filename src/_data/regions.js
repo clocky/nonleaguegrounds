@@ -30,13 +30,12 @@ module.exports = async function () {
         location {
           lat, lng
         },
-        image {
-          "contentUrl": image.asset->url,
-          "crop": image.crop,
-          "hotspot": image.hotspot,
-          "caption": image.caption,
-          "license": image.license,
-          "author": image.author,
+        photo {
+          _type,
+          image {
+            hotspot,
+            asset -> 
+          }
         },
         "subOrganization":
           *[_type == "SportsTeam" && references(^._id)] {

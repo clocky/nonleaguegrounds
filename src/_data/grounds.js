@@ -22,7 +22,11 @@ module.exports = async function () {
         image {
           hotspot,
           asset -> 
-        }
+        },
+        author,
+        license,
+        caption,
+        url
       },
       address {
         streetAddress,
@@ -43,7 +47,7 @@ module.exports = async function () {
       priceRange,
       "subOrganization":
         *[_type == "SportsTeam" && references(^._id)] {
-          name, slug,
+          name, alternateName, slug,
           memberOf -> {
             name, slug, additionalProperty
           }

@@ -12,7 +12,7 @@ const client = createClient({
 
 module.exports = async function () {
   const query = `
-*[ _type == "SportsTeam"] {
+*[ _type == "SportsTeam" && memberOf != null] {
       _id,
       name, 
       alternateName,
@@ -44,8 +44,11 @@ module.exports = async function () {
       twitter,
       youtube,
       instagram,
-      "logo": {
-        "contentUrl": logo.asset->url,
+      logo {
+        _type,
+        hotspot,
+        crop,
+        asset->
       },
       foundingDate,
       description,
