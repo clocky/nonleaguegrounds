@@ -2,13 +2,14 @@
   <article class="px-0">
     <p class="text-sm text-slate-600">
       &ldquo;<span webc:if="organization.alternateName" @text="organization.alternateName"></span>&rdquo; is a
-      trading name of &ldquo;<span class="capitalize" webc:if="organization.legalName"
-        @text="organization.legalName.trim().toLowerCase()"></span>&rdquo;,<span
-        webc:if="organization.nonProfitStatus == null" webc:nokeep>
+      trading name of &ldquo;<span webc:if="organization.legalName"
+        @text="organization.legalName.trim()"></span>&rdquo;,<span webc:if="organization.nonProfitStatus == null"
+        webc:nokeep>
         a private limited company incorporated and registered in England and
-        Wales with Companies House under the company number <a
-          :href="`https://find-and-update.company-information.service.gov.uk/search?q=${organization.identifier}`"><span
-            @text="organization.identifier" class="text-blue-600 after:content-['_↗']"></a></span>.
+        Wales with Companies House <span webc:if="organization.identifier">under the company number <a
+            :href="`https://find-and-update.company-information.service.gov.uk/search?q=${organization.identifier}`"
+            target="_blank" rel="noopener"><span @text="organization.identifier"
+              class="text-indigo-700 hover:underline after:content-['_↗']"></a></span></span>.
       </span>
       <span webc:if="organization.nonProfitStatus" webc:nokeep>
         <!-- Registered Society -->
