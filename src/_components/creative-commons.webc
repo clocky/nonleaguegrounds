@@ -1,0 +1,26 @@
+<!-- 
+  https://wiki.creativecommons.org/wiki/best_practices_for_attribution
+-->
+<script webc:setup>
+  function getURL(licenseString) {
+    const versionRegex = /\d+\.\d+/;
+    const typeRegex = /CC (.*) \d+\.\d+/;
+    const versionMatch = licenseString.match(versionRegex);
+    const typeMatch = licenseString.match(typeRegex);
+    const versionNumber = versionMatch ? versionMatch[0] : null;
+    let licenseType = typeMatch ? typeMatch[1] : null;
+
+    if (licenseType) {
+      licenseType = licenseType.toLowerCase();
+      const licenseURL = `https://creativecommons.org/licenses/${licenseType}/${versionNumber}/`;
+      return (licenseURL);
+    } else {
+      console.log(`Invalid license string: ${licenseString}`);
+    }
+  }
+</script>
+
+<figcaption class="text-slate-400 text-xs text-right py-2 md:px-4 lg:px-0">
+  Photo by <a :href="photo.url" class="text-indigo-700 hover:underline" @text="photo.author">Photo</a> •
+  <a :href="getURL(photo.license)" @text="photo.license" class="text-sky-600 hover:underline"></a>
+</figcaption>
