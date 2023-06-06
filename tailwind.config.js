@@ -17,6 +17,7 @@ module.exports = {
     container: {
       center: true,
     },
+    extend: {},
   },
   plugins: [require("tailwindcss-3d")],
 }
