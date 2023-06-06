@@ -1,8 +1,8 @@
 <footer class="bg-slate-100 py-16 mt-32">
   <hr class="hidden">
   <div class="container mx-auto grid lg:grid-cols-6 gap-x-8">
-    <p class="col-span-3 text-sm">
-      <small @text="$data.meta.disclaimer" class="text-base text-slate-600"></small>
+    <p class="col-span-3">
+      <small @text="$data.meta.disclaimer" class="text-sm text-slate-600"></small>
     </p>
     <ul class="col-span-3 grid grid-cols-2">
       <li webc:for="(league, index) of $data.footer" class="text-sm">
