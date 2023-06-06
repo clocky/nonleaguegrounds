@@ -4,6 +4,6 @@
   ],
   "rules": {
     "void-style": "off",
-    "no-deprecated-attr": "off"
+    "no-inline-style": "off"
   }
 }
