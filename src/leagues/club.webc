@@ -1,21 +1,12 @@
-<header class="bg-white py-8">
-  <div class="container mx-auto px-4 py-8 flex flex-row gap-2 w-full items-center">
-    <div class="flex flex-col">
-      <h1 @text="club.name" itemprop="name"
-        class="col-span-10 text-slate-800 text-5xl lg:text-6xl font-display tracking-tight mb-4">
-      </h1>
-      <nav class="flex items-center gap-4 font-semibold text-base text-slate-500">
-        <span webc:if="club.slogan" @text="club.slogan" itemprop="slogan"></span>
-        <span webc:if="club.location" @text="club.location.areaServed.name" itemprop="areaServed"></span>
-      </nav>
-    </div>
-  </div>
-</header>
+<main class="container mx-auto md:grid md:grid-cols-12 gap-x-12 gap-y-8 my-12">
+  <page-header webc:if="club" :title="club.name" :description="club.slogan"></page-header>
 
-<main class="container mx-auto lg:grid grid-cols-3 gap-8">
-  <section class="px-4 py-4 text-slate-800 col-span-2">
-    <p class=" text-lg mb-4">
-      <strong @text=" club.alternateName"></strong>
+  <section class="text-slate-800 md:col-span-7 lg:col-span-8">
+
+    <!-- Introductory paragraph -->
+
+    <p class="text-lg mb-4 px-4">
+      <strong @text="club.alternateName"></strong>
       is an association football club
       <!-- Note: Awkward spacing of </span></span> is to preserve whitespace -->
       <span webc:if="club.location" webc:nokeep>
@@ -28,7 +19,7 @@
 
     <!-- Describe the league and tier the team competes in -->
 
-    <p class="text-base mb-4" webc:if="club.foundingDate > 1998">The club currently competes in the
+    <p class="text-base mb-4 px-4" webc:if="club.foundingDate > 1998">The club currently competes in the
       <a :href="`/leagues/${club.memberOf.slug.current}/`" class="text-indigo-700 hover:underline"><span
           @text="club.memberOf.name"></span></a><span webc:nokeep webc:if="club.memberOf.additionalProperty">,
         the <span webc:nokeep @text="words(club.memberOf.additionalProperty)"></span>
@@ -37,7 +28,7 @@
 
     <!-- Clubs founded more than 25 years ago -->
 
-    <p class="text-base mb-4" webc:if="club.foundingDate < 1998">
+    <p class="text-base mb-4 px-4" webc:if="club.foundingDate < 1998">
       With a history dating back to
       <time @text="club.foundingDate"></time>, the club has a rich
       heritage and is currently competing in the
@@ -50,7 +41,7 @@
     </p>
 
     <div webc:if="club.location" webc:nokeep>
-      <p class="text-base mb-4">The club play their home games at
+      <p class="text-base mb-4 px-4">The club play their home games at
         <!-- Check if capacity is not null -->
         <span webc:if="club.location.maximumAttendeeCapacity">
           the <span @text="commaNumber(club.location.maximumAttendeeCapacity)"></span>-capacity ground
@@ -65,7 +56,7 @@
 
     <!--- Talk about the kit  --->
     <div webc:if="club.owns" webc:nokeep>
-      <p webc:if="club.owns[0].manufacturer" class="text-base mb-4">
+      <p webc:if="club.owns[0].manufacturer" class="text-base mb-4 px-4">
         Known by fans as &ldquo;<span @text="club.slogan" webc:nokeep></span>&rdquo;,
         <span @text="club.name" webc:nokeep>AFC Wimbledon</span>
         is a proud partner of
@@ -77,43 +68,65 @@
       </p>
     </div>
 
-    <section class="border-t border-b py-4 my-8 border-slate-200">
 
-      <nav class="flex items-center">
-        <icon-button webc:if="club.twitter" :url="club.twitter" glyph="twitter"></icon-button>
-        <icon-button webc:if="club.facebook" :url="club.facebook" glyph="facebook"></icon-button>
-        <icon-button webc:if="club.instagram" :url="club.instagram" glyph="instagram"></icon-button>
-        <icon-button webc:if="club.youtube" :url="club.youtube" glyph="youtube"></icon-button>
-        <span class="flex items-center group">
-          <a webc:if="club.url" :href="club.url" itemprop="url">
-            <icon-button webc:if="club.url" :url="club.url" glyph="globe"></icon-button>
-            <span itemprop="url" @text="new URL(club.url).hostname" class="text-indigo-700 group-hover:cursor-pointer group-hover:underline"></span></a>
-        </span>
-      </nav>
+    <!-- information box -->
+    <section class="flex flex-row border-t border-b border-slate-200 p-4 my-8 gap-8">
+
+      <!-- logo -->
+      <span webc:if="club.logo" class="flex-shrink-0">
+        <sanity-cdn :@image="club.logo" class="w-32 h-32 m-0 p-0" width="128" height="128"></sanity-cdn>
+      </span>
+
+      <!-- contact metadata -->
+      <div class="flex flex-col justify-center w-full gap-y-2">
+
+        <!-- web -->
+        <key-value webc:if="club.url" itemprop="url" @glyph="globe" :@value="new URL(club.url).hostname"
+          :href="club.url"></key-value>
+
+        <!-- email -->
+        <key-value webc:if="club.email" itemprop="email" @glyph="mail" :@value="club.email"
+          :@href="`mailto:${club.email}`"></key-value>
+
+        <!-- phone-->
+        <key-value webc:if="club.telephone" itemprop="tel" @glyph="phone"
+          :@value="club.telephone.replace(/^(\+\d{2})(\d{4})(\d{6})$/, '$1 $2 $3');"
+          :@href="`tel:${club.telephone}`"></key-value>
+
+        <!-- social -->
+        <nav class="flex flex-row items-center gap-2 mt-2">
+          <icon-button webc:if="club.twitter" :url="club.twitter" glyph="twitter"></icon-button>
+          <icon-button webc:if="club.facebook" :url="club.facebook" glyph="facebook"></icon-button>
+          <icon-button webc:if="club.instagram" :url="club.instagram" glyph="instagram"></icon-button>
+          <icon-button webc:if="club.youtube" :url="club.youtube" glyph="youtube"></icon-button>
+          <icon-button webc:if="club.tiktok" :url="club.tiktok" glyph="tiktok"></icon-button>
+        </nav>
+      </div>
     </section>
+
+
 
     <!-- History -->
 
-    <div webc:if="club.description" id="history" class="py-4 mt-12">
-
-      <h2 class="text-xl font-semibold mb-4 text-slate-800">History</h2>
+    <div webc:if="club.description" id="history" class="">
+      <h2 class="text-xl font-semibold mb-4 text-slate-800 px-4">History</h2>
       <!-- RegEx splits at each '.' for sentences, but keeps the period symbol -->
-      <p webc:for="sentence of club.description.split(/(?<=[.?!])\s/g);" @text="sentence"
-        class="mb-3 text-base leading-relaxed"></p>
+      <p webc:for="sentence of club.description.split(/(?<=[.?!])\s/g);" @text="sentence" class="mb-3 text-base px-4">
+      </p>
     </div>
 
     <!-- Ownership -->
-    <div webc:if="club.legalName" class="px-0 py-8 mt-8" id="ownership">
+    <div webc:if="club.legalName" class="px-4 py-8 mt-4" id="ownership">
       <!-- <h2 class="text-xl font-semibold mb-4 text-slate-600">Ownership</h2> -->
       <block-ownership :organization="club"></block-ownership>
     </div>
 
   </section>
 
-  <aside class="grid-cols-1">
+  <aside class="lg:col-span-4">
 
     <!-- List the current coaching staff -->
-    <section webc:if="club.coach" id="staff" class="px-4 py-4 mb-4" itemprop="coach">
+    <section webc:if="club.coach" id="staff" class="px-4" itemprop="coach">
       <h2 class="text-lg font-semibold mb-2 text-slate-800">2023/24 Coaching Staff</h2>
       <div webc:for="person of club.coach" class="my-4 -ml-4">
         <a :href="`./${person.slug.current}/`">
@@ -127,10 +140,16 @@
     <section webc:if="club.alumni.length >= 1" itemprop="alumni" class="px-4 py-2" id="alumni">
       <h3 class="text-lg font-semibold mb-2 text-slate-800">Club Alumni</h3>
       <div webc:for="person of club.alumni" class="my-4 -ml-4">
-        <a webc:if="person.slug"
-          :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/${person.slug.current}/`">
+        <!-- Only render a link if the person has a current role elsewhere -->
+        <span webc:if="person.worksFor">
+          <a webc:if="person.slug"
+            :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/${person.slug.current}/`">
+            <block-person :person="person"></block-person>
+          </a>
+        </span>
+        <span webc:else>
           <block-person :person="person"></block-person>
-        </a>
+        </span>
       </div>
     </section>
   </aside>
