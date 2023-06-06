@@ -10,5 +10,5 @@
   map.searchParams.append("format", format ? format : "jpg");
   map.searchParams.append("key", $data.env.google_maps_api_key);
 
-  `<img src="${map}" alt="Map of ${center}" lazyload="true" webc:is="eleventy-image" />`;
+  `<img  src="${map}" alt="Map of ${center}" lazyload="true" ${webc.renderAttributes(webc.attributes)}/>`;
 </script>
