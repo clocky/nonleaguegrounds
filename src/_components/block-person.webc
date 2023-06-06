@@ -1,16 +1,18 @@
 <article itemscope itemtype="https://schema.org/Person" webc:if="person.name"
-  class="group flex items-center gap-x-4 hover:bg-slate-50 rounded-lg px-4 py-2">
+  class="group flex items-center gap-x-4 hover:bg-slate-100 rounded-lg px-4 py-2">
   <!-- If it's not null, and there's an asset URL and hotspot -->
   <span class="flex-shrink-0">
-    <cdn webc:if="person.image" :@image="person.image" width="64" height="64" :alt="`Photo of ${person.name}`"
-      itemprop="image" class="rounded-full h-16 w-16">
-    </cdn>
+    <span webc:if="person.image">
+      <sanity-cdn :@image="person.image" class="rounded-full h-16 w-16" itemprop="image" width="64" height="64"
+        :alt="`Photo of ${person.name}`"></sanity-cdn>
+    </span>
     <!-- Initials avatar -->
     <div webc:else>
       <p class="bg-green-300 w-16 h-16 font-semibold text-xl rounded-full flex items-center justify-center">
         <span class="text-center" @text="person.name.trim().split(' ').map(n => n[0].toUpperCase()).join('');"></span>
       </p>
     </div>
+
   </span>
 
   <div>
