@@ -1,1 +1,1 @@
-<img :src="`/img/icons/${glyph}.svg`" :alt="glyph" width="16" height="16" class="h-4 w-4">
+<img :src="`/img/icons/${glyph}.svg`" :alt="glyph" width="16" height="16" class="h-4 w-4" @attributes>
