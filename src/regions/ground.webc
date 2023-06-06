@@ -1,39 +1,18 @@
-<page-header :title="ground.name" :subtitle="ground.alternateName"></page-header>
+<main itemscope itemtype="https://schema.org/StadiumOrArena"
+  class="container mx-auto grid md:grid-cols-12 gap-x-12 gap-y-8 my-12">
+  <page-header :title="ground.name" :subtitle="ground.alternateName" class="col-span-12"></page-header>
 
-<main itemscope itemtype="https://schema.org/StadiumOrArena" class="container mx-auto grid grid-cols-3 gap-4">
-  <div webc:if="ground.photo" class="col-span-3">
-    <script webc:type="js">
-      var image = ground.photo.image;
-      const width = 960;
-      const height = 320;
-      if (image) {
-        var srcset = new Array();
-        for (var i = 0; i < 3; i++) {
-          srcset[i] = new URL(`https://cdn.sanity.io/${image.asset.path}`);
-          srcset[i].searchParams.set("w", width * (i + 1));
-          srcset[i].searchParams.set("h", height * (i + 1));
-          srcset[i].searchParams.set("fit", "crop");
-          srcset[i].searchParams.set("crop", "focalpoint");
-          srcset[i].searchParams.set("fp-x", image.hotspot.x);
-          srcset[i].searchParams.set("fp-y", image.hotspot.y);
-          srcset[i].searchParams.set("dpr", i + 1);
-          srcset[i].searchParams.set("fm", i === 0 ? "jpeg" : "webp");
-        }
+  <figure webc:if="ground.photo" class="col-span-12">
+    <sanity-cdn :@image="ground.photo.image" width="992" height="320" class="lg:rounded-xl border-slate-200"
+      :alt="ground.name"></sanity-cdn>
+    <creative-commons :@photo="ground.photo"></creative-commons>
+  </figure>
 
-        `<picture>
-                <source srcset="${srcset[0].href} 1x, ${srcset[1].href} 2x, ${srcset[2].href} 3x">
-                <img src="${srcset[0].href}" class="w-full h-auto rounded-lg mb-4">
-              </picture>`
-      }
-    </script>
-  </div>
-  <section class="px-4 col-span-2">
-    <p class="text-lg mb-4 text-slate-700">
-      <strong itemprop="name" @text="ground.name"></strong><span webc:if="ground.alternateName">, officially known as
-        <strong @text="ground.alternateName" itemprop="alternateName"></strong>
-        for sponsorship reasons,
-      </span>
-      is an association football ground
+  <section class="col-span-12 sm:col-span-12 md:col-span-7 lg:col-span-8">
+    <p class="text-lg mb-4 text-slate-700 px-4">
+      <strong itemprop="name" @text="ground.name"></strong><span webc:if="ground.alternateName">,
+        officially known as <strong @text="ground.alternateName" itemprop="alternateName"></strong>
+        for sponsorship purposes,</span> is an association football ground
       <span webc:if="ground.address" web:nokeep>
         in
         <span webc:if="ground.address.addressLocality" web:nokeep @text="ground.address.addressLocality"></span>,
@@ -46,27 +25,38 @@
     </p>
 
     <p webc:for="(club, index) of ground.subOrganization" itemprop="subOrganization" itemscope
-      itemtype="https://schema.org/SportsTeam" class="text-base text-slate-800 mb-4">
+      itemtype="https://schema.org/SportsTeam" class="text-base text-slate-800 mb-4 px-4">
       <span webc:nokeep webc:if="index == 0"> The ground is the home of </span>
       <span webc:nokeep webc:else>
         Additionally, the ground is also shared with
       </span>
       <a :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"
-        class="text-indigo-700 hover:underline"><span @text="club.name" itemprop="name"></span></a>
+        class="text-indigo-700 hover:underline"><span @text="club.alternateName" itemprop="name"></span></a>
       who currently compete in the
       <a webc:if="club.memberOf" :href="`/leagues/${club.memberOf.slug.current}/`"
-        class="text-indigo-700 hover:underline"><span @text="club.memberOf.name" itemprop="memberOf" itemscope
-          itemtype="https://schema.org/SportsOrganization"></span></a>.
+        class="text-indigo-700 hover:underline" itemscope itemprop="memberOf"
+        itemtype="https://schema.org/SportsOrganization"><span @text="club.memberOf.name" itemprop="name"></span></a>.
     </p>
+
+    <div>
+      <map-google :@center="`${ground.location.lat},${ground.location.lng}`" @size="640x800" @zoom="18"
+        class="rounded-xl mt-8"></map-google>
+    </div>
+
+    <section webc:if="ground.description" class="mt-8">
+      <h2 class="text-xl font-semibold mb-4 text-slate-800 px-4">Information</h2>
+      <p itemprop="description" @text="ground.description" class="text-base text-slate-800 mb-4 px-4">
+      </p>
+    </section>
+
   </section>
 
-  <aside class="col-span-1">
-    <div webc:if="ground.address" webc:nokeep>
-      <h2 class="text-lg font-semibold mb-4">Location</h2>
+  <aside class="col-span-12 sm:col-span-8 md:col-span-5 lg:col-span-4 md:mx-4">
+    <div webc:if="ground.address" class="text-slate-800">
       <block-place :ground="ground"></block-place>
       <icon-button
         :url="`https://www.google.com/maps/dir/?api=1&destination=${ground.name},${ground.address.streetAddress},${ground.address.postalCode},${ground.address.addressLocality},United%20Kingdom`"
-        @glyph="map"></icon-button>
+        @glyph="map" class="w-4 h-4"></icon-button>
     </div>
   </aside>
 </main>
