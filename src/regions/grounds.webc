@@ -2,12 +2,12 @@
 layout: base.webc
 permalink: /grounds/index.html
 ---
-<page-header title="Grounds"
-  description="Whether you're seeking a day trip or a weekend away, you'll find everything you need to make your experience unforgettable."></page-header>
 
-<main class="container">
-  <section>
-    <table role="grid" class="table-auto mx-auto w-full" :aria-rowcount="grounds.length">
+<main class="container mx-auto grid-cols-12 gap-x-12 gap-y-8 my-12">
+  <page-header class="col-span-12" title="Grounds"
+    description="Whether you're seeking a day trip or a weekend away, you'll find everything you need to make your experience unforgettable."></page-header>
+  <section class="col-span-8">
+    <table role="grid" class="table-auto w-full" :aria-rowcount="grounds.length">
       <thead>
         <tr class="bg-slate-100 text-slate-700 font-semibold text-sm">
           <th class="text-left px-4 py-3 rounded-tl-lg" scope="col">Pos</th>
@@ -19,17 +19,25 @@ permalink: /grounds/index.html
       <tbody>
         <tr webc:for="(ground, index) of grounds" :id="ground.slug.current"
           class="border-b border-slate-200 hover:bg-slate-50">
+          <!-- ordinal i.e. 1st, 2nd, 3rd -->
           <td class="px-4 py-2 text-base" @text="ordinal(index + 1)"></td>
-          <th class="text-left px-4 py-2" scope="row">
+
+          <!-- ground name -->
+          <th class="text-left px-4 py-2 flex items-center gap-x-2" scope="row">
             <a :href="`/regions/${ground.areaServed.slug.current}/${ground.slug.current}/`" @text="ground.name"
               class="text-indigo-700 font-medium hover:underline"></a>
+            <icon webc:if="ground.photo" @glyph="image" class="inline"></icon>
           </th>
+
+          <!-- ground tenants-->
           <td class="px-4 py-2 text-base">
             <a webc:for="(club, index) of ground.subOrganization"
               :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"
               class="text-slate-600 hover:underline"><span webc:nokeep @text="club.name"></span></a>
             </a>
           </td>
+
+          <!-- capacity -->
           <td @text="commaNumber(ground.maximumAttendeeCapacity)" class="text-slate-500 text-right px-4 py-2 text-sm">
           </td>
         </tr>
