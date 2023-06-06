@@ -13,16 +13,11 @@
           @text="ground.address.streetAddress"></p>
       </span>
       <p itemprop="addressLocality" @text="ground.address.addressLocality" class="uppercase not-italic"></p>
-      <p itemprop="addressRegion" @text="ground.address.addressRegion" class="not-italic"></p>
+      <!-- Hide addressRegion because the Royal Mail don't use it on formal addresses -->
+      <p itemprop="addressRegion" @text="ground.address.addressRegion" class="hidden"></p>
       <p itemprop="postalCode" @text="ground.address.postalCode" class="not-italic"></p>
-      <!-- Render the address as a hidden field, so that the Microdata is complete -->
-      <p itemprop="addressCountry" @text="ground.address.addressCountry" class="invisible"></p>
+      <!-- Render the country as a hidden field, so that the Microdata is complete -->
+      <p itemprop="addressCountry" @text="ground.address.addressCountry" class="hidden"></p>
     </address>
   </div>
 </template>
-
-<style webc:scoped>
-  address {
-    font-style: normal;
-  }
-</style>
