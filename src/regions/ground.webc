@@ -2,13 +2,14 @@
   class="container mx-auto grid md:grid-cols-12 gap-x-12 gap-y-8 my-12">
   <page-header :title="ground.name" :subtitle="ground.alternateName" class="col-span-12"></page-header>
 
-  <figure webc:if="ground.photo" class="col-span-12">
-    <sanity-cdn :@image="ground.photo.image" width="992" height="320" class="lg:rounded-xl border-slate-200"
-      :alt="ground.name"></sanity-cdn>
-    <creative-commons :@photo="ground.photo"></creative-commons>
+  <figure class="col-span-12 flex flex-row gap-1">
+    <map-google :@center="`${ground.location.lat},${ground.location.lng}`" @size="672x320" @zoom="18" width="672"
+      height="320" class="rounded-l-xl bg-green-200"></map-google>
+    <mapbox :@lat="ground.location.lat" :@lon="ground.location.lng" @zoom="14" width="320" height="320"
+      class="rounded-r-xl bg-stone-200"></mapbox>
   </figure>
 
-  <section class="col-span-12 sm:col-span-12 md:col-span-7 lg:col-span-8">
+  <section class=" col-span-12 sm:col-span-12 md:col-span-7 lg:col-span-8">
     <p class="text-lg mb-4 text-slate-700 px-4">
       <strong itemprop="name" @text="ground.name"></strong><span webc:if="ground.alternateName">,
         officially known as <strong @text="ground.alternateName" itemprop="alternateName"></strong>
@@ -37,11 +38,6 @@
         class="text-indigo-700 hover:underline" itemscope itemprop="memberOf"
         itemtype="https://schema.org/SportsOrganization"><span @text="club.memberOf.name" itemprop="name"></span></a>.
     </p>
-
-    <div>
-      <map-google :@center="`${ground.location.lat},${ground.location.lng}`" @size="640x800" @zoom="18"
-        class="rounded-xl mt-8"></map-google>
-    </div>
 
     <section webc:if="ground.description" class="mt-8">
       <h2 class="text-xl font-semibold mb-4 text-slate-800 px-4">Information</h2>
