@@ -45,10 +45,11 @@
   </section>
   <aside class="col-span-4">
     <!-- social media -->
-    <figure webc:if="person.image">
-      <sanity-cdn :@image="person.image" width="320" height="320" class="rounded-xl mb-4" :alt="`Profile photo of ${person.name}, ${person.jobTitle} at ${person.worksFor}`"/>
+    <figure webc:if="person.image" :id="person.slug.current">
+      <sanity-cdn :@image="person.image" width="320" height="320" class="rounded-xl mb-4 border border-slate-100"
+        :alt="`Profile photo of ${person.name}, ${person.jobTitle} at ${person.worksFor.name}`" />
     </figure>
-    <nav class="flex flex-row items-center justify-start" webc:if="person.sameAs">
+    <nav class="flex flex-row gap-2 items-center justify-start" webc:if="person.sameAs">
       <span webc:for="url of person.sameAs">
         <icon-button webc:if="new URL(url).hostname == 'twitter.com'" :url="url" glyph="twitter"></icon-button>
         <icon-button webc:if="new URL(url).hostname == 'www.linkedin.com'" :url="url" glyph="linkedin"></icon-button>
