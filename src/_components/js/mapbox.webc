@@ -1,0 +1,13 @@
+<script webc:type="js">
+  let map = new URL("https://api.mapbox.com");
+  const username = "mapbox"
+  const style_id = "outdoors-v12";
+  map.searchParams.append("access_token", process.env.MAPBOX_TOKEN);
+  map.pathname = `/styles/v1/${username}/${style_id}/static/${lon},${lat},${zoom}/${width}x${height}@2x`;
+
+  `<img src="${map}" alt="Map of ${lon}, ${lat}" width="${width}" height="${height}" lazyload="true" ${webc.renderAttributes(webc.attributes)}/>`;
+</script>
+
+<!--
+  https://api.mapbox.com/styles/v1/{username}/{style_id}/static/{overlay}/{lon},{lat},{zoom},{bearing},{pitch}|{bbox}|{auto}/{width}x{height}{@2x}
+-->
