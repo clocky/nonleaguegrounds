@@ -1,3 +1,4 @@
+require("dotenv").config()
 const dayjs = require("dayjs")
 const yaml = require("js-yaml")
 const ordinal = require("ordinal")
