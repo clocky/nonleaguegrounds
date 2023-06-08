@@ -1,21 +1,22 @@
 <template webc:type="11ty" webc:if="ground">
 
-  <article itemscope itemtype="https://schema.org/StadiumOrArena" :id="ground.slug.current"
-    class="group border shadow rounded-xl">
-    <figure webc:if="ground.photo">
-      <sanity-cdn :@image="ground.photo.image" :alt="ground.name" width="360" height="200" alt=""
-        class="rounded-t-xl" />
-    </figure>
-    <div class=" p-4">
-      <h4 itemprop="name" class="mb-0">
-        <a :href="`${ground.slug.current}/`" @text="ground.name"
-          class="font-medium group-hover:underline text-indigo-700"> </a>
-      </h4>
-      <!-- If the ground has subOrganizations (i.e. tenants)-->
-      <div webc:if="ground.subOrganization" webc:for="(index, club) in ground.subOrganization"
-        itemprop="subOrganization" itemscope itemtype="https://schema.org/SportsTeam">
-        <p @text="club.name" itemprop="name" class="text-slate-600 text-sm"></p>
+  <a :href="`${ground.slug.current}/`">
+    <article itemscope itemtype="https://schema.org/StadiumOrArena" :id="ground.slug.current"
+      class="group border shadow rounded-xl cursor-pointer">
+      <figure webc:if="ground.photo" class="overflow-hidden rounded-t-xl">
+        <sanity-cdn :@image="ground.photo.image" :alt="ground.name" width="360" height="200" :alt="ground.name"
+          class="group-hover:scale-105 transition-transform duration-300 object-contain w-full" />
+      </figure>
+      <div class=" p-4">
+        <h4 itemprop="name" class="mb-0">
+          <span @text="ground.name" class="font-medium group-hover:underline text-indigo-700"> </span>
+        </h4>
+        <!-- If the ground has subOrganizations (i.e. tenants)-->
+        <div webc:if="ground.subOrganization" webc:for="(index, club) in ground.subOrganization"
+          itemprop="subOrganization" itemscope itemtype="https://schema.org/SportsTeam">
+          <p @text="club.name" itemprop="name" class="text-slate-600 text-sm"></p>
+        </div>
       </div>
-    </div>
-  </article>
+    </article>
+  </a>
 </template>
