@@ -1,0 +1,27 @@
+---
+permalink: /index.json
+---
+<script webc:type="js">
+  let searchIndex = [];
+
+  for (club of clubs) {
+    clubEntry = {};
+
+    clubEntry.name = club.name;
+    clubEntry.alternateName = club.alternateName;
+    clubEntry.slogan = club.slogan;
+
+    if (club.location) {
+      clubEntry.location = {}
+      clubEntry.location.name = club.location.name;
+
+      if (club.location.alternateName) {
+        clubEntry.location.alternateName = club.location.alternateName;
+      }
+
+    }
+
+    searchIndex.push(clubEntry);
+  };
+  JSON.stringify(searchIndex, null, '  ')
+</script>
