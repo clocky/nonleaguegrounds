@@ -27,6 +27,17 @@ module.exports = async function () {
         name,
         alternateName,
         slug,
+        photo {
+          _type,
+          image {
+            hotspot,
+            asset -> 
+          },
+          author,
+          license,
+          caption,
+          url
+        },
         maximumAttendeeCapacity,
         areaServed -> {
           name,
