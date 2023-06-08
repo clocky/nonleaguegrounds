@@ -3,21 +3,25 @@
   const builder = imageUrlBuilder({ baseUrl: 'https://cdn.sanity.io', projectId: 'rit1vitj', dataset: 'production' })
   const urlFor = (source) => builder.image(source);
 
-  let srcset = new Array();
+  let srcset = [];
   for (var i = 0; i < 3; i++) {
-    srcset[i] = urlFor(image).bg("ffffff").fit("clip").auto("format").dpr(i + 1).width(width * (i + 1)).height(height * (i + 1)).url();
+    srcset[i] = urlFor(image)
+      .bg("ffffff")
+      .fit("clip")
+      .auto("format")
+      .dpr(i + 1)
+      .width(width * (i + 1))
+      .height(height * (i + 1))
+      .url();
   };
 
-  `
-    <img 
-    src="${srcset[0]}" srcset="${srcset[0]} 1x, ${srcset[1]} 2x, ${srcset[2]} 3x"
-    class="bg-cover ${this.class}" 
-    decoding="async" 
-    loading="lazy"
-    height="${height}" 
-    width="${width}" 
-    ${webc.renderAttributes(webc.attributes)}
-    style="background-image: url('${image.asset.metadata.lqip}');">
-  `
+  `<img 
+      src="${srcset[0]}" srcset="${srcset[0]} 1x, ${srcset[1]} 2x, ${srcset[2]} 3x"
+      class="bg-cover ${this.class}" 
+      decoding="async" loading="lazy" 
+      height="${height}" width="${width}" 
+      style="background-image: url('${image.asset.metadata.lqip}');"
+      ${webc.renderAttributes(webc.attributes)}
+    >`
 
 </script>
