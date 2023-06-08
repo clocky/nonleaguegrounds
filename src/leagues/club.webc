@@ -1,13 +1,21 @@
 <main class="container mx-auto md:grid md:grid-cols-12 gap-x-12 gap-y-8 my-12">
-  <page-header webc:if="club" :title="club.name" :description="club.slogan"></page-header>
+  <page-header webc:if="club" :title="club.name"></page-header>
+
+  <!-- if the club has a location element (i.e. a ground) -->
+  <span webc:nokeep webc:if="club.location">
+    <!-- if the ground has a photo attached  -->
+    <figure webc:if="club.location.photo" class="col-span-12">
+      <sanity-cdn :@image="club.location.photo.image" width="992" height="320"
+        class="md:rounded-lg lg:rounded-xl border-slate-200" :alt="club.location.name"></sanity-cdn>
+      <creative-commons :@photo="club.location.photo"></creative-commons>
+    </figure>
+  </span>
 
   <section class="text-slate-800 md:col-span-7 lg:col-span-8">
-
     <!-- Introductory paragraph -->
-
     <p class="text-lg mb-4 px-4">
-      <strong @text="club.alternateName"></strong>
-      is an association football club
+      <strong @text="club.alternateName"></strong> is an association football
+      club
       <!-- Note: Awkward spacing of </span></span> is to preserve whitespace -->
       <span webc:if="club.location" webc:nokeep>
         <span webc:if="club.location.address" webc:nokeep>
@@ -47,10 +55,10 @@
           the <span @text="commaNumber(club.location.maximumAttendeeCapacity)"></span>-capacity ground
         </span>
         <a :href="`/regions/${club.location.areaServed.slug.current}/${club.location.slug.current}/`"
-          class="text-indigo-700 hover:underline"><span @text="club.location.name"></span></a>
-        <span webc:if="club.location.alternateName">, officially known as the <strong
+          class="text-indigo-700 hover:underline"><span @text="club.location.name"></span></a><span
+          webc:if="club.location.alternateName">, officially known as the <strong
             @text="club.location.alternateName"></strong>
-          for sponsorship reasons</span>.
+          for sponsorship purposes</span>.
       </p>
     </div>
 
@@ -124,7 +132,7 @@
 
   </section>
 
-  <aside class="lg:col-span-4">
+  <aside class="md:col-span-5 lg:col-span-4">
 
     <!-- List the current coaching staff -->
     <section webc:if="club.coach" id="staff" class="px-4" itemprop="coach">
