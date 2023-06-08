@@ -13,7 +13,7 @@ permalink: /grounds/index.html
           <th class="text-left px-4 py-3 rounded-tl-lg" scope="col">Pos</th>
           <th class="text-left px-4 py-3" scope="col">Name</th>
           <th class="text-left px-4 py-3" scope="col">Club</th>
-          <th class="text-left px-4 py-3 rounded-tr-lg" scope="col">Capacity</th>
+          <th class="text-right px-4 py-3 rounded-tr-lg" scope="col">Capacity</th>
         </tr>
       </thead>
       <tbody>
@@ -23,10 +23,9 @@ permalink: /grounds/index.html
           <td class="px-4 py-2 text-base" @text="ordinal(index + 1)"></td>
 
           <!-- ground name -->
-          <th class="text-left px-4 py-2 flex items-center gap-x-2" scope="row">
+          <th class="text-left px-4 py-2" scope="row">
             <a :href="`/regions/${ground.areaServed.slug.current}/${ground.slug.current}/`" @text="ground.name"
               class="text-indigo-700 font-medium hover:underline"></a>
-            <icon webc:if="ground.photo" @glyph="image" class="inline"></icon>
           </th>
 
           <!-- ground tenants-->
