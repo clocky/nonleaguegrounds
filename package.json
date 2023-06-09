@@ -4,11 +4,11 @@
   "description": "Database of British non-league grounds",
   "main": "index.html",
   "scripts": {
-    "start": "run-p dev*",
+    "start": "run-p dev:*",
     "build": "run-s build:eleventy build:tailwind",
     "build:eleventy": "ELEVENTY_ENV=production eleventy",
     "dev:eleventy": "eleventy --serve --watch --incremental --quiet",
-    "build:tailwind": "tailwindcss -i ./src/assets/styles/style.css -o ./dist/css/style.css --postcss",
+    "build:tailwind": "tailwindcss -i ./src/assets/styles/style.css -o ./dist/css/style.css --postcss --minify",
     "dev:tailwind": "tailwindcss -i ./src/assets/styles/style.css -o ./dist/css/style.css --watch --postcss",
     "postbuild": "run-s prettier validate",
     "prettier": "prettier --write 'dist/**/*.html'",
@@ -33,7 +33,6 @@
     "@11ty/eleventy-img": "^3.1.0",
     "@11ty/eleventy-plugin-webc": "^0.11.1",
     "@sanity/client": "^6.1.2",
-    "@web/rollup-plugin-html": "^2.0.0",
     "comma-number": "^2.1.0",
     "dayjs": "^1.11.8",
     "dotenv": "^16.1.4",
@@ -44,7 +43,6 @@
     "number-to-words": "^1.2.4",
     "ordinal": "^1.0.3",
     "prettier": "^2.8.8",
-    "prettier-cli": "^0.1.0",
-    "tailwindcss-3d": "^0.2.3"
+    "prettier-cli": "^0.1.0"
   }
 }
