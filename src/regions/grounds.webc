@@ -10,9 +10,9 @@ permalink: /grounds/index.html
     <table role="grid" class="table-auto w-full" :aria-rowcount="grounds.length">
       <thead>
         <tr class="bg-slate-100 text-slate-700 font-semibold text-sm">
-          <th class="text-left px-4 py-3 rounded-tl-lg" scope="col">Pos</th>
+          <th class="text-left px-4 py-3 rounded-tl-lg hidden md:block" scope="col">Pos</th>
           <th class="text-left px-4 py-3" scope="col">Name</th>
-          <th class="text-left px-4 py-3" scope="col">Club</th>
+          <th class="text-left px-4 py-3 hidden md:block" scope="col">Club</th>
           <th class="text-right px-4 py-3 rounded-tr-lg" scope="col">Capacity</th>
         </tr>
       </thead>
@@ -20,7 +20,7 @@ permalink: /grounds/index.html
         <tr webc:for="(ground, index) of grounds" :id="ground.slug.current"
           class="border-b border-slate-200 hover:bg-slate-50">
           <!-- ordinal i.e. 1st, 2nd, 3rd -->
-          <td class="px-4 py-2 text-base" @text="ordinal(index + 1)"></td>
+          <td class="px-4 py-2 text-base hidden md:block" @text="ordinal(index + 1)"></td>
 
           <!-- ground name -->
           <th class="text-left px-4 py-2" scope="row">
@@ -29,7 +29,10 @@ permalink: /grounds/index.html
           </th>
 
           <!-- ground tenants-->
-          <td class="px-4 py-2 text-base">
+          <td class="
+            px-4 py-2 
+            text-base 
+            hidden md:block">
             <a webc:for="(club, index) of ground.subOrganization"
               :href="`/leagues/${club.memberOf.slug.current}/${club.slug.current}/`"
               class="text-slate-600 hover:underline"><span webc:nokeep @text="club.name"></span></a>

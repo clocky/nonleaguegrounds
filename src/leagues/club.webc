@@ -156,7 +156,7 @@
             <block-person :person="person"></block-person>
           </a>
         </span>
-        <span webc:else>
+        <span webc:else webc:nokeep>
           <block-person :person="person"></block-person>
         </span>
       </div>

@@ -24,7 +24,7 @@ permalink: /leagues/index.html
           We also only show leagues that have >= 10 members, to ensure we only
           have leagues with useful content.
         --->
-        <tr webc:for=" league of leagues" :id="slugify(league.slug.current)"
+        <tr webc:for="league of leagues" webc:if="league.additionalProperty < 8" :id="slugify(league.slug.current)"
           class="border-b border-slate-200 hover:bg-slate-50">
           <td @text="ordinal(parseInt(league.additionalProperty))" class="px-4 py-2"></td>
           <th scope="row" class="text-left px-4 py-1 ">

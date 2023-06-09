@@ -1,4 +1,4 @@
-<header class="col-span-12">
+<header class="col-span-12 w-screen md:w-auto">
   <h1 webc:if="title" @text="title" itemprop="name"
     class="text-4xl sm:text-4xl md:text-4xl lg:text-6xl font-display tracking-tight text-slate-900 px-4">
   </h1>
