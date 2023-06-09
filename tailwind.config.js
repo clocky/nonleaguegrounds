@@ -19,5 +19,5 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [require("tailwindcss-3d")],
+  plugins: [],
 }
