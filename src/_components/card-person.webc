@@ -1,0 +1,59 @@
+<template webc:type="11ty" webc:if="person">
+  <card-v3 itemscope itemtype="https://schema.org/Person">
+    <span slot="image">
+      <span webc:if="person.image" webc:nokeep>
+        <sanity-cdn
+          slot="image"
+          :@image="person.image"
+          class="rounded-full h-16 w-16"
+          itemprop="image"
+          width="64"
+          height="64"
+          :alt="`Photo of ${person.name}`">
+        </sanity-cdn>
+      </span>
+      <span webc:else webc:nokeep>
+        <p
+          class="bg-green-200 text-indigo-900 w-16 h-16 font-semibold text-xl rounded-full flex items-center justify-center">
+          <span
+            class="text-center"
+            @text="person.name.trim().split(' ').map(n => n[0].toUpperCase()).join('');"></span>
+        </p>
+      </span>
+    </span>
+    <span slot="primary">
+      <p class="flex items-center gap-x-1">
+        <span webc:if="person.name" itemprop="name" @text="person.name"></span>
+        <span
+          webc:if="person.hasCredential && person.hasCredential.name"
+          class="text-blue-500">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="w-4 h-4">
+            <path
+              fill-rule="evenodd"
+              d="M16.403 12.652a3 3 0 000-5.304 3 3 0 00-3.75-3.751 3 3 0 00-5.305 0 3 3 0 00-3.751 3.75 3 3 0 000 5.305 3 3 0 003.75 3.751 3 3 0 005.305 0 3 3 0 003.751-3.75zm-2.546-4.46a.75.75 0 00-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+              clip-rule="evenodd" />
+          </svg>
+        </span>
+      </p>
+    </span>
+    <span slot="secondary">
+      <span
+        webc:if="person.jobTitle && !person.worksFor"
+        itemprop="jobTitle"
+        @text="person.jobTitle"></span>
+      <span
+        webc:if="person.jobTitle && person.worksFor"
+        itemprop="worksFor"
+        @text="person.worksFor.name"></span>
+    </span>
+    <span
+      webc:if="person.hasCredential"
+      slot="tertiary"
+      itemprop="hasCredential"
+      @text="person.hasCredential.name"></span>
+  </card-v3>
+</template>
