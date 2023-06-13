@@ -39,6 +39,7 @@
     "html-minifier": "^4.0.0",
     "html-validate": "^7.18.1",
     "js-yaml": "^4.1.0",
+    "natural": "^6.5.0",
     "npm-run-all": "^4.1.5",
     "number-to-words": "^1.2.4",
     "ordinal": "^1.0.3",

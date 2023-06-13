@@ -45,7 +45,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents))
 
   /** Add passthrough copy for static assets */
-  eleventyConfig.addPassthroughCopy({ "src/assets/fonts/": "webfonts" })
   eleventyConfig.addPassthroughCopy({ "src/assets/images/": "img" })
 
   /** Add a filter to format inline dates for <time> tags */
