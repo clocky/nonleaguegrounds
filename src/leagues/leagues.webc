@@ -4,16 +4,16 @@ permalink: /leagues/index.html
 ---
 
 
-<main class="container mx-auto grid grid-cols-12 gap-x-12 gap-y-8 my-12">
+<main class="container mx-auto grid grid-cols-12 gap-8">
   <page-header title="Leagues"
     description="Dive into the exciting world of grassroots football with our comprehensive list of leagues, showcasing a wide range of non-league divisions across the country. Explore the tiers, teams, and thrilling action of English non-league football right here."></page-header>
   <section class="col-span-12">
     <table role="grid" class="table-auto mx-auto w-full" :aria-rowcount="leagues.length">
       <thead>
         <tr class="bg-slate-100 text-slate-700 font-semibold text-sm">
-          <th scope="col" class="text-left px-4 py-3 rounded-tl-lg">Tier</th>
+          <th scope="col" class="text-left px-4 py-3 hidden md:table-cell rounded-tl-lg">Tier</th>
           <th scope="col" class="text-left px-4 py-3">Name</th>
-          <th scope="col" class="text-left px-4 py-3 rounded-tr-lg">Clubs</th>
+          <th scope="col" class="text-left px-4 py-3 hidden md:table-cell rounded-tr-lg">Clubs</th>
         </tr>
       </thead>
       <tbody>
@@ -26,8 +26,8 @@ permalink: /leagues/index.html
         --->
         <tr webc:for="league of leagues" webc:if="league.additionalProperty < 8" :id="slugify(league.slug.current)"
           class="border-b border-slate-200 hover:bg-slate-50">
-          <td @text="ordinal(parseInt(league.additionalProperty))" class="px-4 py-2"></td>
-          <th scope="row" class="text-left px-4 py-1 ">
+          <td @text="ordinal(parseInt(league.additionalProperty))" class="px-4 py-2 hidden md:table-cell"></td>
+          <th scope="row" class="text-left px-4 py-1">
             <!--- 
               The pre-computed slug has forward slashes in it, which makes the
               folder structure much nicer, but it's invalid for ID's (above).
@@ -37,7 +37,7 @@ permalink: /leagues/index.html
             <span webc:if="league.alternateName" @text="league.alternateName"
               class="font-normal text-sm text-slate-600"></span>
           </th>
-          <td @text="league.members.length" class="px-4 py-2 text-right"></td>
+          <td @text="league.members.length" class="px-4 py-2 text-right hidden md:table-cell"></td>
           </td>
         </tr>
       </tbody>

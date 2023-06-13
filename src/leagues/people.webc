@@ -3,29 +3,56 @@ layout: base.webc
 permalink: /people/index.html
 ---
 
-<main class="container mx-auto grid grid-cols-12 gap-x-12 gap-y-8 my-12">
-  <page-header title="People"
+<main class="container mx-auto grid grid-cols-12 gap-8">
+  <page-header
+    title="People"
     description="Discover the unsung heroes of football in our comprehensive directory, featuring profiles of non-league football managers and coaches. Unearth the strategic minds shaping the grassroots game, and dive into their unique journey and expertise, boosting your understanding of local football like never before."></page-header>
   <section class="col-span-12">
-    <table role="grid" class="table-auto mx-auto w-full" :aria-rowcount="leagues.length">
+    <table
+      role="grid"
+      class="table-auto mx-auto w-full"
+      :aria-rowcount="leagues.length">
       <thead>
         <tr class="bg-slate-100 text-slate-700 font-semibold text-sm">
           <th scope="col" class="text-left px-4 py-3 rounded-tl-lg">Name</th>
           <th scope="col" class="text-left px-4 py-3">Role</th>
-          <th scope="col" class="text-left px-4 py-3 rounded-tr-lg hidden md:block">Club</th>
+          <th
+            scope="col"
+            class="text-left px-4 py-3 md:rounded-tr-lg hidden md:block">
+            Club
+          </th>
         </tr>
       </thead>
       <tbody>
-        <tr webc:for="person of people" class=" border-b border-slate-200 hover:bg-slate-50">
-          <th scope="row" class="text-left px-4 py-2 text-slate-800 ">
-            <a @text="person.name" class="text-indigo-700 hover:underline font-medium"
+        <tr
+          webc:for="person of people"
+          class="border-b border-slate-200 hover:bg-slate-50"
+          itemscope
+          itemtype="https://schema.org/Person">
+          <th scope="row" class="text-left px-4 py-2">
+            <a
+              class="text-indigo-700 hover:underline font-medium"
               :href="`/leagues/${person.worksFor.memberOf.slug.current}/${person.worksFor.slug.current}/${person.slug.current}/index.html`">
+              <span @text="person.name" itemprop="name"></span>
+              <span
+                @text="person.givenName"
+                class="hidden"
+                itemprop="givenName"></span>
+              <span
+                @text="person.familyName"
+                class="hidden"
+                itemprop="familyName"></span>
+            </a>
           </th>
-          <td @text="person.jobTitle" class="text-left px-4 py-2">
-          </td>
-          <td webc:if="person.worksFor" @text="person.worksFor.name"
-            class="hidden md:block text-left text-slate-800 px-4 py-2">
-          </td>
+          <td
+            @text=" person.jobTitle"
+            itemprop="jobTitle"
+            class="text-left px-4 py-2 capitalize text-slate-600"></td>
+          <td
+            webc:if="person.worksFor"
+            itemprop="worksFor"
+            @text="person.worksFor.name"
+            class="hidden md:block text-left text-slate-600 px-4 py-2"></td>
         </tr>
       </tbody>
     </table>

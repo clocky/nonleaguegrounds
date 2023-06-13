@@ -1,10 +1,36 @@
-<main itemscope itemtype="https://schema.org/SportsOrganization"
-  class="container mx-auto grid grid-cols-12 gap-x-12 gap-y-8 my-12">
-  <page-header :title="league.name" :description="league.description"></page-header>
+<script webc:setup>
+  function getDescription(league) {
+    const alternateName = league.alternateName
+      ? `known as the ${league.alternateName} for sponsorship purposes`
+      : ""
+    const description = `
+      The ${league.name}, ${alternateName}, is a football league at
+      the ${words(
+        league.additionalProperty
+      )} tier of English football (also known 
+      as Step ${league.additionalProperty - 4} of the National League System)
+      with a total of ${
+        league.members.length
+      } clubs competing in the 2023/24 season.
+    `
+    return description
+  }
+</script>
+
+<main
+  itemscope
+  itemtype="https://schema.org/SportsOrganization"
+  class="container mx-auto grid grid-cols-12 gap-4">
+  <page-header
+    :title="league.name"
+    :description="getDescription(league)"></page-header>
   <section
-    class="col-span-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-stretch lg:grid-cols-4 xl:grid-cols-6 px-4 gap-4 mt-16 mb-32">
-    <block-sportsteam webc:for="(club, index) of league.members" :club="club"
-      :url="`/leagues/${league.slug.current}/${club.slug.current}/`">
-    </block-sportsteam>
+    itemprop="members"
+    class="col-span-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 place-items-stretch px-4 gap-0 pb-4">
+    <a
+      webc:for="(club, index) of league.members"
+      :href="`/leagues/${league.slug.current}/${club.slug.current}/`">
+      <card-sportsteam :club="club" class="w-full"></card-sportsteam>
+    </a>
   </section>
 </main>

@@ -1,21 +1,25 @@
 <main itemscope itemtype="https://schema.org/StadiumOrArena"
-  class="container mx-auto grid md:grid-cols-12 gap-x-12 gap-y-8 my-12">
-  <page-header :title="ground.name" :subtitle="ground.alternateName" class="col-span-12"></page-header>
+  class="container mx-auto grid grid-cols-12 gap-y-4 gap-x-0 sm:gap-4 md:gap-x-1 md:gap-y-4">
 
-  <figure class="col-span-12 w-full flex flex-row gap-1">
-    <map-google :@center="`${ground.location.lat},${ground.location.lng}`" @size="672x320" @zoom="18" width="672"
-      height="320" class="
-        block w-screen 
-        h-64 sm:h-60 lg:h-80 
-        sm:rounded-lg md:rounded-l-xl lg:rounded-l-xl
-         bg-green-200 object-cover">
+  <!-- Header -->
+  <page-header class="order-first col-span-12" :title="ground.name" :subtitle="ground.alternateName" ></page-header>
+
+  <!-- Satellite -->
+  <figure class="order-2 col-span-12 sm:col-span-12 md:col-span-8" id="satellite">
+    <map-google :@center="`${ground.location.lat},${ground.location.lng}`" @size="600x400" @zoom="18" 
+    class="w-screen sm:rounded-lg aspect-[3/2] sm:aspect-[21/9] md:aspect-[16/9] md:h-64 md:rounded-l-lg md:rounded-r-none lg:h-80 object-cover">
     </map-google>
-    <mapbox :@lat="ground.location.lat" :@lon="ground.location.lng" @zoom="14" width="320" height="320"
-      class="hidden md:block md:h-60 lg:h-80 rounded-r-xl bg-stone-200 object-cover"></mapbox>
   </figure>
 
-  <section class="w-screen md:w-auto col-span-12 sm:col-span-12 md:col-span-8 lg:col-span-8">
-    <p class="text-lg mb-4 text-slate-700 px-4">
+  <!-- Map -->
+  <figure class="order-4 sm:order-4 md:order-3 sm:col-span-6 md:col-span-4 md:ml-0 sm:ml-4 col-span-12" id="streetmap">
+    <mapbox :@lat="ground.location.lat" :@lon="ground.location.lng" @zoom="16" width="600" height="400"
+      class="w-screen sm:rounded-lg aspect-[3/2] sm:aspect-square md:h-64 object-cover md:rounded-r-lg md:rounded-l-none lg:h-80"></mapbox>
+  </figure>
+
+  <!-- Text -->
+  <section class="order-3 sm:order-3 col-span-12 px-4 md:col-span-8" id="introduction">
+    <p class="text-lg  text-slate-700 mb-4">
       <strong itemprop="name" @text="ground.name"></strong><span webc:if="ground.alternateName">,
         officially known as <strong @text="ground.alternateName" itemprop="alternateName"></strong>
         for sponsorship purposes,</span> is an association football ground
@@ -31,7 +35,7 @@
     </p>
 
     <p webc:for="(club, index) of ground.subOrganization" itemprop="subOrganization" itemscope
-      itemtype="https://schema.org/SportsTeam" class="text-base text-slate-800 mb-4 px-4">
+      itemtype="https://schema.org/SportsTeam" class="text-base text-slate-800">
       <span webc:nokeep webc:if="index == 0"> The ground is the home of </span>
       <span webc:nokeep webc:else>
         Additionally, the ground is also shared with
@@ -44,18 +48,16 @@
         itemtype="https://schema.org/SportsOrganization"><span @text="club.memberOf.name" itemprop="name"></span></a>.
     </p>
 
-    <section webc:if="ground.description" class="mt-8">
-      <h2 class="text-xl font-semibold mb-4 text-slate-800 px-4">Information</h2>
-      <p itemprop="description" @text="ground.description" class="text-base text-slate-800 mb-4 px-4">
+    <section webc:if="ground.description" class="mt-8" id="information">
+      <h2 class="text-xl font-semibold mb-4 text-slate-800 ">Information</h2>
+      <p itemprop="description" @text="ground.description" class="text-base text-slate-800 mb-4">
       </p>
     </section>
 
   </section>
 
-  <aside class="
-    w-screen md:w-auto 
-    col-span-12 sm:col-span-8 md:col-span-4 
-    px-4">
+  <!-- Address -->
+  <aside class="order-last sm:order-last sm:col-span-6 md:col-span-4 col-span-12 px-4 sm:px-0 md:px-4" id="address">
     <div webc:if="ground.address" class="text-slate-800">
       <block-place :ground="ground"></block-place>
       <icon-button
