@@ -11,22 +11,56 @@
       </div>
 
       <!-- Navigation Buttons -->
-      <div class="text-base">
-        <a href="/grounds/" class="px-2 py-2 rounded hover:bg-indigo-100"
-          >Grounds</a
-        >
-        <a href="/regions/" class="px-2 py-2 rounded hover:bg-indigo-100"
-          >Regions</a
-        >
-        <a href="/leagues/" class="px-2 py-2 rounded hover:bg-indigo-100"
-          >Leagues</a
-        >
-        <a href="/clubs/" class="px-2 py-2 rounded hover:bg-indigo-100"
-          >Clubs</a
-        >
-        <a href="/people/" class="px-2 py-2 rounded hover:bg-indigo-100"
-          >People</a
-        >
+      <div class="flex flex-row gap-x-4 text-base border-slate-100">
+        <a
+          href="/grounds/"
+          class="px-2 py-2 rounded hover:bg-indigo-100 inline-flex flex-row gap-x-2 items-center">
+          <img
+            src="/img/icons/flag.svg"
+            alt="Club"
+            class="w-5 h-5 inline-block" />
+          <span class="hidden md:inline">Grounds</span>
+        </a>
+        <!-- Regions -->
+        <a
+          href="/regions/"
+          class="px-2 py-2 rounded hover:bg-indigo-100 inline-flex flex-row gap-x-2 items-center">
+          <img
+            src="/img/icons/map.svg"
+            alt="Club"
+            class="w-5 h-5 inline-block" />
+          <span class="hidden md:inline">Regions</span>
+        </a>
+        <!-- Leagues -->
+        <a
+          href="/leagues/"
+          class="px-2 py-2 rounded hover:bg-indigo-100 inline-flex flex-row gap-x-2 items-center">
+          <img
+            src="/img/icons/award.svg"
+            alt="Club"
+            class="w-5 h-5 inline-block" />
+          <span class="hidden md:inline">Leagues</span>
+        </a>
+        <!-- Clubs -->
+        <a
+          href="/clubs/"
+          class="px-2 py-2 rounded hover:bg-indigo-100 inline-flex flex-row gap-x-2 items-center">
+          <img
+            src="/img/icons/shield.svg"
+            alt="Club"
+            class="w-5 h-5 inline-block" />
+          <span class="hidden md:inline">Clubs</span>
+        </a>
+        <!-- People -->
+        <a
+          href="/people/"
+          class="px-2 py-2 rounded hover:bg-indigo-100 inline-flex flex-row gap-x-2 items-center">
+          <img
+            src="/img/icons/users.svg"
+            alt="Club"
+            class="w-5 h-5 inline-block" />
+          <span class="hidden md:inline">People</span>
+        </a>
       </div>
     </div>
   </nav>

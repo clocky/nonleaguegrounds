@@ -1,7 +1,5 @@
 <!-- Remove cruft from URL's such as query strings -->
-<a :href="((new URL(url)).search = '', new URL(url)).href"
-  class="flex items-center justify-center text-indigo-700 bg-slate-100 group-hover:bg-green-200 hover:bg-green-200 rounded-full m-0 p-2"
+<a :href="((new URL(url)).search = '', new URL(url)).href" class="flex items-center justify-center rounded-full m-0 p-2"
   target="_blank" rel="external">
-  <img :src="`/img/icons/${glyph}.svg`" :alt="glyph" width="16" height="16"
-    class="h-4 w-4 flex-shrink-0 text-indigo-700">
+  <img :src="`/img/icons/${glyph}.svg`" :alt="glyph" width="16" height="16" class="h-4 w-4 flex-shrink-0">
 </a>
