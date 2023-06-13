@@ -1,15 +1,15 @@
 <template webc:type="11ty" webc:if="organization">
   <article class="px-0">
-    <p class="text-sm text-slate-600">
-      &ldquo;<span webc:if="organization.alternateName" @text="organization.alternateName"></span>&rdquo; is a
-      trading name of &ldquo;<span webc:if="organization.legalName"
-        @text="organization.legalName.trim()"></span>&rdquo;,<span webc:if="organization.nonProfitStatus == null"
+    <p class="text-sm text-slate-500">
+      <span webc:if="organization.alternateName" @text="organization.alternateName" class="font-semibold"></span> is a
+      trading name of <span webc:if="organization.legalName"
+        @text="organization.legalName.trim()" class="font-semibold"></span>,<span webc:if="organization.nonProfitStatus == null"
         webc:nokeep>
         a private limited company incorporated and registered in England and
         Wales with Companies House <span webc:if="organization.identifier">under the company number <a
             :href="`https://find-and-update.company-information.service.gov.uk/search?q=${organization.identifier}`"
             target="_blank" rel="noopener"><span @text="organization.identifier"
-              class="text-indigo-700 hover:underline after:content-['_↗']"></a></span></span>.
+              class="text-indigo-700 hover:underline after:content-['_↗']"></a></span></span>
       </span>
       <span webc:if="organization.nonProfitStatus" webc:nokeep>
         <!-- Registered Society -->

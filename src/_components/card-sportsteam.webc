@@ -1,0 +1,14 @@
+<template webc:type="11ty" webc:if="club">
+  <card-v3 itemscope itemprop="https://schema.org/SportsTeam">
+    <sanity-cdn
+      webc:if="club.logo"
+      :@image="club.logo"
+      slot="image"
+      width="48"
+      height="48"
+      class="rounded-lg m-2 w-12 h-12"
+      itemprop="logo"></sanity-cdn>
+    <span slot="primary" itemprop="name" @text="club.name"></span>
+    <span slot="secondary" itemprop="slogan" @text="club.slogan"></span>
+  </card-v3>
+</template>
