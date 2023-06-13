@@ -1,0 +1,31 @@
+<template webc:type="11ty">
+  <article
+    class="flex flex-col gap-2 group px-4 py-2 rounded-xl bg:white hover:bg-indigo-50 transition-colors">
+    <!-- Two Columns: Image and Text -->
+
+    <div class="flex justify-start items-center gap-x-4">
+      <!-- Column One -->
+      <div class="inline-block max-w-full flex-shrink-0 bg-white rounded-full">
+        <slot name="image"></slot>
+      </div>
+      <!-- Column Two: Two Rows -->
+      <div class="flex-row overflow-hidden gap-y-0.5">
+        <!-- Row 1: Primary -->
+        <h3
+          class="text-base text-slate-700 group-hover:text-indigo-700 group-hover:underline font-semibold overflow-hidden text-ellipsis whitespace-nowrap">
+          <slot name="primary"></slot>
+        </h3>
+        <!-- Row 2: Secondary -->
+        <p
+          class="text-sm leading-tight text-slate-600 overflow-hidden text-ellipsis whitespace-nowrap">
+          <slot name="secondary"></slot>
+        </p>
+        <!-- Row 3: Tertiary -->
+        <p
+          class="text-xs leading-tight mt-1 text-slate-400 overflow-hidden text-ellipsis whitespace-nowrap">
+          <slot name="tertiary"></slot>
+        </p>
+      </div>
+    </div>
+  </article>
+</template>
