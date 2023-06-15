@@ -17,11 +17,7 @@
       <span webc:if="ground.address.streetAddress" webc:nokeep>
         <!-- Render the street address if it isn't the same as the ground name-->
         <p
-          webc:if="ground.address.streetAddress != ground.name"
-          itemprop="streetAddress"
-          @text="ground.address.streetAddress"></p>
-        <p
-          webc:if="ground.address.streetAddress != ground.alternateName"
+          webc:if="ground.address.streetAddress != ground.name && ground.address.streetAddress != ground.alternateName"
           itemprop="streetAddress"
           @text="ground.address.streetAddress"></p>
       </span>
